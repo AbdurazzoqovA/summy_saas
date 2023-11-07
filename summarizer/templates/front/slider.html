@@ -1,85 +1,94 @@
 <style>
-    /* range 2 */
-.range-input {
-  -webkit-appearance: none;
-  appearance: none; 
-  width: 100%;
-  cursor: pointer;
-  outline: none;
-  border-radius: 15px;
-  height: 6px;
-  background: #ccc;
-}
+  /* range 2 */
+  .range-input {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+    border-radius: 15px;
+    height: 6px;
+    background: #ccc;
+  }
 
-.range-input::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  appearance: none; 
-  height: 15px;
-  width: 15px;
-  background-color: #33B79F;
-  border-radius: 50%;
-  border: none;
-  transition: .2s ease-in-out;
-}
+  .range-input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    height: 15px;
+    width: 15px;
+    background-color: #33b79f;
+    border-radius: 50%;
+    border: none;
+    transition: 0.2s ease-in-out;
+  }
 
-.range-input::-moz-range-thumb {
-  height: 15px;
-  width: 15px;
-  background-color: #33B79F;
-  border-radius: 50%;
-  border: none;
-  transition: .2s ease-in-out;
-}
+  .range-input::-moz-range-thumb {
+    height: 15px;
+    width: 15px;
+    background-color: #33b79f;
+    border-radius: 50%;
+    border: none;
+    transition: 0.2s ease-in-out;
+  }
 
-.range-input::-webkit-slider-thumb:hover {
-  box-shadow: 0 0 0 10px rgba(255,85,0, .1)
-}
-.range-input:active::-webkit-slider-thumb {
-  box-shadow: 0 0 0 13px rgba(255,85,0, .2)
-}
-.range-input:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 13px rgba(255,85,0, .2)
-}
+  .range-input::-webkit-slider-thumb:hover {
+    box-shadow: 0 0 0 10px rgba(255, 85, 0, 0.1);
+  }
+  .range-input:active::-webkit-slider-thumb {
+    box-shadow: 0 0 0 13px rgba(255, 85, 0, 0.2);
+  }
+  .range-input:focus::-webkit-slider-thumb {
+    box-shadow: 0 0 0 13px rgba(255, 85, 0, 0.2);
+  }
 
-.range-input::-moz-range-thumb:hover {
-  box-shadow: 0 0 0 10px rgba(255,85,0, .1)
-}
-.range-input:active::-moz-range-thumb {
-  box-shadow: 0 0 0 13px rgba(255,85,0, .2)
-}
-.range-input:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 13px rgba(255,85,0, .2)    
-}
+  .range-input::-moz-range-thumb:hover {
+    box-shadow: 0 0 0 10px rgba(255, 85, 0, 0.1);
+  }
+  .range-input:active::-moz-range-thumb {
+    box-shadow: 0 0 0 13px rgba(255, 85, 0, 0.2);
+  }
+  .range-input:focus::-moz-range-thumb {
+    box-shadow: 0 0 0 13px rgba(255, 85, 0, 0.2);
+  }
 
-.value2, .value3, .value4 {
-  font-size: 26px;    
-  width: 50px;
-  text-align: center;
-}
-.range {
-  display: flex;
-  align-items: center;
-  margin-bottom: 1rem;
-}
-
+  .value2,
+  .value3,
+  .value4 {
+    font-size: 26px;
+    width: 50px;
+    text-align: center;
+  }
+  .range {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
 </style>
 
 <div class="range">
-    <label for="range2">Choose size:</label>
-    <input type="range" min="0" max="50" value="0" id="range2" class="range-input" /> 
-    <div class="value2">0%</div>
-  </div>
+  <label for="range2">Summary Length:</label>
+  <input
+    style="background: linear-gradient(to right, #33b79f 50%, #ccc 50%)"
+    type="range"
+    min="0"
+    max="100"
+    value="50"
+    id="range2"
+    class="range-input"
+  />
+  <div class="value2">50%</div>
+</div>
 
 <script>
-    const sliderEl = document.querySelector("#range2")
-const sliderValue = document.querySelector(".value2")
+  const sliderEl = document.querySelector("#range2");
+  const sliderValue = document.querySelector(".value2");
 
-sliderEl.addEventListener("input", (event) => {
-  const tempSliderValue = event.target.value; 
-  sliderValue.textContent = `${tempSliderValue}%`;
-  
-  const progress = (tempSliderValue / sliderEl.max) * 100;
- 
-  sliderEl.style.background = `linear-gradient(to right, #33B79F ${progress}%, #ccc ${progress}%)`;
-})
-  </script>
+  sliderEl.addEventListener("input", (event) => {
+    const tempSliderValue = event.target.value;
+    sliderValue.textContent = `${tempSliderValue}%`;
+
+    const progress = (tempSliderValue / sliderEl.max) * 100;
+
+    sliderEl.style.background = `linear-gradient(to right, #33B79F ${progress}%, #ccc ${progress}%)`;
+  });
+</script>
