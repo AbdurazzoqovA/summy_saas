@@ -1,0 +1,81 @@
+<style>
+    
+
+.mycontainer {
+  position: relative;
+  display: flex;
+  width: 80%;
+  height: 70vh;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 12px;
+  user-select: none;
+  box-shadow: 8px 8px 35px rgba(0, 0, 0, 0.2);
+}
+
+.neighbourPanel {
+  width: 50%;
+  height: 100%;
+  padding: 1rem;
+  flex-grow: 1;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.resizablePanel {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  padding: 1rem;
+  flex-grow: 1;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.resizablePanel:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  cursor: ew-resize;
+  background-color: #ccc;
+}
+</style>
+
+<div class="mycontainer">
+    <div class="neighbourPanel" contentEditable="true"> Lorem ipsum dolor sit amet consectetur adipisicing elit. A fuga recusandae ipsam doloribus saepe modi itaque eius temporibus veniam aliquam eum, neque debitis minus sequi ex voluptas officia adipisci numquam officiis provident nemo! Laboriosam esse similique architecto aperiam ullam iste dolorem doloribus aspernatur, doloremque dolore, quos quasi laudantium hic dolorum minima consequatur iusto officia et. Accusamus voluptates vel deleniti ullam veritatis. Temporibus sequi facilis at? Voluptatum ipsum corrupti, officiis harum natus ipsam voluptatibus excepturi sed maiores incidunt! Hic culpa eligendi dolorum, assumenda veritatis minima sint praesentium officiis omnis nihil, tempora harum cumque totam, illum doloribus aut quisquam sunt ex mollitia.
+      
+    </div>
+    <div class="resizablePanel" contentEditable="true">Lorem ipsum dolor sit amet consectetur adipisicing elit. A fuga recusandae ipsam doloribus saepe modi itaque eius temporibus veniam aliquam eum, neque debitis minus sequi ex voluptas officia adipisci numquam officiis provident nemo! Laboriosam esse similique architecto aperiam ullam iste dolorem doloribus aspernatur, doloremque dolore, quos quasi laudantium hic dolorum minima consequatur iusto officia et. Accusamus voluptates vel deleniti ullam veritatis. Temporibus sequi facilis at? Voluptatum ipsum corrupti, officiis harum natus ipsam voluptatibus excepturi sed maiores incidunt! Hic culpa eligendi dolorum, assumenda veritatis minima sint praesentium officiis omnis nihil, tempora harum cumque totam, illum doloribus aut quisquam sunt ex mollitia.</div>
+  </div>
+
+
+  <script>
+    const resizablePanel = document.querySelector(".resizablePanel");
+const neighbourPanel = document.querySelector(".neighbourPanel")
+
+const BORDER_SIZE = 4;
+
+let m_pos;
+
+function resize(e){
+  const dx = m_pos - e.x;
+  m_pos = e.x;
+  resizablePanel.style.width = (parseInt(getComputedStyle(resizablePanel, '').width) + dx) + "px";
+  neighbourPanel.style.width = (parseInt(getComputedStyle(neighbourPanel, '').width) - dx) + "px";
+  console.log(e.x);
+}
+
+resizablePanel.addEventListener("mousedown", function(e){
+  if (e.offsetX < BORDER_SIZE) {
+    m_pos = e.x;
+    document.addEventListener("mousemove", resize, false);
+  }
+}, false);
+
+document.addEventListener("mouseup", function(){
+    document.removeEventListener("mousemove", resize, false);
+}, false);
+  </script>
