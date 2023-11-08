@@ -92,14 +92,14 @@
     transition: all 0.5s ease;
   }
 </style>
-
+{% load static %}
 <div class="mycontainer">
   <div class="neighbourPanel scrollable" contenteditable="true">
     <div class="summorg-input-holder" style="display: flex">
       <div class="gradient-hover-effect active">
         <div class="overlay" id="sample-text">
           <img
-            src="https://www.summarizer.org/web_assets/frontend/img/sample-text.svg?v=1.1"
+            src="{% static 'front/sample-text.svg' %}"
             width="25"
             height="28"
             alt="Sample Text"
@@ -108,7 +108,7 @@
         </div>
         <div class="overlay" id="paste-text">
           <img
-            src="https://www.summarizer.org/web_assets/frontend/img/paste-text.svg?v=1.1"
+            src="{% static 'front/paste-text.svg' %}"
             width="25"
             height="28"
             alt="Paste Text"
