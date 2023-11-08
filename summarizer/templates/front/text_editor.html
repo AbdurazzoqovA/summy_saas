@@ -23,7 +23,7 @@
 
   .resizablePanel {
     position: relative;
-    width: 50%;
+    width: 40%;
     height: 100%;
     padding: 1rem;
     flex-grow: 1;
@@ -46,37 +46,129 @@
     overflow-y: auto; /* Enable vertical scrolling */
     height: 100%; /* Ensure the inner container takes full height for scrolling */
   }
+  .summorg-input-holder {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(
+      180deg,
+      #eafaf6 0%,
+      rgba(247, 247, 247, 0) 79.7%
+    );
+    width: 45%;
+    padding: 20px;
+    left: 30%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    cursor: text;
+    min-width: 220px;
+  }
+
+  .summorg-input-holder > div {
+    border-radius: 10px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    box-shadow: var(--box-shadow-upward);
+    position: relative;
+  }
+
+  .overlay {
+    margin: 20px 0px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .overlay:hover {
+    background-color: #eefefa;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  .overlay * {
+    transition: all 0.5s ease;
+  }
 </style>
 
 <div class="mycontainer">
   <div class="neighbourPanel scrollable" contenteditable="true">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. A fuga recusandae
-    ipsam doloribus saepe modi itaque eius temporibus veniam aliquam eum, neque
-    debitis minus sequi ex voluptas officia adipisci numquam officiis provident
-    nemo! Laboriosam esse similique architecto aperiam ullam iste dolorem
-    doloribus aspernatur, doloremque dolore, quos quasi laudantium hic dolorum
-    minima consequatur iusto officia et. Accusamus voluptates vel deleniti ullam
-    veritatis. Temporibus sequi facilis at? Voluptatum ipsum corrupti, officiis
-    harum natus ipsam voluptatibus excepturi sed maiores incidunt! Hic culpa
-    eligendi dolorum, assumenda veritatis minima sint praesentium officiis omnis
-    nihil, tempora harum cumque totam, illum doloribus aut quisquam sunt ex
-    mollitia.
+    <div class="summorg-input-holder" style="display: flex">
+      <div class="gradient-hover-effect active">
+        <div class="overlay" id="sample-text">
+          <img
+            src="https://www.summarizer.org/web_assets/frontend/img/sample-text.svg?v=1.1"
+            width="25"
+            height="28"
+            alt="Sample Text"
+          />
+          <p>Sample Text</p>
+        </div>
+        <div class="overlay" id="paste-text">
+          <img
+            src="https://www.summarizer.org/web_assets/frontend/img/paste-text.svg?v=1.1"
+            width="25"
+            height="28"
+            alt="Paste Text"
+          />
+          <p>Paste Text</p>
+        </div>
+      </div>
+    </div>
   </div>
-  <div class="resizablePanel scrollable" contenteditable="true">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. A fuga recusandae
-    ipsam doloribus saepe modi itaque eius temporibus veniam aliquam eum, neque
-    debitis minus sequi ex voluptas officia adipisci numquam officiis provident
-    nemo! Laboriosam esse similique architecto aperiam ullam iste dolorem
-    doloribus aspernatur, doloremque dolore, quos quasi laudantium hic dolorum
-    minima consequatur iusto officia et. Accusamus voluptates vel deleniti ullam
-    veritatis. Temporibus sequi facilis at? Voluptatum ipsum corrupti, officiis
-    harum natus ipsam voluptatibus excepturi sed maiores incidunt! Hic culpa
-    eligendi dolorum, assumenda veritatis minima sint praesentium officiis omnis
-    nihil, tempora harum cumque totam, illum doloribus aut quisquam sunt ex
-    mollitia.
-  </div>
+  <div class="resizablePanel scrollable" contenteditable="true"></div>
 </div>
 
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const neighbourPanel = document.querySelector(".neighbourPanel");
+    const sampleText = document.getElementById("sample-text");
+    const pasteText = document.getElementById("paste-text");
+
+    function removeInputHolder() {
+      const inputHolder = document.querySelector(".summorg-input-holder");
+      if (inputHolder) {
+        inputHolder.remove();
+      }
+    }
+
+    neighbourPanel.addEventListener("click", function (event) {
+      if (
+        event.target.id !== "paste-text" &&
+        event.target.id !== "sample-text"
+      ) {
+        removeInputHolder();
+      }
+    });
+
+    pasteText.addEventListener("click", function () {
+      navigator.clipboard
+        .readText()
+        .then((text) => {
+          neighbourPanel.textContent = text;
+          removeInputHolder();
+        })
+        .catch((err) => {
+          console.error("Failed to read clipboard contents: ", err);
+        });
+    });
+
+    sampleText.addEventListener("click", function () {
+      neighbourPanel.textContent =
+        "Fantasy Football is a game played by millions of football fans around the world. It’s a game of skill, strategy and luck that’s become increasingly popular over the years. In fantasy football, you create a team of real-life NFL players and compete against other teams in your league. Your team earns points based on the performance of your players in real-life NFL games. The team with the most points at the end of the fantasy football season wins the league. For those new to the game, fantasy football can seem a bit daunting. Before you begin playing, it’s important to understand the basics of the game. You need to know how to draft your players, how to manage your team, and what strategies you can use to improve your team’s chances of success. The first step of playing fantasy football is to join a league. You can join a public league or create a private one with your friends and family. Once you’ve joined your league, it’s time to draft your team. You’ll select players from the NFL player pool and allocate them to your team. Different leagues have different rules for drafting, so make sure to read the rules of your league carefully before you start drafting. Once you’ve drafted your team, it’s time to manage it. You’ll need to set your lineup each week, making sure to choose the players that have the best chance of scoring the most points. You’ll also need to monitor the performance of your players, dropping those that are underperforming and picking up new ones to replace them.";
+      removeInputHolder();
+    });
+  });
+</script>
+<script>
+  let sample_text = document.getElementById("sample-text");
+  sample_text.addEventListener("click", function () {
+    sample_text.style.display = "none";
+    s;
+  });
+</script>
 <script>
   const resizablePanel = document.querySelector(".resizablePanel");
   const neighbourPanel = document.querySelector(".neighbourPanel");

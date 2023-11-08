@@ -11,6 +11,35 @@
       rel="stylesheet"
       href="{% static 'front/assets/css/style-s3.css' %}?v1.5.0"
     />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.7.570/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
+    <meta name="csrf-token" content="{{ csrf_token }}" />
+    <style>
+      .lds-dual-ring {
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+      }
+      .lds-dual-ring:after {
+        content: " ";
+        display: block;
+        width: 32px;
+        height: 32px;
+        margin: 4px;
+        border-radius: 50%;
+        border: 3px solid #fff;
+        border-color: #fff transparent #fff transparent;
+        animation: lds-dual-ring 1.2s linear infinite;
+      }
+      @keyframes lds-dual-ring {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
   </head>
 
   <body class="nk-body" data-menu-collapse="lg">
@@ -129,15 +158,32 @@
                   Summarize any text with
                   <span class="text-gradient-primary">One Click</span>
                 </h1>
-                <div class="ms-5 me-8">{% include "front/slider.html" %}</div>
+                <!-- <div class="ms-5 me-8">{% include "front/slider.html" %}</div> -->
                 {% include "front/text_editor.html" %}
               </div>
               <div class="col-12">
-                <div class="row ms-12">
-                  <div class="col-4">
-                    <button class="btn btn-lg btn-primary">Summarize</button>
+                <div
+                  class="alert alert-danger ms-6 me-6"
+                  id="alertError"
+                  style="display: none"
+                  role="alert"
+                ></div>
+
+                <div class="row">
+                  <div class="col-4 ms-1">
+                    {% include 'front/upload_button.html' %}
                   </div>
-                  <div class="col-4"></div>
+                  <div class="col-4 ms-7">
+                    <button class="btn btn-lg btn-primary" id="summaryButton">
+                      Summarize
+                      <div
+                        id="spinner"
+                        class="lds-dual-ring"
+                        style="display: none"
+                      ></div>
+                      <!-- <div id="spinner" style="display: none"></div> -->
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -1101,6 +1147,9 @@
         <!-- .section -->
       </footer>
     </div>
+    <script src="{% static '/front/read_files.js' %}?v1.5.0"></script>
+    <script src="{% static '/front/send_request.js' %}?v1.5.0"></script>
+
     <script src="{% static '/front/assets/js/bundle.js' %}?v1.5.0"></script>
     <script src="{% static '/front/assets/js/scripts.js' %}?v1.5.0"></script>
   </body>
