@@ -99,6 +99,25 @@
                       <span class="nk-menu-text">Pricing</span>
                     </a>
                   </li>
+                  {% if request.user.is_authenticated %}
+                    <li class="nk-menu-item">
+                      <a href="{% url 'account_logout' %}" class="nk-menu-link">
+                        <span class="nk-menu-text">Logout</span>
+                      </a>
+                    </li>
+                  {% else %}
+                  <li class="nk-menu-item">
+                    <a href="{% url 'account_login' %}" class="nk-menu-link">
+                      <span class="nk-menu-text">Login</span>
+                    </a>
+                  </li>
+
+                  <li class="nk-menu-item">
+                    <a href="{% url 'account_signup' %}" class="nk-menu-link">
+                      <span class="nk-menu-text">Sign Up</span>
+                    </a>
+                  </li>
+                  {% endif%}
                 </ul>
                 <!-- .nk-menu-list -->
                 <div class="mx-2 d-none d-lg-block">
