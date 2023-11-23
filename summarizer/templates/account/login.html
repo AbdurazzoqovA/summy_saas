@@ -1,6 +1,7 @@
 {% load static %}
 {% load i18n %}
 {% load account %}
+{% load socialaccount %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -133,7 +134,7 @@
                                                     <div class="small mb-3">or login with</div>
                                                     <ul class="btn-list btn-list-inline gx-2">
                                                         <li><a class="btn btn-light btn-icon" href="#"><em class="icon fs-5 ni ni-facebook-f"></em></a></li>
-                                                        <li><a class="btn btn-light btn-icon" href="#"><em class="icon fs-5 ni ni-google"></em></a></li>
+                                                        <li><a class="btn btn-light btn-icon" href="{% provider_login_url 'google' %}"><em class="icon fs-5 ni ni-google"></em></a></li>
                                                         <li><a class="btn btn-light btn-icon" href="#"><em class="icon fs-5 ni ni-apple"></em></a></li>
                                                     </ul>
                                                 </div><!-- .col -->
