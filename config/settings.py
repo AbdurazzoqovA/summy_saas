@@ -180,3 +180,5 @@ AUTH_USER_MODEL = 'summarizer.User'
 
 #client id = 15057258336-fd3hhkf0tt2ukjqhbe3hejiclt54tp0p.apps.googleusercontent.com
 #secret key = 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
+
+# test
