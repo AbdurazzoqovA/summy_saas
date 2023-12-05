@@ -5,10 +5,12 @@ from django.views.decorators.csrf import csrf_exempt
 from django.contrib.auth import get_user_model
 from django.contrib import messages
 import json
+from .models import Blog
 from allauth.account.views import ConfirmEmailView
 from allauth.account.views import SignupView as AllauthSignupView
 from allauth.account.views import LoginView as AllauthLoginView
 from allauth.account.views import PasswordResetView as AllauthPasswordResetView
+from django.core.paginator import Paginator
 
 User = get_user_model()
 
@@ -33,6 +35,21 @@ def summary(request):
             text
         )  # Ensure your summarizer function is properly defined
         return JsonResponse({"summary": summary})
+    
+def blog(request):
+    blogs = Blog.objects.all()
+    page_number = request.GET.get("page")
+    paginator = Paginator(blogs, 9)
+    result_blogs = paginator.get_page(page_number)
+    
+    return render(request, 'front/blog.html', {'blogs': result_blogs})
+
+def blog_detail(request, slug):
+  blog = Blog.objects.get(slug=slug)
+  context = {
+    'blog': blog,
+  }
+  return render(request, 'front/blog-single.html', context)
 
 class SignupView(AllauthSignupView):
     template_name = 'account/signup.html'
