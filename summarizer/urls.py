@@ -5,6 +5,7 @@ urlpatterns = [
     path("summary/", views.summary),
     path("", views.main, name='home'),
     path("blog/", views.blog, name='blog'),
+    path("pricing/", views.pricing, name='pricing'),
     path('accounts/signup/', views.SignupView.as_view(), name='account_signup'),
     path('accounts/login/', views.LoginView.as_view(), name='account_login'),
     path('accounts/confirm-email/<str:key>/', views.CustomConfirmEmailView.as_view(), name='account_confirm_email'),

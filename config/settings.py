@@ -40,11 +40,12 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "summarizer",
     "corsheaders",
-    'allauth',
-    'allauth.account',
-    'allauth.socialaccount',
-    'allauth.socialaccount.providers.google',
+    "allauth",
+    "allauth.account",
+    "allauth.socialaccount",
+    "allauth.socialaccount.providers.google",
     "ckeditor",
+    "payments",
 ]
 
 SITE_ID = 1
@@ -82,20 +83,20 @@ TEMPLATES = [
 WSGI_APPLICATION = "config.wsgi.application"
 
 AUTHENTICATION_BACKENDS = [
-    'django.contrib.auth.backends.ModelBackend',
-    'allauth.account.auth_backends.AuthenticationBackend',
+    "django.contrib.auth.backends.ModelBackend",
+    "allauth.account.auth_backends.AuthenticationBackend",
 ]
 
 SOCIALACCOUNT_PROVIDERS = {
-    'google': {
-        'SCOPE': [
-            'profile',
-            'email',
+    "google": {
+        "SCOPE": [
+            "profile",
+            "email",
         ],
-        'AUTH_PARAMS': {
-            'access_type': 'online',
+        "AUTH_PARAMS": {
+            "access_type": "online",
         },
-        'OAUTH_PKCE_ENABLED': True,
+        "OAUTH_PKCE_ENABLED": True,
     }
 }
 
@@ -140,17 +141,17 @@ USE_I18N = True
 USE_TZ = True
 
 LOGIN_REDIRECT_URL = "/"
-ACCOUNT_EMAIL_CONFIRMATION_ANONYMOUS_REDIRECT_URL = '/'
-ACCOUNT_EMAIL_CONFIRMATION_AUTHENTICATED_REDIRECT_URL = '/'
+ACCOUNT_EMAIL_CONFIRMATION_ANONYMOUS_REDIRECT_URL = "/"
+ACCOUNT_EMAIL_CONFIRMATION_AUTHENTICATED_REDIRECT_URL = "/"
 ACCOUNT_AUTHENTICATION_METHOD = "email"
 ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_UNIQUE_EMAIL = True
 ACCOUNT_EMAIL_VERIFICATION = "mandatory"
 ACCOUNT_EMAIL_CONFIRMATION_EXPIRE_DAYS = 3
-SOCIALACCOUNT_LOGIN_ON_GET=True
+SOCIALACCOUNT_LOGIN_ON_GET = True
 SOCIALACCOUNT_AUTO_SIGNUP = True
 
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 EMAIL_HOST = "smtp.gmail.com"
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
@@ -163,7 +164,7 @@ EMAIL_HOST_PASSWORD = "tbsamlvxcboptpzq"
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 # myproject/settings.py
 
-ACCOUNT_ADAPTER = 'summarizer.adapters.CustomAccountAdapter'
+ACCOUNT_ADAPTER = "summarizer.adapters.CustomAccountAdapter"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
@@ -171,16 +172,22 @@ ACCOUNT_ADAPTER = 'summarizer.adapters.CustomAccountAdapter'
 # DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 STATIC_URL = "static/"
-STATIC_ROOT = BASE_DIR / "static"
-# STATICFILES_DIRS = (BASE_DIR / "static",)
+# STATIC_ROOT = BASE_DIR / "static"
+STATICFILES_DIRS = (BASE_DIR / "static",)
 CORS_ALLOW_ALL_ORIGINS = True
-AUTH_USER_MODEL = 'summarizer.User'
+AUTH_USER_MODEL = "summarizer.User"
 # CORS_ALLOWED_ORIGINS = [
 #     "http://127.0.0.1:8000",
 #     # Add any other origins you want to allow
 # ]
 
-#client id = 15057258336-fd3hhkf0tt2ukjqhbe3hejiclt54tp0p.apps.googleusercontent.com
-#secret key = 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
+# client id = 15057258336-fd3hhkf0tt2ukjqhbe3hejiclt54tp0p.apps.googleusercontent.com
+# secret key = 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
 
 # test
+
+
+STRIPE_PUBLIC_KEY = "pk_test_51OKe5yHOGzXipbLiSQTs3ThedglvWvtCOUCDi3rtzwT8r2erizBHynvxXtVCYzLTCLBR23YEfE5JManFPxlFhHUa00FbQDaDIx"
+STRIPE_SECRET_KEY = "sk_test_51OKe5yHOGzXipbLiMCYwrjbq33eHdAPbekfkrJEf8LoU3VrBiPkb9Gxmk65l4m0tNWzHTSC2raeQKEfKRGuIUQLb00E8Hz6ql0"
+
+# STRIPE_WEBHOOK_SECRET = os.environ.get("STRIPE_WEBHOOK_SECRET")

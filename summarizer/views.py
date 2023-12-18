@@ -15,8 +15,11 @@ from django.core.paginator import Paginator
 User = get_user_model()
 
 def main(request):
-    return render(request, "front/main.html")
+    return render(request, "front/index.html")
 
+
+def pricing(request):
+    return render(request, "front/pricing.html")
 
 @csrf_exempt
 def summary(request):
