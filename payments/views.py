@@ -210,7 +210,7 @@ def handle_successful_payment(invoice):
     # Get the customer ID and subscription ID from the invoice
     customer_id = invoice.get("customer")
     subscription_id = invoice.get("subscription")
-    send_telegram_message(str(invoice))
+   
     # Retrieve the corresponding user and subscription in your database
     try:
         user = User.objects.get(stripe_customer_id=customer_id)
