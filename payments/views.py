@@ -65,7 +65,7 @@ class CreateCheckoutSessionView(View):
     def post(self, request, *args, **kwargs):
         if not request.user.is_authenticated:
             # Return a 401 Unauthorized response or a custom JSON response
-            return redirect("account_login")
+            return  HttpResponseForbidden('User not authenticated')
         # Retrieve the user and their subscription plan details
         user = User.objects.get(email=request.user.email)
         # Example: retrieve plan details (word count, price) from the request
