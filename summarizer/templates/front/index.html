@@ -1,6 +1,29 @@
 {% extends 'front/main.html' %}
 {% load static %}
+{% block meta_tags %}
+{% if meta_tag %}
+<title>{{ meta_tag.title }}</title>
+<meta name="description" content="{{ meta_tag.description }}">
+<meta name="keywords" content="{{ meta_tag.keywords }}">
 
+<!-- Open Graph Tags -->
+<meta property="og:title" content="{{ meta_tag.og_title }}">
+<meta property="og:description" content="{{ meta_tag.og_description }}">
+{% if meta_tag.og_image %}
+<meta property="og:image" content="{{ meta_tag.og_image.url }}">
+{% endif %}
+
+<!-- Twitter Card Tags -->
+<meta name="twitter:title" content="{{ meta_tag.twitter_title }}">
+<meta name="twitter:description" content="{{ meta_tag.twitter_description }}">
+{% if meta_tag.twitter_image %}
+<meta property="twitter:image" content="{{ meta_tag.twitter_image.url }}">
+{% endif %}
+
+<!-- Additional meta tags -->
+<!-- ... -->
+{% endif %}
+{% endblock %}
 {% block hero %}
 <div class="nk-hero py-7 py-lg-11">
     <div class="container">

@@ -31,6 +31,7 @@ ALLOWED_HOSTS = ["boostchats.com", "127.0.0.1", "localhost"]
 # Application definition
 
 INSTALLED_APPS = [
+    "jazzmin",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -46,6 +47,7 @@ INSTALLED_APPS = [
     "allauth.socialaccount.providers.google",
     "ckeditor",
     "payments",
+    "translations",
 ]
 
 SITE_ID = 1
@@ -53,6 +55,7 @@ SITE_ID = 1
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
+    "django.middleware.locale.LocaleMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
@@ -132,8 +135,8 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
-LANGUAGE_CODE = "en-us"
-
+LANGUAGE_CODE = "en"
+LANGUAGE_SESSION_KEY = "end"
 TIME_ZONE = "UTC"
 
 USE_I18N = True
@@ -191,3 +194,20 @@ STRIPE_PUBLIC_KEY = "pk_test_51OKe5yHOGzXipbLiSQTs3ThedglvWvtCOUCDi3rtzwT8r2eriz
 STRIPE_SECRET_KEY = "sk_test_51OKe5yHOGzXipbLiMCYwrjbq33eHdAPbekfkrJEf8LoU3VrBiPkb9Gxmk65l4m0tNWzHTSC2raeQKEfKRGuIUQLb00E8Hz6ql0"
 STRIPE_WEBHOOK_SECRET = "whsec_RCM0fOhT2ZW5dRJ9fhdFzCGbg5dGUGmE"
 # STRIPE_WEBHOOK_SECRET = os.environ.get("STRIPE_WEBHOOK_SECRET")
+
+JAZZMIN_SETTINGS = {
+    # title of the window (Will default to current_admin_site.site_title if absent or None)
+    "site_title": "Summarizing Admin",
+    # Title on the login screen (19 chars max) (defaults to current_admin_site.site_header if absent or None)
+    "site_header": "Summarizing Admin",
+    "site_brand": "Summarizing Admin",
+}
+
+
+LANGUAGES = [
+    ("ru", "Russian"),
+    ("en", "English"),
+    ("es", "Spanish"),
+    ("de", "German"),
+
+]
