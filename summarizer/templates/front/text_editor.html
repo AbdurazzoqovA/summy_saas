@@ -1,10 +1,7 @@
 <style>
   .mycontainer {
     position: relative;
-    display: flex;
-    width: 80%;
-
-    height: 60vh;
+    height: 100%;
     margin: 0 auto;
     overflow: hidden;
     border-radius: 12px;
@@ -12,26 +9,125 @@
     box-shadow: 8px 8px 35px rgba(0, 0, 0, 0.2);
   }
 
+  .scrollable-header {
+    overflow: scroll;
+  }
+
+  .scrollable-header::-webkit-scrollbar {
+    display: none;
+  }
+
+  .editor-header {
+    height: 55px;
+    border-bottom: 2px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+    min-width: max-content;
+  }
+
+  .word-count {
+    background-color: white;
+  }
+
+  #word-count-summary-holder {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 55px;
+    right: 5px;
+  }
+
+  #word-count-neighbour {
+    position: absolute;
+    bottom: 55px;
+    left: 5px;
+  }
+
+  .round-button {
+    background: #5a99ff78;
+    border: none;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+  }
+
+  .round-button:hover {
+    background: #5a99ff;
+    color: white;
+    transition: all 0.5s ease;
+  }
+
+  .mode-container {
+    background-color: #f5f4f4;
+    border: 1px solid #dedede;
+    border-radius: 50px;
+  }
+
+  .mode-button {
+    height: 100%;
+    background: none;
+    border: none;
+    border-radius: 50px;
+    padding: 5px 10px;
+    transition: all 0.5s ease;
+  }
+
+  .mode-button:hover {
+    background-color: #00000017;
+    transition: all 0.5s ease;
+  }
+
+  .mode-button[selected] {
+    background-color: #5a98ff;
+    color: white;
+  }
+
+  .editor-footer {
+    height: 55px;
+    border-top: 2px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+  }
+
+  .editor-footer>div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .editor-container {
+    display: flex;
+    height: calc(100% - 120px);
+  }
+
   .neighbourPanel {
     width: 50%;
     height: 100%;
     padding: 1rem;
-    flex-grow: 1;
     box-sizing: border-box;
     background-color: white;
   }
 
   .resizablePanel {
     position: relative;
-    width: 40%;
+    width: 50%;
     height: 100%;
     padding: 1rem;
     flex-grow: 1;
     box-sizing: border-box;
     background-color: white;
+    border-left: 4px solid #ccc;
   }
 
-  .resizablePanel:after {
+  .resizablePanel:before {
     position: absolute;
     content: "";
     top: 0;
@@ -39,35 +135,34 @@
     width: 4px;
     height: 100%;
     cursor: ew-resize;
-    background-color: #ccc;
   }
 
   .scrollable {
-    overflow-y: auto; /* Enable vertical scrolling */
-    height: 100%; /* Ensure the inner container takes full height for scrolling */
+    overflow-y: auto;
+    /* Enable vertical scrolling */
+    height: 100%;
+    /* Ensure the inner container takes full height for scrolling */
   }
+
   .summorg-input-holder {
-    position: absolute;
+    height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .summorg-input {
     text-align: center;
-    background: linear-gradient(
-      180deg,
-      #eafaf6 0%,
-      rgba(247, 247, 247, 0) 79.7%
-    );
-    width: 45%;
+    background: linear-gradient(180deg, #eafaf6 0%, #c8dcfd 70%);
+    width: 300px;
     padding: 20px;
-    left: 30%;
-    top: 45%;
-    transform: translate(-50%, -50%);
     border-radius: 20px;
     cursor: text;
     min-width: 220px;
   }
 
-  .summorg-input-holder > div {
+  .summorg-input>div {
     border-radius: 10px;
     width: 100%;
     background-color: white;
@@ -77,48 +172,246 @@
   }
 
   .overlay {
-    margin: 20px 0px;
     cursor: pointer;
     width: 100%;
+    transition: all 0.5s ease;
+    padding: 10px 0px;
+  }
+
+  .overlay p {
+    margin: 0px;
   }
 
   .overlay:hover {
     background-color: #eefefa;
-    padding: 5px;
-    border-radius: 10px;
+    transition: all 0.5s ease;
   }
 
   .overlay * {
     transition: all 0.5s ease;
   }
+
+  .summary-slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100px;
+    height: 5px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    transition: all 0.5s ease;
+  }
+
+  .summary-slider::-webkit-slider-track-piece {
+    background-color: red;
+  }
+
+  .summary-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+    border: 2px solid #5a99ff;
+    cursor: pointer;
+  }
+
+  .summary-slider::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+    border: 2px solid #5a99ff;
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 992px) {
+    .editor-container {
+      flex-direction: column;
+    }
+
+    .resizablePanel::after {
+      display: none;
+    }
+
+    .resizablePanel {
+      width: 100% !important;
+      border: none;
+      border-top: 4px solid #ccc;
+    }
+
+    .neighbourPanel {
+      width: 100% !important;
+    }
+
+    #word-count-neighbour {
+      display: none;
+    }
+
+    #word-count-neighbour {
+      width: auto;
+    }
+
+    .editor-header {
+      padding: 5px 10px;
+    }
+
+    .editor-footer {
+      padding: 0px 10px;
+    }
+
+    .editor-footer>div {
+      width: 100%;
+    }
+  }
 </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script>
+  function setMode(event) {
+    let mode = event.target.getAttribute("mode");
+    let lengthSlider = document.getElementById("summary-length-container");
+    document.querySelectorAll(".mode-button").forEach((el) => {
+      if (mode === el.getAttribute("mode")) {
+        el.setAttribute("selected", true);
+      } else {
+        el.removeAttribute("selected");
+      }
+    });
+    if (mode === "paragraph") {
+      lengthSlider.style.display = "flex";
+    } else {
+      lengthSlider.style.display = "none";
+    }
+    console.log("mode:", mode);
+  }
+
+  function getEditorMode() {
+    return document
+      .querySelector(".editor-button[selected]")
+      .getAttribute("mode");
+  }
+
+  function updateWordCount(event, id) {
+    const wordCountElement = document.getElementById(id);
+    const words = event.target.innerText
+      .trim()
+      .split(/\s+/)
+      .filter((w) => w);
+    wordCountElement.innerText = `Words: ${words.length}`;
+  }
+
+  function removeInputHolder() {
+    const inputHolder = document.querySelector(".summorg-input-holder");
+    if (inputHolder) {
+      inputHolder.remove();
+    }
+  }
+
+  function resetEditors() {
+    const neighbourPanel = document.querySelector(".neighbourPanel");
+    const resizablePanel = document.querySelector(".resizablePanel");
+
+    neighbourPanel.innerHTML = ``;
+    resizablePanel.innerHTML = ``;
+
+    updateWordCount({ target: neighbourPanel }, "word-count-neighbour");
+    updateWordCount({ target: resizablePanel }, "word-count-summary");
+  }
+
+  function getSummaryLength() {
+    return document.getElementById("summary-length").value;
+  }
+
+  function copySummary() {
+    const text = document.querySelector(".resizablePanel").innerText;
+    if (!text) {
+      return;
+    }
+    navigator.clipboard.writeText(text);
+  }
+
+  function downloadSummary() {
+    const text = document.querySelector(".resizablePanel").innerText;
+    if (!text) {
+      return;
+    }
+    const blob = new Blob([text], { type: "text/plain" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = "summary.txt";
+    link.click();
+    URL.revokeObjectURL(url);
+    link.remove();
+  }
+</script>
 {% load static %}
 <div class="mycontainer">
-  <div class="neighbourPanel scrollable" contenteditable="true">
-    <div class="summorg-input-holder" style="display: flex">
-      <div class="gradient-hover-effect active">
-        <div class="overlay" id="sample-text">
-          <img
-            src="{% static 'front/sample-text.svg' %}"
-            width="25"
-            height="28"
-            alt="Sample Text"
-          />
-          <p>Sample Text</p>
+  <div class="scrollable-header">
+    <div class="editor-header">
+      <div style="display: flex">
+        <div>
+          <div class="mode-container">
+            <button selected mode="paragraph" class="mode-button" onclick="setMode(event)">
+              Paragraph
+            </button>
+            <button mode="bullet-points" class="mode-button" onclick="setMode(event)">
+              Bullet Points
+            </button>
+          </div>
         </div>
-        <div class="overlay" id="paste-text">
-          <img
-            src="{% static 'front/paste-text.svg' %}"
-            width="25"
-            height="28"
-            alt="Paste Text"
-          />
-          <p>Paste Text</p>
+        <div style="display: flex; align-items: center; margin-left: 10px" id="summary-length-container">
+          <span style="margin-right: 5px">Short</span>
+          <input type="range" min="1" max="5" class="summary-slider" id="summary-length" />
+          <span style="margin-left: 5px">Long</span>
         </div>
       </div>
     </div>
   </div>
-  <div class="resizablePanel scrollable" contenteditable="true"></div>
+  <div class="editor-container">
+    <div class="neighbourPanel scrollable" oninput="updateWordCount(event, 'word-count-neighbour')"
+      contenteditable="true">
+      <div class="summorg-input-holder">
+        <div class="summorg-input">
+          <div class="gradient-hover-effect active">
+            <div class="overlay" id="sample-text">
+              <img src="{% static 'front/sample-text.svg' %}" width="25" height="28" alt="Sample Text" />
+              <p>Sample Text</p>
+            </div>
+            <div class="overlay" id="paste-text">
+              <img src="{% static 'front/paste-text.svg' %}" width="25" height="28" alt="Paste Text" />
+              <p>Paste Text</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="resizablePanel scrollable" oninput="updateWordCount(event, 'word-count-summary')"
+      contenteditable="true"></div>
+  </div>
+  <div class="editor-footer">
+    <div>
+      <p class="word-count" id="word-count-neighbour">Words: 0</p>
+      <div id="word-count-summary-holder">
+        <button class="round-button" style="margin-top: -20px" onclick="resetEditors()">
+          <em class="fa-regular fa-trash-can"></em>
+        </button>
+        <button class="round-button" style="margin-top: -20px" onclick="copySummary()">
+          <em class="fa-regular fa-copy"></em>
+        </button>
+        <button class="round-button" style="margin-top: -20px" onclick="downloadSummary()">
+          <em class="fa-solid fa-download"></em>
+        </button>
+        <p class="word-count" id="word-count-summary">Words: 0</p>
+      </div>
+      <button>Upload Doc</button>
+      <button>Summarize</button>
+    </div>
+  </div>
 </div>
 
 <script>
@@ -126,13 +419,6 @@
     const neighbourPanel = document.querySelector(".neighbourPanel");
     const sampleText = document.getElementById("sample-text");
     const pasteText = document.getElementById("paste-text");
-
-    function removeInputHolder() {
-      const inputHolder = document.querySelector(".summorg-input-holder");
-      if (inputHolder) {
-        inputHolder.remove();
-      }
-    }
 
     neighbourPanel.addEventListener("click", function (event) {
       if (
@@ -148,7 +434,7 @@
         .readText()
         .then((text) => {
           neighbourPanel.textContent = text;
-          removeInputHolder();
+          updateWordCount({ target: neighbourPanel }, "word-count-neighbour");
         })
         .catch((err) => {
           console.error("Failed to read clipboard contents: ", err);
@@ -158,7 +444,7 @@
     sampleText.addEventListener("click", function () {
       neighbourPanel.textContent =
         "Fantasy Football is a game played by millions of football fans around the world. It’s a game of skill, strategy and luck that’s become increasingly popular over the years. In fantasy football, you create a team of real-life NFL players and compete against other teams in your league. Your team earns points based on the performance of your players in real-life NFL games. The team with the most points at the end of the fantasy football season wins the league. For those new to the game, fantasy football can seem a bit daunting. Before you begin playing, it’s important to understand the basics of the game. You need to know how to draft your players, how to manage your team, and what strategies you can use to improve your team’s chances of success. The first step of playing fantasy football is to join a league. You can join a public league or create a private one with your friends and family. Once you’ve joined your league, it’s time to draft your team. You’ll select players from the NFL player pool and allocate them to your team. Different leagues have different rules for drafting, so make sure to read the rules of your league carefully before you start drafting. Once you’ve drafted your team, it’s time to manage it. You’ll need to set your lineup each week, making sure to choose the players that have the best chance of scoring the most points. You’ll also need to monitor the performance of your players, dropping those that are underperforming and picking up new ones to replace them.";
-      removeInputHolder();
+      updateWordCount({ target: neighbourPanel }, "word-count-neighbour");
     });
   });
 </script>
@@ -166,7 +452,6 @@
   let sample_text = document.getElementById("sample-text");
   sample_text.addEventListener("click", function () {
     sample_text.style.display = "none";
-    s;
   });
 </script>
 <script>
@@ -184,7 +469,6 @@
       parseInt(getComputedStyle(resizablePanel, "").width) + dx + "px";
     neighbourPanel.style.width =
       parseInt(getComputedStyle(neighbourPanel, "").width) - dx + "px";
-    console.log(e.x);
   }
 
   resizablePanel.addEventListener(
