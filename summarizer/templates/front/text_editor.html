@@ -11,6 +11,7 @@
 
   .scrollable-header {
     overflow: scroll;
+    background-color: white;
   }
 
   .scrollable-header::-webkit-scrollbar {
@@ -23,7 +24,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px 20px;
+    padding: 5px 10px;
     min-width: max-content;
   }
 
@@ -35,7 +36,7 @@
     display: flex;
     align-items: center;
     position: absolute;
-    bottom: 55px;
+    bottom: 65px;
     right: 5px;
   }
 
@@ -93,10 +94,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 20px;
+    padding: 0px 10px;
+    background-color: white;
   }
 
-  .editor-footer>div {
+  .editor-footer > div {
     width: 50%;
     display: flex;
     align-items: center;
@@ -162,7 +164,7 @@
     min-width: 220px;
   }
 
-  .summorg-input>div {
+  .summorg-input > div {
     border-radius: 10px;
     width: 100%;
     background-color: white;
@@ -254,22 +256,18 @@
       width: auto;
     }
 
-    .editor-header {
-      padding: 5px 10px;
-    }
-
-    .editor-footer {
-      padding: 0px 10px;
-    }
-
-    .editor-footer>div {
+    .editor-footer > div {
       width: 100%;
     }
   }
 </style>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
   integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
 <script>
   function setMode(event) {
     let mode = event.target.getAttribute("mode");
@@ -327,7 +325,7 @@
   }
 
   function copySummary() {
-    const text = document.querySelector(".resizablePanel").innerText;
+    const text = document.querySelector(".resizablePanel").innerHTML;
     if (!text) {
       return;
     }
@@ -335,15 +333,15 @@
   }
 
   function downloadSummary() {
-    const text = document.querySelector(".resizablePanel").innerText;
+    const text = document.querySelector(".resizablePanel").innerHTML;
     if (!text) {
       return;
     }
-    const blob = new Blob([text], { type: "text/plain" });
+    const blob = new Blob([text], { type: "text/html" });
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.href = url;
-    link.download = "summary.txt";
+    link.download = "summary.html";
     link.click();
     URL.revokeObjectURL(url);
     link.remove();
@@ -356,60 +354,109 @@
       <div style="display: flex">
         <div>
           <div class="mode-container">
-            <button selected mode="paragraph" class="mode-button" onclick="setMode(event)">
+            <button
+              selected
+              mode="paragraph"
+              class="mode-button"
+              onclick="setMode(event)"
+            >
               Paragraph
             </button>
-            <button mode="bullet-points" class="mode-button" onclick="setMode(event)">
+            <button
+              mode="bullet-points"
+              class="mode-button"
+              onclick="setMode(event)"
+            >
               Bullet Points
             </button>
           </div>
         </div>
-        <div style="display: flex; align-items: center; margin-left: 10px" id="summary-length-container">
+        <div
+          style="display: flex; align-items: center; margin-left: 10px"
+          id="summary-length-container"
+        >
           <span style="margin-right: 5px">Short</span>
-          <input type="range" min="1" max="5" class="summary-slider" id="summary-length" />
+          <input
+            type="range"
+            min="1"
+            max="5"
+            class="summary-slider"
+            id="summary-length"
+          />
           <span style="margin-left: 5px">Long</span>
         </div>
       </div>
     </div>
   </div>
   <div class="editor-container">
-    <div class="neighbourPanel scrollable" oninput="updateWordCount(event, 'word-count-neighbour')"
-      contenteditable="true">
+    <div
+      class="neighbourPanel scrollable"
+      oninput="updateWordCount(event, 'word-count-neighbour')"
+      contenteditable="true"
+    >
       <div class="summorg-input-holder">
         <div class="summorg-input">
           <div class="gradient-hover-effect active">
             <div class="overlay" id="sample-text">
-              <img src="{% static 'front/sample-text.svg' %}" width="25" height="28" alt="Sample Text" />
+              <img
+                src="{% static 'front/sample-text.svg' %}"
+                width="25"
+                height="28"
+                alt="Sample Text"
+              />
               <p>Sample Text</p>
             </div>
             <div class="overlay" id="paste-text">
-              <img src="{% static 'front/paste-text.svg' %}" width="25" height="28" alt="Paste Text" />
+              <img
+                src="{% static 'front/paste-text.svg' %}"
+                width="25"
+                height="28"
+                alt="Paste Text"
+              />
               <p>Paste Text</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="resizablePanel scrollable" oninput="updateWordCount(event, 'word-count-summary')"
-      contenteditable="true"></div>
+    <div
+      class="resizablePanel scrollable"
+      oninput="updateWordCount(event, 'word-count-summary')"
+      contenteditable="true"
+    ></div>
   </div>
   <div class="editor-footer">
     <div>
       <p class="word-count" id="word-count-neighbour">Words: 0</p>
       <div id="word-count-summary-holder">
-        <button class="round-button" style="margin-top: -20px" onclick="resetEditors()">
+        <button
+          class="round-button"
+          style="margin-top: -20px"
+          onclick="resetEditors()"
+        >
           <em class="fa-regular fa-trash-can"></em>
         </button>
-        <button class="round-button" style="margin-top: -20px" onclick="copySummary()">
+        <button
+          class="round-button"
+          style="margin-top: -20px"
+          onclick="copySummary()"
+        >
           <em class="fa-regular fa-copy"></em>
         </button>
-        <button class="round-button" style="margin-top: -20px" onclick="downloadSummary()">
+        <button
+          class="round-button"
+          style="margin-top: -20px"
+          onclick="downloadSummary()"
+        >
           <em class="fa-solid fa-download"></em>
         </button>
         <p class="word-count" id="word-count-summary">Words: 0</p>
       </div>
-      <button>Upload Doc</button>
-      <button>Summarize</button>
+      {% include 'front/upload_button.html' %}
+      <button class="btn btn-lg btn-primary" id="summaryButton">
+        Summarize
+        <div id="spinner" class="lds-dual-ing" style="display: none"></div>
+      </button>
     </div>
   </div>
 </div>
@@ -417,6 +464,7 @@
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const neighbourPanel = document.querySelector(".neighbourPanel");
+    const resizablePanel= document.querySelector(".resizablePanel");
     const sampleText = document.getElementById("sample-text");
     const pasteText = document.getElementById("paste-text");
 
@@ -429,11 +477,25 @@
       }
     });
 
+    neighbourPanel.addEventListener('paste', function (event) {
+      event.preventDefault();
+      const text = event.clipboardData.getData('text/plain');
+      neighbourPanel.innerHTML = text;
+      updateWordCount({ target: neighbourPanel }, "word-count-neighbour");
+    });
+
+    resizablePanel.addEventListener('paste', function (event) {
+      event.preventDefault();
+      const text = event.clipboardData.getData('text/plain');
+      resizablePanel.innerHTML = text;
+      updateWordCount({ target: resizablePanel }, "word-count-summary");
+    });
+
     pasteText.addEventListener("click", function () {
       navigator.clipboard
         .readText()
         .then((text) => {
-          neighbourPanel.textContent = text;
+          neighbourPanel.innerHTML = text;
           updateWordCount({ target: neighbourPanel }, "word-count-neighbour");
         })
         .catch((err) => {

@@ -43,6 +43,18 @@
     padding-right: 5px;
   }
 </style>
+<script>
+  function changeContent(event) {
+    const file = event.target.files[0];
+    const path = URL.createObjectURL(file);
+    fetch(path)
+      .then((res) => res.text())
+      .then((text) => {
+        document.querySelector(".neighbourPanel").innerHTML = text;
+      })
+      .catch((e) => console.error(e));
+  }
+</script>
 <div class="file">
   <label for="input-file">
     <i
@@ -58,5 +70,10 @@
         /></svg></i
     >Select a file
   </label>
-  <input id="input-file" class="btn btn-lg" type="file" />
+  <input
+    id="input-file"
+    class="btn btn-lg"
+    type="file"
+    onchange="changeContent(event)"
+  />
 </div>
