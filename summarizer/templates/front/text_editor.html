@@ -33,8 +33,10 @@
   }
 
   #word-count-summary-holder {
+    width: 49%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     position: absolute;
     bottom: 65px;
     right: 5px;
@@ -229,13 +231,27 @@
     cursor: pointer;
   }
 
+  .clear-button-holder {
+    position: absolute;
+    left: calc(50% - 41px);
+    top: 74px;
+  }
+
   @media only screen and (max-width: 992px) {
     .editor-container {
       flex-direction: column;
     }
 
+    .clear-button-holder {
+      left: calc(100% - 41px);
+    }
+
     .resizablePanel::after {
       display: none;
+    }
+
+    #word-count-summary-holder {
+      width: 99%;
     }
 
     .resizablePanel {
@@ -311,13 +327,10 @@
 
   function resetEditors() {
     const neighbourPanel = document.querySelector(".neighbourPanel");
-    const resizablePanel = document.querySelector(".resizablePanel");
 
     neighbourPanel.innerHTML = ``;
-    resizablePanel.innerHTML = ``;
 
     updateWordCount({ target: neighbourPanel }, "word-count-neighbour");
-    updateWordCount({ target: resizablePanel }, "word-count-summary");
   }
 
   function getSummaryLength() {
@@ -386,6 +399,11 @@
           <span style="margin-left: 5px">Long</span>
         </div>
       </div>
+      <div class="clear-button-holder">
+        <button class="round-button" onclick="resetEditors()">
+          <em class="fa-regular fa-trash-can"></em>
+        </button>
+      </div>
     </div>
   </div>
   <div class="editor-container">
@@ -429,28 +447,15 @@
     <div>
       <p class="word-count" id="word-count-neighbour">Words: 0</p>
       <div id="word-count-summary-holder">
-        <button
-          class="round-button"
-          style="margin-top: -20px"
-          onclick="resetEditors()"
-        >
-          <em class="fa-regular fa-trash-can"></em>
-        </button>
-        <button
-          class="round-button"
-          style="margin-top: -20px"
-          onclick="copySummary()"
-        >
-          <em class="fa-regular fa-copy"></em>
-        </button>
-        <button
-          class="round-button"
-          style="margin-top: -20px"
-          onclick="downloadSummary()"
-        >
-          <em class="fa-solid fa-download"></em>
-        </button>
         <p class="word-count" id="word-count-summary">Words: 0</p>
+        <div>
+          <button class="round-button" onclick="copySummary()">
+            <em class="fa-regular fa-copy"></em>
+          </button>
+          <button class="round-button" onclick="downloadSummary()">
+            <em class="fa-solid fa-download"></em>
+          </button>
+        </div>
       </div>
       {% include 'front/upload_button.html' %}
       <button class="btn btn-lg btn-primary" id="summaryButton">
