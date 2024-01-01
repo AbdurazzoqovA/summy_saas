@@ -325,7 +325,7 @@
   }
 
   function copySummary() {
-    const text = document.querySelector(".resizablePanel").innerHTML;
+    const text = document.querySelector(".resizablePanel").innerText;
     if (!text) {
       return;
     }
@@ -464,7 +464,6 @@
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const neighbourPanel = document.querySelector(".neighbourPanel");
-    const resizablePanel= document.querySelector(".resizablePanel");
     const sampleText = document.getElementById("sample-text");
     const pasteText = document.getElementById("paste-text");
 
@@ -475,20 +474,6 @@
       ) {
         removeInputHolder();
       }
-    });
-
-    neighbourPanel.addEventListener('paste', function (event) {
-      event.preventDefault();
-      const text = event.clipboardData.getData('text/plain');
-      neighbourPanel.innerHTML = text;
-      updateWordCount({ target: neighbourPanel }, "word-count-neighbour");
-    });
-
-    resizablePanel.addEventListener('paste', function (event) {
-      event.preventDefault();
-      const text = event.clipboardData.getData('text/plain');
-      resizablePanel.innerHTML = text;
-      updateWordCount({ target: resizablePanel }, "word-count-summary");
     });
 
     pasteText.addEventListener("click", function () {
