@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-^s%8nsca6-*ywr85vd-woi*n(v4=nhzszq3)=!ht%eelvmhl)-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["boostchats.com", "127.0.0.1", "localhost"]
+ALLOWED_HOSTS = ["summarygenerator.io", "127.0.0.1", "localhost"]
 
 
 # Application definition
@@ -209,5 +209,4 @@ LANGUAGES = [
     ("en", "English"),
     ("es", "Spanish"),
     ("de", "German"),
-
 ]

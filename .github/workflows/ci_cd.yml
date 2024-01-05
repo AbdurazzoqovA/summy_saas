@@ -34,3 +34,5 @@ jobs:
       - name: Run Build
         run: |
           ssh target "cd /var/www/summy_saas && sudo systemctl restart gunicorn"
+
+
