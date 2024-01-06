@@ -47,8 +47,8 @@ document.addEventListener("DOMContentLoaded", function () {
               .trim()
               .split(/\s+/)
               .filter((w) => w);
-          wordCountElements.forEach((wordCountElement) => {
-            wordCountElement.innerText = `Words: ${words.length}`;
+          wordCountElements.forEach((el) => {
+            el.innerHTML = `Words: ${words.length}`;
           })
         })
         .catch((error) => {
