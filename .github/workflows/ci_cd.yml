@@ -30,7 +30,7 @@ jobs:
 
       - name: Run down
         run: |
-          ssh target "cd /var/www/summy_saas &&  sudo git pull && source venv/bin/activate && pip install -r reqs.txt "
+          ssh target "cd /var/www/summy_saas &&   git pull && source venv/bin/activate && pip install -r reqs.txt "
       - name: Run Build
         run: |
           ssh target "cd /var/www/summy_saas && sudo systemctl restart gunicorn"
