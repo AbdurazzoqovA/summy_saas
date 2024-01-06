@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% load static %}
-  {% load i18n %}
+  {% load static %} {% load i18n %}
 
   <head>
     <meta charset="UTF-8" />
     <meta name="author" content="Softnio" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="images/favicon.png" />
-    {% block meta_tags %}
-
-    {% endblock %}
+    {% block meta_tags %} {% endblock %}
 
     <link
       rel="stylesheet"
@@ -35,6 +32,39 @@
         border: 3px solid #fff;
         border-color: #fff transparent #fff transparent;
         animation: lds-dual-ring 1.2s linear infinite;
+      }
+      .round-button {
+        background: #ffffff;
+        border: none;
+        height: 35px;
+        width: 35px;
+        text-align: center;
+        border-radius: 50%;
+        transition: all 0.5s ease;
+      }
+      .round-button:hover {
+        background: #5a98ffaa;
+        transition: all 0.5s ease;
+      }
+      .tooltip {
+        display: none;
+        color: white;
+        background-color: #484848;
+        position: absolute;
+        width: max-content;
+        padding: 4px;
+        border-radius: 5px;
+        font-size: x-small;
+        position: absolute;
+        top: -25px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      .tooltip-container {
+        position: relative;
+      }
+      .tooltip-container:hover > .tooltip {
+        display: block;
       }
       @keyframes lds-dual-ring {
         0% {
@@ -110,11 +140,11 @@
                     </a>
                   </li>
                   {% if request.user.is_authenticated %}
-                    <li class="nk-menu-item">
-                      <a href="{% url 'account_logout' %}" class="nk-menu-link">
-                        <span class="nk-menu-text">Logout</span>
-                      </a>
-                    </li>
+                  <li class="nk-menu-item">
+                    <a href="{% url 'account_logout' %}" class="nk-menu-link">
+                      <span class="nk-menu-text">Logout</span>
+                    </a>
+                  </li>
                   {% else %}
                   <li class="nk-menu-item">
                     <a href="{% url 'account_login' %}" class="nk-menu-link">
@@ -139,25 +169,34 @@
                 <ul class="nk-menu-buttons flex-lg-row-reverse">
                   <li><a href="#" class="btn btn-primary">Get Started</a></li>
                   <li class="dropdown">
-                    <a class="link link-base fw-medium dropdown-toggle" href="#" data-bs-toggle="dropdown" data-bs-offset="0, 12">
+                    <a
+                      class="link link-base fw-medium dropdown-toggle"
+                      href="#"
+                      data-bs-toggle="dropdown"
+                      data-bs-offset="0, 12"
+                    >
                       <!-- Display current language -->
-                      {% get_current_language as CURRENT_LANGUAGE %}
-                      {% get_language_info for CURRENT_LANGUAGE as LANG_INFO %}
-                      {{ LANG_INFO.name_local }} ({{ CURRENT_LANGUAGE|upper }})
+                      {% get_current_language as CURRENT_LANGUAGE %} {%
+                      get_language_info for CURRENT_LANGUAGE as LANG_INFO %} {{
+                      LANG_INFO.name_local }} ({{ CURRENT_LANGUAGE|upper }})
                     </a>
-                    <ul class="dropdown-menu dropdown-menu-end shadow-sm border-0">
+                    <ul
+                      class="dropdown-menu dropdown-menu-end shadow-sm border-0"
+                    >
                       <!-- Iterate over available languages -->
                       {% for language in languages %}
                       <li>
-                        <a class="dropdown-item link-base py-2 px-4"
-                          href="/{{language.code}}/">
-                          {{ language.display_name }} ({{ language.code|upper }})
+                        <a
+                          class="dropdown-item link-base py-2 px-4"
+                          href="/{{language.code}}/"
+                        >
+                          {{ language.display_name }} ({{ language.code|upper
+                          }})
                         </a>
                       </li>
                       {% endfor %}
                     </ul>
                   </li>
-
                 </ul>
                 <!-- .nk-menu-buttons -->
               </nav>
@@ -168,15 +207,11 @@
           <!-- .container -->
         </div>
         <!-- .nk-header-main -->
-        {% block hero %}
-
-        {% endblock %}
+        {% block hero %} {% endblock %}
         <!-- .nk-hero -->
       </header>
       <!-- .nk-header -->
-      {% block content %}
-    
-      {% endblock %}
+      {% block content %} {% endblock %}
       <footer class="nk-footer">
         <div class="section section-sm section-top-0">
           <div class="container">

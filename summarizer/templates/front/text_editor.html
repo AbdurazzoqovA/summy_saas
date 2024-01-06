@@ -38,36 +38,8 @@
     align-items: center;
     justify-content: space-between;
     position: absolute;
-    bottom: 70px;
+    bottom: -5px;
     right: 5px;
-  }
-
-  #word-count-summary-holder .word-count {
-    margin-bottom: -10px;
-    margin-left: 5px;
-  }
-
-  #word-count-neighbour {
-    position: absolute;
-    bottom: 50px;
-    left: 5px;
-  }
-
-  .round-button {
-    background: #5a99ff78;
-    border: none;
-    height: 35px;
-    width: 35px;
-    text-align: center;
-    margin-right: 10px;
-    border-radius: 50%;
-    transition: all 0.5s ease;
-  }
-
-  .round-button:hover {
-    background: #5a99ff;
-    color: white;
-    transition: all 0.5s ease;
   }
 
   .mode-container {
@@ -236,26 +208,13 @@
     cursor: pointer;
   }
 
-  .clear-button-holder {
-    position: absolute;
-    left: calc(50% - 41px);
-  }
-
   @media only screen and (max-width: 992px) {
     .editor-container {
       flex-direction: column;
     }
 
-    .clear-button-holder {
-      left: calc(100% - 41px);
-    }
-
     .resizablePanel::after {
       display: none;
-    }
-
-    #word-count-summary-holder {
-      width: 99%;
     }
 
     .resizablePanel {
@@ -264,20 +223,24 @@
       border-top: 4px solid #ccc;
     }
 
+    .mobile-hidden { 
+      display: none;
+    }
+
     .neighbourPanel {
       width: 100% !important;
     }
 
-    #word-count-neighbour {
-      display: none;
+    .editor-footer > div {
+      width: 100%;
     }
 
-    #word-count-neighbour {
-      width: auto;
+    #word-count-summary-holder {
+      width: 170px;
     }
 
     .editor-footer > div {
-      width: 100%;
+      width: calc(100% - 170px);
     }
   }
 </style>
@@ -403,11 +366,6 @@
           <span style="margin-left: 5px">Long</span>
         </div>
       </div>
-      <div class="clear-button-holder">
-        <button class="round-button" onclick="resetEditors()">
-          <em class="fa-regular fa-trash-can"></em>
-        </button>
-      </div>
     </div>
   </div>
   <div class="editor-container">
@@ -449,23 +407,39 @@
   </div>
   <div class="editor-footer">
     <div>
-      <p class="word-count" id="word-count-neighbour">Words: 0</p>
       <div id="word-count-summary-holder">
-        <p class="word-count" id="word-count-summary">Words: 0</p>
         <div>
-          <button class="round-button" onclick="copySummary()">
+          <button
+            class="round-button tooltip-container"
+            onclick="copySummary()"
+          >
+            <span class="tooltip">Copy Summary</span>
             <em class="fa-regular fa-copy"></em>
           </button>
-          <button class="round-button" onclick="downloadSummary()">
+          <button
+            class="round-button tooltip-container"
+            onclick="downloadSummary()"
+          >
+            <span class="tooltip">Download</span>
             <em class="fa-solid fa-download"></em>
           </button>
         </div>
+        <p class="word-count" id="word-count-summary">Words: 0</p>
       </div>
-      {% include 'front/upload_button.html' %}
-      <button class="btn btn-lg btn-primary" id="summaryButton">
-        Summarize
-        <div id="spinner" class="lds-dual-ing" style="display: none"></div>
-      </button>
+      <div style="display: flex; align-items: center;">
+        {% include 'front/upload_button.html' %}
+        <button class="round-button tooltip-container" onclick="resetEditors()">
+          <span class="tooltip">Clear</span>
+          <em class="fa-regular fa-trash-can"></em>
+        </button>
+        <p class="word-count mobile-hidden" id="word-count-neighbour">Words: 0</p>
+      </div>
+      <div>
+        <button class="btn btn-lg btn-primary" id="summaryButton">
+          Summarize
+          <div id="spinner" class="lds-dual-ing" style="display: none"></div>
+        </button>
+      </div>
     </div>
   </div>
 </div>
