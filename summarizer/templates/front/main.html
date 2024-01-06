@@ -161,9 +161,9 @@
                       data-bs-offset="0, 12"
                     >
                       <!-- Display current language -->
-                      {% get_current_language as CURRENT_LANGUAGE %} {%
-                      get_language_info for CURRENT_LANGUAGE as LANG_INFO %} {{
-                      LANG_INFO.name_local }} ({{ CURRENT_LANGUAGE|upper }})
+                      {% get_current_language as CURRENT_LANGUAGE %}
+                      {% get_language_info for CURRENT_LANGUAGE as LANG_INFO %}
+                      {{ LANG_INFO.name_local }} ({{ CURRENT_LANGUAGE|upper }})
                     </a>
                     <ul
                       class="dropdown-menu dropdown-menu-end shadow-sm border-0"
