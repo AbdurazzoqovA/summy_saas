@@ -15,6 +15,11 @@
     />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.7.570/pdf.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
     <meta name="csrf-token" content="{{ csrf_token }}" />
     <style>
       .lds-dual-ring {
@@ -45,26 +50,6 @@
       .round-button:hover {
         background: #5a98ffaa;
         transition: all 0.5s ease;
-      }
-      .tooltip {
-        display: none;
-        color: white;
-        background-color: #484848;
-        position: absolute;
-        width: max-content;
-        padding: 4px;
-        border-radius: 5px;
-        font-size: x-small;
-        position: absolute;
-        top: -25px;
-        left: 50%;
-        transform: translateX(-50%);
-      }
-      .tooltip-container {
-        position: relative;
-      }
-      .tooltip-container:hover > .tooltip {
-        display: block;
       }
       @keyframes lds-dual-ring {
         0% {
@@ -372,5 +357,12 @@
 
     <script src="{% static '/front/assets/js/bundle.js' %}?v1.5.0"></script>
     <script src="{% static '/front/assets/js/scripts.js' %}?v1.5.0"></script>
+    <script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip({
+          trigger: "hover",
+        });
+      });
+    </script>
   </body>
 </html>

@@ -7,7 +7,7 @@
   }
 
   .file > label > em {
-    margin-top: 8px;
+    margin-top: 10px;
   }
 
   .file > input[type="file"] {
@@ -27,9 +27,14 @@
   }
 </script>
 <div class="file">
-  <label for="input-file" class="round-button tooltip-container">
-    <span class="tooltip">Attach</span>
-    <em class="fa fa-paperclip"></em>
+  <label
+    for="input-file"
+    class="round-button"
+    data-toggle="tooltip"
+    data-placement="top"
+    title="Upload File"
+  >
+    <em class="fa fa-paperclip" style="color: black"></em>
   </label>
   <input
     id="input-file"

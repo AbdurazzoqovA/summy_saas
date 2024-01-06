@@ -30,6 +30,7 @@
 
   .word-count {
     background-color: white;
+    margin: 0px 5px;
   }
 
   #word-count-summary-holder {
@@ -38,7 +39,6 @@
     align-items: center;
     justify-content: space-between;
     position: absolute;
-    bottom: -5px;
     right: 5px;
   }
 
@@ -223,7 +223,7 @@
       border-top: 4px solid #ccc;
     }
 
-    .mobile-hidden { 
+    .mobile-hidden {
       display: none;
     }
 
@@ -304,24 +304,36 @@
     return document.getElementById("summary-length").value;
   }
 
-  function copySummary() {
+  function copySummary(event) {
+    const tooltip = event.target;
     const text = document.querySelector(".resizablePanel").innerText;
     if (!text) {
-      return;
+      $('#copyButton').attr('data-bs-original-title', 'Nothing to copy!').tooltip('show');
+    } else {
+      navigator.clipboard.writeText(text);
+      $('#copyButton').attr('data-bs-original-title', 'Copied!').tooltip('show');
     }
-    navigator.clipboard.writeText(text);
+    setTimeout(() => {
+      $('#copyButton').attr('data-bs-original-title', 'Copy Summary!').tooltip('hide');
+    }, 1000);
   }
 
   function downloadSummary() {
-    const text = document.querySelector(".resizablePanel").innerHTML;
+    var text = document.querySelector(".resizablePanel").innerHTML;
     if (!text) {
       return;
     }
-    const blob = new Blob([text], { type: "text/html" });
+    var preHtml =
+      "<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'><head><meta charset='utf-8'><title>Export HTML To Doc</title></head><body>";
+    var postHtml = "</body></html>";
+    text = preHtml + text + postHtml;
+    const blob = new Blob(["\ufeff", text], {
+      type: "application/msword",
+    });
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.href = url;
-    link.download = "summary.html";
+    link.download = "summary.doc";
     link.click();
     URL.revokeObjectURL(url);
     link.remove();
@@ -410,29 +422,41 @@
       <div id="word-count-summary-holder">
         <div>
           <button
-            class="round-button tooltip-container"
-            onclick="copySummary()"
+            class="round-button"
+            id="copyButton"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Copy Summary"
+            onclick="copySummary(event)"
           >
-            <span class="tooltip">Copy Summary</span>
-            <em class="fa-regular fa-copy"></em>
+            <em class="fa-regular fa-copy" style="pointer-events: none"></em>
           </button>
           <button
-            class="round-button tooltip-container"
+            class="round-button"
+            data-toggle="tooltip"
+            data-placement="top"
+            title="Download"
             onclick="downloadSummary()"
           >
-            <span class="tooltip">Download</span>
             <em class="fa-solid fa-download"></em>
           </button>
         </div>
         <p class="word-count" id="word-count-summary">Words: 0</p>
       </div>
-      <div style="display: flex; align-items: center;">
+      <div style="display: flex; align-items: center">
         {% include 'front/upload_button.html' %}
-        <button class="round-button tooltip-container" onclick="resetEditors()">
-          <span class="tooltip">Clear</span>
+        <button
+          class="round-button"
+          data-toggle="tooltip"
+          data-placement="top"
+          title="Clear"
+          onclick="resetEditors()"
+        >
           <em class="fa-regular fa-trash-can"></em>
         </button>
-        <p class="word-count mobile-hidden" id="word-count-neighbour">Words: 0</p>
+        <p class="word-count mobile-hidden" id="word-count-neighbour">
+          Words: 0
+        </p>
       </div>
       <div>
         <button class="btn btn-lg btn-primary" id="summaryButton">
