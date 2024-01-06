@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
         let alertError = document.getElementById('alertError');
         
         // Send POST request
-        fetch('https://boostchats.com/summary/', {
+        fetch('/summary/', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
