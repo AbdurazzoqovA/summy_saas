@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     summaryButton.addEventListener('click', function() {
         const text = neighbourPanel.textContent || neighbourPanel.innerText;
         const data = { text: text };
-
+        console.log("button is pressed")
         // Show spinner and disable button
         spinner.style.display = 'block';
         summaryButton.disabled = true;
