@@ -37,7 +37,7 @@
     width: 49%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     position: absolute;
     right: 5px;
   }
@@ -63,7 +63,7 @@
   }
 
   .mode-button[selected] {
-    background-color: #5a98ff;
+    background-color: #33B89F;
     color: white;
   }
 
@@ -135,7 +135,7 @@
 
   .summorg-input {
     text-align: center;
-    background: linear-gradient(180deg, #eafaf6 0%, #c8dcfd 70%);
+    background: linear-gradient(180deg, #eafaf6 0%, #33B89F 90%);
     width: 300px;
     padding: 20px;
     border-radius: 20px;
@@ -195,7 +195,7 @@
     height: 20px;
     border-radius: 50%;
     background: white;
-    border: 2px solid #5a99ff;
+    border: 2px solid #33B89F;
     cursor: pointer;
   }
 
@@ -204,8 +204,12 @@
     height: 20px;
     border-radius: 50%;
     background: white;
-    border: 2px solid #5a99ff;
+    border: 2px solid #33B89F;
     cursor: pointer;
+  }
+
+  .mobile-only {
+    display: none;
   }
 
   @media only screen and (max-width: 992px) {
@@ -224,7 +228,11 @@
     }
 
     .mobile-hidden {
-      display: none;
+      display: none !important;
+    }
+
+    .mobile-only {
+      display: block !important;
     }
 
     .neighbourPanel {
@@ -237,10 +245,6 @@
 
     #word-count-summary-holder {
       width: 170px;
-    }
-
-    .editor-footer > div {
-      width: calc(100% - 170px);
     }
   }
 </style>
@@ -277,12 +281,14 @@
   }
 
   function updateWordCount(event, id) {
-    const wordCountElement = document.getElementById(id);
+    const wordCountElements = document.querySelectorAll('#' + id);
     const words = event.target.innerText
       .trim()
       .split(/\s+/)
       .filter((w) => w);
-    wordCountElement.innerText = `Words: ${words.length}`;
+    wordCountElements.forEach((el) => {
+      el.innerText = `Words: ${words.length}`;
+    });
   }
 
   function removeInputHolder() {
@@ -308,13 +314,19 @@
     const tooltip = event.target;
     const text = document.querySelector(".resizablePanel").innerText;
     if (!text) {
-      $('#copyButton').attr('data-bs-original-title', 'Nothing to copy!').tooltip('show');
+      $("#copyButton")
+        .attr("data-bs-original-title", "Nothing to copy!")
+        .tooltip("show");
     } else {
       navigator.clipboard.writeText(text);
-      $('#copyButton').attr('data-bs-original-title', 'Copied!').tooltip('show');
+      $("#copyButton")
+        .attr("data-bs-original-title", "Copied!")
+        .tooltip("show");
     }
     setTimeout(() => {
-      $('#copyButton').attr('data-bs-original-title', 'Copy Summary!').tooltip('hide');
+      $("#copyButton")
+        .attr("data-bs-original-title", "Copy Summary!")
+        .tooltip("hide");
     }, 1000);
   }
 
@@ -419,8 +431,8 @@
   </div>
   <div class="editor-footer">
     <div>
-      <div id="word-count-summary-holder">
-        <div>
+      <div id="word-count-summary-holder" class="mobile-hidden">
+        <div style="display: flex; align-items: center">
           <button
             class="round-button"
             id="copyButton"
@@ -440,8 +452,8 @@
           >
             <em class="fa-solid fa-download"></em>
           </button>
+          <p class="word-count" id="word-count-summary">Words: 0</p>
         </div>
-        <p class="word-count" id="word-count-summary">Words: 0</p>
       </div>
       <div style="display: flex; align-items: center">
         {% include 'front/upload_button.html' %}
@@ -457,6 +469,26 @@
         <p class="word-count mobile-hidden" id="word-count-neighbour">
           Words: 0
         </p>
+        <button
+          class="round-button mobile-only"
+          id="copyButton"
+          data-toggle="tooltip"
+          data-placement="top"
+          title="Copy Summary"
+          onclick="copySummary(event)"
+        >
+          <em class="fa-regular fa-copy" style="pointer-events: none"></em>
+        </button>
+        <button
+          class="round-button mobile-only"
+          data-toggle="tooltip"
+          data-placement="top"
+          title="Download"
+          onclick="downloadSummary()"
+        >
+          <em class="fa-solid fa-download"></em>
+        </button>
+        <p class="word-count mobile-only" id="word-count-summary">Words: 0</p>
       </div>
       <div>
         <button class="btn btn-lg btn-primary" id="summaryButton">

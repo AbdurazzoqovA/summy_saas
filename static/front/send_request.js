@@ -42,12 +42,14 @@ document.addEventListener("DOMContentLoaded", function () {
           }
           // Update the resizablePanel with the summary
           resizablePanel.textContent = data.summary; // Assuming the response has a "summary" key
-          const wordCountElement = document.getElementById("word-count-summary");
+          const wordCountElements = document.querySelectorAll("#word-count-summary");
           const words = data.summary
               .trim()
               .split(/\s+/)
               .filter((w) => w);
-          wordCountElement.innerText = `Words: ${words.length}`;
+          wordCountElements.forEach((wordCountElement) => {
+            wordCountElement.innerText = `Words: ${words.length}`;
+          })
         })
         .catch((error) => {
           console.error("Error:", error);
