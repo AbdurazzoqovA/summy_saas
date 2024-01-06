@@ -1,7 +1,7 @@
 import pprint
 import google.generativeai as palm
 
-palm.configure(api_key="AIzaSyCVg1RIYovOhA_3I-ll6jCd-B0BWm3XJ7w")
+palm.configure(api_key="AIzaSyAxFzWVjI7vyJH2t3hUB1JAqjLOilSTYqs")
 
 
 def summarizer(text):

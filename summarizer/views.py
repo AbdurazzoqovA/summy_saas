@@ -54,10 +54,10 @@ def summary(request):
         elif "SampleTextPasteText" == temp_text:
             return JsonResponse({"error": "plase provide more text"}, status=400)
 
-        summary = summarizer(
+        summary_result = summarizer(
             text
         )  # Ensure your summarizer function is properly defined
-        return JsonResponse({"summary": summary})
+        return JsonResponse({"summary": summary_result})
 
 
 def blog(request):

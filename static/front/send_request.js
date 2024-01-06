@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
         let alertError = document.getElementById('alertError');
         
         // Send POST request
-        fetch('http://summarygenerator.io/summary/', {
+        fetch('https://summarygenerator.io/en/summary/', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
