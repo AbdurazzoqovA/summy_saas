@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const summaryButton = document.getElementById("summaryButton");
     const neighbourPanel = document.querySelector(".neighbourPanel");
     const resizablePanel = document.querySelector(".resizablePanel");
-    const spinner = document.getElementById("spinner");
+    const spinner = document.getElementById("summary-spinner");
   
     // Function to get CSRF token from the meta tag
     function getCsrfToken() {
@@ -14,7 +14,6 @@ document.addEventListener("DOMContentLoaded", function () {
     summaryButton.addEventListener("click", function () {
       const text = neighbourPanel.textContent || neighbourPanel.innerText;
       const data = { text: text };
-      console.log("button is pressed");
       // Show spinner and disable button
       spinner.style.display = "block";
       summaryButton.disabled = true;

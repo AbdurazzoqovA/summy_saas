@@ -63,7 +63,7 @@
   }
 
   .mode-button[selected] {
-    background-color: #33B89F;
+    background-color: #33b89f;
     color: white;
   }
 
@@ -195,7 +195,7 @@
     height: 20px;
     border-radius: 50%;
     background: white;
-    border: 2px solid #33B89F;
+    border: 2px solid #33b89f;
     cursor: pointer;
   }
 
@@ -204,7 +204,7 @@
     height: 20px;
     border-radius: 50%;
     background: white;
-    border: 2px solid #33B89F;
+    border: 2px solid #33b89f;
     cursor: pointer;
   }
 
@@ -281,7 +281,7 @@
   }
 
   function updateWordCount(event, id) {
-    const wordCountElements = document.querySelectorAll('#' + id);
+    const wordCountElements = document.querySelectorAll("#" + id);
     const words = event.target.innerText
       .trim()
       .split(/\s+/)
@@ -492,8 +492,14 @@
       </div>
       <div>
         <button class="btn btn-lg btn-primary" id="summaryButton">
+          <span
+            id="summary-spinner"
+            class="spinner-border spinner-border-sm"
+            role="status"
+            aria-hidden="true"
+            style="display: none;margin-right: 10px;"
+          ></span>
           Summarize
-          <div id="spinner" class="lds-dual-ing" style="display: none"></div>
         </button>
       </div>
     </div>
