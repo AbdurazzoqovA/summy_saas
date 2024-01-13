@@ -53,15 +53,11 @@ document.addEventListener("DOMContentLoaded", function () {
           } else {
             // If the response is successful, update the resizablePanel
             alertError.style.display = "none";
-      
             // let result = marked.marked(data.summary);
-          
             resizablePanel.innerHTML = data.summary; // Assuming the response has a "summary" key
-           
-            
           }
           // Update the resizablePanel with the summary
-          resizablePanel.textContent = data.summary; // Assuming the response has a "summary" key
+          resizablePanel.innerHTML = data.summary; // Assuming the response has a "summary" key
           const wordCountElements = document.querySelectorAll("#word-count-summary");
           const words = data.summary
               .trim()
