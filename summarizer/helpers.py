@@ -1,5 +1,6 @@
 import pprint
 import google.generativeai as palm
+import markdown
 palm.configure(api_key="AIzaSyAxFzWVjI7vyJH2t3hUB1JAqjLOilSTYqs")
 
 
@@ -31,4 +32,4 @@ def summarizer(
         candidate_count=1,
     )
   
-    return completion.result
+    return markdown(completion.result)
