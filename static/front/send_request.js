@@ -48,16 +48,14 @@ document.addEventListener("DOMContentLoaded", function () {
         .then((data) => {
           if (data.error) {
             // If the response includes an error key, display it
-            alertError.textContent = data.error; // Set the error message
+            alertError.innerHTML = data.error; // Set the error message
             alertError.style.display = "block"; // Show the alert
           } else {
             // If the response is successful, update the resizablePanel
             alertError.style.display = "none";
             // let result = marked.marked(data.summary);
-            resizablePanel.innerHTML = data.summary; // Assuming the response has a "summary" key
+            resizablePanel.innerHTML = data?.summary; // Assuming the response has a "summary" key
           }
-          // Update the resizablePanel with the summary
-          resizablePanel.innerHTML = data.summary; // Assuming the response has a "summary" key
           const wordCountElements = document.querySelectorAll("#word-count-summary");
           const words = data.summary
               .trim()
