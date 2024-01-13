@@ -33,3 +33,4 @@ pillow==10.1.0
 stripe
 python-dateutil
 django-jazzmin
+markdown

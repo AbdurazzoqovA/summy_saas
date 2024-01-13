@@ -1,3 +1,13 @@
+
+function renderMarkdown() {
+    var markdownContent = document.getElementById('markdown-content').innerText;
+    var htmlContent = marked.parse(markdownContent);
+    document.getElementById('markdown-content').innerHTML = htmlContent;
+}
+function decodeHtml(html) {
+    return html.replace(/&lt;/g, "<").replace(/&gt;/g, ">");
+}
+
 document.addEventListener("DOMContentLoaded", function () {
     const summaryButton = document.getElementById("summaryButton");
     const neighbourPanel = document.querySelector(".neighbourPanel");
@@ -13,14 +23,20 @@ document.addEventListener("DOMContentLoaded", function () {
   
     summaryButton.addEventListener("click", function () {
       const text = neighbourPanel.textContent || neighbourPanel.innerText;
-      const data = { text: text };
+      // get button which has selected attribute
+      let mode = document.querySelector(".mode-button[selected]").innerText;
+      let rangeValue = 0
+      if (mode == "Paragraph"){
+         rangeValue = document.getElementById("summary-length").value;
+      } 
+      const data = { text: text, mode: mode, rangeValue: rangeValue};
       // Show spinner and disable button
       spinner.style.display = "block";
       summaryButton.disabled = true;
       let alertError = document.getElementById("alertError");
   
       // Send POST request
-      fetch("https://summarygenerator.io/en/summary/", {
+      fetch("https://summarygenerator.io//en/summary/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -37,7 +53,12 @@ document.addEventListener("DOMContentLoaded", function () {
           } else {
             // If the response is successful, update the resizablePanel
             alertError.style.display = "none";
-            resizablePanel.textContent = data.summary; // Assuming the response has a "summary" key
+      
+            // let result = marked.marked(data.summary);
+          
+            resizablePanel.innerHTML = data.summary; // Assuming the response has a "summary" key
+           
+            
           }
           // Update the resizablePanel with the summary
           resizablePanel.textContent = data.summary; // Assuming the response has a "summary" key

@@ -4,13 +4,24 @@ import google.generativeai as palm
 palm.configure(api_key="AIzaSyAxFzWVjI7vyJH2t3hUB1JAqjLOilSTYqs")
 
 
-def summarizer(text):
+def summarizer(
+    text,
+    mode,
+    range_value,
+):
     model = "models/text-bison-001"
-    prompt = f"""
-    Provide a short summary while keeping main points for the following text:
-    {text}
 
-    """
+    if mode == "Paragraph":
+        prompt = f"""
+        Summarize the text and shorten it by {range_value * 10}%, text:
+        {text}
+
+        """
+    else:
+        prompt = f"""
+       summarize the text and present it in bullet points important, text:
+        {text}
+        """
 
     completion = palm.generate_text(
         model=model,
@@ -20,4 +31,5 @@ def summarizer(text):
         max_output_tokens=800,
         candidate_count=1,
     )
+  
     return completion.result

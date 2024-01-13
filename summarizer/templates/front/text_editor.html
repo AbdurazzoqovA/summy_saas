@@ -257,7 +257,7 @@
 />
 <script>
   function setMode(event) {
-    let mode = event.target.getAttribute("mode");
+    var mode = event.target.getAttribute("mode");
     let lengthSlider = document.getElementById("summary-length-container");
     document.querySelectorAll(".mode-button").forEach((el) => {
       if (mode === el.getAttribute("mode")) {
@@ -279,6 +279,8 @@
       .querySelector(".editor-button[selected]")
       .getAttribute("mode");
   }
+
+
 
   function updateWordCount(event, id) {
     const wordCountElements = document.querySelectorAll("#" + id);
@@ -424,6 +426,7 @@
       </div>
     </div>
     <div
+      id="markdown-content"
       class="resizablePanel scrollable"
       oninput="updateWordCount(event, 'word-count-summary')"
       contenteditable="true"

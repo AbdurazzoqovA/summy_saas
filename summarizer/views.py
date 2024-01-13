@@ -47,6 +47,8 @@ def summary(request):
         # Parse the request body as JSON
         data = json.loads(request.body)
         text = data.get("text")
+        mode = data.get("mode")
+        range_value = data.get("rangeValue")
         temp_text = text.replace("\n", " ").replace(" ", "")
 
         if len(text) < 10:
@@ -55,7 +57,9 @@ def summary(request):
             return JsonResponse({"error": "plase provide more text"}, status=400)
 
         summary_result = summarizer(
-            text
+            text,
+            mode,
+            range_value,
         )  # Ensure your summarizer function is properly defined
         return JsonResponse({"summary": summary_result})
 
