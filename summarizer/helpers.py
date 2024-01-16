@@ -24,7 +24,7 @@ def summarizer(
 
     if mode == "Paragraph":
         prompt = f"""
-        Summarize the text and shorten it by {range_percentage * 10}%, text:
+        Summarize the text and shorten it by {range_percentage}, text:
         {text}
 
         """
