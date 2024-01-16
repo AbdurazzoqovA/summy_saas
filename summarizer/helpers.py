@@ -11,10 +11,20 @@ def summarizer(
     range_value,
 ):
     model = "models/text-bison-001"
+    if range_value == 5:
+        range_percentage = "20%"
+    elif range_value == 4:
+        range_percentage = "40%"
+    elif range_value == 3:
+        range_percentage = "50%"
+    elif range_value == 2:
+        range_percentage = "70%"
+    elif range_value == 1:
+        range_percentage = "90%"
 
     if mode == "Paragraph":
         prompt = f"""
-        Summarize the text and shorten it by {range_value * 10}%, text:
+        Summarize the text and shorten it by {range_percentage * 10}%, text:
         {text}
 
         """
