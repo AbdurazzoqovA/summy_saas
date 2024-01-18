@@ -11,6 +11,7 @@ def summarizer(
     range_value,
 ):
     model = "models/text-bison-001"
+    range_value = int(range_value)
     if range_value == 5:
         range_percentage = "20%"
     elif range_value == 4:
