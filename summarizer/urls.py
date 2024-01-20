@@ -19,4 +19,7 @@ urlpatterns = [
         name="account_reset_password",
     ),
     path("blog/<slug:slug>", views.blog_detail, name="blog_detail"),
+    path("terms/", views.terms, name="terms"),
+    path("privacy/", views.privacy, name="privacy"),
+    path("contact/", views.contact, name="contact"),
 ]

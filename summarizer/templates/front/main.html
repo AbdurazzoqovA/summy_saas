@@ -273,7 +273,7 @@
                         Use Case
                       </h6>
                       <ul class="list gy-2 list-link-base">
-                        <li><a class="link-base" href="#">Contact Us</a></li>
+                        <li><a class="link-base" href="{% url 'contact' %}">Contact Us</a></li>
                         <li><a class="link-base" href="#">Weekly Demos</a></li>
                         <li><a class="link-base" href="#">Report a Bug</a></li>
                         <li>
@@ -341,8 +341,8 @@
                   <ul
                     class="list list-row gx-4 justify-content-start justify-content-md-end"
                   >
-                    <li><a href="#" class="link-primary">Terms</a></li>
-                    <li><a href="#" class="link-primary">Privacy Policy</a></li>
+                    <li><a href="{% url 'terms' %}" class="link-primary">Terms</a></li>
+                    <li><a href="{% url 'privacy' %}" class="link-primary">Privacy Policy</a></li>
                   </ul>
                 </div>
                 <!-- .col -->

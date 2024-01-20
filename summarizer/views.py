@@ -119,3 +119,13 @@ class LoginView(AllauthLoginView):
 
 class CustomPasswordResetView(AllauthPasswordResetView):
     template_name = "account/password_reset.html"
+
+
+def terms(request):
+    return render(request, "front/terms.html")
+
+def privacy(request):
+    return render(request, "front/privacy.html")
+
+def contact(request):
+    return render(request, "front/contact.html")
