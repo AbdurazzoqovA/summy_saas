@@ -103,8 +103,8 @@ class CreateCheckoutSessionView(View):
                 ],
                 metadata={"word_count": word_count, "plan_type": plan_type},
                 mode="subscription",
-                success_url="https://boostchats.com/",
-                cancel_url="https://boostchats.com/",
+                success_url="http://summarygenerator.io/",
+                cancel_url="http://summarygenerator.io/",
             )
             return JsonResponse({"id": checkout_session.id})
         except Exception as e:
