@@ -213,7 +213,7 @@ def document_detail(request, document_id):
 @login_required
 def logout_view(request):
     logout(request)
-    return redirect("index")
+    return redirect("home")
 
 
 @login_required
