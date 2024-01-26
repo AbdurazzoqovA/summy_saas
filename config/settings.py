@@ -48,6 +48,8 @@ INSTALLED_APPS = [
     "ckeditor",
     "payments",
     "translations",
+    "dashboard",
+    "django.contrib.humanize",
 ]
 
 SITE_ID = 1

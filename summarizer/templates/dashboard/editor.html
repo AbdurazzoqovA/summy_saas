@@ -1,0 +1,794 @@
+{% extends 'dashboard/main.html' %}
+
+{% load static %}
+{% block meta_tags %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/html-docx-js@0.3.1/dist/html-docx.js"></script>
+
+
+<title>AI Content Writer</title>
+{% endblock %}
+{% block content %}
+
+<style>
+.spinner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8); /* semi-transparent white */
+}
+
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+</style>
+    <div class="nk-editor">
+        <div class="nk-editor-header">
+            <div class="nk-editor-title">
+                <h4 class="me-3 mb-0 line-clamp-1">Content Writer</h4>
+               
+            </div>
+            <div class="nk-editor-tools d-none d-xl-flex">
+                <ul class="d-inline-flex gap gx-3 gx-lg-4 pe-4 pe-lg-5">
+                    <li>
+                        <span class="sub-text text-nowrap">Words <span class="text-dark" id="words_count">0</span></span>
+                    </li>
+                    <li>
+                        <span class="sub-text text-nowrap">Characters <span class="text-dark" id="chars_count">0</span></span>
+                    </li>
+                </ul>
+                <ul class="d-inline-flex gap gx-3">
+                    <li>
+                        <button type="button" class="btn btn-md btn-primary rounded-pill" id="generateButton">Generate</button>
+                    </li>
+                    <li>
+                        <button   class="btn btn-md btn-success rounded-pill disabled" type="button" id="humanizeButton"> Humanize </button>
+                    </li>
+                    <li>
+                        <button  id="detectButton"  class="btn btn-md  btn-info rounded-pill disabled" type="button">
+                            Check for AI </button>
+                    </li>
+                    
+                    <li>
+                        <div class="dropdown">
+                            <button class="btn btn-md btn-light rounded-pill" type="button" data-bs-toggle="dropdown">
+                                <span>Export</span>
+                                <em class="icon ni ni-chevron-down"></em>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#doc">Export as Doc</a></li>
+                                
+                            </ul>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="nk-editor-main">
+            <div class="nk-editor-base">
+                <ul class="nav nav-tabs nav-sm nav-tabs-s1 px-3">
+                    <li class="nav-item">
+                        <button class="nav-link active" type="button" data-bs-toggle="tab"
+                            data-bs-target="#AI-Writer">AI Writer</button>
+                    </li>
+                   
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="AI-Writer">
+                        <form  class="px-4 py-4">{% csrf_token %}
+                            <div class="row gy-4 gx-4">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label class="form-label">Select Template</label>
+                                        <div class="form-control-wrap">
+                                            <select class="js-select" data-search="true" data-sort="false" id="content_type">
+                                                <option value="essay">Essay</option>
+                                                <option value="blog_post" selected>Blog Post</option>
+                                                <option value="Blog Title">Blog Title</option>
+                                                <option value="blog_outline">Blog Outline</option>
+                                                <option value="social_media_facebook">Social Media Post - Facebook</option>
+                                                <option value="social_media_twitter">Social Media Post - Twitter</option>
+                                                <option value="social_media_linkedin">Social Media Post - Linkedin</option>
+                                                <option value="ad_content">Ad Content</option>
+                                                <option value="email">Email Content</option>
+                                                
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label class="form-label">What do you want to generate?</label>
+                                        <div class="form-control-wrap">
+                                            <textarea cols="30" rows="4"
+                                                class="form-control" id="textToGenerate">How AI detectors work?</textarea>
+                                        </div>
+                                        <div class="form-note d-flex justify-content-end"><span>Please enter only the topic for your request. Avoid using phrases such as 'write' or 'generate' to ensure the best
+                                        results.</span>
+                                        </div>
+                                    </div>
+                                </div><!-- .col -->
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label for="primaryKeywords" class="form-label">Primary Keywords</label>
+                                        <div class="form-control-wrap">
+                                            <input  id="primaryKeywords" type="text" class="form-control"
+                                                value="AI detectors, AI content, AI Humanizers" />
+                                        </div>
+                                        <div class="form-note d-flex justify-content-between"><span>Separated with a
+                                                comma</span><span>0/10</span></div>
+                                    </div>
+                                </div><!-- .col -->
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label class="form-label">Select Language</label>
+                                        <div class="form-control-wrap">
+                                            <select class="js-select" id="selectLanguage" data-search="true" data-sort="false">
+                                                <option value="English US">English US</option>
+                                                <option value="Español">Español</option>
+                                                <option value="Français">Français</option>
+                                               
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div><!-- .col -->
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label class="form-label">Select Tone</label>
+                                        <div class="form-control-wrap">
+                                            <select class="js-select" id="selectTone" data-search="true" data-sort="false">
+                                                <option value="Friendly">Friendly</option>
+                                                <option value="Creative">Creative</option>
+                                                <option value="Extreme">Extreme</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div><!-- .col -->
+                            <div class="col-12">
+                                <div class="form-check form-switch">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexSwitchChecked" checked="">
+                                    <label class="form-check-label" for="flexSwitchChecked"> Extend mode </label>
+                                    <span>Select at least 30 words to Extend</span>
+                                </div>
+                            </div>
+                                <!-- <div class="col-6">
+                                    <button type="button" class="btn btn-primary w-100" id="generateButton">Generate</button>
+                                </div> -->
+                                
+                            </div><!-- .row -->
+                        </form>
+                    </div><!-- .tab-pane -->
+                  
+                </div><!-- .tab-content -->
+            </div><!-- .nk-editor-base -->
+            <div class="nk-editor-body">
+                <div class="wide-md h-100">
+                    <div class="js-editor nk-editor-style-clean nk-editor-full" data-menubar="false" id="editor-v1">
+                    
+                    </div> <!-- .js-editor -->
+                </div>
+            </div><!-- .nk-editor-body -->
+        </div><!-- .nk-editor-main -->
+    </div><!-- .nk-editor -->
+<div id="customPopover" class="popover" style="display: none; position: absolute;">
+    <div class="popover-body">
+        
+        <button class="btn btn-outline-light" id="extendButton" style="display: flex; align-items: center;">
+            <img src="{% static '/assets/images/aihumanize_icon.png' %}" alt="" class="popover-img"
+                style="width: 40px; height: 30px; margin-right: 10px;">
+
+            <!-- Adjust the width as needed -->
+            Extend Content
+        </button>
+    </div>
+</div>
+
+<!-- AI Result Modal -->
+<div class="modal" id="aiResultModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">AI Detection Result</h5>
+                <button type="button" class="btn btn-danger btn-icon close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body" id="modalContent">
+                <!-- Result text will be injected here -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="wordLimitModal" tabindex="-1">
+    {% load socialaccount %}
+    <div class="modal-dialog">
+        <div class="modal-content">
+            {% if not user.is_authenticated %}
+            <div class="modal-body p-4">
+                <div class="media media-rg media-middle media-circle text-primary bg-primary bg-opacity-20 mb-3">
+                    <em class="icon ni ni-spark-fill"></em>
+                </div>
+                <h2 class="text-primary">Get started today with <span class="text-success">400</span> free words.</h2>
+                <p>Sign up to humanize and make this text undetectable.</p>
+                <div class="card bg-lighter bg-opacity-80 shadow-none mt-2">
+                    <div class="card-body">
+                        <h5>What you will gain after signing up?</h5>
+                        <ul class="pricing-list d-flex flex-column gap-3 fs-lg mt-5 mb-0">
+                            <li>Rewrites <strong class=" fw-medium" id="listWordsCount">400</strong> words for free
+                            </li>
+
+                            <li>Built-in AI detector</li>
+                            <li> No weird or random words</li>
+                            <li>Passes AI detectors</li>
+                            <li>High quality, legible content</li>
+                            <li>Writing level matching</li>
+                        </ul>
+                    </div>
+                </div><!-- .card -->
+
+                <div class="vstack gap-4 mt-4">
+                    <a href="{% provider_login_url 'google' %}" class="btn account-btn py-4">
+                        <img src="{% static 'assets/images/icons/google.svg' %}" alt="" width="24"
+                            class="img-fluid icon" />
+                        <span>Continue With Google</span>
+                    </a>
+                    <a href="{% url 'account_signup' %}" class="btn account-btn py-4">
+                        <img src="{% static 'assets/images/icons/email.svg' %}" alt="" width="24"
+                            class="img-fluid icon" />
+                        <span>Continue With Email</span>
+                    </a>
+                    <button type="button" class="btn account-btn py-4 mt-3" data-bs-dismiss="modal">
+                        <span>Continue Exploring</span>
+                    </button>
+                </div>
+                <!-- <div class="col-12 "><button class="btn btn-outline-light " data-bs-dismiss="modal">Keep Plan</button></div>
+                    <div class="col-12 mt-2"><a href="pricing-plans.html" class="btn btn-primary ">Change Plan</a></div> -->
+
+            </div>
+            {% else %}
+            <div class="modal-body p-4">
+               
+                <h2 class="text-primary">Upgrade Required</h2>
+                <p>Your current plan does not include unlimited AI writer access.</p>
+                <p><strong>Upgrade to our premium plan</strong> for unrestricted use of our advanced AI writing features.</p>
+                
+
+                <div class="vstack gap-4 mt-4">
+                    <a href="{% url 'pricing' %}" class="btn btn-primary">
+                        <span>View Subscription Plans</span>
+                    </a>
+                    
+                </div>
+            </div>
+
+            {% endif %}
+            <!-- .modal-body -->
+        </div><!-- .modal-content -->
+    </div><!-- .modal-dialog -->
+</div>
+
+<script>
+    document.getElementById('humanizeButton').addEventListener('click', function () {
+            var button = this;
+            button.innerHTML = 'Loading... <span class="spinner-border ms-2 spinner-border-sm" role="status" aria-hidden="true"></span>';
+            button.disabled = true;
+
+            // Create a spinner overlay inside the editor body
+            var editorBody = document.querySelector('.nk-editor-body');
+            var spinnerOverlay = document.createElement('div');
+            spinnerOverlay.className = 'spinner-overlay';
+            spinnerOverlay.innerHTML = '<div class="spinner-container"><span class="spinner-border spinner-border-lg" role="status" aria-hidden="true"></span></div>';
+            editorBody.appendChild(spinnerOverlay);
+
+            // Get the content from the TinyMCE editor
+            var editorContent = tinymce.get('editor-v1').getContent({ format: 'html' });
+
+            // Prepare the data to be sent
+            var dataToSend = {
+                text: editorContent,
+                model: 'Falcon',
+                purpose: 'general'
+            };
+
+            // Send a POST request to the backend
+            fetch('/humanizer/', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-CSRFToken': getCsrfToken() // Ensure you have a CSRF token if required by your Django setup
+                },
+                body: JSON.stringify(dataToSend)
+            })
+                .then(response => response.json())
+                .then(data => {
+                     if (data.error) {
+                        console.log(data.error)
+                        // show modal with id wordLimitModal
+                        var limitReachedModal = new bootstrap.Modal(document.getElementById('wordLimitModal'));
+                        limitReachedModal.show();
+                        button.innerHTML = originalButtonText;
+                        button.disabled = false;
+                        return
+                    }
+                    // Update the editor content with the new text
+                    tinymce.get('editor-v1').setContent(data.text);
+
+                    // Reset the button and remove the spinner overlay
+                    button.innerHTML = 'Humanize';
+                    button.disabled = false;
+                    editorBody.removeChild(spinnerOverlay);
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    button.innerHTML = 'Humanize';
+                    button.disabled = false;
+                    editorBody.removeChild(spinnerOverlay);
+                });
+        });
+
+        // Function to get CSRF token
+        function getCsrfToken() {
+            return document.querySelector('[name=csrfmiddlewaretoken]').value;
+        }
+
+
+
+</script>
+
+<script>
+    function showModalWithText(text) {
+            // Get the modal element
+            var modal = document.getElementById('aiResultModal');
+
+            // Set the content of the modal
+            document.getElementById('modalContent').innerHTML = text;
+
+            // Show the modal
+            modal.style.display = 'block';
+
+            // Close button functionality
+            var closeButtons = modal.querySelectorAll('[data-dismiss="modal"]');
+            closeButtons.forEach(function (button) {
+                button.addEventListener('click', function () {
+                    modal.style.display = 'none';
+                });
+            });
+
+            // Close when clicking outside of the modal
+            window.onclick = function (event) {
+                if (event.target == modal) {
+                    modal.style.display = 'none';
+                }
+            };
+        }
+    document.getElementById('detectButton').addEventListener('click', function () {
+            // Get text content from the editor
+            var button = this;
+            button.innerHTML = 'Detecting... <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>';
+            button.disabled = true;
+            var editorContent = tinymce.get('editor-v1').getContent({ format: 'text' });
+
+            // Send request to the backend
+            fetch('/detect/', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-CSRFToken': getCsrfToken()
+                },
+                body: JSON.stringify({ text: editorContent })
+            })
+                .then(response => response.json())
+                .then(data => {
+                    // Process response
+                    let aiScore = data[0][0]['AI'];
+                    let roundedScore = Math.round(aiScore * 100);
+
+                    // Determine color and text based on the score
+                    let color, text;
+                    if (roundedScore >= 50) {
+                        color = '#F60004'; // Light red
+                        text = `<h5>This text is likely to be written by <span style="color:${color}">AI</span></h5>
+                    <p>There is a <span style="color:${color}"> ${roundedScore}% </span>  probability this text was entirely written by <span style="color:${color}">AI</span></p>`;
+                    } else {
+                        color = roundedScore >= 20 ? '#4CAF50' : '#8BC34A'; // Green or Lime
+                        text = `<h5>This text is likely to be written by a <span style="color:${color}">Human</span></h5>
+                    <p>There is a <span style="color:${color}"> ${roundedScore}% </span> probability this text was entirely written by <span style="color:${color}">AI</span></p>`;
+                    }
+
+                    // Show the modal with the result
+                    console.log(text)
+                    showModalWithText(text);
+                    button.innerHTML = 'Check for AI';
+                    button.disabled = false;
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    // Handle error
+                    button.innerHTML = 'Check for AI';
+                    button.disabled = false;
+                });
+        });
+</script>
+
+<script>
+    let myContent = document.getElementById("myContent");
+    myContent.classList.add("nk-content-empty");
+</script>
+<script>
+    
+
+
+
+
+
+
+
+       document.querySelector('.dropdown-item[href="#doc"]').addEventListener('click', function () {
+            var content = tinymce.get('editor-v1').getContent({ format: 'html' });
+
+            // Create a temporary element to hold the content
+            var tempDiv = document.createElement('div');
+            tempDiv.innerHTML = content;
+
+            // Try to find the first h1 element
+            var firstH1 = tempDiv.querySelector('h1');
+            var filename = firstH1 ? firstH1.textContent.trim() : 'default-filename';
+            filename = filename || 'default-filename'; // Fallback if h1 was found but was empty
+
+            // Replace any characters that are invalid in filenames
+            filename = filename.replace(/[<>:"\/\\|?*\x00-\x1F]/g, '_').substring(0, 255);
+
+            // Convert the content to a DOCX blob
+            var converted = htmlDocx.asBlob(content);
+            saveAs(converted, filename + '.docx');
+        });
+
+
+</script>
+<script>
+   document.getElementById('generateButton').addEventListener('click', function (event) {
+        event.preventDefault(); // Prevents the default form submission
+
+        var button = this;
+        var originalButtonText = button.textContent;
+        button.innerHTML = 'Generating... <span class="spinner-border ms-2 spinner-border-sm" role="status" aria-hidden="true"></span>';
+        button.disabled = true;
+
+        // Collect data
+        var topic = document.getElementById('textToGenerate').value;
+        var keywords = document.getElementById('primaryKeywords').value;
+        var language = document.getElementById('selectLanguage').value;
+        var tone = document.getElementById('selectTone').value;
+        var content_type = document.getElementById('content_type').value;
+
+        // Prepare the data to be sent
+        var data = {
+            topic: topic,
+            keywords: keywords,
+            language: language,
+            tone: tone,
+            content_type: content_type
+        };
+
+        // Send a POST request
+        fetch('/dashboard/generate_text/', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRFToken': getCsrfToken() // Ensure you have a CSRF token if required by your Django setup
+            },
+            body: JSON.stringify(data)
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.error) {
+                    console.log(data.error)
+                    // show modal with id wordLimitModal
+                    var limitReachedModal = new bootstrap.Modal(document.getElementById('wordLimitModal'));
+                    limitReachedModal.show();
+                    button.innerHTML = originalButtonText;
+                    button.disabled = false;
+                    return 
+                }
+              
+                tinymce.get('editor-v1').setContent(data.result);
+                updateCounts(); // Update the HTML with the response
+                button.innerHTML = originalButtonText;
+                button.disabled = false;
+                document.getElementById('humanizeButton').classList.remove('disabled');
+                document.getElementById('detectButton').classList.remove('disabled');
+            })
+            .catch((error) => {
+           
+                button.innerHTML = originalButtonText;
+                button.disabled = false;
+            });
+    });
+
+    // Function to get CSRF token
+    function getCsrfToken() {
+        return document.querySelector('[name=csrfmiddlewaretoken]').value;
+    }
+
+
+</script>
+
+<script>
+    function attachEditorListener() {
+            var editor = tinymce.get('editor-v1');
+            if (editor) {
+                // Attach the listener once the editor is available
+                editor.on('input', function () {
+                    updateCounts();
+                });
+                clearInterval(checkEditorInterval); // Clear the interval check
+            }
+        }
+
+        function updateCounts() {
+            var content = tinymce.get('editor-v1').getContent({ format: 'text' });
+            var wordsCount = countWords(content);
+            var charsCount = content.length;
+
+            document.getElementById('words_count').textContent = wordsCount;
+            document.getElementById('chars_count').textContent = charsCount;
+            
+        }
+
+        function countWords(str) {
+            str = str.replace(/(^\s*)|(\s*$)/gi, ""); // Trim spaces at start and end
+            str = str.replace(/[ ]{2,}/gi, " "); // Replace multiple spaces with one
+            str = str.replace(/\n /, "\n"); // Replace newline with a start spacing
+            return str.split(' ').filter(function (str) { return str != ""; }).length;
+        }
+
+        // Periodically check if the editor is initialized
+        var checkEditorInterval = setInterval(attachEditorListener, 500);
+
+</script>
+
+<script>
+    function updateCounts() {
+            var content = tinymce.get('editor-v1').getContent({ format: 'text' });
+            var wordsCount = countWords(content);
+            var charsCount = content.length;
+
+            document.getElementById('words_count').textContent = wordsCount;
+            document.getElementById('chars_count').textContent = charsCount;
+        }
+
+        function countWords(str) {
+            str = str.replace(/(^\s*)|(\s*$)/gi, ""); // Remove spaces from start and end
+            str = str.replace(/[ ]{2,}/gi, " "); // Convert 2 or more spaces to 1
+            str = str.replace(/\n /, "\n"); // Exclude newline with a start spacing
+            return str.split(' ').filter(function (str) { return str != ""; }).length;
+        }
+
+        // Attach the input event listener to the TinyMCE editor
+        tinymce.get('editor-v1').on('input', function () {
+            updateCounts();
+        });
+
+        // Call updateCounts initially to set the counts for pre-existing content
+        updateCounts();
+
+</script>
+
+<script>
+    var currentSelection = null; 
+     function hidePopover(event) {
+            var popover = document.getElementById('customPopover');
+            var extendButton = document.getElementById('extendButton');
+           
+            // Only hide the popover if the click was outside the popover and not on the extend button
+            if (popover && (!event || (!popover.contains(event.target) && event.target !== extendButton))) {
+                popover.style.display = 'none';
+            }
+        }
+    function getFullParagraphsFromSelection(iframeDocument, selection) {
+            var range = selection.getRangeAt(0);
+
+            // Define a list of block elements to include in the selection
+            var blockElements = ['P', 'H1', 'H2', 'H3', 'H4', 'H5', 'H6'];
+
+            // Starting and ending nodes of the selection
+            var startNode = range.startContainer;
+            var endNode = range.endContainer;
+
+            // Get the closest block element ancestor of the starting and ending nodes
+            var startBlock = startNode.nodeType === 1 ? startNode : startNode.parentNode;
+            while (startBlock && !blockElements.includes(startBlock.nodeName)) {
+                startBlock = startBlock.parentNode;
+            }
+
+            var endBlock = endNode.nodeType === 1 ? endNode : endNode.parentNode;
+            while (endBlock && !blockElements.includes(endBlock.nodeName)) {
+                endBlock = endBlock.parentNode;
+            }
+
+            // Collect all block elements from the start to the end of the selection
+            var blocks = [];
+            var currentElement = startBlock;
+            while (currentElement) {
+                blocks.push(currentElement.textContent || currentElement.innerText);
+                if (currentElement === endBlock) {
+                    break;
+                }
+                currentElement = currentElement.nextElementSibling;
+            }
+
+            return blocks.join('\n\n'); // Join blocks with two newlines
+        }
+
+
+    document.addEventListener('DOMContentLoaded', function () {
+        window.onload = function (event) {
+            var iframe = document.getElementById('editor-v1_ifr');
+     
+            var extendButton = document.getElementById('extendButton');
+
+            extendButton.addEventListener('click', function () {
+                if (currentSelection) {
+                    if (currentSelection) {
+                        this.innerHTML = 'Extending... <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>';
+                        this.disabled = true;
+                        var fullText = getFullParagraphsFromSelection(iframe.contentDocument || iframe.contentWindow.document, currentSelection);
+        
+                        var keywords = document.getElementById('primaryKeywords').value;
+                        var language = document.getElementById('selectLanguage').value;
+                        var tone = document.getElementById('selectTone').value;
+
+                        var dataToSend = {
+                            text: fullText, // Assuming the full text is the topic
+                            keywords: keywords,
+                            language: language,
+                            tone: tone
+                        };
+
+                        fetch('/dashboard/extend_text_view/', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json',
+                                'X-CSRFToken': getCsrfToken() // Ensure you have a CSRF token if required by your Django setup
+                            },
+                            body: JSON.stringify(dataToSend)
+                        })
+                            .then(response => response.json())
+                            .then(data => {
+                                hidePopover(event);
+                                var editor = tinymce.get('editor-v1');
+                                if (editor && currentSelection) {
+                                    var range = currentSelection.getRangeAt(0);
+                                    var endContainer = range.endContainer;
+
+                                    // Traverse up to find the paragraph node
+                                    var paragraphNode = endContainer.nodeType === 3 ? endContainer.parentNode : endContainer; // 3 is a text node
+                                    while (paragraphNode.nodeName !== 'P' && paragraphNode.parentNode) {
+                                        paragraphNode = paragraphNode.parentNode;
+                                    }
+
+                                    // Define the new content as a separate paragraph
+                                    var newContentHtml = '<p style="background-color: #90ee90; transition: background-color 3s;">' + data.result + '</p>';
+
+                                    // Insert the new content after the paragraph
+                                    if (paragraphNode && paragraphNode.nodeName === 'P') {
+                                        // We insert a new paragraph after the current paragraph
+                                        var newParagraph = editor.getDoc().createElement('p');
+                                        newParagraph.innerHTML = data.result; // Insert the result
+                                        newParagraph.style.backgroundColor = '#90ee90'; // Apply background color
+
+                                        // Place the new paragraph after the last paragraph of the selection
+                                        paragraphNode.parentNode.insertBefore(newParagraph, paragraphNode.nextSibling);
+
+                                        // Set a timer to remove the background color after 3 seconds
+                                        setTimeout(() => {
+                                            newParagraph.style.backgroundColor = ''; // Remove the background color
+                                        }, 3000);
+                                    }
+
+                                    editor.focus(); // Focus the editor
+                                }
+                                
+                                extendButton.innerHTML = `<img src="{% static '/assets/images/aihumanize_icon.png' %}" alt="" class="popover-img"
+                style="width: 40px; height: 30px; margin-right: 10px;"> Extend Content`;
+                                extendButton.disabled = false;
+                                // Process the response data as needed
+                            })
+                            .catch(error => {
+                                console.error('Error:', error);
+                            });
+                    }
+                    // Handle the extended text as needed
+                }
+            });
+            // Make sure the iframe is completely loaded
+            iframe.addEventListener('load', function () {
+                var iframeDocument = iframe.contentDocument || iframe.contentWindow.document;
+             
+                // Function to show the popover at the selected text position
+                function showPopover(event) {
+                    var enhancementModeCheckbox = document.getElementById('flexSwitchChecked');
+                    if (!enhancementModeCheckbox.checked) {
+                        // If the enhancement mode checkbox is not checked, do nothing
+                        return;
+                    }
+
+                    var selection = iframeDocument.getSelection(event);
+                    if (selection.rangeCount > 0 && !selection.isCollapsed) {
+                        currentSelection = selection;
+                        var range = selection.getRangeAt(0);
+                        var rect = range.getBoundingClientRect();
+
+                        var selectedText = selection.toString();
+                        var wordCount = selectedText.split(/\s+/).length;
+
+                        if (wordCount >= 30) {
+                            // Calculate the position for the popover
+                            var top = iframe.offsetTop + rect.top + rect.height;
+                            var left = iframe.offsetLeft + rect.left + (rect.width / 2);
+
+                            var popover = document.getElementById('customPopover');
+                            popover.style.top = top + 'px';
+                            popover.style.left = left + 'px';
+                            popover.style.display = 'block';
+                        } else {
+                            hidePopover(event);
+                        }
+                    }  else {
+                        // hidePopover(event);
+                    }
+                }
+
+
+
+
+                // Function to hide the popover
+               
+
+                // Attach event listener for text selection within the iframe
+                iframeDocument.addEventListener('selectionchange', function () {
+                    setTimeout(function () { // Timeout allows for accurate selection range calculation
+                     
+                        showPopover();
+                    }, 0);
+                });
+
+                // Optionally, hide the popover when clicking outside
+                document.addEventListener('click', function (event) {
+                    if (!iframe.contains(event.target)) {
+                        // hidePopover(event);
+                    }
+                });
+
+                // Optionally, hide the popover when the iframe body loses focus
+                iframeDocument.body.addEventListener('blur', function (event) {
+                    // hidePopover(event);
+                });
+            });
+        }});
+        
+    document.addEventListener('click', function (event) {
+        hidePopover(event);
+    });
+    
+</script>
+
+
+{% endblock %}
+
+
+{% block  custom_js %}
+<script>
+      let footer = document.getElementsByClassName("nk-footer")
+      console.log(footer)
+    footer[0].style.display = "none";
+</script>
+{% endblock %}

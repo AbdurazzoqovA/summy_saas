@@ -1,0 +1,299 @@
+{% extends 'dashboard/main.html' %}
+{% block meta_tags %}
+<title>Profile - AI Humanize</title>
+<meta name="description"
+    content="View and manage your profile on AI Humanize. Keep your personal information up-to-date for a customized experience." />
+    <meta property="og:title" content="Profile - AI Humanize" />
+    <meta property="og:description"
+        content="Manage your personal profile on AI Humanize. Update your details to ensure a tailored experience with our services." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://aihumanize.com/profile" />
+{% endblock %}
+{% load static %}
+{% block content %}
+<div class="container-xl">
+    <div class="nk-content-inner">
+        <div class="nk-content-body">
+            <div class="nk-block-head nk-page-head">
+                <div class="nk-block-head-between">
+                    <div class="nk-block-head-content">
+                        <h2 class="display-6">Personal Account</h2>
+                    </div>
+                </div>
+            </div><!-- .nk-page-head -->
+            <div class="nk-block">
+                <ul class="nav nav-tabs mb-3 nav-tabs-s1">
+                    <li class="nav-item">
+                        <button class="nav-link active" type="button" data-bs-toggle="tab"
+                            data-bs-target="#profile-tab-pane">Profile</button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" type="button" data-bs-toggle="tab"
+                            data-bs-target="#payment-billing-tab-pane">Payment &amp; Billing</button>
+                    </li>
+                    
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="profile-tab-pane">
+                        <div
+                            class="d-flex align-items-center justify-content-between border-bottom border-light mt-5 pb-1">
+                            <h5>Personal Details</h5>
+                            <a class="link link-primary fw-normal" href="{% url 'edit_profile' %}">Edit Profile</a>
+                        </div>
+                        <table class="table table-flush table-middle mb-0">
+                            <tbody>
+                                <tr>
+                                    <td class="tb-col">
+                                        <span class="fs-15px text-light">Full Name</span>
+                                    </td>
+                                    <td class="tb-col">
+                                        <span class="fs-15px text-base">
+                                            {% if request.user.fullname != None %}
+                                            {{request.user.fullname}}
+                                            {% endif %}
+                                        
+                                        </span>
+                                    </td>
+                                    <td class="tb-col tb-col-end tb-col-sm"></td>
+                                </tr>
+                                <tr>
+                                    <td class="tb-col">
+                                        <span class="fs-15px text-light">Email</span>
+                                    </td>
+                                    <td class="tb-col">
+                                        <span class="fs-15px text-base">{{ request.user.email }}</span>
+                                    </td>
+                                    <td class="tb-col tb-col-end tb-col-sm"></td>
+                                </tr>
+                           
+                                <tr>
+                                    <td class="tb-col">
+                                        <span class="fs-15px text-light">Country</span>
+                                    </td>
+                                    <td class="tb-col">
+                                        <span class="fs-15px text-base">
+                                            {% if request.user.country != None %}
+                                            {{request.user.country}}
+                                            {% endif %}
+                                        </span>
+                                    </td>
+                                    <td class="tb-col tb-col-end tb-col-sm"></td>
+                                </tr>
+                                <tr>
+                                    <td class="tb-col">
+                                        <span class="fs-15px text-light">Password</span>
+                                    </td>
+                                    <td class="tb-col">
+                                        <span class="fs-15px text-base"><a class="link link-primary fw-normal"
+                                                href="{% url 'account_reset_password' %}">Change Password</a></span>
+                                    </td>
+                                   
+                                </tr>
+                            </tbody>
+                        </table>
+                      
+                    </div><!-- .tab-pane -->
+                   
+                    <div class="tab-pane fade" id="payment-billing-tab-pane">
+                        
+                        <div
+                            class="d-flex flex-wrap align-items-center justify-content-between border-bottom border-light mt-5 mb-4 pb-1">
+                            <h5 class="mb-0">Your Subscription</h5>
+                            <ul class="d-flex gap gx-4">
+                                {% if subscrioption_id != none %}
+                                <li>
+                                    <a class="link link-danger fw-normal" data-bs-toggle="modal"
+                                        href="#cancelSubscriptionModal">Cancel Subscription</a>
+                                </li>
+                                {% endif %}
+                                <li>
+                                    <a class="link link-primary fw-normal" data-bs-toggle="modal"
+                                        href="#changePlanModal">Change Plan</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- <div class="alert alert-warning alert-dismissible fade show mb-4 rounded-6" role="alert">
+                            <p class="small mb-0">Save big up to 75% on your upgrade to our <strong><a
+                                        class="alert-link" href="#">Enterprise plan</a></strong> and enjoy premium
+                                features at a fraction of the cost!</p>
+                            <div class="d-inline-flex position-absolute end-0 top-50 translate-middle-y me-2">
+                                <button type="button" class="btn btn-xs btn-icon btn-warning rounded-pill"
+                                    data-bs-dismiss="alert">
+                                    <em class="icon ni ni-cross"></em>
+                                </button>
+                            </div>
+                        </div> -->
+                        <div class="row g-gs">
+                            <div class="col-xl-3 col-sm-6">
+                                <div class="card shadow-none">
+                                    <div class="card-body">
+                                        <div class="text-light mb-2">Plan</div>
+                                        <h3 class="fw-normal">{{subscription_name}}</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-sm-6">
+                                <div class="card shadow-none">
+                                    <div class="card-body">
+                                        <div class="text-light mb-2">Recurring Payment</div>
+                                        {% if subscrioption_id != none %}
+                                        <h3 class="fw-normal">${{subscrioption_price}}/{{subscription_name_period}}</h3>
+                                        {% else %}
+                                        <h3 class="fw-normal">No Active Subscription
+                                        </h3>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-sm-6">
+                                <div class="card shadow-none">
+                                    <div class="card-body">
+                                        <div class="text-light mb-2">Next Due Date</div>
+                                        {% if next_due_date != none %}
+                                        <h3 class="fw-normal">{{next_due_date}}</h3>
+                                        {% else %}
+                                        <h3 class="fw-normal">No Active Subscription</h3>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-sm-6">
+                                <div class="card shadow-none">
+                                    <div class="card-body">
+                                        <div class="text-light mb-2">Payment Method</div>
+                                        <div class="d-flex align-items-center">
+                                            {% if next_due_date != none %}
+                                            <h3 class="fw-normal ms-2">Stripe</h3>
+                                            {% else %}
+                                            <h3 class="fw-normal ms-2">No Active Subscription</h3>
+                                            {% endif %}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="d-flex align-items-center justify-content-between border-bottom border-light mt-5 mb-4 pb-2">
+                            <h5>Billing History</h5>
+                        </div>
+                        {% if invoices %}
+                        <div class="card">
+                            <table class="table table-middle mb-0">
+                                <thead class="table-light">
+                                    <tr>
+                                        <th class="tb-col">
+                                            <div class="fs-13px text-base">Subscription</div>
+                                        </th>
+                                        <th class="tb-col tb-col-md">
+                                            <div class="fs-13px text-base">Payment Date</div>
+                                        </th>
+                                        <th class="tb-col tb-col-sm">
+                                            <div class="fs-13px text-base">Total</div>
+                                        </th>
+                                        <th class="tb-col tb-col-sm">
+                                            <div class="fs-13px text-base">Status</div>
+                                        </th>
+                                        <th class="tb-col"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for invoice in invoices %}
+                                    <tr>
+                                        <td class="tb-col">
+                                            <div class="caption-text">{{invoice.subscription_name}} <div
+                                                    class="d-sm-none dot bg-success"></div>
+                                            </div>
+                                        </td>
+                                        <td class="tb-col tb-col-sm">
+                                            <div class="fs-6 text-light ">{{invoice.payment_date}}</div>
+                                        </td>
+                                        <td class="tb-col tb-col-sm">
+                                            <div class="fs-6 text-light">${{invoice.total}}</div>
+                                        </td>
+                                        <td class="tb-col tb-col-sm">
+                                            {% if invoice.status == 'paid' %}
+                                            <div class="badge text-bg-success-soft rounded-pill px-2 py-1 fs-6 lh-sm">
+                                                {{invoice.status}}</div>
+                                                {% else %}
+                                            <div class="badge text-bg-warning-soft rounded-pill px-2 py-1 fs-6 lh-sm">
+                                                {{invoice.status}}</div>
+                                            {% endif %}
+                                        </td>
+                                        <td class="tb-col tb-col-end">
+                                            <a href="{{ invoice.invoice_pdf }}" class="link">Get Invoice</a>
+                                        </td>
+                                    </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                        {% else %}
+                            <div class="alert alert-info">No billing history available.</div>
+                        {% endif %}
+                    </div><!-- .tab-pane -->
+                    
+                </div><!-- .tab-content -->
+            </div><!-- .nk-block -->
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="changePlanModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body p-4">
+                <div class="media media-rg media-middle media-circle text-primary bg-primary bg-opacity-20 mb-3">
+                    <em class="icon ni ni-spark-fill"></em>
+                </div>
+                <h2 class="h1">Change Subscription</h2>
+                <p>Are you sure you want to change your subscription? You can change your plan while keep your remaining unused words from current plan. We will add unused words to new plan</p>
+                <div class="card bg-lighter bg-opacity-80 shadow-none mt-2">
+                    
+                </div><!-- .card -->
+                <ul class="row gx-4 mt-4">
+                    <li class="col-6"><button class="btn btn-outline-light w-100" data-bs-dismiss="modal">Keep
+                            Plan</button></li>
+                    <li class="col-6"><a href="{% url 'pricing' %}" class="btn btn-primary w-100">Change Plan</a></li>
+                </ul>
+            </div><!-- .modal-body -->
+        </div><!-- .modal-content -->
+    </div><!-- .modal-dialog -->
+</div><!-- .modal -->
+{% if subscrioption_id != none %}
+<div class="modal fade" id="cancelSubscriptionModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body p-4">
+                <div class="media media-rg media-middle media-circle text-danger bg-danger bg-opacity-20 mb-3">
+                    <em class="icon ni ni-spark-fill"></em>
+                </div>
+                <h2 class="h1">Cancel Subscription</h2>
+                <p>Are you sure you want to cancel your subscription? Your paid plan is valid till <span
+                        class="text-dark">{{next_due_date}}</span>.</p>
+                <p>Don't forget to review our other <a href="{% url 'pricing' %}">pricing plans</a> before cancelling
+                    your current subscription. If you still want to cancel, your account will change to a free plan.</p>
+                <div class="card bg-lighter bg-opacity-80 shadow-none mt-2">
+                    <!-- <div class="card-body">
+                        <h5>What you will lose after cancelling you subscription?</h5>
+                        <ul class="list-dot gap gy-2 mt-2">
+                            <li>All your generated in Copygen will be removed.</li>
+                            <li>You will lose access to unlimited content generation.</li>
+                            <li>You will get regular updates exclusive only for our premium users.</li>
+                            <li>Server response may become slow as we highly prioritized our premium users.</li>
+                            <li>There will be no recovery options once you cancel subscription.</li>
+                        </ul>
+                    </div> -->
+                </div><!-- .card -->
+                <ul class="row gx-4 mt-4">
+                    <li class="col-6"><button class="btn btn-outline-light w-100" data-bs-dismiss="modal">Keep
+                            Plan</button></li>
+                    <li class="col-6"><a href="{% url 'cancel_subscrioption' subscrioption_id %}" class="btn btn-danger w-100">I Understand, Cancel</a>
+                    </li>
+                </ul>
+            </div><!-- .modal-body -->
+        </div><!-- .modal-content -->
+    </div><!-- .modal-dialog -->
+</div><!-- .modal -->
+{% endif %}
+
+{% endblock %}
