@@ -49,7 +49,7 @@ def summarizer(
             messages=[
                 {
                     "role": "system",
-                    "content": f"you are expert to summarize texts, summarize given text and return only html result no extra.",
+                    "content": f"you are expert to summarize texts, summarize given text and return only markdown result no extra.",
                 },
                 {
                     "role": "user",
@@ -58,7 +58,7 @@ def summarizer(
             ],
         )
 
-        return markdown.markdown(response.choices[0].message.content)
+        return response.choices[0].message.content
     except Exception as e:
         print(f"An error occurred: {e}")
         return None
