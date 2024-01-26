@@ -34,3 +34,5 @@ stripe
 python-dateutil
 django-jazzmin
 markdown
+python-dotenv
+openai

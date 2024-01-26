@@ -1,6 +1,12 @@
 import pprint
 import google.generativeai as palm
 import markdown
+import openai
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
 
 palm.configure(api_key="AIzaSyAxFzWVjI7vyJH2t3hUB1JAqjLOilSTYqs")
 
@@ -35,13 +41,24 @@ def summarizer(
         {text}
         """
 
-    completion = palm.generate_text(
-        model=model,
-        prompt=prompt,
-        temperature=1,
-        # The maximum length of the response
-        max_output_tokens=800,
-        candidate_count=1,
-    )
+    try:
+        openai_api_key = os.environ.get("OPEN_AI_KEY")
+        client = openai.OpenAI(api_key=openai_api_key)
+        response = client.chat.completions.create(
+            model="gpt-3.5-turbo-1106",  # Experiment with different models as needed
+            messages=[
+                {
+                    "role": "system",
+                    "content": f"you are expert to summarize texts, summarize given text and return only html result no extra.",
+                },
+                {
+                    "role": "user",
+                    "content": prompt,
+                },
+            ],
+        )
 
-    return markdown.markdown(completion.result)
+        return markdown.markdown(response.choices[0].message.content)
+    except Exception as e:
+        print(f"An error occurred: {e}")
+        return None
