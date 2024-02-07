@@ -1,17 +1,22 @@
 <style>
   .mycontainer {
     position: relative;
-    height: 600px;
+    display:flex;
+    flex-direction: column;
     margin: 0 auto;
+    max-width: 1100px;
     overflow: hidden;
     border-radius: 12px;
     user-select: none;
-    box-shadow: 8px 8px 35px rgba(0, 0, 0, 0.2);
+    border:1px solid rgba(0,0,0,.06);
+    box-shadow: 0px 2px 40px rgba(0, 0, 0, 0.12);
   }
 
   .scrollable-header {
-    overflow: scroll;
+    overflow-x:auto;
     background-color: white;
+    /* box-shadow: 0px 3px 25px 1px rgba(0,0,0,1)!important; */
+   
   }
 
   .scrollable-header::-webkit-scrollbar {
@@ -19,15 +24,59 @@
   }
 
   .editor-header {
+
     height: 55px;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 1px solid #e0e0e0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 5px 10px;
+    justify-content: flex-start;
+    padding: 8px 10px;
+
+    padding-left: 15px!important;
+   
     min-width: max-content;
   }
-
+  .editor-header .head-parent{
+    display: flex;
+   align-items: center;
+  }
+  .editor-header .header-btns div{
+    display: flex;
+    align-items: center;
+    
+  }
+  .editor-header .header-btns{
+   
+    font-size: 14px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+   
+  }
+  #summary-length-container{
+    font-size: 14px;
+    color:#949494;
+  }
+  #sample-text{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left:auto;
+    border:1px solid #217868;
+    padding:2px 9px;
+    /* text-decoration: underline; */
+    border-radius: 4px;
+    color:#217868;
+    cursor: pointer;
+    font-size:15px;
+  }
+  #sample-text svg{
+    width:20px;
+    margin-right: 5px;
+  }
+  #sample-text:hover{
+    border-color: #165045;
+  }
   .word-count {
     background-color: white;
     margin: 0px 5px;
@@ -46,6 +95,7 @@
     background-color: #f5f4f4;
     border: 1px solid #dedede;
     border-radius: 50px;
+   
   }
 
   .mode-button {
@@ -53,9 +103,11 @@
     background: none;
     border: none;
     border-radius: 50px;
-    padding: 5px 10px;
+    padding: 3px 8px;
     transition: all 0.5s ease;
+    font-size:14px;
   }
+
 
   .mode-button:hover {
     background-color: #00000017;
@@ -68,12 +120,13 @@
   }
 
   .editor-footer {
-    height: 65px;
-    border-top: 2px solid #ccc;
+    height: 60px;
+    
+    border-top: 1px solid #ededed;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 10px;
+    padding: 2px 10px;
     background-color: white;
   }
 
@@ -85,27 +138,31 @@
   }
 
   .editor-container {
-    display: flex;
-    height: calc(100% - 120px);
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    flex:1;
+    min-height: 358px;
+    max-height: 358px;
+    /* height: calc(100% - 120px); */
   }
 
   .neighbourPanel {
-    width: 50%;
+    width: 100%;
     height: 100%;
-    padding: 1rem;
+    padding: 30px;
     box-sizing: border-box;
     background-color: white;
   }
 
   .resizablePanel {
     position: relative;
-    width: 50%;
+   
     height: 100%;
-    padding: 1rem;
+    padding: 30px;
     flex-grow: 1;
     box-sizing: border-box;
-    background-color: white;
-    border-left: 4px solid #ccc;
+    background-color: #f9f9f9;
+    border-left:1px solid #ededed;
   }
 
   .resizablePanel:before {
@@ -131,13 +188,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
   }
 
   .summorg-input {
     text-align: center;
-    background: linear-gradient(180deg, #eafaf6 0%, #7dffe7 90%);
-    width: 300px;
-    padding: 20px;
+    /* background: linear-gradient(180deg, #eafaf6 0%, #7dffe7 90%); */
+  
+
+    /* width: 300px; */
+   
     border-radius: 20px;
     cursor: text;
     min-width: 220px;
@@ -247,6 +307,45 @@
       width: 170px;
     }
   }
+
+
+  #summaryButton{
+    padding:9px 28px!important;
+    font-size: 16px;
+    /* background-color: #292962; */
+    
+    border:none!important;
+    margin-left: 4px;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  #summaryButton:hover{
+    background-color: #217868;
+  }
+
+  #paste-text{
+    max-width: 100px;
+    color:#0b473c;
+    font-weight: 300;
+    border:1px solid #f0f9f8;
+    /* background-color: #f0f9f8; */
+    background: linear-gradient(180deg, #eafaf6 0%, #7dffe7 90%);
+    text-decoration: underline;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: .3s ease;
+    font-size: 13px;
+  }
+  #paste-text svg{
+    margin-bottom: 4px;
+    width:20px;
+  }
+  #paste-text:hover{
+    border-color:#165045;
+    /* transform:scale(1.02);
+    background-color: #fff; */
+  }
+  
 </style>
 <link
   rel="stylesheet"
@@ -357,8 +456,10 @@
 <div class="mycontainer">
   <div class="scrollable-header">
     <div class="editor-header">
-      <div style="display: flex">
-        <div>
+      <div class="head-parent" style="display: flex; min-width: 100%;">
+        
+        <div class="header-btns">
+        <div style="display: flex; align-items: center;">
           <div class="mode-container">
             <button
               selected
@@ -378,7 +479,7 @@
           </div>
         </div>
         <div
-          style="display: flex; align-items: center; margin-left: 10px"
+          style="display: flex; align-items: center; margin-left: 30px"
           id="summary-length-container"
         >
           <span style="margin-right: 5px">Short</span>
@@ -390,6 +491,15 @@
             id="summary-length"
           />
           <span style="margin-left: 5px">Long</span>
+        </div>
+        </div>
+        <div class="" id="sample-text">
+          <svg width="30" height="32" viewBox="0 0 30 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5.5161 6.91317C4.02827 6.91433 3.2484 6.93324 2.64389 7.24125C2.07738 7.52989 1.61679 7.99048 1.32815 8.557C1 9.20103 1 10.0441 1 11.7303V26.1819C1 27.8681 1 28.7112 1.32815 29.3552C1.61679 29.9217 2.07738 30.3824 2.64389 30.6709C3.28792 30.9991 4.131 30.9991 5.81717 30.9991H17.258C18.9441 30.9991 19.7873 30.9991 20.4313 30.6709C20.9977 30.3824 21.4584 29.9217 21.747 29.3552C22.0751 28.7112 22.0751 27.8681 22.0751 26.1819V11.7303C22.0751 10.0441 22.0751 9.20103 21.747 8.557C21.4584 7.99048 20.9977 7.52989 20.4313 7.24125C19.8267 6.93324 19.0469 6.91433 17.559 6.91317M5.5161 6.91317V9.92385H17.559V6.91317M5.5161 6.91317V6.47219C5.5161 5.79061 5.78686 5.13696 6.26878 4.65503C6.75071 4.1731 7.40436 3.90234 8.08593 3.90234H14.9892C15.6707 3.90234 16.3245 4.1731 16.8064 4.65503C17.2882 5.13696 17.559 5.79061 17.559 6.47219V6.91317M11.5376 15.9454H7.02147M16.0537 21.9669H7.02147" stroke="#217868" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M22.2891 4.22581H28.7407M25.5149 1V7.45161" stroke="#217868" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            
+          <p>Sample Text</p>
         </div>
       </div>
     </div>
@@ -403,22 +513,22 @@
       <div class="summorg-input-holder">
         <div class="summorg-input">
           <div class="gradient-hover-effect active">
-            <div class="overlay" id="sample-text">
-              <img
-                src="{% static 'front/sample-text.svg' %}"
-                width="25"
-                height="28"
-                alt="Sample Text"
-              />
+            <!-- <div class="overlay" id="sample-text">
+              <svg width="30" height="32" viewBox="0 0 30 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.5161 6.91317C4.02827 6.91433 3.2484 6.93324 2.64389 7.24125C2.07738 7.52989 1.61679 7.99048 1.32815 8.557C1 9.20103 1 10.0441 1 11.7303V26.1819C1 27.8681 1 28.7112 1.32815 29.3552C1.61679 29.9217 2.07738 30.3824 2.64389 30.6709C3.28792 30.9991 4.131 30.9991 5.81717 30.9991H17.258C18.9441 30.9991 19.7873 30.9991 20.4313 30.6709C20.9977 30.3824 21.4584 29.9217 21.747 29.3552C22.0751 28.7112 22.0751 27.8681 22.0751 26.1819V11.7303C22.0751 10.0441 22.0751 9.20103 21.747 8.557C21.4584 7.99048 20.9977 7.52989 20.4313 7.24125C19.8267 6.93324 19.0469 6.91433 17.559 6.91317M5.5161 6.91317V9.92385H17.559V6.91317M5.5161 6.91317V6.47219C5.5161 5.79061 5.78686 5.13696 6.26878 4.65503C6.75071 4.1731 7.40436 3.90234 8.08593 3.90234H14.9892C15.6707 3.90234 16.3245 4.1731 16.8064 4.65503C17.2882 5.13696 17.559 5.79061 17.559 6.47219V6.91317M11.5376 15.9454H7.02147M16.0537 21.9669H7.02147" stroke="#7F7F7F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M22.2891 4.22581H28.7407M25.5149 1V7.45161" stroke="#7F7F7F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                
               <p>Sample Text</p>
-            </div>
+            </div> -->
             <div class="overlay" id="paste-text">
-              <img
-                src="{% static 'front/paste-text.svg' %}"
-                width="25"
-                height="28"
-                alt="Paste Text"
-              />
+              <svg width="27" height="32" viewBox="0 0 27 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19.214 11.7148V18.1434H25.6426L19.214 11.7148ZM19.214 11.7148H10.6426V31.0006H25.6426V18.1434" stroke="#0b473c" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M15.9992 5.28571H7.42773V3.14286C7.42773 1.96429 8.39202 1 9.57059 1H13.8563C15.0349 1 15.9992 1.96429 15.9992 3.14286V5.28571Z" stroke="#0b473c" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M10.6429 28.8588H5.28571C2.92857 28.8588 1 26.9302 1 24.5731V7.43025C1 5.0731 2.92857 3.14453 5.28571 3.14453H7.42857" stroke="#0b473c" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M16 3.14453H18.1429C20.5 3.14453 22.4286 5.0731 22.4286 7.43025V14.9302" stroke="#0b473c" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                
               <p>Paste Text</p>
             </div>
           </div>
@@ -434,6 +544,7 @@
   </div>
   <div class="editor-footer">
     <div>
+      
       <div id="word-count-summary-holder" class="mobile-hidden">
         <div style="display: flex; align-items: center">
           <button
@@ -458,6 +569,7 @@
           <p class="word-count" id="word-count-summary">Words: 0</p>
         </div>
       </div>
+      
       <div style="display: flex; align-items: center">
         {% include 'front/upload_button.html' %}
         <button
@@ -505,6 +617,18 @@
           ></span>
         </button>
       </div>
+      <!-- <div>
+        <button class="btn btn-lg btn-primary" id="summaryButton">
+          Summarize
+          <span
+            id="summary-spinner"
+            class="spinner-border spinner-border-sm"
+            role="status"
+            aria-hidden="true"
+            style="display: none; margin-left: 10px"
+          ></span>
+        </button>
+      </div> -->
     </div>
   </div>
 </div>
