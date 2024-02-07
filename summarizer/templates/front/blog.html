@@ -51,17 +51,12 @@
                   </div>
                   <nav class="nk-header-menu nk-menu">
                     <ul class="nk-menu-list mx-auto">
+                    
                       <li class="nk-menu-item">
-                        <a href="usecase.html" class="nk-menu-link">
-                          <span class="nk-menu-text">Use Cases</span>
+                        <a href="{% url 'home' %}" class="nk-menu-link">
+                          <span class="nk-menu-text">Home</span>
                         </a>
                       </li>
-                      <li class="nk-menu-item">
-                        <a href="features.html" class="nk-menu-link">
-                          <span class="nk-menu-text">Features</span>
-                        </a>
-                      </li>
-    
                       <li class="nk-menu-item">
                         <a href="pricing.html" class="nk-menu-link">
                           <span class="nk-menu-text">Pricing</span>
@@ -70,6 +65,11 @@
                       <li class="nk-menu-item">
                         <a href="{% url 'blog' %}" class="nk-menu-link">
                           <span class="nk-menu-text">Blog</span>
+                        </a>
+                      </li>
+                      <li class="nk-menu-item">
+                        <a href="{% url 'about' %}" class="nk-menu-link">
+                          <span class="nk-menu-text">About</span>
                         </a>
                       </li>
                       {% if request.user.is_authenticated %}
