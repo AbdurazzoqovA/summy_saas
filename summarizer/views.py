@@ -39,6 +39,10 @@ def main(request):
 
 def pricing(request):
     return render(request, "front/pricing.html")
+  
+def about(request):
+    return render(request, "front/about.html")
+
 
 
 @csrf_exempt

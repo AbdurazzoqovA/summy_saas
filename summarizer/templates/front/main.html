@@ -127,6 +127,11 @@
                       <span class="nk-menu-text">Blog</span>
                     </a>
                   </li>
+				  <li class="nk-menu-item">
+                    <a href="{% url 'about' %}" class="nk-menu-link">
+                      <span class="nk-menu-text">About</span>
+                    </a>
+                  </li>
                   {% if request.user.is_authenticated %}
                   <li class="nk-menu-item">
                     <a href="{% url 'account_logout' %}" class="nk-menu-link">

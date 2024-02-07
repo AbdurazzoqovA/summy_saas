@@ -1,0 +1,632 @@
+{% load static %}
+{% load i18n %}
+<html lang="en">
+ 
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Softnio" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="{% static 'front/assets/css/style.css' %}">k
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.7.570/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
+   
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <meta name="csrf-token" content="{{ csrf_token }}" />
+
+ 
+
+    <style>
+      .lds-dual-ring {
+        display: inline-block;
+        width: 32px;
+        height: 32px;
+      }
+      .lds-dual-ring:after {
+        content: " ";
+        display: block;
+        width: 32px;
+        height: 32px;
+        margin: 4px;
+        border-radius: 50%;
+        border: 3px solid #fff;
+        border-color: #fff transparent #fff transparent;
+        animation: lds-dual-ring 1.2s linear infinite;
+      }
+      .round-button {
+        background: #ffffff;
+        border: none;
+        height: 35px;
+        width: 35px;
+        text-align: center;
+        border-radius: 50%;
+        transition: all 0.5s ease;
+      }
+      .round-button:hover {
+        background: #5a98ffaa;
+        transition: all 0.5s ease;
+      }
+      @keyframes lds-dual-ring {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+
+  
+  </head>
+
+
+
+
+<body class="nk-body " data-menu-collapse="lg">
+    <div class="nk-app-root ">
+        <header class="nk-header has-shape">
+            <div
+              class="nk-shape bg-shape-blur-c ms-n20p mt-n20p start-50 translate-middle-x"
+            ></div>
+            <div
+              class="nk-header-main nk-menu-main will-shrink has-border ignore-mask"
+            >
+              <div class="container">
+                <div class="nk-header-wrap">
+                  <div class="nk-header-logo">
+                    <a href="index.html" class="logo-link">
+                      <div class="logo-wrap">
+                        <img
+                          class="logo-img logo-light"
+                          src="images/logo-green.png"
+                          srcset="images/logo-green2x.png 2x"
+                          alt=""
+                        />
+                        <img
+                          class="logo-img logo-dark"
+                          src="images/logo-green-dark.png"
+                          srcset="images/logo-green-dark2x.png 2x"
+                          alt=""
+                        />
+                      </div>
+                    </a>
+                  </div>
+                  <!-- .nk-header-logo -->
+                  <div class="nk-header-toggle">
+                    <button class="dark-mode-toggle">
+                      <em class="off icon ni ni-sun-fill"></em>
+                      <em class="on icon ni ni-moon-fill"></em>
+                    </button>
+                    <button class="btn btn-light btn-icon header-menu-toggle">
+                      <em class="icon ni ni-menu"></em>
+                    </button>
+                  </div>
+                  <nav class="nk-header-menu nk-menu">
+                    <ul class="nk-menu-list mx-auto">
+                     
+    
+                      <li class="nk-menu-item">
+                        <a href="{% url 'pricing' %}" class="nk-menu-link">
+                          <span class="nk-menu-text">Pricing</span>
+                        </a>
+                      </li>
+                      <li class="nk-menu-item">
+                        <a href="{% url 'blog' %}" class="nk-menu-link">
+                          <span class="nk-menu-text">Blog</span>
+                        </a>
+                      </li>
+                      <li class="nk-menu-item">
+                        <a href="{% url 'about' %}" class="nk-menu-link">
+                          <span class="nk-menu-text">About</span>
+                        </a>
+                      </li>
+                      {% if request.user.is_authenticated %}
+                      <li class="nk-menu-item">
+                        <a href="{% url 'account_logout' %}" class="nk-menu-link">
+                          <span class="nk-menu-text">Logout</span>
+                        </a>
+                      </li>
+                     
+    
+                      {% else %}
+                      <li class="nk-menu-item">
+                        <a href="{% url 'account_login' %}" class="nk-menu-link">
+                          <span class="nk-menu-text">Login</span>
+                        </a>
+                      </li>
+    
+                      {% endif%}
+                    
+                    </ul>
+    
+                    <!-- .nk-menu-list -->
+                    <div class="mx-2 d-none d-lg-block">
+                      <button class="dark-mode-toggle">
+                        <em class="off icon ni ni-sun-fill"></em>
+                        <em class="on icon ni ni-moon-fill"></em>
+                      </button>
+                    </div>
+                    <ul class="nk-menu-buttons flex-lg-row-reverse">
+    
+                      {% if user.is_authenticated %}
+                      <li><a href="#" class="btn btn-primary">Dashboard</a></li>
+            {% endif %}
+                      <li><a href="#" class="btn btn-primary">Get Started</a></li>
+                      <li class="dropdown">
+                        <a
+                          class="link link-base fw-medium dropdown-toggle"
+                          href="#"
+                          data-bs-toggle="dropdown"
+                          data-bs-offset="0, 12"
+                        >
+                          <!-- Display current language -->
+                          {% get_current_language as CURRENT_LANGUAGE %}
+                          {% get_language_info for CURRENT_LANGUAGE as LANG_INFO %}
+                          {{ LANG_INFO.name_local }} ({{ CURRENT_LANGUAGE|upper }})
+                        </a>
+                        <ul
+                          class="dropdown-menu dropdown-menu-end shadow-sm border-0"
+                        >
+                          <!-- Iterate over available languages -->
+                          {% for language in languages %}
+                          <li>
+                            <a
+                              class="dropdown-item link-base py-2 px-4"
+                              href="/{{language.code}}/"
+                            >
+                              {{ language.display_name }} ({{ language.code|upper
+                              }})
+                            </a>
+                          </li>
+                          {% endfor %}
+                        </ul>
+                      </li>
+                    </ul>
+                    <!-- .nk-menu-buttons -->
+                  </nav>
+                  <!-- .nk-header-menu -->
+                </div>
+                <!-- .nk-header-wrap -->
+              </div>
+              <!-- .container -->
+            </div>
+            <!-- .nk-header-main -->
+            {% block hero %} {% endblock %}
+            <!-- .nk-hero -->
+          </header>
+        <main class="nk-pages">
+            <section class="section has-shape has-mask">
+                <div class="nk-shape bg-shape-blur-m mt-8 start-50 top-0 translate-middle-x"></div>
+                <div class="nk-mask bg-pattern-dot bg-blend-around mt-n5 mb-10p mh-50vh"></div>
+                <div class="container">
+                    <div class="section-head">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-lg-9 col-xl-8 col-xxl-7">
+                                <h6 class="overline-title text-primary">About Us</h6>
+                                <h2 class="title h1">Every Company Is A Content Company</h2>
+                            </div>
+                        </div>
+                    </div><!-- .section-head -->
+                    <div class="section-content">
+                        <div class="row g-gs justify-content-center align-items-center flex-lg-row-reverse">
+                            <div class="col-lg-6 col-md-11">
+                                <div class="block-gfx ps-xxl-5">
+                                    <img class="w-100" src="{% static 'front/images/gfx/about.png' %}" alt="">
+                                </div>
+                            </div><!-- .col -->
+                            <div class="col-lg-6">
+                                <div class="block-text pe-xxl-7">
+                                    <h2 class="title">Generate months of social media content in minutes</h2>
+                                    <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness.</p>
+                                    <ul class="list gy-3 pe-xxl-7">
+                                        <li><em class="icon text-success fs-5 ni ni-check-circle-fill"></em><span>Analyze your business cost easily with group transaction thorugh tagging feature.</span></li>
+                                        <li><em class="icon text-success fs-5 ni ni-check-circle-fill"></em><span>Arrange your business expenses by date, name, etc.</span></li>
+                                    </ul>
+                                    <ul class="btn-list btn-list-inline gy-0">
+                                        <li><a href="#" class="btn btn-lg btn-primary"><span>Get Started</span><em class="icon ni ni-arrow-long-right"></em></a></li>
+                                    </ul>
+                                </div>
+                            </div><!-- .col -->
+                        </div><!-- .row -->
+                    </div><!-- .section-content -->
+                </div><!-- .container -->
+            </section><!-- .section -->
+            <section class="section section-sm section-0">
+                <div class="container">
+                    <div class="section-head">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-lg-9 col-xl-8 col-xxl-6">
+                                <h2 class="title">Who uses our product</h2>
+                            </div>
+                        </div>
+                    </div><!-- .section-head -->
+                    <div class="section-content">
+                        <ul class="list list-row justify-content-center justify-content-lg-between gx-5 gy-4">
+                            <li>
+                                <img class="h-2rem visible-on-light-mode" src="images/brands/72-a.png" alt="">
+                                <img class="h-2rem visible-on-dark-mode" src="images/brands/72-a-white.png" alt="">
+                            </li>
+                            <li>
+                                <img class="h-2rem visible-on-light-mode" src="images/brands/72-b.png" alt="">
+                                <img class="h-2rem visible-on-dark-mode" src="images/brands/72-b-white.png" alt="">
+                            </li>
+                            <li>
+                                <img class="h-2rem visible-on-light-mode" src="images/brands/72-c.png" alt="">
+                                <img class="h-2rem visible-on-dark-mode" src="images/brands/72-c-white.png" alt="">
+                            </li>
+                            <li>
+                                <img class="h-2rem visible-on-light-mode" src="images/brands/72-d.png" alt="">
+                                <img class="h-2rem visible-on-dark-mode" src="images/brands/72-d-white.png" alt="">
+                            </li>
+                            <li>
+                                <img class="h-2rem visible-on-light-mode" src="images/brands/72-e.png" alt="">
+                                <img class="h-2rem visible-on-dark-mode" src="images/brands/72-e-white.png" alt="">
+                            </li>
+                        </ul>
+                    </div><!-- .section-content -->
+                </div><!-- .container -->
+            </section><!-- .section -->
+            <section class="section section-bottom-0 has-shape">
+                <div class="nk-shape bg-shape-blur-m ms-n8 start-50 top-50 ms-n25 translate-middle-y"></div>
+                <div class="container">
+                    <div class="section-content">
+                        <div class="row gx-gs gy-6 justify-content-center align-items-center">
+                            <div class="col-xl-5 col-lg-8">
+                                <div class="block-text pe-xxl-7 text-center text-xl-start">
+                                    <h2 class="title">CopyGenAI Benefits</h2>
+                                    <p class="lead">I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings.</p>
+                                    <ul class="btn-list btn-list-inline gy-0">
+                                        <li><a href="#" class="btn btn-lg btn-primary"><span>See how it works</span><em class="icon ni ni-arrow-long-right"></em></a></li>
+                                    </ul>
+                                </div>
+                            </div><!-- .col -->
+                            <div class="col-xl-7">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="card rounded-4 border-0 shadow-sm">
+                                            <div class="card-body">
+                                                <div class="feature">
+                                                    <div class="feature-media">
+                                                        <div class="media media-middle media-lg text-white bg-primary rounded-3">
+                                                            <em class="icon ni ni-globe"></em>
+                                                        </div>
+                                                    </div>
+                                                    <div class="feature-text">
+                                                        <h3 class="title">Website Copy &amp; SEO</h3>
+                                                        <p>Missing inspiration for your Landing Page? Generate headlines, meta tags. </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!-- .card -->
+                                        <div class="card rounded-4 border-0 shadow-sm mt-gs">
+                                            <div class="card-body">
+                                                <div class="feature">
+                                                    <div class="feature-media">
+                                                        <div class="media media-middle media-lg text-white bg-warning rounded-3">
+                                                            <em class="icon ni ni-signal"></em>
+                                                        </div>
+                                                    </div>
+                                                    <div class="feature-text">
+                                                        <h3 class="title">Digital Ad Copy</h3>
+                                                        <p>Write creative and original advertisement copies for social media channels.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!-- .card -->
+                                    </div><!-- .col -->
+                                    <div class="col-sm-6 mt-5">
+                                        <div class="card rounded-4 border-0 shadow-sm">
+                                            <div class="card-body">
+                                                <div class="feature">
+                                                    <div class="feature-media">
+                                                        <div class="media media-middle media-lg text-white bg-info rounded-3">
+                                                            <em class="icon ni ni-flag"></em>
+                                                        </div>
+                                                    </div>
+                                                    <div class="feature-text">
+                                                        <h3 class="title">Social Media &amp; Ads</h3>
+                                                        <p>Write Facebook or Google ads, Youtube video descriptions or titles.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!-- .card -->
+                                        <div class="card rounded-4 border-0 shadow-sm mt-gs">
+                                            <div class="card-body">
+                                                <div class="feature">
+                                                    <div class="feature-media">
+                                                        <div class="media media-middle media-lg text-white bg-danger rounded-3">
+                                                            <em class="icon ni ni-briefcase"></em>
+                                                        </div>
+                                                    </div>
+                                                    <div class="feature-text">
+                                                        <h3 class="title">Job Description</h3>
+                                                        <p>Create engaging job descriptions for any position to attract the best candidates</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div><!-- .col -->
+                                </div><!-- .row -->
+                            </div><!-- .col -->
+                        </div><!-- .row -->
+                    </div><!-- .section-content -->
+                </div><!-- .container -->
+            </section><!-- .section -->
+            <section class="section section-bottom-0 has-shape">
+                <div class="nk-shape bg-shape-blur-m mt-n3 start-50 top-0 translate-middle-x"></div>
+                <div class="container">
+                    <div class="section-head">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-lg-8 col-xl-7 col-xxl-6">
+                                <h6 class="overline-title text-primary">Testimonials</h6>
+                                <h2 class="title">CopyGen is rated 4.9/5 stars in over 2,000 reviews</h2>
+                            </div>
+                        </div>
+                    </div><!-- .section-head -->
+                    <div class="section-content">
+                        <div class="row g-gs justify-content-center align-items-center">
+                            <div class="col-lg-4">
+                                <div class="card border-0 shadow-tiny rounded-4">
+                                    <div class="card-body">
+                                        <ul class="list list-row gy-0 g-1 mb-3">
+                                            <li><em class="icon text-warning ni ni-star-fill fs-5"></em></li>
+                                            <li><em class="icon text-warning ni ni-star-fill fs-5"></em></li>
+                                            <li><em class="icon text-warning ni ni-star-fill fs-5"></em></li>
+                                            <li><em class="icon text-warning ni ni-star-fill fs-5"></em></li>
+                                            <li><em class="icon text-warning ni ni-star-fill fs-5"></em></li>
+                                        </ul>
+                                        <h4 class="title mb-3">It Gave Me Back Quality Time To Spend w Friends &amp; Family...</h4>
+                                        <p>Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.</p>
+                                        <div class="d-flex pt-3">
+                                            <div class="media media-lg media-middle media-lg rounded-pill">
+                                                <img src="images/avatar/author/sm-a.jpg" alt="">
+                                            </div>
+                                            <div class="media-info ms-3">
+                                                <h5 class="mb-1">Derek Gehl</h5>
+                                                <div class="sub-text">CEO at Hire &amp; Retain</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- .card -->
+                            </div><!-- .col -->
+                            <div class="col-lg-4">
+                                <div class="card border-0 shadow-tiny rounded-4">
+                                    <div class="card-body">
+                                        <ul class="list list-row gy-0 g-1 mb-3">
+                                            <li><em class="icon text-warning ni ni-star-fill fs-5"></em></li>
+                                            <li><em class="icon text-warning ni ni-star-fill fs-5"></em></li>
+                                            <li><em class="icon text-warning ni ni-star-fill fs-5"></em></li>
+                                            <li><em class="icon text-warning ni ni-star-fill fs-5"></em></li>
+                                            <li><em class="icon text-warning ni ni-star-fill fs-5"></em></li>
+                                        </ul>
+                                        <h4 class="title mb-3">A year of organic marketing in about 30 minutes</h4>
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis</p>
+                                        <div class="d-flex pt-3">
+                                            <div class="media media-lg media-middle media-lg rounded-pill">
+                                                <img src="images/avatar/author/sm-b.jpg" alt="">
+                                            </div>
+                                            <div class="media-info ms-3">
+                                                <h5 class="mb-1">Frances Burns</h5>
+                                                <div class="sub-text">Designer at Softnio</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- .card -->
+                            </div><!-- .col -->
+                            <div class="col-lg-4">
+                                <div class="card border-0 shadow-tiny rounded-4">
+                                    <div class="card-body">
+                                        <ul class="list list-row gy-0 g-1 mb-3">
+                                            <li><em class="icon text-warning ni ni-star-fill fs-5"></em></li>
+                                            <li><em class="icon text-warning ni ni-star-fill fs-5"></em></li>
+                                            <li><em class="icon text-warning ni ni-star-fill fs-5"></em></li>
+                                            <li><em class="icon text-warning ni ni-star-fill fs-5"></em></li>
+                                            <li><em class="icon text-warning ni ni-star-fill fs-5"></em></li>
+                                        </ul>
+                                        <h4 class="title mb-3">Just wanna shout out the whole team for this amazing tool</h4>
+                                        <p>Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system.</p>
+                                        <div class="d-flex pt-3">
+                                            <div class="media media-lg media-middle media-lg rounded-pill">
+                                                <img src="images/avatar/author/sm-c.jpg" alt="">
+                                            </div>
+                                            <div class="media-info ms-3">
+                                                <h5 class="mb-1">Ashley Lawson</h5>
+                                                <div class="sub-text">Creative at Envato</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- .card -->
+                            </div><!-- .col -->
+                        </div><!-- .row -->
+                    </div><!-- .section-content -->
+                </div><!-- .container -->
+            </section><!-- .section -->
+            <section class="section section-bottom-0">
+                <div class="container">
+                    <div class="section-wrap bg-primary bg-opacity-10 rounded-4">
+                        <div class="section-content bg-pattern-dot-sm p-4 p-sm-6">
+                            <div class="row justify-content-center text-center">
+                                <div class="col-xl-8 col-xxl-9">
+                                    <div class="block-text">
+                                        <h6 class="overline-title text-primary">Boost your writing productivity</h6>
+                                        <h2 class="title">End writer’s block today</h2>
+                                        <p class="lead mt-3">It’s like having access to a team of copywriting experts writing powerful copy for you in 1-click.</p>
+                                        <ul class="btn-list btn-list-inline">
+                                            <li><a href="#" class="btn btn-lg btn-primary"><span>Start writing for free</span><em class="icon ni ni-arrow-long-right"></em></a></li>
+                                        </ul>
+                                        <ul class="list list-row gy-0 gx-3">
+                                            <li><em class="icon ni ni-check-circle-fill text-success"></em><span>No credit card required</span></li>
+                                            <li><em class="icon ni ni-check-circle-fill text-success"></em><span>Cancel anytime</span></li>
+                                            <li><em class="icon ni ni-check-circle-fill text-success"></em><span>10+ tools to expolore</span></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- .section-content -->
+                    </div><!-- .section-wrap -->
+                </div><!-- .container -->
+            </section><!-- .section -->
+        </main>
+        <footer style="margin-top:60px;" class="nk-footer">
+            <div class="section section-sm section-top-0">
+              <div class="container">
+                <div class="row g-5">
+                  <div class="col-xl-4 col-lg-7 col-md-9 me-auto">
+                    <div class="block-text pe-xxl-5">
+                      <a href="index.html" class="logo-link mb-4">
+                        <div class="logo-wrap">
+                          <img
+                            class="logo-img logo-light"
+                            src="images/logo-green.png"
+                            srcset="images/logo-green2x.png 2x"
+                            alt=""
+                          />
+                          <img
+                            class="logo-img logo-dark"
+                            src="images/logo-green-dark.png"
+                            srcset="images/logo-green-dark2x.png 2x"
+                            alt=""
+                          />
+                        </div>
+                      </a>
+                      <p>
+                        Summarygenerator.io is an AI-powered tool that uses advanced algorithms and natural language processing to analyze the content and identify main ideas to generate relevant summaries. It generates summaries of varying lengths for any type of content.
+                      </p>
+                    </div>
+                  </div>
+                  <!-- .col -->
+                  <div class="col-xl">
+                    <div class="row g-gs">
+                      <div class="col-lg-4 col-sm-4 col-6">
+                        <div class="wgs">
+                          <h6 class="wgs-title overline-title text-heading">
+                            Company
+                          </h6>
+                          <ul class="list gy-2 list-link-base">
+                            <li><a class="link-base" href="#">About Us</a></li>
+                            <li><a class="link-base" href="#">Careers</a></li>
+                            <li><a class="link-base" href="#">Community</a></li>
+                            <li>
+                              <a class="link-base" href="#">Creator Program</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <!-- .col -->
+                      <!-- <div class="col-lg-3 col-sm-4 col-6">
+                        <div class="wgs">
+                          <h6 class="wgs-title overline-title text-heading">
+                            Use Case
+                          </h6>
+                          <ul class="list gy-2 list-link-base">
+                            <li><a class="link-base" href="#">Blog writing</a></li>
+                            <li>
+                              <a class="link-base" href="#">Social media Ads</a>
+                            </li>
+                            <li>
+                              <a class="link-base" href="#">Creative writing</a>
+                            </li>
+                            <li><a class="link-base" href="#">Magic command</a></li>
+                          </ul>
+                        </div>
+                      </div> -->
+                      <!-- .col -->
+                      <!-- <div class="col-lg-3 col-sm-4 col-6">
+                        <div class="wgs">
+                          <h6 class="wgs-title overline-title text-heading">
+                            Use Case
+                          </h6>
+                          <ul class="list gy-2 list-link-base">
+                            <li><a class="link-base" href="{% url 'contact' %}">Contact Us</a></li>
+                            <li><a class="link-base" href="#">Weekly Demos</a></li>
+                            <li><a class="link-base" href="#">Report a Bug</a></li>
+                            <li>
+                              <a class="link-base" href="#"
+                                >Request a New Feature</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </div> -->
+                      <!-- .col -->
+                      <div class="col-lg-4 col-md-5 col-sm-6">
+                        <div class="wgs">
+                          <h6 class="wgs-title overline-title text-heading">
+                            Get In Touch
+                          </h6>
+                          <ul class="list gy-3">
+                            <li>
+                              <em
+                                class="icon text-primary fs-5 ni ni-mail-fill"
+                              ></em>
+                              <span>support@copygen.com</span>
+                            </li>
+                            <li>
+                              <em
+                                class="icon text-primary fs-5 ni ni-call-alt-fill"
+                              ></em>
+                              <span>+(642) 342 762 44</span>
+                            </li>
+                            <li>
+                              <em
+                                class="icon text-primary fs-5 ni ni-map-pin-fill"
+                              ></em>
+                              <span
+                                >442 Belle St Floor 7, San Francisco, AV 4206</span
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <!-- .col -->
+                    </div>
+                    <!-- .row -->
+                  </div>
+                  <!-- .col -->
+                </div>
+                <!-- .row -->
+              </div>
+              <!-- .container -->
+            </div>
+            <!-- .section -->
+            <div class="section section-0">
+              <hr class="border-opacity-25 border-primary m-0" />
+              <div class="container">
+                <div class="py-4">
+                  <div class="row">
+                    <div class="col-md">
+                      <p class="mb-2 mb-md-0">
+                        Copyright &copy; 2023. Template Made by
+                        <a href="#" class="fw-bold text-base">Softnio</a>.
+                      </p>
+                    </div>
+                    <!-- .col -->
+                    <div class="col-md">
+                      <ul
+                        class="list list-row gx-4 justify-content-start justify-content-md-end"
+                      >
+                        <li><a href="{% url 'terms' %}" class="link-primary">Terms</a></li>
+                        <li><a href="{% url 'privacy' %}" class="link-primary">Privacy Policy</a></li>
+                      </ul>
+                    </div>
+                    <!-- .col -->
+                  </div>
+                  <!-- .row -->
+                </div>
+              </div>
+              <!-- .container -->
+            </div>
+            <!-- .section -->
+          </footer>
+    </div>
+    <script src="assets/js/bundle.js?v1.5.0"></script>
+    <script src="assets/js/scripts.js?v1.5.0"></script>
+</body>
+
