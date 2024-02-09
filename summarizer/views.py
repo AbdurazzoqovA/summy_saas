@@ -43,6 +43,9 @@ def pricing(request):
 def about(request):
     return render(request, "front/about.html")
 
+def home2(request):
+    return render(request, "front/home2.html")
+
 
 
 @csrf_exempt
