@@ -88,38 +88,7 @@
                                 <em class="on icon ni ni-moon-fill"></em>
                               </button>
                             </div>
-                            <ul class="nk-menu-buttons flex-lg-row-reverse">
-                              <li><a href="#" class="btn btn-primary">Get Started</a></li>
-                              <li class="dropdown">
-                                <a
-                                  class="link link-base fw-medium dropdown-toggle"
-                                  href="#"
-                                  data-bs-toggle="dropdown"
-                                  data-bs-offset="0, 12"
-                                >
-                                  <!-- Display current language -->
-                                  {% get_current_language as CURRENT_LANGUAGE %}
-                                  {% get_language_info for CURRENT_LANGUAGE as LANG_INFO %}
-                                  {{ LANG_INFO.name_local }} ({{ CURRENT_LANGUAGE|upper }})
-                                </a>
-                                <ul
-                                  class="dropdown-menu dropdown-menu-end shadow-sm border-0"
-                                >
-                                  <!-- Iterate over available languages -->
-                                  {% for language in languages %}
-                                  <li>
-                                    <a
-                                      class="dropdown-item link-base py-2 px-4"
-                                      href="/{{language.code}}/"
-                                    >
-                                      {{ language.display_name }} ({{ language.code|upper
-                                      }})
-                                    </a>
-                                  </li>
-                                  {% endfor %}
-                                </ul>
-                              </li>
-                            </ul>
+                         
                             <!-- .nk-menu-buttons -->
                           </nav>
                     </div><!-- .nk-header-wrap -->
