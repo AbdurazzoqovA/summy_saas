@@ -46,6 +46,9 @@ def about(request):
 def home2(request):
     return render(request, "front/home2.html")
 
+def termsandconditions(request):
+    return render(request, "front/termsandconditions.html")
+
 
 
 @csrf_exempt
