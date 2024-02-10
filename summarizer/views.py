@@ -49,6 +49,8 @@ def home2(request):
 def termsandconditions(request):
     return render(request, "front/termsandconditions.html")
 
+def privacypolicy(request):
+    return render(request, "front/privacypolicy.html")
 
 
 @csrf_exempt
