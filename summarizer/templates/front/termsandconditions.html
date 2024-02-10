@@ -37,178 +37,152 @@
 	font-weight: 400;
 
     }
+    .tableofContents_links{
+        list-style: none!important;
+    }
 </style>
 
 <body class="nk-body " data-menu-collapse="lg">
     <div class="nk-app-root ">
-        <header class="nk-header">
-            <div class="nk-header-main nk-menu-main will-shrink is-transparent ignore-mask">
-                <div class="container">
-                    <div class="nk-header-wrap">
-                        <div class="nk-header-logo">
-                            <a href="index.html" class="logo-link">
-                                <div class="logo-wrap">
-                                    <img class="logo-img logo-light" src="images/logo.png" srcset="images/logo2x.png 2x" alt="">
-                                    <img class="logo-img logo-dark" src="images/logo-dark.png" srcset="images/logo-dark2x.png 2x" alt="">
-                                </div>
+        <header class="nk-header has-shape">
+            <div
+              class="nk-shape bg-shape-blur-c ms-n20p mt-n20p start-50 translate-middle-x"
+            ></div>
+            <div
+              class="nk-header-main nk-menu-main will-shrink has-border ignore-mask"
+            >
+              <div class="container">
+                <div class="nk-header-wrap">
+                  <div class="nk-header-logo">
+                    <a href="index.html" class="logo-link">
+                      <div class="logo-wrap">
+                        <img
+                          class="logo-img logo-light"
+                          src="images/logo-green.png"
+                          srcset="images/logo-green2x.png 2x"
+                          alt=""
+                        />
+                        <img
+                          class="logo-img logo-dark"
+                          src="images/logo-green-dark.png"
+                          srcset="images/logo-green-dark2x.png 2x"
+                          alt=""
+                        />
+                      </div>
+                    </a>
+                  </div>
+                  <!-- .nk-header-logo -->
+                  <div class="nk-header-toggle">
+                    <button class="dark-mode-toggle">
+                      <em class="off icon ni ni-sun-fill"></em>
+                      <em class="on icon ni ni-moon-fill"></em>
+                    </button>
+                    <button class="btn btn-light btn-icon header-menu-toggle">
+                      <em class="icon ni ni-menu"></em>
+                    </button>
+                  </div>
+                  <nav class="nk-header-menu nk-menu">
+                    <ul class="nk-menu-list mx-auto">
+                     
+						<li class="nk-menu-item">
+                    <a href="{% url 'home' %}" class="nk-menu-link">
+                      <span class="nk-menu-text">Home</span>
+                    </a>
+                  </li>
+                      <li class="nk-menu-item">
+                        <a href="{% url 'pricing' %}" class="nk-menu-link">
+                          <span class="nk-menu-text">Pricing</span>
+                        </a>
+                      </li>
+                      <li class="nk-menu-item">
+                        <a href="{% url 'blog' %}" class="nk-menu-link">
+                          <span class="nk-menu-text">Blog</span>
+                        </a>
+                      </li>
+                      <li class="nk-menu-item">
+                        <a href="{% url 'about' %}" class="nk-menu-link">
+                          <span class="nk-menu-text">About</span>
+                        </a>
+                      </li>
+                      {% if request.user.is_authenticated %}
+                      <li class="nk-menu-item">
+                        <a href="{% url 'account_logout' %}" class="nk-menu-link">
+                          <span class="nk-menu-text">Logout</span>
+                        </a>
+                      </li>
+                     
+    
+                      {% else %}
+                      <li class="nk-menu-item">
+                        <a href="{% url 'account_login' %}" class="nk-menu-link">
+                          <span class="nk-menu-text">Login</span>
+                        </a>
+                      </li>
+                      <li class="nk-menu-item">
+                        <a href="{% url 'account_signup' %}" class="nk-menu-link">
+                          <span class="nk-menu-text">Sign Up</span>
+                        </a>
+                      </li>
+    
+                      {% endif%}
+                    
+                    </ul>
+    
+                    <!-- .nk-menu-list -->
+                    <div class="mx-2 d-none d-lg-block">
+                      <button class="dark-mode-toggle">
+                        <em class="off icon ni ni-sun-fill"></em>
+                        <em class="on icon ni ni-moon-fill"></em>
+                      </button>
+                    </div>
+                    <ul class="nk-menu-buttons flex-lg-row-reverse">
+    
+                      {% if user.is_authenticated %}
+                      <li><a href="#" class="btn btn-primary">Dashboard</a></li>
+            {% endif %}
+                      <li><a href="#" class="btn btn-primary">Get Started</a></li>
+                      <li class="dropdown">
+                        <a
+                          class="link link-base fw-medium dropdown-toggle"
+                          href="#"
+                          data-bs-toggle="dropdown"
+                          data-bs-offset="0, 12"
+                        >
+                          <!-- Display current language -->
+                          {% get_current_language as CURRENT_LANGUAGE %}
+                          {% get_language_info for CURRENT_LANGUAGE as LANG_INFO %}
+                          {{ LANG_INFO.name_local }} ({{ CURRENT_LANGUAGE|upper }})
+                        </a>
+                        <ul
+                          class="dropdown-menu dropdown-menu-end shadow-sm border-0"
+                        >
+                          <!-- Iterate over available languages -->
+                          {% for language in languages %}
+                          <li>
+                            <a
+                              class="dropdown-item link-base py-2 px-4"
+                              href="/{{language.code}}/"
+                            >
+                              {{ language.display_name }} ({{ language.code|upper
+                              }})
                             </a>
-                        </div><!-- .nk-header-logo -->
-                        <div class="nk-header-toggle">
-                            <button class="dark-mode-toggle">
-                                <em class="off icon ni ni-sun-fill"></em>
-                                <em class="on icon ni ni-moon-fill"></em>
-                            </button>
-                            <button class="btn btn-light btn-icon header-menu-toggle">
-                                <em class="icon ni ni-menu"></em>
-                            </button>
-                        </div>
-                        <nav class="nk-header-menu nk-menu">
-                            <ul class="nk-menu-list mx-auto">
-                                <li class="nk-menu-item has-dropdown">
-                                    <a href="#" class="nk-menu-link nk-menu-toggle">
-                                        <span class="nk-menu-text">Home</span>
-                                    </a>
-                                    <div class="nk-menu-dropdown">
-                                        <ul class="nk-menu-sub">
-                                            <li class="nk-menu-item">
-                                                <a class="nk-menu-link" href="index.html">Home S1</a>
-                                            </li>
-                                            <li class="nk-menu-item">
-                                                <a class="nk-menu-link" href="index-s2.html">Home S2</a>
-                                            </li>
-                                            <li class="nk-menu-item">
-                                                <a class="nk-menu-link" href="index-s3.html">Home S3</a>
-                                            </li>
-                                            <li class="nk-menu-item">
-                                                <a class="nk-menu-link" href="index-s4.html">Home S4</a>
-                                            </li>
-                                            <li class="nk-menu-item">
-                                                <a class="nk-menu-link" href="index-s5.html">Home S5</a>
-                                            </li>
-                                            <li class="nk-menu-item">
-                                                <a class="nk-menu-link" href="index-s6.html">Home S6 <div class="badge bg-primary ms-2 me-n4 px-2 rounded-pill">New</div></a>
-                                            </li>
-                                            <li class="nk-menu-item">
-                                                <a class="nk-menu-link" href="index-s7.html">Home S7 <div class="badge bg-primary ms-2 me-n4 px-2 rounded-pill">New</div></a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </li>
-                                <li class="nk-menu-item">
-                                    <a href="usecase.html" class="nk-menu-link">
-                                        <span class="nk-menu-text">Use Cases</span>
-                                    </a>
-                                </li>
-                                <li class="nk-menu-item">
-                                    <a href="features.html" class="nk-menu-link">
-                                        <span class="nk-menu-text">Features</span>
-                                    </a>
-                                </li>
-                                <li class="nk-menu-item has-dropdown">
-                                    <a href="#" class="nk-menu-link nk-menu-toggle">
-                                        <span class="nk-menu-text">Pages</span>
-                                    </a>
-                                    <div class="nk-menu-dropdown nk-menu-mega">
-                                        <div class="nk-menu-mega-wrap">
-                                            <ul class="nk-menu-sub">
-                                                <li class="nk-menu-item">
-                                                    <a class="nk-menu-link" href="about.html">About</a>
-                                                </li>
-                                                <li class="nk-menu-item">
-                                                    <a class="nk-menu-link" href="usecase.html">Use Case</a>
-                                                </li>
-                                                <li class="nk-menu-item">
-                                                    <a class="nk-menu-link" href="usecase-details.html">Use Case Details <div class="badge bg-primary ms-2 me-n4 px-2 rounded-pill">New</div></a>
-                                                </li>
-                                                <li class="nk-menu-item">
-                                                    <a class="nk-menu-link" href="usecase-s2.html">Use Case S2</a>
-                                                </li>
-                                                <li class="nk-menu-item">
-                                                    <a class="nk-menu-link" href="usecase-details-s2.html">Use Case Details S2 <div class="badge bg-primary ms-2 me-n4 px-2 rounded-pill">New</div></a>
-                                                </li>
-                                                <li class="nk-menu-item">
-                                                    <a class="nk-menu-link" href="pricing.html">Pricing</a>
-                                                </li>
-                                                <li class="nk-menu-item">
-                                                    <a class="nk-menu-link" href="pricing-s2.html">Pricing S2</a>
-                                                </li>
-                                                <li class="nk-menu-item">
-                                                    <a class="nk-menu-link" href="blog.html">Blog</a>
-                                                </li>
-                                            </ul>
-                                            <ul class="nk-menu-sub">
-                                                <li class="nk-menu-item">
-                                                    <a class="nk-menu-link" href="blog-single.html">Blog Single</a>
-                                                </li>
-                                                <li class="nk-menu-item">
-                                                    <a class="nk-menu-link" href="features.html">Features</a>
-                                                </li>
-                                                <li class="nk-menu-item">
-                                                    <a class="nk-menu-link" href="contact.html">Contact</a>
-                                                </li>
-                                                <li class="nk-menu-item">
-                                                    <a class="nk-menu-link" href="contact-s2.html">Contact S2</a>
-                                                </li>
-                                                <li class="nk-menu-item">
-                                                    <a class="nk-menu-link" target="_blank" href="login.html">Login</a>
-                                                </li>
-                                                <li class="nk-menu-item">
-                                                    <a class="nk-menu-link" target="_blank" href="login-s2.html">Login S2</a>
-                                                </li>
-                                                <li class="nk-menu-item">
-                                                    <a class="nk-menu-link" target="_blank" href="register.html">Register</a>
-                                                </li>
-                                                <li class="nk-menu-item">
-                                                    <a class="nk-menu-link" target="_blank" href="register-s2.html">Register S2</a>
-                                                </li>
-                                            </ul>
-                                            <ul class="nk-menu-sub">
-                                                <li class="nk-menu-item">
-                                                    <a class="nk-menu-link" target="_blank" href="reset.html">Reset</a>
-                                                </li>
-                                                <li class="nk-menu-item">
-                                                    <a class="nk-menu-link" target="_blank" href="reset-s2.html">Reset S2</a>
-                                                </li>
-                                                <li class="nk-menu-item">
-                                                    <a class="nk-menu-link" target="_blank" href="404.html">404 Error</a>
-                                                </li>
-                                                <li class="nk-menu-item">
-                                                    <a class="nk-menu-link" target="_blank" href="404-s2.html">404 Error S2</a>
-                                                </li>
-                                                <li class="nk-menu-item">
-                                                    <a class="nk-menu-link" target="_blank" href="504.html">504 Error</a>
-                                                </li>
-                                                <li class="nk-menu-item">
-                                                    <a class="nk-menu-link" target="_blank" href="504-s2.html">504 Error s2</a>
-                                                </li>
-                                                <li class="nk-menu-item">
-                                                    <a class="nk-menu-link" target="_blank" href="terms-condition.html">Terms &amp; Condition</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="nk-menu-item">
-                                    <a href="pricing.html" class="nk-menu-link">
-                                        <span class="nk-menu-text">Pricing</span>
-                                    </a>
-                                </li>
-                            </ul><!-- .nk-menu-list -->
-                            <div class="mx-2 d-none d-lg-block">
-                                <button class="dark-mode-toggle">
-                                    <em class="off icon ni ni-sun-fill"></em>
-                                    <em class="on icon ni ni-moon-fill"></em>
-                                </button>
-                            </div>
-                            <ul class="nk-menu-buttons flex-lg-row-reverse">
-                                <li><a href="#" class="btn btn-primary">Start Writing</a></li>
-                                <li><a class="link link-dark" href="login.html">Login </a></li>
-                            </ul><!-- .nk-menu-buttons -->
-                        </nav><!-- .nk-header-menu -->
-                    </div><!-- .nk-header-wrap -->
-                </div><!-- .container -->
-            </div><!-- .nk-header-main -->
-        </header><!-- .nk-header -->
+                          </li>
+                          {% endfor %}
+                        </ul>
+                      </li>
+                    </ul>
+                    <!-- .nk-menu-buttons -->
+                  </nav>
+                  <!-- .nk-header-menu -->
+                </div>
+                <!-- .nk-header-wrap -->
+              </div>
+              <!-- .container -->
+            </div>
+            <!-- .nk-header-main -->
+            {% block hero %} {% endblock %}
+            <!-- .nk-hero -->
+          </header>
         <main class="nk-pages">
             <section class="section section-bottom-0 has-mask">
                 <div class="nk-mask bg-pattern-dot bg-blend-around mt-n5 mb-10p mh-50vh"></div>
@@ -624,62 +598,154 @@
             </section><!-- .section -->
     
         </main>
-        <footer class="nk-footer">
-            <div class="section">
-                <div class="container">
-                    <div class="row g-5">
-                        <div class="col-xl-3 col-sm-4 col-6">
-                            <div class="wgs">
-                                <h6 class="wgs-title overline-title text-heading mb-3">Use Case</h6>
-                                <ul class="list gy-2 list-link-base">
-                                    <li><a class="link-base" href="#">AI Writer</a></li>
-                                    <li><a class="link-base" href="#">AI Articel Writer</a></li>
-                                    <li><a class="link-base" href="#">Content Generator</a></li>
-                                    <li><a class="link-base" href="#">AI Content Writing</a></li>
-                                    <li><a class="link-base" href="#">Content Rewriter</a></li>
-                                    <li><a class="link-base" href="#">Blog Post Writer</a></li>
-                                </ul>
-                            </div>
+        <footer style="margin-top:60px;" class="nk-footer">
+            <div class="section section-sm section-top-0">
+              <div class="container">
+                <div class="row g-5">
+                  <div class="col-xl-4 col-lg-7 col-md-9 me-auto">
+                    <div class="block-text pe-xxl-5">
+                      <a href="index.html" class="logo-link mb-4">
+                        <div class="logo-wrap">
+                          <img
+                            class="logo-img logo-light"
+                            src="images/logo-green.png"
+                            srcset="images/logo-green2x.png 2x"
+                            alt=""
+                          />
+                          <img
+                            class="logo-img logo-dark"
+                            src="images/logo-green-dark.png"
+                            srcset="images/logo-green-dark2x.png 2x"
+                            alt=""
+                          />
                         </div>
-                        <div class="col-xl-2 col-sm-4 col-6">
-                            <div class="wgs">
-                                <h6 class="wgs-title overline-title text-heading mb-3">About</h6>
-                                <ul class="list gy-2 list-link-base">
-                                    <li><a class="link-base" href="#">Pricing</a></li>
-                                    <li><a class="link-base" href="#">Login</a></li>
-                                    <li><a class="link-base" href="#">Sign up</a></li>
-                                    <li><a class="link-base" href="#">Privacy Policy</a></li>
-                                    <li><a class="link-base" href="#">Terms &amp; Conditions</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-xl-2 col-sm-4 col-6">
-                            <div class="wgs">
-                                <h6 class="wgs-title overline-title text-heading mb-3">CopyGen</h6>
-                                <ul class="list gy-2 list-link-base">
-                                    <li><a class="link-base" href="#">Contact Us</a></li>
-                                    <li><a class="link-base" href="#">FAQs</a></li>
-                                    <li><a class="link-base" href="#">Affiliate Program</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-7 col-md-9 me-auto order-xl-first">
-                            <div class="block-text">
-                                <a href="index.html" class="logo-link mb-4">
-                                    <div class="logo-wrap">
-                                        <img class="logo-img logo-light" src="images/logo.png" srcset="images/logo2x.png 2x" alt="">
-                                        <img class="logo-img logo-dark" src="images/logo-dark.png" srcset="images/logo-dark2x.png 2x" alt="">
-                                    </div>
-                                </a>
-                                <h4 class="title">Save time. Get inspired.</h4>
-                                <p>Automatically genarate blog articles, website copy, landing pages &amp; digital ads for your business in seconds. Unleash the most advanced AI writer to boost your traffic and productitvity. </p>
-                                <p class="text-heading mt-4">&copy; 2023 CopyGenAI. Template Made By <a target="_blank" href="https://softnio.com">Softnio</a> </p>
-                            </div>
-                        </div>
+                      </a>
+                      <p>
+                        Summarygenerator.io is an AI-powered tool that uses advanced algorithms and natural language processing to analyze the content and identify main ideas to generate relevant summaries. It generates summaries of varying lengths for any type of content.
+                      </p>
                     </div>
-                </div><!-- .container -->
-            </div><!-- .section -->
-        </footer>
+                  </div>
+                  <!-- .col -->
+                  <div class="col-xl">
+                    <div class="row g-gs">
+                      <div class="col-lg-4 col-sm-4 col-6">
+                        <div class="wgs">
+                          <h6 class="wgs-title overline-title text-heading">
+                            Company
+                          </h6>
+                          <ul class="list gy-2 list-link-base">
+                            <li><a class="link-base" href="#">About Us</a></li>
+                            <li><a class="link-base" href="{% url 'termsandConditions' %}" >Terms and Conditions</a></li>
+                           
+                          </ul>
+                        </div>
+                      </div>
+                      <!-- .col -->
+                      <!-- <div class="col-lg-3 col-sm-4 col-6">
+                        <div class="wgs">
+                          <h6 class="wgs-title overline-title text-heading">
+                            Use Case
+                          </h6>
+                          <ul class="list gy-2 list-link-base">
+                            <li><a class="link-base" href="#">Blog writing</a></li>
+                            <li>
+                              <a class="link-base" href="#">Social media Ads</a>
+                            </li>
+                            <li>
+                              <a class="link-base" href="#">Creative writing</a>
+                            </li>
+                            <li><a class="link-base" href="#">Magic command</a></li>
+                          </ul>
+                        </div>
+                      </div> -->
+                      <!-- .col -->
+                      <!-- <div class="col-lg-3 col-sm-4 col-6">
+                        <div class="wgs">
+                          <h6 class="wgs-title overline-title text-heading">
+                            Use Case
+                          </h6>
+                          <ul class="list gy-2 list-link-base">
+                            <li><a class="link-base" href="{% url 'contact' %}">Contact Us</a></li>
+                            <li><a class="link-base" href="#">Weekly Demos</a></li>
+                            <li><a class="link-base" href="#">Report a Bug</a></li>
+                            <li>
+                              <a class="link-base" href="#"
+                                >Request a New Feature</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </div> -->
+                      <!-- .col -->
+                      <div class="col-lg-4 col-md-5 col-sm-6">
+                        <div class="wgs">
+                          <h6 class="wgs-title overline-title text-heading">
+                            Get In Touch
+                          </h6>
+                          <ul class="list gy-3">
+                            <li>
+                              <em
+                                class="icon text-primary fs-5 ni ni-mail-fill"
+                              ></em>
+                              <span>support@copygen.com</span>
+                            </li>
+                            <li>
+                              <em
+                                class="icon text-primary fs-5 ni ni-call-alt-fill"
+                              ></em>
+                              <span>+(642) 342 762 44</span>
+                            </li>
+                            <li>
+                              <em
+                                class="icon text-primary fs-5 ni ni-map-pin-fill"
+                              ></em>
+                              <span
+                                >442 Belle St Floor 7, San Francisco, AV 4206</span
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <!-- .col -->
+                    </div>
+                    <!-- .row -->
+                  </div>
+                  <!-- .col -->
+                </div>
+                <!-- .row -->
+              </div>
+              <!-- .container -->
+            </div>
+            <!-- .section -->
+            <div class="section section-0">
+              <hr class="border-opacity-25 border-primary m-0" />
+              <div class="container">
+                <div class="py-4">
+                  <div class="row">
+                    <div class="col-md">
+                      <p class="mb-2 mb-md-0">
+                        Copyright &copy; 2023. Template Made by
+                        <a href="#" class="fw-bold text-base">Softnio</a>.
+                      </p>
+                    </div>
+                    <!-- .col -->
+                    <div class="col-md">
+                      <ul
+                        class="list list-row gx-4 justify-content-start justify-content-md-end"
+                      >
+                        <li><a href="{% url 'terms' %}" class="link-primary">Terms</a></li>
+                        <li><a href="{% url 'privacy' %}" class="link-primary">Privacy Policy</a></li>
+                      </ul>
+                    </div>
+                    <!-- .col -->
+                  </div>
+                  <!-- .row -->
+                </div>
+              </div>
+              <!-- .container -->
+            </div>
+            <!-- .section -->
+          </footer>
     </div>
     <script src="assets/js/bundle.js?v1.5.0"></script>
     <script src="assets/js/scripts.js?v1.5.0"></script>
