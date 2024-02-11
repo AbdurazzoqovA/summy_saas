@@ -659,6 +659,21 @@
     </div>
     <script src="assets/js/bundle.js?v1.5.0"></script>
     <script src="assets/js/scripts.js?v1.5.0"></script>
+
+    <script src="{% static '/front/read_files.js' %}"></script>
+    <script src="{% static '/front/send_request.js' %}"></script>
+
+    <script src="{% static '/front/assets/js/bundle.js' %}?v1.5.0"></script>
+    <script src="{% static '/front/assets/js/scripts.js' %}?v1.5.0"></script>
+    <script>
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip({
+          trigger: "hover",
+        });
+      });
+    </script>
+
+
 </body>
 
 </html>
