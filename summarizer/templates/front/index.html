@@ -16,7 +16,7 @@
 {% if meta_tag.og_image %}
 <meta property="og:image" content="{{ meta_tag.og_image.url }}">
 {% endif %}
-
+<link rel="stylesheet" href="{% static 'front/assets/css/style.css' %}?v1.5.0">
 <!-- Twitter Card Tags -->
 <meta name="twitter:title" content="{{ meta_tag.twitter_title }}">
 <meta name="twitter:description" content="{{ meta_tag.twitter_description }}">
