@@ -1,20 +1,36 @@
 {% load static %}
+{% block meta_tags %}
 {% load i18n %}
+{% if meta_tag %}
 
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Softnio">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="images/favicon.png">
-    <link rel="stylesheet" href="{% static 'front/assets/css/style.css' %}?v1.5.0">
-
     <title>Free AI Summary Generator - Summarize Text in One Click</title>
-<meta name=”description” content=”Experience the power of AI Summary Generator, your go-to text summarizer that uses advanced algorithms and NLP to identify main points and generate relevant summaries. Try Now!
-” />
-
+    <meta name=”description” content=”Experience the power of AI Summary Generator, your go-to text summarizer that uses advanced algorithms and NLP to identify main points and generate relevant summaries. Try Now!
+    ” />
+    
+    <!-- <meta name="description" content="{{ meta_tag.description }}"> -->
+    <meta name="keywords" content="{{ meta_tag.keywords }}">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="{{ meta_tag.og_title }}">
+    <meta property="og:description" content="{{ meta_tag.og_description }}">
+    {% if meta_tag.og_image %}
+    <meta property="og:image" content="{{ meta_tag.og_image.url }}">
+    {% endif %}
+    
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:title" content="{{ meta_tag.twitter_title }}">
+    <meta name="twitter:description" content="{{ meta_tag.twitter_description }}">
+    {% if meta_tag.twitter_image %}
+    <meta property="twitter:image" content="{{ meta_tag.twitter_image.url }}">
+    {% endif %}
+    
+    <!-- Additional meta tags -->
+    <!-- ... -->
+    {% endif %}
+    {% endblock %}
 </head>
 
 <body class="nk-body " data-menu-collapse="lg">
