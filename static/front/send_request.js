@@ -87,8 +87,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (wordCount <= wordLimit) requestforSummary(text);
     else {
-      document.getElementById("upgradePopup").style.display = "block";
-      console.log("Word Limit Exceeded!");
+      // document.getElementById("upgradePopup").style.display = "block";
+      alert("Word Limit Exceeded! Upgrade to Pro for more features");
     }
   });
 });
