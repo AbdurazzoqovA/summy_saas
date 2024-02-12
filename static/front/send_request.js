@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const neighbourPanel = document.querySelector(".neighbourPanel");
   const resizablePanel = document.querySelector(".resizablePanel");
   const spinner = document.getElementById("summary-spinner");
-  console.log("added some new Script");
+  console.log("added some new Script 100");
   // Function to get CSRF token from the meta tag
   function getCsrfToken() {
     return document
@@ -20,19 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
       .getAttribute("content");
   }
 
-  summaryButton.addEventListener("click", function () {
-    const text = neighbourPanel.textContent || neighbourPanel.innerText;
-
-    var wordCount = text.split(/\s+/).filter(function (word) {
-      return word.length > 0;
-    }).length;
-
-    console.log("Update-script-----");
-    console.log("Counting-Words", wordCount);
-
-    // Set the word limit
-    var wordLimit = 800;
-
+  function requestforSummary(text) {
     // get button which has selected attribute
     let mode = document.querySelector(".mode-button[selected]").innerText;
     let rangeValue = 0;
@@ -85,5 +73,18 @@ document.addEventListener("DOMContentLoaded", function () {
         spinner.style.display = "none";
         summaryButton.disabled = false;
       });
+  }
+
+  summaryButton.addEventListener("click", function () {
+    const text = neighbourPanel.textContent || neighbourPanel.innerText;
+
+    var wordCount = text.split(/\s+/).filter(function (word) {
+      return word.length > 0;
+    }).length;
+    console.log("Counting-Words", wordCount);
+
+    var wordLimit = 100;
+
+    requestforSummary(text);
   });
 });
