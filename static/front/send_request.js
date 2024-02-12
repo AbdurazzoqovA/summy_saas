@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const neighbourPanel = document.querySelector(".neighbourPanel");
   const resizablePanel = document.querySelector(".resizablePanel");
   const spinner = document.getElementById("summary-spinner");
-  console.log("20000-30000");
+  console.log("1");
   // Function to get CSRF token from the meta tag
   function getCsrfToken() {
     return document
@@ -85,6 +85,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     var wordLimit = 100;
 
-    requestforSummary(text);
+    if (wordCount <= wordLimit) requestforSummary(text);
+    else alert("Word Limit exceeded");
   });
 });
