@@ -74,6 +74,18 @@
         border-color:#3f3eed!important ;
       }
 
+      .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            z-index: 9999;
+        }
     </style>
   </head>
 
@@ -226,6 +238,7 @@
                             <div class="alert alert-danger ms-6 me-6" id="alertError" style="display: none" role="alert"></div>
             
                         </div>
+                        <div id="upgradePopup" class="popup"></div>
                     </div>
                 </div>
             </div>
@@ -383,8 +396,8 @@
         <!-- .section -->
       </footer>
     </div>
-    <script src="{% static '/front/read_files.js' %}?v=3.0.0.1"></script>
-    <script src="{% static '/front/send_request.js' %}?v=3.0.0.1"></script>
+    <script src="{% static '/front/read_files.js' %}?v=3.0.0.11"></script>
+    <script src="{% static '/front/send_request.js' %}?v=3.0.0.11"></script>
 
     <script src="{% static '/front/assets/js/bundle.js' %}?v1.5.0"></script>
     <script src="{% static '/front/assets/js/scripts.js' %}?v1.5.0"></script>
