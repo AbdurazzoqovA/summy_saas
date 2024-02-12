@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const neighbourPanel = document.querySelector(".neighbourPanel");
   const resizablePanel = document.querySelector(".resizablePanel");
   const spinner = document.getElementById("summary-spinner");
-  console.log("added some new Script 100");
+  console.log("20000");
   // Function to get CSRF token from the meta tag
   function getCsrfToken() {
     return document
