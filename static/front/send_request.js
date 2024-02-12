@@ -27,6 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
       return word.length > 0;
     }).length;
 
+    console.log("Update-script-----");
     console.log("Counting-Words", wordCount);
 
     // Set the word limit
