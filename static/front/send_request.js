@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const neighbourPanel = document.querySelector(".neighbourPanel");
   const resizablePanel = document.querySelector(".resizablePanel");
   const spinner = document.getElementById("summary-spinner");
-
+  console.log("added some new Script");
   // Function to get CSRF token from the meta tag
   function getCsrfToken() {
     return document
@@ -26,6 +26,8 @@ document.addEventListener("DOMContentLoaded", function () {
     var wordCount = text.split(/\s+/).filter(function (word) {
       return word.length > 0;
     }).length;
+
+    alert("countijkjkjklf");
 
     console.log("Update-script-----");
     console.log("Counting-Words", wordCount);
