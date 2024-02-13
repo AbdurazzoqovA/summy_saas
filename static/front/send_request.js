@@ -18,7 +18,7 @@ function converToBullets(text) {
   // Iterate through each line and create a li element for each
   lines.forEach(function (line) {
     var liElement = document.createElement("li");
-    liElement.textContent = line.trim().substring(1); // Exclude the leading '-'
+    liElement.textContent = line.trim(); // Exclude the leading '-'
     ulElement.appendChild(liElement);
   });
 
