@@ -9,7 +9,7 @@ function decodeHtml(html) {
 
 function converToBullets(text) {
   var textContent = text.trim();
-  var lines = textContent.split("\n");
+  var lines = textContent.split(".");
 
   // Create a new ul element
   var ulElement = document.createElement("ul");
