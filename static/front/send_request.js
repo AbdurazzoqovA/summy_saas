@@ -23,6 +23,8 @@ function converToBullets(text) {
     ulElement.appendChild(liElement);
   });
 
+  resizablePanel.innerHTML = "";
+
   resizablePanel.appendChild(ulElement);
 }
 
@@ -65,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
     })
       .then((response) => response.json())
       .then((data) => {
-        console.log(data);
+        console.log(mode);
 
         if (data.error) {
           // If the response includes an error key, display it
@@ -75,7 +77,7 @@ document.addEventListener("DOMContentLoaded", function () {
           // If the response is successful, update the resizablePanel
           alertError.style.display = "none";
           // let result = marked.marked(data.summary);
-          if (mode == "paragraph") resizablePanel.innerHTML = data?.summary;
+          if (mode === "paragraph") resizablePanel.innerHTML = data?.summary;
           else converToBullets(data.summary);
         }
         const wordCountElements = document.querySelectorAll(
