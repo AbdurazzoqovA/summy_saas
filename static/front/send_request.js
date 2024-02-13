@@ -10,7 +10,7 @@ function decodeHtml(html) {
 function converToBullets(text) {
   console.log(text);
   var textContent = text.trim();
-  var lines = textContent.split(".");
+  var lines = textContent.split("-");
 
   // Create a new ul element
   var ulElement = document.createElement("ul");
@@ -18,7 +18,7 @@ function converToBullets(text) {
   // Iterate through each line and create a li element for each
   lines.forEach(function (line) {
     var liElement = document.createElement("li");
-    liElement.textContent = line.trim(); // Exclude the leading '-'
+    liElement.textContent = line.trim().substring(1); // Exclude the leading '-'
     ulElement.appendChild(liElement);
   });
 
