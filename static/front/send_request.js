@@ -7,6 +7,22 @@ function decodeHtml(html) {
   return html.replace(/&lt;/g, "<").replace(/&gt;/g, ">");
 }
 
+function converToBullets(text) {
+  var lines = textContent.split("\n");
+
+  // Create a new ul element
+  var ulElement = document.createElement("ul");
+
+  // Iterate through each line and create a li element for each
+  lines.forEach(function (line) {
+    var liElement = document.createElement("li");
+    liElement.textContent = line.trim().substring(1); // Exclude the leading '-'
+    ulElement.appendChild(liElement);
+  });
+
+  return ulElement;
+}
+
 document.addEventListener("DOMContentLoaded", function () {
   const summaryButton = document.getElementById("summaryButton");
   const neighbourPanel = document.querySelector(".neighbourPanel");
@@ -29,6 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     const data = { text: text, mode: mode, rangeValue: rangeValue };
 
+    console.log(mode);
     // Show spinner and disable button
     spinner.style.display = "block";
     summaryButton.disabled = true;
@@ -46,6 +63,10 @@ document.addEventListener("DOMContentLoaded", function () {
       .then((response) => response.json())
       .then((data) => {
         console.log(data);
+
+        let btext = converToBullets(data.summary);
+        console.log(btext);
+
         if (data.error) {
           // If the response includes an error key, display it
           alertError.innerHTML = data.error; // Set the error message
@@ -85,7 +106,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }).length;
     console.log("Counting-Words", wordCount);
 
-    var wordLimit = 100;
+    var wordLimit = 800;
 
     if (wordCount <= wordLimit) requestforSummary(text);
     else {
