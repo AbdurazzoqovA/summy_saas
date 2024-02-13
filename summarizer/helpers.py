@@ -16,6 +16,8 @@ def summarizer(
     mode,
     range_value,
 ):
+    
+    summary_length_tokens = 10 
     model = "models/text-bison-001"
     range_value = int(range_value)
     if range_value == 5:
@@ -46,6 +48,7 @@ def summarizer(
         client = openai.OpenAI(api_key=openai_api_key)
         response = client.chat.completions.create(
             model="gpt-3.5-turbo-1106",  # Experiment with different models as needed
+            max_tokens=summary_length_tokens,
             messages=[
                 {
                     "role": "system",
