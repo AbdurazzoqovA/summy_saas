@@ -20,7 +20,7 @@ function converToBullets(text) {
   lines.forEach(function (line) {
     var liElement = document.createElement("li");
     liElement.textContent = line.trim(); // Exclude the leading '-'
-    ulElement.appendChild(liElement);
+    if (line.length > 4) ulElement.appendChild(liElement);
   });
 
   resizablePanel.innerHTML = "";
