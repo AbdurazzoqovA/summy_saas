@@ -28,6 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
       rangeValue = document.getElementById("summary-length").value;
     }
     const data = { text: text, mode: mode, rangeValue: rangeValue };
+
     // Show spinner and disable button
     spinner.style.display = "block";
     summaryButton.disabled = true;
@@ -44,6 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
     })
       .then((response) => response.json())
       .then((data) => {
+        console.log(data);
         if (data.error) {
           // If the response includes an error key, display it
           alertError.innerHTML = data.error; // Set the error message
