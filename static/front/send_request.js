@@ -8,6 +8,7 @@ function decodeHtml(html) {
 }
 
 function converToBullets(text) {
+  console.log(text);
   var textContent = text.trim();
   var lines = textContent.split(".");
 
