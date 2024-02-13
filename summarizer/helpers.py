@@ -17,7 +17,7 @@ def summarizer(
     range_value,
 ):
     
-    summary_length_tokens = 10
+    summary_length_tokens = 100
 
     model = "models/text-bison-001"
     range_value = int(range_value)
