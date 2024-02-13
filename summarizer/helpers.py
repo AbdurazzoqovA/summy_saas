@@ -18,9 +18,11 @@ def summarizer(
 ):
     
     summary_length_tokens = 10
-    
+
     model = "models/text-bison-001"
     range_value = int(range_value)
+
+    range_percentage = '1%'
 
     if range_value == 5:
         summary_length_tokens = 100
