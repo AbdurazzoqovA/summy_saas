@@ -8,6 +8,7 @@ function decodeHtml(html) {
 }
 
 function converToBullets(text) {
+  var textContent = text.trim();
   var lines = textContent.split("\n");
 
   // Create a new ul element
@@ -28,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const neighbourPanel = document.querySelector(".neighbourPanel");
   const resizablePanel = document.querySelector(".resizablePanel");
   const spinner = document.getElementById("summary-spinner");
-  console.log("2");
+  console.log("21");
   // Function to get CSRF token from the meta tag
   function getCsrfToken() {
     return document
