@@ -69,8 +69,6 @@ document.addEventListener("DOMContentLoaded", function () {
       .then((data) => {
         console.log(data);
 
-        let btext = converToBullets(data.summary);
-
         if (data.error) {
           // If the response includes an error key, display it
           alertError.innerHTML = data.error; // Set the error message
@@ -79,7 +77,8 @@ document.addEventListener("DOMContentLoaded", function () {
           // If the response is successful, update the resizablePanel
           alertError.style.display = "none";
           // let result = marked.marked(data.summary);
-          resizablePanel.innerHTML = data?.summary; // Assuming the response has a "summary" key
+          if (mode == "paragraph") resizablePanel.innerHTML = data?.summary;
+          else converToBullets(data.summary);
         }
         const wordCountElements = document.querySelectorAll(
           "#word-count-summary"
