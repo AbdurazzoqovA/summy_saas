@@ -27,13 +27,13 @@ def summarizer(
     if range_value == 5:
         summary_length_tokens = 100
     elif range_value == 4:
-        summary_length_tokens = 75
+        summary_length_tokens = 100
     elif range_value == 3:
-        summary_length_tokens = 50
+        summary_length_tokens = 100
     elif range_value == 2:
-        summary_length_tokens = 25
+        summary_length_tokens = 100
     elif range_value == 1:
-        summary_length_tokens = 10
+        summary_length_tokens = 100
 
     if mode == "Paragraph":
         prompt = f"""
