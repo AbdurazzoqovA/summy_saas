@@ -23,9 +23,7 @@ function converToBullets(text) {
     ulElement.appendChild(liElement);
   });
 
-  resizablePanel.innerHTML = ulElement;
-
-  return ulElement;
+  resizablePanel.appendChild(ulElement);
 }
 
 document.addEventListener("DOMContentLoaded", function () {
