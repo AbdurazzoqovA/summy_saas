@@ -17,19 +17,21 @@ def summarizer(
     range_value,
 ):
     
-    summary_length_tokens = 10 
+    summary_length_tokens = 10
+    
     model = "models/text-bison-001"
     range_value = int(range_value)
+
     if range_value == 5:
-        range_percentage = "20%"
+        summary_length_tokens = 100
     elif range_value == 4:
-        range_percentage = "40%"
+        summary_length_tokens = 75
     elif range_value == 3:
-        range_percentage = "50%"
+        summary_length_tokens = 50
     elif range_value == 2:
-        range_percentage = "70%"
+        summary_length_tokens = 25
     elif range_value == 1:
-        range_percentage = "90%"
+        summary_length_tokens = 10
 
     if mode == "Paragraph":
         prompt = f"""
