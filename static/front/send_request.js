@@ -77,11 +77,8 @@ document.addEventListener("DOMContentLoaded", function () {
           // If the response is successful, update the resizablePanel
           alertError.style.display = "none";
           // let result = marked.marked(data.summary);
-          if (mode === "Paragraph") {
-            resizablePanel.innerHTML = data?.summary;
-        }
-        else {
-          converToBullets(data.summary);
+          if (mode === "Paragraph") resizablePanel.innerHTML = data?.summary;
+          else converToBullets(data.summary);
         }
         const wordCountElements = document.querySelectorAll(
           "#word-count-summary"
