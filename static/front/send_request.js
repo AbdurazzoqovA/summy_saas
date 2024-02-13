@@ -8,19 +8,22 @@ function decodeHtml(html) {
 }
 
 function converToBullets(text) {
-  console.log(text);
+  const resizablePanel = document.querySelector(".resizablePanel");
   var textContent = text.trim();
   var lines = textContent.split("-");
 
   // Create a new ul element
   var ulElement = document.createElement("ul");
+  ulElement.className = "paraList";
 
   // Iterate through each line and create a li element for each
   lines.forEach(function (line) {
     var liElement = document.createElement("li");
-    liElement.textContent = line.trim().substring(1); // Exclude the leading '-'
+    liElement.textContent = line.trim(); // Exclude the leading '-'
     ulElement.appendChild(liElement);
   });
+
+  resizablePanel.innerHTML = ulElement;
 
   return ulElement;
 }
@@ -67,7 +70,6 @@ document.addEventListener("DOMContentLoaded", function () {
         console.log(data);
 
         let btext = converToBullets(data.summary);
-        console.log(btext);
 
         if (data.error) {
           // If the response includes an error key, display it
