@@ -39,7 +39,7 @@ def summarizer(
     #  Summarize the text and shorten it by {range_percentage}, text:
     if mode == "Paragraph":
         prompt = f"""
-       Generate a comprehensive and detailed summary for the following text:
+        Generate a summary that is approximately 250 words long for the following text:        
         {text}
 
         """
