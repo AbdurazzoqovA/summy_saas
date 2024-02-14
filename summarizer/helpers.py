@@ -35,9 +35,11 @@ def summarizer(
     elif range_value == 1:
         summary_length_tokens = 10
 
+
+    #  Summarize the text and shorten it by {range_percentage}, text:
     if mode == "Paragraph":
         prompt = f"""
-        Summarize the text and shorten it by {range_percentage}, text:
+        Summarize the following text by 90%:
         {text}
 
         """
