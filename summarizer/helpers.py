@@ -52,7 +52,7 @@ def summarizer(
         client = openai.OpenAI(api_key=openai_api_key)
         response = client.chat.completions.create(
             model="gpt-3.5-turbo-1106",  # Experiment with different models as needed
-            max_tokens=summary_length_tokens,
+         #   max_tokens=summary_length_tokens,
             messages=[
                 {
                     "role": "system",
