@@ -39,7 +39,7 @@ def summarizer(
     #  Summarize the text and shorten it by {range_percentage}, text:
     if mode == "Paragraph":
         prompt = f"""
-       Generate a summary that retains 90% of the information from the following text:
+       Generate a comprehensive and detailed summary for the following text:
         {text}
 
         """
