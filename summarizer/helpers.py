@@ -25,15 +25,15 @@ def summarizer(
     range_percentage = '1%'
 
     if range_value == 5:
-        summary_length_tokens = 100
+        summary_length_tokens = 90
     elif range_value == 4:
-        summary_length_tokens = 100
+        summary_length_tokens = 65
     elif range_value == 3:
-        summary_length_tokens = 100
+        summary_length_tokens = 50
     elif range_value == 2:
-        summary_length_tokens = 100
+        summary_length_tokens = 30
     elif range_value == 1:
-        summary_length_tokens = 100
+        summary_length_tokens = 10
 
     if mode == "Paragraph":
         prompt = f"""
