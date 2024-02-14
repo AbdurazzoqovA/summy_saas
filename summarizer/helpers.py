@@ -25,7 +25,7 @@ def summarizer(
     range_percentage = '1%'
 
     if range_value == 5:
-        summary_length_tokens = 90
+        summary_length_tokens = 100
     elif range_value == 4:
         summary_length_tokens = 65
     elif range_value == 3:
