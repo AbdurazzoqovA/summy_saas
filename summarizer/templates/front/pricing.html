@@ -487,13 +487,21 @@
   </footer>
 </div>
 </body>
+<script src="{% static '/front/assets/js/bundle.js' %}?v1.5.0"></script>
+<script src="{% static '/front/assets/js/scripts.js' %}?v1.5.0"></script>
 <script>
 
+    
+$('.dark-mode-toggle').click(function () {
+            console.log('dark mode activating')
+            $('body').toggleClass('is-dark')
+        })
 
-    document.querySelector('.dark-mode-toggle').addEventListener('click', function() {
-        console.log('dark mode activating');
-        document.body.classList.toggle('is-dark');
-    });
+
+    // document.querySelector('.dark-mode-toggle').addEventListener('click', function() {
+    //     console.log('dark mode activating');
+    //     document.body.classList.toggle('is-dark');
+    // });
 
 
     function getCookie(name) {
