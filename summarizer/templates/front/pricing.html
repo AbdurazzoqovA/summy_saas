@@ -1,5 +1,37 @@
 {% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  {% load static %} {% load i18n %}
 
+  <head>
+    <title>Pricing</title>
+<meta name=”description” content=”Free Ai Summary Generator, your go-to text summarizer that uses advanced algorithms to identify main points and generate relevant summaries.
+” />
+    <meta charset="UTF-8" />
+    <meta name="author" content="Softnio" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/favicon.png" />
+    {% block meta_tags %} {% endblock %}
+
+    <link
+      rel="stylesheet"
+      href="{% static 'front/assets/css/style-s3.css' %}?v1.5.0"
+    />
+    <link rel="stylesheet" href="{% static 'front/assets/css/style.css' %}?v1.5.0">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.7.570/pdf.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js"></script>
+   
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+   
+  </head>
+
+  <body class="nk-body" data-menu-collapse="lg">
+    <div class="nk-app-root">
 <script src="https://js.stripe.com/v3/"></script>
 
 
@@ -253,7 +285,8 @@
     </section><!-- .section -->
 </main>
 
-
+</div>
+</body>
 <script>
     function getCookie(name) {
             let cookieValue = null;
