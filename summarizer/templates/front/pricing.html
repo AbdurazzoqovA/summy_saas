@@ -493,7 +493,10 @@
     
         $('.dark-mode-toggle').click(function () {
             console.log('dark mode activating')
+            if(!$('body').hasClass('is-dark'))
             $('body').addClass('is-dark')
+            else
+            $('body').removeClass('is-dark')
         })
 
 
