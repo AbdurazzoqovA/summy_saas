@@ -1,8 +1,89 @@
-{% extends 'front/main.html' %}
 {% load static %}
 {% block content %}
 <script src="https://js.stripe.com/v3/"></script>
 
+
+<header class="nk-header has-mask">
+    <div class="nk-mask bg-gradient-a"></div>
+    <div class="nk-mask bg-pattern-dot bg-blend-top"></div>
+    <div class="nk-header-main nk-menu-main will-shrink is-transparent ignore-mask">
+        <div class="container">
+            <div class="nk-header-wrap">
+                <div class="nk-header-logo">
+                    <a href="index.html" class="logo-link">
+                        <div class="logo-wrap">
+                            <img class="logo-img logo-light" src="images/logo.png" srcset="images/logo2x.png 2x" alt="">
+                            <img class="logo-img logo-dark" src="images/logo-dark.png" srcset="images/logo-dark2x.png 2x" alt="">
+                        </div>
+                    </a>
+                </div><!-- .nk-header-logo -->
+                <div class="nk-header-toggle">
+                    <button class="dark-mode-toggle">
+                        <em class="off icon ni ni-sun-fill"></em>
+                        <em class="on icon ni ni-moon-fill"></em>
+                    </button>
+                    <button class="btn btn-light btn-icon header-menu-toggle">
+                        <em class="icon ni ni-menu"></em>
+                    </button>
+                </div>
+                <nav class="nk-header-menu nk-menu">
+                    <ul class="nk-menu-list mx-auto">
+                    
+                    <li class="nk-menu-item">
+                        <a href="{% url 'home' %}" class="nk-menu-link">
+                          <span class="nk-menu-text">Home</span>
+                        </a>
+                      </li>
+                      <li class="nk-menu-item">
+                        <a href="{% url 'pricing' %}" class="nk-menu-link">
+                          <span class="nk-menu-text">Pricing</span>
+                        </a>
+                      </li>
+                      <li class="nk-menu-item">
+                        <a href="{% url 'blog' %}" class="nk-menu-link">
+                          <span class="nk-menu-text">Blog</span>
+                        </a>
+                      </li>
+                      <li class="nk-menu-item">
+                        <a href="{% url 'about' %}" class="nk-menu-link">
+                          <span class="nk-menu-text">About</span>
+                        </a>
+                      </li>
+                      {% if request.user.is_authenticated %}
+                      <li class="nk-menu-item">
+                        <a href="{% url 'account_logout' %}" class="nk-menu-link">
+                          <span class="nk-menu-text">Logout</span>
+                        </a>
+                      </li>
+                      {% else %}
+                      <li class="nk-menu-item">
+                        <a href="{% url 'account_login' %}" class="nk-menu-link">
+                          <span class="nk-menu-text">Login</span>
+                        </a>
+                      </li>
+    
+                      <li class="nk-menu-item">
+                        <a href="{% url 'account_signup' %}" class="nk-menu-link">
+                          <span class="nk-menu-text">Sign Up</span>
+                        </a>
+                      </li>
+                      {% endif%}
+                    </ul>
+                    <!-- .nk-menu-list -->
+                    <div class="mx-2 d-none d-lg-block">
+                      <button class="dark-mode-toggle">
+                        <em class="off icon ni ni-sun-fill"></em>
+                        <em class="on icon ni ni-moon-fill"></em>
+                      </button>
+                    </div>
+                 
+                    <!-- .nk-menu-buttons -->
+                  </nav>
+            </div><!-- .nk-header-wrap -->
+        </div><!-- .container -->
+    </div>
+   
+</header><!-- .nk-header -->
 <main class="nk-pages">
     <section class="section section-bottom-0 has-shape has-mask">
         <div class="nk-shape bg-shape-blur-m mt-8 start-50 top-0 translate-middle-x"></div>
@@ -245,4 +326,3 @@
     }
 </script>
 
-{% endblock %}
