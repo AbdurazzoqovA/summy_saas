@@ -55,7 +55,7 @@ def summarizer(
         response = client.chat.completions.create(
             model="gpt-3.5-turbo-1106",  # Experiment with different models as needed
          temperature=0.5,
-         max_tokens=int(0.9 * len(text.split())),
+    max_tokens=int(200 / 0.9), 
             messages=[
                 {
                     "role": "system",
