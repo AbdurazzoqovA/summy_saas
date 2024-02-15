@@ -28,7 +28,7 @@ def summarizer(
     range_percentage = '1%'
 
     if range_value == 5:
-        summaryLen = int(word_count*0.9)
+        summaryLen = int(word_count*0.99)
     elif range_value == 4:
         summaryLen = int(word_count*0.7)
     elif range_value == 3:
