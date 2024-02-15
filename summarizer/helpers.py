@@ -54,8 +54,6 @@ def summarizer(
         client = openai.OpenAI(api_key=openai_api_key)
         response = client.chat.completions.create(
             model="gpt-3.5-turbo-1106",  # Experiment with different models as needed
-            temperature=0.5,
-            max_tokens=int(265 / 0.9), 
             messages=[
                 {
                     "role": "system",
