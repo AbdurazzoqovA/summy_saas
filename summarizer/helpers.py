@@ -35,11 +35,11 @@ def summarizer(
     elif range_value == 1:
         summary_length_tokens = 10
 
-
+    
     #  Summarize the text and shorten it by {range_percentage}, text:
     if mode == "Paragraph":
         prompt = f"""
-        Generate a summary that is approximately 250 words long for the following text:        
+        Generate a summary that is approximately 800 words long for the following text:        
         {text}
 
         """
@@ -54,7 +54,7 @@ def summarizer(
         client = openai.OpenAI(api_key=openai_api_key)
         response = client.chat.completions.create(
             model="gpt-3.5-turbo-1106",  # Experiment with different models as needed
-         #   max_tokens=summary_length_tokens,
+            max_tokens=summary_length_tokens,
             messages=[
                 {
                     "role": "system",
