@@ -62,11 +62,7 @@
                           <span class="nk-menu-text">Pricing</span>
                         </a>
                       </li>
-                      <li class="nk-menu-item">
-                        <a href="{% url 'blog' %}" class="nk-menu-link">
-                          <span class="nk-menu-text">Blog</span>
-                        </a>
-                      </li>
+                     
                       <li class="nk-menu-item">
                         <a href="{% url 'about' %}" class="nk-menu-link">
                           <span class="nk-menu-text">About</span>
@@ -106,7 +102,7 @@
                     <ul class="nk-menu-buttons flex-lg-row-reverse">
     
                       {% if user.is_authenticated %}
-                      <li><a href="#" class="btn btn-primary">Dashboard</a></li>
+                      <li><a href="https://summarygenerator.io/en/dashboard/" class="btn btn-primary">Dashboard</a></li>
                      {% endif %}
     
                      {% if not user.is_authenticated %}
