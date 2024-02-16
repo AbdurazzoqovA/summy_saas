@@ -150,7 +150,15 @@
     max-height: 400px;
     /* height: calc(100% - 120px); */
   }
-
+  @media(max-width:768px){
+    .editor-container{
+      grid-template-columns: 1fr!important;
+    }
+    .editor-footer{
+      height:65px;
+      overflow-y:scroll!important;
+    }
+  }
   .neighbourPanel {
     width: 100%;
     height: 100%;
