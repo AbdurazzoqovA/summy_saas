@@ -151,8 +151,12 @@
     /* height: calc(100% - 120px); */
   }
   @media(max-width:768px){
+    .neighbourPanel{
+      overflow-y: scroll;
+    }
     .editor-container{
       grid-template-columns: 1fr!important;
+      grid-template-rows: 1fr 1fr;
     }
     .editor-footer{
       overflow-x:scroll!important;
