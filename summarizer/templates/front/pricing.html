@@ -69,7 +69,7 @@
                 <em class="icon ni ni-menu"></em>
               </button>
             </div>
-            <nav class="nk-header-menu nk-menu">
+            <nav class="nk-header-menu nk-menu menu-mobile">
               <ul class="nk-menu-list mx-auto">
                
       <li class="nk-menu-item">
@@ -488,6 +488,14 @@
 
 <script>
 
+
+$('.header-menu-toggle').click(function () {
+            console.log('menu mobile')
+            if(!$('.nk-menu').hasClass('header-menu-active'))
+            $('.nk-menu').addClass('header-menu-active')
+            else
+            $('.nk-menu').removeClass('header-menu-active')
+        })
     
         $('.dark-mode-toggle').click(function () {
             console.log('dark mode activating')
