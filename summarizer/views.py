@@ -13,7 +13,7 @@ from allauth.account.views import PasswordResetView as AllauthPasswordResetView
 from django.core.paginator import Paginator
 from translations.models import Language, MetaTag
 from django.utils.translation import activate
-from django.contrib.auth import logout
+
 
 User = get_user_model()
 
@@ -57,7 +57,7 @@ def privacypolicy(request):
     return render(request, "front/privacypolicy.html")
 
 
-@csrf_exempt
+# @csrf_exempt
 def summary(request):
     if request.method == "POST":
         # Parse the request body as JSON
