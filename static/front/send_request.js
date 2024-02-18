@@ -92,6 +92,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
       })
       .catch((error) => {
+        console.log("Respons err", response);
         console.error("Error:", error);
       })
       .finally(() => {
