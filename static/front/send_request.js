@@ -91,8 +91,14 @@ document.addEventListener("DOMContentLoaded", function () {
           el.innerHTML = `Words: ${words.length}`;
         });
       })
-      .catch((error) => {
-        console.error("Error:", error);
+      .catch((xhr, status, error) => {
+        console.error("Error:", error, status);
+
+        // Log the entire error object for detailed information
+        console.log("Error Object:", xhr);
+
+        // Optionally, you can access the response text for further inspection
+        console.log("Response Text:", xhr.responseText);
       })
       .finally(() => {
         // Hide spinner and enable button
