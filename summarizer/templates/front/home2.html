@@ -701,11 +701,10 @@
 
 
       $('.dark-mode-toggle').click(function () {
-            console.log('dark mode activating')
-            if(!$('body').hasClass('is-dark'))
-            $('body').addClass('is-dark')
-            else
-            $('body').removeClass('is-dark')
+           
+        console.log('darkMode-toggle')
+            $('body').toggleClass('is-dark')
+           
         })
     //  nk-header-menu nk-menu menu-mobile header-menu-active
 
