@@ -13,6 +13,7 @@ from allauth.account.views import PasswordResetView as AllauthPasswordResetView
 from django.core.paginator import Paginator
 from translations.models import Language, MetaTag
 from django.utils.translation import activate
+from django.contrib.auth import logout
 
 
 User = get_user_model()
@@ -37,9 +38,9 @@ def main(request):
         },
     )
 
-# def custom_logout(request):
-#     logout(request)
-#     return redirect('https://summarygenerator.io/') 
+def custom_logout(request):
+    logout(request)
+    return redirect('https://summarygenerator.io/') 
 
 def pricing(request):
     return render(request, "front/pricing.html")
