@@ -57,7 +57,7 @@ def privacypolicy(request):
     return render(request, "front/privacypolicy.html")
 
 
-# @csrf_exempt
+@csrf_exempt
 def summary(request):
     if request.method == "POST":
         # Parse the request body as JSON
