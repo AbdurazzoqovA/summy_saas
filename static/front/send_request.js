@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
     spinner.style.display = "block";
     summaryButton.disabled = true;
     let alertError = document.getElementById("alertError");
-
+    console.log("Data - ", data);
     // Send POST request
     fetch("https://summarygenerator.io/en/summary/", {
       method: "POST",

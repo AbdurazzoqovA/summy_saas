@@ -17,7 +17,7 @@ def summarizer(
     range_value,
 ):
     
-    summary_length_tokens = 100
+    # summary_length_tokens = 100
     word_count = len(text.split())
 
     summaryLen = int(word_count*0.9)
@@ -25,7 +25,6 @@ def summarizer(
     model = "models/text-bison-001"
     range_value = int(range_value)
 
-    range_percentage = '1%'
 
     if range_value == 5:
         summaryLen = int(word_count*0.99)
