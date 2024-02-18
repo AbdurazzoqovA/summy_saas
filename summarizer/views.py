@@ -71,7 +71,7 @@ def summary(request):
             return JsonResponse({"error": "plase provide more text"}, status=400)
         elif "SampleTextPasteText" == temp_text:
             return JsonResponse({"error": "plase provide more text"}, status=400)
-
+        
         summary_result = summarizer(
             text,
             mode,
