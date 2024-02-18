@@ -16,22 +16,32 @@ def summarizer(
     mode,
     range_value,
 ):
+    
+    # summary_length_tokens = 100
+    word_count = len(text.split())
+
+    summaryLen = int(word_count*0.9)
+
     model = "models/text-bison-001"
     range_value = int(range_value)
-    if range_value == 5:
-        range_percentage = "20%"
-    elif range_value == 4:
-        range_percentage = "40%"
-    elif range_value == 3:
-        range_percentage = "50%"
-    elif range_value == 2:
-        range_percentage = "70%"
-    elif range_value == 1:
-        range_percentage = "90%"
 
+
+    if range_value == 5:
+        summaryLen = int(word_count*0.99)
+    elif range_value == 4:
+        summaryLen = int(word_count*0.7)
+    elif range_value == 3:
+        summaryLen = int(word_count*0.5)
+    elif range_value == 2:
+        summaryLen = int(word_count*0.31)
+    elif range_value == 1:
+        summaryLen = int(word_count*0.1)
+
+    
+    #  Summarize the text and shorten it by {range_percentage}, text:
     if mode == "Paragraph":
         prompt = f"""
-        Summarize the text and shorten it by {range_percentage}, text:
+        Generate a summary that is approximately {summaryLen} words long based on the following text:
         {text}
 
         """
