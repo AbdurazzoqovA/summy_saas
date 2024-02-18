@@ -23,7 +23,11 @@
     {% if meta_tag.og_image %}
     <meta property="og:image" content="{{ meta_tag.og_image.url }}">
     {% endif %}
-    
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"
+  ></script>
     <!-- Twitter Card Tags -->
     <meta name="twitter:title" content="{{ meta_tag.twitter_title }}">
     <meta name="twitter:description" content="{{ meta_tag.twitter_description }}">
@@ -696,6 +700,13 @@
       });
 
 
+      $('.dark-mode-toggle').click(function () {
+            console.log('dark mode activating')
+            if(!$('body').hasClass('is-dark'))
+            $('body').addClass('is-dark')
+            else
+            $('body').removeClass('is-dark')
+        })
     //  nk-header-menu nk-menu menu-mobile header-menu-active
 
       $('.header-menu-toggle').click(function () {
@@ -706,13 +717,7 @@
             $('.nk-menu').removeClass('header-menu-active')
         })
 
-        $('.dark-mode-toggle').click(function () {
-            console.log('dark mode activating')
-            if(!$('body').hasClass('is-dark'))
-            $('body').addClass('is-dark')
-            else
-            $('body').removeClass('is-dark')
-        })
+     
 
     </script>
 
