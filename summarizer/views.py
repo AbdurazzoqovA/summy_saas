@@ -61,7 +61,8 @@ def privacypolicy(request):
 def summary(request):
     if request.method == "POST":
         # Parse the request body as JSON
-        data = json.loads(request.body)
+        # data = json.loads(request.body)
+        data = '{ text: "Fantasy Football is a game played by millions of football fans around the world. It’s a game of skill, strategy and luck that’s become increasingly popular over the years. In fantasy football, you create a team of real-life NFL players and compete against other teams in your league. Your team earns points based on the performance of your players in real-life NFL games. The team with the most points at the end of the fantasy football season wins the league. For those new to the game, fantasy football can seem a bit daunting. Before you begin playing, it’s important to understand the basics of the game. You need to know how to draft your players, how to manage your team, and what strategies you can use to improve your team’s chances of success. The first step of playing fantasy football is to join a league. You can join a public league or create a private one with your friends and family. Once you’ve joined your league, it’s time to draft your team. You’ll select players from the NFL player pool and allocate them to your team. Different leagues have different rules for drafting, so make sure to read the rules of your league carefully before you start drafting. Once you’ve drafted your team, it’s time to manage it. You’ll need to set your lineup each week, making sure to choose the players that have the best chance of scoring the most points. You’ll also need to monitor the performance of your players, dropping those that are underperforming and picking up new ones to replace them.", mode: "Paragraph", rangeValue: "3" }'
         text = data.get("text")
         mode = data.get("mode")
         range_value = data.get("rangeValue")
