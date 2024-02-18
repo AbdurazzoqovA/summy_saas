@@ -107,8 +107,8 @@ document.addEventListener("DOMContentLoaded", function () {
     var wordCount = text.split(/\s+/).filter(function (word) {
       return word.length > 0;
     }).length;
-    console.log("Counting-Words", wordCount);
-
+    //console.log("Counting-Words", wordCount);
+    console.log("Text", text);
     var wordLimit = 800;
 
     if (wordCount <= wordLimit) requestforSummary(text);
