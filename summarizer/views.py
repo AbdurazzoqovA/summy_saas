@@ -92,11 +92,13 @@ def summary(request):
                 subscription__user=request.user
             ).last()
             if word_count > word_count_tracker.words_remaining:
-                
+
                 return JsonResponse(
                     {"error": "Limit is over please reset subscrioptions"}, status=400
                 )
-            
+            else:
+                word_count_tracker.update_words_used(word_count)
+
         if len(text) < 10:
             return JsonResponse({"error": "plase provide more text"}, status=400)
         elif "SampleTextPasteText" == temp_text:
@@ -107,7 +109,7 @@ def summary(request):
             mode,
             range_value,
         )  # Ensure your summarizer function is properly defined
-        word_count_tracker.update_words_used(word_count)
+
         return JsonResponse({"summary": summary_result})
 
 
