@@ -110,7 +110,7 @@ def summary(request):
             text,
             mode,
             range_value,
-        )  # Ensure your summarizer function is properly defined
+        )  
         if request.user.is_authenticated:
             Documents.objects.create(user=request.user, input_text=text, output_text=summary_result, words_used=word_count, purpose="Summary", level=range_value, readibility="N/A", model="GPT-3.5-Turbo")
         return JsonResponse({"summary": summary_result})
