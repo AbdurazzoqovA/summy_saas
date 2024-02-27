@@ -211,7 +211,9 @@ LANGUAGES = [
     ("en", "English"),
     ("es", "Spanish"),
     ("de", "German"),
-    
+    ('uz', "Uzbek"),
+    ("pt", "Partuguese"),
+
 ]
 
 

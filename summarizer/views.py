@@ -16,6 +16,8 @@ from django.utils.translation import activate
 from django.contrib.auth import logout
 from .models import SummaryRequestCounter
 from payments.models import Subscription, WordCountTracker
+from dashboard.models import Documents
+
 User = get_user_model()
 
 
@@ -109,7 +111,8 @@ def summary(request):
             mode,
             range_value,
         )  # Ensure your summarizer function is properly defined
-
+        if request.user.is_authenticated:
+            Documents.objects.create(user=request.user, input_text=text, output_text=summary_result, words_used=word_count, purpose="Summary", level=range_value, readibility="N/A", model="GPT-3.5-Turbo")
         return JsonResponse({"summary": summary_result})
 
 
