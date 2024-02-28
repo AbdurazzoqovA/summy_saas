@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const neighbourPanel = document.querySelector(".neighbourPanel");
   const resizablePanel = document.querySelector(".resizablePanel");
   const spinner = document.getElementById("summary-spinner");
-  console.log("21");
+
   // Function to get CSRF token from the meta tag
   function getCsrfToken() {
     return document
@@ -113,8 +113,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (wordCount <= wordLimit) requestforSummary(text);
     else {
-      // document.getElementById("upgradePopup").style.display = "block";
-      alert("Word Limit Exceeded! Upgrade to Pro for more features");
+      document.querySelector(".modalAlertParent").style.display = "block";
+      setTimeout(() => {
+        document.querySelector(".modalAlertParent").style.display = "none";
+      }, 7000);
+      // alert("Word Limit Exceeded! Upgrade to Pro for more features");
     }
   });
 });
