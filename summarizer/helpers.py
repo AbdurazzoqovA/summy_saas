@@ -37,7 +37,7 @@ def summarizer(
     #  Summarize the text and shorten it by {range_percentage}, text:
     if mode == "Paragraph":
         prompt = f"""
-        Generate a summary that is approximately {summaryLen} words long based on the following text:
+        Summarize the following text in {summaryLen} words, do not stop until complete:
         {text}
 
         """
@@ -62,6 +62,7 @@ def summarizer(
                     "content": prompt,
                 },
             ],
+            max_tokens=1109,
         )
 
         return response.choices[0].message.content
