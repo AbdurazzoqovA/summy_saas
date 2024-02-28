@@ -103,26 +103,29 @@
             display:flex;
             align-items: flex-start;
             justify-content: center;
-            max-width: 370px;
+            max-width: 480px;
             position: fixed;
             top:4%;
             right:2%;
             border-radius: 12px;
-            box-shadow: 0px 3px 20px rgba(0,0,0,.07);
-            padding:30px;
+            box-shadow: 0px 3px 24px rgba(0,0,0,.07);
+            padding:20px;
+            z-index: 999999999999999999!important;
+            background-color: white!important;
         }
         .alertContainer svg{
-            width:25px;
+            width:47px;
             padding-right: 20px;
         }
         .alertContainer h4{
             margin:0px;
+            font-size: 16px!important;
         }
         .alertContainer p{  
             margin:0px;
-            margin-top: 12px;
+            margin-top: 10px;
             color:#555;
-            font-size: 15px;
+            font-size: 14px;
             line-height: 22px;
         }
         .closeAlertIcon{
@@ -141,9 +144,7 @@
         .modalAlertParent{
           display: none;
         }
-        .alertContainer{
-          z-index: 10;
-        }
+       
     </style>
   </head>
 
