@@ -14,7 +14,9 @@ from django.core.paginator import Paginator
 from translations.models import Language, MetaTag
 from django.utils.translation import activate
 from django.contrib.auth import logout
-
+from .models import SummaryRequestCounter
+from payments.models import Subscription, WordCountTracker
+from dashboard.models import Documents
 
 User = get_user_model()
 
@@ -44,7 +46,7 @@ def custom_logout(request):
 
 def pricing(request):
     return render(request, "front/pricing.html")
-  
+
 def about(request):
     return render(request, "front/about.html")
 
@@ -58,6 +60,15 @@ def privacypolicy(request):
     return render(request, "front/privacypolicy.html")
 
 
+def get_client_ip(request):
+    x_forwarded_for = request.META.get("HTTP_X_FORWARDED_FOR")
+    if x_forwarded_for:
+        ip = x_forwarded_for.split(",")[0]
+    else:
+        ip = request.META.get("REMOTE_ADDR")
+    return ip
+
+
 @csrf_exempt
 def summary(request):
     if request.method == "POST":
@@ -67,17 +78,41 @@ def summary(request):
         mode = data.get("mode")
         range_value = data.get("rangeValue")
         temp_text = text.replace("\n", " ").replace(" ", "")
+        ip_address = get_client_ip(request)
+        # TODO make celery task to delete old records and create task for creating new records
+        counter, created = SummaryRequestCounter.objects.get_or_create(ip_address=ip_address)
+        word_count = len(text.split())
+        if not request.user.is_authenticated:
+            if counter.words_count >= 800:
+                return JsonResponse({'error': 'Unregistered user limit reached.',}, status=400)
+            else:
+                counter.words_count += word_count
+                counter.save()
+
+        if request.user.is_authenticated:
+            word_count_tracker = WordCountTracker.objects.filter(
+                subscription__user=request.user
+            ).last()
+            if word_count > word_count_tracker.words_remaining:
+
+                return JsonResponse(
+                    {"error": "Limit is over please reset subscrioptions"}, status=400
+                )
+            else:
+                word_count_tracker.update_words_used(word_count)
 
         if len(text) < 10:
             return JsonResponse({"error": "plase provide more text"}, status=400)
         elif "SampleTextPasteText" == temp_text:
             return JsonResponse({"error": "plase provide more text"}, status=400)
-        
+
         summary_result = summarizer(
             text,
             mode,
             range_value,
-        )  # Ensure your summarizer function is properly defined
+        )  
+        if request.user.is_authenticated:
+            Documents.objects.create(user=request.user, input_text=text, output_text=summary_result, words_used=word_count, purpose="Summary", level=range_value, readibility="N/A", model="GPT-3.5-Turbo")
         return JsonResponse({"summary": summary_result})
 
 

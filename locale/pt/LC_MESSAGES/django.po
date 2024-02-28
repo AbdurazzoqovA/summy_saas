@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-23 17:46+0000\n"
+"POT-Creation-Date: 2024-02-23 17:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -74,15 +74,11 @@ msgid ""
 "academic research. You’ve also got an option to generate the summary in "
 "paragraph form or bullet points."
 msgstr ""
-"Puede personalizar la longitud y el formato del resumen. Cree una visión "
-"general rápida del contenido para su publicación de blog o obtenga un resumen "
-"detallado para su investigación académica. También tiene la opción de generar "
-"el resumen en forma de párrafo o en puntos."
 
 #: summarizer/templates/front/home2.html:250
 #: summarizer/templates/front/index.html:152
 msgid "Over"
-msgstr "Más de"
+msgstr ""
 
 #: summarizer/templates/front/home2.html:251
 #: summarizer/templates/front/index.html:153
@@ -91,9 +87,6 @@ msgid ""
 "users like you have used this summary generator to convert their lengthy "
 "text into efficient, 100%% accurate summaries"
 msgstr ""
-"usuarios como usted han utilizado este generador de resúmenes para convertir "
-"su texto extenso en resúmenes eficientes y 100%% precisos"
-
 
 #: summarizer/templates/front/home2.html:254
 #: summarizer/templates/front/index.html:156
@@ -112,7 +105,7 @@ msgstr ""
 #: summarizer/templates/front/home2.html:284
 #: summarizer/templates/front/index.html:186
 msgid "Freelance Writer"
-msgstr "Escritora independiente"
+msgstr "Escritor freelancer"
 
 #: summarizer/templates/front/home2.html:305
 #: summarizer/templates/front/index.html:207
