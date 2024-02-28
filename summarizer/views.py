@@ -83,7 +83,7 @@ def summary(request):
         counter, created = SummaryRequestCounter.objects.get_or_create(ip_address=ip_address)
         word_count = len(text.split())
         if not request.user.is_authenticated:
-            if counter.words_count >= 800:
+            if counter.words_count >= 2000:
                 return JsonResponse({'error': 'Unregistered user limit reached.',}, status=400)
             else:
                 counter.words_count += word_count
