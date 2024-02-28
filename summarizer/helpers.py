@@ -63,7 +63,7 @@ def summarizer(
                 },
             ],
             max_tokens=int(word_count),
-            temperature=1.2,
+            temperature=0.8,
         )
 
         return response.choices[0].message.content
