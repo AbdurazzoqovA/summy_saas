@@ -27,11 +27,11 @@ def summarizer(
 
 
     if range_value == 3:
-       summaryLen = int(word_count*0.99)
+       summaryLen = int(word_count*0.77)
     elif range_value == 2:
-        summaryLen = int(word_count*0.66)
+        summaryLen = int(word_count*0.45)
     elif range_value == 1:
-        summaryLen = int(word_count*0.25)
+        summaryLen = int(word_count*0.30)
 
     
     #  Summarize the text and shorten it by {range_percentage}, text:
