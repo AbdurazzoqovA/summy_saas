@@ -2,7 +2,7 @@ from django.urls import path
 from django.conf.urls.i18n import i18n_patterns
 from . import views
 
-urlpatterns = i18n_patterns(
+urlpatterns = [
     path("home2/", views.main, name="home2"),
     path("summary/", views.summary),
     path("blog/", views.blog, name="blog"),
@@ -29,6 +29,6 @@ urlpatterns = i18n_patterns(
     path("privacy/", views.privacy, name="privacy"),
     path("contact/", views.contact, name="contact"),
    
-)
+]
 
 
