@@ -109,7 +109,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }).length;
     //console.log("Counting-Words", wordCount);
     console.log("Text", text);
-    var wordLimit = 800;
+    var wordLimit = 10000;
 
     if (wordCount <= wordLimit) requestforSummary(text);
     else {
