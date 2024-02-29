@@ -1,4 +1,5 @@
 from django.urls import path
+from django.conf.urls.i18n import i18n_patterns
 from . import views
 
 urlpatterns = [
@@ -28,3 +29,9 @@ urlpatterns = [
     path("privacy/", views.privacy, name="privacy"),
     path("contact/", views.contact, name="contact"),
 ]
+
+
+urlpatterns += i18n_patterns(
+    *urlpatterns,
+    prefix_default_language=False,
+)
