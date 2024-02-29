@@ -1,5 +1,4 @@
 from django.urls import path
-from django.conf.urls.i18n import i18n_patterns
 from . import views
 
 urlpatterns = [
@@ -31,7 +30,3 @@ urlpatterns = [
 ]
 
 
-urlpatterns += i18n_patterns(
-    *urlpatterns,
-    prefix_default_language=False,
-)
