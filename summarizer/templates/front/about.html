@@ -6,7 +6,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="author" content="Softnio" />
-    <title>About</title>
+    <title>{% translate 'About' %}</title>
 <meta name=”description” content=”Experience the power of AI Summary Generator, your go-to text summarizer that uses advanced algorithms and NLP to identify main points and generate relevant summaries. Try Now!
 ” />
 
@@ -115,24 +115,24 @@
                      
 						<li class="nk-menu-item">
                     <a href="{% url 'home' %}" class="nk-menu-link">
-                      <span class="nk-menu-text">Home</span>
+                      <span class="nk-menu-text">{% translate 'Home' %}</span>
                     </a>
                   </li>
                       <li class="nk-menu-item">
                         <a href="{% url 'pricing' %}" class="nk-menu-link">
-                          <span class="nk-menu-text">Pricing</span>
+                          <span class="nk-menu-text">{% translate 'Pricing' %}</span>
                         </a>
                       </li>
                      
                       <li class="nk-menu-item">
                         <a href="{% url 'about' %}" class="nk-menu-link">
-                          <span class="nk-menu-text">About</span>
+                          <span class="nk-menu-text">{% translate 'About' %}</span>
                         </a>
                       </li>
                       {% if request.user.is_authenticated %}
                       <li class="nk-menu-item">
                         <a href="{% url 'custom_logout' %}" class="nk-menu-link">
-                          <span class="nk-menu-text">Logout</span>
+                          <span class="nk-menu-text">{% translate 'Logout' %}</span>
                         </a>
                       </li>
                      
@@ -140,12 +140,12 @@
                       {% else %}
                       <li class="nk-menu-item">
                         <a href="{% url 'account_login' %}" class="nk-menu-link">
-                          <span class="nk-menu-text">Login</span>
+                          <span class="nk-menu-text">{% translate 'Login' %}</span>
                         </a>
                       </li>
                       <li class="nk-menu-item">
                         <a href="{% url 'account_signup' %}" class="nk-menu-link">
-                          <span class="nk-menu-text">Sign Up</span>
+                          <span class="nk-menu-text">{% translate 'Sign Up' %}</span>
                         </a>
                       </li>
     
@@ -163,10 +163,10 @@
                     <ul class="nk-menu-buttons flex-lg-row-reverse">
     
                       {% if user.is_authenticated %}
-                      <li><a href="https://summarygenerator.io/dashboard/" class="btn btn-primary">Dashboard</a></li>
+                      <li><a href="https://summarygenerator.io/dashboard/" class="btn btn-primary">{% translate 'Dashboard' %}</a></li>
                       {% endif %}
                       {% if not user.is_authenticated %}
-                      <li><a href="https://summarygenerator.io/dashboard/" class="btn btn-primary">Dashboard</a></li>
+                      <li><a href="https://summarygenerator.io/dashboard/" class="btn btn-primary">{% translate 'Dashboard' %}</a></li>
                       {% endif %}
                       <li class="dropdown">
                         <a
@@ -218,10 +218,10 @@
                     <div class="section-head">
                         <div class="row justify-content-center align-items-center text-left">
                             <div class="col-lg-6 col-xl-6 col-xxl-6">
-                                <h6 class="overline-title text-primary">About Us</h6>
-                                <h2 class="title h1">SummaryGenerator.io
+                                <h6 class="overline-title text-primary">{% translate 'About Us' %}</h6>
+                                <h2 class="title h1">{% translate 'SummaryGenerator.io' %}
                                 </h2>
-                                <p class="lead">Was founded on January 10, 2024, by Kamran Ali from Swabi, Pakistan and <b>developed by Abdullah from Uzbekistan.</b></p>
+                                <p class="lead">{% translate 'Was founded on January 10, 2024, by Kamran Ali from Swabi, Pakistan and ' %}<b>{% translate 'developed by Abdullah from Uzbekistan.' %}</b></p>
                                    
                             </div>
                             <div class="col-lg-1 col-xl-1 col-xxl-1">
@@ -236,7 +236,7 @@
                         <div class="row g-gs justify-content-center align-items-center flex-lg-col">
                           <div class="col-lg-7 text-center">
                             <div class="block-text pe-xxl-7 pr-4">
-                                <h2 class="title pb-4">Our software uses AI to condense information</h2>
+                                <h2 class="title pb-4">{% translate 'Our software uses AI to condense information' %}</h2>
                                
                                 <ul class="list gy-3 pe-xxl-7">
                                     <li class="flex justify-content-center align-items-center"><svg style="width:17px; margin-right:8px;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50px" height="50px" viewBox="0,0,256,256"><g fill="#3f3eed" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M25,2c-12.682,0 -23,10.318 -23,23c0,12.683 10.318,23 23,23c12.683,0 23,-10.317 23,-23c0,-12.682 -10.317,-23 -23,-23zM35.827,16.562l-11.511,16.963l-8.997,-8.349c-0.405,-0.375 -0.429,-1.008 -0.053,-1.413c0.375,-0.406 1.009,-0.428 1.413,-0.053l7.29,6.764l10.203,-15.036c0.311,-0.457 0.933,-0.575 1.389,-0.266c0.458,0.31 0.577,0.932 0.266,1.39z"></path></g></g></svg><span>We used to be called Summarizing-tool but now we're SummaryGenerator.</span></li>
@@ -272,7 +272,7 @@
                                                 </div>
                                           </div>
                                           <div class="feature-text">
-                                              <p class="lead">Our goal is to provide you with an easy and efficient way to summarize content.</hp>
+                                              <p class="lead">{% translate 'Our goal is to provide you with an easy and efficient way to summarize content.' %}</hp>
                                               </div>
                                       </div>
                                   </div>
@@ -290,7 +290,9 @@
                                                  </div>
                                           </div>
                                           <div class="feature-text">
-                                            <p class="lead">Our AI-driven generator takes complex information and turns it into concise summaries. </p>
+                                            <p class="lead">
+                                              {% translate 'Our AI-driven generator takes complex information and turns it into concise summaries.' %}
+                                            </p>
                                           </div>
                                       </div>
                                   </div>
@@ -307,7 +309,7 @@
                                               </div>
                                           </div>
                                           <div class="feature-text">
-                                            <p class="lead">We know your time is valuable, so our algorithm ensures accurate and quick summaries. 
+                                            <p class="lead">    {% translate 'We know your time is valuable, so our algorithm ensures accurate and quick summaries. ' %}
                                             </p>
                                           </div>
                                       </div>
@@ -326,7 +328,9 @@
           <div class="row g-gs justify-content-center align-items-center flex-lg-col">
             <div class="col-lg-12 text-center">
               <div class="block-text pe-xxl-12 pr-4">
-                  <h2 class="title pb-4">Bullet point summarization</h2>
+                  <h2 class="title pb-4">
+                    {% translate 'Bullet point summarization ' %}
+                  </h2>
                  
                   <ul class="list gy-3 pe-xxl-7">
                       <li class="flex justify-content-center align-items-center"><svg style="width:17px; margin-right:8px;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50px" height="50px" viewBox="0,0,256,256"><g fill="#3f3eed" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M25,2c-12.682,0 -23,10.318 -23,23c0,12.683 10.318,23 23,23c12.683,0 23,-10.317 23,-23c0,-12.682 -10.317,-23 -23,-23zM35.827,16.562l-11.511,16.963l-8.997,-8.349c-0.405,-0.375 -0.429,-1.008 -0.053,-1.413c0.375,-0.406 1.009,-0.428 1.413,-0.053l7.29,6.764l10.203,-15.036c0.311,-0.457 0.933,-0.575 1.389,-0.266c0.458,0.31 0.577,0.932 0.266,1.39z"></path></g></g></svg><span>Whether you're a student or a professional, our platform is designed to meet your needs. </span></li>
@@ -353,8 +357,8 @@
                             <div class="col-lg-8 col-xl-7 col-xxl-6">
                                
                                 <img style="max-width:180px;" class="w-100 py-4" src="{% static 'front/images/devimg.webp' %}" alt="">
-                                <h6 class="overline-title text-primary">Website Designer</h6>
-                                <h2 class="title">Our website is user-friendly and designed by Raheel Fida</h2>
+                                <h6 class="overline-title text-primary">{% translate 'Website Designer' %}</h6>
+                                <h2 class="title">{% translate 'Our website is user-friendly and designed by Raheel Fida' %}</h2>
                             </div>
                         </div>
                     </div><!-- .section-head -->
@@ -371,9 +375,11 @@
                       <div class="section-head">
                           <div class="row justify-content-center text-center">
                               <div class="col-lg-11 col-xl-10 col-xxl-9">
-                                  <h6 class="overline-title text-primary">Contact us</h6>
-                                  <h1 class="title">If you have any questions or want to connect with us</h1>
-                                  <p class="text-center">We value your feedback and are committed to improving SummaryGenerator.io for you. </p>
+                                  <h6 class="overline-title text-primary">{% translate 'Contact us' %}</h6>
+                                  <h1 class="title">{% translate 'If you have any questions or want to connect with us' %}</h1>
+                                  <p class="text-center">
+                                    {% translate 'We value your feedback and are committed to improving SummaryGenerator.io for you.' %}
+                                     </p>
                                     
                               </div>
                           </div>
@@ -390,7 +396,7 @@
                                       <div class="card-body">
                                           <div class="feature">
                                               <div style="padding-bottom:12px;" class="feature-text ">
-                                                <em style="font-size:25px!important;" class="icon text-base fs-5 mb-2 mb-lg-0 me-lg-2 ni ni-call-alt-fill"></em>  <p class="pt-3">You can call us at +4473 61622097</p>
+                                                <em style="font-size:25px!important;" class="icon text-base fs-5 mb-2 mb-lg-0 me-lg-2 ni ni-call-alt-fill"></em>  <p class="pt-3">{% translate 'You can call us at +4473 61622097' %}</p>
                                               </div>
                                           </div>
                                       </div>
@@ -401,7 +407,7 @@
                                       <div class="card-body">
                                           <div class="feature">
                                               <div style="padding-bottom:12px;" class="feature-text ">
-                                                <em style="font-size:25px!important;"class="icon text-base fs-5 mb-2 mb-lg-0 me-lg-2 ni ni-mail-fill"></em> <p class="pt-1">email us at support@summarygenerator.io</p>
+                                                <em style="font-size:25px!important;"class="icon text-base fs-5 mb-2 mb-lg-0 me-lg-2 ni ni-mail-fill"></em> <p class="pt-1">{% translate 'email us at support@summarygenerator.io' %}</p>
                                                 </div>
                                           </div>
                                       </div>
@@ -412,7 +418,7 @@
                                       <div class="card-body">
                                           <div class="feature">
                                               <div style="padding-bottom:12px;" class="feature-text ">
-                                                <em style="font-size:25px!important;" class="icon text-base fs-5 mb-2 mb-lg-0 me-lg-2 ni ni-map-pin-fill"></em> <p class="pt-1">Our address is International House, 12 Constance Street, London, E16 2DQ. </p></div>
+                                                <em style="font-size:25px!important;" class="icon text-base fs-5 mb-2 mb-lg-0 me-lg-2 ni ni-map-pin-fill"></em> <p class="pt-1">{% translate 'Our address is International House, 12 Constance Street, London, E16 2DQ.' %} </p></div>
                                           </div>
                                       </div>
                                   </div>
@@ -430,16 +436,16 @@
                       <div class="col-xl-8 col-xxl-9">
                           <div class="block-text">
                     
-                              <h2 class="title">Ready to Transform Your Text?</h2>
-                              <p class="lead mt-3">SummaryGenerator.io turns your lengthy texts into crisp, clear summaries with just one click.                                </p>
+                              <h2 class="title">{% translate 'Ready to Transform Your Text?' %}</h2>
+                              <p class="lead mt-3">    {% translate 'SummaryGenerator.io turns your lengthy texts into crisp, clear summaries with just one click. ' %}                           </p>
                               <ul class="btn-list btn-list-inline">
-                                  <li><a href="#" class="btn btn-lg btn-primary"><span>Summarize Now</span><em class="icon ni ni-arrow-long-right"></em></a></li>
+                                  <li><a href="#" class="btn btn-lg btn-primary"><span>{% translate 'Summarize Now' %}  </span><em class="icon ni ni-arrow-long-right"></em></a></li>
                               </ul>
                               <ul class="list list-row gy-0 gx-3">
-                                  <li><em class="icon ni ni-check-circle-fill text-success"></em><span>Free to use
+                                  <li><em class="icon ni ni-check-circle-fill text-success"></em><span>{% translate 'Free to use' %} 
                                           </span></li>
-                                  <li><em class="icon ni ni-check-circle-fill text-success"></em><span>Generate summaries in 3 seconds</span></li>
-                                  <li><em class="icon ni ni-check-circle-fill text-success"></em><span>No signup required</span></li>
+                                  <li><em class="icon ni ni-check-circle-fill text-success"></em><span>{% translate 'Generate summaries in 3 seconds' %} </span></li>
+                                  <li><em class="icon ni ni-check-circle-fill text-success"></em><span>{% translate 'No signup required' %} </span></li>
                               </ul>
                           </div>
                       </div>
@@ -476,7 +482,8 @@
                       </div>
                     </a>
                     <p class="py-4">
-                      Summarygenerator.io is an AI-powered tool that uses advanced algorithms and natural language processing to analyze the content and identify main ideas to generate relevant summaries. It generates summaries of varying lengths for any type of content.
+                    
+                      {% translate '  Summarygenerator.io is an AI-powered tool that uses advanced algorithms and natural language processing to analyze the content and identify main ideas to generate relevant summaries. It generates summaries of varying lengths for any type of content.' %}
                     </p>
                   </div>
                 </div>
@@ -490,10 +497,10 @@
                           Links
                         </h6>
                         <ul class="list gy-2 list-link-base">
-                          <li><a class="link-base" href="{% url 'about' %}">About Us</a></li>
-                          <li><a class="link-base" href="{% url 'termsandConditions' %}" >Terms and Conditions</a></li>
-                          <li><a class="link-base" href="{% url 'privacypolicy' %}" >Privacy Policy</a></li>
-                          <li><a class="link-base" href="{% url 'pricing' %}" >Pricing</a></li>
+                          <li><a class="link-base" href="{% url 'about' %}">{% translate 'About Us' %} </a></li>
+                          <li><a class="link-base" href="{% url 'termsandConditions' %}" >{% translate 'Terms and Conditions' %}</a></li>
+                          <li><a class="link-base" href="{% url 'privacypolicy' %}" >{% translate 'Privacy Policy' %}</a></li>
+                          <li><a class="link-base" href="{% url 'pricing' %}" >{% translate 'Pricing' %}</a></li>
                           
                         </ul>
                       </div>
@@ -502,27 +509,27 @@
                     <div class="col-lg-6 col-md-5 col-sm-6">
                       <div class="wgs">
                         <h6 class="wgs-title overline-title text-heading">
-                          Get In Touch
+                         {% translate 'Get In Touch' %}
                         </h6>
                         <ul class="list gy-3">
                           <li>
                             <em
                               class="icon text-primary fs-5 ni ni-mail-fill"
                             ></em>
-                            <span>support@summarygenerator.io</span>
+                            <span> {% translate 'support@summarygenerator.io' %}</span>
                           </li>
                           <li>
                             <em
                               class="icon text-primary fs-5 ni ni-call-alt-fill"
                             ></em>
-                            <span>+4473 61622097</span>
+                            <span> {% translate '+4473 61622097' %}</span>
                           </li>
                           <li>
                             <em
                               class="icon text-primary fs-5 ni ni-map-pin-fill"
                             ></em>
                             <span
-                              >International House, 12 Constance Street, London, E16 2DQ.</span
+                              >{% translate 'International House, 12 Constance Street, London, E16 2DQ.' %}</span
                             >
                           </li>
                         </ul>
@@ -547,8 +554,8 @@
                 <div class="row">
                   <div class="col-md">
                     <p class="mb-2 mb-md-0 text-center">
-                      Copyright &copy; 2023.
-                      <a href="https://summarygenerator.io/" class="fw-bold text-base">Summarygenerator.io</a>.
+                      {% translate 'Copyright &copy; 2023.' %}
+                      <a href="https://summarygenerator.io/" class="fw-bold text-base">{% translate 'Summarygenerator.io' %}</a>.
                     </p>
                   </div>
                   <!-- .col -->

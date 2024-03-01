@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-29 22:17+0500\n"
+"POT-Creation-Date: 2024-03-01 17:41+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,17 +20,20 @@ msgstr ""
 
 #: .\summarizer\templates\account\email_confirm.html:163
 msgid "Please confirm that"
-msgstr ""
+msgstr "Por favor, confirma que"
 
 #: .\summarizer\templates\account\email_confirm.html:163
 msgid "is an e-mail address for user"
-msgstr ""
+msgstr "es una dirección de correo electrónico para el usuario"
 
 #: .\summarizer\templates\account\email_confirm.html:177
 msgid ""
 "This e-mail confirmation link expired or is invalid. Please issue a new e-"
 "mail confirmation request"
 msgstr ""
+"Este enlace de confirmación por correo electrónico ha caducado o no es "
+"válido. Por favor, emite una nueva solicitud de confirmación por correo "
+"electrónico."
 
 #: .\summarizer\templates\account\verification_sent.html:165
 msgid ""
@@ -38,18 +41,257 @@ msgid ""
 "finalize the signup process. Please contact us if you do not receive it "
 "within a few seconds."
 msgstr ""
+"Hemos enviado un correo electrónico para su verificación. Siga el enlace "
+"proporcionado para finalizar el proceso de registro. Por favor, contáctenos "
+"si no lo recibe en unos segundos."
 
-#: .\summarizer\templates\front\home2.html:132
-#: .\summarizer\templates\front\main.html:286
+#: .\summarizer\templates\front\about.html:9
+#: .\summarizer\templates\front\about.html:129
+#: .\summarizer\templates\front\home2.html:87
+#: .\summarizer\templates\front\main.html:201
+msgid "About"
+msgstr "Acerca de"
+
+#: .\summarizer\templates\front\about.html:118
+#: .\summarizer\templates\front\home2.html:76
+#: .\summarizer\templates\front\main.html:190
+msgid "Home"
+msgstr "Inicio"
+
+#: .\summarizer\templates\front\about.html:123
+#: .\summarizer\templates\front\about.html:503
+#: .\summarizer\templates\front\home2.html:81
+#: .\summarizer\templates\front\main.html:195
+#: .\summarizer\templates\front\main.html:343
+#: .\summarizer\templates\front\pricing.html:380
+msgid "Pricing"
+msgstr "Precios"
+
+#: .\summarizer\templates\front\about.html:135
+#: .\summarizer\templates\front\home2.html:93
+#: .\summarizer\templates\front\main.html:207
+msgid "Logout"
+msgstr "Cerrar sesión"
+
+#: .\summarizer\templates\front\about.html:143
+#: .\summarizer\templates\front\home2.html:101
+#: .\summarizer\templates\front\main.html:215
+msgid "Login"
+msgstr "Iniciar sesión"
+
+#: .\summarizer\templates\front\about.html:148
+#: .\summarizer\templates\front\home2.html:106
+#: .\summarizer\templates\front\main.html:220
+msgid "Sign Up"
+msgstr "Registrarse"
+
+#: .\summarizer\templates\front\about.html:166
+#: .\summarizer\templates\front\about.html:169
+#: .\summarizer\templates\front\home2.html:124
+#: .\summarizer\templates\front\home2.html:127
+#: .\summarizer\templates\front\main.html:238
+#: .\summarizer\templates\front\main.html:241
+msgid "Dashboard"
+msgstr "Tablero"
+
+#: .\summarizer\templates\front\about.html:221
+#: .\summarizer\templates\front\about.html:500
+#: .\summarizer\templates\front\main.html:340
+#: .\summarizer\templates\front\pricing.html:377
+msgid "About Us"
+msgstr "Sobre nosotros"
+
+#: .\summarizer\templates\front\about.html:222
+msgid "SummaryGenerator.io"
+msgstr "SummaryGenerator.io"
+
+#: .\summarizer\templates\front\about.html:224
+msgid ""
+"Was founded on January 10, 2024, by Kamran Ali from Swabi, Pakistan and "
+msgstr "Fue fundada el 10 de enero de 2024 por Kamran Ali de Swabi, Pakistán y"
+
+#: .\summarizer\templates\front\about.html:224
+msgid "developed by Abdullah from Uzbekistan."
+msgstr "desarrollada por Abdullah de Uzbekistán."
+
+#: .\summarizer\templates\front\about.html:239
+msgid "Our software uses AI to condense information"
+msgstr ""
+"Nuestro software utiliza inteligencia artificial para condensar información"
+
+#: .\summarizer\templates\front\about.html:275
+msgid ""
+"Our goal is to provide you with an easy and efficient way to summarize "
+"content."
+msgstr ""
+"Nuestro objetivo es proporcionarle una forma fácil y eficiente de resumir "
+"contenido."
+
+#: .\summarizer\templates\front\about.html:294
+msgid ""
+"Our AI-driven generator takes complex information and turns it into concise "
+"summaries."
+msgstr ""
+"Nuestro generador impulsado por IA toma información compleja y la convierte "
+"en resúmenes concisos."
+
+#: .\summarizer\templates\front\about.html:312
+msgid ""
+"We know your time is valuable, so our algorithm ensures accurate and quick "
+"summaries. "
+msgstr ""
+"Sabemos que su tiempo es valioso, por lo que nuestro algoritmo garantiza "
+"resúmenes precisos y rápidos."
+
+#: .\summarizer\templates\front\about.html:332
+msgid "Bullet point summarization "
+msgstr "Resumen en viñetas"
+
+#: .\summarizer\templates\front\about.html:360
+msgid "Website Designer"
+msgstr "Diseñador de sitios web"
+
+#: .\summarizer\templates\front\about.html:361
+msgid "Our website is user-friendly and designed by Raheel Fida"
+msgstr "Nuestro sitio web es fácil de usar y fue diseñado por Raheel Fida"
+
+#: .\summarizer\templates\front\about.html:378
+msgid "Contact us"
+msgstr "Contáctenos"
+
+#: .\summarizer\templates\front\about.html:379
+msgid "If you have any questions or want to connect with us"
+msgstr "Si tiene alguna pregunta o desea conectarse con nosotros"
+
+#: .\summarizer\templates\front\about.html:381
+msgid ""
+"We value your feedback and are committed to improving SummaryGenerator.io "
+"for you."
+msgstr ""
+"Valoramos sus comentarios y estamos comprometidos a mejorar SummaryGenerator."
+"io para usted."
+
+#: .\summarizer\templates\front\about.html:399
+msgid "You can call us at +4473 61622097"
+msgstr "Puede llamarnos al +4473 61622097"
+
+#: .\summarizer\templates\front\about.html:410
+msgid "email us at support@summarygenerator.io"
+msgstr "envíenos un correo electrónico a support@summarygenerator.io"
+
+#: .\summarizer\templates\front\about.html:421
+msgid ""
+"Our address is International House, 12 Constance Street, London, E16 2DQ."
+msgstr ""
+"Nuestra dirección es International House, 12 Constance Street, Londres, E16 "
+"2DQ."
+
+#: .\summarizer\templates\front\about.html:439
+#: .\summarizer\templates\front\pricing.html:321
+msgid "Ready to Transform Your Text?"
+msgstr "¿Listo para transformar tu texto?"
+
+#: .\summarizer\templates\front\about.html:440
+msgid ""
+"SummaryGenerator.io turns your lengthy texts into crisp, clear summaries "
+"with just one click. "
+msgstr ""
+"SummaryGenerator.io convierte tus textos extensos en resúmenes claros y "
+"concisos con solo un clic."
+
+#: .\summarizer\templates\front\about.html:442
+#: .\summarizer\templates\front\pricing.html:324
+msgid "Summarize Now"
+msgstr "Resumir ahora"
+
+#: .\summarizer\templates\front\about.html:445
+#: .\summarizer\templates\front\pricing.html:327
+msgid "Free to use"
+msgstr "Gratis para usar"
+
+#: .\summarizer\templates\front\about.html:447
+#: .\summarizer\templates\front\pricing.html:329
+msgid "Generate summaries in 3 seconds"
+msgstr "Genera resúmenes en 3 segundos"
+
+#: .\summarizer\templates\front\about.html:448
+#: .\summarizer\templates\front\pricing.html:330
+msgid "No signup required"
+msgstr "No se requiere registro"
+
+#: .\summarizer\templates\front\about.html:486
+#: .\summarizer\templates\front\main.html:326
+#: .\summarizer\templates\front\pricing.html:363
+msgid ""
+"  Summarygenerator.io is an AI-powered tool that uses advanced algorithms "
+"and natural language processing to analyze the content and identify main "
+"ideas to generate relevant summaries. It generates summaries of varying "
+"lengths for any type of content."
+msgstr ""
+"Summarygenerator.io es una herramienta impulsada por IA que utiliza "
+"algoritmos avanzados y procesamiento de lenguaje natural para analizar el "
+"contenido e identificar ideas principales para generar resúmenes relevantes. "
+"Genera resúmenes de longitudes variables para cualquier tipo de contenido."
+
+#: .\summarizer\templates\front\about.html:501
+#: .\summarizer\templates\front\main.html:341
+#: .\summarizer\templates\front\pricing.html:378
+msgid "Terms and Conditions"
+msgstr "Términos y condiciones"
+
+#: .\summarizer\templates\front\about.html:502
+#: .\summarizer\templates\front\main.html:342
+#: .\summarizer\templates\front\pricing.html:379
+msgid "Privacy Policy"
+msgstr "Política de privacidad"
+
+#: .\summarizer\templates\front\about.html:512
+#: .\summarizer\templates\front\main.html:352
+#: .\summarizer\templates\front\pricing.html:389
+msgid "Get In Touch"
+msgstr "Ponte en contacto"
+
+#: .\summarizer\templates\front\about.html:519
+#: .\summarizer\templates\front\main.html:359
+#: .\summarizer\templates\front\pricing.html:396
+msgid "support@summarygenerator.io"
+msgstr "support@summarygenerator.io"
+
+#: .\summarizer\templates\front\about.html:525
+#: .\summarizer\templates\front\main.html:365
+#: .\summarizer\templates\front\pricing.html:402
+msgid "+4473 61622097"
+msgstr "+4473 61622097"
+
+#: .\summarizer\templates\front\about.html:532
+#: .\summarizer\templates\front\main.html:372
+#: .\summarizer\templates\front\pricing.html:409
+msgid "International House, 12 Constance Street, London, E16 2DQ."
+msgstr "International House, 12 Constance Street, Londres, E16 2DQ."
+
+#: .\summarizer\templates\front\about.html:557
+#: .\summarizer\templates\front\main.html:397
+#: .\summarizer\templates\front\pricing.html:434
+msgid "Copyright &copy; 2023."
+msgstr "Derechos de autor &copy; 2023."
+
+#: .\summarizer\templates\front\about.html:558
+#: .\summarizer\templates\front\main.html:398
+#: .\summarizer\templates\front\pricing.html:435
+msgid "Summarygenerator.io"
+msgstr "Summarygenerator.io"
+
+#: .\summarizer\templates\front\home2.html:169
+#: .\summarizer\templates\front\main.html:285
 msgid "Summarize any text with One Click"
 msgstr "Resumir cualquier texto con un clic"
 
-#: .\summarizer\templates\front\home2.html:172
+#: .\summarizer\templates\front\home2.html:209
 #: .\summarizer\templates\front\index.html:74
 msgid "Generate Accurate Summaries in 3 seconds"
-msgstr ""
+msgstr "Generar resúmenes precisos en 3 segundos"
 
-#: .\summarizer\templates\front\home2.html:174
+#: .\summarizer\templates\front\home2.html:211
 #: .\summarizer\templates\front\index.html:76
 msgid ""
 "Our summary generator uses advanced AI technology to break down your long "
@@ -57,21 +299,33 @@ msgid ""
 "summarize your articles, academic papers, business reports, or any kind of "
 "content."
 msgstr ""
+"Nuestro generador de resúmenes utiliza tecnología avanzada de IA para "
+"desglosar su contenido extenso en resúmenes rápidos y digeribles con solo un "
+"clic. Úselo para resumir sus artículos, trabajos académicos, informes "
+"comerciales o cualquier tipo de contenido."
 
-#: .\summarizer\templates\front\home2.html:198
+#: .\summarizer\templates\front\home2.html:235
 #: .\summarizer\templates\front\index.html:100
 msgid "Get the Important Facts & Data"
-msgstr ""
+msgstr "Obtén los datos e información importantes"
 
-#: .\summarizer\templates\front\home2.html:200
+#: .\summarizer\templates\front\home2.html:238
 #: .\summarizer\templates\front\index.html:102
 msgid ""
 "This text summarizer quickly extracts important information from large texts "
 "and presents complex content in engaging chunks. You get the most relevant "
 "and crucial data in just one click."
 msgstr ""
+"Este resumen de texto extrae rápidamente información importante de textos "
+"extensos y presenta contenido complejo en segmentos atractivos. Obtiene los "
+"datos más relevantes y cruciales con solo un clic."
 
-#: .\summarizer\templates\front\home2.html:225
+#: .\summarizer\templates\front\home2.html:263
+#, fuzzy
+msgid "Choose Your Summary Length & Style"
+msgstr "Elige la longitud y el estilo del resumen"
+
+#: .\summarizer\templates\front\home2.html:267
 #: .\summarizer\templates\front\index.html:127
 msgid ""
 "You can customize the length and format of the summary. Create a quick "
@@ -82,14 +336,14 @@ msgstr ""
 "Puede personalizar la longitud y el formato del resumen. Cree una visión "
 "general rápida del contenido para su publicación de blog o obtenga un "
 "resumen detallado para su investigación académica. También tiene la opción "
-"de generar el resumen en forma de párrafo o en puntos."
+"de generar el resumen en forma de párrafo o en viñetas."
 
-#: .\summarizer\templates\front\home2.html:250
+#: .\summarizer\templates\front\home2.html:292
 #: .\summarizer\templates\front\index.html:152
 msgid "Over"
 msgstr "Más de"
 
-#: .\summarizer\templates\front\home2.html:251
+#: .\summarizer\templates\front\home2.html:293
 #: .\summarizer\templates\front\index.html:153
 #, python-format
 msgid ""
@@ -99,12 +353,12 @@ msgstr ""
 "usuarios como usted han utilizado este generador de resúmenes para convertir "
 "su texto extenso en resúmenes eficientes y 100%% precisos"
 
-#: .\summarizer\templates\front\home2.html:254
+#: .\summarizer\templates\front\home2.html:296
 #: .\summarizer\templates\front\index.html:156
 msgid "Generate your summary now – it’s free"
-msgstr ""
+msgstr "Genera tu resumen ahora, es gratis"
 
-#: .\summarizer\templates\front\home2.html:279
+#: .\summarizer\templates\front\home2.html:321
 #: .\summarizer\templates\front\index.html:181
 msgid ""
 "As a freelance writer, this text summarizer has been a game-changer for me. "
@@ -112,13 +366,17 @@ msgid ""
 "faster. The summaries are concise and comprehensive, saving me hours of "
 "reading."
 msgstr ""
+"Como escritora independiente, este resumidor de texto ha sido un cambio de "
+"juego para mí. Condensa eficientemente artículos largos, ayudándome a "
+"investigar y escribir faster. Los resúmenes son concisos y completos, "
+"ahorrándome horas de lectura."
 
-#: .\summarizer\templates\front\home2.html:284
+#: .\summarizer\templates\front\home2.html:326
 #: .\summarizer\templates\front\index.html:186
 msgid "Freelance Writer"
 msgstr "Escritora independiente"
 
-#: .\summarizer\templates\front\home2.html:305
+#: .\summarizer\templates\front\home2.html:347
 #: .\summarizer\templates\front\index.html:207
 msgid ""
 "During my PhD research, SummaryGenerator.io proved invaluable. It quickly "
@@ -126,163 +384,339 @@ msgid ""
 "highlighting relevant data and arguments made my literature review process "
 "much more manageable."
 msgstr ""
+"Durante mi investigación de doctorado, SummaryGenerator.io resultó "
+"invaluable. Destila rápidamente las ideas principales de documentos "
+"académicos complejos. La precisión de la herramienta al resaltar datos y "
+"argumentos relevantes hizo que mi proceso de revisión de literatura fuera "
+"mucho más manejable."
 
-#: .\summarizer\templates\front\home2.html:310
+#: .\summarizer\templates\front\home2.html:352
 #: .\summarizer\templates\front\index.html:212
 msgid "Academic Researcher"
-msgstr ""
+msgstr "Investigadora académica"
 
-#: .\summarizer\templates\front\home2.html:359
+#: .\summarizer\templates\front\home2.html:401
 #: .\summarizer\templates\front\index.html:261
 msgid "How Does the Text Summary Generator Work?"
-msgstr ""
+msgstr "¿Cómo funciona el generador de resúmenes de texto?"
 
-#: .\summarizer\templates\front\home2.html:382
+#: .\summarizer\templates\front\home2.html:424
 #: .\summarizer\templates\front\index.html:284
 msgid "Enter the Text"
-msgstr ""
+msgstr "Introduce el texto"
 
-#: .\summarizer\templates\front\home2.html:384
+#: .\summarizer\templates\front\home2.html:426
 #: .\summarizer\templates\front\index.html:286
 msgid ""
 "You can copy the text and paste it into the box above, or upload a file from "
 "your desktop. You can upload a Doc or PDF file."
 msgstr ""
+"Puedes copiar el texto y pegarlo en el cuadro de arriba, o cargar un archivo "
+"desde tu escritorio. Puedes cargar un archivo Doc o PDF."
 
-#: .\summarizer\templates\front\home2.html:409
+#: .\summarizer\templates\front\home2.html:451
 #: .\summarizer\templates\front\index.html:311
 msgid "Choose the Summary Length and Style"
-msgstr ""
+msgstr "Elige la longitud y el estilo del resumen"
 
-#: .\summarizer\templates\front\home2.html:411
+#: .\summarizer\templates\front\home2.html:453
 #: .\summarizer\templates\front\index.html:313
 msgid ""
 "Choose your desired summary size between small, medium-length, and large "
 "summary options. Decide if you want the summary in paragraph form or bullet "
 "points."
 msgstr ""
+"Elige el tamaño de resumen deseado entre opciones pequeñas, de longitud "
+"media y grandes. Decide si deseas el resumen en forma de párrafo o en "
+"viñetas."
 
-#: .\summarizer\templates\front\home2.html:438
+#: .\summarizer\templates\front\home2.html:480
 #: .\summarizer\templates\front\index.html:340
 msgid "Get Your Summary"
-msgstr ""
+msgstr "Obtén tu resumen"
 
-#: .\summarizer\templates\front\home2.html:440
+#: .\summarizer\templates\front\home2.html:482
 #: .\summarizer\templates\front\index.html:342
 msgid ""
 "Click the “Summarize” button, and you’ll get the summary in a few seconds. "
 "You can simply copy the generated summary or download it as a Doc or PDF "
 "file. That’s all!"
 msgstr ""
+"Haz clic en el botón “Resumir” y obtendrás el resumen en unos segundos. "
+"Puedes simplemente copiar el resumen generado o descargarlo como archivo Doc "
+"o PDF. ¡Eso es todo!"
 
-#: .\summarizer\templates\front\home2.html:459
+#: .\summarizer\templates\front\home2.html:501
 #: .\summarizer\templates\front\index.html:361
 msgid "What Kind of Content Can You Summarize with this Summary Generator?"
-msgstr ""
+msgstr "¿Qué tipo de contenido puedes resumir con este generador de resúmenes?"
 
-#: .\summarizer\templates\front\home2.html:477
+#: .\summarizer\templates\front\home2.html:519
 #: .\summarizer\templates\front\index.html:379
 msgid "Academic Papers"
-msgstr ""
+msgstr "Documentos académicos"
 
-#: .\summarizer\templates\front\home2.html:479
+#: .\summarizer\templates\front\home2.html:521
 #: .\summarizer\templates\front\index.html:381
 msgid ""
 "Quickly turn complex research papers or articles into easy to digest "
 "summaries."
 msgstr ""
+"Convierte rápidamente documentos de investigación complejos o artículos en "
+"resúmenes fáciles de entender."
 
-#: .\summarizer\templates\front\home2.html:497
+#: .\summarizer\templates\front\home2.html:539
 #: .\summarizer\templates\front\index.html:399
 msgid "Business Reports"
-msgstr ""
+msgstr "Informes empresariales"
 
-#: .\summarizer\templates\front\home2.html:499
+#: .\summarizer\templates\front\home2.html:541
 #: .\summarizer\templates\front\index.html:401
 msgid ""
 "Overwhelmed by business reports? Instantly get the key insights and data "
 "from extensive reports."
 msgstr ""
+"¿Abrumado por informes empresariales? Obtén al instante las ideas clave y "
+"los datos de informes extensos."
 
-#: .\summarizer\templates\front\home2.html:516
+#: .\summarizer\templates\front\home2.html:558
 #: .\summarizer\templates\front\index.html:418
 msgid "News Articles"
-msgstr ""
+msgstr "Artículos de noticias"
 
-#: .\summarizer\templates\front\home2.html:518
+#: .\summarizer\templates\front\home2.html:560
 #: .\summarizer\templates\front\index.html:420
 msgid ""
 "Get the gist of current events and news stories without reading the full "
 "text."
 msgstr ""
+"Obtén la esencia de los eventos actuales y noticias sin leer el texto "
+"completo."
 
-#: .\summarizer\templates\front\home2.html:535
+#: .\summarizer\templates\front\home2.html:577
 #: .\summarizer\templates\front\index.html:437
 msgid "Book Summaries"
-msgstr ""
+msgstr "Resúmenes de libros"
 
-#: .\summarizer\templates\front\home2.html:537
+#: .\summarizer\templates\front\home2.html:579
 #: .\summarizer\templates\front\index.html:439
 msgid "Create brief overviews of books for study or leisure reading."
-msgstr ""
+msgstr "Crea resúmenes breves de libros para estudios o lecturas de ocio."
 
-#: .\summarizer\templates\front\home2.html:554
+#: .\summarizer\templates\front\home2.html:596
 #: .\summarizer\templates\front\index.html:456
 msgid "Technical Documents"
-msgstr ""
+msgstr "Documentos técnicos"
 
-#: .\summarizer\templates\front\home2.html:556
+#: .\summarizer\templates\front\home2.html:598
 #: .\summarizer\templates\front\index.html:458
 msgid ""
 "Struggling with technical jargon? Simplify technical content into digestible "
 "summaries."
 msgstr ""
+"¿Luchando con la jerga técnica? Simplifica el contenido técnico en resúmenes "
+"fáciles de entender."
 
-#: .\summarizer\templates\front\home2.html:573
+#: .\summarizer\templates\front\home2.html:615
 #: .\summarizer\templates\front\index.html:475
 msgid "Meeting Minutes"
-msgstr ""
+msgstr "Minutos de reuniones"
 
-#: .\summarizer\templates\front\home2.html:575
+#: .\summarizer\templates\front\home2.html:617
 #: .\summarizer\templates\front\index.html:477
 msgid ""
 "Need to recap meetings? Convert long meeting notes into clear, actionable "
 "points."
 msgstr ""
+"¿Necesitas recapitular reuniones? Convierte las largas notas de las "
+"reuniones en puntos claros y accionables."
 
-#: .\summarizer\templates\front\home2.html:590
+#: .\summarizer\templates\front\home2.html:632
 #: .\summarizer\templates\front\index.html:492
 msgid "Generate Your Summary Now!"
-msgstr ""
+msgstr "¡Genera tu resumen ahora!"
+
+#: .\summarizer\templates\front\pricing.html:177
+msgid "Plans & Pricing"
+msgstr "Planes y precios"
 
 #: .\summarizer\templates\front\pricing.html:178
 msgid "Plans that best suit your business requirements"
-msgstr ""
+msgstr "Planes que se adaptan mejor a tus necesidades comerciales"
+
+#: .\summarizer\templates\front\pricing.html:188
+msgid "Monthly"
+msgstr "Mensual"
+
+#: .\summarizer\templates\front\pricing.html:189
+msgid "month"
+msgstr "mes"
+
+#: .\summarizer\templates\front\pricing.html:190
+msgid "Choose Monthly Plan"
+msgstr "Elige el plan mensual"
 
 #: .\summarizer\templates\front\pricing.html:196
 msgid "1 million"
-msgstr ""
+msgstr "1 millón"
 
 #: .\summarizer\templates\front\pricing.html:197
 msgid "Monthly Word Limit"
-msgstr ""
+msgstr "Límite de palabras mensual"
 
 #: .\summarizer\templates\front\pricing.html:199
+#: .\summarizer\templates\front\pricing.html:227
 msgid "Access To All Languages"
-msgstr ""
+msgstr "Acceso a todos los idiomas"
 
 #: .\summarizer\templates\front\pricing.html:200
+#: .\summarizer\templates\front\pricing.html:228
 msgid "Advance Editor Tool"
-msgstr ""
+msgstr "Herramienta de editor avanzada"
 
 #: .\summarizer\templates\front\pricing.html:202
+#: .\summarizer\templates\front\pricing.html:230
 msgid "Regular Technical Support"
-msgstr ""
+msgstr "Soporte técnico regular"
 
 #: .\summarizer\templates\front\pricing.html:203
+#: .\summarizer\templates\front\pricing.html:231
 msgid "Unlimited Logins"
-msgstr ""
+msgstr "Accesos ilimitados"
 
 #: .\summarizer\templates\front\pricing.html:205
+#: .\summarizer\templates\front\pricing.html:233
 msgid "Newest Features"
+msgstr "Últimas características"
+
+#: .\summarizer\templates\front\pricing.html:216
+msgid "Yearly"
+msgstr "Anual"
+
+#: .\summarizer\templates\front\pricing.html:217
+msgid "year"
+msgstr "año"
+
+#: .\summarizer\templates\front\pricing.html:218
+msgid "Choose Yearly Plan"
+msgstr "Elige el plan anual"
+
+#: .\summarizer\templates\front\pricing.html:224
+msgid "10 million"
+msgstr "10 millones"
+
+#: .\summarizer\templates\front\pricing.html:225
+msgid "Yearly Word Limit"
+msgstr "Límite de palabras anual"
+
+#: .\summarizer\templates\front\pricing.html:249
+msgid "FAQ'S"
+msgstr "Preguntas frecuentes"
+
+#: .\summarizer\templates\front\pricing.html:250
+msgid "Frequently Asked Questions"
+msgstr "Preguntas frecuentes"
+
+#: .\summarizer\templates\front\pricing.html:261
+msgid "Is there a free plan?"
+msgstr "¿Hay un plan gratuito?"
+
+#: .\summarizer\templates\front\pricing.html:264
+msgid "Summarygenerator.io offers a"
+msgstr "Summarygenerator.io ofrece un"
+
+#: .\summarizer\templates\front\pricing.html:264
+msgid "free plan"
+msgstr "plan gratuito"
+
+#: .\summarizer\templates\front\pricing.html:264
+msgid ""
+"summarizing articles, research papers, and any kind of text for up to 800 "
+"words."
 msgstr ""
+"resumiendo artículos, documentos de investigación y cualquier tipo de texto "
+"de hasta 800 palabras."
+
+#: .\summarizer\templates\front\pricing.html:264
+msgid "With a free account, you can access"
+msgstr "Con una cuenta gratuita, puedes acceder a"
+
+#: .\summarizer\templates\front\pricing.html:264
+msgid "the dashboard"
+msgstr "el panel de control"
+
+#: .\summarizer\templates\front\pricing.html:272
+msgid "What are the benefits of the Monthly plan?"
+msgstr "¿Cuáles son los beneficios del plan mensual?"
+
+#: .\summarizer\templates\front\pricing.html:277
+msgid ""
+"With the Monthly plan, you can summarize up to 1 million words per month in "
+"more than 30 languages for just $9.95/month."
+msgstr ""
+"Con el plan mensual, puedes resumir hasta 1 millón de palabras al mes en más "
+"de 30 idiomas por solo $9.95/mes."
+
+#: .\summarizer\templates\front\pricing.html:277
+msgid ""
+"You also get access to the advanced editor tool to edit text inside the tool."
+msgstr ""
+"También tendrás acceso a la herramienta de editor avanzada para editar texto "
+"dentro de la herramienta."
+
+#: .\summarizer\templates\front\pricing.html:277
+msgid ""
+"Plus, you get regular technical support, unlimited logins, and access to the "
+"newest features."
+msgstr ""
+"Además, obtienes soporte técnico regular, accesos ilimitados y acceso a las "
+"últimas características."
+
+#: .\summarizer\templates\front\pricing.html:284
+msgid "Why should I buy the Yearly plan?"
+msgstr "¿Por qué debería comprar el plan anual?"
+
+#: .\summarizer\templates\front\pricing.html:289
+#, python-format
+msgid ""
+"Choosing the Yearly plan for $59.95 over the monthly option at $9.95 means "
+"you’re saving nearly 50%% annually."
+msgstr ""
+"Elegir el plan anual por $59.95 en lugar de la opción mensual a $9.95 "
+"significa que estás ahorrando casi un 50%% anualmente."
+
+#: .\summarizer\templates\front\pricing.html:289
+msgid ""
+"Plus, it expands the word limit to 10 million yearly, supports more than 50 "
+"languages, and includes all features of the Monthly plan, making it a more "
+"economical choice for heavy users."
+msgstr ""
+"Además, amplía el límite de palabras a 10 millones al año, admite más de 50 "
+"idiomas e incluye todas las características del plan mensual, lo que lo "
+"convierte en una opción más económica para usuarios intensivos."
+
+#: .\summarizer\templates\front\pricing.html:296
+msgid "Can I upgrade from the free plan to a paid subscription?"
+msgstr "¿Puedo actualizar de un plan gratuito a una suscripción de pago?"
+
+#: .\summarizer\templates\front\pricing.html:301
+msgid ""
+"Yes, you can easily upgrade to either the Monthly or Yearly plan to enjoy "
+"higher word limits, additional languages, the advanced editor tool, and "
+"other premium features."
+msgstr ""
+"Sí, puedes actualizar fácilmente a cualquiera de los planes Mensual o Anual "
+"para disfrutar de límites de palabras más altos, idiomas adicionales, la "
+"herramienta de editor avanzada y otras características premium."
+
+#: .\summarizer\templates\front\pricing.html:320
+msgid "Boost your writing productivity"
+msgstr "Impulsa tu productividad en la escritura"
+
+#: .\summarizer\templates\front\pricing.html:322
+msgid ""
+"SummaryGenerator.io turns your lengthy texts into crisp, clear summaries "
+"with just one click."
+msgstr ""
+"SummaryGenerator.io convierte tus textos extensos en resúmenes claros y "
+"concisos con solo un clic."
