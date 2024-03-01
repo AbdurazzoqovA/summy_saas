@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-01 17:41+0500\n"
+"POT-Creation-Date: 2024-03-01 17:51+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -536,6 +536,97 @@ msgstr ""
 msgid "Generate Your Summary Now!"
 msgstr "¡Genera tu resumen ahora!"
 
+#: .\summarizer\templates\front\home2.html:679
+#: .\summarizer\templates\front\pricing.html:249
+msgid "FAQ'S"
+msgstr "Preguntas frecuentes"
+
+#: .\summarizer\templates\front\home2.html:680
+#: .\summarizer\templates\front\pricing.html:250
+msgid "Frequently Asked Questions"
+msgstr "Preguntas frecuentes"
+
+#: .\summarizer\templates\front\home2.html:691
+msgid "How can I write a summary online for free?"
+msgstr "¿Cómo puedo escribir un resumen en línea de forma gratuita?"
+
+#: .\summarizer\templates\front\home2.html:694
+msgid ""
+"Our Summary Generator helps you summarize text online for free. Simply open "
+"Summarygenerator.io, enter the text in the blank box, or upload a file, "
+"choose the summary length, and click summarize. Our advanced AI will create "
+"an accurate summary in less than a second."
+msgstr ""
+"Nuestro Generador de Resúmenes te ayuda a resumir texto en línea de forma "
+"gratuita. Simplemente abre Summarygenerator.io, introduce el texto en la "
+"casilla en blanco o carga un archivo, elige la longitud del resumen y haz "
+"clic en resumir. Nuestra avanzada inteligencia artificial creará un resumen "
+"preciso en menos de un segundo."
+
+#: .\summarizer\templates\front\home2.html:701
+msgid "What is the best free AI for summarizing?"
+msgstr ""
+"¿Cuál es el mejor servicio gratuito de inteligencia artificial para "
+"resúmenes?"
+
+#: .\summarizer\templates\front\home2.html:704
+msgid ""
+"Summarygenerator.io is one of the best free AI summarizing tools to create "
+"long and short summaries in one click. Our tool uses natural language "
+"processing and advanced AI technology to generate summaries that make sense."
+msgstr ""
+"Summarygenerator.io es una de las mejores herramientas gratuitas de "
+"inteligencia artificial para resúmenes, capaz de crear resúmenes largos y "
+"cortos con un solo clic. Nuestra herramienta utiliza procesamiento de "
+"lenguaje natural y tecnología avanzada de inteligencia artificial para "
+"generar resúmenes que tienen sentido."
+
+#: .\summarizer\templates\front\home2.html:711
+msgid "How do you write an AI summary?"
+msgstr "¿Cómo se escribe un resumen con inteligencia artificial?"
+
+#: .\summarizer\templates\front\home2.html:714
+msgid ""
+"All you have to do is input the text in the Summarygenerator.io text box, "
+"set the length, and describe the summary style (paragraph or bullets). Our "
+"AI tool analyzes the text to identify key points using natural language "
+"processing (NLP) techniques. It then generates a summary, highlighting the "
+"important points. Review and refine the AI-generated summary to ensure "
+"accuracy."
+msgstr ""
+"Todo lo que tienes que hacer es ingresar el texto en la casilla de texto de "
+"Summarygenerator.io, definir la longitud y describir el estilo del resumen "
+"(párrafo o viñetas). Nuestra herramienta de IA analiza el texto para "
+"identificar puntos clave utilizando técnicas de procesamiento de lenguaje "
+"natural (NLP). Luego, genera un resumen, resaltando los puntos importantes. "
+"Revisa y perfecciona el resumen generado por la IA para asegurar su "
+"precisión."
+
+#: .\summarizer\templates\front\home2.html:721
+msgid "Can AI summarize a PDF?"
+msgstr "¿Puede la inteligencia artificial resumir un PDF?"
+
+#: .\summarizer\templates\front\home2.html:724
+msgid ""
+"Yes, Summarygenerator.io can summarize a PDF or Word Document. It instantly "
+"extracts text from the document to create summaries."
+msgstr ""
+"Sí, Summarygenerator.io puede resumir un PDF o un documento de Word. Extrae "
+"instantáneamente el texto del documento para crear resúmenes."
+
+#: .\summarizer\templates\front\home2.html:746
+msgid "Upgrade to Pro"
+msgstr "Actualiza a Pro"
+
+#: .\summarizer\templates\front\home2.html:747
+msgid ""
+"Uh-oh! It seems like you've hit the word limit. Upgrade to our Pro version "
+"now to enjoy unlimited summarization and explore advanced features."
+msgstr ""
+"¡Ay! Parece que has alcanzado el límite de palabras. Actualiza a nuestra "
+"versión Pro ahora para disfrutar de resúmenes ilimitados y explorar "
+"funciones avanzadas."
+
 #: .\summarizer\templates\front\pricing.html:177
 msgid "Plans & Pricing"
 msgstr "Planes y precios"
@@ -608,14 +699,6 @@ msgstr "10 millones"
 #: .\summarizer\templates\front\pricing.html:225
 msgid "Yearly Word Limit"
 msgstr "Límite de palabras anual"
-
-#: .\summarizer\templates\front\pricing.html:249
-msgid "FAQ'S"
-msgstr "Preguntas frecuentes"
-
-#: .\summarizer\templates\front\pricing.html:250
-msgid "Frequently Asked Questions"
-msgstr "Preguntas frecuentes"
 
 #: .\summarizer\templates\front\pricing.html:261
 msgid "Is there a free plan?"
@@ -720,3 +803,8 @@ msgid ""
 msgstr ""
 "SummaryGenerator.io convierte tus textos extensos en resúmenes claros y "
 "concisos con solo un clic."
+
+#, fuzzy
+#~| msgid "FAQ'S"
+#~ msgid "FAQ"
+#~ msgstr "Preguntas frecuentes"
