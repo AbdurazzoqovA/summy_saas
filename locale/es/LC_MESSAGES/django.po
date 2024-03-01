@@ -321,7 +321,6 @@ msgstr ""
 "datos más relevantes y cruciales con solo un clic."
 
 #: .\summarizer\templates\front\home2.html:263
-#, fuzzy
 msgid "Choose Your Summary Length & Style"
 msgstr "Elige la longitud y el estilo del resumen"
 
