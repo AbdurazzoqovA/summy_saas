@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-palm.configure(api_key="AIzaSyAxFzWVjI7vyJH2t3hUB1JAqjLOilSTYqs")
+palm.configure(api_key="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")
 
 
 def summarizer(
