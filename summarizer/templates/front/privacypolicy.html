@@ -177,21 +177,31 @@ table {
                           {{ LANG_INFO.name_local }} ({{ CURRENT_LANGUAGE|upper }})
                         </a>
                         <ul
-                          class="dropdown-menu dropdown-menu-end shadow-sm border-0"
-                        >
-                          <!-- Iterate over available languages -->
-                          {% for language in languages %}
-                          <li>
-                            <a
-                              class="dropdown-item link-base py-2 px-4"
-                              href="/{{language.code}}/"
-                            >
-                              {{ language.display_name }} ({{ language.code|upper
-                              }})
-                            </a>
-                          </li>
-                          {% endfor %}
-                        </ul>
+                        class="dropdown-menu dropdown-menu-end shadow-sm border-0 language_dropdown"
+                      >
+                        <li>
+                          <a class="dropdown-item link-base py-2 px-4" href="https://summarygenerator.io/es/PrivacyPolicy/">
+                              Spanish (ES)
+                          </a>
+                      </li>
+                      
+                      <li>
+                          <a class="dropdown-item link-base py-2 px-4" href="https://summarygenerator.io/pt/PrivacyPolicy/">
+                              Portuguese (PT)
+                          </a>
+                      </li>
+                      
+                      <li>
+                          <a class="dropdown-item link-base py-2 px-4" href="https://summarygenerator.io/ru/PrivacyPolicy/">
+                              Russian (RU)
+                          </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item link-base py-2 px-4" href="https://summarygenerator.io/en/PrivacyPolicy/">
+                            English (EN)
+                        </a>
+                    </li>
+                      </ul>
                       </li>
                     </ul>
                     <!-- .nk-menu-buttons -->
@@ -843,6 +853,12 @@ England
           else
           $('.nk-menu').removeClass('header-menu-active')
       })
+
+      $('.dropdown-toggle').click(function(){
+          $('.language_dropdown').toggle()
+      })
+
+
   </script>
 </body>
 
