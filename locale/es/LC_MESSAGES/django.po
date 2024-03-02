@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-02 12:44+0500\n"
+"POT-Creation-Date: 2024-03-02 12:48+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -214,6 +214,7 @@ msgstr ""
 "2DQ."
 
 #: .\summarizer\templates\front\about.html:441
+#: .\summarizer\templates\front\home2.html:653
 #: .\summarizer\templates\front\pricing.html:321
 msgid "Ready to Transform Your Text?"
 msgstr "¿Listo para transformar tu texto?"
@@ -227,21 +228,25 @@ msgstr ""
 "concisos con solo un clic."
 
 #: .\summarizer\templates\front\about.html:444
+#: .\summarizer\templates\front\home2.html:656
 #: .\summarizer\templates\front\pricing.html:324
 msgid "Summarize Now"
 msgstr "Resumir ahora"
 
 #: .\summarizer\templates\front\about.html:447
+#: .\summarizer\templates\front\home2.html:659
 #: .\summarizer\templates\front\pricing.html:327
 msgid "Free to use"
 msgstr "Gratis para usar"
 
 #: .\summarizer\templates\front\about.html:449
+#: .\summarizer\templates\front\home2.html:660
 #: .\summarizer\templates\front\pricing.html:329
 msgid "Generate summaries in 3 seconds"
 msgstr "Genera resúmenes en 3 segundos"
 
 #: .\summarizer\templates\front\about.html:450
+#: .\summarizer\templates\front\home2.html:661
 #: .\summarizer\templates\front\pricing.html:330
 msgid "No signup required"
 msgstr "No se requiere registro"
@@ -562,6 +567,15 @@ msgstr ""
 msgid "Generate Your Summary Now!"
 msgstr "¡Genera tu resumen ahora!"
 
+#: .\summarizer\templates\front\home2.html:654
+#: .\summarizer\templates\front\pricing.html:322
+msgid ""
+"SummaryGenerator.io turns your lengthy texts into crisp, clear summaries "
+"with just one click."
+msgstr ""
+"SummaryGenerator.io convierte tus textos extensos en resúmenes claros y "
+"concisos con solo un clic."
+
 #: .\summarizer\templates\front\home2.html:679
 #: .\summarizer\templates\front\pricing.html:249
 msgid "FAQ'S"
@@ -821,14 +835,6 @@ msgstr ""
 #: .\summarizer\templates\front\pricing.html:320
 msgid "Boost your writing productivity"
 msgstr "Impulsa tu productividad en la escritura"
-
-#: .\summarizer\templates\front\pricing.html:322
-msgid ""
-"SummaryGenerator.io turns your lengthy texts into crisp, clear summaries "
-"with just one click."
-msgstr ""
-"SummaryGenerator.io convierte tus textos extensos en resúmenes claros y "
-"concisos con solo un clic."
 
 #, fuzzy
 #~| msgid "FAQ'S"
