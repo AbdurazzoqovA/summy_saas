@@ -484,6 +484,7 @@
   }
 </script>
 {% load static %}
+{% load i18n %}
 <div class="mycontainer">
   <div class="scrollable-header">
     <div class="editor-header">
@@ -498,14 +499,16 @@
               class="mode-button"
               onclick="setMode(event)"
             >
-              Paragraph
+            {% translate "Paragraph" %}
+              
             </button>
             <button
               mode="bullet-points"
               class="mode-button"
               onclick="setMode(event)"
             >
-              Bullet Points
+            {% translate "Bullet Points" %}
+              
             </button>
           </div>
         </div>
@@ -513,7 +516,7 @@
           style="display: flex; align-items: center; margin-left: 30px"
           id="summary-length-container"
         >
-          <span style="margin-right: 5px">Short</span>
+          <span style="margin-right: 5px">{% translate "Short" %}</span>
           <input
             type="range"
             min="1"
@@ -521,7 +524,7 @@
             class="summary-slider"
             id="summary-length"
           />
-          <span style="margin-left: 5px">Long</span>
+          <span style="margin-left: 5px">{% translate "Long" %}</span>
         </div>
         </div>
         <div class="" id="sample-text">
@@ -530,7 +533,9 @@
             <path d="M22.2891 4.22581H28.7407M25.5149 1V7.45161" stroke="#1e1e31" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
             
-          <p>Sample Text</p>
+          <p>
+            {% translate "Sample Text" %}
+          </p>
         </div>
       </div>
     </div>
@@ -560,7 +565,9 @@
                 <path d="M16 3.14453H18.1429C20.5 3.14453 22.4286 5.0731 22.4286 7.43025V14.9302" stroke="#3f3eed" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
                 
-              <p>Paste Text</p>
+              <p>
+                {% translate "Paste Text" %}
+              </p>
             </div>
           </div>
         </div>
@@ -597,7 +604,7 @@
           >
             <em class="fa-solid fa-download"></em>
           </button>
-          <p class="word-count" id="word-count-summary">Words: 0</p>
+          <p class="word-count" id="word-count-summary">{% translate "Words" %}: 0</p>
         </div>
       </div>
       
@@ -634,11 +641,11 @@
         >
           <em class="fa-solid fa-download"></em>
         </button>
-        <p class="word-count mobile-only" id="word-count-summary">Words: 0</p>
+        <p class="word-count mobile-only" id="word-count-summary">{% translate "Words" %}: 0</p>
       </div>
       <div>
         <button class="btn btn-lg btn-primary" id="summaryButton">
-          Summarize
+          {% translate "Summarize" %}
           <span
             id="summary-spinner"
             class="spinner-border spinner-border-sm"
