@@ -181,21 +181,27 @@
                           {{ LANG_INFO.name_local }} ({{ CURRENT_LANGUAGE|upper }})
                         </a>
                         <ul
-                          class="dropdown-menu dropdown-menu-end shadow-sm border-0"
-                        >
-                          <!-- Iterate over available languages -->
-                          {% for language in languages %}
-                          <li>
-                            <a
-                              class="dropdown-item link-base py-2 px-4"
-                              href="/{{language.code}}/"
-                            >
-                              {{ language.display_name }} ({{ language.code|upper
-                              }})
-                            </a>
-                          </li>
-                          {% endfor %}
-                        </ul>
+                        class="dropdown-menu dropdown-menu-end shadow-sm border-0 language_dropdown"
+                      >
+                        <li>
+                          <a class="dropdown-item link-base py-2 px-4" href="https://summarygenerator.io/es/about/">
+                              Spanish (ES)
+                          </a>
+                      </li>
+                      
+                      <li>
+                          <a class="dropdown-item link-base py-2 px-4" href="https://summarygenerator.io/pt/about/">
+                              Portuguese (PT)
+                          </a>
+                      </li>
+                      
+                      <li>
+                          <a class="dropdown-item link-base py-2 px-4" href="https://summarygenerator.io/ru/about/">
+                              Russian (RU)
+                          </a>
+                      </li>
+                      </ul>
+
                       </li>
                     </ul>
                     <!-- .nk-menu-buttons -->
@@ -210,7 +216,15 @@
             {% block hero %} {% endblock %}
             <!-- .nk-hero -->
           </header>
+
+
+
+          
         <main class="nk-pages">
+
+
+
+
             <section class="section has-shape has-mask">
                 <div class="nk-shape bg-shape-blur-m mt-8 start-50 top-0 translate-middle-x"></div>
                 <div class="nk-mask bg-pattern-dot bg-blend-around mt-n5 mb-6  mh-50vh"></div>
@@ -575,6 +589,12 @@
     <script src="assets/js/bundle.js?v1.5.0"></script>
     <script src="assets/js/scripts.js?v1.5.0"></script>
     <script>
+
+      $('.dropdown-toggle').click(function(){
+          $('.language_dropdown').toggle()
+      })
+
+
         $('.dark-mode-toggle').click(function () {
             console.log('dark mode activating')
             if(!$('body').hasClass('is-dark'))
