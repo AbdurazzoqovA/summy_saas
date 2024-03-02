@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-01 17:51+0500\n"
+"POT-Creation-Date: 2024-03-02 12:37+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -59,7 +59,7 @@ msgid "Home"
 msgstr "Inicio"
 
 #: .\summarizer\templates\front\about.html:123
-#: .\summarizer\templates\front\about.html:503
+#: .\summarizer\templates\front\about.html:504
 #: .\summarizer\templates\front\home2.html:81
 #: .\summarizer\templates\front\main.html:195
 #: .\summarizer\templates\front\main.html:343
@@ -95,7 +95,7 @@ msgid "Dashboard"
 msgstr "Tablero"
 
 #: .\summarizer\templates\front\about.html:221
-#: .\summarizer\templates\front\about.html:500
+#: .\summarizer\templates\front\about.html:501
 #: .\summarizer\templates\front\main.html:340
 #: .\summarizer\templates\front\pricing.html:377
 msgid "About Us"
@@ -118,6 +118,17 @@ msgstr "desarrollada por Abdullah de Uzbekistán."
 msgid "Our software uses AI to condense information"
 msgstr ""
 "Nuestro software utiliza inteligencia artificial para condensar información"
+
+#: .\summarizer\templates\front\about.html:242
+msgid "We used to be called Summarizing-tool but now we"
+msgstr "Antes nos llamábamos Herramienta de Resumen, pero ahora nosotros"
+
+#: .\summarizer\templates\front\about.html:243
+msgid ""
+"This change allows us to offer advanced features and better functionality."
+msgstr ""
+"Este cambio nos permite ofrecer funciones avanzadas y una mejor "
+"funcionalidad."
 
 #: .\summarizer\templates\front\about.html:275
 msgid ""
@@ -147,23 +158,36 @@ msgstr ""
 msgid "Bullet point summarization "
 msgstr "Resumen en viñetas"
 
-#: .\summarizer\templates\front\about.html:360
+#: .\summarizer\templates\front\about.html:336
+msgid ""
+"Whether you're a student or a professional, our platform is designed to meet "
+"your needs."
+msgstr "Ya seas estudiante o profesional, nuestra plataforma está diseñada para satisfacer tus necesidades."
+
+#: .\summarizer\templates\front\about.html:338
+msgid ""
+"One of our standout features is bullet point summarization, which improves "
+"readability."
+msgstr "Una de nuestras características destacadas es la sumarización con viñetas, que mejora la legibilidad."
+
+
+#: .\summarizer\templates\front\about.html:361
 msgid "Website Designer"
 msgstr "Diseñador de sitios web"
 
-#: .\summarizer\templates\front\about.html:361
+#: .\summarizer\templates\front\about.html:362
 msgid "Our website is user-friendly and designed by Raheel Fida"
 msgstr "Nuestro sitio web es fácil de usar y fue diseñado por Raheel Fida"
 
-#: .\summarizer\templates\front\about.html:378
+#: .\summarizer\templates\front\about.html:379
 msgid "Contact us"
 msgstr "Contáctenos"
 
-#: .\summarizer\templates\front\about.html:379
+#: .\summarizer\templates\front\about.html:380
 msgid "If you have any questions or want to connect with us"
 msgstr "Si tiene alguna pregunta o desea conectarse con nosotros"
 
-#: .\summarizer\templates\front\about.html:381
+#: .\summarizer\templates\front\about.html:382
 msgid ""
 "We value your feedback and are committed to improving SummaryGenerator.io "
 "for you."
@@ -171,27 +195,27 @@ msgstr ""
 "Valoramos sus comentarios y estamos comprometidos a mejorar SummaryGenerator."
 "io para usted."
 
-#: .\summarizer\templates\front\about.html:399
+#: .\summarizer\templates\front\about.html:400
 msgid "You can call us at +4473 61622097"
 msgstr "Puede llamarnos al +4473 61622097"
 
-#: .\summarizer\templates\front\about.html:410
+#: .\summarizer\templates\front\about.html:411
 msgid "email us at support@summarygenerator.io"
 msgstr "envíenos un correo electrónico a support@summarygenerator.io"
 
-#: .\summarizer\templates\front\about.html:421
+#: .\summarizer\templates\front\about.html:422
 msgid ""
 "Our address is International House, 12 Constance Street, London, E16 2DQ."
 msgstr ""
 "Nuestra dirección es International House, 12 Constance Street, Londres, E16 "
 "2DQ."
 
-#: .\summarizer\templates\front\about.html:439
+#: .\summarizer\templates\front\about.html:440
 #: .\summarizer\templates\front\pricing.html:321
 msgid "Ready to Transform Your Text?"
 msgstr "¿Listo para transformar tu texto?"
 
-#: .\summarizer\templates\front\about.html:440
+#: .\summarizer\templates\front\about.html:441
 msgid ""
 "SummaryGenerator.io turns your lengthy texts into crisp, clear summaries "
 "with just one click. "
@@ -199,27 +223,27 @@ msgstr ""
 "SummaryGenerator.io convierte tus textos extensos en resúmenes claros y "
 "concisos con solo un clic."
 
-#: .\summarizer\templates\front\about.html:442
+#: .\summarizer\templates\front\about.html:443
 #: .\summarizer\templates\front\pricing.html:324
 msgid "Summarize Now"
 msgstr "Resumir ahora"
 
-#: .\summarizer\templates\front\about.html:445
+#: .\summarizer\templates\front\about.html:446
 #: .\summarizer\templates\front\pricing.html:327
 msgid "Free to use"
 msgstr "Gratis para usar"
 
-#: .\summarizer\templates\front\about.html:447
+#: .\summarizer\templates\front\about.html:448
 #: .\summarizer\templates\front\pricing.html:329
 msgid "Generate summaries in 3 seconds"
 msgstr "Genera resúmenes en 3 segundos"
 
-#: .\summarizer\templates\front\about.html:448
+#: .\summarizer\templates\front\about.html:449
 #: .\summarizer\templates\front\pricing.html:330
 msgid "No signup required"
 msgstr "No se requiere registro"
 
-#: .\summarizer\templates\front\about.html:486
+#: .\summarizer\templates\front\about.html:487
 #: .\summarizer\templates\front\main.html:326
 #: .\summarizer\templates\front\pricing.html:363
 msgid ""
@@ -233,49 +257,49 @@ msgstr ""
 "contenido e identificar ideas principales para generar resúmenes relevantes. "
 "Genera resúmenes de longitudes variables para cualquier tipo de contenido."
 
-#: .\summarizer\templates\front\about.html:501
+#: .\summarizer\templates\front\about.html:502
 #: .\summarizer\templates\front\main.html:341
 #: .\summarizer\templates\front\pricing.html:378
 msgid "Terms and Conditions"
 msgstr "Términos y condiciones"
 
-#: .\summarizer\templates\front\about.html:502
+#: .\summarizer\templates\front\about.html:503
 #: .\summarizer\templates\front\main.html:342
 #: .\summarizer\templates\front\pricing.html:379
 msgid "Privacy Policy"
 msgstr "Política de privacidad"
 
-#: .\summarizer\templates\front\about.html:512
+#: .\summarizer\templates\front\about.html:513
 #: .\summarizer\templates\front\main.html:352
 #: .\summarizer\templates\front\pricing.html:389
 msgid "Get In Touch"
 msgstr "Ponte en contacto"
 
-#: .\summarizer\templates\front\about.html:519
+#: .\summarizer\templates\front\about.html:520
 #: .\summarizer\templates\front\main.html:359
 #: .\summarizer\templates\front\pricing.html:396
 msgid "support@summarygenerator.io"
 msgstr "support@summarygenerator.io"
 
-#: .\summarizer\templates\front\about.html:525
+#: .\summarizer\templates\front\about.html:526
 #: .\summarizer\templates\front\main.html:365
 #: .\summarizer\templates\front\pricing.html:402
 msgid "+4473 61622097"
 msgstr "+4473 61622097"
 
-#: .\summarizer\templates\front\about.html:532
+#: .\summarizer\templates\front\about.html:533
 #: .\summarizer\templates\front\main.html:372
 #: .\summarizer\templates\front\pricing.html:409
 msgid "International House, 12 Constance Street, London, E16 2DQ."
 msgstr "International House, 12 Constance Street, Londres, E16 2DQ."
 
-#: .\summarizer\templates\front\about.html:557
+#: .\summarizer\templates\front\about.html:558
 #: .\summarizer\templates\front\main.html:397
 #: .\summarizer\templates\front\pricing.html:434
 msgid "Copyright &copy; 2023."
 msgstr "Derechos de autor &copy; 2023."
 
-#: .\summarizer\templates\front\about.html:558
+#: .\summarizer\templates\front\about.html:559
 #: .\summarizer\templates\front\main.html:398
 #: .\summarizer\templates\front\pricing.html:435
 msgid "Summarygenerator.io"

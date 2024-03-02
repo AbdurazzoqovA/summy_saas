@@ -4,15 +4,14 @@ import markdown
 import openai
 import os
 from dotenv import load_dotenv
-from decouple import config
+
 
 load_dotenv()
 
 # Load environment variables from .env file
-config.config()
-api_key_ = config('API_KEY')
 
-palm.configure(api_key="{api_key_}")
+
+palm.configure(api_key="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")
 
 
 def summarizer(
