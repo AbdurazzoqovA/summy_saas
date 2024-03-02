@@ -877,11 +877,11 @@ msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:228
 msgid "PRIVACY POLICY"
-msgstr ""
+msgstr "POLÍTICA DE PRIVACIDAD"
 
 #: .\summarizer\templates\front\privacypolicy.html:231
 msgid "Last updated February 09, 2024"
-msgstr ""
+msgstr "Última actualización 09 de febrero de 2024"
 
 #: .\summarizer\templates\front\privacypolicy.html:236
 msgid ""
@@ -889,10 +889,13 @@ msgid ""
 "how and why we might collect, store, use, and/or share ('process') your "
 "information when you use our services ('Services'), such as when you:"
 msgstr ""
+"Este aviso de privacidad de Kamranali Limited ('nosotros', 'nos' o 'nuestro') describe "
+"cómo y por qué podríamos recopilar, almacenar, utilizar y/o compartir ('procesar') su "
+"información cuando utiliza nuestros servicios ('Servicios'), como cuando:"
 
 #: .\summarizer\templates\front\privacypolicy.html:238
 msgid "Visit our website at"
-msgstr ""
+msgstr "Visita nuestro sitio web en"
 
 #: .\summarizer\templates\front\privacypolicy.html:238
 #, fuzzy
@@ -902,13 +905,15 @@ msgstr "Summarygenerator.io"
 
 #: .\summarizer\templates\front\privacypolicy.html:238
 msgid "or any website of ours that links to this privacy notice"
-msgstr ""
+msgstr "o cualquier sitio web nuestro que enlace a este aviso de privacidad"
 
 #: .\summarizer\templates\front\privacypolicy.html:239
 msgid ""
 "Engage with us in other related ways, including any sales, marketing, or "
 "events"
 msgstr ""
+"Interactúa con nosotros de otras maneras relacionadas, incluyendo ventas, marketing o "
+"eventos"
 
 #: .\summarizer\templates\front\privacypolicy.html:242
 msgid ""
@@ -917,10 +922,14 @@ msgid ""
 "practices, please do not use our Services. If you still have any questions "
 "or concerns, please contact us at info@summarygenerator.io."
 msgstr ""
+"¿Preguntas o preocupaciones? Leer este aviso de privacidad te ayudará a entender "
+"tus derechos y opciones de privacidad. Si no estás de acuerdo con nuestras políticas y "
+"prácticas, por favor no utilices nuestros Servicios. Si aún tienes preguntas "
+"o inquietudes, por favor contáctanos en info@summarygenerator.io."
 
 #: .\summarizer\templates\front\privacypolicy.html:246
 msgid "SUMMARY OF KEY POINTS"
-msgstr ""
+msgstr "RESUMEN DE PUNTOS CLAVE"
 
 #: .\summarizer\templates\front\privacypolicy.html:247
 msgid ""
@@ -929,6 +938,10 @@ msgid ""
 "each key point or by using our table of contents below to find the section "
 "you are looking for."
 msgstr ""
+"Este resumen proporciona puntos clave de nuestro aviso de privacidad, pero puedes obtener "
+"más detalles sobre cualquiera de estos temas haciendo clic en el enlace que sigue "
+"a cada punto clave o utilizando nuestra tabla de contenidos a continuación para encontrar la "
+"sección que estás buscando."
 
 #: .\summarizer\templates\front\privacypolicy.html:248
 msgid ""
@@ -938,18 +951,27 @@ msgid ""
 "and features you use. Learn more about personal information you disclose to "
 "us."
 msgstr ""
+"¿Qué información personal procesamos? Cuando visitas, utilizas o navegas "
+"nuestros Servicios, podemos procesar información personal dependiendo de cómo "
+"interactúas con nosotros y los Servicios, las elecciones que haces y los productos "
+"y características que utilizas. Obtén más información sobre la información personal "
+"que nos revelas."
 
 #: .\summarizer\templates\front\privacypolicy.html:249
 msgid ""
 "Do we process any sensitive personal information? We do not process "
 "sensitive personal information."
 msgstr ""
+"¿Procesamos información personal sensible? No procesamos "
+"información personal sensible."
 
 #: .\summarizer\templates\front\privacypolicy.html:250
 msgid ""
 "Do we receive any information from third parties? We do not receive any "
 "information from third parties."
 msgstr ""
+"¿Recibimos información de terceros? No recibimos "
+"información de terceros."
 
 #: .\summarizer\templates\front\privacypolicy.html:251
 msgid ""
@@ -960,6 +982,12 @@ msgid ""
 "information only when we have a valid legal reason to do so. Learn more "
 "about how we process your information."
 msgstr ""
+"¿Cómo procesamos tu información? Procesamos tu información para proporcionar, "
+"mejorar y administrar nuestros Servicios, comunicarnos contigo, para seguridad y "
+"prevención de fraude, y para cumplir con la ley. También podemos procesar tu "
+"información para otros fines con tu consentimiento. Procesamos tu "
+"información solo cuando tenemos una razón legal válida para hacerlo. Obtén más "
+"información sobre cómo procesamos tu información."
 
 #: .\summarizer\templates\front\privacypolicy.html:252
 msgid ""
@@ -968,6 +996,10 @@ msgid ""
 "parties. Learn more about when and with whom we share your personal "
 "information."
 msgstr ""
+"¿En qué situaciones y con qué partes compartimos información personal? "
+"Podemos compartir información en situaciones específicas y con terceros "
+"específicos. Obtén más información sobre cuándo y con quiénes compartimos tu "
+"información personal."
 
 #: .\summarizer\templates\front\privacypolicy.html:253
 msgid ""
@@ -975,6 +1007,10 @@ msgid ""
 "applicable privacy law may mean you have certain rights regarding your "
 "personal information. Learn more about your privacy rights."
 msgstr ""
+"¿Cuáles son tus derechos? Dependiendo de tu ubicación geográfica, la "
+"ley de privacidad aplicable puede significar que tienes ciertos derechos "
+"con respecto a tu información personal. Obtén más información sobre tus derechos "
+"de privacidad."
 
 #: .\summarizer\templates\front\privacypolicy.html:254
 msgid ""
@@ -983,89 +1019,95 @@ msgid ""
 "consider and act upon any request in accordance with applicable data "
 "protection laws."
 msgstr ""
+"¿Cómo ejerces tus derechos? La forma más fácil de ejercer tus derechos es "
+"presentando una solicitud de acceso de sujeto de datos, o poniéndote en contacto con nosotros. "
+"Consideraremos y actuaremos en consecuencia con cualquier solicitud de acuerdo con las leyes "
+"aplicables de protección de datos."
 
 #: .\summarizer\templates\front\privacypolicy.html:255
 msgid ""
 "Want to learn more about what we do with any information we collect? Review "
 "the privacy notice in full."
 msgstr ""
+"¿Quieres obtener más información sobre lo que hacemos con cualquier información que recopilamos? "
+"Revise el aviso de privacidad completo."
 
 #: .\summarizer\templates\front\privacypolicy.html:264
 msgid "Table of Contents"
-msgstr ""
+msgstr "Tabla de Contenidos"
 
 #: .\summarizer\templates\front\privacypolicy.html:267
 #: .\summarizer\templates\front\privacypolicy.html:285
 msgid "1. WHAT INFORMATION DO WE COLLECT?"
-msgstr ""
+msgstr "1. ¿QUÉ INFORMACIÓN RECOPILAMOS?"
 
 #: .\summarizer\templates\front\privacypolicy.html:268
 #: .\summarizer\templates\front\privacypolicy.html:316
 msgid "2. HOW DO WE PROCESS YOUR INFORMATION?"
-msgstr ""
+msgstr "2. ¿CÓMO PROCESAMOS TU INFORMACIÓN?"
 
 #: .\summarizer\templates\front\privacypolicy.html:269
 #: .\summarizer\templates\front\privacypolicy.html:341
 msgid "3. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR PERSONAL INFORMATION?"
-msgstr ""
+msgstr "3. ¿EN QUÉ BASES LEGALES NOS BASAMOS PARA PROCESAR TU INFORMACIÓN PERSONAL?"
 
 #: .\summarizer\templates\front\privacypolicy.html:270
 #: .\summarizer\templates\front\privacypolicy.html:376
 msgid "4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?"
-msgstr ""
+msgstr "4. ¿CUÁNDO Y CON QUIÉN COMPARTIMOS TU INFORMACIÓN PERSONAL?"
 
 #: .\summarizer\templates\front\privacypolicy.html:271
 #: .\summarizer\templates\front\privacypolicy.html:394
 msgid "5. HOW DO WE HANDLE YOUR SOCIAL LOGINS?"
-msgstr ""
+msgstr "5. ¿CÓMO MANEJAMOS TUS INICIOS DE SESIÓN EN REDES SOCIALES?"
 
 #: .\summarizer\templates\front\privacypolicy.html:272
 #: .\summarizer\templates\front\privacypolicy.html:404
 msgid "6. HOW LONG DO WE KEEP YOUR INFORMATION?"
-msgstr ""
+msgstr "6. ¿CUÁNTO TIEMPO MANTENEMOS TU INFORMACIÓN?"
 
 #: .\summarizer\templates\front\privacypolicy.html:273
 #: .\summarizer\templates\front\privacypolicy.html:419
 msgid "7. DO WE COLLECT INFORMATION FROM MINORS?"
-msgstr ""
+msgstr "7. ¿RECOPILAMOS INFORMACIÓN DE MENORES?"
 
 #: .\summarizer\templates\front\privacypolicy.html:274
 #: .\summarizer\templates\front\privacypolicy.html:432
 msgid "8. WHAT ARE YOUR PRIVACY RIGHTS?"
-msgstr ""
+msgstr "8. ¿CUÁLES SON TUS DERECHOS DE PRIVACIDAD?"
 
 #: .\summarizer\templates\front\privacypolicy.html:275
 #: .\summarizer\templates\front\privacypolicy.html:482
 msgid "9. CONTROLS FOR DO-NOT-TRACK FEATURES"
-msgstr ""
+msgstr "9. CONTROLES PARA CARACTERÍSTICAS DE NO SEGUIMIENTO"
 
 #: .\summarizer\templates\front\privacypolicy.html:276
 #: .\summarizer\templates\front\privacypolicy.html:490
 msgid "10. DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?"
-msgstr ""
+msgstr "10. ¿LOS RESIDENTES DE LOS ESTADOS UNIDOS TIENEN DERECHOS DE PRIVACIDAD ESPECÍFICOS?"
 
 #: .\summarizer\templates\front\privacypolicy.html:277
 #: .\summarizer\templates\front\privacypolicy.html:603
 msgid "11. DO WE MAKE UPDATES TO THIS NOTICE?"
-msgstr ""
+msgstr "11. ¿REALIZAMOS ACTUALIZACIONES A ESTE AVISO?"
 
 #: .\summarizer\templates\front\privacypolicy.html:278
 #: .\summarizer\templates\front\privacypolicy.html:614
 msgid "12. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?"
-msgstr ""
+msgstr "12. ¿CÓMO PUEDES CONTACTARNOS SOBRE ESTE AVISO?"
 
 #: .\summarizer\templates\front\privacypolicy.html:279
 #: .\summarizer\templates\front\privacypolicy.html:628
 msgid "13. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?"
-msgstr ""
+msgstr "13. ¿CÓMO PUEDES REVISAR, ACTUALIZAR O ELIMINAR LOS DATOS QUE RECOPILAMOS DE TI?"
 
 #: .\summarizer\templates\front\privacypolicy.html:286
 msgid "Personal information you disclose to us"
-msgstr ""
+msgstr "Información personal que nos revelas"
 
 #: .\summarizer\templates\front\privacypolicy.html:287
 msgid "In Short: We collect personal information that you provide to us."
-msgstr ""
+msgstr "En resumen: Recopilamos información personal que nos proporcionas."
 
 #: .\summarizer\templates\front\privacypolicy.html:289
 msgid ""
@@ -1074,6 +1116,10 @@ msgid ""
 "us or our products and Services, when you participate in activities on the "
 "Services, or otherwise when you contact us."
 msgstr ""
+"Recopilamos información personal que nos proporcionas voluntariamente cuando te "
+"registras en los Servicios, expresas interés en obtener información sobre "
+"nosotros o nuestros productos y servicios, cuando participas en actividades en los "
+"Servicios, o de otra manera cuando te pones en contacto con nosotros."
 
 #: .\summarizer\templates\front\privacypolicy.html:291
 msgid ""
@@ -1082,50 +1128,54 @@ msgid ""
 "Services, the choices you make, and the products and features you use. The "
 "personal information we collect may include the following:"
 msgstr ""
+"Información Personal Proporcionada por Ti. La información personal que "
+"recopilamos depende del contexto de tus interacciones con nosotros y los "
+"Servicios, las elecciones que haces y los productos y características que utilizas. La "
+"información personal que recopilamos puede incluir lo siguiente:"
 
 #: .\summarizer\templates\front\privacypolicy.html:294
 msgid "Names"
-msgstr ""
+msgstr "Nombres"
 
 #: .\summarizer\templates\front\privacypolicy.html:295
 msgid "Phone Numbers"
-msgstr ""
+msgstr "Números de Teléfono"
 
 #: .\summarizer\templates\front\privacypolicy.html:296
 msgid "Email Addresses"
-msgstr ""
+msgstr "Direcciones de Correo Electrónico"
 
 #: .\summarizer\templates\front\privacypolicy.html:297
 msgid "Mailing Addresses"
-msgstr ""
+msgstr "Direcciones Postales"
 
 #: .\summarizer\templates\front\privacypolicy.html:298
 msgid "Usernames"
-msgstr ""
+msgstr "Nombres de Usuario"
 
 #: .\summarizer\templates\front\privacypolicy.html:299
 msgid "Passwords"
-msgstr ""
+msgstr "Contraseñas"
 
 #: .\summarizer\templates\front\privacypolicy.html:300
 msgid "Billing Addresses"
-msgstr ""
+msgstr "Direcciones de Facturación"
 
 #: .\summarizer\templates\front\privacypolicy.html:301
 msgid "Debit/Credit Card Numbers"
-msgstr ""
+msgstr "Números de Tarjeta de Débito/Crédito"
 
 #: .\summarizer\templates\front\privacypolicy.html:303
 msgid "Sensitive Information."
-msgstr ""
+msgstr "Información Sensible."
 
 #: .\summarizer\templates\front\privacypolicy.html:303
 msgid "We do not process sensitive information."
-msgstr ""
+msgstr "No procesamos información sensible."
 
 #: .\summarizer\templates\front\privacypolicy.html:305
 msgid "Payment Data."
-msgstr ""
+msgstr "Datos de Pago."
 
 #: .\summarizer\templates\front\privacypolicy.html:305
 msgid ""
@@ -1134,10 +1184,14 @@ msgid ""
 "with your payment instrument. All payment data is stored by __________. You "
 "may find their privacy notice link(s) here: __________."
 msgstr ""
+"Podemos recopilar datos necesarios para procesar tu pago si realizas compras, "
+"como el número de tu instrumento de pago y el código de seguridad asociado "
+"a tu instrumento de pago. Todos los datos de pago son almacenados por __________. Puedes "
+"encontrar su(s) enlace(s) de aviso de privacidad aquí: __________."
 
 #: .\summarizer\templates\front\privacypolicy.html:307
 msgid "Social Media Login Data."
-msgstr ""
+msgstr "Datos de Inicio de Sesión en Redes Sociales."
 
 #: .\summarizer\templates\front\privacypolicy.html:307
 msgid ""
@@ -1147,12 +1201,18 @@ msgid ""
 "information described in the section called 'HOW DO WE HANDLE YOUR SOCIAL "
 "LOGINS?' below."
 msgstr ""
+"Puede que te ofrezcamos la opción de registrarte con nosotros utilizando los detalles "
+"de tu cuenta existente en redes sociales, como tu cuenta de Facebook, Twitter u otras redes "
+"sociales. Si eliges registrarte de esta manera, recopilaremos la información "
+"descrita en la sección llamada '¿CÓMO MANEJAMOS TUS INICIOS DE SESIÓN EN REDES SOCIALES?' a continuación."
 
 #: .\summarizer\templates\front\privacypolicy.html:309
 msgid ""
 "All personal information that you provide to us must be true, complete, and "
 "accurate, and you must notify us of any changes to such personal information."
 msgstr ""
+"Toda la información personal que nos proporciones debe ser verdadera, completa "
+"y precisa, y debes notificarnos cualquier cambio en dicha información personal."
 
 #: .\summarizer\templates\front\privacypolicy.html:317
 msgid ""
@@ -1161,44 +1221,60 @@ msgid ""
 "to comply with law. We may also process your information for other purposes "
 "with your consent."
 msgstr ""
+"En resumen: Procesamos tu información para proporcionar, mejorar y administrar "
+"nuestros servicios, comunicarnos contigo, para seguridad y prevención de fraudes, y "
+"cumplir con la ley. También podemos procesar tu información para otros fines "
+"con tu consentimiento."
 
 #: .\summarizer\templates\front\privacypolicy.html:320
 msgid ""
 "We process your personal information for a variety of reasons, depending on "
 "how you interact with our Services, including:"
 msgstr ""
+"Procesamos tu información personal por diversas razones, según cómo interactúes "
+"con nuestros servicios, incluyendo:"
 
 #: .\summarizer\templates\front\privacypolicy.html:325
 msgid ""
 "To facilitate account creation and authentication and otherwise manage user "
 "accounts."
 msgstr ""
+"Para facilitar la creación y autenticación de cuentas y gestionar de otra "
+"manera las cuentas de usuario."
 
 #: .\summarizer\templates\front\privacypolicy.html:326
 msgid ""
 "We may process your information so you can create and log in to your "
 "account, as well as keep your account in working order."
 msgstr ""
+"Podemos procesar tu información para que puedas crear e iniciar sesión en tu "
+"cuenta, así como mantener tu cuenta en funcionamiento."
 
 #: .\summarizer\templates\front\privacypolicy.html:329
 msgid "To respond to user inquiries/offer support to users."
 msgstr ""
+"Para responder a consultas de usuarios/ofrecer soporte a usuarios."
 
 #: .\summarizer\templates\front\privacypolicy.html:330
 msgid ""
 "We may process your information to respond to your inquiries and solve any "
 "potential issues you might have with the requested service."
 msgstr ""
+"Podemos procesar tu información para responder a tus consultas y resolver "
+"cualquier problema potencial que puedas tener con el servicio solicitado."
 
 #: .\summarizer\templates\front\privacypolicy.html:333
 msgid "To save or protect an individual's vital interest."
 msgstr ""
+"Para salvar o proteger el interés vital de una persona."
 
 #: .\summarizer\templates\front\privacypolicy.html:334
 msgid ""
 "We may process your information when necessary to save or protect an "
 "individual’s vital interest, such as to prevent harm."
 msgstr ""
+"Podemos procesar tu información cuando sea necesario para salvar o proteger "
+"el interés vital de una persona, como prevenir daños."
 
 #: .\summarizer\templates\front\privacypolicy.html:342
 msgid ""
@@ -1209,10 +1285,17 @@ msgid ""
 "obligations, to protect your rights, or to fulfill our legitimate business "
 "interests."
 msgstr ""
+"En resumen: Solo procesamos tu información personal cuando creemos que es "
+"necesario y tenemos una razón legal válida (es decir, una base legal) para "
+"hacerlo bajo la ley aplicable, como con tu consentimiento, para cumplir con "
+"las leyes, brindarte servicios para celebrar o cumplir nuestras "
+"obligaciones contractuales, proteger tus derechos o cumplir con nuestros "
+"legítimos intereses comerciales."
 
 #: .\summarizer\templates\front\privacypolicy.html:344
 msgid "If you are located in the EU or UK, this section applies to you."
 msgstr ""
+"Si te encuentras en la UE o el Reino Unido, esta sección se aplica a ti."
 
 #: .\summarizer\templates\front\privacypolicy.html:346
 msgid ""
@@ -1221,10 +1304,14 @@ msgid ""
 "information. As such, we may rely on the following legal bases to process "
 "your personal information:"
 msgstr ""
+"El Reglamento General de Protección de Datos (GDPR) y el GDPR del Reino Unido "
+"nos exigen explicar las bases legales válidas en las que confiamos para procesar "
+"tu información personal. Por lo tanto, podemos basarnos en las siguientes bases "
+"legales para procesar tu información personal:"
 
 #: .\summarizer\templates\front\privacypolicy.html:349
 msgid "Consent."
-msgstr ""
+msgstr "Consentimiento."
 
 #: .\summarizer\templates\front\privacypolicy.html:349
 msgid ""
@@ -1232,14 +1319,18 @@ msgid ""
 "consent) to use your personal information for a specific purpose. You can "
 "withdraw your consent at any time. Learn more about withdrawing your consent."
 msgstr ""
+"Podemos procesar tu información si nos has dado permiso (es decir, "
+"consentimiento) para usar tu información personal con un propósito específico. "
+"Puedes retirar tu consentimiento en cualquier momento. Obtén más información "
+"sobre cómo retirar tu consentimiento."
 
 #: .\summarizer\templates\front\privacypolicy.html:350
 msgid "Performance"
-msgstr ""
+msgstr "Desempeño"
 
 #: .\summarizer\templates\front\privacypolicy.html:350
 msgid "of a Contract."
-msgstr ""
+msgstr "de un contrato."
 
 #: .\summarizer\templates\front\privacypolicy.html:350
 msgid ""
@@ -1247,14 +1338,17 @@ msgid ""
 "fulfill our contractual obligations to you, including providing our Services "
 "or at your request prior to entering into a contract with you."
 msgstr ""
+"Podemos procesar tu información personal cuando creemos que es necesario para "
+"cumplir con nuestras obligaciones contractuales contigo, incluido proporcionar "
+"nuestros servicios o a tu solicitud antes de celebrar un contrato contigo."
 
 #: .\summarizer\templates\front\privacypolicy.html:351
 msgid "Legal"
-msgstr ""
+msgstr "Legal"
 
 #: .\summarizer\templates\front\privacypolicy.html:351
 msgid "Obligations."
-msgstr ""
+msgstr "Obligaciones legales."
 
 #: .\summarizer\templates\front\privacypolicy.html:351
 msgid ""
@@ -1264,14 +1358,18 @@ msgid ""
 "or disclose your information as evidence in litigation in which we are "
 "involved."
 msgstr ""
+"Podemos procesar tu información cuando creemos que es necesario para cumplir "
+"con nuestras obligaciones legales, como cooperar con un cuerpo de aplicación de "
+"la ley o una agencia reguladora, ejercer o defender nuestros derechos legales, "
+"o divulgar tu información como evidencia en litigios en los que estamos involucrados."
 
 #: .\summarizer\templates\front\privacypolicy.html:352
 msgid "Vital"
-msgstr ""
+msgstr "Vital"
 
 #: .\summarizer\templates\front\privacypolicy.html:352
 msgid "Interests."
-msgstr ""
+msgstr "Intereses."
 
 #: .\summarizer\templates\front\privacypolicy.html:352
 msgid ""
@@ -1279,10 +1377,14 @@ msgid ""
 "your vital interests or the vital interests of a third party, such as "
 "situations involving potential threats to the safety of any person."
 msgstr ""
+"Podemos procesar tu información cuando creemos que es necesario para proteger "
+"tus intereses vitales o los intereses vitales de un tercero, como situaciones "
+"que involucren amenazas potenciales a la seguridad de cualquier persona."
 
 #: .\summarizer\templates\front\privacypolicy.html:354
 msgid "If you are located in Canada, this section applies to you."
 msgstr ""
+"Si te encuentras en Canadá, esta sección se aplica a ti."
 
 #: .\summarizer\templates\front\privacypolicy.html:356
 msgid ""
@@ -1291,44 +1393,61 @@ msgid ""
 "purpose, or in situations where your permission can be inferred (i.e., "
 "implied consent). You can withdraw your consent at any time."
 msgstr ""
+"Podemos procesar tu información si nos has dado permiso específico (es decir, "
+"consentimiento expreso) para usar tu información personal con un propósito "
+"específico, o en situaciones donde tu permiso pueda inferirse (es decir, "
+"consentimiento implícito). Puedes retirar tu consentimiento en cualquier momento."
 
 #: .\summarizer\templates\front\privacypolicy.html:358
 msgid ""
 "In some exceptional cases, we may be legally permitted under applicable law "
 "to process your information without your consent, including, for example:"
 msgstr ""
+"En algunos casos excepcionales, es posible que estemos legalmente autorizados "
+"según la ley aplicable a procesar tu información sin tu consentimiento, "
+"incluidos, por ejemplo:"
 
 #: .\summarizer\templates\front\privacypolicy.html:361
 msgid ""
 "If collection is clearly in the interests of an individual and consent "
 "cannot be obtained in a timely way"
 msgstr ""
+"Si la recopilación está claramente en interés de un individuo y no se puede "
+"obtener el consentimiento de manera oportuna."
 
 #: .\summarizer\templates\front\privacypolicy.html:362
 msgid "For investigations and fraud detection and prevention"
 msgstr ""
+"Para investigaciones y detección y prevención de fraudes."
 
 #: .\summarizer\templates\front\privacypolicy.html:363
 msgid "For business transactions provided certain conditions are met"
 msgstr ""
+"Para transacciones comerciales siempre que se cumplan ciertas condiciones."
 
 #: .\summarizer\templates\front\privacypolicy.html:364
 msgid ""
 "If it is contained in a witness statement and the collection is necessary to "
 "assess, process, or settle an insurance claim"
 msgstr ""
+"Si está contenido en una declaración de testigo y la recopilación es necesaria "
+"para evaluar, procesar o resolver un reclamo de seguro."
 
 #: .\summarizer\templates\front\privacypolicy.html:365
 msgid ""
 "For identifying injured, ill, or deceased persons and communicating with "
 "next of kin"
 msgstr ""
+"Para identificar a personas lesionadas, enfermas o fallecidas y comunicarse con "
+"los familiares más cercanos."
 
 #: .\summarizer\templates\front\privacypolicy.html:366
 msgid ""
 "If we have reasonable grounds to believe an individual has been, is, or may "
 "be a victim of financial abuse"
 msgstr ""
+"Si tenemos motivos razonables para creer que un individuo ha sido, es o puede "
+"ser víctima de abuso financiero."
 
 #: .\summarizer\templates\front\privacypolicy.html:367
 msgid ""
@@ -1337,12 +1456,18 @@ msgid ""
 "collection is reasonable for purposes related to investigating a breach of "
 "an agreement or a contravention of the laws of Canada or a province"
 msgstr ""
+"Si es razonable esperar que la recopilación y el uso con consentimiento "
+"comprometan la disponibilidad o la exactitud de la información y la recopilación "
+"es razonable para fines relacionados con la investigación de un incumplimiento "
+"de un acuerdo o una contravención de las leyes de Canadá o una provincia."
 
 #: .\summarizer\templates\front\privacypolicy.html:368
 msgid ""
 "If disclosure is required to comply with a subpoena, warrant, court order, "
 "or rules of the court relating to the production of records"
 msgstr ""
+"Si la divulgación es necesaria para cumplir con una citación, orden de registro, "
+"orden judicial o reglas del tribunal relacionadas con la producción de registros."
 
 #: .\summarizer\templates\front\privacypolicy.html:369
 msgid ""
@@ -1350,16 +1475,20 @@ msgid ""
 "business, or profession and the collection is consistent with the purposes "
 "for which the information was produced"
 msgstr ""
+"Si fue producida por un individuo en el curso de su empleo, negocio o profesión y "
+"la recopilación es coherente con los fines para los cuales se produjo la información."
 
 #: .\summarizer\templates\front\privacypolicy.html:370
 msgid ""
 "If the collection is solely for journalistic, artistic, or literary purposes"
 msgstr ""
+"Si la recopilación es únicamente con fines periodísticos, artísticos o literarios."
 
 #: .\summarizer\templates\front\privacypolicy.html:371
 msgid ""
 "If the information is publicly available and is specified by the regulations"
 msgstr ""
+"Si la información está disponible públicamente y está especificada por las regulaciones."
 
 #: .\summarizer\templates\front\privacypolicy.html:377
 #: .\summarizer\templates\front\privacypolicy.html:395
@@ -1378,11 +1507,14 @@ msgid ""
 "We may share information in specific situations described in this section "
 "and/or with the following third parties."
 msgstr ""
+"Puede que compartamos información en situaciones específicas descritas en esta sección "
+"y/o con los siguientes terceros."
 
 #: .\summarizer\templates\front\privacypolicy.html:379
 msgid ""
 "We may need to share your personal information in the following situations:"
 msgstr ""
+"Podemos necesitar compartir tu información personal en las siguientes situaciones:"
 
 #: .\summarizer\templates\front\privacypolicy.html:382
 #, fuzzy
@@ -1396,10 +1528,13 @@ msgid ""
 "negotiations of, any merger, sale of company assets, financing, or "
 "acquisition of all or a portion of our business to another company."
 msgstr ""
+"Puede que compartamos o transfiramos tu información en relación con, o durante "
+"negociaciones de, cualquier fusión, venta de activos de la empresa, financiamiento, o "
+"adquisición de toda o parte de nuestra empresa a otra compañía."
 
 #: .\summarizer\templates\front\privacypolicy.html:383
 msgid "When we use Google Analytics."
-msgstr ""
+msgstr "Cuando utilizamos Google Analytics."
 
 #: .\summarizer\templates\front\privacypolicy.html:383
 msgid ""
@@ -1408,47 +1543,57 @@ msgid ""
 "use include: Google Analytics Demographics and Interests Reporting. To opt "
 "out of being tracked by Google Analytics across the Services, visit"
 msgstr ""
+"Puede que compartamos tu información con Google Analytics para rastrear y analizar el "
+"uso de los Servicios. Las funciones publicitarias de Google Analytics que podemos "
+"utilizar incluyen: Informes demográficos e intereses de Google Analytics. Para optar "
+"por no ser rastreado por Google Analytics en todos los Servicios, visita"
 
 #: .\summarizer\templates\front\privacypolicy.html:384
 msgid "https://tools.google.com/dlpage/gaoptout"
-msgstr ""
+msgstr "https://tools.google.com/dlpage/gaoptout"
 
 #: .\summarizer\templates\front\privacypolicy.html:384
 msgid ""
 "You can opt out of Google Analytics Advertising Features through Ads "
 "Settings and Ad Settings for mobile apps. Other opt-out means include"
 msgstr ""
+"Puedes optar por no participar en las funciones publicitarias de Google Analytics a través "
+"de la configuración de anuncios y la configuración de anuncios para aplicaciones móviles. Otros "
+"medios para optar por no participar incluyen"
 
 #: .\summarizer\templates\front\privacypolicy.html:385
 msgid "http://optout.networkadvertising.org/"
-msgstr ""
+msgstr "http://optout.networkadvertising.org/"
 
 #: .\summarizer\templates\front\privacypolicy.html:385
 msgid "and"
-msgstr ""
+msgstr "y"
 
 #: .\summarizer\templates\front\privacypolicy.html:386
 msgid "http://www.networkadvertising.org/mobile-choice"
-msgstr ""
+msgstr "http://www.networkadvertising.org/mobile-choice"
 
 #: .\summarizer\templates\front\privacypolicy.html:386
 msgid ""
 "For more information on the privacy practices of Google, please visit the"
 msgstr ""
+"Para obtener más información sobre las prácticas de privacidad de Google, visita la"
 
 #: .\summarizer\templates\front\privacypolicy.html:387
 msgid "Google Privacy & Terms"
-msgstr ""
+msgstr "Privacidad y términos de Google"
 
 #: .\summarizer\templates\front\privacypolicy.html:387
 msgid "page."
-msgstr ""
+msgstr "página."
 
 #: .\summarizer\templates\front\privacypolicy.html:395
 msgid ""
 "If you choose to register or log in to our Services using a social media "
 "account, we may have access to certain information about you."
 msgstr ""
+"Si decides registrarte o iniciar sesión en nuestros Servicios utilizando una cuenta de "
+"redes sociales, podemos tener acceso a cierta información sobre ti."
 
 #: .\summarizer\templates\front\privacypolicy.html:396
 msgid ""
@@ -1461,6 +1606,7 @@ msgid ""
 "as well as other information you choose to make public on such a social "
 "media platform."
 msgstr ""
+"Nuestros Servicios te ofrecen la posibilidad de registrarte e iniciar sesión utilizando los detalles de tu cuenta de redes sociales de terceros (como tus inicios de sesión de Facebook o Twitter). Cuando elijas hacerlo, recibiremos cierta información de perfil sobre ti de tu proveedor de redes sociales. La información de perfil que recibimos puede variar según el proveedor de redes sociales en cuestión, pero a menudo incluirá tu nombre, dirección de correo electrónico, lista de amigos y foto de perfil, así como otra información que elijas hacer pública en dicha plataforma de redes sociales."
 
 #: .\summarizer\templates\front\privacypolicy.html:399
 msgid ""
@@ -1472,12 +1618,14 @@ msgid ""
 "understand how they collect, use, and share your personal information, and "
 "how you can set your privacy preferences on their sites and apps."
 msgstr ""
+"Utilizaremos la información que recibimos solo para los fines que se describen en este aviso de privacidad o que se indiquen de otra manera en los Servicios relevantes. Ten en cuenta que no controlamos y no somos responsables de otros usos de tu información personal por parte de tu proveedor de redes sociales de terceros. Recomendamos que revises su aviso de privacidad para comprender cómo recopilan, utilizan y comparten tu información personal, y cómo puedes configurar tus preferencias de privacidad en sus sitios y aplicaciones."
 
 #: .\summarizer\templates\front\privacypolicy.html:408
 msgid ""
 "We keep your information for as long as necessary to fulfill the purposes "
 "outlined in this privacy notice unless otherwise required by law."
 msgstr ""
+"Conservamos tu información durante el tiempo necesario para cumplir con los fines descritos en este aviso de privacidad, a menos que la ley requiera lo contrario."
 
 #: .\summarizer\templates\front\privacypolicy.html:411
 msgid ""
@@ -1487,6 +1635,7 @@ msgid ""
 "legal requirements). No purpose in this notice will require us keeping your "
 "personal information for longer than ."
 msgstr ""
+"Solo conservaremos tu información personal durante el tiempo que sea necesario para los fines establecidos en este aviso de privacidad, a menos que la ley exija o permita un período de retención más prolongado (como requisitos fiscales, contables u otros requisitos legales). Ningún propósito en este aviso requerirá que conservemos tu información personal por más tiempo que ."
 
 #: .\summarizer\templates\front\privacypolicy.html:414
 msgid ""
@@ -1497,12 +1646,14 @@ msgid ""
 "information and isolate it from any further processing until deletion is "
 "possible."
 msgstr ""
+"Cuando no tengamos una necesidad comercial legítima continua de procesar tu información personal, eliminaremos o anonimizaremos esa información, o, si esto no es posible (por ejemplo, porque tu información personal se haya almacenado en archivos de respaldo), entonces almacenaremos tu información personal de manera segura y la aisleremos de cualquier procesamiento adicional hasta que sea posible la eliminación."
 
 #: .\summarizer\templates\front\privacypolicy.html:424
 msgid ""
 "We do not knowingly collect data from or market to children under 18 years "
 "of age."
 msgstr ""
+"No recopilamos conscientemente datos de niños menores de 18 años ni comercializamos hacia ellos."
 
 #: .\summarizer\templates\front\privacypolicy.html:427
 msgid ""
@@ -1515,6 +1666,7 @@ msgid ""
 "our records. If you become aware of any data we may have collected from "
 "children under age 18, please contact us at info@summarygenerator.io."
 msgstr ""
+"No solicitamos conscientemente datos de niños menores de 18 años ni comercializamos hacia ellos. Al utilizar los Servicios, declaras que tienes al menos 18 años o que eres el padre o tutor de un menor y consientes el uso de los Servicios por parte de dicho menor dependiente. Si nos enteramos de que se ha recopilado información personal de usuarios menores de 18 años, desactivaremos la cuenta y tomaremos medidas razonables para eliminar rápidamente dichos datos de nuestros registros. Si tienes conocimiento de algún dato que hayamos recopilado de niños menores de 18 años, contáctanos en info@summarygenerator.io."
 
 #: .\summarizer\templates\front\privacypolicy.html:437
 msgid ""
@@ -1523,6 +1675,7 @@ msgid ""
 "to and control over your personal information. You may review, change, or "
 "terminate your account at any time."
 msgstr ""
+"En algunas regiones, como el Área Económica Europea (EEA), el Reino Unido (UK), Suiza y Canadá, tienes derechos que te permiten un mayor acceso y control sobre tu información personal. Puedes revisar, cambiar o dar de baja tu cuenta en cualquier momento."
 
 #: .\summarizer\templates\front\privacypolicy.html:441
 msgid ""
@@ -1536,12 +1689,14 @@ msgid ""
 "your personal information. You can make such a request by contacting us by "
 "using the contact details provided in the section \\"
 msgstr ""
+"En algunas regiones (como la EEA, el Reino Unido, Suiza y Canadá), tienes ciertos derechos bajo las leyes aplicables de protección de datos. Estos pueden incluir el derecho (i) a solicitar acceso y obtener una copia de tu información personal, (ii) a solicitar rectificación o eliminación; (iii) a restringir el procesamiento de tu información personal; (iv) si es aplicable, a la portabilidad de datos; y (v) a no estar sujeto a decisiones automatizadas. En circunstancias específicas, también puedes tener el derecho de oponerte al procesamiento de tu información personal. Puedes hacer tal solicitud contactándonos utilizando los detalles de contacto proporcionados en la sección \\"
 
 #: .\summarizer\templates\front\privacypolicy.html:444
 msgid ""
 "We will consider and act upon any request in accordance with applicable data "
 "protection laws."
 msgstr ""
+"Consideraremos y actuaremos según cualquier solicitud de acuerdo con las leyes aplicables de protección de datos."
 
 #: .\summarizer\templates\front\privacypolicy.html:447
 msgid ""
@@ -1549,30 +1704,31 @@ msgid ""
 "processing your personal information, you also have the right to complain to "
 "your"
 msgstr ""
+"Si te encuentras en la EEA o el Reino Unido y crees que estamos procesando tu información personal de manera ilícita, también tienes derecho a presentar una queja ante tu"
 
 #: .\summarizer\templates\front\privacypolicy.html:448
 msgid "Member State data protection authority"
-msgstr ""
+msgstr "Autoridad de protección de datos del Estado miembro"
 
 #: .\summarizer\templates\front\privacypolicy.html:449
 msgid "or"
-msgstr ""
+msgstr "o"
 
 #: .\summarizer\templates\front\privacypolicy.html:450
 msgid "UK data protection authority"
-msgstr ""
+msgstr "Autoridad de protección de datos del Reino Unido"
 
 #: .\summarizer\templates\front\privacypolicy.html:452
 msgid "If you are located in Switzerland, you may contact the"
-msgstr ""
+msgstr "Si te encuentras en Suiza, puedes ponerte en contacto con el"
 
 #: .\summarizer\templates\front\privacypolicy.html:453
 msgid "Federal Data Protection and Information Commissioner"
-msgstr ""
+msgstr "Comisionado Federal de Protección de Datos e Información"
 
 #: .\summarizer\templates\front\privacypolicy.html:456
 msgid "Withdrawing your consent:"
-msgstr ""
+msgstr "Retiro de tu consentimiento:"
 
 #: .\summarizer\templates\front\privacypolicy.html:457
 msgid ""
@@ -1582,6 +1738,7 @@ msgid ""
 "your consent at any time by contacting us by using the contact details "
 "provided in the section \\"
 msgstr ""
+"Si estamos basando el procesamiento de tu información personal en tu consentimiento, que puede ser un consentimiento expreso o implícito según la ley aplicable, tienes el derecho de retirar tu consentimiento en cualquier momento. Puedes retirar tu consentimiento en cualquier momento contactándonos mediante los detalles de contacto proporcionados en la sección \\"
 
 #: .\summarizer\templates\front\privacypolicy.html:460
 msgid ""
@@ -1590,10 +1747,11 @@ msgid ""
 "affect the processing of your personal information conducted in reliance on "
 "lawful processing grounds other than consent."
 msgstr ""
+"Sin embargo, ten en cuenta que esto no afectará la legalidad del procesamiento antes de su retirada ni, cuando la ley aplicable lo permita, afectará al procesamiento de tu información personal realizado en dependencia de fundamentos de procesamiento legales distintos al consentimiento."
 
 #: .\summarizer\templates\front\privacypolicy.html:463
 msgid "Opting out of marketing and promotional communications:"
-msgstr ""
+msgstr "Optar por no participar en comunicaciones de marketing y promocionales:"
 
 #: .\summarizer\templates\front\privacypolicy.html:464
 msgid ""
@@ -1601,20 +1759,22 @@ msgid ""
 "time by clicking on the unsubscribe link in the emails that we send, or by "
 "contacting us using the details provided in the section \\"
 msgstr ""
+"Puedes darte de baja de nuestras comunicaciones de marketing y promocionales en cualquier momento haciendo clic en el enlace de baja en los correos electrónicos que enviamos o contactándonos utilizando los detalles proporcionados en la sección \\"
 
 #: .\summarizer\templates\front\privacypolicy.html:466
 msgid "Account Information"
-msgstr ""
+msgstr "Información de la cuenta"
 
 #: .\summarizer\templates\front\privacypolicy.html:467
 msgid ""
 "If you would at any time like to review or change the information in your "
 "account or terminate your account, you can:"
 msgstr ""
+"Si en algún momento deseas revisar o cambiar la información en tu cuenta o cerrar tu cuenta, puedes:"
 
 #: .\summarizer\templates\front\privacypolicy.html:470
 msgid "Log in to your account settings and update your user account."
-msgstr ""
+msgstr "Inicia sesión en la configuración de tu cuenta y actualiza tu cuenta de usuario."
 
 #: .\summarizer\templates\front\privacypolicy.html:474
 msgid ""
@@ -1624,12 +1784,14 @@ msgid ""
 "problems, assist with any investigations, enforce our legal terms and/or "
 "comply with applicable legal requirements."
 msgstr ""
+"Tras tu solicitud de cerrar tu cuenta, desactivaremos o eliminaremos tu cuenta e información de nuestras bases de datos activas. Sin embargo, es posible que retengamos cierta información en nuestros archivos para prevenir fraudes, solucionar problemas, colaborar en investigaciones, hacer cumplir nuestros términos legales y/o cumplir con los requisitos legales aplicables."
 
 #: .\summarizer\templates\front\privacypolicy.html:477
 msgid ""
 "If you have questions or comments about your privacy rights, you may email "
 "us at info@summarygenerator.io."
 msgstr ""
+"Si tienes preguntas o comentarios sobre tus derechos de privacidad, puedes enviarnos un correo electrónico a info@summarygenerator.io."
 
 #: .\summarizer\templates\front\privacypolicy.html:484
 msgid ""
@@ -1644,38 +1806,41 @@ msgid ""
 "the future, we will inform you about that practice in a revised version of "
 "this privacy notice."
 msgstr ""
+"La mayoría de los navegadores web y algunos sistemas operativos móviles y aplicaciones móviles incluyen una función o configuración de No Rastrear ('DNT') que puedes activar para indicar tu preferencia de privacidad de no tener datos sobre tus actividades de navegación en línea monitorizados y recopilados. En esta etapa, aún no se ha finalizado un estándar tecnológico uniforme para reconocer e implementar señales DNT. Como tal, actualmente no respondemos a las señales de navegadores DNT ni a ningún otro mecanismo que comunique automáticamente tu elección de no ser rastreado en línea. Si se adopta un estándar para el seguimiento en línea que debamos seguir en el futuro, te informaremos sobre esa práctica en una versión revisada de este aviso de privacidad."
 
 #: .\summarizer\templates\front\privacypolicy.html:493
 msgid ""
 "If you are a resident of , you are granted specific rights regarding access "
 "to your personal information."
 msgstr ""
+"Si eres residente de , se te conceden derechos específicos con respecto al acceso a tu información personal."
 
 #: .\summarizer\templates\front\privacypolicy.html:496
 msgid "What categories of personal information do we collect?"
-msgstr ""
+msgstr "¿Qué categorías de información personal recopilamos?"
 
 #: .\summarizer\templates\front\privacypolicy.html:499
 msgid ""
 "We have collected the following categories of personal information in the "
 "past twelve (12) months:"
 msgstr ""
+"Hemos recopilado las siguientes categorías de información personal en los últimos doce (12) meses:"
 
 #: .\summarizer\templates\front\privacypolicy.html:504
 msgid "Category"
-msgstr ""
+msgstr "Categoría"
 
 #: .\summarizer\templates\front\privacypolicy.html:505
 msgid "Examples"
-msgstr ""
+msgstr "Ejemplos"
 
 #: .\summarizer\templates\front\privacypolicy.html:506
 msgid "Collected"
-msgstr ""
+msgstr "Recopilada"
 
 #: .\summarizer\templates\front\privacypolicy.html:511
 msgid "A. Identifiers"
-msgstr ""
+msgstr "A. Identificadores"
 
 #: .\summarizer\templates\front\privacypolicy.html:513
 msgid ""
@@ -1683,6 +1848,7 @@ msgid ""
 "mobile contact number, unique personal identifier, online identifier, "
 "Internet Protocol address, email address, and account name"
 msgstr ""
+"Información de contacto, como nombre real, alias, dirección postal, número de teléfono o contacto móvil, identificador personal único, identificador en línea, dirección de Protocolo de Internet, dirección de correo electrónico y nombre de cuenta"
 
 #: .\summarizer\templates\front\privacypolicy.html:515
 #: .\summarizer\templates\front\privacypolicy.html:520
@@ -1695,29 +1861,30 @@ msgstr ""
 #: .\summarizer\templates\front\privacypolicy.html:563
 #: .\summarizer\templates\front\privacypolicy.html:568
 msgid "No"
-msgstr ""
+msgstr "No"
 
 #: .\summarizer\templates\front\privacypolicy.html:518
 msgid "B. Protected classification characteristics under state or federal law"
-msgstr ""
+msgstr "B. Características de clasificación protegidas por ley estatal o federal"
 
 #: .\summarizer\templates\front\privacypolicy.html:519
 msgid "Gender and date of birth"
-msgstr ""
+msgstr "Género y fecha de nacimiento"
 
 #: .\summarizer\templates\front\privacypolicy.html:523
 msgid "C. Commercial information"
-msgstr ""
+msgstr "C. Información comercial"
 
 #: .\summarizer\templates\front\privacypolicy.html:524
 msgid ""
 "Transaction information, purchase history, financial details, and payment "
 "information"
 msgstr ""
+"Información de transacciones, historial de compras, detalles financieros e información de pago"
 
 #: .\summarizer\templates\front\privacypolicy.html:528
 msgid "D. Biometric information"
-msgstr ""
+msgstr "D. Información biométrica"
 
 #: .\summarizer\templates\front\privacypolicy.html:530
 msgid ""
@@ -1725,29 +1892,32 @@ msgid ""
 "interactions with our and other websites, applications, systems, and "
 "advertisements"
 msgstr ""
+"Historial de navegación, historial de búsqueda, comportamiento en línea, datos de interés e interacciones con nuestros sitios web y otros sitios web, aplicaciones, sistemas y anuncios"
 
 #: .\summarizer\templates\front\privacypolicy.html:535
 msgid "F. Geolocation data"
-msgstr ""
+msgstr "F. Datos de geolocalización"
 
 #: .\summarizer\templates\front\privacypolicy.html:536
 msgid "Device location"
-msgstr ""
+msgstr "Ubicación del dispositivo"
 
 #: .\summarizer\templates\front\privacypolicy.html:540
 msgid ""
 "G. Audio, electronic, visual, thermal, olfactory, or similar information"
 msgstr ""
+"G. Información de audio, electrónica, visual, térmica, olfativa o similar"
 
 #: .\summarizer\templates\front\privacypolicy.html:542
 msgid ""
 "Images and audio, video or call recordings created in connection with our "
 "business activities"
 msgstr ""
+"Imágenes y audio, video o grabaciones de llamadas creadas en relación con nuestras actividades comerciales"
 
 #: .\summarizer\templates\front\privacypolicy.html:547
 msgid "H. Professional or employment-related information"
-msgstr ""
+msgstr "H. Información profesional o relacionada con el empleo"
 
 #: .\summarizer\templates\front\privacypolicy.html:549
 msgid ""
@@ -1755,18 +1925,19 @@ msgid ""
 "level or job title, work history, and professional qualifications if you "
 "apply for a job with us"
 msgstr ""
+"Información de contacto comercial para proporcionarte nuestros servicios a nivel empresarial o título de trabajo, historial laboral y calificaciones profesionales si solicitas un trabajo con nosotros"
 
 #: .\summarizer\templates\front\privacypolicy.html:554
 msgid "I. Education Information"
-msgstr ""
+msgstr "I. Información educativa"
 
 #: .\summarizer\templates\front\privacypolicy.html:555
 msgid "Student records and directory information"
-msgstr ""
+msgstr "Registros de estudiantes e información del directorio"
 
 #: .\summarizer\templates\front\privacypolicy.html:559
 msgid "J. Inferences drawn from collected personal information"
-msgstr ""
+msgstr "J. Inferencias extraídas de la información personal recopilada"
 
 #: .\summarizer\templates\front\privacypolicy.html:561
 msgid ""
@@ -1774,10 +1945,11 @@ msgid ""
 "to create a profile or summary about, for example, an individual’s "
 "preferences and characteristics"
 msgstr ""
+"Inferencias extraídas de cualquier información personal recopilada mencionada anteriormente para crear un perfil o resumen sobre, por ejemplo, las preferencias y características de un individuo"
 
 #: .\summarizer\templates\front\privacypolicy.html:566
 msgid "K. Sensitive personal Information"
-msgstr ""
+msgstr "K. Información personal sensible"
 
 #: .\summarizer\templates\front\privacypolicy.html:575
 msgid ""
@@ -1785,32 +1957,34 @@ msgid ""
 "through instances where you interact with us in person, online, or by phone "
 "or mail in the context of:"
 msgstr ""
+"También podemos recopilar otra información personal fuera de estas categorías a través de instancias en las que interactúas con nosotros en persona, en línea o por teléfono o correo en el contexto de:"
 
 #: .\summarizer\templates\front\privacypolicy.html:578
 msgid "Receiving help through our customer support channels;"
-msgstr ""
+msgstr "Recibir ayuda a través de nuestros canales de soporte al cliente;"
 
 #: .\summarizer\templates\front\privacypolicy.html:579
 msgid "Participation in customer surveys or contests;"
-msgstr ""
+msgstr "Participación en encuestas o concursos para clientes;"
 
 #: .\summarizer\templates\front\privacypolicy.html:580
 msgid ""
 "Facilitation in the delivery of our Services and to respond to your "
 "inquiries."
 msgstr ""
+"Facilitación en la entrega de nuestros servicios y respuesta a tus consultas."
 
 #: .\summarizer\templates\front\privacypolicy.html:583
 msgid "How do we use and share your personal information?"
-msgstr ""
+msgstr "¿Cómo utilizamos y compartimos tu información personal?"
 
 #: .\summarizer\templates\front\privacypolicy.html:586
 msgid "Learn about how we use your personal information in the section, \\"
-msgstr ""
+msgstr "Obtén información sobre cómo utilizamos tu información personal en la sección, \\"
 
 #: .\summarizer\templates\front\privacypolicy.html:589
 msgid "Will your information be shared with anyone else?"
-msgstr ""
+msgstr "¿Se compartirá tu información con alguien más?"
 
 #: .\summarizer\templates\front\privacypolicy.html:592
 msgid ""
@@ -1818,6 +1992,7 @@ msgid ""
 "pursuant to a written contract between us and each service provider. Learn "
 "more about how we disclose personal information to in the section, \\"
 msgstr ""
+"Podemos divulgar tu información personal a nuestros proveedores de servicios según un contrato escrito entre nosotros y cada proveedor de servicios. Obtén más información sobre cómo divulgamos información personal en la sección, \\"
 
 #: .\summarizer\templates\front\privacypolicy.html:595
 msgid ""
@@ -1825,6 +2000,7 @@ msgid ""
 "for undertaking internal research for technological development and "
 "demonstration. This is not considered to be \\"
 msgstr ""
+"También podemos utilizar tu información personal para nuestros propios fines comerciales, como realizar investigaciones internas para el desarrollo y la demostración tecnológica. Esto no se considera \\"
 
 #: .\summarizer\templates\front\privacypolicy.html:598
 msgid ""
@@ -1833,24 +2009,28 @@ msgid ""
 "months. We will not sell or share personal information in the future "
 "belonging to website visitors, users, and other consumers."
 msgstr ""
+"No hemos divulgado, vendido o compartido ninguna información personal con terceros con fines comerciales o empresariales en los últimos doce (12) meses. No venderemos ni compartiremos información personal en el futuro perteneciente a visitantes del sitio web, usuarios y otros consumidores."
 
 #: .\summarizer\templates\front\privacypolicy.html:606
 msgid ""
 "Yes, we will update this notice as necessary to stay compliant with relevant "
 "laws."
 msgstr ""
+"Sí, actualizaremos este aviso según sea necesario para cumplir con las leyes pertinentes."
 
 #: .\summarizer\templates\front\privacypolicy.html:609
 msgid ""
 "We may update this privacy notice from time to time. The updated version "
 "will be indicated by an updated \\"
 msgstr ""
+"Es posible que actualicemos este aviso de privacidad de vez en cuando. La versión actualizada se indicará con un \\"
 
 #: .\summarizer\templates\front\privacypolicy.html:617
 msgid ""
 "If you have questions or comments about this notice, you may email us at "
 "info@summarygenerator.io or contact us by post at:"
 msgstr ""
+"Si tienes preguntas o comentarios sobre este aviso, puedes enviarnos un correo electrónico a info@summarygenerator.io o contactarnos por correo postal en:"
 
 #: .\summarizer\templates\front\privacypolicy.html:631
 msgid ""
@@ -1860,6 +2040,7 @@ msgid ""
 "personal information, please fill out and submit a data subject access "
 "request."
 msgstr ""
+"Según las leyes aplicables de tu país, es posible que tengas el derecho de solicitar el acceso a la información personal que recopilamos de ti, cambiar esa información o eliminarla. Para solicitar la revisión, actualización o eliminación de tu información personal, completa y envía una solicitud de acceso de sujeto de datos."
 
 #: .\summarizer\templates\front\text_editor.html:502
 msgid "Paragraph"
