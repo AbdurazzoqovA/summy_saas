@@ -125,20 +125,14 @@ msgid "Welcome Back!"
 msgstr "¡Bienvenido de nuevo!"
 
 #: .\summarizer\templates\account\login.html:200
-#, fuzzy
-#| msgid "Login to continue"
 msgid "Login to countinue"
 msgstr "Inicia sesión para continuar"
 
 #: .\summarizer\templates\account\login.html:218
-#, fuzzy
-#| msgid "Email:"
 msgid "Email"
 msgstr "Correo electrónico:"
 
 #: .\summarizer\templates\account\login.html:226
-#, fuzzy
-#| msgid "Passwords"
 msgid "Password"
 msgstr "Contraseñas"
 
