@@ -43,136 +43,152 @@
 </style>
 <body class="nk-body " data-menu-collapse="lg">
     <div class="nk-app-root ">
-        <header class="nk-header has-mask">
-            <!-- <div class="nk-mask bg-gradient-a"></div> -->
-            <div class="nk-mask bg-pattern-dot bg-blend-top"></div>
-            <div class="nk-header-main nk-menu-main will-shrink is-transparent ignore-mask">
-              <div class="container">
-                <div class="nk-header-wrap">
-                  <div class="nk-header-logo">
-                    <a href="https://summarygenerator.io/" class="logo-link">
-                      <div class="logo-wrap">
-                        <img
-                          class="logo-img logo-light" style="width:170px; height:auto!important;"
-                          src="{% static 'front/images/sglogowhite.png' %}"
-                          alt="logoimg"
-                        />
-                        <img
-                          class="logo-img logo-dark" style="width:170px; height:auto!important;"
-                          src="{% static 'front/images/sglogo6.png' %}"
-                          alt=""
-                        />
-                      </div>
-                    </a>
+      <header class="nk-header has-shape">
+        <div
+          class="nk-shape bg-shape-blur-c ms-n20p mt-n20p start-50 translate-middle-x"
+        ></div>
+        <div
+          class="nk-header-main nk-menu-main will-shrink has-border ignore-mask"
+        >
+          <div class="container">
+            <div class="nk-header-wrap">
+              <div class="nk-header-logo">
+                <a href="{% url 'home' %}" class="logo-link">
+                  <div class="logo-wrap">
+                    <img
+                      class="logo-img logo-light" style="width:170px; height:auto!important;"
+                      src="{% static 'front/images/sglogowhite.png' %}"
+                      alt="logoimg"
+                    />
+                    <img
+                      class="logo-img logo-dark" style="width:170px; height:auto!important;"
+                      src="{% static 'front/images/sglogo6.png' %}"
+                      alt=""
+                    />
                   </div>
-                  <!-- .nk-header-logo -->
-                  <div class="nk-header-toggle">
-                    <button class="dark-mode-toggle">
-                      <em class="off icon ni ni-sun-fill"></em>
-                      <em class="on icon ni ni-moon-fill"></em>
-                    </button>
-                    <button class="btn btn-light btn-icon header-menu-toggle">
-                      <em class="icon ni ni-menu"></em>
-                    </button>
-                  </div>
-                  <nav class="nk-header-menu nk-menu menu-mobile">
-                    <ul class="nk-menu-list mx-auto">
-                     
-            <li class="nk-menu-item">
-                    <a href="{% url 'home' %}" class="nk-menu-link">
-                      <span class="nk-menu-text">Home</span>
+                </a>
+              </div>
+              <!-- .nk-header-logo -->
+              <div class="nk-header-toggle">
+                <button class="dark-mode-toggle">
+                  <em class="off icon ni ni-sun-fill"></em>
+                  <em class="on icon ni ni-moon-fill"></em>
+                </button>
+                <button class="btn btn-light btn-icon header-menu-toggle">
+                  <em class="icon ni ni-menu"></em>
+                </button>
+              </div>
+              <nav class="nk-header-menu nk-menu menu-mobile">
+                <ul class="nk-menu-list mx-auto">
+                 
+        <li class="nk-menu-item">
+                <a href="{% url 'home' %}" class="nk-menu-link">
+                  <span class="nk-menu-text">{% translate 'Home' %}</span>
+                </a>
+              </li>
+                  <li class="nk-menu-item">
+                    <a href="{% url 'pricing' %}" class="nk-menu-link">
+                      <span class="nk-menu-text">{% translate 'Pricing' %}</span>
                     </a>
                   </li>
-                      <li class="nk-menu-item">
-                        <a href="{% url 'pricing' %}" class="nk-menu-link">
-                          <span class="nk-menu-text">Pricing</span>
-                        </a>
-                      </li>
-                      
-                      <li class="nk-menu-item">
-                        <a href="{% url 'about' %}" class="nk-menu-link">
-                          <span class="nk-menu-text">About</span>
-                        </a>
-                      </li>
-                      {% if request.user.is_authenticated %}
-                      <li class="nk-menu-item">
-                        <a href="{% url 'custom_logout' %}" class="nk-menu-link">
-                          <span class="nk-menu-text">Logout</span>
-                        </a>
-                      </li>
-                     
-    
-                      {% else %}
-                      <li class="nk-menu-item">
-                        <a href="{% url 'account_login' %}" class="nk-menu-link">
-                          <span class="nk-menu-text">Login</span>
-                        </a>
-                      </li>
-                      <li class="nk-menu-item">
-                        <a href="{% url 'account_signup' %}" class="nk-menu-link">
-                          <span class="nk-menu-text">Sign Up</span>
-                        </a>
-                      </li>
-    
-                      {% endif%}
-                    
-                    </ul>
-    
-                    <!-- .nk-menu-list -->
-                    <div class="mx-2 d-none d-lg-block">
-                      <button class="dark-mode-toggle">
-                        <em class="off icon ni ni-sun-fill"></em>
-                        <em class="on icon ni ni-moon-fill"></em>
-                      </button>
-                    </div>
-                    <ul class="nk-menu-buttons flex-lg-row-reverse">
-    
-                      {% if user.is_authenticated %}
-                      <li><a href="https://summarygenerator.io/dashboard/" class="btn btn-primary">Dashboard</a></li>
-                     {% endif %}
-    
-                     {% if not user.is_authenticated %}
-                     <li><a href="https://summarygenerator.io/dashboard/" class="btn btn-primary">Dashboard</a></li>
-                     {% endif %}
-                      <li class="dropdown">
-                        <a
-                          class="link link-base fw-medium dropdown-toggle"
-                          href="#"
-                          data-bs-toggle="dropdown"
-                          data-bs-offset="0, 12"
-                        >
-                          <!-- Display current language -->
-                          {% get_current_language as CURRENT_LANGUAGE %}
-                          {% get_language_info for CURRENT_LANGUAGE as LANG_INFO %}
-                          {{ LANG_INFO.name_local }} ({{ CURRENT_LANGUAGE|upper }})
-                        </a>
-                        <ul
-                          class="dropdown-menu dropdown-menu-end shadow-sm border-0"
-                        >
-                          <!-- Iterate over available languages -->
-                          {% for language in languages %}
-                          <li>
-                            <a
-                              class="dropdown-item link-base py-2 px-4"
-                              href="/{{language.code}}/"
-                            >
-                              {{ language.display_name }} ({{ language.code|upper
-                              }})
-                            </a>
-                          </li>
-                          {% endfor %}
-                        </ul>
-                      </li>
-                    </ul>
-                    <!-- .nk-menu-buttons -->
-                  </nav>
-                  <!-- .nk-header-menu -->
+                 
+                  <li class="nk-menu-item">
+                    <a href="{% url 'about' %}" class="nk-menu-link">
+                      <span class="nk-menu-text">{% translate 'About' %}</span>
+                    </a>
+                  </li>
+                  {% if request.user.is_authenticated %}
+                  <li class="nk-menu-item">
+                    <a href="{% url 'custom_logout' %}" class="nk-menu-link">
+                      <span class="nk-menu-text">{% translate 'Logout' %}</span>
+                    </a>
+                  </li>
+                 
+
+                  {% else %}
+                  <li class="nk-menu-item">
+                    <a href="{% url 'account_login' %}" class="nk-menu-link">
+                      <span class="nk-menu-text">{% translate 'Login' %}</span>
+                    </a>
+                  </li>
+                  <li class="nk-menu-item">
+                    <a href="{% url 'account_signup' %}" class="nk-menu-link">
+                      <span class="nk-menu-text">{% translate 'Sign Up' %}</span>
+                    </a>
+                  </li>
+
+                  {% endif%}
+                
+                </ul>
+
+                <!-- .nk-menu-list -->
+                <div class="mx-2 d-none d-lg-block">
+                  <button class="dark-mode-toggle">
+                    <em class="off icon ni ni-sun-fill"></em>
+                    <em class="on icon ni ni-moon-fill"></em>
+                  </button>
                 </div>
-                <!-- .nk-header-wrap -->
-              </div>
+                <ul class="nk-menu-buttons flex-lg-row-reverse">
+
+                  {% if user.is_authenticated %}
+                  <li><a href="https://summarygenerator.io/dashboard/" class="btn btn-primary">{% translate 'Dashboard' %}</a></li>
+                  {% endif %}
+                  {% if not user.is_authenticated %}
+                  <li><a href="https://summarygenerator.io/dashboard/" class="btn btn-primary">{% translate 'Dashboard' %}</a></li>
+                  {% endif %}
+                  <li class="dropdown">
+                    <a
+                      class="link link-base fw-medium dropdown-toggle"
+                      href="#"
+                      data-bs-toggle="dropdown"
+                      data-bs-offset="0, 12"
+                    >
+                      <!-- Display current language -->
+                      {% get_current_language as CURRENT_LANGUAGE %}
+                      {% get_language_info for CURRENT_LANGUAGE as LANG_INFO %}
+                      {{ LANG_INFO.name_local }} ({{ CURRENT_LANGUAGE|upper }})
+                    </a>
+                    <ul
+                    class="dropdown-menu dropdown-menu-end shadow-sm border-0 language_dropdown"
+                  >
+                    <li>
+                      <a class="dropdown-item link-base py-2 px-4" href="https://summarygenerator.io/es/about/">
+                          Spanish (ES)
+                      </a>
+                  </li>
+                  
+                  <li>
+                      <a class="dropdown-item link-base py-2 px-4" href="https://summarygenerator.io/pt/about/">
+                          Portuguese (PT)
+                      </a>
+                  </li>
+                  
+                  <li>
+                      <a class="dropdown-item link-base py-2 px-4" href="https://summarygenerator.io/ru/about/">
+                          Russian (RU)
+                      </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item link-base py-2 px-4" href="https://summarygenerator.io/en/about/">
+                        English (EN)
+                    </a>
+                </li>
+                  </ul>
+
+                  </li>
+                </ul>
+                <!-- .nk-menu-buttons -->
+              </nav>
+              <!-- .nk-header-menu -->
             </div>
-         
-        </header>
+            <!-- .nk-header-wrap -->
+          </div>
+          <!-- .container -->
+        </div>
+        <!-- .nk-header-main -->
+        {% block hero %} {% endblock %}
+        <!-- .nk-hero -->
+      </header>
         <main class="nk-pages">
             <section class="section section-bottom-0 pb-5 has-mask">
                 <div class="nk-mask bg-pattern-dot bg-blend-around mt-n5 mb-10p mh-50vh"></div>
@@ -180,8 +196,8 @@
                     <div class="section-head">
                         <div class="row justify-content-center text-center">
                             <div class="col-lg-11 col-xl-10 col-xxl-9">
-                                <h6 class="overline-title text-primary">Welcome Back!</h6>
-                                <h2 class="title">Login to countinue</h2>
+                                <h6 class="overline-title text-primary">{% translate 'Welcome Back!' %}</h6>
+                                <h2 class="title">{% translate 'Login to countinue' %}</h2>
                             </div>
                         </div>
                     </div><!-- .section-head -->
@@ -199,7 +215,7 @@
                                             <div class="row g-4">
                                                 <div class="col-12">
                                                     <div class="form-group">
-                                                        <label class="form-label" for="emailorusername">Email</label>
+                                                        <label class="form-label" for="emailorusername">{% translate 'Email' %}</label>
                                                         <div class="form-control-wrap">
                                                             <input type="email" name="login" id="emailorusername" class="form-control form-control-lg" placeholder="Enter Email or Username" required>
                                                         </div>
@@ -207,7 +223,7 @@
                                                 </div>
                                                 <div class="col-12">
                                                     <div class="form-group">
-                                                        <label class="form-label" for="toggle-password">Password</label>
+                                                        <label class="form-label" for="toggle-password">{% translate 'Password' %}</label>
                                                         <div class="form-control-wrap">
                                                             <a href="toggle-password" class="form-control-icon end password-toggle" title="Toggle show/hide password">
                                                                 <em class="on icon ni ni-eye text-base"></em>
@@ -222,19 +238,19 @@
                                                         <div class="form-group">
                                                             <div class="form-check form-check-sm">
                                                                 <input class="form-check-input" type="checkbox" value="" id="rememberMe">
-                                                                <label class="form-check-label" for="rememberMe"> Remember Me </label>
+                                                                <label class="form-check-label" for="rememberMe">  {% translate 'Remember Me' %}</label>
                                                             </div>
                                                         </div>
-                                                        <a href="{% url 'account_reset_password' %}" class="small">Forgot Password?</a>
+                                                        <a href="{% url 'account_reset_password' %}" class="small">{% translate 'Forgot Password?' %}</a>
                                                     </div>
                                                 </div>
                                                 <div class="col-12 mt-5">
                                                     <div class="form-group">
-                                                        <button class="btn btn-primary btn-block" type="submit" id="submit-btn">Login</button>
+                                                        <button class="btn btn-primary btn-block" type="submit" id="submit-btn">{% translate 'Login' %}</button>
                                                     </div>
                                                 </div><!-- .col -->
                                                 <div class="col-12 text-center">
-                                                    <div class="small mb-3">or login with</div>
+                                                    <div class="small mb-3">{% translate 'or login with' %}</div>
                                                     <ul class="btn-list btn-list-inline gx-2">
                                                        
                                                         <!-- <li><a class="btn btn-light btn-icon" href="{% provider_login_url 'google' %}"><em class="icon fs-5 ni ni-google"></em></a></li> -->
@@ -242,7 +258,7 @@
                                                         <a href="{% provider_login_url 'google' %}" class="google-login-btn">
                                                             <!-- Replace the content of this svg tag with the actual content of your Google "G" SVG icon -->
                                                           <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="30" viewBox="0,0,256,256"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.33333,5.33333)"><path d="M43.611,20.083h-1.611v-0.083h-18v8h11.303c-1.649,4.657 -6.08,8 -11.303,8c-6.627,0 -12,-5.373 -12,-12c0,-6.627 5.373,-12 12,-12c3.059,0 5.842,1.154 7.961,3.039l5.657,-5.657c-3.572,-3.329 -8.35,-5.382 -13.618,-5.382c-11.045,0 -20,8.955 -20,20c0,11.045 8.955,20 20,20c11.045,0 20,-8.955 20,-20c0,-1.341 -0.138,-2.65 -0.389,-3.917z" fill="#ffc107"></path><path d="M6.306,14.691l6.571,4.819c1.778,-4.402 6.084,-7.51 11.123,-7.51c3.059,0 5.842,1.154 7.961,3.039l5.657,-5.657c-3.572,-3.329 -8.35,-5.382 -13.618,-5.382c-7.682,0 -14.344,4.337 -17.694,10.691z" fill="#ff3d00"></path><path d="M24,44c5.166,0 9.86,-1.977 13.409,-5.192l-6.19,-5.238c-2.008,1.521 -4.504,2.43 -7.219,2.43c-5.202,0 -9.619,-3.317 -11.283,-7.946l-6.522,5.025c3.31,6.477 10.032,10.921 17.805,10.921z" fill="#4caf50"></path><path d="M43.611,20.083h-1.611v-0.083h-18v8h11.303c-0.792,2.237 -2.231,4.166 -4.087,5.571c0.001,-0.001 0.002,-0.001 0.003,-0.002l6.19,5.238c-0.438,0.398 6.591,-4.807 6.591,-14.807c0,-1.341 -0.138,-2.65 -0.389,-3.917z" fill="#1976d2"></path></g></g></svg>
-                                                            Login with Google
+                                                            {% translate 'Login with Google' %}
                                                         </a>
                                                       </li>
                                                     </ul>
@@ -251,7 +267,7 @@
                                         </form>
                                     </div>
                                 </div><!-- .card -->
-                                <p class="text-center mt-4">Don't have an account? <a href="{% url 'account_signup' %}">Register</a></p>
+                                <p class="text-center mt-4"> {% translate 'Don't have an account?' %}<a href="{% url 'account_signup' %}">{% translate 'Register' %}</a></p>
                             </div>
                         </div>
                     </div><!-- .section-content -->
@@ -264,7 +280,7 @@
               <div class="row g-5">
                 <div class="col-xl-4 col-lg-7 col-md-9 me-auto">
                   <div class="block-text pe-xxl-5">
-                    <a href="https://summarygenerator.io/" class="logo-link mb-4">
+                    <a href="{% url 'home' %}" class="logo-link mb-4">
                       <div class="logo-wrap">
                         <img
                           class="logo-img logo-light" style="width:170px; height:auto!important;"
@@ -279,7 +295,8 @@
                       </div>
                     </a>
                     <p class="py-4">
-                      Summarygenerator.io is an AI-powered tool that uses advanced algorithms and natural language processing to analyze the content and identify main ideas to generate relevant summaries. It generates summaries of varying lengths for any type of content.
+                    
+                      {% translate '  Summarygenerator.io is an AI-powered tool that uses advanced algorithms and natural language processing to analyze the content and identify main ideas to generate relevant summaries. It generates summaries of varying lengths for any type of content.' %}
                     </p>
                   </div>
                 </div>
@@ -293,10 +310,10 @@
                           Links
                         </h6>
                         <ul class="list gy-2 list-link-base">
-                          <li><a class="link-base" href="{% url 'about' %}">About Us</a></li>
-                          <li><a class="link-base" href="{% url 'termsandConditions' %}" >Terms and Conditions</a></li>
-                          <li><a class="link-base" href="{% url 'privacypolicy' %}" >Privacy Policy</a></li>
-                          <li><a class="link-base" href="{% url 'pricing' %}" >Pricing</a></li>
+                          <li><a class="link-base" href="{% url 'about' %}">{% translate 'About Us' %} </a></li>
+                          <li><a class="link-base" href="{% url 'termsandConditions' %}" >{% translate 'Terms and Conditions' %}</a></li>
+                          <li><a class="link-base" href="{% url 'privacypolicy' %}" >{% translate 'Privacy Policy' %}</a></li>
+                          <li><a class="link-base" href="{% url 'pricing' %}" >{% translate 'Pricing' %}</a></li>
                           
                         </ul>
                       </div>
@@ -305,27 +322,27 @@
                     <div class="col-lg-6 col-md-5 col-sm-6">
                       <div class="wgs">
                         <h6 class="wgs-title overline-title text-heading">
-                          Get In Touch
+                         {% translate 'Get In Touch' %}
                         </h6>
                         <ul class="list gy-3">
                           <li>
                             <em
                               class="icon text-primary fs-5 ni ni-mail-fill"
                             ></em>
-                            <span>support@summarygenerator.io</span>
+                            <span> {% translate 'support@summarygenerator.io' %}</span>
                           </li>
                           <li>
                             <em
                               class="icon text-primary fs-5 ni ni-call-alt-fill"
                             ></em>
-                            <span>+4473 61622097</span>
+                            <span> {% translate '+4473 61622097' %}</span>
                           </li>
                           <li>
                             <em
                               class="icon text-primary fs-5 ni ni-map-pin-fill"
                             ></em>
                             <span
-                              >International House, 12 Constance Street, London, E16 2DQ.</span
+                              >{% translate 'International House, 12 Constance Street, London, E16 2DQ.' %}</span
                             >
                           </li>
                         </ul>
@@ -350,8 +367,8 @@
                 <div class="row">
                   <div class="col-md">
                     <p class="mb-2 mb-md-0 text-center">
-                      Copyright &copy; 2023.
-                      <a href="https://summarygenerator.io/" class="fw-bold text-base">Summarygenerator.io</a>.
+                      {% translate 'Copyright &copy; 2023.' %}
+                      <a href="https://summarygenerator.io/" class="fw-bold text-base">{% translate 'Summarygenerator.io' %}</a>.
                     </p>
                   </div>
                   <!-- .col -->
