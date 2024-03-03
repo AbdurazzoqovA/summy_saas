@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-03 12:03+0500\n"
+"POT-Creation-Date: 2024-03-03 12:06+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -312,14 +312,16 @@ msgid "name@copygen.com"
 msgstr ""
 
 #: .\summarizer\templates\account\signup.html:253
-#, fuzzy
-#| msgid "Password"
 msgid "Password (Confirm)"
 msgstr "Contraseñas"
 
 #: .\summarizer\templates\account\signup.html:264
 msgid "Create Account"
 msgstr "Crear cuenta"
+
+#: .\summarizer\templates\account\signup.html:288
+msgid "Already have an account?"
+msgstr "¿No tienes una cuenta?"
 
 #: .\summarizer\templates\account\verification_sent.html:165
 msgid ""
