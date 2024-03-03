@@ -34646,13 +34646,13 @@ strong {
 }
 
 .bg-gradient-a {
-  background-image: url("../images/gradient/a-blur.png"), url("../images/gradient/a.png");
+  background-image: url("../images/gradient/a-blur.webp"), url("../images/gradient/a.png");
   background-size: 2560px, cover;
   background-position: center 100%;
   background-repeat: no-repeat, repeat no-repeat;
 }
 .is-dark .bg-gradient-a {
-  background-image: url("../images/gradient/a-blur.png"), url("../images/gradient/a-dark.png");
+  background-image: url("../images/gradient/a-blur.webp"), url("../images/gradient/a-dark.png");
 }
 
 .bg-blend-top {
