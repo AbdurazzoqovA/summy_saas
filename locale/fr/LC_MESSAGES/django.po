@@ -480,10 +480,13 @@ msgid ""
 "and presents complex content in engaging chunks. You get the most relevant "
 "and crucial data in just one click."
 msgstr ""
+"Cette synthèse de texte extrait rapidement des informations importantes de "
+"textes volumineux et présente un contenu complexe de manière attrayante. Vous "
+"obtenez les données les plus pertinentes et cruciales en un seul clic."
 
 #: .\summarizer\templates\front\home2.html:263
 msgid "Choose Your Summary Length & Style"
-msgstr ""
+msgstr "Choisissez la longueur et le style de votre résumé"
 
 #: .\summarizer\templates\front\home2.html:267
 #: .\summarizer\templates\front\index.html:127
@@ -493,11 +496,15 @@ msgid ""
 "academic research. You’ve also got an option to generate the summary in "
 "paragraph form or bullet points."
 msgstr ""
+"Vous pouvez personnaliser la longueur et le format du résumé. Créez un "
+"aperçu rapide du contenu de votre article de blog ou obtenez un résumé "
+"détaillé pour votre recherche académique. Vous avez également la possibilité "
+"de générer le résumé sous forme de paragraphes ou de points."
 
 #: .\summarizer\templates\front\home2.html:292
 #: .\summarizer\templates\front\index.html:152
 msgid "Over"
-msgstr ""
+msgstr "Plus de"
 
 #: .\summarizer\templates\front\home2.html:293
 #: .\summarizer\templates\front\index.html:153
@@ -506,11 +513,13 @@ msgid ""
 "users like you have used this summary generator to convert their lengthy "
 "text into efficient, 100%% accurate summaries"
 msgstr ""
+"utilisateurs comme vous ont utilisé ce générateur de résumé pour convertir "
+"leurs textes longs en résumés efficaces et précis à 100%%."
 
 #: .\summarizer\templates\front\home2.html:296
 #: .\summarizer\templates\front\index.html:156
 msgid "Generate your summary now – it’s free"
-msgstr ""
+msgstr "Générez votre résumé maintenant - c'est gratuit"
 
 #: .\summarizer\templates\front\home2.html:321
 #: .\summarizer\templates\front\index.html:181
@@ -520,11 +529,16 @@ msgid ""
 "faster. The summaries are concise and comprehensive, saving me hours of "
 "reading."
 msgstr ""
+"En tant qu'écrivain indépendant, ce résumé de texte a été un changement de "
+"paradigme pour moi. Il condense efficacement de longs articles, m'aidant à "
+"faire des recherches et à écrire plus rapidement. Les résumés sont concis et "
+"complets, me faisant gagner des heures de lecture."
 
 #: .\summarizer\templates\front\home2.html:326
 #: .\summarizer\templates\front\index.html:186
 msgid "Freelance Writer"
-msgstr ""
+msgstr "Écrivain indépendant"
+
 
 #: .\summarizer\templates\front\home2.html:347
 #: .\summarizer\templates\front\index.html:207
