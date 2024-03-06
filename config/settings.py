@@ -214,6 +214,8 @@ LANGUAGES = [
     ('uz', "Uzbek"),
     ("pt", "Partuguese"),
     ("fr", "French"),
+    ("nl", "Dutch"),
+    ("de", "Deutsch"),
 
 ]
 

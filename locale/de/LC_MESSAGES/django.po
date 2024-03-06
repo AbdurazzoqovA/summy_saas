@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-06 18:55+0500\n"
+"POT-Creation-Date: 2024-03-06 19:43+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,23 +16,20 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n"
-"%100>=11 && n%100<=14)? 2 : 3);\n"
-
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 #: .\summarizer\templates\account\email_confirm.html:163
 msgid "Please confirm that"
-msgstr "Пожалуйста, подтвердите это"
+msgstr ""
 
 #: .\summarizer\templates\account\email_confirm.html:163
 msgid "is an e-mail address for user"
-msgstr "адрес электронной почты пользователя"
+msgstr ""
 
 #: .\summarizer\templates\account\email_confirm.html:177
 msgid ""
 "This e-mail confirmation link expired or is invalid. Please issue a new e-"
 "mail confirmation request"
-msgstr "Срок действия ссылки для подтверждения по электронной почте истек или она недействительна. "
+msgstr ""
 
 #: .\summarizer\templates\account\login.html:86
 #: .\summarizer\templates\account\signup.html:84
@@ -43,7 +40,7 @@ msgstr "Срок действия ссылки для подтверждения
 #: .\summarizer\templates\front\privacypolicy.html:114
 #: .\summarizer\templates\front\termsandconditions.html:96
 msgid "Home"
-msgstr "Дом"
+msgstr ""
 
 #: .\summarizer\templates\account\login.html:91
 #: .\summarizer\templates\account\login.html:316
@@ -61,7 +58,7 @@ msgstr "Дом"
 #: .\summarizer\templates\front\termsandconditions.html:101
 #: .\summarizer\templates\front\termsandconditions.html:684
 msgid "Pricing"
-msgstr "Цены"
+msgstr ""
 
 #: .\summarizer\templates\account\login.html:97
 #: .\summarizer\templates\account\signup.html:95
@@ -73,7 +70,7 @@ msgstr "Цены"
 #: .\summarizer\templates\front\privacypolicy.html:125
 #: .\summarizer\templates\front\termsandconditions.html:107
 msgid "About"
-msgstr "О себе"
+msgstr ""
 
 #: .\summarizer\templates\account\login.html:103
 #: .\summarizer\templates\account\signup.html:101
@@ -84,7 +81,7 @@ msgstr "О себе"
 #: .\summarizer\templates\front\privacypolicy.html:131
 #: .\summarizer\templates\front\termsandconditions.html:113
 msgid "Logout"
-msgstr "Выход"
+msgstr ""
 
 #: .\summarizer\templates\account\login.html:111
 #: .\summarizer\templates\account\login.html:249
@@ -97,7 +94,7 @@ msgstr "Выход"
 #: .\summarizer\templates\front\privacypolicy.html:139
 #: .\summarizer\templates\front\termsandconditions.html:121
 msgid "Login"
-msgstr "Войти"
+msgstr ""
 
 #: .\summarizer\templates\account\login.html:116
 #: .\summarizer\templates\account\signup.html:114
@@ -108,7 +105,7 @@ msgstr "Войти"
 #: .\summarizer\templates\front\privacypolicy.html:144
 #: .\summarizer\templates\front\termsandconditions.html:126
 msgid "Sign Up"
-msgstr "Регистрация"
+msgstr ""
 
 #: .\summarizer\templates\account\login.html:134
 #: .\summarizer\templates\account\login.html:137
@@ -127,50 +124,50 @@ msgstr "Регистрация"
 #: .\summarizer\templates\front\termsandconditions.html:144
 #: .\summarizer\templates\front\termsandconditions.html:147
 msgid "Dashboard"
-msgstr "Панель управления"
+msgstr ""
 
 #: .\summarizer\templates\account\login.html:199
 msgid "Welcome Back!"
-msgstr "С возвращением!"
+msgstr ""
 
 #: .\summarizer\templates\account\login.html:200
 msgid "Login to countinue"
-msgstr "Войти в аккаунт"
+msgstr ""
 
 #: .\summarizer\templates\account\login.html:218
 msgid "Email"
-msgstr "Электронная почта"
+msgstr ""
 
 #: .\summarizer\templates\account\login.html:226
 #: .\summarizer\templates\account\signup.html:242
 msgid "Password"
-msgstr "Пароль"
+msgstr ""
 
 #: .\summarizer\templates\account\login.html:241
 msgid "Remember Me"
-msgstr "Помни меня"
+msgstr ""
 
 #: .\summarizer\templates\account\login.html:244
 msgid "Forgot Password?"
-msgstr "Забыли пароль?"
+msgstr ""
 
 #: .\summarizer\templates\account\login.html:253
 #: .\summarizer\templates\account\signup.html:269
 msgid "or login with"
-msgstr "или войдите с помощью"
+msgstr ""
 
 #: .\summarizer\templates\account\login.html:261
 #: .\summarizer\templates\account\signup.html:278
 msgid "Login with Google"
-msgstr "Войти через Google"
+msgstr ""
 
 #: .\summarizer\templates\account\login.html:270
 msgid "Don't have an account?"
-msgstr "Нет аккаунта?"
+msgstr ""
 
 #: .\summarizer\templates\account\login.html:270
 msgid "Register"
-msgstr "Регистрация"
+msgstr ""
 
 #: .\summarizer\templates\account\login.html:299
 #: .\summarizer\templates\account\signup.html:318
@@ -184,7 +181,7 @@ msgid ""
 "and natural language processing to analyze the content and identify main "
 "ideas to generate relevant summaries. It generates summaries of varying "
 "lengths for any type of content."
-msgstr "Summarygenerator.io — это инструмент на базе искусственного интеллекта, который использует передовые алгоритмы и обработку естественного языка для анализа контента и выявления основных идей для создания соответствующих резюме. "
+msgstr ""
 
 #: .\summarizer\templates\account\login.html:313
 #: .\summarizer\templates\account\signup.html:332
@@ -195,7 +192,7 @@ msgstr "Summarygenerator.io — это инструмент на базе иск
 #: .\summarizer\templates\front\privacypolicy.html:686
 #: .\summarizer\templates\front\termsandconditions.html:681
 msgid "About Us"
-msgstr "О нас"
+msgstr ""
 
 #: .\summarizer\templates\account\login.html:314
 #: .\summarizer\templates\account\signup.html:333
@@ -206,7 +203,7 @@ msgstr "О нас"
 #: .\summarizer\templates\front\termsandconditions.html:210
 #: .\summarizer\templates\front\termsandconditions.html:682
 msgid "Terms and Conditions"
-msgstr "Правила и условия"
+msgstr ""
 
 #: .\summarizer\templates\account\login.html:315
 #: .\summarizer\templates\account\signup.html:334
@@ -216,7 +213,7 @@ msgstr "Правила и условия"
 #: .\summarizer\templates\front\privacypolicy.html:688
 #: .\summarizer\templates\front\termsandconditions.html:683
 msgid "Privacy Policy"
-msgstr "Политика конфиденциальности"
+msgstr ""
 
 #: .\summarizer\templates\account\login.html:325
 #: .\summarizer\templates\account\signup.html:344
@@ -226,7 +223,7 @@ msgstr "Политика конфиденциальности"
 #: .\summarizer\templates\front\privacypolicy.html:698
 #: .\summarizer\templates\front\termsandconditions.html:693
 msgid "Get In Touch"
-msgstr "Свяжитесь с нами"
+msgstr ""
 
 #: .\summarizer\templates\account\login.html:332
 #: .\summarizer\templates\account\signup.html:351
@@ -246,7 +243,7 @@ msgstr ""
 #: .\summarizer\templates\front\privacypolicy.html:711
 #: .\summarizer\templates\front\termsandconditions.html:706
 msgid "+4473 61622097"
-msgstr "4473 61622097"
+msgstr ""
 
 #: .\summarizer\templates\account\login.html:345
 #: .\summarizer\templates\account\signup.html:364
@@ -256,7 +253,7 @@ msgstr "4473 61622097"
 #: .\summarizer\templates\front\privacypolicy.html:718
 #: .\summarizer\templates\front\termsandconditions.html:713
 msgid "International House, 12 Constance Street, London, E16 2DQ."
-msgstr "International House, Констанс-стрит, 12, Лондон, E16 2DQ."
+msgstr ""
 
 #: .\summarizer\templates\account\login.html:370
 #: .\summarizer\templates\account\signup.html:389
@@ -266,7 +263,7 @@ msgstr "International House, Констанс-стрит, 12, Лондон, E16 
 #: .\summarizer\templates\front\privacypolicy.html:743
 #: .\summarizer\templates\front\termsandconditions.html:738
 msgid "Copyright &copy; 2023."
-msgstr "Авторское право"
+msgstr ""
 
 #: .\summarizer\templates\account\login.html:371
 #: .\summarizer\templates\account\signup.html:390
@@ -280,46 +277,46 @@ msgstr ""
 
 #: .\summarizer\templates\account\signup.html:197
 msgid "Start your journey"
-msgstr "Начни свое путешествие"
+msgstr ""
 
 #: .\summarizer\templates\account\signup.html:198
 msgid "Create Summarygenerator account"
-msgstr "Создать учетную запись генератора сводки"
+msgstr ""
 
 #: .\summarizer\templates\account\signup.html:227
 msgid "Full Name"
-msgstr "Полное имя"
+msgstr ""
 
 #: .\summarizer\templates\account\signup.html:229
 msgid "Your Name"
-msgstr "Ваше имя"
+msgstr ""
 
 #: .\summarizer\templates\account\signup.html:234
 msgid "Email Address"
-msgstr "Адрес электронной почты"
+msgstr ""
 
 #: .\summarizer\templates\account\signup.html:236
 msgid "name@copygen.com"
-msgstr "имя@copygen.com"
+msgstr ""
 
 #: .\summarizer\templates\account\signup.html:253
 msgid "Password (Confirm)"
-msgstr "Пароль (подтвердить)"
+msgstr ""
 
 #: .\summarizer\templates\account\signup.html:264
 msgid "Create Account"
-msgstr "Создать учетную запись"
+msgstr ""
 
 #: .\summarizer\templates\account\signup.html:288
 msgid "Already have an account?"
-msgstr "У вас уже есть учетная запись?"
+msgstr ""
 
 #: .\summarizer\templates\account\verification_sent.html:165
 msgid ""
 "We have sent an e-mail to you for verification. Follow the link provided to "
 "finalize the signup process. Please contact us if you do not receive it "
 "within a few seconds."
-msgstr "Мы отправили вам электронное письмо для проверки. "
+msgstr ""
 
 #: .\summarizer\templates\front\about.html:241
 msgid "SummaryGenerator.io"
@@ -328,139 +325,139 @@ msgstr ""
 #: .\summarizer\templates\front\about.html:243
 msgid ""
 "Was founded on January 10, 2024, by Kamran Ali from Swabi, Pakistan and "
-msgstr "Была основана 10 января 2024 года Камраном Али из Сваби, Пакистан и"
+msgstr ""
 
 #: .\summarizer\templates\front\about.html:243
 msgid "developed by Abdullah from Uzbekistan."
-msgstr "разработан Абдуллой из Узбекистана."
+msgstr ""
 
 #: .\summarizer\templates\front\about.html:258
 msgid "Our software uses AI to condense information"
-msgstr "Наше программное обеспечение использует искусственный интеллект для сжатия информации."
+msgstr ""
 
 #: .\summarizer\templates\front\about.html:261
 msgid "We used to be called Summarizing-tool but now we're SummaryGenerator."
-msgstr "Раньше нас называли Summarizing-tool, но теперь мы SummaryGenerator."
+msgstr ""
 
 #: .\summarizer\templates\front\about.html:262
 msgid ""
 "This change allows us to offer advanced features and better functionality."
-msgstr "Это изменение позволяет нам предлагать расширенные функции и лучшую функциональность."
+msgstr ""
 
 #: .\summarizer\templates\front\about.html:294
 msgid ""
 "Our goal is to provide you with an easy and efficient way to summarize "
 "content."
-msgstr "Наша цель — предоставить вам простой и эффективный способ обобщения контента."
+msgstr ""
 
 #: .\summarizer\templates\front\about.html:313
 msgid ""
 "Our AI-driven generator takes complex information and turns it into concise "
 "summaries."
-msgstr "Наш генератор, управляемый искусственным интеллектом, собирает сложную информацию и превращает ее в краткие сводки."
+msgstr ""
 
 #: .\summarizer\templates\front\about.html:331
 msgid ""
 "We know your time is valuable, so our algorithm ensures accurate and quick "
 "summaries. "
-msgstr "Мы знаем, что ваше время ценно, поэтому наш алгоритм обеспечивает точные и быстрые сводки."
+msgstr ""
 
 #: .\summarizer\templates\front\about.html:351
 msgid "Bullet point summarization "
-msgstr "Обобщение пунктов списка"
+msgstr ""
 
 #: .\summarizer\templates\front\about.html:355
 msgid ""
 "Whether you're a student or a professional, our platform is designed to meet "
 "your needs."
-msgstr "Независимо от того, являетесь ли вы студентом или профессионалом, наша платформа создана с учетом ваших потребностей."
+msgstr ""
 
 #: .\summarizer\templates\front\about.html:358
 msgid ""
 "One of our standout features is bullet point summarization, which improves "
 "readability."
-msgstr "Одна из наших выдающихся функций — обобщение пунктов, которое улучшает читабельность."
+msgstr ""
 
 #: .\summarizer\templates\front\about.html:381
 msgid "Website Designer"
-msgstr "Дизайнер веб-сайтов"
+msgstr ""
 
 #: .\summarizer\templates\front\about.html:382
 msgid "Our website is user-friendly and designed by Raheel Fida"
-msgstr "Наш веб-сайт удобен для пользователя и разработан Рахил Фида."
+msgstr ""
 
 #: .\summarizer\templates\front\about.html:399
 msgid "Contact us"
-msgstr "Свяжитесь с нами"
+msgstr ""
 
 #: .\summarizer\templates\front\about.html:400
 msgid "If you have any questions or want to connect with us"
-msgstr "Если у вас есть какие-либо вопросы или вы хотите связаться с нами"
+msgstr ""
 
 #: .\summarizer\templates\front\about.html:402
 msgid ""
 "We value your feedback and are committed to improving SummaryGenerator.io "
 "for you."
-msgstr "Мы ценим ваши отзывы и стремимся улучшить SummaryGenerator.io для вас."
+msgstr ""
 
 #: .\summarizer\templates\front\about.html:420
 msgid "You can call us at +4473 61622097"
-msgstr "Вы можете позвонить нам по телефону 4473 61622097."
+msgstr ""
 
 #: .\summarizer\templates\front\about.html:431
 msgid "email us at support@summarygenerator.io"
-msgstr "напишите нам по адресу support@summarygenerator.io."
+msgstr ""
 
 #: .\summarizer\templates\front\about.html:442
 msgid ""
 "Our address is International House, 12 Constance Street, London, E16 2DQ."
-msgstr "Наш адрес: International House, 12 Constance Street, Лондон, E16 2DQ."
+msgstr ""
 
 #: .\summarizer\templates\front\about.html:460
 #: .\summarizer\templates\front\home2.html:653
 #: .\summarizer\templates\front\pricing.html:332
 msgid "Ready to Transform Your Text?"
-msgstr "Готовы преобразовать свой текст?"
+msgstr ""
 
 #: .\summarizer\templates\front\about.html:461
 msgid ""
 "SummaryGenerator.io turns your lengthy texts into crisp, clear summaries "
 "with just one click. "
-msgstr "SummaryGenerator.io превращает ваши длинные тексты в четкие и понятные сводки всего одним щелчком мыши."
+msgstr ""
 
 #: .\summarizer\templates\front\about.html:463
 #: .\summarizer\templates\front\home2.html:656
 #: .\summarizer\templates\front\pricing.html:335
 msgid "Summarize Now"
-msgstr "Подвести итог сейчас"
+msgstr ""
 
 #: .\summarizer\templates\front\about.html:466
 #: .\summarizer\templates\front\home2.html:659
 #: .\summarizer\templates\front\pricing.html:338
 msgid "Free to use"
-msgstr "Бесплатно использовать"
+msgstr ""
 
 #: .\summarizer\templates\front\about.html:468
 #: .\summarizer\templates\front\home2.html:660
 #: .\summarizer\templates\front\pricing.html:340
 msgid "Generate summaries in 3 seconds"
-msgstr "Создать сводки за 3 секунды."
+msgstr ""
 
 #: .\summarizer\templates\front\about.html:469
 #: .\summarizer\templates\front\home2.html:661
 #: .\summarizer\templates\front\pricing.html:341
 msgid "No signup required"
-msgstr "Регистрация не требуется"
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:169
 #: .\summarizer\templates\front\main.html:295
 msgid "Summarize any text with One Click"
-msgstr "Обобщить любой текст одним щелчком мыши"
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:209
 #: .\summarizer\templates\front\index.html:74
 msgid "Generate Accurate Summaries in 3 seconds"
-msgstr "Создать точные сводки за 3 секунды."
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:211
 #: .\summarizer\templates\front\index.html:76
@@ -469,12 +466,12 @@ msgid ""
 "content into quick, digestible summaries in just one click. Use it to "
 "summarize your articles, academic papers, business reports, or any kind of "
 "content."
-msgstr "Наш генератор сводок использует передовую технологию искусственного интеллекта, чтобы разбить длинный контент на быстрые и удобоваримые сводки всего одним щелчком мыши. "
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:235
 #: .\summarizer\templates\front\index.html:100
 msgid "Get the Important Facts & Data"
-msgstr "Узнайте важные факты"
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:238
 #: .\summarizer\templates\front\index.html:102
@@ -482,11 +479,11 @@ msgid ""
 "This text summarizer quickly extracts important information from large texts "
 "and presents complex content in engaging chunks. You get the most relevant "
 "and crucial data in just one click."
-msgstr "Этот сумматор текста быстро извлекает важную информацию из больших текстов и представляет сложный контент в виде интересных фрагментов. "
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:263
 msgid "Choose Your Summary Length & Style"
-msgstr "Выберите длину резюме"
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:267
 #: .\summarizer\templates\front\index.html:127
@@ -541,29 +538,29 @@ msgstr ""
 #: .\summarizer\templates\front\home2.html:352
 #: .\summarizer\templates\front\index.html:212
 msgid "Academic Researcher"
-msgstr "Академический исследователь"
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:401
 #: .\summarizer\templates\front\index.html:261
 msgid "How Does the Text Summary Generator Work?"
-msgstr "Как работает генератор текстовых сводок?"
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:424
 #: .\summarizer\templates\front\index.html:284
 msgid "Enter the Text"
-msgstr "Введите текст"
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:426
 #: .\summarizer\templates\front\index.html:286
 msgid ""
 "You can copy the text and paste it into the box above, or upload a file from "
 "your desktop. You can upload a Doc or PDF file."
-msgstr "Вы можете скопировать текст и вставить его в поле выше или загрузить файл со своего рабочего стола. "
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:451
 #: .\summarizer\templates\front\index.html:311
 msgid "Choose the Summary Length and Style"
-msgstr "Выберите длину и стиль резюме."
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:453
 #: .\summarizer\templates\front\index.html:313
@@ -571,12 +568,12 @@ msgid ""
 "Choose your desired summary size between small, medium-length, and large "
 "summary options. Decide if you want the summary in paragraph form or bullet "
 "points."
-msgstr "Выберите желаемый размер сводки: маленький, средний или большой. "
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:480
 #: .\summarizer\templates\front\index.html:340
 msgid "Get Your Summary"
-msgstr "Получите свое резюме"
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:482
 #: .\summarizer\templates\front\index.html:342
@@ -584,108 +581,108 @@ msgid ""
 "Click the “Summarize” button, and you’ll get the summary in a few seconds. "
 "You can simply copy the generated summary or download it as a Doc or PDF "
 "file. That’s all!"
-msgstr "Нажмите кнопку «Сводка», и через несколько секунд вы получите сводку. "
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:501
 #: .\summarizer\templates\front\index.html:361
 msgid "What Kind of Content Can You Summarize with this Summary Generator?"
-msgstr "Какой контент вы можете обобщить с помощью этого генератора сводок?"
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:519
 #: .\summarizer\templates\front\index.html:379
 msgid "Academic Papers"
-msgstr "Академические статьи"
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:521
 #: .\summarizer\templates\front\index.html:381
 msgid ""
 "Quickly turn complex research papers or articles into easy to digest "
 "summaries."
-msgstr "Быстро превращайте сложные исследовательские работы или статьи в легко усваиваемые резюме."
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:539
 #: .\summarizer\templates\front\index.html:399
 msgid "Business Reports"
-msgstr "Бизнес-отчеты"
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:541
 #: .\summarizer\templates\front\index.html:401
 msgid ""
 "Overwhelmed by business reports? Instantly get the key insights and data "
 "from extensive reports."
-msgstr "Устали от деловых отчетов? "
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:558
 #: .\summarizer\templates\front\index.html:418
 msgid "News Articles"
-msgstr "Новостные статьи"
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:560
 #: .\summarizer\templates\front\index.html:420
 msgid ""
 "Get the gist of current events and news stories without reading the full "
 "text."
-msgstr "Получите суть текущих событий и новостей, не читая полный текст."
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:577
 #: .\summarizer\templates\front\index.html:437
 msgid "Book Summaries"
-msgstr "Описание книг"
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:579
 #: .\summarizer\templates\front\index.html:439
 msgid "Create brief overviews of books for study or leisure reading."
-msgstr "Создавайте краткие обзоры книг для учебы или чтения на досуге."
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:596
 #: .\summarizer\templates\front\index.html:456
 msgid "Technical Documents"
-msgstr "Техническая документация"
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:598
 #: .\summarizer\templates\front\index.html:458
 msgid ""
 "Struggling with technical jargon? Simplify technical content into digestible "
 "summaries."
-msgstr "Боретесь с техническим жаргоном? "
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:615
 #: .\summarizer\templates\front\index.html:475
 msgid "Meeting Minutes"
-msgstr "Протокол собрания"
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:617
 #: .\summarizer\templates\front\index.html:477
 msgid ""
 "Need to recap meetings? Convert long meeting notes into clear, actionable "
 "points."
-msgstr "Нужно подвести итоги встреч? "
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:632
 #: .\summarizer\templates\front\index.html:492
 msgid "Generate Your Summary Now!"
-msgstr "Создайте сводку прямо сейчас!"
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:654
 #: .\summarizer\templates\front\pricing.html:333
 msgid ""
 "SummaryGenerator.io turns your lengthy texts into crisp, clear summaries "
 "with just one click."
-msgstr "SummaryGenerator.io превращает ваши длинные тексты в четкие и понятные сводки всего одним щелчком мыши."
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:679
 #: .\summarizer\templates\front\pricing.html:260
 msgid "FAQ'S"
-msgstr "Часто задаваемые вопросы"
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:680
 #: .\summarizer\templates\front\pricing.html:261
 msgid "Frequently Asked Questions"
-msgstr "Часто задаваемые вопросы"
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:691
 msgid "How can I write a summary online for free?"
-msgstr "Как я могу бесплатно написать резюме онлайн?"
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:694
 msgid ""
@@ -693,22 +690,22 @@ msgid ""
 "Summarygenerator.io, enter the text in the blank box, or upload a file, "
 "choose the summary length, and click summarize. Our advanced AI will create "
 "an accurate summary in less than a second."
-msgstr "Наш генератор сводок поможет вам бесплатно обобщить текст онлайн. "
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:701
 msgid "What is the best free AI for summarizing?"
-msgstr "Какой бесплатный ИИ лучше всего подходит для подведения итогов?"
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:704
 msgid ""
 "Summarygenerator.io is one of the best free AI summarizing tools to create "
 "long and short summaries in one click. Our tool uses natural language "
 "processing and advanced AI technology to generate summaries that make sense."
-msgstr "Summarygenerator.io — один из лучших бесплатных инструментов суммирования AI, позволяющий создавать длинные и короткие сводки одним щелчком мыши. "
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:711
 msgid "How do you write an AI summary?"
-msgstr "Как написать резюме по ИИ?"
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:714
 msgid ""
@@ -718,218 +715,218 @@ msgid ""
 "processing (NLP) techniques. It then generates a summary, highlighting the "
 "important points. Review and refine the AI-generated summary to ensure "
 "accuracy."
-msgstr "Все, что вам нужно сделать, это ввести текст в текстовое поле Summarygenerator.io, установить длину и описать стиль резюме (абзац или маркеры). "
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:721
 msgid "Can AI summarize a PDF?"
-msgstr "Может ли ИИ обобщить PDF-файл?"
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:724
 msgid ""
 "Yes, Summarygenerator.io can summarize a PDF or Word Document. It instantly "
 "extracts text from the document to create summaries."
-msgstr "Да, Summarygenerator.io может суммировать документ PDF или Word. "
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:746
 msgid "Upgrade to Pro"
-msgstr "Обновить до Pro"
+msgstr ""
 
 #: .\summarizer\templates\front\home2.html:747
 msgid ""
 "Uh-oh! It seems like you've hit the word limit. Upgrade to our Pro version "
 "now to enjoy unlimited summarization and explore advanced features."
-msgstr "Ой-ой! "
+msgstr ""
 
 #: .\summarizer\templates\front\pricing.html:188
 msgid "Plans & Pricing"
-msgstr "Планы"
+msgstr ""
 
 #: .\summarizer\templates\front\pricing.html:189
 msgid "Plans that best suit your business requirements"
-msgstr "Планы, которые лучше всего соответствуют требованиям вашего бизнеса."
+msgstr ""
 
 #: .\summarizer\templates\front\pricing.html:199
 msgid "Monthly"
-msgstr "Ежемесячно"
+msgstr ""
 
 #: .\summarizer\templates\front\pricing.html:200
 msgid "month"
-msgstr "месяц"
+msgstr ""
 
 #: .\summarizer\templates\front\pricing.html:201
 msgid "Choose Monthly Plan"
-msgstr "Выбрать ежемесячный план"
+msgstr ""
 
 #: .\summarizer\templates\front\pricing.html:207
 msgid "1 million"
-msgstr "1 млн."
+msgstr ""
 
 #: .\summarizer\templates\front\pricing.html:208
 msgid "Monthly Word Limit"
-msgstr "Ежемесячный лимит слов"
+msgstr ""
 
 #: .\summarizer\templates\front\pricing.html:210
 #: .\summarizer\templates\front\pricing.html:238
 msgid "Access To All Languages"
-msgstr "Доступ ко всем языкам"
+msgstr ""
 
 #: .\summarizer\templates\front\pricing.html:211
 #: .\summarizer\templates\front\pricing.html:239
 msgid "Advance Editor Tool"
-msgstr "Инструмент расширенного редактора"
+msgstr ""
 
 #: .\summarizer\templates\front\pricing.html:213
 #: .\summarizer\templates\front\pricing.html:241
 msgid "Regular Technical Support"
-msgstr "Регулярная техническая поддержка"
+msgstr ""
 
 #: .\summarizer\templates\front\pricing.html:214
 #: .\summarizer\templates\front\pricing.html:242
 msgid "Unlimited Logins"
-msgstr "Неограниченное количество входов"
+msgstr ""
 
 #: .\summarizer\templates\front\pricing.html:216
 #: .\summarizer\templates\front\pricing.html:244
 msgid "Newest Features"
-msgstr "Новейшие функции"
+msgstr ""
 
 #: .\summarizer\templates\front\pricing.html:227
 msgid "Yearly"
-msgstr "Ежегодно"
+msgstr ""
 
 #: .\summarizer\templates\front\pricing.html:228
 msgid "year"
-msgstr "год"
+msgstr ""
 
 #: .\summarizer\templates\front\pricing.html:229
 msgid "Choose Yearly Plan"
-msgstr "Выбрать годовой план"
+msgstr ""
 
 #: .\summarizer\templates\front\pricing.html:235
 msgid "10 million"
-msgstr "10 миллионов"
+msgstr ""
 
 #: .\summarizer\templates\front\pricing.html:236
 msgid "Yearly Word Limit"
-msgstr "Годовой лимит слов"
+msgstr ""
 
 #: .\summarizer\templates\front\pricing.html:272
 msgid "Is there a free plan?"
-msgstr "Есть ли бесплатный план?"
+msgstr ""
 
 #: .\summarizer\templates\front\pricing.html:275
 msgid "Summarygenerator.io offers a"
-msgstr "Summarygenerator.io предлагает"
+msgstr ""
 
 #: .\summarizer\templates\front\pricing.html:275
 msgid "free plan"
-msgstr "бесплатный план"
+msgstr ""
 
 #: .\summarizer\templates\front\pricing.html:275
 msgid ""
 "summarizing articles, research papers, and any kind of text for up to 800 "
 "words."
-msgstr "обобщение статей, научных работ и любого текста объемом до 800 слов."
+msgstr ""
 
 #: .\summarizer\templates\front\pricing.html:275
 msgid "With a free account, you can access"
-msgstr "С помощью бесплатной учетной записи вы можете получить доступ"
+msgstr ""
 
 #: .\summarizer\templates\front\pricing.html:275
 msgid "the dashboard"
-msgstr "приборная панель"
+msgstr ""
 
 #: .\summarizer\templates\front\pricing.html:283
 msgid "What are the benefits of the Monthly plan?"
-msgstr "Каковы преимущества ежемесячного плана?"
+msgstr ""
 
 #: .\summarizer\templates\front\pricing.html:288
 msgid ""
 "With the Monthly plan, you can summarize up to 1 million words per month in "
 "more than 30 languages for just $9.95/month."
-msgstr "С месячным планом вы можете суммировать до 1 миллиона слов в месяц на более чем 30 языках всего за 9,95 долларов США в месяц."
+msgstr ""
 
 #: .\summarizer\templates\front\pricing.html:288
 msgid ""
 "You also get access to the advanced editor tool to edit text inside the tool."
-msgstr "Вы также получаете доступ к расширенному редактору для редактирования текста внутри инструмента."
+msgstr ""
 
 #: .\summarizer\templates\front\pricing.html:288
 msgid ""
 "Plus, you get regular technical support, unlimited logins, and access to the "
 "newest features."
-msgstr "Кроме того, вы получаете регулярную техническую поддержку, неограниченное количество входов в систему и доступ к новейшим функциям."
+msgstr ""
 
 #: .\summarizer\templates\front\pricing.html:295
 msgid "Why should I buy the Yearly plan?"
-msgstr "Почему мне следует покупать годовой план?"
+msgstr ""
 
 #: .\summarizer\templates\front\pricing.html:300
 #, python-format
 msgid ""
 "Choosing the Yearly plan for $59.95 over the monthly option at $9.95 means "
 "you’re saving nearly 50%% annually."
-msgstr "Выбор годового плана за 59,95 долларов США по сравнению с ежемесячным планом за 9,95 долларов США означает, что вы экономите почти 50%% в год."
+msgstr ""
 
 #: .\summarizer\templates\front\pricing.html:300
 msgid ""
 "Plus, it expands the word limit to 10 million yearly, supports more than 50 "
 "languages, and includes all features of the Monthly plan, making it a more "
 "economical choice for heavy users."
-msgstr "Кроме того, он увеличивает лимит слов до 10 миллионов в год, поддерживает более 50 языков и включает в себя все функции ежемесячного плана, что делает его более экономичным выбором для активных пользователей."
+msgstr ""
 
 #: .\summarizer\templates\front\pricing.html:307
 msgid "Can I upgrade from the free plan to a paid subscription?"
-msgstr "Могу ли я перейти с бесплатного плана на платную подписку?"
+msgstr ""
 
 #: .\summarizer\templates\front\pricing.html:312
 msgid ""
 "Yes, you can easily upgrade to either the Monthly or Yearly plan to enjoy "
 "higher word limits, additional languages, the advanced editor tool, and "
 "other premium features."
-msgstr "Да, вы можете легко перейти на ежемесячный или годовой план, чтобы получить более высокий лимит слов, дополнительные языки, расширенный инструмент редактирования и другие премиум-функции."
+msgstr ""
 
 #: .\summarizer\templates\front\pricing.html:331
 msgid "Boost your writing productivity"
-msgstr "Повысьте продуктивность письма"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:227
 #: .\summarizer\templates\front\termsandconditions.html:209
 msgid "CopyGen"
-msgstr "Генератор копирования"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:228
 msgid "PRIVACY POLICY"
-msgstr "ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:231
 msgid "Last updated February 09, 2024"
-msgstr "Последнее обновление: 9 февраля 2024 г."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:236
 msgid ""
 "This privacy notice for Kamranali Limited ('we,' 'us,' or 'our'), describes "
 "how and why we might collect, store, use, and/or share ('process') your "
 "information when you use our services ('Services'), such as when you:"
-msgstr "Настоящее уведомление о конфиденциальности для Kamranali Limited («мы», «нас» или «наш») описывает, как и почему мы можем собирать, хранить, использовать и/или передавать («обрабатывать») вашу информацию, когда вы используете нашу "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:238
 msgid "Visit our website at"
-msgstr "Посетите наш сайт по адресу"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:238
 msgid "summarygenerator"
-msgstr "генератор сводки"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:238
 msgid "or any website of ours that links to this privacy notice"
-msgstr "или любой наш веб-сайт, на котором есть ссылка на это уведомление о конфиденциальности."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:239
 msgid ""
 "Engage with us in other related ways, including any sales, marketing, or "
 "events"
-msgstr "Взаимодействуйте с нами другими способами, включая любые продажи, маркетинг или мероприятия."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:242
 msgid ""
@@ -937,11 +934,11 @@ msgid ""
 "your privacy rights and choices. If you do not agree with our policies and "
 "practices, please do not use our Services. If you still have any questions "
 "or concerns, please contact us at info@summarygenerator.io."
-msgstr "Вопросы или опасения? "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:246
 msgid "SUMMARY OF KEY POINTS"
-msgstr "КРАТКОЕ ОПИСАНИЕ КЛЮЧЕВЫХ МОМЕНТОВ"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:247
 msgid ""
@@ -949,7 +946,7 @@ msgid ""
 "out more details about any of these topics by clicking the link following "
 "each key point or by using our table of contents below to find the section "
 "you are looking for."
-msgstr "В этом кратком изложении представлены ключевые моменты нашего уведомления о конфиденциальности, но вы можете узнать более подробную информацию по любой из этих тем, щелкнув ссылку после каждого ключевого момента или воспользовавшись нашим оглавлением ниже, чтобы найти нужный раздел."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:248
 msgid ""
@@ -958,19 +955,19 @@ msgid ""
 "interact with us and the Services, the choices you make, and the products "
 "and features you use. Learn more about personal information you disclose to "
 "us."
-msgstr "Какую личную информацию мы обрабатываем? "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:249
 msgid ""
 "Do we process any sensitive personal information? We do not process "
 "sensitive personal information."
-msgstr "Обрабатываем ли мы какую-либо конфиденциальную личную информацию? "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:250
 msgid ""
 "Do we receive any information from third parties? We do not receive any "
 "information from third parties."
-msgstr "Получаем ли мы какую-либо информацию от третьих лиц? "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:251
 msgid ""
@@ -980,7 +977,7 @@ msgid ""
 "information for other purposes with your consent. We process your "
 "information only when we have a valid legal reason to do so. Learn more "
 "about how we process your information."
-msgstr "Как мы обрабатываем вашу информацию? "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:252
 msgid ""
@@ -988,14 +985,14 @@ msgid ""
 "We may share information in specific situations and with specific third "
 "parties. Learn more about when and with whom we share your personal "
 "information."
-msgstr "В каких ситуациях и каким сторонам мы передаем личную информацию? "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:253
 msgid ""
 "What are your rights? Depending on where you are located geographically, the "
 "applicable privacy law may mean you have certain rights regarding your "
 "personal information. Learn more about your privacy rights."
-msgstr "Каковы ваши права? "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:254
 msgid ""
@@ -1003,92 +1000,91 @@ msgid ""
 "by submitting a data subject access request, or by contacting us. We will "
 "consider and act upon any request in accordance with applicable data "
 "protection laws."
-msgstr "Как вы реализуете свои права? "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:255
 msgid ""
 "Want to learn more about what we do with any information we collect? Review "
 "the privacy notice in full."
-msgstr "Хотите узнать больше о том, что мы делаем с любой информацией, которую собираем? "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:264
 #: .\summarizer\templates\front\termsandconditions.html:246
 msgid "Table of Contents"
-msgstr "Содержание"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:267
 #: .\summarizer\templates\front\privacypolicy.html:285
 msgid "1. WHAT INFORMATION DO WE COLLECT?"
-msgstr "1. КАКИЕ ИНФОРМАЦИИ МЫ СОБИРАЕМ?"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:268
 #: .\summarizer\templates\front\privacypolicy.html:316
 msgid "2. HOW DO WE PROCESS YOUR INFORMATION?"
-msgstr "2. КАК МЫ ОБРАБАТЫВАЕМ ВАШУ ИНФОРМАЦИЮ?"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:269
 #: .\summarizer\templates\front\privacypolicy.html:341
 msgid "3. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR PERSONAL INFORMATION?"
-msgstr "3. НА КАКИХ ЗАКОННЫХ ОСНОВАНИЯХ МЫ ОСНОВЫВАЕМСЯ ДЛЯ ОБРАБОТКИ ВАШИХ ПЕРСОНАЛЬНЫХ ДАННЫХ?"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:270
 #: .\summarizer\templates\front\privacypolicy.html:376
 msgid "4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?"
-msgstr "4. КОГДА И С КЕМ МЫ ДЕЛИМСЯ ВАШИМИ ПЕРСОНАЛЬНЫМИ ДАННЫМИ?"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:271
 #: .\summarizer\templates\front\privacypolicy.html:394
 msgid "5. HOW DO WE HANDLE YOUR SOCIAL LOGINS?"
-msgstr "5. КАК МЫ ОБРАБАТЫВАЕМ ВАШИ СОЦИАЛЬНЫЕ ВХОДЫ?"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:272
 #: .\summarizer\templates\front\privacypolicy.html:404
 msgid "6. HOW LONG DO WE KEEP YOUR INFORMATION?"
-msgstr "6. КАК ДОЛГО МЫ ХРАНИМ ВАШУ ИНФОРМАЦИЮ?"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:273
 #: .\summarizer\templates\front\privacypolicy.html:419
 msgid "7. DO WE COLLECT INFORMATION FROM MINORS?"
-msgstr "7. СОБИРАЕМ ЛИ МЫ ИНФОРМАЦИЮ ОТ НЕСОВЕРШЕННОЛЕТНИХ?"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:274
 #: .\summarizer\templates\front\privacypolicy.html:432
 msgid "8. WHAT ARE YOUR PRIVACY RIGHTS?"
-msgstr "8. КАКИЕ У ВАС ПРАВА НА КОНФИДЕНЦИАЛЬНОСТЬ?"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:275
 #: .\summarizer\templates\front\privacypolicy.html:482
 msgid "9. CONTROLS FOR DO-NOT-TRACK FEATURES"
-msgstr "9. УПРАВЛЕНИЕ ФУНКЦИЯМИ 'DO-NOT-TRACK'"
-
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:276
 #: .\summarizer\templates\front\privacypolicy.html:490
 msgid "10. DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?"
-msgstr "10. ИМЕЮТ ЛИ ЖИТЕЛИ СОЕДИНЕННЫХ ШТАТОВ КОНКРЕТНЫЕ ПРАВА НА КОНФИДЕНЦИАЛЬНОСТЬ?"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:277
 #: .\summarizer\templates\front\privacypolicy.html:603
 msgid "11. DO WE MAKE UPDATES TO THIS NOTICE?"
-msgstr "11. ОБНОВЛЯЕМ ЛИ МЫ ЭТОТ УВЕДОМЛЕНИЕ?"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:278
 #: .\summarizer\templates\front\privacypolicy.html:614
 msgid "12. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?"
-msgstr "12. КАК ВЫ МОЖЕТЕ СВЯЗАТЬСЯ С НАМИ ПО ВОПРОСАМ ЭТОГО УВЕДОМЛЕНИЯ?"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:279
 #: .\summarizer\templates\front\privacypolicy.html:628
 msgid "13. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?"
-msgstr "13. КАК ВЫ МОЖЕТЕ ПРОСМОТРЕТЬ, ОБНОВИТЬ ИЛИ УДАЛИТЬ ДАННЫЕ, КОТОРЫЕ МЫ СОБИРАЕМ ОТ ВАС?"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:286
 msgid "Personal information you disclose to us"
-msgstr "Личная информация, которую вы нам раскрываете."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:287
 msgid "In Short: We collect personal information that you provide to us."
-msgstr "Коротко: мы собираем личную информацию, которую вы нам предоставляете."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:289
 msgid ""
@@ -1096,7 +1092,7 @@ msgid ""
 "register on the Services, express an interest in obtaining information about "
 "us or our products and Services, when you participate in activities on the "
 "Services, or otherwise when you contact us."
-msgstr "Мы собираем личную информацию, которую вы добровольно предоставляете нам, когда регистрируетесь в Сервисах, выражаете заинтересованность в получении информации о нас или наших продуктах и ​​Услугах, когда вы участвуете в деятельности Сервисов или иным образом, когда вы связываетесь с нами."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:291
 msgid ""
@@ -1104,51 +1100,51 @@ msgid ""
 "collect depends on the context of your interactions with us and the "
 "Services, the choices you make, and the products and features you use. The "
 "personal information we collect may include the following:"
-msgstr "Персональная информация, предоставленная вами. "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:294
 msgid "Names"
-msgstr "Имена"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:295
 msgid "Phone Numbers"
-msgstr "Номера телефонов"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:296
 msgid "Email Addresses"
-msgstr "Адреса электронной почты"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:297
 msgid "Mailing Addresses"
-msgstr "Почтовые адреса"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:298
 msgid "Usernames"
-msgstr "Имена пользователей"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:299
 msgid "Passwords"
-msgstr "Пароли"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:300
 msgid "Billing Addresses"
-msgstr "Платежные адреса"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:301
 msgid "Debit/Credit Card Numbers"
-msgstr "Номера дебетовых/кредитных карт"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:303
 msgid "Sensitive Information."
-msgstr "Конфиденциальная информация."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:303
 msgid "We do not process sensitive information."
-msgstr "Мы не обрабатываем конфиденциальную информацию."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:305
 msgid "Payment Data."
-msgstr "Платежные данные."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:305
 msgid ""
@@ -1156,11 +1152,11 @@ msgid ""
 "such as your payment instrument number, and the security code associated "
 "with your payment instrument. All payment data is stored by __________. You "
 "may find their privacy notice link(s) here: __________."
-msgstr "Мы можем собирать данные, необходимые для обработки вашего платежа, если вы совершаете покупки, например, номер вашего платежного инструмента и код безопасности, связанный с вашим платежным инструментом. "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:307
 msgid "Social Media Login Data."
-msgstr "Данные для входа в социальные сети."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:307
 msgid ""
@@ -1169,13 +1165,13 @@ msgid ""
 "media account. If you choose to register in this way, we will collect the "
 "information described in the section called 'HOW DO WE HANDLE YOUR SOCIAL "
 "LOGINS?' below."
-msgstr "Мы можем предоставить вам возможность зарегистрироваться у нас, используя данные вашей существующей учетной записи в социальной сети, например Facebook, Twitter или другой социальной сети. "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:309
 msgid ""
 "All personal information that you provide to us must be true, complete, and "
 "accurate, and you must notify us of any changes to such personal information."
-msgstr "Вся личная информация, которую вы нам предоставляете, должна быть правдивой, полной и точной, и вы должны уведомлять нас о любых изменениях в такой личной информации."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:317
 msgid ""
@@ -1183,45 +1179,45 @@ msgid ""
 "our Services, communicate with you, for security and fraud prevention, and "
 "to comply with law. We may also process your information for other purposes "
 "with your consent."
-msgstr "Коротко: мы обрабатываем вашу информацию для предоставления, улучшения и администрирования наших Сервисов, общения с вами, для обеспечения безопасности и предотвращения мошенничества, а также для соблюдения закона. "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:320
 msgid ""
 "We process your personal information for a variety of reasons, depending on "
 "how you interact with our Services, including:"
-msgstr "Мы обрабатываем вашу личную информацию по разным причинам, в зависимости от того, как вы взаимодействуете с нашими Сервисами, в том числе:"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:325
 msgid ""
 "To facilitate account creation and authentication and otherwise manage user "
 "accounts."
-msgstr "Для облегчения создания и аутентификации учетных записей, а также иного управления учетными записями пользователей."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:326
 msgid ""
 "We may process your information so you can create and log in to your "
 "account, as well as keep your account in working order."
-msgstr "Мы можем обрабатывать вашу информацию, чтобы вы могли создать свою учетную запись и войти в нее, а также поддерживать ее в рабочем состоянии."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:329
 msgid "To respond to user inquiries/offer support to users."
-msgstr "Чтобы отвечать на запросы пользователей/предлагать поддержку пользователям."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:330
 msgid ""
 "We may process your information to respond to your inquiries and solve any "
 "potential issues you might have with the requested service."
-msgstr "Мы можем обрабатывать вашу информацию, чтобы отвечать на ваши запросы и решать любые потенциальные проблемы, которые могут возникнуть у вас с запрошенной услугой."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:333
 msgid "To save or protect an individual's vital interest."
-msgstr "Чтобы спасти или защитить жизненные интересы человека."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:334
 msgid ""
 "We may process your information when necessary to save or protect an "
 "individual’s vital interest, such as to prevent harm."
-msgstr "Мы можем обрабатывать вашу информацию, когда это необходимо для сохранения или защиты жизненно важных интересов человека, например, для предотвращения вреда."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:342
 msgid ""
@@ -1231,11 +1227,11 @@ msgid ""
 "provide you with services to enter into or fulfill our contractual "
 "obligations, to protect your rights, or to fulfill our legitimate business "
 "interests."
-msgstr "Вкратце: мы обрабатываем вашу личную информацию только тогда, когда мы считаем, что это необходимо, и у нас есть веская юридическая причина (т. е. правовая основа) для этого в соответствии с применимым законодательством, например, с вашего согласия, для соблюдения законов, для предоставления вам "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:344
 msgid "If you are located in the EU or UK, this section applies to you."
-msgstr "Если вы находитесь в ЕС или Великобритании, этот раздел относится к вам."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:346
 msgid ""
@@ -1243,41 +1239,41 @@ msgid ""
 "explain the valid legal bases we rely on in order to process your personal "
 "information. As such, we may rely on the following legal bases to process "
 "your personal information:"
-msgstr "Общий регламент по защите данных (GDPR) и GDPR Великобритании требуют от нас объяснить действующие правовые основы, на которые мы полагаемся при обработке вашей личной информации. "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:349
 msgid "Consent."
-msgstr "Согласие."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:349
 msgid ""
 "We may process your information if you have given us permission (i.e., "
 "consent) to use your personal information for a specific purpose. You can "
 "withdraw your consent at any time. Learn more about withdrawing your consent."
-msgstr "Мы можем обрабатывать вашу информацию, если вы дали нам разрешение (т. е. согласие) на использование вашей личной информации для конкретной цели. "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:350
 msgid "Performance"
-msgstr "Производительность"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:350
 msgid "of a Contract."
-msgstr "Контракта."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:350
 msgid ""
 "We may process your personal information when we believe it is necessary to "
 "fulfill our contractual obligations to you, including providing our Services "
 "or at your request prior to entering into a contract with you."
-msgstr "Мы можем обрабатывать вашу личную информацию, когда считаем, что это необходимо для выполнения наших договорных обязательств перед вами, включая предоставление наших Услуг, или по вашему запросу до заключения с вами договора."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:351
 msgid "Legal"
-msgstr "Правовые"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:351
 msgid "Obligations."
-msgstr "Обязательства."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:351
 msgid ""
@@ -1286,26 +1282,26 @@ msgid ""
 "enforcement body or regulatory agency, exercise or defend our legal rights, "
 "or disclose your information as evidence in litigation in which we are "
 "involved."
-msgstr "Мы можем обрабатывать вашу информацию там, где, по нашему мнению, это необходимо для соблюдения наших юридических обязательств, например, для сотрудничества с правоохранительным органом или регулирующим органом, осуществления или защиты наших законных прав или раскрытия вашей информации в качестве доказательства в судебном процессе, в котором "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:352
 msgid "Vital"
-msgstr "Жизненно важный"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:352
 msgid "Interests."
-msgstr "Интересы."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:352
 msgid ""
 "We may process your information where we believe it is necessary to protect "
 "your vital interests or the vital interests of a third party, such as "
 "situations involving potential threats to the safety of any person."
-msgstr "Мы можем обрабатывать вашу информацию, если мы считаем, что это необходимо для защиты ваших жизненно важных интересов или жизненно важных интересов третьей стороны, например, в ситуациях, связанных с потенциальными угрозами безопасности любого человека."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:354
 msgid "If you are located in Canada, this section applies to you."
-msgstr "Если вы находитесь в Канаде, этот раздел относится к вам."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:356
 msgid ""
@@ -1313,45 +1309,45 @@ msgid ""
 "e., express consent) to use your personal information for a specific "
 "purpose, or in situations where your permission can be inferred (i.e., "
 "implied consent). You can withdraw your consent at any time."
-msgstr "Мы можем обрабатывать вашу информацию, если вы дали нам конкретное разрешение (т. е. явное согласие) на использование вашей личной информации для определенной цели или в ситуациях, когда ваше разрешение можно предположить (т. е. подразумеваемое согласие). "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:358
 msgid ""
 "In some exceptional cases, we may be legally permitted under applicable law "
 "to process your information without your consent, including, for example:"
-msgstr "В некоторых исключительных случаях в соответствии с действующим законодательством нам может быть разрешено обрабатывать вашу информацию без вашего согласия, включая, например:"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:361
 msgid ""
 "If collection is clearly in the interests of an individual and consent "
 "cannot be obtained in a timely way"
-msgstr "Если сбор явно отвечает интересам физического лица и согласие не может быть получено своевременно."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:362
 msgid "For investigations and fraud detection and prevention"
-msgstr "Для расследований, выявления и предотвращения мошенничества."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:363
 msgid "For business transactions provided certain conditions are met"
-msgstr "Для деловых операций при соблюдении определенных условий"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:364
 msgid ""
 "If it is contained in a witness statement and the collection is necessary to "
 "assess, process, or settle an insurance claim"
-msgstr "Если оно содержится в показаниях свидетеля и сбор средств необходим для оценки, обработки или урегулирования страхового возмещения."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:365
 msgid ""
 "For identifying injured, ill, or deceased persons and communicating with "
 "next of kin"
-msgstr "Для выявления раненых, больных или умерших лиц и связи с ближайшими родственниками."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:366
 msgid ""
 "If we have reasonable grounds to believe an individual has been, is, or may "
 "be a victim of financial abuse"
-msgstr "Если у нас есть разумные основания полагать, что физическое лицо было, является или может стать жертвой финансового злоупотребления"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:367
 msgid ""
@@ -1359,30 +1355,30 @@ msgid ""
 "compromise the availability or the accuracy of the information and the "
 "collection is reasonable for purposes related to investigating a breach of "
 "an agreement or a contravention of the laws of Canada or a province"
-msgstr "Если разумно ожидать, что сбор и использование с согласия поставят под угрозу доступность или точность информации, и сбор разумен для целей, связанных с расследованием нарушения соглашения или нарушения законов Канады или провинции."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:368
 msgid ""
 "If disclosure is required to comply with a subpoena, warrant, court order, "
 "or rules of the court relating to the production of records"
-msgstr "Если раскрытие информации требуется в соответствии с повесткой в ​​суд, ордером, постановлением суда или правилами суда, касающимися производства записей."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:369
 msgid ""
 "If it was produced by an individual in the course of their employment, "
 "business, or profession and the collection is consistent with the purposes "
 "for which the information was produced"
-msgstr "Если информация была создана физическим лицом в ходе его работы, бизнеса или профессии и сбор соответствует целям, для которых информация была создана."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:370
 msgid ""
 "If the collection is solely for journalistic, artistic, or literary purposes"
-msgstr "Если коллекция предназначена исключительно для журналистских, художественных или литературных целей."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:371
 msgid ""
 "If the information is publicly available and is specified by the regulations"
-msgstr "Если информация общедоступна и предусмотрена нормативными актами"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:377
 #: .\summarizer\templates\front\privacypolicy.html:395
@@ -1392,33 +1388,33 @@ msgstr "Если информация общедоступна и предусм
 #: .\summarizer\templates\front\privacypolicy.html:492
 #: .\summarizer\templates\front\privacypolicy.html:605
 msgid "In Short:"
-msgstr "Короче:"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:377
 msgid ""
 "We may share information in specific situations described in this section "
 "and/or with the following third parties."
-msgstr "Мы можем передавать информацию в конкретных ситуациях, описанных в этом разделе, и/или следующим третьим лицам."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:379
 msgid ""
 "We may need to share your personal information in the following situations:"
-msgstr "Нам может потребоваться передать вашу личную информацию в следующих ситуациях:"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:382
 msgid "Business Transfers."
-msgstr "Деловые переводы."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:382
 msgid ""
 "We may share or transfer your information in connection with, or during "
 "negotiations of, any merger, sale of company assets, financing, or "
 "acquisition of all or a portion of our business to another company."
-msgstr "Мы можем делиться или передавать вашу информацию в связи или во время переговоров о любом слиянии, продаже активов компании, финансировании или приобретении всего или части нашего бизнеса другой компании."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:383
 msgid "When we use Google Analytics."
-msgstr "Когда мы используем Google Analytics."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:383
 msgid ""
@@ -1426,7 +1422,7 @@ msgid ""
 "use of the Services. The Google Analytics Advertising Features that we may "
 "use include: Google Analytics Demographics and Interests Reporting. To opt "
 "out of being tracked by Google Analytics across the Services, visit"
-msgstr "Мы можем передавать вашу информацию Google Analytics для отслеживания и анализа использования Сервисов. "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:384
 msgid "https://tools.google.com/dlpage/gaoptout"
@@ -1436,7 +1432,7 @@ msgstr ""
 msgid ""
 "You can opt out of Google Analytics Advertising Features through Ads "
 "Settings and Ad Settings for mobile apps. Other opt-out means include"
-msgstr "Вы можете отказаться от рекламных функций Google Analytics через настройки рекламы и настройки рекламы для мобильных приложений. "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:385
 msgid "http://optout.networkadvertising.org/"
@@ -1444,7 +1440,7 @@ msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:385
 msgid "and"
-msgstr "и"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:386
 msgid "http://www.networkadvertising.org/mobile-choice"
@@ -1453,11 +1449,11 @@ msgstr ""
 #: .\summarizer\templates\front\privacypolicy.html:386
 msgid ""
 "For more information on the privacy practices of Google, please visit the"
-msgstr "Для получения дополнительной информации о политике конфиденциальности Google посетите"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:387
 msgid "Google Privacy & Terms"
-msgstr "Конфиденциальность Google"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:387
 msgid "page."
@@ -1479,7 +1475,7 @@ msgid ""
 "often include your name, email address, friends list, and profile picture, "
 "as well as other information you choose to make public on such a social "
 "media platform."
-msgstr "Наши Сервисы предлагают вам возможность зарегистрироваться и войти в систему, используя данные вашей учетной записи в сторонней социальной сети (например, ваши логины в Facebook или Twitter). "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:399
 msgid ""
@@ -1490,13 +1486,13 @@ msgid ""
 "social media provider. We recommend that you review their privacy notice to "
 "understand how they collect, use, and share your personal information, and "
 "how you can set your privacy preferences on their sites and apps."
-msgstr "Мы будем использовать полученную информацию только для целей, описанных в настоящем уведомлении о конфиденциальности или иным образом разъясненных вам в соответствующих Сервисах. "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:408
 msgid ""
 "We keep your information for as long as necessary to fulfill the purposes "
 "outlined in this privacy notice unless otherwise required by law."
-msgstr "Мы храним вашу информацию столько времени, сколько необходимо для достижения целей, изложенных в настоящем уведомлении о конфиденциальности, если иное не предусмотрено законом."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:411
 msgid ""
@@ -1505,7 +1501,7 @@ msgid ""
 "period is required or permitted by law (such as tax, accounting, or other "
 "legal requirements). No purpose in this notice will require us keeping your "
 "personal information for longer than ."
-msgstr "Мы будем хранить вашу личную информацию только до тех пор, пока это необходимо для целей, изложенных в настоящем уведомлении о конфиденциальности, если только более длительный период хранения не требуется или не разрешен законом (например, налоговыми, бухгалтерскими или другими юридическими требованиями). "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:414
 msgid ""
@@ -1515,13 +1511,13 @@ msgid ""
 "been stored in backup archives), then we will securely store your personal "
 "information and isolate it from any further processing until deletion is "
 "possible."
-msgstr "Если у нас нет постоянной законной деловой необходимости обрабатывать вашу личную информацию, мы либо удалим, либо обезличим такую ​​информацию, либо, если это невозможно (например, потому что ваша личная информация хранится в резервных архивах), тогда мы "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:424
 msgid ""
 "We do not knowingly collect data from or market to children under 18 years "
 "of age."
-msgstr "Мы сознательно не собираем и не продаем данные детям до 18 лет."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:427
 msgid ""
@@ -1533,7 +1529,7 @@ msgid ""
 "the account and take reasonable measures to promptly delete such data from "
 "our records. If you become aware of any data we may have collected from "
 "children under age 18, please contact us at info@summarygenerator.io."
-msgstr "Мы сознательно не запрашиваем данные у детей до 18 лет и не продаем их им. "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:437
 msgid ""
@@ -1541,7 +1537,7 @@ msgid ""
 "(UK), Switzerland, and Canada, you have rights that allow you greater access "
 "to and control over your personal information. You may review, change, or "
 "terminate your account at any time."
-msgstr "В некоторых регионах, таких как Европейская экономическая зона (ЕЭЗ), Великобритания (Великобритания), Швейцария и Канада, у вас есть права, которые предоставляют вам больший доступ к вашей личной информации и контроль над ней. "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:441
 msgid ""
@@ -1554,44 +1550,44 @@ msgid ""
 "circumstances, you may also have the right to object to the processing of "
 "your personal information. You can make such a request by contacting us by "
 "using the contact details provided in the section \\"
-msgstr "В некоторых регионах (например, в ЕЭЗ, Великобритании, Швейцарии и Канаде) у вас есть определенные права в соответствии с применимыми законами о защите данных. "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:444
 msgid ""
 "We will consider and act upon any request in accordance with applicable data "
 "protection laws."
-msgstr "Мы рассмотрим любой запрос и примем меры в соответствии с применимыми законами о защите данных."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:447
 msgid ""
 "If you are located in the EEA or UK and you believe we are unlawfully "
 "processing your personal information, you also have the right to complain to "
 "your"
-msgstr "Если вы находитесь в ЕЭЗ или Великобритании и считаете, что мы незаконно обрабатываем вашу личную информацию, вы также имеете право подать жалобу своему"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:448
 msgid "Member State data protection authority"
-msgstr "Орган по защите данных государства-члена."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:449
 msgid "or"
-msgstr "или"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:450
 msgid "UK data protection authority"
-msgstr "Орган по защите данных Великобритании."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:452
 msgid "If you are located in Switzerland, you may contact the"
-msgstr "Если вы находитесь в Швейцарии, вы можете обратиться в"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:453
 msgid "Federal Data Protection and Information Commissioner"
-msgstr "Федеральный комиссар по защите данных и информации."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:456
 msgid "Withdrawing your consent:"
-msgstr "Отзыв вашего согласия:"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:457
 msgid ""
@@ -1600,7 +1596,7 @@ msgid ""
 "you have the right to withdraw your consent at any time. You can withdraw "
 "your consent at any time by contacting us by using the contact details "
 "provided in the section \\"
-msgstr "Если мы полагаемся на ваше согласие на обработку вашей личной информации, которое может быть явным и/или подразумеваемым согласием в зависимости от применимого законодательства, вы имеете право отозвать свое согласие в любое время. "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:460
 msgid ""
@@ -1608,32 +1604,32 @@ msgid ""
 "processing before its withdrawal nor, when applicable law allows, will it "
 "affect the processing of your personal information conducted in reliance on "
 "lawful processing grounds other than consent."
-msgstr "Однако обратите внимание, что это не повлияет на законность обработки до ее отзыва и, если применимое законодательство это позволяет, не повлияет на обработку вашей личной информации, проводимую на основании законных оснований обработки, отличных от согласия."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:463
 msgid "Opting out of marketing and promotional communications:"
-msgstr "Отказ от маркетинговых и рекламных рассылок:"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:464
 msgid ""
 "You can unsubscribe from our marketing and promotional communications at any "
 "time by clicking on the unsubscribe link in the emails that we send, or by "
 "contacting us using the details provided in the section \\"
-msgstr "Вы можете отказаться от подписки на наши маркетинговые и рекламные сообщения в любое время, нажав на ссылку отказа от подписки в электронных письмах, которые мы отправляем, или связавшись с нами, используя данные, указанные в разделе \\"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:466
 msgid "Account Information"
-msgstr "Информация об аккаунте"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:467
 msgid ""
 "If you would at any time like to review or change the information in your "
 "account or terminate your account, you can:"
-msgstr "Если вы в любой момент захотите просмотреть или изменить информацию в своей учетной записи или закрыть свою учетную запись, вы можете:"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:470
 msgid "Log in to your account settings and update your user account."
-msgstr "Войдите в настройки своей учетной записи и обновите свою учетную запись пользователя."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:474
 msgid ""
@@ -1642,13 +1638,13 @@ msgid ""
 "retain some information in our files to prevent fraud, troubleshoot "
 "problems, assist with any investigations, enforce our legal terms and/or "
 "comply with applicable legal requirements."
-msgstr "По вашему запросу на прекращение действия вашей учетной записи мы деактивируем или удалим вашу учетную запись и информацию из наших активных баз данных. "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:477
 msgid ""
 "If you have questions or comments about your privacy rights, you may email "
 "us at info@summarygenerator.io."
-msgstr "Если у вас есть вопросы или комментарии о ваших правах на конфиденциальность, вы можете написать нам по адресу info@summarygenerator.io."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:484
 msgid ""
@@ -1662,46 +1658,46 @@ msgid ""
 "online. If a standard for online tracking is adopted that we must follow in "
 "the future, we will inform you about that practice in a revised version of "
 "this privacy notice."
-msgstr "Большинство веб-браузеров, а также некоторые мобильные операционные системы и мобильные приложения включают функцию или настройку «Не отслеживать» («DNT»), которую вы можете активировать, чтобы указать на ваше предпочтение конфиденциальности, чтобы данные о вашей активности в Интернете не отслеживались и не собирались. "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:493
 msgid ""
 "If you are a resident of , you are granted specific rights regarding access "
 "to your personal information."
-msgstr "Если вы проживаете в России, вам предоставляются особые права в отношении доступа к вашей личной информации."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:496
 msgid "What categories of personal information do we collect?"
-msgstr "Какие категории личной информации мы собираем?"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:499
 msgid ""
 "We have collected the following categories of personal information in the "
 "past twelve (12) months:"
-msgstr "За последние двенадцать (12) месяцев мы собрали следующие категории личной информации:"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:504
 msgid "Category"
-msgstr "Категория"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:505
 msgid "Examples"
-msgstr "Примеры"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:506
 msgid "Collected"
-msgstr "Собран"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:511
 msgid "A. Identifiers"
-msgstr "А. "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:513
 msgid ""
 "Contact details, such as real name, alias, postal address, telephone or "
 "mobile contact number, unique personal identifier, online identifier, "
 "Internet Protocol address, email address, and account name"
-msgstr "Контактные данные, такие как настоящее имя, псевдоним, почтовый адрес, контактный номер телефона или мобильного телефона, уникальный личный идентификатор, онлайн-идентификатор, адрес интернет-протокола, адрес электронной почты и имя учетной записи."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:515
 #: .\summarizer\templates\front\privacypolicy.html:520
@@ -1714,136 +1710,136 @@ msgstr "Контактные данные, такие как настоящее 
 #: .\summarizer\templates\front\privacypolicy.html:563
 #: .\summarizer\templates\front\privacypolicy.html:568
 msgid "No"
-msgstr "Нет"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:518
 msgid "B. Protected classification characteristics under state or federal law"
-msgstr "Б. "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:519
 msgid "Gender and date of birth"
-msgstr "Пол и дата рождения."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:523
 msgid "C. Commercial information"
-msgstr "С. "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:524
 msgid ""
 "Transaction information, purchase history, financial details, and payment "
 "information"
-msgstr "Информация о транзакциях, история покупок, финансовые данные и информация о платежах."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:528
 msgid "D. Biometric information"
-msgstr "Д. "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:530
 msgid ""
 "Browsing history, search history, online behavior, interest data, and "
 "interactions with our and other websites, applications, systems, and "
 "advertisements"
-msgstr "История просмотров, история поиска, поведение в Интернете, данные об интересах и взаимодействие с нашими и другими веб-сайтами, приложениями, системами и рекламными объявлениями."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:535
 msgid "F. Geolocation data"
-msgstr "Ф. "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:536
 msgid "Device location"
-msgstr "Местоположение устройства"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:540
 msgid ""
 "G. Audio, electronic, visual, thermal, olfactory, or similar information"
-msgstr "Г. "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:542
 msgid ""
 "Images and audio, video or call recordings created in connection with our "
 "business activities"
-msgstr "Изображения и аудио-, видеозаписи или записи разговоров, созданные в связи с нашей коммерческой деятельностью."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:547
 msgid "H. Professional or employment-related information"
-msgstr "Х. "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:549
 msgid ""
 "Business contact details in order to provide you our Services at a business "
 "level or job title, work history, and professional qualifications if you "
 "apply for a job with us"
-msgstr "Деловые контактные данные для предоставления вам наших Услуг на деловом уровне или должности, истории работы и профессиональной квалификации, если вы подаете заявку на работу у нас."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:554
 msgid "I. Education Information"
-msgstr "И. "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:555
 msgid "Student records and directory information"
-msgstr "Записи учащихся и справочная информация."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:559
 msgid "J. Inferences drawn from collected personal information"
-msgstr "Дж. "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:561
 msgid ""
 "Inferences drawn from any of the collected personal information listed above "
 "to create a profile or summary about, for example, an individual’s "
 "preferences and characteristics"
-msgstr "Выводы, сделанные на основе любой собранной личной информации, указанной выше, для создания профиля или сводки, например, о предпочтениях и характеристиках человека."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:566
 msgid "K. Sensitive personal Information"
-msgstr "К. "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:575
 msgid ""
 "We may also collect other personal information outside of these categories "
 "through instances where you interact with us in person, online, or by phone "
 "or mail in the context of:"
-msgstr "Мы также можем собирать другую личную информацию за пределами этих категорий в случаях, когда вы взаимодействуете с нами лично, через Интернет, по телефону или почте в контексте:"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:578
 msgid "Receiving help through our customer support channels;"
-msgstr "Получение помощи через наши каналы поддержки клиентов;"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:579
 msgid "Participation in customer surveys or contests;"
-msgstr "Участие в опросах или конкурсах клиентов;"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:580
 msgid ""
 "Facilitation in the delivery of our Services and to respond to your "
 "inquiries."
-msgstr "Содействие предоставлению наших Услуг и ответы на ваши запросы."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:583
 msgid "How do we use and share your personal information?"
-msgstr "Как мы используем и передаем вашу личную информацию?"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:586
 msgid "Learn about how we use your personal information in the section, \\"
-msgstr "Узнайте о том, как мы используем вашу личную информацию, в разделе \\."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:589
 msgid "Will your information be shared with anyone else?"
-msgstr "Будет ли ваша информация передана кому-либо еще?"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:592
 msgid ""
 "We may disclose your personal information with our service providers "
 "pursuant to a written contract between us and each service provider. Learn "
 "more about how we disclose personal information to in the section, \\"
-msgstr "Мы можем раскрывать вашу личную информацию нашим поставщикам услуг в соответствии с письменным договором между нами и каждым поставщиком услуг. "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:595
 msgid ""
 "We may use your personal information for our own business purposes, such as "
 "for undertaking internal research for technological development and "
 "demonstration. This is not considered to be \\"
-msgstr "Мы можем использовать вашу личную информацию в наших деловых целях, например, для проведения внутренних исследований в целях технологического развития и демонстрации. "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:598
 msgid ""
@@ -1851,25 +1847,25 @@ msgid ""
 "parties for a business or commercial purpose in the preceding twelve (12) "
 "months. We will not sell or share personal information in the future "
 "belonging to website visitors, users, and other consumers."
-msgstr "Мы не раскрывали, не продавали и не передавали какую-либо личную информацию третьим лицам в деловых или коммерческих целях в течение предыдущих двенадцати (12) месяцев. "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:606
 msgid ""
 "Yes, we will update this notice as necessary to stay compliant with relevant "
 "laws."
-msgstr "Да, мы будем обновлять это уведомление по мере необходимости, чтобы обеспечить соответствие соответствующим законам."
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:609
 msgid ""
 "We may update this privacy notice from time to time. The updated version "
 "will be indicated by an updated \\"
-msgstr "Мы можем время от времени обновлять данное уведомление о конфиденциальности. "
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:617
 msgid ""
 "If you have questions or comments about this notice, you may email us at "
 "info@summarygenerator.io or contact us by post at:"
-msgstr "Если у вас есть вопросы или комментарии по поводу этого уведомления, вы можете написать нам по адресу info@summarygenerator.io или связаться с нами по почте:"
+msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:631
 msgid ""
@@ -1878,35 +1874,35 @@ msgid ""
 "information, or delete it. To request to review, update, or delete your "
 "personal information, please fill out and submit a data subject access "
 "request."
-msgstr "В соответствии с действующим законодательством вашей страны вы можете иметь право запросить доступ к личной информации, которую мы собираем от вас, изменить эту информацию или удалить ее. "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:213
 msgid "Last Updated Feb 10, 2023"
-msgstr "Последнее обновление: 10 февраля 2023 г."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:219
 msgid "AGREEMENT TO OUR LEGAL TERMS"
-msgstr "СОГЛАСИЕ С НАШИМИ ЮРИДИЧЕСКИМ УСЛОВИЯМИ"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:221
 msgid ""
 "We are SummaryGenerator Company, a company registered in England at "
 "International House,, 12 Constance Street,, London E16 2DQ."
-msgstr "Мы SummaryGenerator Company, компания, зарегистрированная в Англии по адресу International House, 12 Constance Street, Лондон, E16 2DQ."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:224
 msgid ""
 "We operate the website https://SummaryGenerator.io (the 'Site'), as well as "
 "any other related products and services that refer or link to these legal "
 "terms (the 'Legal Terms') (collectively, the 'Services')."
-msgstr "Мы управляем веб-сайтом https://SummaryGenerator.io («Сайт»), а также любыми другими сопутствующими продуктами и услугами, которые ссылаются на эти юридические условия или ссылаются на них («Юридические условия») (совместно именуемые «Услуги»). "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:227
 msgid ""
 "You can contact us by phone at +447361622097, email at info@summarygenerator."
 "io, or by mail to International House,, 12 Constance Street,, London E16 "
 "2DQ, England."
-msgstr "Вы можете связаться с нами по телефону 447361622097, по электронной почте info@summarygenerator.io или по почте в International House, 12 Constance Street, London E16 2DQ, England."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:230
 msgid ""
@@ -1917,7 +1913,7 @@ msgid ""
 "all of these Legal Terms. IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, "
 "THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST "
 "DISCONTINUE USE IMMEDIATELY."
-msgstr "Настоящие Юридические условия представляют собой юридически обязывающее соглашение, заключенное между вами лично или от имени юридического лица («вы») и SummaryGenerator относительно вашего доступа к Услугам и их использования. "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:233
 msgid ""
@@ -1926,7 +1922,7 @@ msgid ""
 "posting or notifying you by info@summarygenerator.io, as stated in the email "
 "message. By continuing to use the Services after the effective date of any "
 "changes, you agree to be bound by the modified terms."
-msgstr "Мы предоставим вам предварительное уведомление о любых запланированных изменениях в используемых вами Сервисах. "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:236
 msgid ""
@@ -1937,148 +1933,147 @@ msgid ""
 "must have your parent or guardian read and agree to these Legal Terms prior "
 "to you using the Services. We recommend that you print a copy of these Legal "
 "Terms for your records."
-msgstr "Услуги предназначены для пользователей старше 13 лет. "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:249
 #: .\summarizer\templates\front\termsandconditions.html:280
 msgid "1. OUR SERVICES"
-msgstr "1. НАШИ УСЛУГИ"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:250
 #: .\summarizer\templates\front\termsandconditions.html:289
 msgid "2. INTELLECTUAL PROPERTY RIGHTS"
-msgstr "2. ПРАВА НА ИНТЕЛЛЕКТУАЛЬНУЮ СОБСТВЕННОСТЬ"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:251
 #: .\summarizer\templates\front\termsandconditions.html:359
 msgid "3. USER REPRESENTATIONS"
-msgstr "3. ПРЕДСТАВЛЕНИЯ ПОЛЬЗОВАТЕЛЯ"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:252
 #: .\summarizer\templates\front\termsandconditions.html:368
 msgid "4. USER REGISTRATION"
-msgstr "4. РЕГИСТРАЦИЯ ПОЛЬЗОВАТЕЛЯ"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:253
 #: .\summarizer\templates\front\termsandconditions.html:373
 msgid "5. PURCHASES AND PAYMENT"
-msgstr "5. ПОКУПКИ И ОПЛАТА"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:254
 #: .\summarizer\templates\front\termsandconditions.html:396
 msgid "6. SUBSCRIPTIONS"
-msgstr "6. ПОДПИСКИ"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:255
 #: .\summarizer\templates\front\termsandconditions.html:411
 msgid "7. SOFTWARE"
-msgstr "7. ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:256
 #: .\summarizer\templates\front\termsandconditions.html:417
 msgid "8. PROHIBITED ACTIVITIES"
-msgstr "8. ЗАПРЕЩЕННЫЕ ДЕЙСТВИЯ"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:257
 #: .\summarizer\templates\front\termsandconditions.html:452
 msgid "9. USER GENERATED CONTRIBUTIONS"
-msgstr "9. ПОЛЬЗОВАТЕЛЬСКИЕ ВКЛАДЫ"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:258
 #: .\summarizer\templates\front\termsandconditions.html:475
 msgid "10. CONTRIBUTION LICENSE"
-msgstr "10. ЛИЦЕНЗИЯ НА ВКЛАД"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:259
 #: .\summarizer\templates\front\termsandconditions.html:486
 msgid "11. SOCIAL MEDIA"
-msgstr "11. СОЦИАЛЬНЫЕ СЕТИ"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:260
 #: .\summarizer\templates\front\termsandconditions.html:491
 msgid "12. THIRD-PARTY WEBSITES AND CONTENT"
-msgstr "12. САЙТЫ И СОДЕРЖАНИЕ ТРЕТЬИХ СТОРОН"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:261
 #: .\summarizer\templates\front\termsandconditions.html:496
 msgid "13. ADVERTISERS"
-msgstr "13. РЕКЛАМОДАТЕЛИ"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:262
 #: .\summarizer\templates\front\termsandconditions.html:500
 msgid "14. SERVICES MANAGEMENT"
-msgstr "14. УПРАВЛЕНИЕ УСЛУГАМИ"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:263
 #: .\summarizer\templates\front\termsandconditions.html:504
 msgid "15. PRIVACY POLICY"
-msgstr "15. ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:264
 #: .\summarizer\templates\front\termsandconditions.html:512
 msgid "16. TERM AND TERMINATION"
-msgstr "16. СРОК И ЗАВЕРШЕНИЕ"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:265
 #: .\summarizer\templates\front\termsandconditions.html:518
 msgid "17. MODIFICATIONS AND INTERRUPTIONS"
-msgstr "17. ИЗМЕНЕНИЯ И ПРЕРЫВАНИЯ"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:266
 #: .\summarizer\templates\front\termsandconditions.html:524
 msgid "18. GOVERNING LAW"
-msgstr "18. ЗАКОНОДАТЕЛЬСТВО"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:267
 #: .\summarizer\templates\front\termsandconditions.html:529
 msgid "19. DISPUTE RESOLUTION"
-msgstr "19. РАЗРЕШЕНИЕ СПОРОВ"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:268
 #: .\summarizer\templates\front\termsandconditions.html:540
 msgid "20. CORRECTIONS"
-msgstr "20. ИСПРАВЛЕНИЯ"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:269
 #: .\summarizer\templates\front\termsandconditions.html:544
 msgid "21. DISCLAIMER"
-msgstr "21. ОТКАЗ ОТ ОТВЕТСТВЕННОСТИ"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:270
 #: .\summarizer\templates\front\termsandconditions.html:551
 msgid "22. LIMITATIONS OF LIABILITY"
-msgstr "22. ОГРАНИЧЕНИЯ ОТВЕТСТВЕННОСТИ"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:271
 #: .\summarizer\templates\front\termsandconditions.html:555
 msgid "23. INDEMNIFICATION"
-msgstr "23. ВОЗМЕЩЕНИЕ УБЫТКОВ"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:272
 #: .\summarizer\templates\front\termsandconditions.html:559
 msgid "24. USER DATA"
-msgstr "24. ДАННЫЕ ПОЛЬЗОВАТЕЛЯ"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:273
 #: .\summarizer\templates\front\termsandconditions.html:563
 msgid "25. ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES"
-msgstr "25. ЭЛЕКТРОННЫЕ КОММУНИКАЦИИ, СДЕЛКИ И ПОДПИСИ"
-
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:274
 #: .\summarizer\templates\front\termsandconditions.html:567
 msgid "26. CALIFORNIA USERS AND RESIDENTS"
-msgstr "26. ПОЛЬЗОВАТЕЛИ И ЖИТЕЛИ КАЛИФОРНИИ"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:275
 #: .\summarizer\templates\front\termsandconditions.html:572
 msgid "27. MISCELLANEOUS"
-msgstr "27. РАЗНОЕ"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:276
 #: .\summarizer\templates\front\termsandconditions.html:576
 msgid "28. CONTACT US"
-msgstr "28. СВЯЗАТЬСЯ С НАМИ"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:282
 msgid ""
@@ -2090,7 +2085,7 @@ msgid ""
 "access the Services from other locations do so on their own initiative and "
 "are solely responsible for compliance with local laws, if and to the extent "
 "local laws are applicable."
-msgstr "Информация, предоставляемая при использовании Сервисов, не предназначена для распространения или использования каким-либо физическим или юридическим лицом в любой юрисдикции или стране, где такое распространение или использование будет противоречить закону или постановлению или которое потребует от нас каких-либо требований о регистрации в рамках таких "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:285
 msgid ""
@@ -2100,11 +2095,11 @@ msgid ""
 "would be subjected to such laws, you may not use the Services. You may not "
 "use the Services in a way that would violate the Gramm-Leach-Bliley Act "
 "(GLBA)."
-msgstr "Услуги не соответствуют отраслевым нормам (Закон о переносимости и подотчетности медицинского страхования (HIPAA), Федеральный закон об управлении информационной безопасностью (FISMA) и т. д.), поэтому, если ваше взаимодействие будет подпадать под действие таких законов, вы "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:290
 msgid "Our intellectual property"
-msgstr "Наша интеллектуальная собственность"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:292
 msgid ""
@@ -2113,45 +2108,45 @@ msgid ""
 "website designs, audio, video, text, photographs, and graphics in the "
 "Services (collectively, the 'Content'), as well as the trademarks, service "
 "marks, and logos contained therein (the 'Marks')."
-msgstr "Мы являемся владельцем или лицензиатом всех прав интеллектуальной собственности на наши Сервисы, включая весь исходный код, базы данных, функциональные возможности, программное обеспечение, дизайн веб-сайтов, аудио, видео, текст, фотографии и графику в Сервисах (совместно именуемые « "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:295
 msgid ""
 "Our Content and Marks are protected by copyright and trademark laws (and "
 "various other intellectual property rights and unfair competition laws) and "
 "treaties in the United States and around the world."
-msgstr "Наш Контент и Знаки защищены законами об авторском праве и товарных знаках (а также различными другими правами интеллектуальной собственности и законами о недобросовестной конкуренции), а также договорами в США и во всем мире."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:298
 msgid ""
 "The Content and Marks are provided in or through the Services 'AS IS' for "
 "your internal business purpose only."
-msgstr "Контент и Знаки предоставляются в рамках Сервисов или через них «КАК ЕСТЬ» только для ваших внутренних деловых целей."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:300
 msgid "Your use of our Services"
-msgstr "Использование вами наших Сервисов"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:302
 msgid ""
 "Subject to your compliance with these Legal Terms, including the 'PROHIBITED "
 "ACTIVITIES' section below, we grant you a non-exclusive, non-transferable, "
 "revocable license to:"
-msgstr "При условии соблюдения вами настоящих Юридических условий, включая раздел «ЗАПРЕЩЕННАЯ ДЕЯТЕЛЬНОСТЬ» ниже, мы предоставляем вам неисключительную, непередаваемую и отзывную лицензию на:"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:305
 msgid "access the Services;"
-msgstr "доступ к Сервисам;"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:306
 msgid ""
 "download or print a copy of any portion of the Content to which you have "
 "properly gained access."
-msgstr "загрузить или распечатать копию любой части Контента, к которой вы получили доступ должным образом."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:309
 msgid "solely for your internal business purpose."
-msgstr "исключительно для ваших внутренних деловых целей."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:312
 msgid ""
@@ -2161,7 +2156,7 @@ msgid ""
 "translated, transmitted, distributed, sold, licensed, or otherwise exploited "
 "for any commercial purpose whatsoever, without our express prior written "
 "permission."
-msgstr "За исключением случаев, указанных в этом разделе или других разделах наших Юридических условий, никакая часть Услуг, а также Контент или Знаки не могут быть скопированы, воспроизведены, агрегированы, переизданы, загружены, размещены, публично показаны, закодированы, переведены, переданы, распространены. "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:315
 msgid ""
@@ -2172,24 +2167,24 @@ msgid ""
 "you must identify us as the owners or licensors of the Services, Content, or "
 "Marks and ensure that any copyright or proprietary notice appears or is "
 "visible on posting, reproducing, or displaying our Content."
-msgstr "Если вы желаете использовать Услуги, Контент или Знаки иначе, чем указано в этом разделе или других разделах наших Юридических условий, отправьте свой запрос по адресу: info@summarygenerator.io. "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:318
 msgid ""
 "We reserve all rights not expressly granted to you in and to the Services, "
 "Content, and Marks."
-msgstr "Мы оставляем за собой все права, не предоставленные вам явно в отношении Услуг, Контента и Знаков."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:321
 msgid ""
 "Any breach of these Intellectual Property Rights will constitute a material "
 "breach of our Legal Terms and your right to use our Services will terminate "
 "immediately."
-msgstr "Любое нарушение этих Прав интеллектуальной собственности будет представлять собой существенное нарушение наших Юридических условий, и ваше право на использование наших Сервисов будет немедленно прекращено."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:323
 msgid "Your submissions and contributions"
-msgstr "Ваши материалы и вклад"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:325
 msgid ""
@@ -2197,7 +2192,7 @@ msgid ""
 "prior to using our Services to understand the (a) rights you give us and (b) "
 "obligations you have when you post or upload any content through the "
 "Services."
-msgstr "Пожалуйста, внимательно просмотрите этот раздел и раздел «ЗАПРЕЩЕННАЯ ДЕЯТЕЛЬНОСТЬ» перед использованием наших Сервисов, чтобы понять (а) права, которые вы нам предоставляете, и (б) обязательства, которые вы имеете при публикации или загрузке любого контента через Сервисы."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:328
 msgid ""
@@ -2207,7 +2202,7 @@ msgid ""
 "agree that we shall own this Submission and be entitled to its unrestricted "
 "use and dissemination for any lawful purpose, commercial or otherwise, "
 "without acknowledgment or compensation to you."
-msgstr "Материалы. Отправляя нам напрямую любые вопросы, комментарии, предложения, идеи, отзывы или другую информацию об Услугах («Материалы»), вы соглашаетесь передать нам все права интеллектуальной собственности на такие Материалы. "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:331
 msgid ""
@@ -2219,13 +2214,13 @@ msgid ""
 "photographs, music, graphics, comments, reviews, rating suggestions, "
 "personal information, or other material ('Contributions'). Any Submission "
 "that is publicly posted shall also be treated as a Contribution."
-msgstr "Вклады: Сервисы могут приглашать вас общаться, вносить свой вклад или участвовать в блогах, досках объявлений, онлайн-форумах и других функциях, в ходе которых вы можете создавать, отправлять, публиковать, отображать, передавать, публиковать, распространять или транслировать контент. "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:334
 msgid ""
 "You understand that Contributions may be viewable by other users of the "
 "Services and possibly through third-party websites."
-msgstr "Вы понимаете, что Вклады могут быть доступны для просмотра другим пользователям Услуг и, возможно, через сторонние веб-сайты."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:337
 msgid ""
@@ -2241,14 +2236,14 @@ msgid ""
 "into other works, your Contributions, and to sublicense the licenses granted "
 "in this section. Our use and distribution may occur in any media formats and "
 "through any media channels."
-msgstr "Размещая Вклады, вы предоставляете нам лицензию (включая использование вашего имени, товарных знаков и логотипов): Размещая любые Вклады, вы предоставляете нам неограниченные, неограниченные, безотзывные, бессрочные, неисключительные, передаваемые, роялти. "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:340
 msgid ""
 "This license includes our use of your name, company name, and franchise "
 "name, as applicable, and any of the trademarks, service marks, trade names, "
 "logos, and personal and commercial images you provide."
-msgstr "Эта лицензия включает использование нами вашего имени, названия компании и названия франшизы, если применимо, а также любых товарных знаков, знаков обслуживания, торговых наименований, логотипов, а также личных и коммерческих изображений, которые вы предоставляете."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:343
 msgid ""
@@ -2256,7 +2251,7 @@ msgid ""
 "and/or posting Contributions through any part of the Services or making "
 "Contributions accessible through the Services by linking your account "
 "through the Services to any of your social networking accounts, you:"
-msgstr "Вы несете ответственность за то, что вы публикуете или загружаете: Отправляя нам Материалы и/или размещая Вклады через любую часть Сервисов или делая Вклады доступными через Сервисы путем привязки своей учетной записи через Сервисы к любой из ваших учетных записей в социальных сетях, вы "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:346
 msgid ""
@@ -2266,13 +2261,13 @@ msgid ""
 "harmful, defamatory, obscene, bullying, abusive, discriminatory, threatening "
 "to any person or group, sexually explicit, false, inaccurate, deceitful, or "
 "misleading;"
-msgstr "подтвердите, что вы прочитали и согласны с нашими «ЗАПРЕЩЕННЫМИ ДЕЯТЕЛЬНОСТЬЮ» и не будете публиковать, отправлять, публиковать, загружать или передавать через Сервисы какие-либо Материалы, а также размещать любые материалы, которые являются незаконными, оскорбительными, ненавистными, вредными, клеветническими или непристойными. "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:347
 msgid ""
 "to the extent permissible by applicable law, waive any and all moral rights "
 "to any such Submission and/or Contribution;"
-msgstr "в пределах, допустимых применимым законодательством, отказаться от любых моральных прав на любую такую ​​Представленную информацию и/или Вклад;"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:348
 msgid ""
@@ -2280,13 +2275,13 @@ msgid ""
 "that you have the necessary rights and licenses to submit such Submissions "
 "and/or Contributions and that you have full authority to grant us the above-"
 "mentioned rights in relation to your Submissions and/or Contributions; and"
-msgstr "гарантируйте, что любые такие Материалы и/или Вклады являются оригинальными для вас или что у вас есть необходимые права и лицензии для подачи таких Материалов и/или Вкладов, а также что у вас есть все полномочия предоставлять нам вышеупомянутые права в отношении ваших "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:349
 msgid ""
 "warrant and represent that your Submissions and/or Contributions do not "
 "constitute confidential information."
-msgstr "гарантируете и заявляете, что ваши Материалы и/или Вклады не представляют собой конфиденциальную информацию."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:352
 msgid ""
@@ -2294,7 +2289,7 @@ msgid ""
 "expressly agree to reimburse us for any and all losses that we may suffer "
 "because of your breach of (a) this section, (b) any third party’s "
 "intellectual property rights, or (c) applicable law."
-msgstr "Вы несете единоличную ответственность за свои Материалы и/или Вклады, и вы прямо соглашаетесь возместить нам любые и все убытки, которые мы можем понести из-за нарушения вами (а) настоящего раздела, (б) прав интеллектуальной собственности любой третьей стороны, "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:355
 msgid ""
@@ -2304,7 +2299,7 @@ msgid ""
 "consider such Contributions harmful or in breach of these Legal Terms. If we "
 "remove or edit any such Contributions, we may also suspend or disable your "
 "account and report you to the authorities."
-msgstr "Мы можем удалить или отредактировать ваш Контент. Хотя мы не обязаны отслеживать любые Вклады, мы имеем право удалять или редактировать любые Вклады в любое время без предварительного уведомления, если, по нашему разумному мнению, мы считаем такие Вклады вредными или нарушающими "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:361
 msgid ""
@@ -2319,7 +2314,7 @@ msgid ""
 "through a bot, script or otherwise; (7) you will not use the Services for "
 "any illegal or unauthorized purpose; and (8) your use of the Services will "
 "not violate any applicable law or regulation."
-msgstr "Используя Услуги, вы заявляете и гарантируете, что: (1) вся предоставленная вами регистрационная информация будет правдивой, точной, актуальной и полной; "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:364
 msgid ""
@@ -2327,7 +2322,7 @@ msgid ""
 "incomplete, we have the right to suspend or terminate your account and "
 "refuse any and all current or future use of the Services (or any portion "
 "thereof)."
-msgstr "Если вы предоставляете какую-либо информацию, которая является неверной, неточной, устаревшей или неполной, мы имеем право приостановить или прекратить действие вашей учетной записи и отказать в любом текущем или будущем использовании Услуг (или любой их части)."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:370
 msgid ""
@@ -2336,31 +2331,31 @@ msgid ""
 "and password. We reserve the right to remove, reclaim, or change a username "
 "you select if we determine, in our sole discretion, that such username is "
 "inappropriate, obscene, or otherwise objectionable."
-msgstr "Для использования Услуг вам может потребоваться зарегистрироваться. "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:375
 msgid "We accept the following forms of payment:"
-msgstr "Мы принимаем следующие формы оплаты:"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:378
 msgid "Visa"
-msgstr "Виза"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:379
 msgid "Mastercard"
-msgstr "Мастеркард"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:380
 msgid "American Express"
-msgstr "Америкэн Экспресс"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:381
 msgid "Discover"
-msgstr "Открыть"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:382
 msgid "PayPal"
-msgstr "ПэйПал"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:385
 msgid ""
@@ -2371,7 +2366,7 @@ msgid ""
 "your transactions and contact you as needed. Sales tax will be added to the "
 "price of purchases as deemed required by us. We may change prices at any "
 "time. All payments shall be in US dollars."
-msgstr "Вы соглашаетесь предоставлять актуальную, полную и точную информацию о покупке и учетной записи для всех покупок, совершаемых через Сервисы. "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:388
 msgid ""
@@ -2380,7 +2375,7 @@ msgid ""
 "payment provider for any such amounts upon placing your order. We reserve "
 "the right to correct any errors or mistakes in pricing, even if we have "
 "already requested or received payment."
-msgstr "Вы соглашаетесь оплатить все расходы по ценам, действующим на тот момент для ваших покупок, а также любые применимые сборы за доставку, и вы разрешаете нам взимать с выбранного вами поставщика платежей любые такие суммы при размещении вашего заказа. "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:391
 msgid ""
@@ -2391,11 +2386,11 @@ msgid ""
 "or orders that use the same billing or shipping address. We reserve the "
 "right to limit or prohibit orders that, in our sole judgment, appear to be "
 "placed by dealers, resellers, or distributors."
-msgstr "Мы оставляем за собой право отклонить любой заказ, размещенный через Сервисы. "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:397
 msgid "Billing and Renewal"
-msgstr "Выставление счетов и продление"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:399
 msgid ""
@@ -2403,11 +2398,11 @@ msgid ""
 "consent to our charging your payment method on a recurring basis without "
 "requiring your prior approval for each recurring charge, until such time as "
 "you cancel the applicable order. The length of your billing cycle is monthly."
-msgstr "Ваша подписка будет продолжаться и автоматически продлеваться, если ее не отменить. "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:401
 msgid "Cancellation"
-msgstr "Отмена"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:403
 msgid ""
@@ -2415,17 +2410,17 @@ msgid ""
 "time by logging into your account. Your cancellation will take effect at the "
 "end of the current paid term. If you have any questions or are unsatisfied "
 "with our Services, please email us at info@summarygenerator.io."
-msgstr "Все покупки не подлежат возврату. "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:405
 msgid "Fee Changes"
-msgstr "Изменения комиссий"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:407
 msgid ""
 "We may, from time to time, make changes to the subscription fee and will "
 "communicate any price changes to you in accordance with applicable law."
-msgstr "Мы можем время от времени вносить изменения в стоимость подписки и сообщать вам о любых изменениях цен в соответствии с применимым законодательством."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:413
 msgid ""
@@ -2441,7 +2436,7 @@ msgid ""
 "non-infringement. You accept any and all risk arising out of use or "
 "performance of any software. You may not reproduce or redistribute any "
 "software except in accordance with the EULA or these Legal Terms."
-msgstr "Мы можем включать программное обеспечение для использования в рамках наших Услуг. "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:419
 msgid ""
@@ -2449,24 +2444,24 @@ msgid ""
 "which we make the Services available. The Services may not be used in "
 "connection with any commercial endeavors except those that are specifically "
 "endorsed or approved by us."
-msgstr "Вы не имеете права получать доступ к Услугам или использовать их для каких-либо целей, кроме тех, для которых мы предоставляем Услуги. "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:421
 msgid "As a user of the Services, you agree not to:"
-msgstr "Как пользователь Услуг вы соглашаетесь не:"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:424
 msgid ""
 "Systematically retrieve data or other content from the Services to create or "
 "compile, directly or indirectly, a collection, compilation, database, or "
 "directory without written permission from us."
-msgstr "Систематически получать данные или другой контент из Сервисов для создания или компиляции, прямо или косвенно, коллекции, компиляции, базы данных или каталога без нашего письменного разрешения."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:425
 msgid ""
 "Trick, defraud, or mislead us and other users, especially in any attempt to "
 "learn sensitive account information such as user passwords."
-msgstr "Обманывать, обманывать или вводить в заблуждение нас и других пользователей, особенно при любой попытке узнать конфиденциальную информацию об учетной записи, например пароли пользователей."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:426
 msgid ""
@@ -2474,35 +2469,35 @@ msgid ""
 "of the Services, including features that prevent or restrict the use or "
 "copying of any Content or enforce limitations on the use of the Services and/"
 "or the Content contained therein."
-msgstr "Обходить, отключать или иным образом вмешиваться в функции Услуг, связанные с безопасностью, включая функции, которые предотвращают или ограничивают использование или копирование любого Контента или налагают ограничения на использование Услуг и/или Контента, содержащегося в них."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:427
 msgid ""
 "Disparage, tarnish, or otherwise harm, in our opinion, us and/or the "
 "Services."
-msgstr "Унижать, запятнать или иным образом нанести вред, по нашему мнению, нам и/или Сервисам."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:428
 msgid ""
 "Use any information obtained from the Services in order to harass, abuse, or "
 "harm another person."
-msgstr "Использовать любую информацию, полученную через Сервисы, с целью преследования, оскорбления или причинения вреда другому человеку."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:429
 msgid ""
 "Make improper use of our support services or submit false reports of abuse "
 "or misconduct."
-msgstr "Ненадлежащим образом пользоваться нашими услугами поддержки или отправлять ложные сообщения о злоупотреблениях или неправомерных действиях."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:430
 msgid ""
 "Use the Services in a manner inconsistent with any applicable laws or "
 "regulations."
-msgstr "Использовать Услуги способами, несовместимыми с применимыми законами и правилами."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:431
 msgid "Engage in unauthorized framing of or linking to the Services."
-msgstr "Участие в несанкционированном фрейминге или создании ссылок на Сервисы."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:432
 msgid ""
@@ -2512,25 +2507,25 @@ msgid ""
 "party’s uninterrupted use and enjoyment of the Services or modifies, "
 "impairs, disrupts, alters, or interferes with the use, features, functions, "
 "operation, or maintenance of the Services."
-msgstr "Загружать или передавать (или пытаться загрузить или передать) вирусы, троянские кони или другие материалы, включая чрезмерное использование заглавных букв и спам (непрерывную публикацию повторяющегося текста), которые мешают бесперебойному использованию и использованию любой стороной "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:433
 msgid ""
 "Engage in any automated use of the system, such as using scripts to send "
 "comments or messages, or using any data mining, robots, or similar data "
 "gathering and extraction tools."
-msgstr "Участвовать в любом автоматизированном использовании системы, например, использовать сценарии для отправки комментариев или сообщений или использовать любой интеллектуальный анализ данных, роботов или аналогичные инструменты сбора и извлечения данных."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:434
 msgid ""
 "Delete the copyright or other proprietary rights notice from any Content."
-msgstr "Удалите уведомление об авторских правах или других правах собственности из любого Контента."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:435
 msgid ""
 "Attempt to impersonate another user or person or use the username of another "
 "user."
-msgstr "Попытка выдать себя за другого пользователя или человека или использовать имя другого пользователя."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:436
 msgid ""
@@ -2539,38 +2534,38 @@ msgid ""
 "mechanism, including without limitation, clear graphics interchange formats "
 "('gifs'), 1×1 pixels, web bugs, cookies, or other similar devices (sometimes "
 "referred to as 'spyware' or 'passive collection mechanisms' or 'pcms')."
-msgstr "Загружать или передавать (или пытаться загрузить или передать) любые материалы, которые действуют как пассивный или активный механизм сбора или передачи информации, включая, помимо прочего, четкие форматы обмена графикой («гифки»), пиксели 1×1, веб-ошибки. "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:437
 msgid ""
 "Interfere with, disrupt, or create an undue burden on the Services or the "
 "networks or services connected to the Services."
-msgstr "Вмешиваться, нарушать или создавать чрезмерную нагрузку на Сервисы или сети или сервисы, подключенные к Сервисам."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:438
 msgid ""
 "Harass, annoy, intimidate, or threaten any of our employees or agents "
 "engaged in providing any portion of the Services to you."
-msgstr "Преследовать, раздражать, запугивать или угрожать любому из наших сотрудников или агентов, участвующих в предоставлении вам какой-либо части Услуг."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:439
 msgid ""
 "Attempt to bypass any measures of the Services designed to prevent or "
 "restrict access to the Services, or any portion of the Services."
-msgstr "Пытаться обойти любые меры Сервисов, предназначенные для предотвращения или ограничения доступа к Сервисам или любой их части."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:440
 msgid ""
 "Copy or adapt the Services' software, including but not limited to Flash, "
 "PHP, HTML, JavaScript, or other code."
-msgstr "Копировать или адаптировать программное обеспечение Сервисов, включая, помимо прочего, Flash, PHP, HTML, JavaScript или другой код."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:441
 msgid ""
 "Except as permitted by applicable law, decipher, decompile, disassemble, or "
 "reverse engineer any of the software comprising or in any way making up a "
 "part of the Services."
-msgstr "За исключением случаев, разрешенных применимым законодательством, расшифровывать, декомпилировать, дизассемблировать или реконструировать любое программное обеспечение, составляющее или каким-либо образом являющееся частью Услуг."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:442
 msgid ""
@@ -2579,12 +2574,12 @@ msgid ""
 "without limitation, any spider, robot, cheat utility, scraper, or offline "
 "reader that accesses the Services, or use or launch any unauthorized script "
 "or other software."
-msgstr "За исключением случаев, когда это может быть результатом стандартного использования поисковой системы или интернет-браузера, использования, запуска, разработки или распространения любой автоматизированной системы, включая, помимо прочего, любого паука, робота, чит-утилиту, скрапер или автономное средство чтения, которые получают доступ к Сервисам. "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:443
 msgid ""
 "Use a buying agent or purchasing agent to make purchases on the Services."
-msgstr "Используйте агента по закупкам или агента по закупкам для совершения покупок в Сервисах."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:444
 msgid ""
@@ -2592,22 +2587,22 @@ msgid ""
 "and/or email addresses of users by electronic or other means for the purpose "
 "of sending unsolicited email, or creating user accounts by automated means "
 "or under false pretenses."
-msgstr "Осуществлять любое несанкционированное использование Услуг, включая сбор имен пользователей и/или адресов электронной почты пользователей с помощью электронных или других средств с целью отправки нежелательной электронной почты или создания учетных записей пользователей автоматическими средствами или под ложным предлогом."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:445
 msgid ""
 "Use the Services as part of any effort to compete with us or otherwise use "
 "the Services and/or the Content for any revenue-generating endeavor or "
 "commercial enterprise."
-msgstr "Использовать Услуги в целях конкуренции с нами или иным образом использовать Услуги и/или Контент для любых целей, приносящих доход, или коммерческих предприятий."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:446
 msgid "Sell or otherwise transfer your profile."
-msgstr "Продать или иным образом передать свой профиль."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:447
 msgid "Use the Services to advertise or offer to sell goods and services."
-msgstr "Использовать Сервисы для рекламы или предложения продажи товаров и услуг."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:453
 msgid ""
@@ -2622,7 +2617,7 @@ msgid ""
 "such, any Contributions you transmit may be treated as non-confidential and "
 "non-proprietary. When you create or make available any Contributions, you "
 "thereby represent and warrant that:"
-msgstr "Сервисы могут приглашать вас общаться, вносить вклад или участвовать в блогах, досках объявлений, онлайн-форумах и других функциях, а также могут предоставлять вам возможность создавать, отправлять, публиковать, отображать, передавать, выполнять, публиковать, "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:457
 msgid ""
@@ -2631,7 +2626,7 @@ msgid ""
 "will not infringe the proprietary rights, including but not limited to the "
 "copyright, patent, trademark, trade secret, or moral rights of any third "
 "party."
-msgstr "Создание, распространение, передача, публичный показ или исполнение, а также доступ, загрузка или копирование ваших Вкладов не нарушают и не будут нарушать права собственности, включая, помимо прочего, авторские права, патенты, товарные знаки, коммерческую тайну. "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:458
 msgid ""
@@ -2639,7 +2634,7 @@ msgid ""
 "consents, releases, and permissions to use and to authorize us, the "
 "Services, and other users of the Services to use your Contributions in any "
 "manner contemplated by the Services and these Legal Terms."
-msgstr "Вы являетесь создателем и владельцем или обладаете необходимыми лицензиями, правами, согласиями, выпусками и разрешениями для использования и разрешения нам, Сервисам и другим пользователям Сервисов использовать ваши Вклады любым способом, предусмотренным Сервисами. "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:459
 msgid ""
@@ -2648,76 +2643,76 @@ msgid ""
 "likeness of each and every such identifiable individual person to enable "
 "inclusion and use of your Contributions in any manner contemplated by the "
 "Services and these Legal Terms."
-msgstr "У вас есть письменное согласие, освобождение и/или разрешение каждого идентифицируемого физического лица в ваших Вкладах на использование имени или изображения каждого такого идентифицируемого физического лица для включения и использования ваших Вкладов любым предусмотренным способом. "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:460
 msgid "Your Contributions are not false, inaccurate, or misleading."
-msgstr "Ваши материалы не являются ложными, неточными или вводящими в заблуждение."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:461
 msgid ""
 "Your Contributions are not unsolicited or unauthorized advertising, "
 "promotional materials, pyramid schemes, chain letters, spam, mass mailings, "
 "or other forms of solicitation."
-msgstr "Ваши вклады не являются нежелательной или несанкционированной рекламой, рекламными материалами, финансовыми пирамидами, письмами счастья, спамом, массовыми рассылками или другими формами навязывания услуг."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:462
 msgid ""
 "Your Contributions are not obscene, lewd, lascivious, filthy, violent, "
 "harassing, libelous, slanderous, or otherwise objectionable (as determined "
 "by us)."
-msgstr "Ваш вклад не является непристойным, непристойным, похотливым, грязным, жестоким, оскорбительным, клеветническим, клеветническим или иным образом нежелательным (по нашему мнению)."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:463
 msgid ""
 "Your Contributions do not ridicule, mock, disparage, intimidate, or abuse "
 "anyone."
-msgstr "Ваши материалы не высмеивают, не высмеивают, не унижают, не запугивают и не оскорбляют кого-либо."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:464
 msgid ""
 "Your Contributions are not used to harass or threaten (in the legal sense of "
 "those terms) any other person and to promote violence against a specific "
 "person or class of people."
-msgstr "Ваши материалы не используются для преследования или угроз (в юридическом смысле этих терминов) любому другому лицу, а также для пропаганды насилия в отношении конкретного человека или класса людей."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:465
 msgid ""
 "Your Contributions do not violate any applicable law, regulation, or rule."
-msgstr "Ваши материалы не нарушают какие-либо применимые законы, постановления или правила."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:466
 msgid ""
 "Your Contributions do not violate the privacy or publicity rights of any "
 "third party."
-msgstr "Ваши материалы не нарушают права на неприкосновенность частной жизни или публичность каких-либо третьих лиц."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:467
 msgid ""
 "Your Contributions do not violate any applicable law concerning child "
 "pornography, or otherwise intended to protect the health or well-being of "
 "minors."
-msgstr "Ваши материалы не нарушают никаких применимых законов, касающихся детской порнографии, или иным образом не направлены на защиту здоровья или благополучия несовершеннолетних."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:468
 msgid ""
 "Your Contributions do not include any offensive comments that are connected "
 "to race, national origin, gender, sexual preference, or physical handicap."
-msgstr "Ваши материалы не содержат оскорбительных комментариев, связанных с расой, национальным происхождением, полом, сексуальными предпочтениями или физическими недостатками."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:469
 msgid ""
 "Your Contributions do not otherwise violate, or link to material that "
 "violates, any provision of these Legal Terms, or any applicable law or "
 "regulation."
-msgstr "Ваши материалы не нарушают каким-либо иным образом и не ссылаются на материалы, которые нарушают какие-либо положения настоящих Юридических условий или любого применимого закона или постановления."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:471
 msgid ""
 "Any use of the Services in violation of the foregoing violates these Legal "
 "Terms and may result in, among other things, termination or suspension of "
 "your rights to use the Services."
-msgstr "Любое использование Услуг в нарушение вышеизложенного нарушает настоящие Юридические условия и может привести, среди прочего, к прекращению или приостановлению ваших прав на использование Услуг."
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:476
 msgid ""
@@ -2735,7 +2730,7 @@ msgid ""
 "derivative works of, or incorporate into other works, such Contributions, "
 "and grant and authorize sublicenses of the foregoing. The use and "
 "distribution may occur in any media formats and through any media channels."
-msgstr "Размещая свои Вклады в любой части Услуг или делая Вклады доступными для Услуг путем привязки своей учетной записи в Услугах к любой из ваших учетных записей в социальных сетях, вы автоматически предоставляете право, а также заявляете и гарантируете, что имеете право предоставлять "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:478
 msgid ""
@@ -2745,7 +2740,7 @@ msgid ""
 "trade names, logos, and personal and commercial images you provide. You "
 "waive all moral rights in your Contributions, and you warrant that moral "
 "rights have not otherwise been asserted in your Contributions."
-msgstr "Настоящая лицензия будет применяться к любой форме, средствам массовой информации или технологии, известным в настоящее время или разработанным в дальнейшем, и включает использование нами вашего имени, названия компании и названия франшизы, в зависимости от обстоятельств, а также любых товарных знаков, знаков обслуживания, торговых наименований, "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:480
 msgid ""
@@ -2757,7 +2752,7 @@ msgid ""
 "Contributions to the Services and you expressly agree to exonerate us from "
 "any and all responsibility and to refrain from any legal action against us "
 "regarding your Contributions."
-msgstr "Мы не претендуем на право собственности на ваши Вклады. "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:482
 msgid ""
@@ -2766,7 +2761,7 @@ msgid ""
 "Contributions to place them in more appropriate locations on the Services; "
 "and (3) to pre-screen or delete any Contributions at any time and for any "
 "reason, without notice. We have no obligation to monitor your Contributions."
-msgstr "Мы имеем право по нашему исключительному и абсолютному усмотрению (1) редактировать, редактировать или иным образом изменять любые Материалы; "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:487
 msgid ""
@@ -2813,7 +2808,7 @@ msgid ""
 "attempt to delete any information stored on our servers that was obtained "
 "through such Third-Party Account, except the username and profile picture "
 "that become associated with your account."
-msgstr "В рамках функциональности Сервисов вы можете связать свою учетную запись с онлайн-учетными записями, которые у вас есть у сторонних поставщиков услуг (каждая такая учетная запись называется «Сторонней учетной записью»), одним из следующих способов: (1) предоставив свою Третью "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:492
 msgid ""
@@ -2846,7 +2841,7 @@ msgid ""
 "services. Additionally, you shall hold us blameless from any losses "
 "sustained by you or harm caused to you relating to or resulting in any way "
 "from any Third-Party Content or any contact with Third-Party Websites."
-msgstr "Услуги могут содержать (или могут быть отправлены вам через Сайт) ссылки на другие веб-сайты («Сторонние веб-сайты»), а также статьи, фотографии, текст, графику, изображения, дизайн, музыку, звук, видео, информацию. "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:497
 msgid ""
@@ -2854,7 +2849,7 @@ msgid ""
 "in certain areas of the Services, such as sidebar advertisements or banner "
 "advertisements. We simply provide the space to place such advertisements, "
 "and we have no other relationship with advertisers."
-msgstr "Мы разрешаем рекламодателям отображать свою рекламу и другую информацию в определенных областях Сервисов, например, рекламные объявления на боковой панели или рекламные баннеры. "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:501
 msgid ""
@@ -2870,7 +2865,7 @@ msgid ""
 "excessive in size or are in any way burdensome to our systems; and (5) "
 "otherwise manage the Services in a manner designed to protect our rights and "
 "property and to facilitate the proper functioning of the Services."
-msgstr "Мы оставляем за собой право, но не обязанность: (1) контролировать Сервисы на предмет нарушений настоящих Юридических условий; "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:505
 msgid ""
@@ -2890,7 +2885,7 @@ msgid ""
 "that anyone under the age of 13 has provided personal information to us "
 "without the requisite and verifiable parental consent, we will delete that "
 "information from the Services as quickly as is reasonably practical."
-msgstr "Мы заботимся о конфиденциальности и безопасности данных. "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:507
 #: .\summarizer\templates\front\termsandconditions.html:515
@@ -2901,7 +2896,7 @@ msgid ""
 "behalf of the third party. In addition to terminating or suspending your "
 "account, we reserve the right to take appropriate legal action, including "
 "without limitation pursuing civil, criminal, and injunctive redress."
-msgstr "Если мы прекратим или приостановим действие вашей учетной записи по какой-либо причине, вам будет запрещено регистрироваться и создавать новую учетную запись под своим именем, вымышленным или заимствованным именем или именем любой третьей стороны, даже если вы действуете от имени "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:513
 #: .\summarizer\templates\front\termsandconditions.html:525
@@ -2916,7 +2911,7 @@ msgid ""
 "you may make a claim to defend your consumer protection rights in regards to "
 "these Legal Terms in the United Kingdom, or in the EU country in which you "
 "reside."
-msgstr "Настоящие Юридические условия регулируются и интерпретируются в соответствии с законодательством Соединенного Королевства, а использование Конвенции Организации Объединенных Наций о договорах международной купли-продажи товаров прямо исключается. "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:519
 msgid ""
@@ -2925,7 +2920,7 @@ msgid ""
 "notice. However, we have no obligation to update any information on our "
 "Services. We will not be liable to you or any third party for any "
 "modification, price change, suspension, or discontinuance of the Services."
-msgstr "Мы оставляем за собой право изменять, модифицировать или удалять содержимое Услуг в любое время и по любой причине по нашему собственному усмотрению без предварительного уведомления. "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:521
 msgid ""
@@ -2940,11 +2935,11 @@ msgid ""
 "in these Legal Terms will be construed to obligate us to maintain and "
 "support the Services or to supply any corrections, updates, or releases in "
 "connection therewith."
-msgstr "Мы не можем гарантировать, что Услуги будут доступны в любое время. "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:530
 msgid "Binding Arbitration"
-msgstr "Обязательный арбитраж"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:531
 msgid ""
@@ -2957,11 +2952,11 @@ msgid ""
 "acceptance. The seat of arbitration shall be the United Kingdom. The "
 "language of the proceedings shall be __________. Applicable rules of "
 "substantive law shall be the law of the United Kingdom."
-msgstr "Любой спор, возникающий из отношений между Сторонами настоящих Юридических условий, разрешается одним арбитром, который будет выбран в соответствии с Арбитражом и внутренними правилами Европейского арбитражного суда, являющегося частью Европейского арбитражного центра, имеющего местонахождение "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:533
 msgid "Restrictions"
-msgstr "Ограничения"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:534
 msgid ""
@@ -2972,11 +2967,11 @@ msgid ""
 "or to utilize class action procedures; and (c) there is no right or "
 "authority for any Dispute to be brought in a purported representative "
 "capacity on behalf of the general public or any other persons."
-msgstr "Стороны соглашаются, что любое арбитражное разбирательство ограничивается Спором между Сторонами в индивидуальном порядке. "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:536
 msgid "Exceptions to Arbitration"
-msgstr "Исключения из арбитража"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:537
 msgid ""
@@ -2991,7 +2986,7 @@ msgid ""
 "unenforceable and such Dispute shall be decided by a court of competent "
 "jurisdiction within the courts listed for jurisdiction above, and the "
 "Parties agree to submit to the personal jurisdiction of that court."
-msgstr "Стороны соглашаются, что следующие Споры не подпадают под действие вышеуказанных положений, касающихся обязательного арбитража: (a) любые Споры, направленные на обеспечение соблюдения или защиты или касающиеся действительности любого из прав интеллектуальной собственности Стороны; "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:541
 msgid ""
@@ -3000,7 +2995,7 @@ msgid ""
 "and various other information. We reserve the right to correct any errors, "
 "inaccuracies, or omissions and to change or update the information on the "
 "Services at any time, without prior notice."
-msgstr "В Сервисах может содержаться информация, содержащая опечатки, неточности или упущения, включая описания, цены, доступность и различную другую информацию. "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:545
 msgid ""
@@ -3010,7 +3005,7 @@ msgid ""
 "CONNECTION WITH THE SERVICES AND YOUR USE THEREOF, INCLUDING, WITHOUT "
 "LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A "
 "PARTICULAR PURPOSE, AND NON-INFRINGEMENT."
-msgstr "УСЛУГИ ПРЕДОСТАВЛЯЮТСЯ НА УСЛОВИЯХ «КАК ЕСТЬ» И «КАК ДОСТУПНО». "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:547
 msgid ""
@@ -3036,7 +3031,7 @@ msgid ""
 "SERVICES. AS WITH THE PURCHASE OF A PRODUCT OR SERVICE THROUGH ANY MEDIUM OR "
 "IN ANY ENVIRONMENT, YOU SHOULD USE YOUR BEST JUDGMENT AND EXERCISE CAUTION "
 "WHERE APPROPRIATE."
-msgstr "МЫ НЕ ДАЕМ НИКАКИХ ГАРАНТИЙ ИЛИ ЗАЯВЛЕНИЙ ОТНОСИТЕЛЬНО ТОЧНОСТИ ИЛИ ПОЛНОТЫ СОДЕРЖАНИЯ УСЛУГ ИЛИ СОДЕРЖАНИЯ ЛЮБЫХ ВЕБ-САЙТОВ ИЛИ МОБИЛЬНЫХ ПРИЛОЖЕНИЙ, СВЯЗАННЫХ С УСЛУГАМИ, И МЫ НЕ НЕСЕМ НИКАКОЙ ОТВЕТСТВЕННОСТИ ИЛИ ОТВЕТСТВЕННОСТИ ЗА ЛЮБЫЕ (1) ОШИБКИ, ОШИБКИ, ИЛИ НЕТОЧНОСТИ "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:552
 msgid ""
@@ -3053,7 +3048,7 @@ msgid ""
 "OR THE EXCLUSION OR LIMITATION OF CERTAIN DAMAGES. IF THESE LAWS APPLY TO "
 "YOU, SOME OR ALL OF THE ABOVE DISCLAIMERS OR LIMITATIONS MAY NOT APPLY TO "
 "YOU, AND YOU MAY HAVE ADDITIONAL RIGHTS."
-msgstr "НИ ПРИ КАКИХ ОБСТОЯТЕЛЬСТВАХ МЫ ИЛИ НАШИ ДИРЕКТОРА, СОТРУДНИКИ ИЛИ АГЕНТЫ НЕ НЕСУТ ОТВЕТСТВЕННОСТИ ПЕРЕД ВАМИ ИЛИ ЛЮБОЙ ТРЕТЬЕЙ ЛИЦОЙ ЗА ЛЮБЫЕ ПРЯМЫЕ, КОСВЕННЫЕ, ПОВТОРНЫЕ, СЛУЧАЙНЫЕ, СПЕЦИАЛЬНЫЕ ИЛИ ШТРАФНЫЕ УБЫТКИ, ВКЛЮЧАЯ Упущенную ПРИБЫЛЬ, ПОТЕРЯ ДОХОДА, ПОТЕРЮ "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:556
 msgid ""
@@ -3073,7 +3068,7 @@ msgid ""
 "our defense of such claims. We will use reasonable efforts to notify you of "
 "any such claim, action, or proceeding which is subject to this "
 "indemnification upon becoming aware of it."
-msgstr "Вы соглашаетесь защищать, возмещать убытки и ограждать нас, включая наши дочерние компании, филиалы и всех наших соответствующих должностных лиц, агентов, партнеров и сотрудников, от любых потерь, ущерба, ответственности, претензий или требований, включая "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:560
 msgid ""
@@ -3085,7 +3080,7 @@ msgid ""
 "agree that we shall have no liability to you for any loss or corruption of "
 "any such data, and you hereby waive any right of action against us arising "
 "from any such loss or corruption of such data."
-msgstr "Мы будем хранить определенные данные, которые вы передаете Сервисам, с целью управления производительностью Сервисов, а также данные, относящиеся к использованию вами Сервисов. "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:564
 msgid ""
@@ -3102,7 +3097,7 @@ msgid ""
 "require an original signature or delivery or retention of non-electronic "
 "records, or to payments or the granting of credits by any means other than "
 "electronic means."
-msgstr "Посещение Сервисов, отправка нам электронных писем и заполнение онлайн-форм представляют собой электронные коммуникации. "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:568
 msgid ""
@@ -3111,7 +3106,7 @@ msgid ""
 "California Department of Consumer Affairs in writing at 1625 North Market "
 "Blvd., Suite N 112, Sacramento, California 95834 or by telephone at (800) "
 "952-5210 or (916) 445-1254."
-msgstr "Если какая-либо жалоба к нам не решена удовлетворительным образом, вы можете письменно обратиться в отдел помощи при рассмотрении жалоб Отдела обслуживания потребителей Калифорнийского департамента по делам потребителей по адресу 1625 North Market Blvd., Suite N 112, Сакраменто, Калифорния 95834 или "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:573
 msgid ""
@@ -3133,56 +3128,56 @@ msgid ""
 "of having drafted them. You hereby waive any and all defenses you may have "
 "based on the electronic form of these Legal Terms and the lack of signing by "
 "the parties hereto to execute these Legal Terms."
-msgstr "Настоящие Юридические условия, а также любые политики или правила работы, опубликованные нами в Сервисах или в отношении Сервисов, представляют собой полное соглашение и понимание между вами и нами. "
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:577
 msgid ""
 "In order to resolve a complaint regarding the Services or to receive further "
 "information regarding use of the Services, please contact us at:"
-msgstr "Чтобы разрешить жалобу относительно Услуг или получить дополнительную информацию об использовании Услуг, свяжитесь с нами по адресу:"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:595
 msgid "Phone:"
-msgstr "Телефон:"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:607
 msgid "Email:"
-msgstr "Электронная почта:"
+msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:619
 msgid "Address:"
-msgstr "Адрес:"
+msgstr ""
 
 #: .\summarizer\templates\front\text_editor.html:502
 msgid "Paragraph"
-msgstr "Абзац"
+msgstr ""
 
 #: .\summarizer\templates\front\text_editor.html:510
 msgid "Bullet Points"
-msgstr "Пункты списка"
+msgstr ""
 
 #: .\summarizer\templates\front\text_editor.html:519
 msgid "Short"
-msgstr "Короткий"
+msgstr ""
 
 #: .\summarizer\templates\front\text_editor.html:527
 msgid "Long"
-msgstr "Длинный"
+msgstr ""
 
 #: .\summarizer\templates\front\text_editor.html:537
 msgid "Sample Text"
-msgstr "Пример текста"
+msgstr ""
 
 #: .\summarizer\templates\front\text_editor.html:569
 msgid "Paste Text"
-msgstr "Вставить текст"
+msgstr ""
 
 #: .\summarizer\templates\front\text_editor.html:607
 #: .\summarizer\templates\front\text_editor.html:623
 #: .\summarizer\templates\front\text_editor.html:644
 msgid "Words"
-msgstr "Слова"
+msgstr ""
 
 #: .\summarizer\templates\front\text_editor.html:648
 msgid "Summarize"
-msgstr "Подвести итоги"
+msgstr ""
