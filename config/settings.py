@@ -213,6 +213,7 @@ LANGUAGES = [
     ("de", "German"),
     ('uz', "Uzbek"),
     ("pt", "Partuguese"),
+    ("fr", "French"),
 
 ]
 
