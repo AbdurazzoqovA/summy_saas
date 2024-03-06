@@ -1941,142 +1941,143 @@ msgstr "Услуги предназначены для пользователе�
 #: .\summarizer\templates\front\termsandconditions.html:249
 #: .\summarizer\templates\front\termsandconditions.html:280
 msgid "1. OUR SERVICES"
-msgstr "1. "
+msgstr "1. НАШИ УСЛУГИ"
 
 #: .\summarizer\templates\front\termsandconditions.html:250
 #: .\summarizer\templates\front\termsandconditions.html:289
 msgid "2. INTELLECTUAL PROPERTY RIGHTS"
-msgstr "2. "
+msgstr "2. ПРАВА НА ИНТЕЛЛЕКТУАЛЬНУЮ СОБСТВЕННОСТЬ"
 
 #: .\summarizer\templates\front\termsandconditions.html:251
 #: .\summarizer\templates\front\termsandconditions.html:359
 msgid "3. USER REPRESENTATIONS"
-msgstr "3. "
+msgstr "3. ПРЕДСТАВЛЕНИЯ ПОЛЬЗОВАТЕЛЯ"
 
 #: .\summarizer\templates\front\termsandconditions.html:252
 #: .\summarizer\templates\front\termsandconditions.html:368
 msgid "4. USER REGISTRATION"
-msgstr "4. "
+msgstr "4. РЕГИСТРАЦИЯ ПОЛЬЗОВАТЕЛЯ"
 
 #: .\summarizer\templates\front\termsandconditions.html:253
 #: .\summarizer\templates\front\termsandconditions.html:373
 msgid "5. PURCHASES AND PAYMENT"
-msgstr "5. "
+msgstr "5. ПОКУПКИ И ОПЛАТА"
 
 #: .\summarizer\templates\front\termsandconditions.html:254
 #: .\summarizer\templates\front\termsandconditions.html:396
 msgid "6. SUBSCRIPTIONS"
-msgstr "6. "
+msgstr "6. ПОДПИСКИ"
 
 #: .\summarizer\templates\front\termsandconditions.html:255
 #: .\summarizer\templates\front\termsandconditions.html:411
 msgid "7. SOFTWARE"
-msgstr "7. "
+msgstr "7. ПРОГРАММНОЕ ОБЕСПЕЧЕНИЕ"
 
 #: .\summarizer\templates\front\termsandconditions.html:256
 #: .\summarizer\templates\front\termsandconditions.html:417
 msgid "8. PROHIBITED ACTIVITIES"
-msgstr "8. "
+msgstr "8. ЗАПРЕЩЕННЫЕ ДЕЙСТВИЯ"
 
 #: .\summarizer\templates\front\termsandconditions.html:257
 #: .\summarizer\templates\front\termsandconditions.html:452
 msgid "9. USER GENERATED CONTRIBUTIONS"
-msgstr "9. "
+msgstr "9. ПОЛЬЗОВАТЕЛЬСКИЕ ВКЛАДЫ"
 
 #: .\summarizer\templates\front\termsandconditions.html:258
 #: .\summarizer\templates\front\termsandconditions.html:475
 msgid "10. CONTRIBUTION LICENSE"
-msgstr "10. "
+msgstr "10. ЛИЦЕНЗИЯ НА ВКЛАД"
 
 #: .\summarizer\templates\front\termsandconditions.html:259
 #: .\summarizer\templates\front\termsandconditions.html:486
 msgid "11. SOCIAL MEDIA"
-msgstr "11. "
+msgstr "11. СОЦИАЛЬНЫЕ СЕТИ"
 
 #: .\summarizer\templates\front\termsandconditions.html:260
 #: .\summarizer\templates\front\termsandconditions.html:491
 msgid "12. THIRD-PARTY WEBSITES AND CONTENT"
-msgstr "12. "
+msgstr "12. САЙТЫ И СОДЕРЖАНИЕ ТРЕТЬИХ СТОРОН"
 
 #: .\summarizer\templates\front\termsandconditions.html:261
 #: .\summarizer\templates\front\termsandconditions.html:496
 msgid "13. ADVERTISERS"
-msgstr "13. "
+msgstr "13. РЕКЛАМОДАТЕЛИ"
 
 #: .\summarizer\templates\front\termsandconditions.html:262
 #: .\summarizer\templates\front\termsandconditions.html:500
 msgid "14. SERVICES MANAGEMENT"
-msgstr "14. "
+msgstr "14. УПРАВЛЕНИЕ УСЛУГАМИ"
 
 #: .\summarizer\templates\front\termsandconditions.html:263
 #: .\summarizer\templates\front\termsandconditions.html:504
 msgid "15. PRIVACY POLICY"
-msgstr "15. "
+msgstr "15. ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ"
 
 #: .\summarizer\templates\front\termsandconditions.html:264
 #: .\summarizer\templates\front\termsandconditions.html:512
 msgid "16. TERM AND TERMINATION"
-msgstr "16. "
+msgstr "16. СРОК И ЗАВЕРШЕНИЕ"
 
 #: .\summarizer\templates\front\termsandconditions.html:265
 #: .\summarizer\templates\front\termsandconditions.html:518
 msgid "17. MODIFICATIONS AND INTERRUPTIONS"
-msgstr "17. "
+msgstr "17. ИЗМЕНЕНИЯ И ПРЕРЫВАНИЯ"
 
 #: .\summarizer\templates\front\termsandconditions.html:266
 #: .\summarizer\templates\front\termsandconditions.html:524
 msgid "18. GOVERNING LAW"
-msgstr "18. "
+msgstr "18. ЗАКОНОДАТЕЛЬСТВО"
 
 #: .\summarizer\templates\front\termsandconditions.html:267
 #: .\summarizer\templates\front\termsandconditions.html:529
 msgid "19. DISPUTE RESOLUTION"
-msgstr "19. "
+msgstr "19. РАЗРЕШЕНИЕ СПОРОВ"
 
 #: .\summarizer\templates\front\termsandconditions.html:268
 #: .\summarizer\templates\front\termsandconditions.html:540
 msgid "20. CORRECTIONS"
-msgstr "20. "
+msgstr "20. ИСПРАВЛЕНИЯ"
 
 #: .\summarizer\templates\front\termsandconditions.html:269
 #: .\summarizer\templates\front\termsandconditions.html:544
 msgid "21. DISCLAIMER"
-msgstr "21. "
+msgstr "21. ОТКАЗ ОТ ОТВЕТСТВЕННОСТИ"
 
 #: .\summarizer\templates\front\termsandconditions.html:270
 #: .\summarizer\templates\front\termsandconditions.html:551
 msgid "22. LIMITATIONS OF LIABILITY"
-msgstr "22. "
+msgstr "22. ОГРАНИЧЕНИЯ ОТВЕТСТВЕННОСТИ"
 
 #: .\summarizer\templates\front\termsandconditions.html:271
 #: .\summarizer\templates\front\termsandconditions.html:555
 msgid "23. INDEMNIFICATION"
-msgstr "23. "
+msgstr "23. ВОЗМЕЩЕНИЕ УБЫТКОВ"
 
 #: .\summarizer\templates\front\termsandconditions.html:272
 #: .\summarizer\templates\front\termsandconditions.html:559
 msgid "24. USER DATA"
-msgstr "24. "
+msgstr "24. ДАННЫЕ ПОЛЬЗОВАТЕЛЯ"
 
 #: .\summarizer\templates\front\termsandconditions.html:273
 #: .\summarizer\templates\front\termsandconditions.html:563
 msgid "25. ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES"
-msgstr "25. "
+msgstr "25. ЭЛЕКТРОННЫЕ КОММУНИКАЦИИ, СДЕЛКИ И ПОДПИСИ"
+
 
 #: .\summarizer\templates\front\termsandconditions.html:274
 #: .\summarizer\templates\front\termsandconditions.html:567
 msgid "26. CALIFORNIA USERS AND RESIDENTS"
-msgstr "26. "
+msgstr "26. ПОЛЬЗОВАТЕЛИ И ЖИТЕЛИ КАЛИФОРНИИ"
 
 #: .\summarizer\templates\front\termsandconditions.html:275
 #: .\summarizer\templates\front\termsandconditions.html:572
 msgid "27. MISCELLANEOUS"
-msgstr "27. "
+msgstr "27. РАЗНОЕ"
 
 #: .\summarizer\templates\front\termsandconditions.html:276
 #: .\summarizer\templates\front\termsandconditions.html:576
 msgid "28. CONTACT US"
-msgstr "28. "
+msgstr "28. СВЯЗАТЬСЯ С НАМИ"
 
 #: .\summarizer\templates\front\termsandconditions.html:282
 msgid ""
