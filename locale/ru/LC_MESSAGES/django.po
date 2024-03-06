@@ -1019,67 +1019,68 @@ msgstr "Содержание"
 #: .\summarizer\templates\front\privacypolicy.html:267
 #: .\summarizer\templates\front\privacypolicy.html:285
 msgid "1. WHAT INFORMATION DO WE COLLECT?"
-msgstr "1. "
+msgstr "1. КАКИЕ ИНФОРМАЦИИ МЫ СОБИРАЕМ?"
 
 #: .\summarizer\templates\front\privacypolicy.html:268
 #: .\summarizer\templates\front\privacypolicy.html:316
 msgid "2. HOW DO WE PROCESS YOUR INFORMATION?"
-msgstr "2. "
+msgstr "2. КАК МЫ ОБРАБАТЫВАЕМ ВАШУ ИНФОРМАЦИЮ?"
 
 #: .\summarizer\templates\front\privacypolicy.html:269
 #: .\summarizer\templates\front\privacypolicy.html:341
 msgid "3. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR PERSONAL INFORMATION?"
-msgstr "3. "
+msgstr "3. НА КАКИХ ЗАКОННЫХ ОСНОВАНИЯХ МЫ ОСНОВЫВАЕМСЯ ДЛЯ ОБРАБОТКИ ВАШИХ ПЕРСОНАЛЬНЫХ ДАННЫХ?"
 
 #: .\summarizer\templates\front\privacypolicy.html:270
 #: .\summarizer\templates\front\privacypolicy.html:376
 msgid "4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?"
-msgstr "4. "
+msgstr "4. КОГДА И С КЕМ МЫ ДЕЛИМСЯ ВАШИМИ ПЕРСОНАЛЬНЫМИ ДАННЫМИ?"
 
 #: .\summarizer\templates\front\privacypolicy.html:271
 #: .\summarizer\templates\front\privacypolicy.html:394
 msgid "5. HOW DO WE HANDLE YOUR SOCIAL LOGINS?"
-msgstr "5. "
+msgstr "5. КАК МЫ ОБРАБАТЫВАЕМ ВАШИ СОЦИАЛЬНЫЕ ВХОДЫ?"
 
 #: .\summarizer\templates\front\privacypolicy.html:272
 #: .\summarizer\templates\front\privacypolicy.html:404
 msgid "6. HOW LONG DO WE KEEP YOUR INFORMATION?"
-msgstr "6. "
+msgstr "6. КАК ДОЛГО МЫ ХРАНИМ ВАШУ ИНФОРМАЦИЮ?"
 
 #: .\summarizer\templates\front\privacypolicy.html:273
 #: .\summarizer\templates\front\privacypolicy.html:419
 msgid "7. DO WE COLLECT INFORMATION FROM MINORS?"
-msgstr "7. "
+msgstr "7. СОБИРАЕМ ЛИ МЫ ИНФОРМАЦИЮ ОТ НЕСОВЕРШЕННОЛЕТНИХ?"
 
 #: .\summarizer\templates\front\privacypolicy.html:274
 #: .\summarizer\templates\front\privacypolicy.html:432
 msgid "8. WHAT ARE YOUR PRIVACY RIGHTS?"
-msgstr "8. "
+msgstr "8. КАКИЕ У ВАС ПРАВА НА КОНФИДЕНЦИАЛЬНОСТЬ?"
 
 #: .\summarizer\templates\front\privacypolicy.html:275
 #: .\summarizer\templates\front\privacypolicy.html:482
 msgid "9. CONTROLS FOR DO-NOT-TRACK FEATURES"
-msgstr "9. "
+msgstr "9. УПРАВЛЕНИЕ ФУНКЦИЯМИ 'DO-NOT-TRACK'"
+
 
 #: .\summarizer\templates\front\privacypolicy.html:276
 #: .\summarizer\templates\front\privacypolicy.html:490
 msgid "10. DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?"
-msgstr "10. "
+msgstr "10. ИМЕЮТ ЛИ ЖИТЕЛИ СОЕДИНЕННЫХ ШТАТОВ КОНКРЕТНЫЕ ПРАВА НА КОНФИДЕНЦИАЛЬНОСТЬ?"
 
 #: .\summarizer\templates\front\privacypolicy.html:277
 #: .\summarizer\templates\front\privacypolicy.html:603
 msgid "11. DO WE MAKE UPDATES TO THIS NOTICE?"
-msgstr "11. "
+msgstr "11. ОБНОВЛЯЕМ ЛИ МЫ ЭТОТ УВЕДОМЛЕНИЕ?"
 
 #: .\summarizer\templates\front\privacypolicy.html:278
 #: .\summarizer\templates\front\privacypolicy.html:614
 msgid "12. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?"
-msgstr "12. "
+msgstr "12. КАК ВЫ МОЖЕТЕ СВЯЗАТЬСЯ С НАМИ ПО ВОПРОСАМ ЭТОГО УВЕДОМЛЕНИЯ?"
 
 #: .\summarizer\templates\front\privacypolicy.html:279
 #: .\summarizer\templates\front\privacypolicy.html:628
 msgid "13. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?"
-msgstr "13. "
+msgstr "13. КАК ВЫ МОЖЕТЕ ПРОСМОТРЕТЬ, ОБНОВИТЬ ИЛИ УДАЛИТЬ ДАННЫЕ, КОТОРЫЕ МЫ СОБИРАЕМ ОТ ВАС?"
 
 #: .\summarizer\templates\front\privacypolicy.html:286
 msgid "Personal information you disclose to us"
