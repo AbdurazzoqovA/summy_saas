@@ -124,7 +124,7 @@ msgstr "Anmelden"
 #: .\summarizer\templates\front\termsandconditions.html:144
 #: .\summarizer\templates\front\termsandconditions.html:147
 msgid "Dashboard"
-msgstr ""
+msgstr "Armaturenbrett"
 
 #: .\summarizer\templates\account\login.html:199
 msgid "Welcome Back!"
