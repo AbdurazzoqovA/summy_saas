@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-06 19:17+0500\n"
+"POT-Creation-Date: 2024-03-07 17:52+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
 #: .\summarizer\templates\account\email_confirm.html:163
 msgid "Please confirm that"
 msgstr ""
@@ -31,86 +32,92 @@ msgid ""
 "mail confirmation request"
 msgstr "Ce lien de confirmation par e-mail a expiré ou n'est pas valide. "
 
-#: .\summarizer\templates\account\login.html:86
-#: .\summarizer\templates\account\signup.html:84
+#: .\summarizer\templates\account\login.html:13
+msgid "Login Page"
+msgstr "Page de connexion"
+
+
+#: .\summarizer\templates\account\login.html:87
+#: .\summarizer\templates\account\signup.html:85
 #: .\summarizer\templates\front\about.html:118
 #: .\summarizer\templates\front\home2.html:76
 #: .\summarizer\templates\front\main.html:190
 #: .\summarizer\templates\front\pricing.html:77
 #: .\summarizer\templates\front\privacypolicy.html:114
-#: .\summarizer\templates\front\termsandconditions.html:96
+#: .\summarizer\templates\front\termsandconditions.html:95
 msgid "Home"
 msgstr "Accueil"
 
-#: .\summarizer\templates\account\login.html:91
-#: .\summarizer\templates\account\login.html:316
-#: .\summarizer\templates\account\signup.html:89
-#: .\summarizer\templates\account\signup.html:335
+#: .\summarizer\templates\account\login.html:92
+#: .\summarizer\templates\account\login.html:317
+#: .\summarizer\templates\account\signup.html:90
+#: .\summarizer\templates\account\signup.html:336
 #: .\summarizer\templates\front\about.html:123
 #: .\summarizer\templates\front\about.html:524
 #: .\summarizer\templates\front\home2.html:81
 #: .\summarizer\templates\front\main.html:195
 #: .\summarizer\templates\front\main.html:353
+#: .\summarizer\templates\front\pricing.html:7
 #: .\summarizer\templates\front\pricing.html:82
 #: .\summarizer\templates\front\pricing.html:391
 #: .\summarizer\templates\front\privacypolicy.html:119
 #: .\summarizer\templates\front\privacypolicy.html:689
-#: .\summarizer\templates\front\termsandconditions.html:101
-#: .\summarizer\templates\front\termsandconditions.html:684
+#: .\summarizer\templates\front\termsandconditions.html:100
+#: .\summarizer\templates\front\termsandconditions.html:683
 msgid "Pricing"
 msgstr "Prix"
 
-#: .\summarizer\templates\account\login.html:97
-#: .\summarizer\templates\account\signup.html:95
+#: .\summarizer\templates\account\login.html:98
+#: .\summarizer\templates\account\signup.html:96
 #: .\summarizer\templates\front\about.html:9
 #: .\summarizer\templates\front\about.html:129
 #: .\summarizer\templates\front\home2.html:87
 #: .\summarizer\templates\front\main.html:201
 #: .\summarizer\templates\front\pricing.html:88
 #: .\summarizer\templates\front\privacypolicy.html:125
-#: .\summarizer\templates\front\termsandconditions.html:107
+#: .\summarizer\templates\front\termsandconditions.html:106
 msgid "About"
 msgstr "À propos"
 
-#: .\summarizer\templates\account\login.html:103
-#: .\summarizer\templates\account\signup.html:101
+#: .\summarizer\templates\account\login.html:104
+#: .\summarizer\templates\account\signup.html:102
 #: .\summarizer\templates\front\about.html:135
 #: .\summarizer\templates\front\home2.html:93
 #: .\summarizer\templates\front\main.html:207
 #: .\summarizer\templates\front\pricing.html:94
 #: .\summarizer\templates\front\privacypolicy.html:131
-#: .\summarizer\templates\front\termsandconditions.html:113
+#: .\summarizer\templates\front\termsandconditions.html:112
 msgid "Logout"
 msgstr "Déconnexion"
 
-#: .\summarizer\templates\account\login.html:111
-#: .\summarizer\templates\account\login.html:249
-#: .\summarizer\templates\account\signup.html:109
-#: .\summarizer\templates\account\signup.html:288
+#: .\summarizer\templates\account\login.html:112
+#: .\summarizer\templates\account\login.html:250
+#: .\summarizer\templates\account\signup.html:110
+#: .\summarizer\templates\account\signup.html:289
 #: .\summarizer\templates\front\about.html:143
 #: .\summarizer\templates\front\home2.html:101
 #: .\summarizer\templates\front\main.html:215
 #: .\summarizer\templates\front\pricing.html:102
 #: .\summarizer\templates\front\privacypolicy.html:139
-#: .\summarizer\templates\front\termsandconditions.html:121
+#: .\summarizer\templates\front\termsandconditions.html:120
 msgid "Login"
 msgstr "Connexion"
 
-#: .\summarizer\templates\account\login.html:116
-#: .\summarizer\templates\account\signup.html:114
+#: .\summarizer\templates\account\login.html:117
+#: .\summarizer\templates\account\signup.html:115
 #: .\summarizer\templates\front\about.html:148
 #: .\summarizer\templates\front\home2.html:106
 #: .\summarizer\templates\front\main.html:220
 #: .\summarizer\templates\front\pricing.html:107
 #: .\summarizer\templates\front\privacypolicy.html:144
-#: .\summarizer\templates\front\termsandconditions.html:126
+#: .\summarizer\templates\front\termsandconditions.html:125
 msgid "Sign Up"
 msgstr "Inscrivez-vous"
 
-#: .\summarizer\templates\account\login.html:134
-#: .\summarizer\templates\account\login.html:137
-#: .\summarizer\templates\account\signup.html:132
-#: .\summarizer\templates\account\signup.html:135
+#: .\summarizer\templates\account\login.html:135
+#: .\summarizer\templates\account\login.html:138
+#: .\summarizer\templates\account\signup.html:133
+#: .\summarizer\templates\account\signup.html:136
 #: .\summarizer\templates\front\about.html:166
 #: .\summarizer\templates\front\about.html:169
 #: .\summarizer\templates\front\home2.html:124
@@ -121,193 +128,202 @@ msgstr "Inscrivez-vous"
 #: .\summarizer\templates\front\pricing.html:129
 #: .\summarizer\templates\front\privacypolicy.html:162
 #: .\summarizer\templates\front\privacypolicy.html:165
-#: .\summarizer\templates\front\termsandconditions.html:144
-#: .\summarizer\templates\front\termsandconditions.html:147
+#: .\summarizer\templates\front\termsandconditions.html:143
+#: .\summarizer\templates\front\termsandconditions.html:146
 msgid "Dashboard"
 msgstr "Tableau de bord"
 
-#: .\summarizer\templates\account\login.html:199
+#: .\summarizer\templates\account\login.html:200
 msgid "Welcome Back!"
 msgstr "Bienvenue !"
 
-#: .\summarizer\templates\account\login.html:200
+#: .\summarizer\templates\account\login.html:201
 msgid "Login to countinue"
 msgstr "Connectez-vous pour continuer"
 
-#: .\summarizer\templates\account\login.html:218
+#: .\summarizer\templates\account\login.html:219
 msgid "Email"
 msgstr "E-mail"
 
-#: .\summarizer\templates\account\login.html:226
-#: .\summarizer\templates\account\signup.html:242
+#: .\summarizer\templates\account\login.html:227
+#: .\summarizer\templates\account\signup.html:243
 msgid "Password"
 msgstr "Mot de passe"
 
-#: .\summarizer\templates\account\login.html:241
+#: .\summarizer\templates\account\login.html:242
 msgid "Remember Me"
 msgstr "Souviens-toi de moi"
 
-#: .\summarizer\templates\account\login.html:244
+#: .\summarizer\templates\account\login.html:245
 msgid "Forgot Password?"
 msgstr "Mot de passe oublié ?"
 
-#: .\summarizer\templates\account\login.html:253
-#: .\summarizer\templates\account\signup.html:269
+#: .\summarizer\templates\account\login.html:254
+#: .\summarizer\templates\account\signup.html:270
 msgid "or login with"
 msgstr "ou connectez-vous avec"
 
-#: .\summarizer\templates\account\login.html:261
-#: .\summarizer\templates\account\signup.html:278
+#: .\summarizer\templates\account\login.html:262
+#: .\summarizer\templates\account\signup.html:279
 msgid "Login with Google"
 msgstr "Connectez-vous avec Google"
 
-#: .\summarizer\templates\account\login.html:270
+#: .\summarizer\templates\account\login.html:271
 msgid "Don't have an account?"
 msgstr "Vous n'avez pas de compte ?"
 
-#: .\summarizer\templates\account\login.html:270
+#: .\summarizer\templates\account\login.html:271
 msgid "Register"
 msgstr "S'inscrire"
 
-#: .\summarizer\templates\account\login.html:299
-#: .\summarizer\templates\account\signup.html:318
+#: .\summarizer\templates\account\login.html:300
+#: .\summarizer\templates\account\signup.html:319
 #: .\summarizer\templates\front\about.html:507
 #: .\summarizer\templates\front\main.html:336
 #: .\summarizer\templates\front\pricing.html:374
 #: .\summarizer\templates\front\privacypolicy.html:672
-#: .\summarizer\templates\front\termsandconditions.html:667
+#: .\summarizer\templates\front\termsandconditions.html:666
 msgid ""
 "  Summarygenerator.io is an AI-powered tool that uses advanced algorithms "
 "and natural language processing to analyze the content and identify main "
 "ideas to generate relevant summaries. It generates summaries of varying "
 "lengths for any type of content."
-msgstr "Summarygenerator.io est un outil basé sur l'IA qui utilise des algorithmes avancés et un traitement du langage naturel pour analyser le contenu et identifier les idées principales afin de générer des résumés pertinents. "
+msgstr ""
+"Summarygenerator.io est un outil basé sur l'IA qui utilise des algorithmes "
+"avancés et un traitement du langage naturel pour analyser le contenu et "
+"identifier les idées principales afin de générer des résumés pertinents. "
 
-#: .\summarizer\templates\account\login.html:313
-#: .\summarizer\templates\account\signup.html:332
+#: .\summarizer\templates\account\login.html:314
+#: .\summarizer\templates\account\signup.html:333
 #: .\summarizer\templates\front\about.html:240
 #: .\summarizer\templates\front\about.html:521
 #: .\summarizer\templates\front\main.html:350
 #: .\summarizer\templates\front\pricing.html:388
 #: .\summarizer\templates\front\privacypolicy.html:686
-#: .\summarizer\templates\front\termsandconditions.html:681
+#: .\summarizer\templates\front\termsandconditions.html:680
 msgid "About Us"
 msgstr "À propos de nous"
 
-#: .\summarizer\templates\account\login.html:314
-#: .\summarizer\templates\account\signup.html:333
+#: .\summarizer\templates\account\login.html:315
+#: .\summarizer\templates\account\signup.html:334
 #: .\summarizer\templates\front\about.html:522
 #: .\summarizer\templates\front\main.html:351
 #: .\summarizer\templates\front\pricing.html:389
 #: .\summarizer\templates\front\privacypolicy.html:687
-#: .\summarizer\templates\front\termsandconditions.html:210
-#: .\summarizer\templates\front\termsandconditions.html:682
+#: .\summarizer\templates\front\termsandconditions.html:10
+#: .\summarizer\templates\front\termsandconditions.html:209
+#: .\summarizer\templates\front\termsandconditions.html:681
 msgid "Terms and Conditions"
 msgstr "Conditions générales"
 
-#: .\summarizer\templates\account\login.html:315
-#: .\summarizer\templates\account\signup.html:334
+#: .\summarizer\templates\account\login.html:316
+#: .\summarizer\templates\account\signup.html:335
 #: .\summarizer\templates\front\about.html:523
 #: .\summarizer\templates\front\main.html:352
 #: .\summarizer\templates\front\pricing.html:390
+#: .\summarizer\templates\front\privacypolicy.html:10
 #: .\summarizer\templates\front\privacypolicy.html:688
-#: .\summarizer\templates\front\termsandconditions.html:683
+#: .\summarizer\templates\front\termsandconditions.html:682
 msgid "Privacy Policy"
 msgstr "Politique de confidentialité"
 
-#: .\summarizer\templates\account\login.html:325
-#: .\summarizer\templates\account\signup.html:344
+#: .\summarizer\templates\account\login.html:326
+#: .\summarizer\templates\account\signup.html:345
 #: .\summarizer\templates\front\about.html:533
 #: .\summarizer\templates\front\main.html:362
 #: .\summarizer\templates\front\pricing.html:400
 #: .\summarizer\templates\front\privacypolicy.html:698
-#: .\summarizer\templates\front\termsandconditions.html:693
+#: .\summarizer\templates\front\termsandconditions.html:692
 msgid "Get In Touch"
 msgstr "Entrez en contact"
 
-#: .\summarizer\templates\account\login.html:332
-#: .\summarizer\templates\account\signup.html:351
+#: .\summarizer\templates\account\login.html:333
+#: .\summarizer\templates\account\signup.html:352
 #: .\summarizer\templates\front\about.html:540
 #: .\summarizer\templates\front\main.html:369
 #: .\summarizer\templates\front\pricing.html:407
 #: .\summarizer\templates\front\privacypolicy.html:705
-#: .\summarizer\templates\front\termsandconditions.html:700
+#: .\summarizer\templates\front\termsandconditions.html:699
 msgid "support@summarygenerator.io"
 msgstr ""
 
-#: .\summarizer\templates\account\login.html:338
-#: .\summarizer\templates\account\signup.html:357
+#: .\summarizer\templates\account\login.html:339
+#: .\summarizer\templates\account\signup.html:358
 #: .\summarizer\templates\front\about.html:546
 #: .\summarizer\templates\front\main.html:375
 #: .\summarizer\templates\front\pricing.html:413
 #: .\summarizer\templates\front\privacypolicy.html:711
-#: .\summarizer\templates\front\termsandconditions.html:706
+#: .\summarizer\templates\front\termsandconditions.html:705
 msgid "+4473 61622097"
 msgstr "4473 61622097"
 
-#: .\summarizer\templates\account\login.html:345
-#: .\summarizer\templates\account\signup.html:364
+#: .\summarizer\templates\account\login.html:346
+#: .\summarizer\templates\account\signup.html:365
 #: .\summarizer\templates\front\about.html:553
 #: .\summarizer\templates\front\main.html:382
 #: .\summarizer\templates\front\pricing.html:420
 #: .\summarizer\templates\front\privacypolicy.html:718
-#: .\summarizer\templates\front\termsandconditions.html:713
+#: .\summarizer\templates\front\termsandconditions.html:712
 msgid "International House, 12 Constance Street, London, E16 2DQ."
 msgstr "International House, 12 Constance Street, Londres, E16 2DQ."
 
-#: .\summarizer\templates\account\login.html:370
-#: .\summarizer\templates\account\signup.html:389
+#: .\summarizer\templates\account\login.html:371
+#: .\summarizer\templates\account\signup.html:390
 #: .\summarizer\templates\front\about.html:578
 #: .\summarizer\templates\front\main.html:407
 #: .\summarizer\templates\front\pricing.html:445
 #: .\summarizer\templates\front\privacypolicy.html:743
-#: .\summarizer\templates\front\termsandconditions.html:738
+#: .\summarizer\templates\front\termsandconditions.html:737
 msgid "Copyright &copy; 2023."
 msgstr "droit d'auteur"
 
-#: .\summarizer\templates\account\login.html:371
-#: .\summarizer\templates\account\signup.html:390
+#: .\summarizer\templates\account\login.html:372
+#: .\summarizer\templates\account\signup.html:391
 #: .\summarizer\templates\front\about.html:579
 #: .\summarizer\templates\front\main.html:408
 #: .\summarizer\templates\front\pricing.html:446
 #: .\summarizer\templates\front\privacypolicy.html:744
-#: .\summarizer\templates\front\termsandconditions.html:739
+#: .\summarizer\templates\front\termsandconditions.html:738
 msgid "Summarygenerator.io"
 msgstr "Résumégénérateur.io"
 
-#: .\summarizer\templates\account\signup.html:197
+#: .\summarizer\templates\account\signup.html:12
+msgid "Signup"
+msgstr "Inscrivez-vous"
+
+#: .\summarizer\templates\account\signup.html:198
 msgid "Start your journey"
 msgstr "Commencez votre voyage"
 
-#: .\summarizer\templates\account\signup.html:198
+#: .\summarizer\templates\account\signup.html:199
 msgid "Create Summarygenerator account"
 msgstr "Créer un compte générateur de résumé"
 
-#: .\summarizer\templates\account\signup.html:227
+#: .\summarizer\templates\account\signup.html:228
 msgid "Full Name"
 msgstr "Nom complet"
 
-#: .\summarizer\templates\account\signup.html:229
+#: .\summarizer\templates\account\signup.html:230
 msgid "Your Name"
 msgstr "Votre nom"
 
-#: .\summarizer\templates\account\signup.html:234
+#: .\summarizer\templates\account\signup.html:235
 msgid "Email Address"
 msgstr "Adresse e-mail"
 
-#: .\summarizer\templates\account\signup.html:236
+#: .\summarizer\templates\account\signup.html:237
 msgid "name@copygen.com"
 msgstr "nom@copygen.com"
 
-#: .\summarizer\templates\account\signup.html:253
+#: .\summarizer\templates\account\signup.html:254
 msgid "Password (Confirm)"
 msgstr "Mot de passe (Confirmer)"
 
-#: .\summarizer\templates\account\signup.html:264
+#: .\summarizer\templates\account\signup.html:265
 msgid "Create Account"
 msgstr "Créer un compte"
 
-#: .\summarizer\templates\account\signup.html:288
+#: .\summarizer\templates\account\signup.html:289
 msgid "Already have an account?"
 msgstr "Vous avez déjà un compte ?"
 
@@ -317,6 +333,16 @@ msgid ""
 "finalize the signup process. Please contact us if you do not receive it "
 "within a few seconds."
 msgstr "Nous vous avons envoyé un e-mail pour vérification. "
+
+#: .\summarizer\templates\front\about.html:10
+#: .\summarizer\templates\front\home2.html:13
+#: .\summarizer\templates\front\privacypolicy.html:11
+#: .\summarizer\templates\front\termsandconditions.html:11
+msgid ""
+"Experience the power of AI Summary Generator, your go-to text summarizer "
+"that uses advanced algorithms and NLP to identify main points and generate "
+"relevant summaries. Try Now!"
+msgstr ""
 
 #: .\summarizer\templates\front\about.html:241
 msgid "SummaryGenerator.io"
@@ -337,30 +363,40 @@ msgstr "Notre logiciel utilise l’IA pour condenser les informations"
 
 #: .\summarizer\templates\front\about.html:261
 msgid "We used to be called Summarizing-tool but now we're SummaryGenerator."
-msgstr "Auparavant, nous nous appelions Summarizing-tool, mais maintenant nous sommes SummaryGenerator."
+msgstr ""
+"Auparavant, nous nous appelions Summarizing-tool, mais maintenant nous "
+"sommes SummaryGenerator."
 
 #: .\summarizer\templates\front\about.html:262
 msgid ""
 "This change allows us to offer advanced features and better functionality."
-msgstr "Ce changement nous permet d'offrir des fonctionnalités avancées et de meilleures fonctionnalités."
+msgstr ""
+"Ce changement nous permet d'offrir des fonctionnalités avancées et de "
+"meilleures fonctionnalités."
 
 #: .\summarizer\templates\front\about.html:294
 msgid ""
 "Our goal is to provide you with an easy and efficient way to summarize "
 "content."
-msgstr "Notre objectif est de vous fournir un moyen simple et efficace de résumer le contenu."
+msgstr ""
+"Notre objectif est de vous fournir un moyen simple et efficace de résumer le "
+"contenu."
 
 #: .\summarizer\templates\front\about.html:313
 msgid ""
 "Our AI-driven generator takes complex information and turns it into concise "
 "summaries."
-msgstr "Notre générateur piloté par l'IA prend des informations complexes et les transforme en résumés concis."
+msgstr ""
+"Notre générateur piloté par l'IA prend des informations complexes et les "
+"transforme en résumés concis."
 
 #: .\summarizer\templates\front\about.html:331
 msgid ""
 "We know your time is valuable, so our algorithm ensures accurate and quick "
 "summaries. "
-msgstr "Nous savons que votre temps est précieux, c'est pourquoi notre algorithme garantit des résumés précis et rapides."
+msgstr ""
+"Nous savons que votre temps est précieux, c'est pourquoi notre algorithme "
+"garantit des résumés précis et rapides."
 
 #: .\summarizer\templates\front\about.html:351
 msgid "Bullet point summarization "
@@ -370,13 +406,17 @@ msgstr "Résumé des puces"
 msgid ""
 "Whether you're a student or a professional, our platform is designed to meet "
 "your needs."
-msgstr "Que vous soyez étudiant ou professionnel, notre plateforme est conçue pour répondre à vos besoins."
+msgstr ""
+"Que vous soyez étudiant ou professionnel, notre plateforme est conçue pour "
+"répondre à vos besoins."
 
 #: .\summarizer\templates\front\about.html:358
 msgid ""
 "One of our standout features is bullet point summarization, which improves "
 "readability."
-msgstr "L’une de nos fonctionnalités les plus remarquables est le résumé par puces, qui améliore la lisibilité."
+msgstr ""
+"L’une de nos fonctionnalités les plus remarquables est le résumé par puces, "
+"qui améliore la lisibilité."
 
 #: .\summarizer\templates\front\about.html:381
 msgid "Website Designer"
@@ -398,7 +438,9 @@ msgstr "Si vous avez des questions ou souhaitez nous contacter"
 msgid ""
 "We value your feedback and are committed to improving SummaryGenerator.io "
 "for you."
-msgstr "Nous apprécions vos commentaires et nous nous engageons à améliorer SummaryGenerator.io pour vous."
+msgstr ""
+"Nous apprécions vos commentaires et nous nous engageons à améliorer "
+"SummaryGenerator.io pour vous."
 
 #: .\summarizer\templates\front\about.html:420
 msgid "You can call us at +4473 61622097"
@@ -411,7 +453,8 @@ msgstr "envoyez-nous un e-mail à support@summarygenerator.io"
 #: .\summarizer\templates\front\about.html:442
 msgid ""
 "Our address is International House, 12 Constance Street, London, E16 2DQ."
-msgstr "Notre adresse est International House, 12 Constance Street, Londres, E16 2DQ."
+msgstr ""
+"Notre adresse est International House, 12 Constance Street, Londres, E16 2DQ."
 
 #: .\summarizer\templates\front\about.html:460
 #: .\summarizer\templates\front\home2.html:653
@@ -423,7 +466,9 @@ msgstr "Prêt à transformer votre texte ?"
 msgid ""
 "SummaryGenerator.io turns your lengthy texts into crisp, clear summaries "
 "with just one click. "
-msgstr "SummaryGenerator.io transforme vos longs textes en résumés clairs et nets en un seul clic."
+msgstr ""
+"SummaryGenerator.io transforme vos longs textes en résumés clairs et nets en "
+"un seul clic."
 
 #: .\summarizer\templates\front\about.html:463
 #: .\summarizer\templates\front\home2.html:656
@@ -449,6 +494,11 @@ msgstr "Générer des résumés en 3 secondes"
 msgid "No signup required"
 msgstr "Aucune inscription requise"
 
+#: .\summarizer\templates\front\home2.html:12
+msgid "Free AI Summary Generator - Summarize Text in One Click"
+msgstr "Générateur de résumé IA gratuit - Résumez le texte en un clic"
+
+
 #: .\summarizer\templates\front\home2.html:169
 #: .\summarizer\templates\front\main.html:295
 msgid "Summarize any text with One Click"
@@ -466,7 +516,10 @@ msgid ""
 "content into quick, digestible summaries in just one click. Use it to "
 "summarize your articles, academic papers, business reports, or any kind of "
 "content."
-msgstr "Notre générateur de résumés utilise une technologie d'IA avancée pour décomposer votre long contenu en résumés rapides et compréhensibles en un seul clic. "
+msgstr ""
+"Notre générateur de résumés utilise une technologie d'IA avancée pour "
+"décomposer votre long contenu en résumés rapides et compréhensibles en un "
+"seul clic. "
 
 #: .\summarizer\templates\front\home2.html:235
 #: .\summarizer\templates\front\index.html:100
@@ -481,8 +534,8 @@ msgid ""
 "and crucial data in just one click."
 msgstr ""
 "Cette synthèse de texte extrait rapidement des informations importantes de "
-"textes volumineux et présente un contenu complexe de manière attrayante. Vous "
-"obtenez les données les plus pertinentes et cruciales en un seul clic."
+"textes volumineux et présente un contenu complexe de manière attrayante. "
+"Vous obtenez les données les plus pertinentes et cruciales en un seul clic."
 
 #: .\summarizer\templates\front\home2.html:263
 msgid "Choose Your Summary Length & Style"
@@ -539,7 +592,6 @@ msgstr ""
 msgid "Freelance Writer"
 msgstr "Écrivain indépendant"
 
-
 #: .\summarizer\templates\front\home2.html:347
 #: .\summarizer\templates\front\index.html:207
 msgid ""
@@ -547,7 +599,9 @@ msgid ""
 "distills the main ideas of complex academic papers. The tool`s precision in "
 "highlighting relevant data and arguments made my literature review process "
 "much more manageable."
-msgstr "Au cours de mes recherches de doctorat, SummaryGenerator.io s'est avéré inestimable. "
+msgstr ""
+"Au cours de mes recherches de doctorat, SummaryGenerator.io s'est avéré "
+"inestimable. "
 
 #: .\summarizer\templates\front\home2.html:352
 #: .\summarizer\templates\front\index.html:212
@@ -569,7 +623,9 @@ msgstr "Entrez le texte"
 msgid ""
 "You can copy the text and paste it into the box above, or upload a file from "
 "your desktop. You can upload a Doc or PDF file."
-msgstr "Vous pouvez copier le texte et le coller dans la case ci-dessus, ou télécharger un fichier depuis votre bureau. "
+msgstr ""
+"Vous pouvez copier le texte et le coller dans la case ci-dessus, ou "
+"télécharger un fichier depuis votre bureau. "
 
 #: .\summarizer\templates\front\home2.html:451
 #: .\summarizer\templates\front\index.html:311
@@ -582,7 +638,9 @@ msgid ""
 "Choose your desired summary size between small, medium-length, and large "
 "summary options. Decide if you want the summary in paragraph form or bullet "
 "points."
-msgstr "Choisissez la taille du résumé souhaitée entre les options de résumé petit, moyen et grand. "
+msgstr ""
+"Choisissez la taille du résumé souhaitée entre les options de résumé petit, "
+"moyen et grand. "
 
 #: .\summarizer\templates\front\home2.html:480
 #: .\summarizer\templates\front\index.html:340
@@ -595,12 +653,15 @@ msgid ""
 "Click the “Summarize” button, and you’ll get the summary in a few seconds. "
 "You can simply copy the generated summary or download it as a Doc or PDF "
 "file. That’s all!"
-msgstr "Cliquez sur le bouton « Résumer » et vous obtiendrez le résumé en quelques secondes. "
+msgstr ""
+"Cliquez sur le bouton « Résumer » et vous obtiendrez le résumé en quelques "
+"secondes. "
 
 #: .\summarizer\templates\front\home2.html:501
 #: .\summarizer\templates\front\index.html:361
 msgid "What Kind of Content Can You Summarize with this Summary Generator?"
-msgstr "Quel type de contenu pouvez-vous résumer avec ce générateur de résumé ?"
+msgstr ""
+"Quel type de contenu pouvez-vous résumer avec ce générateur de résumé ?"
 
 #: .\summarizer\templates\front\home2.html:519
 #: .\summarizer\templates\front\index.html:379
@@ -612,7 +673,9 @@ msgstr "Documents académiques"
 msgid ""
 "Quickly turn complex research papers or articles into easy to digest "
 "summaries."
-msgstr "Transformez rapidement des documents de recherche ou des articles complexes en résumés faciles à digérer."
+msgstr ""
+"Transformez rapidement des documents de recherche ou des articles complexes "
+"en résumés faciles à digérer."
 
 #: .\summarizer\templates\front\home2.html:539
 #: .\summarizer\templates\front\index.html:399
@@ -636,7 +699,9 @@ msgstr "Articles de presse"
 msgid ""
 "Get the gist of current events and news stories without reading the full "
 "text."
-msgstr "Obtenez l’essentiel de l’actualité et des actualités sans lire le texte intégral."
+msgstr ""
+"Obtenez l’essentiel de l’actualité et des actualités sans lire le texte "
+"intégral."
 
 #: .\summarizer\templates\front\home2.html:577
 #: .\summarizer\templates\front\index.html:437
@@ -646,7 +711,8 @@ msgstr "Résumés de livres"
 #: .\summarizer\templates\front\home2.html:579
 #: .\summarizer\templates\front\index.html:439
 msgid "Create brief overviews of books for study or leisure reading."
-msgstr "Créez de brefs aperçus de livres pour l’étude ou la lecture de loisirs."
+msgstr ""
+"Créez de brefs aperçus de livres pour l’étude ou la lecture de loisirs."
 
 #: .\summarizer\templates\front\home2.html:596
 #: .\summarizer\templates\front\index.html:456
@@ -682,7 +748,9 @@ msgstr "Générez votre résumé maintenant !"
 msgid ""
 "SummaryGenerator.io turns your lengthy texts into crisp, clear summaries "
 "with just one click."
-msgstr "SummaryGenerator.io transforme vos longs textes en résumés clairs et nets en un seul clic."
+msgstr ""
+"SummaryGenerator.io transforme vos longs textes en résumés clairs et nets en "
+"un seul clic."
 
 #: .\summarizer\templates\front\home2.html:679
 #: .\summarizer\templates\front\pricing.html:260
@@ -704,7 +772,9 @@ msgid ""
 "Summarygenerator.io, enter the text in the blank box, or upload a file, "
 "choose the summary length, and click summarize. Our advanced AI will create "
 "an accurate summary in less than a second."
-msgstr "Notre générateur de résumé vous aide à résumer du texte en ligne gratuitement. "
+msgstr ""
+"Notre générateur de résumé vous aide à résumer du texte en ligne "
+"gratuitement. "
 
 #: .\summarizer\templates\front\home2.html:701
 msgid "What is the best free AI for summarizing?"
@@ -715,7 +785,9 @@ msgid ""
 "Summarygenerator.io is one of the best free AI summarizing tools to create "
 "long and short summaries in one click. Our tool uses natural language "
 "processing and advanced AI technology to generate summaries that make sense."
-msgstr "Summarygenerator.io est l'un des meilleurs outils de synthèse d'IA gratuits pour créer des résumés longs et courts en un seul clic. "
+msgstr ""
+"Summarygenerator.io est l'un des meilleurs outils de synthèse d'IA gratuits "
+"pour créer des résumés longs et courts en un seul clic. "
 
 #: .\summarizer\templates\front\home2.html:711
 msgid "How do you write an AI summary?"
@@ -729,7 +801,10 @@ msgid ""
 "processing (NLP) techniques. It then generates a summary, highlighting the "
 "important points. Review and refine the AI-generated summary to ensure "
 "accuracy."
-msgstr "Tout ce que vous avez à faire est de saisir le texte dans la zone de texte Summarygenerator.io, de définir la longueur et de décrire le style du résumé (paragraphe ou puces). "
+msgstr ""
+"Tout ce que vous avez à faire est de saisir le texte dans la zone de texte "
+"Summarygenerator.io, de définir la longueur et de décrire le style du résumé "
+"(paragraphe ou puces). "
 
 #: .\summarizer\templates\front\home2.html:721
 msgid "Can AI summarize a PDF?"
@@ -750,6 +825,25 @@ msgid ""
 "Uh-oh! It seems like you've hit the word limit. Upgrade to our Pro version "
 "now to enjoy unlimited summarization and explore advanced features."
 msgstr "Oh-oh ! "
+
+#: .\summarizer\templates\front\main.html:6
+msgid "Ai Summary Generator - Summarize Text in One Click"
+msgstr "Résumez n’importe quel texte en un seul clic"
+
+#: .\summarizer\templates\front\main.html:7
+msgid ""
+"Free Ai Summary Generator, your go-to text summarizer that uses advanced "
+"algorithms to identify main points and generate relevant summaries."
+msgstr ""
+"Générateur de résumé IA gratuit, votre outil de synthèse de texte qui utilise des algorithmes avancés pour identifier les points principaux et générer des résumés pertinents."
+
+#: .\summarizer\templates\front\pricing.html:8
+msgid ""
+"Free AI Summary Generator, your go-to text summarizer that uses advanced "
+"algorithms to identify main points and generate relevant summaries."
+msgstr ""
+"Générateur de résumé IA gratuit, votre outil de synthèse de texte qui utilise des algorithmes avancés pour identifier les points principaux et générer des résumés pertinents."
+
 
 #: .\summarizer\templates\front\pricing.html:188
 msgid "Plans & Pricing"
@@ -863,13 +957,17 @@ msgstr ""
 #: .\summarizer\templates\front\pricing.html:288
 msgid ""
 "You also get access to the advanced editor tool to edit text inside the tool."
-msgstr "Vous avez également accès à l'outil d'édition avancé pour modifier le texte à l'intérieur de l'outil."
+msgstr ""
+"Vous avez également accès à l'outil d'édition avancé pour modifier le texte "
+"à l'intérieur de l'outil."
 
 #: .\summarizer\templates\front\pricing.html:288
 msgid ""
 "Plus, you get regular technical support, unlimited logins, and access to the "
 "newest features."
-msgstr "De plus, vous bénéficiez d'une assistance technique régulière, de connexions illimitées et d'un accès aux dernières fonctionnalités."
+msgstr ""
+"De plus, vous bénéficiez d'une assistance technique régulière, de connexions "
+"illimitées et d'un accès aux dernières fonctionnalités."
 
 #: .\summarizer\templates\front\pricing.html:295
 msgid "Why should I buy the Yearly plan?"
@@ -880,14 +978,19 @@ msgstr "Pourquoi devrais-je acheter le forfait annuel ?"
 msgid ""
 "Choosing the Yearly plan for $59.95 over the monthly option at $9.95 means "
 "you’re saving nearly 50%% annually."
-msgstr "Choisir le forfait annuel à 59,95 $ plutôt que l'option mensuelle à 9,95 $ signifie que vous économisez près de 50%% par an."
+msgstr ""
+"Choisir le forfait annuel à 59,95 $ plutôt que l'option mensuelle à 9,95 $ "
+"signifie que vous économisez près de 50%% par an."
 
 #: .\summarizer\templates\front\pricing.html:300
 msgid ""
 "Plus, it expands the word limit to 10 million yearly, supports more than 50 "
 "languages, and includes all features of the Monthly plan, making it a more "
 "economical choice for heavy users."
-msgstr "De plus, il étend la limite de mots à 10 millions par an, prend en charge plus de 50 langues et inclut toutes les fonctionnalités du forfait mensuel, ce qui en fait un choix plus économique pour les gros utilisateurs."
+msgstr ""
+"De plus, il étend la limite de mots à 10 millions par an, prend en charge "
+"plus de 50 langues et inclut toutes les fonctionnalités du forfait mensuel, "
+"ce qui en fait un choix plus économique pour les gros utilisateurs."
 
 #: .\summarizer\templates\front\pricing.html:307
 msgid "Can I upgrade from the free plan to a paid subscription?"
@@ -898,14 +1001,17 @@ msgid ""
 "Yes, you can easily upgrade to either the Monthly or Yearly plan to enjoy "
 "higher word limits, additional languages, the advanced editor tool, and "
 "other premium features."
-msgstr "Oui, vous pouvez facilement passer au forfait mensuel ou annuel pour bénéficier d'une limite de mots plus élevée, de langues supplémentaires, de l'outil d'édition avancé et d'autres fonctionnalités premium."
+msgstr ""
+"Oui, vous pouvez facilement passer au forfait mensuel ou annuel pour "
+"bénéficier d'une limite de mots plus élevée, de langues supplémentaires, de "
+"l'outil d'édition avancé et d'autres fonctionnalités premium."
 
 #: .\summarizer\templates\front\pricing.html:331
 msgid "Boost your writing productivity"
 msgstr "Boostez votre productivité en écriture"
 
 #: .\summarizer\templates\front\privacypolicy.html:227
-#: .\summarizer\templates\front\termsandconditions.html:209
+#: .\summarizer\templates\front\termsandconditions.html:208
 msgid "CopyGen"
 msgstr "CopieGen"
 
@@ -922,7 +1028,11 @@ msgid ""
 "This privacy notice for Kamranali Limited ('we,' 'us,' or 'our'), describes "
 "how and why we might collect, store, use, and/or share ('process') your "
 "information when you use our services ('Services'), such as when you:"
-msgstr "Cet avis de confidentialité pour Kamranali Limited (« nous », « notre » ou « notre ») décrit comment et pourquoi nous pouvons collecter, stocker, utiliser et/ou partager (« traiter ») vos informations lorsque vous utilisez notre "
+msgstr ""
+"Cet avis de confidentialité pour Kamranali Limited (« nous », « notre » ou « "
+"notre ») décrit comment et pourquoi nous pouvons collecter, stocker, "
+"utiliser et/ou partager (« traiter ») vos informations lorsque vous utilisez "
+"notre "
 
 #: .\summarizer\templates\front\privacypolicy.html:238
 msgid "Visit our website at"
@@ -940,7 +1050,9 @@ msgstr "ou l'un de nos sites Web qui renvoie à cet avis de confidentialité"
 msgid ""
 "Engage with us in other related ways, including any sales, marketing, or "
 "events"
-msgstr "Interagissez avec nous par d'autres moyens connexes, y compris par des ventes, du marketing ou des événements."
+msgstr ""
+"Interagissez avec nous par d'autres moyens connexes, y compris par des "
+"ventes, du marketing ou des événements."
 
 #: .\summarizer\templates\front\privacypolicy.html:242
 msgid ""
@@ -960,7 +1072,11 @@ msgid ""
 "out more details about any of these topics by clicking the link following "
 "each key point or by using our table of contents below to find the section "
 "you are looking for."
-msgstr "Ce résumé fournit les points clés de notre avis de confidentialité, mais vous pouvez trouver plus de détails sur l'un de ces sujets en cliquant sur le lien suivant chaque point clé ou en utilisant notre table des matières ci-dessous pour trouver la section que vous recherchez."
+msgstr ""
+"Ce résumé fournit les points clés de notre avis de confidentialité, mais "
+"vous pouvez trouver plus de détails sur l'un de ces sujets en cliquant sur "
+"le lien suivant chaque point clé ou en utilisant notre table des matières ci-"
+"dessous pour trouver la section que vous recherchez."
 
 #: .\summarizer\templates\front\privacypolicy.html:248
 msgid ""
@@ -999,7 +1115,9 @@ msgid ""
 "We may share information in specific situations and with specific third "
 "parties. Learn more about when and with whom we share your personal "
 "information."
-msgstr "Dans quelles situations et avec quelles parties partageons-nous des informations personnelles ? "
+msgstr ""
+"Dans quelles situations et avec quelles parties partageons-nous des "
+"informations personnelles ? "
 
 #: .\summarizer\templates\front\privacypolicy.html:253
 msgid ""
@@ -1020,10 +1138,12 @@ msgstr "Comment exercer vos droits ? "
 msgid ""
 "Want to learn more about what we do with any information we collect? Review "
 "the privacy notice in full."
-msgstr "Vous souhaitez en savoir plus sur ce que nous faisons avec les informations que nous collectons ? "
+msgstr ""
+"Vous souhaitez en savoir plus sur ce que nous faisons avec les informations "
+"que nous collectons ? "
 
 #: .\summarizer\templates\front\privacypolicy.html:264
-#: .\summarizer\templates\front\termsandconditions.html:246
+#: .\summarizer\templates\front\termsandconditions.html:245
 msgid "Table of Contents"
 msgstr "Table des matières"
 
@@ -1040,7 +1160,9 @@ msgstr "2. COMMENT TRAITONS-NOUS VOS INFORMATIONS ?"
 #: .\summarizer\templates\front\privacypolicy.html:269
 #: .\summarizer\templates\front\privacypolicy.html:341
 msgid "3. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR PERSONAL INFORMATION?"
-msgstr "3. SUR QUELLES BASES LÉGALES NOUS APPUYONS-NOUS POUR TRAITER VOS INFORMATIONS PERSONNELLES ?"
+msgstr ""
+"3. SUR QUELLES BASES LÉGALES NOUS APPUYONS-NOUS POUR TRAITER VOS "
+"INFORMATIONS PERSONNELLES ?"
 
 #: .\summarizer\templates\front\privacypolicy.html:270
 #: .\summarizer\templates\front\privacypolicy.html:376
@@ -1075,7 +1197,9 @@ msgstr "9. CONTRÔLES POUR LES FONCTIONNALITÉS DE NE PAS SUIVRE"
 #: .\summarizer\templates\front\privacypolicy.html:276
 #: .\summarizer\templates\front\privacypolicy.html:490
 msgid "10. DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?"
-msgstr "10. LES RÉSIDENTS DES ÉTATS-UNIS ONT-ILS DES DROITS SPÉCIFIQUES EN MATIÈRE DE CONFIDENTIALITÉ ?"
+msgstr ""
+"10. LES RÉSIDENTS DES ÉTATS-UNIS ONT-ILS DES DROITS SPÉCIFIQUES EN MATIÈRE "
+"DE CONFIDENTIALITÉ ?"
 
 #: .\summarizer\templates\front\privacypolicy.html:277
 #: .\summarizer\templates\front\privacypolicy.html:603
@@ -1090,8 +1214,9 @@ msgstr "12. COMMENT POUVEZ-VOUS NOUS CONTACTER CONCERNANT CET AVIS ?"
 #: .\summarizer\templates\front\privacypolicy.html:279
 #: .\summarizer\templates\front\privacypolicy.html:628
 msgid "13. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?"
-msgstr "13. COMMENT POUVEZ-VOUS EXAMINER, METTRE À JOUR OU SUPPRIMER LES DONNÉES QUE NOUS COLLECTONS AUPRÈS DE VOUS ?"
-
+msgstr ""
+"13. COMMENT POUVEZ-VOUS EXAMINER, METTRE À JOUR OU SUPPRIMER LES DONNÉES QUE "
+"NOUS COLLECTONS AUPRÈS DE VOUS ?"
 
 #: .\summarizer\templates\front\privacypolicy.html:286
 msgid "Personal information you disclose to us"
@@ -1099,7 +1224,9 @@ msgstr "Informations personnelles que vous nous divulguez"
 
 #: .\summarizer\templates\front\privacypolicy.html:287
 msgid "In Short: We collect personal information that you provide to us."
-msgstr "En bref : Nous collectons les informations personnelles que vous nous fournissez."
+msgstr ""
+"En bref : Nous collectons les informations personnelles que vous nous "
+"fournissez."
 
 #: .\summarizer\templates\front\privacypolicy.html:289
 msgid ""
@@ -1107,7 +1234,12 @@ msgid ""
 "register on the Services, express an interest in obtaining information about "
 "us or our products and Services, when you participate in activities on the "
 "Services, or otherwise when you contact us."
-msgstr "Nous collectons les informations personnelles que vous nous fournissez volontairement lorsque vous vous inscrivez sur les Services, exprimez votre intérêt à obtenir des informations sur nous ou sur nos produits et Services, lorsque vous participez à des activités sur les Services, ou autrement lorsque vous nous contactez."
+msgstr ""
+"Nous collectons les informations personnelles que vous nous fournissez "
+"volontairement lorsque vous vous inscrivez sur les Services, exprimez votre "
+"intérêt à obtenir des informations sur nous ou sur nos produits et Services, "
+"lorsque vous participez à des activités sur les Services, ou autrement "
+"lorsque vous nous contactez."
 
 #: .\summarizer\templates\front\privacypolicy.html:291
 msgid ""
@@ -1167,7 +1299,11 @@ msgid ""
 "such as your payment instrument number, and the security code associated "
 "with your payment instrument. All payment data is stored by __________. You "
 "may find their privacy notice link(s) here: __________."
-msgstr "Nous pouvons collecter les données nécessaires au traitement de votre paiement si vous effectuez des achats, telles que le numéro de votre instrument de paiement et le code de sécurité associé à votre instrument de paiement. "
+msgstr ""
+"Nous pouvons collecter les données nécessaires au traitement de votre "
+"paiement si vous effectuez des achats, telles que le numéro de votre "
+"instrument de paiement et le code de sécurité associé à votre instrument de "
+"paiement. "
 
 #: .\summarizer\templates\front\privacypolicy.html:307
 msgid "Social Media Login Data."
@@ -1180,13 +1316,19 @@ msgid ""
 "media account. If you choose to register in this way, we will collect the "
 "information described in the section called 'HOW DO WE HANDLE YOUR SOCIAL "
 "LOGINS?' below."
-msgstr "Nous pouvons vous offrir la possibilité de vous inscrire auprès de nous en utilisant les détails de votre compte de réseau social existant, comme votre compte Facebook, Twitter ou un autre compte de réseau social. "
+msgstr ""
+"Nous pouvons vous offrir la possibilité de vous inscrire auprès de nous en "
+"utilisant les détails de votre compte de réseau social existant, comme votre "
+"compte Facebook, Twitter ou un autre compte de réseau social. "
 
 #: .\summarizer\templates\front\privacypolicy.html:309
 msgid ""
 "All personal information that you provide to us must be true, complete, and "
 "accurate, and you must notify us of any changes to such personal information."
-msgstr "Toutes les informations personnelles que vous nous fournissez doivent être véridiques, complètes et exactes, et vous devez nous informer de toute modification apportée à ces informations personnelles."
+msgstr ""
+"Toutes les informations personnelles que vous nous fournissez doivent être "
+"véridiques, complètes et exactes, et vous devez nous informer de toute "
+"modification apportée à ces informations personnelles."
 
 #: .\summarizer\templates\front\privacypolicy.html:317
 msgid ""
@@ -1194,35 +1336,50 @@ msgid ""
 "our Services, communicate with you, for security and fraud prevention, and "
 "to comply with law. We may also process your information for other purposes "
 "with your consent."
-msgstr "En bref : Nous traitons vos informations pour fournir, améliorer et administrer nos services, communiquer avec vous, pour des raisons de sécurité et de prévention de la fraude, et pour nous conformer à la loi. "
+msgstr ""
+"En bref : Nous traitons vos informations pour fournir, améliorer et "
+"administrer nos services, communiquer avec vous, pour des raisons de "
+"sécurité et de prévention de la fraude, et pour nous conformer à la loi. "
 
 #: .\summarizer\templates\front\privacypolicy.html:320
 msgid ""
 "We process your personal information for a variety of reasons, depending on "
 "how you interact with our Services, including:"
-msgstr "Nous traitons vos informations personnelles pour diverses raisons, en fonction de la manière dont vous interagissez avec nos Services, notamment :"
+msgstr ""
+"Nous traitons vos informations personnelles pour diverses raisons, en "
+"fonction de la manière dont vous interagissez avec nos Services, notamment :"
 
 #: .\summarizer\templates\front\privacypolicy.html:325
 msgid ""
 "To facilitate account creation and authentication and otherwise manage user "
 "accounts."
-msgstr "Pour faciliter la création et l'authentification de comptes et gérer autrement les comptes d'utilisateurs."
+msgstr ""
+"Pour faciliter la création et l'authentification de comptes et gérer "
+"autrement les comptes d'utilisateurs."
 
 #: .\summarizer\templates\front\privacypolicy.html:326
 msgid ""
 "We may process your information so you can create and log in to your "
 "account, as well as keep your account in working order."
-msgstr "Nous pouvons traiter vos informations afin que vous puissiez créer et vous connecter à votre compte, ainsi que maintenir votre compte en état de fonctionnement."
+msgstr ""
+"Nous pouvons traiter vos informations afin que vous puissiez créer et vous "
+"connecter à votre compte, ainsi que maintenir votre compte en état de "
+"fonctionnement."
 
 #: .\summarizer\templates\front\privacypolicy.html:329
 msgid "To respond to user inquiries/offer support to users."
-msgstr "Pour répondre aux demandes des utilisateurs/offrir une assistance aux utilisateurs."
+msgstr ""
+"Pour répondre aux demandes des utilisateurs/offrir une assistance aux "
+"utilisateurs."
 
 #: .\summarizer\templates\front\privacypolicy.html:330
 msgid ""
 "We may process your information to respond to your inquiries and solve any "
 "potential issues you might have with the requested service."
-msgstr "Nous pouvons traiter vos informations pour répondre à vos demandes et résoudre tout problème potentiel que vous pourriez rencontrer avec le service demandé."
+msgstr ""
+"Nous pouvons traiter vos informations pour répondre à vos demandes et "
+"résoudre tout problème potentiel que vous pourriez rencontrer avec le "
+"service demandé."
 
 #: .\summarizer\templates\front\privacypolicy.html:333
 msgid "To save or protect an individual's vital interest."
@@ -1232,7 +1389,10 @@ msgstr "Sauvegarder ou protéger les intérêts vitaux d'un individu."
 msgid ""
 "We may process your information when necessary to save or protect an "
 "individual’s vital interest, such as to prevent harm."
-msgstr "Nous pouvons traiter vos informations lorsque cela est nécessaire pour sauvegarder ou protéger les intérêts vitaux d’un individu, par exemple pour prévenir tout préjudice."
+msgstr ""
+"Nous pouvons traiter vos informations lorsque cela est nécessaire pour "
+"sauvegarder ou protéger les intérêts vitaux d’un individu, par exemple pour "
+"prévenir tout préjudice."
 
 #: .\summarizer\templates\front\privacypolicy.html:342
 msgid ""
@@ -1242,11 +1402,17 @@ msgid ""
 "provide you with services to enter into or fulfill our contractual "
 "obligations, to protect your rights, or to fulfill our legitimate business "
 "interests."
-msgstr "En bref : Nous traitons vos informations personnelles uniquement lorsque nous pensons que cela est nécessaire et que nous avons une raison juridique valable (c'est-à-dire une base légale) pour le faire en vertu de la loi applicable, comme avec votre consentement, pour nous conformer aux lois, pour vous fournir "
+msgstr ""
+"En bref : Nous traitons vos informations personnelles uniquement lorsque "
+"nous pensons que cela est nécessaire et que nous avons une raison juridique "
+"valable (c'est-à-dire une base légale) pour le faire en vertu de la loi "
+"applicable, comme avec votre consentement, pour nous conformer aux lois, "
+"pour vous fournir "
 
 #: .\summarizer\templates\front\privacypolicy.html:344
 msgid "If you are located in the EU or UK, this section applies to you."
-msgstr "Si vous résidez dans l'UE ou au Royaume-Uni, cette section s'applique à vous."
+msgstr ""
+"Si vous résidez dans l'UE ou au Royaume-Uni, cette section s'applique à vous."
 
 #: .\summarizer\templates\front\privacypolicy.html:346
 msgid ""
@@ -1254,19 +1420,24 @@ msgid ""
 "explain the valid legal bases we rely on in order to process your personal "
 "information. As such, we may rely on the following legal bases to process "
 "your personal information:"
-msgstr "Le Règlement général sur la protection des données (RGPD) et le RGPD britannique nous obligent à expliquer les bases juridiques valides sur lesquelles nous nous appuyons pour traiter vos informations personnelles. "
+msgstr ""
+"Le Règlement général sur la protection des données (RGPD) et le RGPD "
+"britannique nous obligent à expliquer les bases juridiques valides sur "
+"lesquelles nous nous appuyons pour traiter vos informations personnelles. "
 
 #: .\summarizer\templates\front\privacypolicy.html:349
 msgid "Consent."
 msgstr "Consentement."
-
 
 #: .\summarizer\templates\front\privacypolicy.html:349
 msgid ""
 "We may process your information if you have given us permission (i.e., "
 "consent) to use your personal information for a specific purpose. You can "
 "withdraw your consent at any time. Learn more about withdrawing your consent."
-msgstr "Nous pouvons traiter vos informations si vous nous avez donné la permission (c'est-à-dire votre consentement) d'utiliser vos informations personnelles dans un but spécifique. "
+msgstr ""
+"Nous pouvons traiter vos informations si vous nous avez donné la permission "
+"(c'est-à-dire votre consentement) d'utiliser vos informations personnelles "
+"dans un but spécifique. "
 
 #: .\summarizer\templates\front\privacypolicy.html:350
 msgid "Performance"
@@ -1281,7 +1452,11 @@ msgid ""
 "We may process your personal information when we believe it is necessary to "
 "fulfill our contractual obligations to you, including providing our Services "
 "or at your request prior to entering into a contract with you."
-msgstr "Nous pouvons traiter vos informations personnelles lorsque nous estimons que cela est nécessaire pour remplir nos obligations contractuelles envers vous, y compris la fourniture de nos services ou à votre demande avant de conclure un contrat avec vous."
+msgstr ""
+"Nous pouvons traiter vos informations personnelles lorsque nous estimons que "
+"cela est nécessaire pour remplir nos obligations contractuelles envers vous, "
+"y compris la fourniture de nos services ou à votre demande avant de conclure "
+"un contrat avec vous."
 
 #: .\summarizer\templates\front\privacypolicy.html:351
 msgid "Legal"
@@ -1298,7 +1473,12 @@ msgid ""
 "enforcement body or regulatory agency, exercise or defend our legal rights, "
 "or disclose your information as evidence in litigation in which we are "
 "involved."
-msgstr "Nous pouvons traiter vos informations lorsque nous pensons que cela est nécessaire au respect de nos obligations légales, par exemple pour coopérer avec un organisme chargé de l'application de la loi ou un organisme de réglementation, exercer ou défendre nos droits légaux, ou divulguer vos informations comme preuve dans un litige dans lequel "
+msgstr ""
+"Nous pouvons traiter vos informations lorsque nous pensons que cela est "
+"nécessaire au respect de nos obligations légales, par exemple pour coopérer "
+"avec un organisme chargé de l'application de la loi ou un organisme de "
+"réglementation, exercer ou défendre nos droits légaux, ou divulguer vos "
+"informations comme preuve dans un litige dans lequel "
 
 #: .\summarizer\templates\front\privacypolicy.html:352
 msgid "Vital"
@@ -1313,7 +1493,11 @@ msgid ""
 "We may process your information where we believe it is necessary to protect "
 "your vital interests or the vital interests of a third party, such as "
 "situations involving potential threats to the safety of any person."
-msgstr "Nous pouvons traiter vos informations lorsque nous estimons que cela est nécessaire pour protéger vos intérêts vitaux ou les intérêts vitaux d'un tiers, par exemple dans des situations impliquant des menaces potentielles pour la sécurité de toute personne."
+msgstr ""
+"Nous pouvons traiter vos informations lorsque nous estimons que cela est "
+"nécessaire pour protéger vos intérêts vitaux ou les intérêts vitaux d'un "
+"tiers, par exemple dans des situations impliquant des menaces potentielles "
+"pour la sécurité de toute personne."
 
 #: .\summarizer\templates\front\privacypolicy.html:354
 msgid "If you are located in Canada, this section applies to you."
@@ -1325,19 +1509,29 @@ msgid ""
 "e., express consent) to use your personal information for a specific "
 "purpose, or in situations where your permission can be inferred (i.e., "
 "implied consent). You can withdraw your consent at any time."
-msgstr "Nous pouvons traiter vos informations si vous nous avez donné une autorisation spécifique (c'est-à-dire un consentement exprès) pour utiliser vos informations personnelles dans un but spécifique, ou dans des situations où votre autorisation peut être déduite (c'est-à-dire un consentement implicite). "
+msgstr ""
+"Nous pouvons traiter vos informations si vous nous avez donné une "
+"autorisation spécifique (c'est-à-dire un consentement exprès) pour utiliser "
+"vos informations personnelles dans un but spécifique, ou dans des situations "
+"où votre autorisation peut être déduite (c'est-à-dire un consentement "
+"implicite). "
 
 #: .\summarizer\templates\front\privacypolicy.html:358
 msgid ""
 "In some exceptional cases, we may be legally permitted under applicable law "
 "to process your information without your consent, including, for example:"
-msgstr "Dans certains cas exceptionnels, nous pouvons être légalement autorisés, en vertu de la loi applicable, à traiter vos informations sans votre consentement, notamment :"
+msgstr ""
+"Dans certains cas exceptionnels, nous pouvons être légalement autorisés, en "
+"vertu de la loi applicable, à traiter vos informations sans votre "
+"consentement, notamment :"
 
 #: .\summarizer\templates\front\privacypolicy.html:361
 msgid ""
 "If collection is clearly in the interests of an individual and consent "
 "cannot be obtained in a timely way"
-msgstr "Si la collecte est clairement dans l’intérêt d’une personne et que le consentement ne peut être obtenu en temps opportun"
+msgstr ""
+"Si la collecte est clairement dans l’intérêt d’une personne et que le "
+"consentement ne peut être obtenu en temps opportun"
 
 #: .\summarizer\templates\front\privacypolicy.html:362
 msgid "For investigations and fraud detection and prevention"
@@ -1345,25 +1539,33 @@ msgstr "Pour les enquêtes, la détection et la prévention des fraudes"
 
 #: .\summarizer\templates\front\privacypolicy.html:363
 msgid "For business transactions provided certain conditions are met"
-msgstr "Pour les transactions commerciales, sous réserve que certaines conditions soient remplies"
+msgstr ""
+"Pour les transactions commerciales, sous réserve que certaines conditions "
+"soient remplies"
 
 #: .\summarizer\templates\front\privacypolicy.html:364
 msgid ""
 "If it is contained in a witness statement and the collection is necessary to "
 "assess, process, or settle an insurance claim"
-msgstr "S'il est contenu dans une déclaration de témoin et que la collecte est nécessaire pour évaluer, traiter ou régler une réclamation d'assurance."
+msgstr ""
+"S'il est contenu dans une déclaration de témoin et que la collecte est "
+"nécessaire pour évaluer, traiter ou régler une réclamation d'assurance."
 
 #: .\summarizer\templates\front\privacypolicy.html:365
 msgid ""
 "For identifying injured, ill, or deceased persons and communicating with "
 "next of kin"
-msgstr "Pour identifier les personnes blessées, malades ou décédées et communiquer avec leurs plus proches parents"
+msgstr ""
+"Pour identifier les personnes blessées, malades ou décédées et communiquer "
+"avec leurs plus proches parents"
 
 #: .\summarizer\templates\front\privacypolicy.html:366
 msgid ""
 "If we have reasonable grounds to believe an individual has been, is, or may "
 "be a victim of financial abuse"
-msgstr "Si nous avons des motifs raisonnables de croire qu'une personne a été, est ou pourrait être victime d'exploitation financière"
+msgstr ""
+"Si nous avons des motifs raisonnables de croire qu'une personne a été, est "
+"ou pourrait être victime d'exploitation financière"
 
 #: .\summarizer\templates\front\privacypolicy.html:367
 msgid ""
@@ -1371,30 +1573,45 @@ msgid ""
 "compromise the availability or the accuracy of the information and the "
 "collection is reasonable for purposes related to investigating a breach of "
 "an agreement or a contravention of the laws of Canada or a province"
-msgstr "S'il est raisonnable de s'attendre à ce que la collecte et l'utilisation avec consentement compromettent la disponibilité ou l'exactitude des renseignements et que la collecte est raisonnable à des fins liées à une enquête sur une violation d'un accord ou une contravention aux lois du Canada ou d'une province."
+msgstr ""
+"S'il est raisonnable de s'attendre à ce que la collecte et l'utilisation "
+"avec consentement compromettent la disponibilité ou l'exactitude des "
+"renseignements et que la collecte est raisonnable à des fins liées à une "
+"enquête sur une violation d'un accord ou une contravention aux lois du "
+"Canada ou d'une province."
 
 #: .\summarizer\templates\front\privacypolicy.html:368
 msgid ""
 "If disclosure is required to comply with a subpoena, warrant, court order, "
 "or rules of the court relating to the production of records"
-msgstr "Si la divulgation est requise pour se conformer à une assignation à comparaître, un mandat, une ordonnance du tribunal ou des règles du tribunal relatives à la production de dossiers"
+msgstr ""
+"Si la divulgation est requise pour se conformer à une assignation à "
+"comparaître, un mandat, une ordonnance du tribunal ou des règles du tribunal "
+"relatives à la production de dossiers"
 
 #: .\summarizer\templates\front\privacypolicy.html:369
 msgid ""
 "If it was produced by an individual in the course of their employment, "
 "business, or profession and the collection is consistent with the purposes "
 "for which the information was produced"
-msgstr "S'ils ont été produits par un individu dans le cadre de son emploi, de son entreprise ou de sa profession et que la collecte est conforme aux fins pour lesquelles les informations ont été produites"
+msgstr ""
+"S'ils ont été produits par un individu dans le cadre de son emploi, de son "
+"entreprise ou de sa profession et que la collecte est conforme aux fins pour "
+"lesquelles les informations ont été produites"
 
 #: .\summarizer\templates\front\privacypolicy.html:370
 msgid ""
 "If the collection is solely for journalistic, artistic, or literary purposes"
-msgstr "Si la collection est uniquement à des fins journalistiques, artistiques ou littéraires"
+msgstr ""
+"Si la collection est uniquement à des fins journalistiques, artistiques ou "
+"littéraires"
 
 #: .\summarizer\templates\front\privacypolicy.html:371
 msgid ""
 "If the information is publicly available and is specified by the regulations"
-msgstr "Si l'information est accessible au public et est spécifiée par la réglementation"
+msgstr ""
+"Si l'information est accessible au public et est spécifiée par la "
+"réglementation"
 
 #: .\summarizer\templates\front\privacypolicy.html:377
 #: .\summarizer\templates\front\privacypolicy.html:395
@@ -1410,12 +1627,16 @@ msgstr "En bref :"
 msgid ""
 "We may share information in specific situations described in this section "
 "and/or with the following third parties."
-msgstr "Nous pouvons partager des informations dans des situations spécifiques décrites dans cette section et/ou avec les tiers suivants."
+msgstr ""
+"Nous pouvons partager des informations dans des situations spécifiques "
+"décrites dans cette section et/ou avec les tiers suivants."
 
 #: .\summarizer\templates\front\privacypolicy.html:379
 msgid ""
 "We may need to share your personal information in the following situations:"
-msgstr "Nous pouvons avoir besoin de partager vos informations personnelles dans les situations suivantes :"
+msgstr ""
+"Nous pouvons avoir besoin de partager vos informations personnelles dans les "
+"situations suivantes :"
 
 #: .\summarizer\templates\front\privacypolicy.html:382
 msgid "Business Transfers."
@@ -1426,7 +1647,11 @@ msgid ""
 "We may share or transfer your information in connection with, or during "
 "negotiations of, any merger, sale of company assets, financing, or "
 "acquisition of all or a portion of our business to another company."
-msgstr "Nous pouvons partager ou transférer vos informations dans le cadre ou pendant les négociations de toute fusion, vente d'actifs de l'entreprise, financement ou acquisition de tout ou partie de notre entreprise à une autre société."
+msgstr ""
+"Nous pouvons partager ou transférer vos informations dans le cadre ou "
+"pendant les négociations de toute fusion, vente d'actifs de l'entreprise, "
+"financement ou acquisition de tout ou partie de notre entreprise à une autre "
+"société."
 
 #: .\summarizer\templates\front\privacypolicy.html:383
 msgid "When we use Google Analytics."
@@ -1438,7 +1663,9 @@ msgid ""
 "use of the Services. The Google Analytics Advertising Features that we may "
 "use include: Google Analytics Demographics and Interests Reporting. To opt "
 "out of being tracked by Google Analytics across the Services, visit"
-msgstr "Nous pouvons partager vos informations avec Google Analytics pour suivre et analyser l'utilisation des Services. "
+msgstr ""
+"Nous pouvons partager vos informations avec Google Analytics pour suivre et "
+"analyser l'utilisation des Services. "
 
 #: .\summarizer\templates\front\privacypolicy.html:384
 msgid "https://tools.google.com/dlpage/gaoptout"
@@ -1448,7 +1675,10 @@ msgstr ""
 msgid ""
 "You can opt out of Google Analytics Advertising Features through Ads "
 "Settings and Ad Settings for mobile apps. Other opt-out means include"
-msgstr "Vous pouvez désactiver les fonctionnalités publicitaires de Google Analytics via les paramètres des annonces et les paramètres des annonces pour les applications mobiles. "
+msgstr ""
+"Vous pouvez désactiver les fonctionnalités publicitaires de Google Analytics "
+"via les paramètres des annonces et les paramètres des annonces pour les "
+"applications mobiles. "
 
 #: .\summarizer\templates\front\privacypolicy.html:385
 msgid "http://optout.networkadvertising.org/"
@@ -1465,7 +1695,9 @@ msgstr ""
 #: .\summarizer\templates\front\privacypolicy.html:386
 msgid ""
 "For more information on the privacy practices of Google, please visit the"
-msgstr "Pour plus d'informations sur les pratiques de confidentialité de Google, veuillez visiter le"
+msgstr ""
+"Pour plus d'informations sur les pratiques de confidentialité de Google, "
+"veuillez visiter le"
 
 #: .\summarizer\templates\front\privacypolicy.html:387
 msgid "Google Privacy & Terms"
@@ -1508,7 +1740,10 @@ msgstr ""
 msgid ""
 "We keep your information for as long as necessary to fulfill the purposes "
 "outlined in this privacy notice unless otherwise required by law."
-msgstr "Nous conservons vos informations aussi longtemps que nécessaire pour atteindre les objectifs décrits dans le présent avis de confidentialité, sauf disposition contraire de la loi."
+msgstr ""
+"Nous conservons vos informations aussi longtemps que nécessaire pour "
+"atteindre les objectifs décrits dans le présent avis de confidentialité, "
+"sauf disposition contraire de la loi."
 
 #: .\summarizer\templates\front\privacypolicy.html:411
 msgid ""
@@ -1517,7 +1752,12 @@ msgid ""
 "period is required or permitted by law (such as tax, accounting, or other "
 "legal requirements). No purpose in this notice will require us keeping your "
 "personal information for longer than ."
-msgstr "Nous conserverons vos informations personnelles uniquement aussi longtemps que nécessaire aux fins énoncées dans le présent avis de confidentialité, à moins qu'une période de conservation plus longue ne soit requise ou autorisée par la loi (telle que la fiscalité, la comptabilité ou d'autres exigences légales). "
+msgstr ""
+"Nous conserverons vos informations personnelles uniquement aussi longtemps "
+"que nécessaire aux fins énoncées dans le présent avis de confidentialité, à "
+"moins qu'une période de conservation plus longue ne soit requise ou "
+"autorisée par la loi (telle que la fiscalité, la comptabilité ou d'autres "
+"exigences légales). "
 
 #: .\summarizer\templates\front\privacypolicy.html:414
 msgid ""
@@ -1527,13 +1767,20 @@ msgid ""
 "been stored in backup archives), then we will securely store your personal "
 "information and isolate it from any further processing until deletion is "
 "possible."
-msgstr "Lorsque nous n'avons aucun besoin professionnel légitime de traiter vos informations personnelles, nous supprimerons ou anonymiserons ces informations, ou, si cela n'est pas possible (par exemple, parce que vos informations personnelles ont été stockées dans des archives de sauvegarde), alors nous "
+msgstr ""
+"Lorsque nous n'avons aucun besoin professionnel légitime de traiter vos "
+"informations personnelles, nous supprimerons ou anonymiserons ces "
+"informations, ou, si cela n'est pas possible (par exemple, parce que vos "
+"informations personnelles ont été stockées dans des archives de sauvegarde), "
+"alors nous "
 
 #: .\summarizer\templates\front\privacypolicy.html:424
 msgid ""
 "We do not knowingly collect data from or market to children under 18 years "
 "of age."
-msgstr "Nous ne collectons pas sciemment de données auprès d'enfants de moins de 18 ans ni ne les commercialisons auprès d'enfants."
+msgstr ""
+"Nous ne collectons pas sciemment de données auprès d'enfants de moins de "
+"18 ans ni ne les commercialisons auprès d'enfants."
 
 #: .\summarizer\templates\front\privacypolicy.html:427
 msgid ""
@@ -1545,7 +1792,9 @@ msgid ""
 "the account and take reasonable measures to promptly delete such data from "
 "our records. If you become aware of any data we may have collected from "
 "children under age 18, please contact us at info@summarygenerator.io."
-msgstr "Nous ne sollicitons pas sciemment de données auprès d'enfants de moins de 18 ans ni ne les commercialisons auprès d'enfants de moins de 18 ans. "
+msgstr ""
+"Nous ne sollicitons pas sciemment de données auprès d'enfants de moins de "
+"18 ans ni ne les commercialisons auprès d'enfants de moins de 18 ans. "
 
 #: .\summarizer\templates\front\privacypolicy.html:437
 msgid ""
@@ -1553,7 +1802,11 @@ msgid ""
 "(UK), Switzerland, and Canada, you have rights that allow you greater access "
 "to and control over your personal information. You may review, change, or "
 "terminate your account at any time."
-msgstr "Dans certaines régions, telles que l'Espace économique européen (EEE), le Royaume-Uni (UK), la Suisse et le Canada, vous disposez de droits qui vous permettent un meilleur accès et un meilleur contrôle sur vos informations personnelles. "
+msgstr ""
+"Dans certaines régions, telles que l'Espace économique européen (EEE), le "
+"Royaume-Uni (UK), la Suisse et le Canada, vous disposez de droits qui vous "
+"permettent un meilleur accès et un meilleur contrôle sur vos informations "
+"personnelles. "
 
 #: .\summarizer\templates\front\privacypolicy.html:441
 msgid ""
@@ -1566,20 +1819,28 @@ msgid ""
 "circumstances, you may also have the right to object to the processing of "
 "your personal information. You can make such a request by contacting us by "
 "using the contact details provided in the section \\"
-msgstr "Dans certaines régions (comme l'EEE, le Royaume-Uni, la Suisse et le Canada), vous disposez de certains droits en vertu des lois applicables sur la protection des données. "
+msgstr ""
+"Dans certaines régions (comme l'EEE, le Royaume-Uni, la Suisse et le "
+"Canada), vous disposez de certains droits en vertu des lois applicables sur "
+"la protection des données. "
 
 #: .\summarizer\templates\front\privacypolicy.html:444
 msgid ""
 "We will consider and act upon any request in accordance with applicable data "
 "protection laws."
-msgstr "Nous examinerons et donnerons suite à toute demande conformément aux lois applicables en matière de protection des données."
+msgstr ""
+"Nous examinerons et donnerons suite à toute demande conformément aux lois "
+"applicables en matière de protection des données."
 
 #: .\summarizer\templates\front\privacypolicy.html:447
 msgid ""
 "If you are located in the EEA or UK and you believe we are unlawfully "
 "processing your personal information, you also have the right to complain to "
 "your"
-msgstr "Si vous résidez dans l'EEE ou au Royaume-Uni et que vous pensez que nous traitons illégalement vos informations personnelles, vous avez également le droit de porter plainte auprès de votre"
+msgstr ""
+"Si vous résidez dans l'EEE ou au Royaume-Uni et que vous pensez que nous "
+"traitons illégalement vos informations personnelles, vous avez également le "
+"droit de porter plainte auprès de votre"
 
 #: .\summarizer\templates\front\privacypolicy.html:448
 msgid "Member State data protection authority"
@@ -1612,7 +1873,11 @@ msgid ""
 "you have the right to withdraw your consent at any time. You can withdraw "
 "your consent at any time by contacting us by using the contact details "
 "provided in the section \\"
-msgstr "Si nous comptons sur votre consentement pour traiter vos informations personnelles, qui peut être un consentement exprès et/ou implicite selon la loi applicable, vous avez le droit de retirer votre consentement à tout moment. "
+msgstr ""
+"Si nous comptons sur votre consentement pour traiter vos informations "
+"personnelles, qui peut être un consentement exprès et/ou implicite selon la "
+"loi applicable, vous avez le droit de retirer votre consentement à tout "
+"moment. "
 
 #: .\summarizer\templates\front\privacypolicy.html:460
 msgid ""
@@ -1620,7 +1885,11 @@ msgid ""
 "processing before its withdrawal nor, when applicable law allows, will it "
 "affect the processing of your personal information conducted in reliance on "
 "lawful processing grounds other than consent."
-msgstr "Veuillez toutefois noter que cela n'affectera pas la licéité du traitement avant son retrait ni, lorsque la loi applicable le permet, que cela n'affectera le traitement de vos informations personnelles effectué sur la base de motifs de traitement licites autres que le consentement."
+msgstr ""
+"Veuillez toutefois noter que cela n'affectera pas la licéité du traitement "
+"avant son retrait ni, lorsque la loi applicable le permet, que cela "
+"n'affectera le traitement de vos informations personnelles effectué sur la "
+"base de motifs de traitement licites autres que le consentement."
 
 #: .\summarizer\templates\front\privacypolicy.html:463
 msgid "Opting out of marketing and promotional communications:"
@@ -1631,7 +1900,11 @@ msgid ""
 "You can unsubscribe from our marketing and promotional communications at any "
 "time by clicking on the unsubscribe link in the emails that we send, or by "
 "contacting us using the details provided in the section \\"
-msgstr "Vous pouvez à tout moment vous désinscrire de nos communications marketing et promotionnelles en cliquant sur le lien de désinscription présent dans les emails que nous envoyons, ou en nous contactant aux coordonnées fournies dans la rubrique \\"
+msgstr ""
+"Vous pouvez à tout moment vous désinscrire de nos communications marketing "
+"et promotionnelles en cliquant sur le lien de désinscription présent dans "
+"les emails que nous envoyons, ou en nous contactant aux coordonnées fournies "
+"dans la rubrique \\"
 
 #: .\summarizer\templates\front\privacypolicy.html:466
 msgid "Account Information"
@@ -1641,11 +1914,15 @@ msgstr "Informations sur le compte"
 msgid ""
 "If you would at any time like to review or change the information in your "
 "account or terminate your account, you can:"
-msgstr "Si vous souhaitez à tout moment consulter ou modifier les informations de votre compte ou résilier votre compte, vous pouvez :"
+msgstr ""
+"Si vous souhaitez à tout moment consulter ou modifier les informations de "
+"votre compte ou résilier votre compte, vous pouvez :"
 
 #: .\summarizer\templates\front\privacypolicy.html:470
 msgid "Log in to your account settings and update your user account."
-msgstr "Connectez-vous aux paramètres de votre compte et mettez à jour votre compte utilisateur."
+msgstr ""
+"Connectez-vous aux paramètres de votre compte et mettez à jour votre compte "
+"utilisateur."
 
 #: .\summarizer\templates\front\privacypolicy.html:474
 msgid ""
@@ -1654,13 +1931,18 @@ msgid ""
 "retain some information in our files to prevent fraud, troubleshoot "
 "problems, assist with any investigations, enforce our legal terms and/or "
 "comply with applicable legal requirements."
-msgstr "Lors de votre demande de résiliation de votre compte, nous désactiverons ou supprimerons votre compte et vos informations de nos bases de données actives. "
+msgstr ""
+"Lors de votre demande de résiliation de votre compte, nous désactiverons ou "
+"supprimerons votre compte et vos informations de nos bases de données "
+"actives. "
 
 #: .\summarizer\templates\front\privacypolicy.html:477
 msgid ""
 "If you have questions or comments about your privacy rights, you may email "
 "us at info@summarygenerator.io."
-msgstr "Si vous avez des questions ou des commentaires sur vos droits à la vie privée, vous pouvez nous envoyer un e-mail à info@summarygenerator.io."
+msgstr ""
+"Si vous avez des questions ou des commentaires sur vos droits à la vie "
+"privée, vous pouvez nous envoyer un e-mail à info@summarygenerator.io."
 
 #: .\summarizer\templates\front\privacypolicy.html:484
 msgid ""
@@ -1674,13 +1956,20 @@ msgid ""
 "online. If a standard for online tracking is adopted that we must follow in "
 "the future, we will inform you about that practice in a revised version of "
 "this privacy notice."
-msgstr "La plupart des navigateurs Web et certains systèmes d'exploitation et applications mobiles incluent une fonctionnalité ou un paramètre Do-Not-Track (« DNT ») que vous pouvez activer pour signaler votre préférence en matière de confidentialité afin que les données sur vos activités de navigation en ligne ne soient pas surveillées et collectées. "
+msgstr ""
+"La plupart des navigateurs Web et certains systèmes d'exploitation et "
+"applications mobiles incluent une fonctionnalité ou un paramètre Do-Not-"
+"Track (« DNT ») que vous pouvez activer pour signaler votre préférence en "
+"matière de confidentialité afin que les données sur vos activités de "
+"navigation en ligne ne soient pas surveillées et collectées. "
 
 #: .\summarizer\templates\front\privacypolicy.html:493
 msgid ""
 "If you are a resident of , you are granted specific rights regarding access "
 "to your personal information."
-msgstr "Si vous résidez en , vous bénéficiez de droits spécifiques concernant l'accès à vos informations personnelles."
+msgstr ""
+"Si vous résidez en , vous bénéficiez de droits spécifiques concernant "
+"l'accès à vos informations personnelles."
 
 #: .\summarizer\templates\front\privacypolicy.html:496
 msgid "What categories of personal information do we collect?"
@@ -1690,7 +1979,9 @@ msgstr "Quelles catégories d’informations personnelles collectons-nous ?"
 msgid ""
 "We have collected the following categories of personal information in the "
 "past twelve (12) months:"
-msgstr "Nous avons collecté les catégories de renseignements personnels suivantes au cours des douze (12) derniers mois :"
+msgstr ""
+"Nous avons collecté les catégories de renseignements personnels suivantes au "
+"cours des douze (12) derniers mois :"
 
 #: .\summarizer\templates\front\privacypolicy.html:504
 msgid "Category"
@@ -1713,7 +2004,10 @@ msgid ""
 "Contact details, such as real name, alias, postal address, telephone or "
 "mobile contact number, unique personal identifier, online identifier, "
 "Internet Protocol address, email address, and account name"
-msgstr "Coordonnées, telles que nom réel, pseudonyme, adresse postale, numéro de téléphone ou de téléphone mobile, identifiant personnel unique, identifiant en ligne, adresse de protocole Internet, adresse e-mail et nom de compte"
+msgstr ""
+"Coordonnées, telles que nom réel, pseudonyme, adresse postale, numéro de "
+"téléphone ou de téléphone mobile, identifiant personnel unique, identifiant "
+"en ligne, adresse de protocole Internet, adresse e-mail et nom de compte"
 
 #: .\summarizer\templates\front\privacypolicy.html:515
 #: .\summarizer\templates\front\privacypolicy.html:520
@@ -1744,7 +2038,9 @@ msgstr "C. "
 msgid ""
 "Transaction information, purchase history, financial details, and payment "
 "information"
-msgstr "Informations sur les transactions, historique des achats, détails financiers et informations de paiement"
+msgstr ""
+"Informations sur les transactions, historique des achats, détails financiers "
+"et informations de paiement"
 
 #: .\summarizer\templates\front\privacypolicy.html:528
 msgid "D. Biometric information"
@@ -1755,7 +2051,10 @@ msgid ""
 "Browsing history, search history, online behavior, interest data, and "
 "interactions with our and other websites, applications, systems, and "
 "advertisements"
-msgstr "Historique de navigation, historique de recherche, comportement en ligne, données d'intérêt et interactions avec nos sites Web, applications, systèmes et publicités et d'autres."
+msgstr ""
+"Historique de navigation, historique de recherche, comportement en ligne, "
+"données d'intérêt et interactions avec nos sites Web, applications, systèmes "
+"et publicités et d'autres."
 
 #: .\summarizer\templates\front\privacypolicy.html:535
 msgid "F. Geolocation data"
@@ -1774,7 +2073,9 @@ msgstr "G. "
 msgid ""
 "Images and audio, video or call recordings created in connection with our "
 "business activities"
-msgstr "Images et enregistrements audio, vidéo ou d'appels créés dans le cadre de nos activités commerciales"
+msgstr ""
+"Images et enregistrements audio, vidéo ou d'appels créés dans le cadre de "
+"nos activités commerciales"
 
 #: .\summarizer\templates\front\privacypolicy.html:547
 msgid "H. Professional or employment-related information"
@@ -1785,7 +2086,10 @@ msgid ""
 "Business contact details in order to provide you our Services at a business "
 "level or job title, work history, and professional qualifications if you "
 "apply for a job with us"
-msgstr "Coordonnées professionnelles afin de vous fournir nos services au niveau de l'entreprise ou titre du poste, antécédents professionnels et qualifications professionnelles si vous postulez pour un emploi chez nous."
+msgstr ""
+"Coordonnées professionnelles afin de vous fournir nos services au niveau de "
+"l'entreprise ou titre du poste, antécédents professionnels et qualifications "
+"professionnelles si vous postulez pour un emploi chez nous."
 
 #: .\summarizer\templates\front\privacypolicy.html:554
 msgid "I. Education Information"
@@ -1804,7 +2108,10 @@ msgid ""
 "Inferences drawn from any of the collected personal information listed above "
 "to create a profile or summary about, for example, an individual’s "
 "preferences and characteristics"
-msgstr "Inférences tirées de l'une des informations personnelles collectées énumérées ci-dessus pour créer un profil ou un résumé sur, par exemple, les préférences et les caractéristiques d'un individu."
+msgstr ""
+"Inférences tirées de l'une des informations personnelles collectées "
+"énumérées ci-dessus pour créer un profil ou un résumé sur, par exemple, les "
+"préférences et les caractéristiques d'un individu."
 
 #: .\summarizer\templates\front\privacypolicy.html:566
 msgid "K. Sensitive personal Information"
@@ -1815,7 +2122,10 @@ msgid ""
 "We may also collect other personal information outside of these categories "
 "through instances where you interact with us in person, online, or by phone "
 "or mail in the context of:"
-msgstr "Nous pouvons également collecter d'autres informations personnelles en dehors de ces catégories dans les cas où vous interagissez avec nous en personne, en ligne, par téléphone ou par courrier dans le contexte :"
+msgstr ""
+"Nous pouvons également collecter d'autres informations personnelles en "
+"dehors de ces catégories dans les cas où vous interagissez avec nous en "
+"personne, en ligne, par téléphone ou par courrier dans le contexte :"
 
 #: .\summarizer\templates\front\privacypolicy.html:578
 msgid "Receiving help through our customer support channels;"
@@ -1829,15 +2139,20 @@ msgstr "Participation à des enquêtes clients ou à des concours ;"
 msgid ""
 "Facilitation in the delivery of our Services and to respond to your "
 "inquiries."
-msgstr "Facilitation dans la prestation de nos services et pour répondre à vos demandes."
+msgstr ""
+"Facilitation dans la prestation de nos services et pour répondre à vos "
+"demandes."
 
 #: .\summarizer\templates\front\privacypolicy.html:583
 msgid "How do we use and share your personal information?"
-msgstr "Comment utilisons-nous et partageons-nous vos informations personnelles ?"
+msgstr ""
+"Comment utilisons-nous et partageons-nous vos informations personnelles ?"
 
 #: .\summarizer\templates\front\privacypolicy.html:586
 msgid "Learn about how we use your personal information in the section, \\"
-msgstr "Découvrez comment nous utilisons vos informations personnelles dans la section \\"
+msgstr ""
+"Découvrez comment nous utilisons vos informations personnelles dans la "
+"section \\"
 
 #: .\summarizer\templates\front\privacypolicy.html:589
 msgid "Will your information be shared with anyone else?"
@@ -1848,14 +2163,20 @@ msgid ""
 "We may disclose your personal information with our service providers "
 "pursuant to a written contract between us and each service provider. Learn "
 "more about how we disclose personal information to in the section, \\"
-msgstr "Nous pouvons divulguer vos informations personnelles à nos prestataires de services conformément à un contrat écrit entre nous et chaque prestataire de services. "
+msgstr ""
+"Nous pouvons divulguer vos informations personnelles à nos prestataires de "
+"services conformément à un contrat écrit entre nous et chaque prestataire de "
+"services. "
 
 #: .\summarizer\templates\front\privacypolicy.html:595
 msgid ""
 "We may use your personal information for our own business purposes, such as "
 "for undertaking internal research for technological development and "
 "demonstration. This is not considered to be \\"
-msgstr "Nous pouvons utiliser vos informations personnelles à nos propres fins commerciales, par exemple pour entreprendre des recherches internes à des fins de développement et de démonstration technologiques. "
+msgstr ""
+"Nous pouvons utiliser vos informations personnelles à nos propres fins "
+"commerciales, par exemple pour entreprendre des recherches internes à des "
+"fins de développement et de démonstration technologiques. "
 
 #: .\summarizer\templates\front\privacypolicy.html:598
 msgid ""
@@ -1863,25 +2184,33 @@ msgid ""
 "parties for a business or commercial purpose in the preceding twelve (12) "
 "months. We will not sell or share personal information in the future "
 "belonging to website visitors, users, and other consumers."
-msgstr "Nous n'avons divulgué, vendu ou partagé aucune information personnelle à des tiers à des fins commerciales au cours des douze (12) mois précédents. "
+msgstr ""
+"Nous n'avons divulgué, vendu ou partagé aucune information personnelle à des "
+"tiers à des fins commerciales au cours des douze (12) mois précédents. "
 
 #: .\summarizer\templates\front\privacypolicy.html:606
 msgid ""
 "Yes, we will update this notice as necessary to stay compliant with relevant "
 "laws."
-msgstr "Oui, nous mettrons à jour cet avis si nécessaire pour rester en conformité avec les lois en vigueur."
+msgstr ""
+"Oui, nous mettrons à jour cet avis si nécessaire pour rester en conformité "
+"avec les lois en vigueur."
 
 #: .\summarizer\templates\front\privacypolicy.html:609
 msgid ""
 "We may update this privacy notice from time to time. The updated version "
 "will be indicated by an updated \\"
-msgstr "Nous pouvons mettre à jour cet avis de confidentialité de temps à autre. "
+msgstr ""
+"Nous pouvons mettre à jour cet avis de confidentialité de temps à autre. "
 
 #: .\summarizer\templates\front\privacypolicy.html:617
 msgid ""
 "If you have questions or comments about this notice, you may email us at "
 "info@summarygenerator.io or contact us by post at:"
-msgstr "Si vous avez des questions ou des commentaires sur cet avis, vous pouvez nous envoyer un e-mail à info@summarygenerator.io ou nous contacter par courrier à :"
+msgstr ""
+"Si vous avez des questions ou des commentaires sur cet avis, vous pouvez "
+"nous envoyer un e-mail à info@summarygenerator.io ou nous contacter par "
+"courrier à :"
 
 #: .\summarizer\templates\front\privacypolicy.html:631
 msgid ""
@@ -1890,37 +2219,49 @@ msgid ""
 "information, or delete it. To request to review, update, or delete your "
 "personal information, please fill out and submit a data subject access "
 "request."
-msgstr "En fonction des lois applicables dans votre pays, vous pouvez avoir le droit de demander l'accès aux informations personnelles que nous collectons auprès de vous, de modifier ces informations ou de les supprimer. "
+msgstr ""
+"En fonction des lois applicables dans votre pays, vous pouvez avoir le droit "
+"de demander l'accès aux informations personnelles que nous collectons auprès "
+"de vous, de modifier ces informations ou de les supprimer. "
 
-#: .\summarizer\templates\front\termsandconditions.html:213
+#: .\summarizer\templates\front\termsandconditions.html:212
 msgid "Last Updated Feb 10, 2023"
 msgstr "Dernière mise à jour le 10 février 2023"
 
-#: .\summarizer\templates\front\termsandconditions.html:219
+#: .\summarizer\templates\front\termsandconditions.html:218
 msgid "AGREEMENT TO OUR LEGAL TERMS"
 msgstr "ACCORD SUR NOS CONDITIONS LÉGALES"
 
-#: .\summarizer\templates\front\termsandconditions.html:221
+#: .\summarizer\templates\front\termsandconditions.html:220
 msgid ""
 "We are SummaryGenerator Company, a company registered in England at "
 "International House,, 12 Constance Street,, London E16 2DQ."
-msgstr "Nous sommes SummaryGenerator Company, une société enregistrée en Angleterre à l'International House, 12 Constance Street, Londres E16 2DQ."
+msgstr ""
+"Nous sommes SummaryGenerator Company, une société enregistrée en Angleterre "
+"à l'International House, 12 Constance Street, Londres E16 2DQ."
 
-#: .\summarizer\templates\front\termsandconditions.html:224
+#: .\summarizer\templates\front\termsandconditions.html:223
 msgid ""
 "We operate the website https://SummaryGenerator.io (the 'Site'), as well as "
 "any other related products and services that refer or link to these legal "
 "terms (the 'Legal Terms') (collectively, the 'Services')."
-msgstr "Nous exploitons le site Web https://SummaryGenerator.io (le « Site »), ainsi que tout autre produit et service connexe qui fait référence ou renvoie à ces conditions juridiques (les « Conditions légales ») (collectivement, les « Services "
+msgstr ""
+"Nous exploitons le site Web https://SummaryGenerator.io (le « Site »), ainsi "
+"que tout autre produit et service connexe qui fait référence ou renvoie à "
+"ces conditions juridiques (les « Conditions légales ») (collectivement, les "
+"« Services "
 
-#: .\summarizer\templates\front\termsandconditions.html:227
+#: .\summarizer\templates\front\termsandconditions.html:226
 msgid ""
 "You can contact us by phone at +447361622097, email at info@summarygenerator."
 "io, or by mail to International House,, 12 Constance Street,, London E16 "
 "2DQ, England."
-msgstr "Vous pouvez nous contacter par téléphone au 447361622097, par e-mail à info@summarygenerator.io ou par courrier à International House, 12 Constance Street, Londres E16 2DQ, Angleterre."
+msgstr ""
+"Vous pouvez nous contacter par téléphone au 447361622097, par e-mail à "
+"info@summarygenerator.io ou par courrier à International House, 12 Constance "
+"Street, Londres E16 2DQ, Angleterre."
 
-#: .\summarizer\templates\front\termsandconditions.html:230
+#: .\summarizer\templates\front\termsandconditions.html:229
 msgid ""
 "These Legal Terms constitute a legally binding agreement made between you, "
 "whether personally or on behalf of an entity ('you'), and SummaryGenerator, "
@@ -1938,17 +2279,18 @@ msgstr ""
 "AVEC L'ENSEMBLE DE CES TERMES LÉGAUX, VOUS ÊTES EXPRESSÉMENT INTERDIT "
 "D'UTILISER LES SERVICES ET VOUS DEVEZ CESSER L'UTILISATION IMMÉDIATEMENT."
 
-
-#: .\summarizer\templates\front\termsandconditions.html:233
+#: .\summarizer\templates\front\termsandconditions.html:232
 msgid ""
 "We will provide you with prior notice of any scheduled changes to the "
 "Services you are using. The modified Legal Terms will become effective upon "
 "posting or notifying you by info@summarygenerator.io, as stated in the email "
 "message. By continuing to use the Services after the effective date of any "
 "changes, you agree to be bound by the modified terms."
-msgstr "Nous vous informerons au préalable de toute modification programmée des services que vous utilisez. "
+msgstr ""
+"Nous vous informerons au préalable de toute modification programmée des "
+"services que vous utilisez. "
 
-#: .\summarizer\templates\front\termsandconditions.html:236
+#: .\summarizer\templates\front\termsandconditions.html:235
 msgid ""
 "The Services are intended for users who are at least 13 years of age. All "
 "users who are minors in the jurisdiction in which they reside (generally "
@@ -1959,147 +2301,147 @@ msgid ""
 "Terms for your records."
 msgstr "Les Services sont destinés aux utilisateurs âgés d'au moins 13 ans. "
 
-#: .\summarizer\templates\front\termsandconditions.html:249
-#: .\summarizer\templates\front\termsandconditions.html:280
+#: .\summarizer\templates\front\termsandconditions.html:248
+#: .\summarizer\templates\front\termsandconditions.html:279
 msgid "1. OUR SERVICES"
 msgstr "1. NOS SERVICES"
 
-#: .\summarizer\templates\front\termsandconditions.html:250
-#: .\summarizer\templates\front\termsandconditions.html:289
+#: .\summarizer\templates\front\termsandconditions.html:249
+#: .\summarizer\templates\front\termsandconditions.html:288
 msgid "2. INTELLECTUAL PROPERTY RIGHTS"
 msgstr "2. DROITS DE PROPRIÉTÉ INTELLECTUELLE"
 
-#: .\summarizer\templates\front\termsandconditions.html:251
-#: .\summarizer\templates\front\termsandconditions.html:359
+#: .\summarizer\templates\front\termsandconditions.html:250
+#: .\summarizer\templates\front\termsandconditions.html:358
 msgid "3. USER REPRESENTATIONS"
 msgstr "3. REPRÉSENTATIONS DE L'UTILISATEUR"
 
-#: .\summarizer\templates\front\termsandconditions.html:252
-#: .\summarizer\templates\front\termsandconditions.html:368
+#: .\summarizer\templates\front\termsandconditions.html:251
+#: .\summarizer\templates\front\termsandconditions.html:367
 msgid "4. USER REGISTRATION"
 msgstr "4. INSCRIPTION DE L'UTILISATEUR"
 
-#: .\summarizer\templates\front\termsandconditions.html:253
-#: .\summarizer\templates\front\termsandconditions.html:373
+#: .\summarizer\templates\front\termsandconditions.html:252
+#: .\summarizer\templates\front\termsandconditions.html:372
 msgid "5. PURCHASES AND PAYMENT"
 msgstr "5. ACHATS ET PAIEMENT"
 
-#: .\summarizer\templates\front\termsandconditions.html:254
-#: .\summarizer\templates\front\termsandconditions.html:396
+#: .\summarizer\templates\front\termsandconditions.html:253
+#: .\summarizer\templates\front\termsandconditions.html:395
 msgid "6. SUBSCRIPTIONS"
 msgstr "6. ABONNEMENTS"
 
-#: .\summarizer\templates\front\termsandconditions.html:255
-#: .\summarizer\templates\front\termsandconditions.html:411
+#: .\summarizer\templates\front\termsandconditions.html:254
+#: .\summarizer\templates\front\termsandconditions.html:410
 msgid "7. SOFTWARE"
 msgstr "7. LOGICIEL"
 
-#: .\summarizer\templates\front\termsandconditions.html:256
-#: .\summarizer\templates\front\termsandconditions.html:417
+#: .\summarizer\templates\front\termsandconditions.html:255
+#: .\summarizer\templates\front\termsandconditions.html:416
 msgid "8. PROHIBITED ACTIVITIES"
 msgstr "8. ACTIVITÉS INTERDITES"
 
-#: .\summarizer\templates\front\termsandconditions.html:257
-#: .\summarizer\templates\front\termsandconditions.html:452
+#: .\summarizer\templates\front\termsandconditions.html:256
+#: .\summarizer\templates\front\termsandconditions.html:451
 msgid "9. USER GENERATED CONTRIBUTIONS"
 msgstr "9. CONTRIBUTIONS GÉNÉRÉES PAR L'UTILISATEUR"
 
-#: .\summarizer\templates\front\termsandconditions.html:258
-#: .\summarizer\templates\front\termsandconditions.html:475
+#: .\summarizer\templates\front\termsandconditions.html:257
+#: .\summarizer\templates\front\termsandconditions.html:474
 msgid "10. CONTRIBUTION LICENSE"
 msgstr "10. LICENCE DE CONTRIBUTION"
 
-#: .\summarizer\templates\front\termsandconditions.html:259
-#: .\summarizer\templates\front\termsandconditions.html:486
+#: .\summarizer\templates\front\termsandconditions.html:258
+#: .\summarizer\templates\front\termsandconditions.html:485
 msgid "11. SOCIAL MEDIA"
 msgstr "11. RÉSEAUX SOCIAUX"
 
-#: .\summarizer\templates\front\termsandconditions.html:260
-#: .\summarizer\templates\front\termsandconditions.html:491
+#: .\summarizer\templates\front\termsandconditions.html:259
+#: .\summarizer\templates\front\termsandconditions.html:490
 msgid "12. THIRD-PARTY WEBSITES AND CONTENT"
 msgstr "12. SITES WEB ET CONTENU DE TIERS"
 
-#: .\summarizer\templates\front\termsandconditions.html:261
-#: .\summarizer\templates\front\termsandconditions.html:496
+#: .\summarizer\templates\front\termsandconditions.html:260
+#: .\summarizer\templates\front\termsandconditions.html:495
 msgid "13. ADVERTISERS"
 msgstr "13. ANNONCEURS"
 
-#: .\summarizer\templates\front\termsandconditions.html:262
-#: .\summarizer\templates\front\termsandconditions.html:500
+#: .\summarizer\templates\front\termsandconditions.html:261
+#: .\summarizer\templates\front\termsandconditions.html:499
 msgid "14. SERVICES MANAGEMENT"
 msgstr "14. GESTION DES SERVICES"
 
-#: .\summarizer\templates\front\termsandconditions.html:263
-#: .\summarizer\templates\front\termsandconditions.html:504
+#: .\summarizer\templates\front\termsandconditions.html:262
+#: .\summarizer\templates\front\termsandconditions.html:503
 msgid "15. PRIVACY POLICY"
 msgstr "15. POLITIQUE DE CONFIDENTIALITÉ"
 
-#: .\summarizer\templates\front\termsandconditions.html:264
-#: .\summarizer\templates\front\termsandconditions.html:512
+#: .\summarizer\templates\front\termsandconditions.html:263
+#: .\summarizer\templates\front\termsandconditions.html:511
 msgid "16. TERM AND TERMINATION"
 msgstr "16. DURÉE ET RÉSILIATION"
 
-#: .\summarizer\templates\front\termsandconditions.html:265
-#: .\summarizer\templates\front\termsandconditions.html:518
+#: .\summarizer\templates\front\termsandconditions.html:264
+#: .\summarizer\templates\front\termsandconditions.html:517
 msgid "17. MODIFICATIONS AND INTERRUPTIONS"
 msgstr "17. MODIFICATIONS ET INTERRUPTIONS"
 
-#: .\summarizer\templates\front\termsandconditions.html:266
-#: .\summarizer\templates\front\termsandconditions.html:524
+#: .\summarizer\templates\front\termsandconditions.html:265
+#: .\summarizer\templates\front\termsandconditions.html:523
 msgid "18. GOVERNING LAW"
 msgstr "18. LOI APPLICABLE"
 
-#: .\summarizer\templates\front\termsandconditions.html:267
-#: .\summarizer\templates\front\termsandconditions.html:529
+#: .\summarizer\templates\front\termsandconditions.html:266
+#: .\summarizer\templates\front\termsandconditions.html:528
 msgid "19. DISPUTE RESOLUTION"
 msgstr "19. RÈGLEMENT DES DIFFÉRENDS"
 
-#: .\summarizer\templates\front\termsandconditions.html:268
-#: .\summarizer\templates\front\termsandconditions.html:540
+#: .\summarizer\templates\front\termsandconditions.html:267
+#: .\summarizer\templates\front\termsandconditions.html:539
 msgid "20. CORRECTIONS"
 msgstr "20. CORRECTIONS"
 
-#: .\summarizer\templates\front\termsandconditions.html:269
-#: .\summarizer\templates\front\termsandconditions.html:544
+#: .\summarizer\templates\front\termsandconditions.html:268
+#: .\summarizer\templates\front\termsandconditions.html:543
 msgid "21. DISCLAIMER"
 msgstr "21. AVIS DE NON-RESPONSABILITÉ"
 
-#: .\summarizer\templates\front\termsandconditions.html:270
-#: .\summarizer\templates\front\termsandconditions.html:551
+#: .\summarizer\templates\front\termsandconditions.html:269
+#: .\summarizer\templates\front\termsandconditions.html:550
 msgid "22. LIMITATIONS OF LIABILITY"
 msgstr "22. LIMITATIONS DE RESPONSABILITÉ"
 
-#: .\summarizer\templates\front\termsandconditions.html:271
-#: .\summarizer\templates\front\termsandconditions.html:555
+#: .\summarizer\templates\front\termsandconditions.html:270
+#: .\summarizer\templates\front\termsandconditions.html:554
 msgid "23. INDEMNIFICATION"
 msgstr "23. DÉDOMMAGEMENT"
 
-#: .\summarizer\templates\front\termsandconditions.html:272
-#: .\summarizer\templates\front\termsandconditions.html:559
+#: .\summarizer\templates\front\termsandconditions.html:271
+#: .\summarizer\templates\front\termsandconditions.html:558
 msgid "24. USER DATA"
 msgstr "24. DONNÉES DE L'UTILISATEUR"
 
-#: .\summarizer\templates\front\termsandconditions.html:273
-#: .\summarizer\templates\front\termsandconditions.html:563
+#: .\summarizer\templates\front\termsandconditions.html:272
+#: .\summarizer\templates\front\termsandconditions.html:562
 msgid "25. ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES"
 msgstr "25. COMMUNICATIONS ÉLECTRONIQUES, TRANSACTIONS ET SIGNATURES"
 
-#: .\summarizer\templates\front\termsandconditions.html:274
-#: .\summarizer\templates\front\termsandconditions.html:567
+#: .\summarizer\templates\front\termsandconditions.html:273
+#: .\summarizer\templates\front\termsandconditions.html:566
 msgid "26. CALIFORNIA USERS AND RESIDENTS"
 msgstr "26. UTILISATEURS ET RÉSIDENTS DE CALIFORNIE"
 
-#: .\summarizer\templates\front\termsandconditions.html:275
-#: .\summarizer\templates\front\termsandconditions.html:572
+#: .\summarizer\templates\front\termsandconditions.html:274
+#: .\summarizer\templates\front\termsandconditions.html:571
 msgid "27. MISCELLANEOUS"
 msgstr "27. DIVERS"
 
-#: .\summarizer\templates\front\termsandconditions.html:276
-#: .\summarizer\templates\front\termsandconditions.html:576
+#: .\summarizer\templates\front\termsandconditions.html:275
+#: .\summarizer\templates\front\termsandconditions.html:575
 msgid "28. CONTACT US"
 msgstr "28. CONTACTEZ-NOUS"
 
-#: .\summarizer\templates\front\termsandconditions.html:282
+#: .\summarizer\templates\front\termsandconditions.html:281
 msgid ""
 "The information provided when using the Services is not intended for "
 "distribution to or use by any person or entity in any jurisdiction or "
@@ -2109,9 +2451,14 @@ msgid ""
 "access the Services from other locations do so on their own initiative and "
 "are solely responsible for compliance with local laws, if and to the extent "
 "local laws are applicable."
-msgstr "Les informations fournies lors de l'utilisation des Services ne sont pas destinées à être distribuées ou utilisées par toute personne ou entité dans une juridiction ou un pays où une telle distribution ou utilisation serait contraire à la loi ou à la réglementation ou qui nous soumettrait à une exigence d'enregistrement au sein de cette juridiction. "
+msgstr ""
+"Les informations fournies lors de l'utilisation des Services ne sont pas "
+"destinées à être distribuées ou utilisées par toute personne ou entité dans "
+"une juridiction ou un pays où une telle distribution ou utilisation serait "
+"contraire à la loi ou à la réglementation ou qui nous soumettrait à une "
+"exigence d'enregistrement au sein de cette juridiction. "
 
-#: .\summarizer\templates\front\termsandconditions.html:285
+#: .\summarizer\templates\front\termsandconditions.html:284
 msgid ""
 "The Services are not tailored to comply with industry-specific regulations "
 "(Health Insurance Portability and Accountability Act (HIPAA), Federal "
@@ -2119,60 +2466,80 @@ msgid ""
 "would be subjected to such laws, you may not use the Services. You may not "
 "use the Services in a way that would violate the Gramm-Leach-Bliley Act "
 "(GLBA)."
-msgstr "Les Services ne sont pas conçus pour se conformer aux réglementations spécifiques au secteur (Health Insurance Portability and Accountability Act (HIPAA), Federal Information Security Management Act (FISMA), etc.), donc si vos interactions sont soumises à de telles lois, vous "
+msgstr ""
+"Les Services ne sont pas conçus pour se conformer aux réglementations "
+"spécifiques au secteur (Health Insurance Portability and Accountability Act "
+"(HIPAA), Federal Information Security Management Act (FISMA), etc.), donc si "
+"vos interactions sont soumises à de telles lois, vous "
 
-#: .\summarizer\templates\front\termsandconditions.html:290
+#: .\summarizer\templates\front\termsandconditions.html:289
 msgid "Our intellectual property"
 msgstr "Notre propriété intellectuelle"
 
-#: .\summarizer\templates\front\termsandconditions.html:292
+#: .\summarizer\templates\front\termsandconditions.html:291
 msgid ""
 "We are the owner or the licensee of all intellectual property rights in our "
 "Services, including all source code, databases, functionality, software, "
 "website designs, audio, video, text, photographs, and graphics in the "
 "Services (collectively, the 'Content'), as well as the trademarks, service "
 "marks, and logos contained therein (the 'Marks')."
-msgstr "Nous sommes le propriétaire ou le titulaire de licence de tous les droits de propriété intellectuelle sur nos Services, y compris tous les codes sources, bases de données, fonctionnalités, logiciels, conceptions de sites Web, audio, vidéo, textes, photographies et graphiques des Services (collectivement, les « "
+msgstr ""
+"Nous sommes le propriétaire ou le titulaire de licence de tous les droits de "
+"propriété intellectuelle sur nos Services, y compris tous les codes sources, "
+"bases de données, fonctionnalités, logiciels, conceptions de sites Web, "
+"audio, vidéo, textes, photographies et graphiques des Services "
+"(collectivement, les « "
 
-#: .\summarizer\templates\front\termsandconditions.html:295
+#: .\summarizer\templates\front\termsandconditions.html:294
 msgid ""
 "Our Content and Marks are protected by copyright and trademark laws (and "
 "various other intellectual property rights and unfair competition laws) and "
 "treaties in the United States and around the world."
-msgstr "Notre contenu et nos marques sont protégés par les lois sur les droits d'auteur et les marques (et divers autres droits de propriété intellectuelle et lois sur la concurrence déloyale) et par des traités aux États-Unis et dans le monde."
+msgstr ""
+"Notre contenu et nos marques sont protégés par les lois sur les droits "
+"d'auteur et les marques (et divers autres droits de propriété intellectuelle "
+"et lois sur la concurrence déloyale) et par des traités aux États-Unis et "
+"dans le monde."
 
-#: .\summarizer\templates\front\termsandconditions.html:298
+#: .\summarizer\templates\front\termsandconditions.html:297
 msgid ""
 "The Content and Marks are provided in or through the Services 'AS IS' for "
 "your internal business purpose only."
-msgstr "Le contenu et les marques sont fournis dans ou via les services « EN L'ÉTAT » uniquement à des fins commerciales internes."
+msgstr ""
+"Le contenu et les marques sont fournis dans ou via les services « EN "
+"L'ÉTAT » uniquement à des fins commerciales internes."
 
-#: .\summarizer\templates\front\termsandconditions.html:300
+#: .\summarizer\templates\front\termsandconditions.html:299
 msgid "Your use of our Services"
 msgstr "Votre utilisation de nos Services"
 
-#: .\summarizer\templates\front\termsandconditions.html:302
+#: .\summarizer\templates\front\termsandconditions.html:301
 msgid ""
 "Subject to your compliance with these Legal Terms, including the 'PROHIBITED "
 "ACTIVITIES' section below, we grant you a non-exclusive, non-transferable, "
 "revocable license to:"
-msgstr "Sous réserve de votre respect des présentes conditions légales, y compris de la section « ACTIVITÉS INTERDITES » ci-dessous, nous vous accordons une licence non exclusive, non transférable et révocable pour :"
+msgstr ""
+"Sous réserve de votre respect des présentes conditions légales, y compris de "
+"la section « ACTIVITÉS INTERDITES » ci-dessous, nous vous accordons une "
+"licence non exclusive, non transférable et révocable pour :"
 
-#: .\summarizer\templates\front\termsandconditions.html:305
+#: .\summarizer\templates\front\termsandconditions.html:304
 msgid "access the Services;"
 msgstr "accéder aux Services ;"
 
-#: .\summarizer\templates\front\termsandconditions.html:306
+#: .\summarizer\templates\front\termsandconditions.html:305
 msgid ""
 "download or print a copy of any portion of the Content to which you have "
 "properly gained access."
-msgstr "téléchargez ou imprimez une copie de toute partie du contenu à laquelle vous avez correctement accédé."
+msgstr ""
+"téléchargez ou imprimez une copie de toute partie du contenu à laquelle vous "
+"avez correctement accédé."
 
-#: .\summarizer\templates\front\termsandconditions.html:309
+#: .\summarizer\templates\front\termsandconditions.html:308
 msgid "solely for your internal business purpose."
 msgstr "uniquement pour vos besoins professionnels internes."
 
-#: .\summarizer\templates\front\termsandconditions.html:312
+#: .\summarizer\templates\front\termsandconditions.html:311
 msgid ""
 "Except as set out in this section or elsewhere in our Legal Terms, no part "
 "of the Services and no Content or Marks may be copied, reproduced, "
@@ -2180,9 +2547,13 @@ msgid ""
 "translated, transmitted, distributed, sold, licensed, or otherwise exploited "
 "for any commercial purpose whatsoever, without our express prior written "
 "permission."
-msgstr "Sauf indication contraire dans cette section ou ailleurs dans nos conditions juridiques, aucune partie des services ni aucun contenu ou marque ne peut être copié, reproduit, agrégé, republié, téléchargé, publié, affiché publiquement, encodé, traduit, transmis, distribué. "
+msgstr ""
+"Sauf indication contraire dans cette section ou ailleurs dans nos conditions "
+"juridiques, aucune partie des services ni aucun contenu ou marque ne peut "
+"être copié, reproduit, agrégé, republié, téléchargé, publié, affiché "
+"publiquement, encodé, traduit, transmis, distribué. "
 
-#: .\summarizer\templates\front\termsandconditions.html:315
+#: .\summarizer\templates\front\termsandconditions.html:314
 msgid ""
 "If you wish to make any use of the Services, Content, or Marks other than as "
 "set out in this section or elsewhere in our Legal Terms, please address your "
@@ -2191,34 +2562,46 @@ msgid ""
 "you must identify us as the owners or licensors of the Services, Content, or "
 "Marks and ensure that any copyright or proprietary notice appears or is "
 "visible on posting, reproducing, or displaying our Content."
-msgstr "Si vous souhaitez utiliser les services, le contenu ou les marques autrement que comme indiqué dans cette section ou ailleurs dans nos conditions juridiques, veuillez adresser votre demande à : info@summarygenerator.io. "
+msgstr ""
+"Si vous souhaitez utiliser les services, le contenu ou les marques autrement "
+"que comme indiqué dans cette section ou ailleurs dans nos conditions "
+"juridiques, veuillez adresser votre demande à : info@summarygenerator.io. "
 
-#: .\summarizer\templates\front\termsandconditions.html:318
+#: .\summarizer\templates\front\termsandconditions.html:317
 msgid ""
 "We reserve all rights not expressly granted to you in and to the Services, "
 "Content, and Marks."
-msgstr "Nous nous réservons tous les droits qui ne vous sont pas expressément accordés sur les services, le contenu et les marques."
+msgstr ""
+"Nous nous réservons tous les droits qui ne vous sont pas expressément "
+"accordés sur les services, le contenu et les marques."
 
-#: .\summarizer\templates\front\termsandconditions.html:321
+#: .\summarizer\templates\front\termsandconditions.html:320
 msgid ""
 "Any breach of these Intellectual Property Rights will constitute a material "
 "breach of our Legal Terms and your right to use our Services will terminate "
 "immediately."
-msgstr "Toute violation de ces droits de propriété intellectuelle constituera une violation substantielle de nos conditions juridiques et votre droit d'utiliser nos services prendra fin immédiatement."
+msgstr ""
+"Toute violation de ces droits de propriété intellectuelle constituera une "
+"violation substantielle de nos conditions juridiques et votre droit "
+"d'utiliser nos services prendra fin immédiatement."
 
-#: .\summarizer\templates\front\termsandconditions.html:323
+#: .\summarizer\templates\front\termsandconditions.html:322
 msgid "Your submissions and contributions"
 msgstr "Vos soumissions et contributions"
 
-#: .\summarizer\templates\front\termsandconditions.html:325
+#: .\summarizer\templates\front\termsandconditions.html:324
 msgid ""
 "Please review this section and the 'PROHIBITED ACTIVITIES' section carefully "
 "prior to using our Services to understand the (a) rights you give us and (b) "
 "obligations you have when you post or upload any content through the "
 "Services."
-msgstr "Veuillez lire attentivement cette section et la section « ACTIVITÉS INTERDITES » avant d'utiliser nos services pour comprendre les (a) droits que vous nous accordez et (b) les obligations que vous avez lorsque vous publiez ou téléchargez tout contenu via les services."
+msgstr ""
+"Veuillez lire attentivement cette section et la section « ACTIVITÉS "
+"INTERDITES » avant d'utiliser nos services pour comprendre les (a) droits "
+"que vous nous accordez et (b) les obligations que vous avez lorsque vous "
+"publiez ou téléchargez tout contenu via les services."
 
-#: .\summarizer\templates\front\termsandconditions.html:328
+#: .\summarizer\templates\front\termsandconditions.html:327
 msgid ""
 "Submissions: By directly sending us any question, comment, suggestion, idea, "
 "feedback, or other information about the Services ('Submissions'), you agree "
@@ -2226,9 +2609,13 @@ msgid ""
 "agree that we shall own this Submission and be entitled to its unrestricted "
 "use and dissemination for any lawful purpose, commercial or otherwise, "
 "without acknowledgment or compensation to you."
-msgstr "Soumissions : En nous envoyant directement toute question, commentaire, suggestion, idée, retour ou autre information sur les services (« Soumissions »), vous acceptez de nous céder tous les droits de propriété intellectuelle sur une telle Soumission. "
+msgstr ""
+"Soumissions : En nous envoyant directement toute question, commentaire, "
+"suggestion, idée, retour ou autre information sur les services "
+"(« Soumissions »), vous acceptez de nous céder tous les droits de propriété "
+"intellectuelle sur une telle Soumission. "
 
-#: .\summarizer\templates\front\termsandconditions.html:331
+#: .\summarizer\templates\front\termsandconditions.html:330
 msgid ""
 "Contributions: The Services may invite you to chat, contribute to, or "
 "participate in blogs, message boards, online forums, and other functionality "
@@ -2238,15 +2625,21 @@ msgid ""
 "photographs, music, graphics, comments, reviews, rating suggestions, "
 "personal information, or other material ('Contributions'). Any Submission "
 "that is publicly posted shall also be treated as a Contribution."
-msgstr "Contributions : Les Services peuvent vous inviter à discuter, contribuer ou participer à des blogs, des forums de discussion, des forums en ligne et d'autres fonctionnalités au cours desquelles vous pouvez créer, soumettre, publier, afficher, transmettre, publier, distribuer ou diffuser du contenu. "
+msgstr ""
+"Contributions : Les Services peuvent vous inviter à discuter, contribuer ou "
+"participer à des blogs, des forums de discussion, des forums en ligne et "
+"d'autres fonctionnalités au cours desquelles vous pouvez créer, soumettre, "
+"publier, afficher, transmettre, publier, distribuer ou diffuser du contenu. "
 
-#: .\summarizer\templates\front\termsandconditions.html:334
+#: .\summarizer\templates\front\termsandconditions.html:333
 msgid ""
 "You understand that Contributions may be viewable by other users of the "
 "Services and possibly through third-party websites."
-msgstr "Vous comprenez que les Contributions peuvent être visibles par d'autres utilisateurs des Services et éventuellement via des sites Web tiers."
+msgstr ""
+"Vous comprenez que les Contributions peuvent être visibles par d'autres "
+"utilisateurs des Services et éventuellement via des sites Web tiers."
 
-#: .\summarizer\templates\front\termsandconditions.html:337
+#: .\summarizer\templates\front\termsandconditions.html:336
 msgid ""
 "When you post Contributions, you grant us a license (including use of your "
 "name, trademarks, and logos): By posting any Contributions, you grant us an "
@@ -2260,24 +2653,37 @@ msgid ""
 "into other works, your Contributions, and to sublicense the licenses granted "
 "in this section. Our use and distribution may occur in any media formats and "
 "through any media channels."
-msgstr "Lorsque vous publiez des contributions, vous nous accordez une licence (y compris l'utilisation de votre nom, de vos marques et logos) : en publiant des contributions, vous nous accordez une redevance sans restriction, illimitée, irrévocable, perpétuelle, non exclusive, transférable. "
+msgstr ""
+"Lorsque vous publiez des contributions, vous nous accordez une licence (y "
+"compris l'utilisation de votre nom, de vos marques et logos) : en publiant "
+"des contributions, vous nous accordez une redevance sans restriction, "
+"illimitée, irrévocable, perpétuelle, non exclusive, transférable. "
 
-#: .\summarizer\templates\front\termsandconditions.html:340
+#: .\summarizer\templates\front\termsandconditions.html:339
 msgid ""
 "This license includes our use of your name, company name, and franchise "
 "name, as applicable, and any of the trademarks, service marks, trade names, "
 "logos, and personal and commercial images you provide."
-msgstr "Cette licence inclut notre utilisation de votre nom, du nom de votre entreprise et du nom de votre franchise, le cas échéant, ainsi que de toutes les marques commerciales, marques de service, noms commerciaux, logos et images personnelles et commerciales que vous fournissez."
+msgstr ""
+"Cette licence inclut notre utilisation de votre nom, du nom de votre "
+"entreprise et du nom de votre franchise, le cas échéant, ainsi que de toutes "
+"les marques commerciales, marques de service, noms commerciaux, logos et "
+"images personnelles et commerciales que vous fournissez."
 
-#: .\summarizer\templates\front\termsandconditions.html:343
+#: .\summarizer\templates\front\termsandconditions.html:342
 msgid ""
 "You are responsible for what you post or upload: By sending us Submissions "
 "and/or posting Contributions through any part of the Services or making "
 "Contributions accessible through the Services by linking your account "
 "through the Services to any of your social networking accounts, you:"
-msgstr "Vous êtes responsable de ce que vous publiez ou téléchargez : En nous envoyant des Soumissions et/ou en publiant des Contributions via n'importe quelle partie des Services ou en rendant les Contributions accessibles via les Services en liant votre compte via les Services à l'un de vos comptes de réseaux sociaux, vous "
+msgstr ""
+"Vous êtes responsable de ce que vous publiez ou téléchargez : En nous "
+"envoyant des Soumissions et/ou en publiant des Contributions via n'importe "
+"quelle partie des Services ou en rendant les Contributions accessibles via "
+"les Services en liant votre compte via les Services à l'un de vos comptes de "
+"réseaux sociaux, vous "
 
-#: .\summarizer\templates\front\termsandconditions.html:346
+#: .\summarizer\templates\front\termsandconditions.html:345
 msgid ""
 "confirm that you have read and agree with our 'PROHIBITED ACTIVITIES' and "
 "will not post, send, publish, upload, or transmit through the Services any "
@@ -2285,37 +2691,55 @@ msgid ""
 "harmful, defamatory, obscene, bullying, abusive, discriminatory, threatening "
 "to any person or group, sexually explicit, false, inaccurate, deceitful, or "
 "misleading;"
-msgstr "confirmez que vous avez lu et accepté nos « ACTIVITÉS INTERDITES » et que vous ne publierez, n'enverrez pas, ne publierez pas, ne téléchargerez pas ou ne transmettrez pas via les Services aucune Soumission ni ne publierez aucune Contribution illégale, harcelante, haineuse, préjudiciable, diffamatoire, obscène. "
+msgstr ""
+"confirmez que vous avez lu et accepté nos « ACTIVITÉS INTERDITES » et que "
+"vous ne publierez, n'enverrez pas, ne publierez pas, ne téléchargerez pas ou "
+"ne transmettrez pas via les Services aucune Soumission ni ne publierez "
+"aucune Contribution illégale, harcelante, haineuse, préjudiciable, "
+"diffamatoire, obscène. "
 
-#: .\summarizer\templates\front\termsandconditions.html:347
+#: .\summarizer\templates\front\termsandconditions.html:346
 msgid ""
 "to the extent permissible by applicable law, waive any and all moral rights "
 "to any such Submission and/or Contribution;"
-msgstr "dans la mesure permise par la loi applicable, renoncer à tout droit moral sur une telle Soumission et/ou Contribution ;"
+msgstr ""
+"dans la mesure permise par la loi applicable, renoncer à tout droit moral "
+"sur une telle Soumission et/ou Contribution ;"
 
-#: .\summarizer\templates\front\termsandconditions.html:348
+#: .\summarizer\templates\front\termsandconditions.html:347
 msgid ""
 "warrant that any such Submission and/or Contributions are original to you or "
 "that you have the necessary rights and licenses to submit such Submissions "
 "and/or Contributions and that you have full authority to grant us the above-"
 "mentioned rights in relation to your Submissions and/or Contributions; and"
-msgstr "garantissez que ces Soumissions et/ou Contributions sont originales pour vous ou que vous disposez des droits et licences nécessaires pour soumettre de telles Soumissions et/ou Contributions et que vous avez la pleine autorité pour nous accorder les droits mentionnés ci-dessus en ce qui concerne votre "
+msgstr ""
+"garantissez que ces Soumissions et/ou Contributions sont originales pour "
+"vous ou que vous disposez des droits et licences nécessaires pour soumettre "
+"de telles Soumissions et/ou Contributions et que vous avez la pleine "
+"autorité pour nous accorder les droits mentionnés ci-dessus en ce qui "
+"concerne votre "
 
-#: .\summarizer\templates\front\termsandconditions.html:349
+#: .\summarizer\templates\front\termsandconditions.html:348
 msgid ""
 "warrant and represent that your Submissions and/or Contributions do not "
 "constitute confidential information."
-msgstr "garantissez et déclarez que vos soumissions et/ou contributions ne constituent pas des informations confidentielles."
+msgstr ""
+"garantissez et déclarez que vos soumissions et/ou contributions ne "
+"constituent pas des informations confidentielles."
 
-#: .\summarizer\templates\front\termsandconditions.html:352
+#: .\summarizer\templates\front\termsandconditions.html:351
 msgid ""
 "You are solely responsible for your Submissions and/or Contributions and you "
 "expressly agree to reimburse us for any and all losses that we may suffer "
 "because of your breach of (a) this section, (b) any third party’s "
 "intellectual property rights, or (c) applicable law."
-msgstr "Vous êtes seul responsable de vos soumissions et/ou contributions et vous acceptez expressément de nous rembourser toutes les pertes que nous pourrions subir en raison de votre violation de (a) cette section, (b) des droits de propriété intellectuelle de tout tiers, "
+msgstr ""
+"Vous êtes seul responsable de vos soumissions et/ou contributions et vous "
+"acceptez expressément de nous rembourser toutes les pertes que nous "
+"pourrions subir en raison de votre violation de (a) cette section, (b) des "
+"droits de propriété intellectuelle de tout tiers, "
 
-#: .\summarizer\templates\front\termsandconditions.html:355
+#: .\summarizer\templates\front\termsandconditions.html:354
 msgid ""
 "We may remove or edit your Content: Although we have no obligation to "
 "monitor any Contributions, we shall have the right to remove or edit any "
@@ -2323,9 +2747,14 @@ msgid ""
 "consider such Contributions harmful or in breach of these Legal Terms. If we "
 "remove or edit any such Contributions, we may also suspend or disable your "
 "account and report you to the authorities."
-msgstr "Nous pouvons supprimer ou modifier votre contenu : bien que nous n'ayons aucune obligation de surveiller les contributions, nous aurons le droit de supprimer ou de modifier toute contribution à tout moment et sans préavis si, à notre avis raisonnable, nous considérons que ces contributions sont nuisibles ou en violation des "
+msgstr ""
+"Nous pouvons supprimer ou modifier votre contenu : bien que nous n'ayons "
+"aucune obligation de surveiller les contributions, nous aurons le droit de "
+"supprimer ou de modifier toute contribution à tout moment et sans préavis "
+"si, à notre avis raisonnable, nous considérons que ces contributions sont "
+"nuisibles ou en violation des "
 
-#: .\summarizer\templates\front\termsandconditions.html:361
+#: .\summarizer\templates\front\termsandconditions.html:360
 msgid ""
 "By using the Services, you represent and warrant that: (1) all registration "
 "information you submit will be true, accurate, current, and complete; (2) "
@@ -2338,17 +2767,24 @@ msgid ""
 "through a bot, script or otherwise; (7) you will not use the Services for "
 "any illegal or unauthorized purpose; and (8) your use of the Services will "
 "not violate any applicable law or regulation."
-msgstr "En utilisant les Services, vous déclarez et garantissez que : (1) toutes les informations d'inscription que vous soumettez seront vraies, exactes, à jour et complètes ; "
+msgstr ""
+"En utilisant les Services, vous déclarez et garantissez que : (1) toutes les "
+"informations d'inscription que vous soumettez seront vraies, exactes, à jour "
+"et complètes ; "
 
-#: .\summarizer\templates\front\termsandconditions.html:364
+#: .\summarizer\templates\front\termsandconditions.html:363
 msgid ""
 "If you provide any information that is untrue, inaccurate, not current, or "
 "incomplete, we have the right to suspend or terminate your account and "
 "refuse any and all current or future use of the Services (or any portion "
 "thereof)."
-msgstr "Si vous fournissez des informations fausses, inexactes, périmées ou incomplètes, nous avons le droit de suspendre ou de résilier votre compte et de refuser toute utilisation actuelle ou future des Services (ou de toute partie de ceux-ci)."
+msgstr ""
+"Si vous fournissez des informations fausses, inexactes, périmées ou "
+"incomplètes, nous avons le droit de suspendre ou de résilier votre compte et "
+"de refuser toute utilisation actuelle ou future des Services (ou de toute "
+"partie de ceux-ci)."
 
-#: .\summarizer\templates\front\termsandconditions.html:370
+#: .\summarizer\templates\front\termsandconditions.html:369
 msgid ""
 "You may be required to register to use the Services. You agree to keep your "
 "password confidential and will be responsible for all use of your account "
@@ -2357,31 +2793,31 @@ msgid ""
 "inappropriate, obscene, or otherwise objectionable."
 msgstr "Vous devrez peut-être vous inscrire pour utiliser les Services. "
 
-#: .\summarizer\templates\front\termsandconditions.html:375
+#: .\summarizer\templates\front\termsandconditions.html:374
 msgid "We accept the following forms of payment:"
 msgstr "Nous acceptons les modes de paiement suivants :"
 
-#: .\summarizer\templates\front\termsandconditions.html:378
+#: .\summarizer\templates\front\termsandconditions.html:377
 msgid "Visa"
 msgstr ""
 
-#: .\summarizer\templates\front\termsandconditions.html:379
+#: .\summarizer\templates\front\termsandconditions.html:378
 msgid "Mastercard"
 msgstr ""
 
-#: .\summarizer\templates\front\termsandconditions.html:380
+#: .\summarizer\templates\front\termsandconditions.html:379
 msgid "American Express"
 msgstr ""
 
-#: .\summarizer\templates\front\termsandconditions.html:381
+#: .\summarizer\templates\front\termsandconditions.html:380
 msgid "Discover"
 msgstr "Découvrir"
 
-#: .\summarizer\templates\front\termsandconditions.html:382
+#: .\summarizer\templates\front\termsandconditions.html:381
 msgid "PayPal"
 msgstr ""
 
-#: .\summarizer\templates\front\termsandconditions.html:385
+#: .\summarizer\templates\front\termsandconditions.html:384
 msgid ""
 "You agree to provide current, complete, and accurate purchase and account "
 "information for all purchases made via the Services. You further agree to "
@@ -2390,18 +2826,24 @@ msgid ""
 "your transactions and contact you as needed. Sales tax will be added to the "
 "price of purchases as deemed required by us. We may change prices at any "
 "time. All payments shall be in US dollars."
-msgstr "Vous acceptez de fournir des informations d'achat et de compte à jour, complètes et exactes pour tous les achats effectués via les Services. "
+msgstr ""
+"Vous acceptez de fournir des informations d'achat et de compte à jour, "
+"complètes et exactes pour tous les achats effectués via les Services. "
 
-#: .\summarizer\templates\front\termsandconditions.html:388
+#: .\summarizer\templates\front\termsandconditions.html:387
 msgid ""
 "You agree to pay all charges at the prices then in effect for your purchases "
 "and any applicable shipping fees, and you authorize us to charge your chosen "
 "payment provider for any such amounts upon placing your order. We reserve "
 "the right to correct any errors or mistakes in pricing, even if we have "
 "already requested or received payment."
-msgstr "Vous acceptez de payer tous les frais aux prix alors en vigueur pour vos achats ainsi que tous les frais d'expédition applicables, et vous nous autorisez à facturer ces montants au fournisseur de paiement choisi lors de la passation de votre commande. "
+msgstr ""
+"Vous acceptez de payer tous les frais aux prix alors en vigueur pour vos "
+"achats ainsi que tous les frais d'expédition applicables, et vous nous "
+"autorisez à facturer ces montants au fournisseur de paiement choisi lors de "
+"la passation de votre commande. "
 
-#: .\summarizer\templates\front\termsandconditions.html:391
+#: .\summarizer\templates\front\termsandconditions.html:390
 msgid ""
 "We reserve the right to refuse any order placed through the Services. We "
 "may, in our sole discretion, limit or cancel quantities purchased per "
@@ -2410,25 +2852,29 @@ msgid ""
 "or orders that use the same billing or shipping address. We reserve the "
 "right to limit or prohibit orders that, in our sole judgment, appear to be "
 "placed by dealers, resellers, or distributors."
-msgstr "Nous nous réservons le droit de refuser toute commande passée via les Services. "
+msgstr ""
+"Nous nous réservons le droit de refuser toute commande passée via les "
+"Services. "
 
-#: .\summarizer\templates\front\termsandconditions.html:397
+#: .\summarizer\templates\front\termsandconditions.html:396
 msgid "Billing and Renewal"
 msgstr "Facturation et renouvellement"
 
-#: .\summarizer\templates\front\termsandconditions.html:399
+#: .\summarizer\templates\front\termsandconditions.html:398
 msgid ""
 "Your subscription will continue and automatically renew unless canceled. You "
 "consent to our charging your payment method on a recurring basis without "
 "requiring your prior approval for each recurring charge, until such time as "
 "you cancel the applicable order. The length of your billing cycle is monthly."
-msgstr "Votre abonnement continuera et se renouvellera automatiquement sauf annulation. "
+msgstr ""
+"Votre abonnement continuera et se renouvellera automatiquement sauf "
+"annulation. "
 
-#: .\summarizer\templates\front\termsandconditions.html:401
+#: .\summarizer\templates\front\termsandconditions.html:400
 msgid "Cancellation"
 msgstr "Annulation"
 
-#: .\summarizer\templates\front\termsandconditions.html:403
+#: .\summarizer\templates\front\termsandconditions.html:402
 msgid ""
 "All purchases are non-refundable. You can cancel your subscription at any "
 "time by logging into your account. Your cancellation will take effect at the "
@@ -2436,17 +2882,20 @@ msgid ""
 "with our Services, please email us at info@summarygenerator.io."
 msgstr "Tous les achats ne sont pas remboursables. "
 
-#: .\summarizer\templates\front\termsandconditions.html:405
+#: .\summarizer\templates\front\termsandconditions.html:404
 msgid "Fee Changes"
 msgstr "Modifications des frais"
 
-#: .\summarizer\templates\front\termsandconditions.html:407
+#: .\summarizer\templates\front\termsandconditions.html:406
 msgid ""
 "We may, from time to time, make changes to the subscription fee and will "
 "communicate any price changes to you in accordance with applicable law."
-msgstr "Nous pouvons, de temps à autre, apporter des modifications aux frais d'abonnement et vous communiquerons tout changement de prix conformément à la loi applicable."
+msgstr ""
+"Nous pouvons, de temps à autre, apporter des modifications aux frais "
+"d'abonnement et vous communiquerons tout changement de prix conformément à "
+"la loi applicable."
 
-#: .\summarizer\templates\front\termsandconditions.html:413
+#: .\summarizer\templates\front\termsandconditions.html:412
 msgid ""
 "We may include software for use in connection with our Services. If such "
 "software is accompanied by an end user license agreement ('EULA'), the terms "
@@ -2460,70 +2909,93 @@ msgid ""
 "non-infringement. You accept any and all risk arising out of use or "
 "performance of any software. You may not reproduce or redistribute any "
 "software except in accordance with the EULA or these Legal Terms."
-msgstr "Nous pouvons inclure des logiciels à utiliser en relation avec nos Services. "
+msgstr ""
+"Nous pouvons inclure des logiciels à utiliser en relation avec nos Services. "
 
-#: .\summarizer\templates\front\termsandconditions.html:419
+#: .\summarizer\templates\front\termsandconditions.html:418
 msgid ""
 "You may not access or use the Services for any purpose other than that for "
 "which we make the Services available. The Services may not be used in "
 "connection with any commercial endeavors except those that are specifically "
 "endorsed or approved by us."
-msgstr "Vous ne pouvez pas accéder ou utiliser les Services à des fins autres que celles pour lesquelles nous rendons les Services disponibles. "
+msgstr ""
+"Vous ne pouvez pas accéder ou utiliser les Services à des fins autres que "
+"celles pour lesquelles nous rendons les Services disponibles. "
 
-#: .\summarizer\templates\front\termsandconditions.html:421
+#: .\summarizer\templates\front\termsandconditions.html:420
 msgid "As a user of the Services, you agree not to:"
 msgstr "En tant qu'utilisateur des Services, vous vous engagez à ne pas :"
 
-#: .\summarizer\templates\front\termsandconditions.html:424
+#: .\summarizer\templates\front\termsandconditions.html:423
 msgid ""
 "Systematically retrieve data or other content from the Services to create or "
 "compile, directly or indirectly, a collection, compilation, database, or "
 "directory without written permission from us."
-msgstr "Récupérer systématiquement des données ou tout autre contenu des Services pour créer ou compiler, directement ou indirectement, une collection, une compilation, une base de données ou un répertoire sans autorisation écrite de notre part."
+msgstr ""
+"Récupérer systématiquement des données ou tout autre contenu des Services "
+"pour créer ou compiler, directement ou indirectement, une collection, une "
+"compilation, une base de données ou un répertoire sans autorisation écrite "
+"de notre part."
 
-#: .\summarizer\templates\front\termsandconditions.html:425
+#: .\summarizer\templates\front\termsandconditions.html:424
 msgid ""
 "Trick, defraud, or mislead us and other users, especially in any attempt to "
 "learn sensitive account information such as user passwords."
-msgstr "Tromper, frauder ou induire en erreur nous et les autres utilisateurs, en particulier dans toute tentative d'obtenir des informations de compte sensibles telles que les mots de passe des utilisateurs."
+msgstr ""
+"Tromper, frauder ou induire en erreur nous et les autres utilisateurs, en "
+"particulier dans toute tentative d'obtenir des informations de compte "
+"sensibles telles que les mots de passe des utilisateurs."
 
-#: .\summarizer\templates\front\termsandconditions.html:426
+#: .\summarizer\templates\front\termsandconditions.html:425
 msgid ""
 "Circumvent, disable, or otherwise interfere with security-related features "
 "of the Services, including features that prevent or restrict the use or "
 "copying of any Content or enforce limitations on the use of the Services and/"
 "or the Content contained therein."
-msgstr "Contourner, désactiver ou interférer de toute autre manière avec les fonctionnalités liées à la sécurité des Services, y compris les fonctionnalités qui empêchent ou restreignent l'utilisation ou la copie de tout Contenu ou imposent des limitations sur l'utilisation des Services et/ou du Contenu qu'ils contiennent."
+msgstr ""
+"Contourner, désactiver ou interférer de toute autre manière avec les "
+"fonctionnalités liées à la sécurité des Services, y compris les "
+"fonctionnalités qui empêchent ou restreignent l'utilisation ou la copie de "
+"tout Contenu ou imposent des limitations sur l'utilisation des Services et/"
+"ou du Contenu qu'ils contiennent."
 
-#: .\summarizer\templates\front\termsandconditions.html:427
+#: .\summarizer\templates\front\termsandconditions.html:426
 msgid ""
 "Disparage, tarnish, or otherwise harm, in our opinion, us and/or the "
 "Services."
-msgstr "Dénigrer, ternir ou nuire de toute autre manière, à notre avis, à nous et/ou aux Services."
+msgstr ""
+"Dénigrer, ternir ou nuire de toute autre manière, à notre avis, à nous et/ou "
+"aux Services."
 
-#: .\summarizer\templates\front\termsandconditions.html:428
+#: .\summarizer\templates\front\termsandconditions.html:427
 msgid ""
 "Use any information obtained from the Services in order to harass, abuse, or "
 "harm another person."
-msgstr "Utiliser toute information obtenue à partir des Services afin de harceler, d'abuser ou de nuire à une autre personne."
+msgstr ""
+"Utiliser toute information obtenue à partir des Services afin de harceler, "
+"d'abuser ou de nuire à une autre personne."
 
-#: .\summarizer\templates\front\termsandconditions.html:429
+#: .\summarizer\templates\front\termsandconditions.html:428
 msgid ""
 "Make improper use of our support services or submit false reports of abuse "
 "or misconduct."
-msgstr "Faire un usage inapproprié de nos services d’assistance ou soumettre de faux rapports d’abus ou de mauvaise conduite."
+msgstr ""
+"Faire un usage inapproprié de nos services d’assistance ou soumettre de faux "
+"rapports d’abus ou de mauvaise conduite."
 
-#: .\summarizer\templates\front\termsandconditions.html:430
+#: .\summarizer\templates\front\termsandconditions.html:429
 msgid ""
 "Use the Services in a manner inconsistent with any applicable laws or "
 "regulations."
-msgstr "Utiliser les Services d'une manière incompatible avec les lois ou réglementations applicables."
+msgstr ""
+"Utiliser les Services d'une manière incompatible avec les lois ou "
+"réglementations applicables."
 
-#: .\summarizer\templates\front\termsandconditions.html:431
+#: .\summarizer\templates\front\termsandconditions.html:430
 msgid "Engage in unauthorized framing of or linking to the Services."
 msgstr "S'engager dans un cadrage ou un lien non autorisé vers les Services."
 
-#: .\summarizer\templates\front\termsandconditions.html:432
+#: .\summarizer\templates\front\termsandconditions.html:431
 msgid ""
 "Upload or transmit (or attempt to upload or to transmit) viruses, Trojan "
 "horses, or other material, including excessive use of capital letters and "
@@ -2531,105 +3003,150 @@ msgid ""
 "party’s uninterrupted use and enjoyment of the Services or modifies, "
 "impairs, disrupts, alters, or interferes with the use, features, functions, "
 "operation, or maintenance of the Services."
-msgstr "Télécharger ou transmettre (ou tenter de télécharger ou de transmettre) des virus, des chevaux de Troie ou tout autre matériel, y compris l'utilisation excessive de majuscules et le spam (publication continue de texte répétitif), qui interfère avec l'utilisation et la jouissance ininterrompues du site par toute partie. "
+msgstr ""
+"Télécharger ou transmettre (ou tenter de télécharger ou de transmettre) des "
+"virus, des chevaux de Troie ou tout autre matériel, y compris l'utilisation "
+"excessive de majuscules et le spam (publication continue de texte "
+"répétitif), qui interfère avec l'utilisation et la jouissance ininterrompues "
+"du site par toute partie. "
 
-#: .\summarizer\templates\front\termsandconditions.html:433
+#: .\summarizer\templates\front\termsandconditions.html:432
 msgid ""
 "Engage in any automated use of the system, such as using scripts to send "
 "comments or messages, or using any data mining, robots, or similar data "
 "gathering and extraction tools."
-msgstr "S'engager dans toute utilisation automatisée du système, par exemple en utilisant des scripts pour envoyer des commentaires ou des messages, ou en utilisant des outils d'exploration de données, des robots ou des outils similaires de collecte et d'extraction de données."
+msgstr ""
+"S'engager dans toute utilisation automatisée du système, par exemple en "
+"utilisant des scripts pour envoyer des commentaires ou des messages, ou en "
+"utilisant des outils d'exploration de données, des robots ou des outils "
+"similaires de collecte et d'extraction de données."
+
+#: .\summarizer\templates\front\termsandconditions.html:433
+msgid ""
+"Delete the copyright or other proprietary rights notice from any Content."
+msgstr ""
+"Supprimez l'avis de droit d'auteur ou autre droit de propriété de tout "
+"contenu."
 
 #: .\summarizer\templates\front\termsandconditions.html:434
 msgid ""
-"Delete the copyright or other proprietary rights notice from any Content."
-msgstr "Supprimez l'avis de droit d'auteur ou autre droit de propriété de tout contenu."
-
-#: .\summarizer\templates\front\termsandconditions.html:435
-msgid ""
 "Attempt to impersonate another user or person or use the username of another "
 "user."
-msgstr "Tentative d'usurper l'identité d'un autre utilisateur ou d'une autre personne ou d'utiliser le nom d'utilisateur d'un autre utilisateur."
+msgstr ""
+"Tentative d'usurper l'identité d'un autre utilisateur ou d'une autre "
+"personne ou d'utiliser le nom d'utilisateur d'un autre utilisateur."
 
-#: .\summarizer\templates\front\termsandconditions.html:436
+#: .\summarizer\templates\front\termsandconditions.html:435
 msgid ""
 "Upload or transmit (or attempt to upload or to transmit) any material that "
 "acts as a passive or active information collection or transmission "
 "mechanism, including without limitation, clear graphics interchange formats "
 "('gifs'), 1×1 pixels, web bugs, cookies, or other similar devices (sometimes "
 "referred to as 'spyware' or 'passive collection mechanisms' or 'pcms')."
-msgstr "Télécharger ou transmettre (ou tenter de télécharger ou de transmettre) tout matériel agissant comme un mécanisme passif ou actif de collecte ou de transmission d'informations, y compris, sans s'y limiter, les formats d'échange de graphiques clairs (« gifs »), les pixels 1 × 1, les bogues Web. "
+msgstr ""
+"Télécharger ou transmettre (ou tenter de télécharger ou de transmettre) tout "
+"matériel agissant comme un mécanisme passif ou actif de collecte ou de "
+"transmission d'informations, y compris, sans s'y limiter, les formats "
+"d'échange de graphiques clairs (« gifs »), les pixels 1 × 1, les bogues Web. "
 
-#: .\summarizer\templates\front\termsandconditions.html:437
+#: .\summarizer\templates\front\termsandconditions.html:436
 msgid ""
 "Interfere with, disrupt, or create an undue burden on the Services or the "
 "networks or services connected to the Services."
-msgstr "Interférer avec, perturber ou créer une charge excessive sur les Services ou les réseaux ou services connectés aux Services."
+msgstr ""
+"Interférer avec, perturber ou créer une charge excessive sur les Services ou "
+"les réseaux ou services connectés aux Services."
 
-#: .\summarizer\templates\front\termsandconditions.html:438
+#: .\summarizer\templates\front\termsandconditions.html:437
 msgid ""
 "Harass, annoy, intimidate, or threaten any of our employees or agents "
 "engaged in providing any portion of the Services to you."
-msgstr "Harceler, ennuyer, intimider ou menacer l'un de nos employés ou agents engagés dans la fourniture d'une partie des Services."
+msgstr ""
+"Harceler, ennuyer, intimider ou menacer l'un de nos employés ou agents "
+"engagés dans la fourniture d'une partie des Services."
 
-#: .\summarizer\templates\front\termsandconditions.html:439
+#: .\summarizer\templates\front\termsandconditions.html:438
 msgid ""
 "Attempt to bypass any measures of the Services designed to prevent or "
 "restrict access to the Services, or any portion of the Services."
-msgstr "Tentative de contourner toute mesure des Services conçue pour empêcher ou restreindre l'accès aux Services, ou à toute partie des Services."
+msgstr ""
+"Tentative de contourner toute mesure des Services conçue pour empêcher ou "
+"restreindre l'accès aux Services, ou à toute partie des Services."
 
-#: .\summarizer\templates\front\termsandconditions.html:440
+#: .\summarizer\templates\front\termsandconditions.html:439
 msgid ""
 "Copy or adapt the Services' software, including but not limited to Flash, "
 "PHP, HTML, JavaScript, or other code."
-msgstr "Copiez ou adaptez le logiciel des Services, y compris, mais sans s'y limiter, Flash, PHP, HTML, JavaScript ou autre code."
+msgstr ""
+"Copiez ou adaptez le logiciel des Services, y compris, mais sans s'y "
+"limiter, Flash, PHP, HTML, JavaScript ou autre code."
 
-#: .\summarizer\templates\front\termsandconditions.html:441
+#: .\summarizer\templates\front\termsandconditions.html:440
 msgid ""
 "Except as permitted by applicable law, decipher, decompile, disassemble, or "
 "reverse engineer any of the software comprising or in any way making up a "
 "part of the Services."
-msgstr "Sauf dans la mesure permise par la loi applicable, déchiffrer, décompiler, désassembler ou procéder à une ingénierie inverse de tout logiciel comprenant ou constituant de quelque manière que ce soit une partie des Services."
+msgstr ""
+"Sauf dans la mesure permise par la loi applicable, déchiffrer, décompiler, "
+"désassembler ou procéder à une ingénierie inverse de tout logiciel "
+"comprenant ou constituant de quelque manière que ce soit une partie des "
+"Services."
 
-
-#: .\summarizer\templates\front\termsandconditions.html:442
+#: .\summarizer\templates\front\termsandconditions.html:441
 msgid ""
 "Except as may be the result of standard search engine or Internet browser "
 "usage, use, launch, develop, or distribute any automated system, including "
 "without limitation, any spider, robot, cheat utility, scraper, or offline "
 "reader that accesses the Services, or use or launch any unauthorized script "
 "or other software."
-msgstr "Sauf dans la mesure où cela peut résulter de l'utilisation standard d'un moteur de recherche ou d'un navigateur Internet, de l'utilisation, du lancement, du développement ou de la distribution de tout système automatisé, y compris, sans s'y limiter, tout araignée, robot, utilitaire de triche, grattoir ou lecteur hors ligne qui accède aux Services. "
+msgstr ""
+"Sauf dans la mesure où cela peut résulter de l'utilisation standard d'un "
+"moteur de recherche ou d'un navigateur Internet, de l'utilisation, du "
+"lancement, du développement ou de la distribution de tout système "
+"automatisé, y compris, sans s'y limiter, tout araignée, robot, utilitaire de "
+"triche, grattoir ou lecteur hors ligne qui accède aux Services. "
 
-#: .\summarizer\templates\front\termsandconditions.html:443
+#: .\summarizer\templates\front\termsandconditions.html:442
 msgid ""
 "Use a buying agent or purchasing agent to make purchases on the Services."
-msgstr "Utiliser un agent d'achat ou un agent d'achat pour effectuer des achats sur les Services."
+msgstr ""
+"Utiliser un agent d'achat ou un agent d'achat pour effectuer des achats sur "
+"les Services."
 
-#: .\summarizer\templates\front\termsandconditions.html:444
+#: .\summarizer\templates\front\termsandconditions.html:443
 msgid ""
 "Make any unauthorized use of the Services, including collecting usernames "
 "and/or email addresses of users by electronic or other means for the purpose "
 "of sending unsolicited email, or creating user accounts by automated means "
 "or under false pretenses."
-msgstr "Faire toute utilisation non autorisée des Services, y compris la collecte de noms d'utilisateur et/ou d'adresses e-mail d'utilisateurs par des moyens électroniques ou autres dans le but d'envoyer des e-mails non sollicités, ou de créer des comptes d'utilisateurs par des moyens automatisés ou sous de faux prétextes."
+msgstr ""
+"Faire toute utilisation non autorisée des Services, y compris la collecte de "
+"noms d'utilisateur et/ou d'adresses e-mail d'utilisateurs par des moyens "
+"électroniques ou autres dans le but d'envoyer des e-mails non sollicités, ou "
+"de créer des comptes d'utilisateurs par des moyens automatisés ou sous de "
+"faux prétextes."
 
-#: .\summarizer\templates\front\termsandconditions.html:445
+#: .\summarizer\templates\front\termsandconditions.html:444
 msgid ""
 "Use the Services as part of any effort to compete with us or otherwise use "
 "the Services and/or the Content for any revenue-generating endeavor or "
 "commercial enterprise."
-msgstr "Utiliser les Services dans le cadre de tout effort visant à nous concurrencer ou à utiliser autrement les Services et/ou le Contenu pour toute entreprise génératrice de revenus ou entreprise commerciale."
+msgstr ""
+"Utiliser les Services dans le cadre de tout effort visant à nous "
+"concurrencer ou à utiliser autrement les Services et/ou le Contenu pour "
+"toute entreprise génératrice de revenus ou entreprise commerciale."
 
-#: .\summarizer\templates\front\termsandconditions.html:446
+#: .\summarizer\templates\front\termsandconditions.html:445
 msgid "Sell or otherwise transfer your profile."
 msgstr "Vendez ou transférez autrement votre profil."
 
-#: .\summarizer\templates\front\termsandconditions.html:447
+#: .\summarizer\templates\front\termsandconditions.html:446
 msgid "Use the Services to advertise or offer to sell goods and services."
-msgstr "Utiliser les Services pour faire de la publicité ou proposer de vendre des biens et des services."
+msgstr ""
+"Utiliser les Services pour faire de la publicité ou proposer de vendre des "
+"biens et des services."
 
-#: .\summarizer\templates\front\termsandconditions.html:453
+#: .\summarizer\templates\front\termsandconditions.html:452
 msgid ""
 "The Services may invite you to chat, contribute to, or participate in blogs, "
 "message boards, online forums, and other functionality, and may provide you "
@@ -2642,105 +3159,148 @@ msgid ""
 "such, any Contributions you transmit may be treated as non-confidential and "
 "non-proprietary. When you create or make available any Contributions, you "
 "thereby represent and warrant that:"
-msgstr "Les Services peuvent vous inviter à discuter, contribuer ou participer à des blogs, des forums de discussion, des forums en ligne et d'autres fonctionnalités, et peuvent vous offrir la possibilité de créer, soumettre, publier, afficher, transmettre, exécuter, publier, "
+msgstr ""
+"Les Services peuvent vous inviter à discuter, contribuer ou participer à des "
+"blogs, des forums de discussion, des forums en ligne et d'autres "
+"fonctionnalités, et peuvent vous offrir la possibilité de créer, soumettre, "
+"publier, afficher, transmettre, exécuter, publier, "
 
-#: .\summarizer\templates\front\termsandconditions.html:457
+#: .\summarizer\templates\front\termsandconditions.html:456
 msgid ""
 "The creation, distribution, transmission, public display, or performance, "
 "and the accessing, downloading, or copying of your Contributions do not and "
 "will not infringe the proprietary rights, including but not limited to the "
 "copyright, patent, trademark, trade secret, or moral rights of any third "
 "party."
-msgstr "La création, la distribution, la transmission, l'affichage public ou l'exécution, ainsi que l'accès, le téléchargement ou la copie de vos contributions ne portent pas et ne violeront pas les droits de propriété, y compris, mais sans s'y limiter, les droits d'auteur, les brevets, les marques déposées, les secrets commerciaux. "
+msgstr ""
+"La création, la distribution, la transmission, l'affichage public ou "
+"l'exécution, ainsi que l'accès, le téléchargement ou la copie de vos "
+"contributions ne portent pas et ne violeront pas les droits de propriété, y "
+"compris, mais sans s'y limiter, les droits d'auteur, les brevets, les "
+"marques déposées, les secrets commerciaux. "
 
-#: .\summarizer\templates\front\termsandconditions.html:458
+#: .\summarizer\templates\front\termsandconditions.html:457
 msgid ""
 "You are the creator and owner of or have the necessary licenses, rights, "
 "consents, releases, and permissions to use and to authorize us, the "
 "Services, and other users of the Services to use your Contributions in any "
 "manner contemplated by the Services and these Legal Terms."
-msgstr "Vous êtes le créateur et le propriétaire de ou disposez des licences, droits, consentements, autorisations et autorisations nécessaires pour utiliser et nous autoriser, ainsi que les autres utilisateurs des Services, à utiliser vos contributions de toute manière envisagée par les Services. "
+msgstr ""
+"Vous êtes le créateur et le propriétaire de ou disposez des licences, "
+"droits, consentements, autorisations et autorisations nécessaires pour "
+"utiliser et nous autoriser, ainsi que les autres utilisateurs des Services, "
+"à utiliser vos contributions de toute manière envisagée par les Services. "
 
-#: .\summarizer\templates\front\termsandconditions.html:459
+#: .\summarizer\templates\front\termsandconditions.html:458
 msgid ""
 "You have the written consent, release, and/or permission of each and every "
 "identifiable individual person in your Contributions to use the name or "
 "likeness of each and every such identifiable individual person to enable "
 "inclusion and use of your Contributions in any manner contemplated by the "
 "Services and these Legal Terms."
-msgstr "Vous disposez du consentement écrit, de la libération et/ou de la permission de chaque personne individuelle identifiable dans vos contributions pour utiliser le nom ou l'image de chacune de ces personnes individuelles identifiables afin de permettre l'inclusion et l'utilisation de vos contributions de toute manière envisagée. "
+msgstr ""
+"Vous disposez du consentement écrit, de la libération et/ou de la permission "
+"de chaque personne individuelle identifiable dans vos contributions pour "
+"utiliser le nom ou l'image de chacune de ces personnes individuelles "
+"identifiables afin de permettre l'inclusion et l'utilisation de vos "
+"contributions de toute manière envisagée. "
 
-#: .\summarizer\templates\front\termsandconditions.html:460
+#: .\summarizer\templates\front\termsandconditions.html:459
 msgid "Your Contributions are not false, inaccurate, or misleading."
 msgstr "Vos contributions ne sont pas fausses, inexactes ou trompeuses."
 
-#: .\summarizer\templates\front\termsandconditions.html:461
+#: .\summarizer\templates\front\termsandconditions.html:460
 msgid ""
 "Your Contributions are not unsolicited or unauthorized advertising, "
 "promotional materials, pyramid schemes, chain letters, spam, mass mailings, "
 "or other forms of solicitation."
-msgstr "Vos contributions ne constituent pas de la publicité non sollicitée ou non autorisée, du matériel promotionnel, des systèmes pyramidaux, des chaînes de lettres, du spam, des envois de masse ou d'autres formes de sollicitation."
+msgstr ""
+"Vos contributions ne constituent pas de la publicité non sollicitée ou non "
+"autorisée, du matériel promotionnel, des systèmes pyramidaux, des chaînes de "
+"lettres, du spam, des envois de masse ou d'autres formes de sollicitation."
 
-#: .\summarizer\templates\front\termsandconditions.html:462
+#: .\summarizer\templates\front\termsandconditions.html:461
 msgid ""
 "Your Contributions are not obscene, lewd, lascivious, filthy, violent, "
 "harassing, libelous, slanderous, or otherwise objectionable (as determined "
 "by us)."
-msgstr "Vos contributions ne sont pas obscènes, obscènes, lascives, sales, violentes, harcelantes, calomnieuses ou autrement répréhensibles (selon notre détermination)."
+msgstr ""
+"Vos contributions ne sont pas obscènes, obscènes, lascives, sales, "
+"violentes, harcelantes, calomnieuses ou autrement répréhensibles (selon "
+"notre détermination)."
 
-#: .\summarizer\templates\front\termsandconditions.html:463
+#: .\summarizer\templates\front\termsandconditions.html:462
 msgid ""
 "Your Contributions do not ridicule, mock, disparage, intimidate, or abuse "
 "anyone."
-msgstr "Vos contributions ne ridiculisent, ne se moquent, ne dénigrent, n'intimident ou n'abusent personne."
+msgstr ""
+"Vos contributions ne ridiculisent, ne se moquent, ne dénigrent, n'intimident "
+"ou n'abusent personne."
 
-#: .\summarizer\templates\front\termsandconditions.html:464
+#: .\summarizer\templates\front\termsandconditions.html:463
 msgid ""
 "Your Contributions are not used to harass or threaten (in the legal sense of "
 "those terms) any other person and to promote violence against a specific "
 "person or class of people."
-msgstr "Vos Contributions ne sont pas utilisées pour harceler ou menacer (au sens juridique de ces termes) toute autre personne et pour promouvoir la violence contre une personne ou une catégorie de personnes spécifique."
+msgstr ""
+"Vos Contributions ne sont pas utilisées pour harceler ou menacer (au sens "
+"juridique de ces termes) toute autre personne et pour promouvoir la violence "
+"contre une personne ou une catégorie de personnes spécifique."
+
+#: .\summarizer\templates\front\termsandconditions.html:464
+msgid ""
+"Your Contributions do not violate any applicable law, regulation, or rule."
+msgstr ""
+"Vos contributions ne violent aucune loi, réglementation ou règle applicable."
 
 #: .\summarizer\templates\front\termsandconditions.html:465
 msgid ""
-"Your Contributions do not violate any applicable law, regulation, or rule."
-msgstr "Vos contributions ne violent aucune loi, réglementation ou règle applicable."
-
-#: .\summarizer\templates\front\termsandconditions.html:466
-msgid ""
 "Your Contributions do not violate the privacy or publicity rights of any "
 "third party."
-msgstr "Vos contributions ne violent pas les droits à la vie privée ou à la publicité d'un tiers."
+msgstr ""
+"Vos contributions ne violent pas les droits à la vie privée ou à la "
+"publicité d'un tiers."
 
-#: .\summarizer\templates\front\termsandconditions.html:467
+#: .\summarizer\templates\front\termsandconditions.html:466
 msgid ""
 "Your Contributions do not violate any applicable law concerning child "
 "pornography, or otherwise intended to protect the health or well-being of "
 "minors."
-msgstr "Vos contributions ne violent aucune loi applicable concernant la pédopornographie, ni ne visent autrement à protéger la santé ou le bien-être des mineurs."
+msgstr ""
+"Vos contributions ne violent aucune loi applicable concernant la "
+"pédopornographie, ni ne visent autrement à protéger la santé ou le bien-être "
+"des mineurs."
 
-#: .\summarizer\templates\front\termsandconditions.html:468
+#: .\summarizer\templates\front\termsandconditions.html:467
 msgid ""
 "Your Contributions do not include any offensive comments that are connected "
 "to race, national origin, gender, sexual preference, or physical handicap."
-msgstr "Vos contributions n'incluent aucun commentaire offensant lié à la race, à l'origine nationale, au sexe, à la préférence sexuelle ou au handicap physique."
+msgstr ""
+"Vos contributions n'incluent aucun commentaire offensant lié à la race, à "
+"l'origine nationale, au sexe, à la préférence sexuelle ou au handicap "
+"physique."
 
-#: .\summarizer\templates\front\termsandconditions.html:469
+#: .\summarizer\templates\front\termsandconditions.html:468
 msgid ""
 "Your Contributions do not otherwise violate, or link to material that "
 "violates, any provision of these Legal Terms, or any applicable law or "
 "regulation."
-msgstr "Vos contributions ne violent pas, ni ne renvoient à du matériel qui viole, toute disposition des présentes conditions juridiques, ou toute loi ou réglementation applicable."
+msgstr ""
+"Vos contributions ne violent pas, ni ne renvoient à du matériel qui viole, "
+"toute disposition des présentes conditions juridiques, ou toute loi ou "
+"réglementation applicable."
 
-
-#: .\summarizer\templates\front\termsandconditions.html:471
+#: .\summarizer\templates\front\termsandconditions.html:470
 msgid ""
 "Any use of the Services in violation of the foregoing violates these Legal "
 "Terms and may result in, among other things, termination or suspension of "
 "your rights to use the Services."
-msgstr "Toute utilisation des Services en violation de ce qui précède viole les présentes Conditions juridiques et peut entraîner, entre autres choses, la résiliation ou la suspension de vos droits d'utilisation des Services."
+msgstr ""
+"Toute utilisation des Services en violation de ce qui précède viole les "
+"présentes Conditions juridiques et peut entraîner, entre autres choses, la "
+"résiliation ou la suspension de vos droits d'utilisation des Services."
 
-#: .\summarizer\templates\front\termsandconditions.html:476
+#: .\summarizer\templates\front\termsandconditions.html:475
 msgid ""
 "By posting your Contributions to any part of the Services or making "
 "Contributions accessible to the Services by linking your account from the "
@@ -2756,9 +3316,14 @@ msgid ""
 "derivative works of, or incorporate into other works, such Contributions, "
 "and grant and authorize sublicenses of the foregoing. The use and "
 "distribution may occur in any media formats and through any media channels."
-msgstr "En publiant vos contributions à n'importe quelle partie des services ou en rendant les contributions accessibles aux services en liant votre compte des services à l'un de vos comptes de réseaux sociaux, vous accordez automatiquement, et vous déclarez et garantissez que vous avez le droit d'accorder "
+msgstr ""
+"En publiant vos contributions à n'importe quelle partie des services ou en "
+"rendant les contributions accessibles aux services en liant votre compte des "
+"services à l'un de vos comptes de réseaux sociaux, vous accordez "
+"automatiquement, et vous déclarez et garantissez que vous avez le droit "
+"d'accorder "
 
-#: .\summarizer\templates\front\termsandconditions.html:478
+#: .\summarizer\templates\front\termsandconditions.html:477
 msgid ""
 "This license will apply to any form, media, or technology now known or "
 "hereafter developed, and includes our use of your name, company name, and "
@@ -2766,9 +3331,14 @@ msgid ""
 "trade names, logos, and personal and commercial images you provide. You "
 "waive all moral rights in your Contributions, and you warrant that moral "
 "rights have not otherwise been asserted in your Contributions."
-msgstr "Cette licence s'appliquera à toute forme, média ou technologie actuellement connue ou développée ultérieurement, et inclut notre utilisation de votre nom, du nom de votre entreprise et du nom de votre franchise, le cas échéant, ainsi que de toutes les marques déposées, marques de service, noms commerciaux, "
+msgstr ""
+"Cette licence s'appliquera à toute forme, média ou technologie actuellement "
+"connue ou développée ultérieurement, et inclut notre utilisation de votre "
+"nom, du nom de votre entreprise et du nom de votre franchise, le cas "
+"échéant, ainsi que de toutes les marques déposées, marques de service, noms "
+"commerciaux, "
 
-#: .\summarizer\templates\front\termsandconditions.html:480
+#: .\summarizer\templates\front\termsandconditions.html:479
 msgid ""
 "We do not assert any ownership over your Contributions. You retain full "
 "ownership of all of your Contributions and any intellectual property rights "
@@ -2780,16 +3350,18 @@ msgid ""
 "regarding your Contributions."
 msgstr "Nous ne revendiquons aucune propriété sur vos contributions. "
 
-#: .\summarizer\templates\front\termsandconditions.html:482
+#: .\summarizer\templates\front\termsandconditions.html:481
 msgid ""
 "We have the right, in our sole and absolute discretion, (1) to edit, redact, "
 "or otherwise change any Contributions; (2) to re-categorize any "
 "Contributions to place them in more appropriate locations on the Services; "
 "and (3) to pre-screen or delete any Contributions at any time and for any "
 "reason, without notice. We have no obligation to monitor your Contributions."
-msgstr "Nous avons le droit, à notre seule et absolue discrétion, (1) d'éditer, de rédiger ou de modifier de toute autre manière toute contribution ; "
+msgstr ""
+"Nous avons le droit, à notre seule et absolue discrétion, (1) d'éditer, de "
+"rédiger ou de modifier de toute autre manière toute contribution ; "
 
-#: .\summarizer\templates\front\termsandconditions.html:487
+#: .\summarizer\templates\front\termsandconditions.html:486
 msgid ""
 "As part of the functionality of the Services, you may link your account with "
 "online accounts you have with third-party service providers (each such "
@@ -2834,9 +3406,13 @@ msgid ""
 "attempt to delete any information stored on our servers that was obtained "
 "through such Third-Party Account, except the username and profile picture "
 "that become associated with your account."
-msgstr "Dans le cadre des fonctionnalités des Services, vous pouvez lier votre compte à des comptes en ligne que vous possédez auprès de fournisseurs de services tiers (chacun de ces comptes étant un « Compte tiers ») soit : (1) en fournissant votre compte tiers ; "
+msgstr ""
+"Dans le cadre des fonctionnalités des Services, vous pouvez lier votre "
+"compte à des comptes en ligne que vous possédez auprès de fournisseurs de "
+"services tiers (chacun de ces comptes étant un « Compte tiers ») soit : (1) "
+"en fournissant votre compte tiers ; "
 
-#: .\summarizer\templates\front\termsandconditions.html:492
+#: .\summarizer\templates\front\termsandconditions.html:491
 msgid ""
 "The Services may contain (or you may be sent via the Site) links to other "
 "websites ('Third-Party Websites') as well as articles, photographs, text, "
@@ -2867,17 +3443,24 @@ msgid ""
 "services. Additionally, you shall hold us blameless from any losses "
 "sustained by you or harm caused to you relating to or resulting in any way "
 "from any Third-Party Content or any contact with Third-Party Websites."
-msgstr "Les Services peuvent contenir (ou vous pouvez être envoyés via le Site) des liens vers d'autres sites Web (« Sites Web tiers ») ainsi que des articles, photographies, textes, graphiques, images, designs, musique, son, vidéo, informations. "
+msgstr ""
+"Les Services peuvent contenir (ou vous pouvez être envoyés via le Site) des "
+"liens vers d'autres sites Web (« Sites Web tiers ») ainsi que des articles, "
+"photographies, textes, graphiques, images, designs, musique, son, vidéo, "
+"informations. "
 
-#: .\summarizer\templates\front\termsandconditions.html:497
+#: .\summarizer\templates\front\termsandconditions.html:496
 msgid ""
 "We allow advertisers to display their advertisements and other information "
 "in certain areas of the Services, such as sidebar advertisements or banner "
 "advertisements. We simply provide the space to place such advertisements, "
 "and we have no other relationship with advertisers."
-msgstr "Nous autorisons les annonceurs à afficher leurs publicités et autres informations dans certaines zones des Services, telles que les publicités dans la barre latérale ou les bannières publicitaires. "
+msgstr ""
+"Nous autorisons les annonceurs à afficher leurs publicités et autres "
+"informations dans certaines zones des Services, telles que les publicités "
+"dans la barre latérale ou les bannières publicitaires. "
 
-#: .\summarizer\templates\front\termsandconditions.html:501
+#: .\summarizer\templates\front\termsandconditions.html:500
 msgid ""
 "We reserve the right, but not the obligation, to: (1) monitor the Services "
 "for violations of these Legal Terms; (2) take appropriate legal action "
@@ -2891,9 +3474,11 @@ msgid ""
 "excessive in size or are in any way burdensome to our systems; and (5) "
 "otherwise manage the Services in a manner designed to protect our rights and "
 "property and to facilitate the proper functioning of the Services."
-msgstr "Nous nous réservons le droit, mais non l'obligation, de : (1) surveiller les Services pour détecter toute violation des présentes Conditions juridiques ; "
+msgstr ""
+"Nous nous réservons le droit, mais non l'obligation, de : (1) surveiller les "
+"Services pour détecter toute violation des présentes Conditions juridiques ; "
 
-#: .\summarizer\templates\front\termsandconditions.html:505
+#: .\summarizer\templates\front\termsandconditions.html:504
 msgid ""
 "We care about data privacy and security. Please review our Privacy Policy: "
 "<a href='https://summarygenerator.io/PrivacyPolicy/'>Privacy Policy</a>. By "
@@ -2911,10 +3496,11 @@ msgid ""
 "that anyone under the age of 13 has provided personal information to us "
 "without the requisite and verifiable parental consent, we will delete that "
 "information from the Services as quickly as is reasonably practical."
-msgstr "Nous nous soucions de la confidentialité et de la sécurité des données. "
+msgstr ""
+"Nous nous soucions de la confidentialité et de la sécurité des données. "
 
-#: .\summarizer\templates\front\termsandconditions.html:507
-#: .\summarizer\templates\front\termsandconditions.html:515
+#: .\summarizer\templates\front\termsandconditions.html:506
+#: .\summarizer\templates\front\termsandconditions.html:514
 msgid ""
 "If we terminate or suspend your account for any reason, you are prohibited "
 "from registering and creating a new account under your name, a fake or "
@@ -2922,10 +3508,14 @@ msgid ""
 "behalf of the third party. In addition to terminating or suspending your "
 "account, we reserve the right to take appropriate legal action, including "
 "without limitation pursuing civil, criminal, and injunctive redress."
-msgstr "Si nous résilions ou suspendons votre compte pour quelque raison que ce soit, il vous est interdit de vous inscrire et de créer un nouveau compte sous votre nom, un faux nom ou un nom emprunté, ou le nom d'un tiers, même si vous agissez au nom de "
+msgstr ""
+"Si nous résilions ou suspendons votre compte pour quelque raison que ce "
+"soit, il vous est interdit de vous inscrire et de créer un nouveau compte "
+"sous votre nom, un faux nom ou un nom emprunté, ou le nom d'un tiers, même "
+"si vous agissez au nom de "
 
-#: .\summarizer\templates\front\termsandconditions.html:513
-#: .\summarizer\templates\front\termsandconditions.html:525
+#: .\summarizer\templates\front\termsandconditions.html:512
+#: .\summarizer\templates\front\termsandconditions.html:524
 msgid ""
 "These Legal Terms are governed by and interpreted following the laws of the "
 "United Kingdom, and the use of the United Nations Convention of Contracts "
@@ -2937,18 +3527,25 @@ msgid ""
 "you may make a claim to defend your consumer protection rights in regards to "
 "these Legal Terms in the United Kingdom, or in the EU country in which you "
 "reside."
-msgstr "Les présentes conditions juridiques sont régies et interprétées conformément aux lois du Royaume-Uni, et l'utilisation de la Convention des Nations Unies sur les contrats de vente internationale de marchandises est expressément exclue. "
+msgstr ""
+"Les présentes conditions juridiques sont régies et interprétées conformément "
+"aux lois du Royaume-Uni, et l'utilisation de la Convention des Nations Unies "
+"sur les contrats de vente internationale de marchandises est expressément "
+"exclue. "
 
-#: .\summarizer\templates\front\termsandconditions.html:519
+#: .\summarizer\templates\front\termsandconditions.html:518
 msgid ""
 "We reserve the right to change, modify, or remove the contents of the "
 "Services at any time or for any reason at our sole discretion without "
 "notice. However, we have no obligation to update any information on our "
 "Services. We will not be liable to you or any third party for any "
 "modification, price change, suspension, or discontinuance of the Services."
-msgstr "Nous nous réservons le droit de changer, modifier ou supprimer le contenu des Services à tout moment ou pour quelque raison que ce soit, à notre seule discrétion et sans préavis. "
+msgstr ""
+"Nous nous réservons le droit de changer, modifier ou supprimer le contenu "
+"des Services à tout moment ou pour quelque raison que ce soit, à notre seule "
+"discrétion et sans préavis. "
 
-#: .\summarizer\templates\front\termsandconditions.html:521
+#: .\summarizer\templates\front\termsandconditions.html:520
 msgid ""
 "We cannot guarantee the Services will be available at all times. We may "
 "experience hardware, software, or other problems or need to perform "
@@ -2961,13 +3558,15 @@ msgid ""
 "in these Legal Terms will be construed to obligate us to maintain and "
 "support the Services or to supply any corrections, updates, or releases in "
 "connection therewith."
-msgstr "Nous ne pouvons pas garantir que les Services seront disponibles à tout moment. "
+msgstr ""
+"Nous ne pouvons pas garantir que les Services seront disponibles à tout "
+"moment. "
 
-#: .\summarizer\templates\front\termsandconditions.html:530
+#: .\summarizer\templates\front\termsandconditions.html:529
 msgid "Binding Arbitration"
 msgstr "Arbitrage exécutoire"
 
-#: .\summarizer\templates\front\termsandconditions.html:531
+#: .\summarizer\templates\front\termsandconditions.html:530
 msgid ""
 "Any dispute arising from the relationships between the Parties to these "
 "Legal Terms shall be determined by one arbitrator who will be chosen in "
@@ -2978,14 +3577,17 @@ msgid ""
 "acceptance. The seat of arbitration shall be the United Kingdom. The "
 "language of the proceedings shall be __________. Applicable rules of "
 "substantive law shall be the law of the United Kingdom."
-msgstr "Tout litige découlant des relations entre les Parties aux présentes Conditions Légales sera tranché par un arbitre qui sera choisi conformément au Règlement d'Arbitrage et Intérieur de la Cour Européenne d'Arbitrage faisant partie du Centre Européen d'Arbitrage ayant son siège. "
+msgstr ""
+"Tout litige découlant des relations entre les Parties aux présentes "
+"Conditions Légales sera tranché par un arbitre qui sera choisi conformément "
+"au Règlement d'Arbitrage et Intérieur de la Cour Européenne d'Arbitrage "
+"faisant partie du Centre Européen d'Arbitrage ayant son siège. "
 
-
-#: .\summarizer\templates\front\termsandconditions.html:533
+#: .\summarizer\templates\front\termsandconditions.html:532
 msgid "Restrictions"
 msgstr ""
 
-#: .\summarizer\templates\front\termsandconditions.html:534
+#: .\summarizer\templates\front\termsandconditions.html:533
 msgid ""
 "The Parties agree that any arbitration shall be limited to the Dispute "
 "between the Parties individually. To the full extent permitted by law, (a) "
@@ -2994,13 +3596,15 @@ msgid ""
 "or to utilize class action procedures; and (c) there is no right or "
 "authority for any Dispute to be brought in a purported representative "
 "capacity on behalf of the general public or any other persons."
-msgstr "Les Parties conviennent que tout arbitrage sera limité au Différend entre les Parties individuellement. "
+msgstr ""
+"Les Parties conviennent que tout arbitrage sera limité au Différend entre "
+"les Parties individuellement. "
 
-#: .\summarizer\templates\front\termsandconditions.html:536
+#: .\summarizer\templates\front\termsandconditions.html:535
 msgid "Exceptions to Arbitration"
 msgstr "Exceptions à l’arbitrage"
 
-#: .\summarizer\templates\front\termsandconditions.html:537
+#: .\summarizer\templates\front\termsandconditions.html:536
 msgid ""
 "The Parties agree that the following Disputes are not subject to the above "
 "provisions concerning binding arbitration: (a) any Disputes seeking to "
@@ -3013,18 +3617,25 @@ msgid ""
 "unenforceable and such Dispute shall be decided by a court of competent "
 "jurisdiction within the courts listed for jurisdiction above, and the "
 "Parties agree to submit to the personal jurisdiction of that court."
-msgstr "Les Parties conviennent que les différends suivants ne sont pas soumis aux dispositions ci-dessus concernant l'arbitrage exécutoire : (a) tout différend visant à faire respecter ou à protéger, ou concernant la validité, l'un des droits de propriété intellectuelle d'une Partie ; "
+msgstr ""
+"Les Parties conviennent que les différends suivants ne sont pas soumis aux "
+"dispositions ci-dessus concernant l'arbitrage exécutoire : (a) tout "
+"différend visant à faire respecter ou à protéger, ou concernant la validité, "
+"l'un des droits de propriété intellectuelle d'une Partie ; "
 
-#: .\summarizer\templates\front\termsandconditions.html:541
+#: .\summarizer\templates\front\termsandconditions.html:540
 msgid ""
 "There may be information on the Services that contains typographical errors, "
 "inaccuracies, or omissions, including descriptions, pricing, availability, "
 "and various other information. We reserve the right to correct any errors, "
 "inaccuracies, or omissions and to change or update the information on the "
 "Services at any time, without prior notice."
-msgstr "Certaines informations sur les Services peuvent contenir des erreurs typographiques, des inexactitudes ou des omissions, notamment des descriptions, des prix, la disponibilité et diverses autres informations. "
+msgstr ""
+"Certaines informations sur les Services peuvent contenir des erreurs "
+"typographiques, des inexactitudes ou des omissions, notamment des "
+"descriptions, des prix, la disponibilité et diverses autres informations. "
 
-#: .\summarizer\templates\front\termsandconditions.html:545
+#: .\summarizer\templates\front\termsandconditions.html:544
 msgid ""
 "THE SERVICES ARE PROVIDED ON AN AS-IS AND AS-AVAILABLE BASIS. YOU AGREE THAT "
 "YOUR USE OF THE SERVICES WILL BE AT YOUR SOLE RISK. TO THE FULLEST EXTENT "
@@ -3034,7 +3645,7 @@ msgid ""
 "PARTICULAR PURPOSE, AND NON-INFRINGEMENT."
 msgstr "LES SERVICES SONT FOURNIS EN L'ÉTAT ET SELON LA DISPONIBILITÉ. "
 
-#: .\summarizer\templates\front\termsandconditions.html:547
+#: .\summarizer\templates\front\termsandconditions.html:546
 msgid ""
 "WE MAKE NO WARRANTIES OR REPRESENTATIONS ABOUT THE ACCURACY OR COMPLETENESS "
 "OF THE SERVICES' CONTENT OR THE CONTENT OF ANY WEBSITES OR MOBILE "
@@ -3058,9 +3669,13 @@ msgid ""
 "SERVICES. AS WITH THE PURCHASE OF A PRODUCT OR SERVICE THROUGH ANY MEDIUM OR "
 "IN ANY ENVIRONMENT, YOU SHOULD USE YOUR BEST JUDGMENT AND EXERCISE CAUTION "
 "WHERE APPROPRIATE."
-msgstr "NOUS N'OFFRONS AUCUNE GARANTIE OU DÉCLARATION CONCERNANT L'EXACTITUDE OU L'EXHAUSTIVITÉ DU CONTENU DES SERVICES OU DU CONTENU DE TOUT SITE WEB OU APPLICATION MOBILE LIÉE AUX SERVICES ET NOUS ASSUMONS AUCUNE RESPONSABILITÉ POUR TOUTE (1) ERREURS, ERREURS OU INEXACTITUDES "
+msgstr ""
+"NOUS N'OFFRONS AUCUNE GARANTIE OU DÉCLARATION CONCERNANT L'EXACTITUDE OU "
+"L'EXHAUSTIVITÉ DU CONTENU DES SERVICES OU DU CONTENU DE TOUT SITE WEB OU "
+"APPLICATION MOBILE LIÉE AUX SERVICES ET NOUS ASSUMONS AUCUNE RESPONSABILITÉ "
+"POUR TOUTE (1) ERREURS, ERREURS OU INEXACTITUDES "
 
-#: .\summarizer\templates\front\termsandconditions.html:552
+#: .\summarizer\templates\front\termsandconditions.html:551
 msgid ""
 "IN NO EVENT WILL WE OR OUR DIRECTORS, EMPLOYEES, OR AGENTS BE LIABLE TO YOU "
 "OR ANY THIRD PARTY FOR ANY DIRECT, INDIRECT, CONSEQUENTIAL, EXEMPLARY, "
@@ -3075,9 +3690,13 @@ msgid ""
 "OR THE EXCLUSION OR LIMITATION OF CERTAIN DAMAGES. IF THESE LAWS APPLY TO "
 "YOU, SOME OR ALL OF THE ABOVE DISCLAIMERS OR LIMITATIONS MAY NOT APPLY TO "
 "YOU, AND YOU MAY HAVE ADDITIONAL RIGHTS."
-msgstr "EN AUCUN CAS NOUS OU NOS DIRECTEURS, EMPLOYÉS OU AGENTS NE SERONS RESPONSABLES ENVERS VOUS OU TOUT TIERS DE TOUT DOMMAGE DIRECT, INDIRECT, CONSÉCUTIF, EXEMPLAIRE, ACCESSOIRE, SPÉCIAL OU PUNITIF, Y COMPRIS LA PERTE DE PROFIT, LA PERTE DE REVENUS, LA PERTE DE "
+msgstr ""
+"EN AUCUN CAS NOUS OU NOS DIRECTEURS, EMPLOYÉS OU AGENTS NE SERONS "
+"RESPONSABLES ENVERS VOUS OU TOUT TIERS DE TOUT DOMMAGE DIRECT, INDIRECT, "
+"CONSÉCUTIF, EXEMPLAIRE, ACCESSOIRE, SPÉCIAL OU PUNITIF, Y COMPRIS LA PERTE "
+"DE PROFIT, LA PERTE DE REVENUS, LA PERTE DE "
 
-#: .\summarizer\templates\front\termsandconditions.html:556
+#: .\summarizer\templates\front\termsandconditions.html:555
 msgid ""
 "You agree to defend, indemnify, and hold us harmless, including our "
 "subsidiaries, affiliates, and all of our respective officers, agents, "
@@ -3095,9 +3714,13 @@ msgid ""
 "our defense of such claims. We will use reasonable efforts to notify you of "
 "any such claim, action, or proceeding which is subject to this "
 "indemnification upon becoming aware of it."
-msgstr "Vous acceptez de nous défendre, de nous indemniser et de nous dégager de toute responsabilité, y compris nos filiales, sociétés affiliées et tous nos dirigeants, agents, partenaires et employés respectifs, contre toute perte, dommage, responsabilité, réclamation ou demande, y compris "
+msgstr ""
+"Vous acceptez de nous défendre, de nous indemniser et de nous dégager de "
+"toute responsabilité, y compris nos filiales, sociétés affiliées et tous nos "
+"dirigeants, agents, partenaires et employés respectifs, contre toute perte, "
+"dommage, responsabilité, réclamation ou demande, y compris "
 
-#: .\summarizer\templates\front\termsandconditions.html:560
+#: .\summarizer\templates\front\termsandconditions.html:559
 msgid ""
 "We will maintain certain data that you transmit to the Services for the "
 "purpose of managing the performance of the Services, as well as data "
@@ -3107,9 +3730,12 @@ msgid ""
 "agree that we shall have no liability to you for any loss or corruption of "
 "any such data, and you hereby waive any right of action against us arising "
 "from any such loss or corruption of such data."
-msgstr "Nous conserverons certaines données que vous transmettez aux Services dans le but de gérer la performance des Services, ainsi que les données relatives à votre utilisation des Services. "
+msgstr ""
+"Nous conserverons certaines données que vous transmettez aux Services dans "
+"le but de gérer la performance des Services, ainsi que les données relatives "
+"à votre utilisation des Services. "
 
-#: .\summarizer\templates\front\termsandconditions.html:564
+#: .\summarizer\templates\front\termsandconditions.html:563
 msgid ""
 "Visiting the Services, sending us emails, and completing online forms "
 "constitute electronic communications. You consent to receive electronic "
@@ -3124,18 +3750,25 @@ msgid ""
 "require an original signature or delivery or retention of non-electronic "
 "records, or to payments or the granting of credits by any means other than "
 "electronic means."
-msgstr "La visite des Services, l'envoi d'e-mails et le remplissage de formulaires en ligne constituent des communications électroniques. "
+msgstr ""
+"La visite des Services, l'envoi d'e-mails et le remplissage de formulaires "
+"en ligne constituent des communications électroniques. "
 
-#: .\summarizer\templates\front\termsandconditions.html:568
+#: .\summarizer\templates\front\termsandconditions.html:567
 msgid ""
 "If any complaint with us is not satisfactorily resolved, you can contact the "
 "Complaint Assistance Unit of the Division of Consumer Services of the "
 "California Department of Consumer Affairs in writing at 1625 North Market "
 "Blvd., Suite N 112, Sacramento, California 95834 or by telephone at (800) "
 "952-5210 or (916) 445-1254."
-msgstr "Si une réclamation auprès de nous n'est pas résolue de manière satisfaisante, vous pouvez contacter par écrit l'unité d'assistance aux plaintes de la Division des services aux consommateurs du Département de la consommation de Californie au 1625 North Market Blvd., Suite N 112, Sacramento, Californie 95834 ou "
+msgstr ""
+"Si une réclamation auprès de nous n'est pas résolue de manière "
+"satisfaisante, vous pouvez contacter par écrit l'unité d'assistance aux "
+"plaintes de la Division des services aux consommateurs du Département de la "
+"consommation de Californie au 1625 North Market Blvd., Suite N 112, "
+"Sacramento, Californie 95834 ou "
 
-#: .\summarizer\templates\front\termsandconditions.html:573
+#: .\summarizer\templates\front\termsandconditions.html:572
 msgid ""
 "These Legal Terms and any policies or operating rules posted by us on the "
 "Services or in respect to the Services constitute the entire agreement and "
@@ -3155,23 +3788,30 @@ msgid ""
 "of having drafted them. You hereby waive any and all defenses you may have "
 "based on the electronic form of these Legal Terms and the lack of signing by "
 "the parties hereto to execute these Legal Terms."
-msgstr "Ces conditions juridiques et toutes politiques ou règles de fonctionnement publiées par nous sur les services ou en ce qui concerne les services constituent l'intégralité de l'accord et de la compréhension entre vous et nous. "
+msgstr ""
+"Ces conditions juridiques et toutes politiques ou règles de fonctionnement "
+"publiées par nous sur les services ou en ce qui concerne les services "
+"constituent l'intégralité de l'accord et de la compréhension entre vous et "
+"nous. "
 
-#: .\summarizer\templates\front\termsandconditions.html:577
+#: .\summarizer\templates\front\termsandconditions.html:576
 msgid ""
 "In order to resolve a complaint regarding the Services or to receive further "
 "information regarding use of the Services, please contact us at:"
-msgstr "Afin de résoudre une plainte concernant les Services ou de recevoir de plus amples informations concernant l'utilisation des Services, veuillez nous contacter à :"
+msgstr ""
+"Afin de résoudre une plainte concernant les Services ou de recevoir de plus "
+"amples informations concernant l'utilisation des Services, veuillez nous "
+"contacter à :"
 
-#: .\summarizer\templates\front\termsandconditions.html:595
+#: .\summarizer\templates\front\termsandconditions.html:594
 msgid "Phone:"
 msgstr "Téléphone :"
 
-#: .\summarizer\templates\front\termsandconditions.html:607
+#: .\summarizer\templates\front\termsandconditions.html:606
 msgid "Email:"
 msgstr "E-mail :"
 
-#: .\summarizer\templates\front\termsandconditions.html:619
+#: .\summarizer\templates\front\termsandconditions.html:618
 msgid "Address:"
 msgstr "Adresse :"
 
