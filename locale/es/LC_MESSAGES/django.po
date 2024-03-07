@@ -868,8 +868,6 @@ msgstr ""
 "funciones avanzadas."
 
 #: .\summarizer\templates\front\main.html:6
-#, fuzzy
-#| msgid "Summarize any text with One Click"
 msgid "Ai Summary Generator - Summarize Text in One Click"
 msgstr "Resumir cualquier texto con un clic"
 
