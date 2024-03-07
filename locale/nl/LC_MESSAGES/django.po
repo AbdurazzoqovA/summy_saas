@@ -19,17 +19,17 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 #: .\summarizer\templates\account\email_confirm.html:163
 msgid "Please confirm that"
-msgstr ""
+msgstr "Bevestig dat"
 
 #: .\summarizer\templates\account\email_confirm.html:163
 msgid "is an e-mail address for user"
-msgstr ""
+msgstr "is een e-mailadres voor de gebruiker"
 
 #: .\summarizer\templates\account\email_confirm.html:177
 msgid ""
 "This e-mail confirmation link expired or is invalid. Please issue a new e-"
 "mail confirmation request"
-msgstr ""
+msgstr "Deze e-mailbevestigingslink is verlopen of is ongeldig. "
 
 #: .\summarizer\templates\account\login.html:86
 #: .\summarizer\templates\account\signup.html:84
@@ -40,7 +40,7 @@ msgstr ""
 #: .\summarizer\templates\front\privacypolicy.html:114
 #: .\summarizer\templates\front\termsandconditions.html:96
 msgid "Home"
-msgstr ""
+msgstr "Thuis"
 
 #: .\summarizer\templates\account\login.html:91
 #: .\summarizer\templates\account\login.html:316
@@ -58,7 +58,7 @@ msgstr ""
 #: .\summarizer\templates\front\termsandconditions.html:101
 #: .\summarizer\templates\front\termsandconditions.html:684
 msgid "Pricing"
-msgstr ""
+msgstr "Prijzen"
 
 #: .\summarizer\templates\account\login.html:97
 #: .\summarizer\templates\account\signup.html:95
@@ -70,7 +70,7 @@ msgstr ""
 #: .\summarizer\templates\front\privacypolicy.html:125
 #: .\summarizer\templates\front\termsandconditions.html:107
 msgid "About"
-msgstr ""
+msgstr "Over"
 
 #: .\summarizer\templates\account\login.html:103
 #: .\summarizer\templates\account\signup.html:101
@@ -81,7 +81,7 @@ msgstr ""
 #: .\summarizer\templates\front\privacypolicy.html:131
 #: .\summarizer\templates\front\termsandconditions.html:113
 msgid "Logout"
-msgstr ""
+msgstr "Uitloggen"
 
 #: .\summarizer\templates\account\login.html:111
 #: .\summarizer\templates\account\login.html:249
@@ -94,7 +94,7 @@ msgstr ""
 #: .\summarizer\templates\front\privacypolicy.html:139
 #: .\summarizer\templates\front\termsandconditions.html:121
 msgid "Login"
-msgstr ""
+msgstr "Inloggen"
 
 #: .\summarizer\templates\account\login.html:116
 #: .\summarizer\templates\account\signup.html:114
@@ -105,7 +105,7 @@ msgstr ""
 #: .\summarizer\templates\front\privacypolicy.html:144
 #: .\summarizer\templates\front\termsandconditions.html:126
 msgid "Sign Up"
-msgstr ""
+msgstr "Aanmelden"
 
 #: .\summarizer\templates\account\login.html:134
 #: .\summarizer\templates\account\login.html:137
@@ -128,46 +128,46 @@ msgstr ""
 
 #: .\summarizer\templates\account\login.html:199
 msgid "Welcome Back!"
-msgstr ""
+msgstr "Welkom terug!"
 
 #: .\summarizer\templates\account\login.html:200
 msgid "Login to countinue"
-msgstr ""
+msgstr "Log in om verder te gaan"
 
 #: .\summarizer\templates\account\login.html:218
 msgid "Email"
-msgstr ""
+msgstr "E-mail"
 
 #: .\summarizer\templates\account\login.html:226
 #: .\summarizer\templates\account\signup.html:242
 msgid "Password"
-msgstr ""
+msgstr "Wachtwoord"
 
 #: .\summarizer\templates\account\login.html:241
 msgid "Remember Me"
-msgstr ""
+msgstr "Onthoud mij"
 
 #: .\summarizer\templates\account\login.html:244
 msgid "Forgot Password?"
-msgstr ""
+msgstr "Wachtwoord vergeten?"
 
 #: .\summarizer\templates\account\login.html:253
 #: .\summarizer\templates\account\signup.html:269
 msgid "or login with"
-msgstr ""
+msgstr "of log in met"
 
 #: .\summarizer\templates\account\login.html:261
 #: .\summarizer\templates\account\signup.html:278
 msgid "Login with Google"
-msgstr ""
+msgstr "Log in met Google"
 
 #: .\summarizer\templates\account\login.html:270
 msgid "Don't have an account?"
-msgstr ""
+msgstr "Heeft u geen account?"
 
 #: .\summarizer\templates\account\login.html:270
 msgid "Register"
-msgstr ""
+msgstr "Registreren"
 
 #: .\summarizer\templates\account\login.html:299
 #: .\summarizer\templates\account\signup.html:318
@@ -181,7 +181,7 @@ msgid ""
 "and natural language processing to analyze the content and identify main "
 "ideas to generate relevant summaries. It generates summaries of varying "
 "lengths for any type of content."
-msgstr ""
+msgstr "Summarygenerator.io is een AI-aangedreven tool die geavanceerde algoritmen en natuurlijke taalverwerking gebruikt om de inhoud te analyseren en de belangrijkste ideeën te identificeren om relevante samenvattingen te genereren. "
 
 #: .\summarizer\templates\account\login.html:313
 #: .\summarizer\templates\account\signup.html:332
@@ -192,7 +192,7 @@ msgstr ""
 #: .\summarizer\templates\front\privacypolicy.html:686
 #: .\summarizer\templates\front\termsandconditions.html:681
 msgid "About Us"
-msgstr ""
+msgstr "Over ons"
 
 #: .\summarizer\templates\account\login.html:314
 #: .\summarizer\templates\account\signup.html:333
@@ -203,7 +203,7 @@ msgstr ""
 #: .\summarizer\templates\front\termsandconditions.html:210
 #: .\summarizer\templates\front\termsandconditions.html:682
 msgid "Terms and Conditions"
-msgstr ""
+msgstr "Algemene voorwaarden"
 
 #: .\summarizer\templates\account\login.html:315
 #: .\summarizer\templates\account\signup.html:334
@@ -213,7 +213,7 @@ msgstr ""
 #: .\summarizer\templates\front\privacypolicy.html:688
 #: .\summarizer\templates\front\termsandconditions.html:683
 msgid "Privacy Policy"
-msgstr ""
+msgstr "Privacybeleid"
 
 #: .\summarizer\templates\account\login.html:325
 #: .\summarizer\templates\account\signup.html:344
@@ -223,7 +223,7 @@ msgstr ""
 #: .\summarizer\templates\front\privacypolicy.html:698
 #: .\summarizer\templates\front\termsandconditions.html:693
 msgid "Get In Touch"
-msgstr ""
+msgstr "Neem contact op"
 
 #: .\summarizer\templates\account\login.html:332
 #: .\summarizer\templates\account\signup.html:351
@@ -243,7 +243,7 @@ msgstr ""
 #: .\summarizer\templates\front\privacypolicy.html:711
 #: .\summarizer\templates\front\termsandconditions.html:706
 msgid "+4473 61622097"
-msgstr ""
+msgstr "4473 61622097"
 
 #: .\summarizer\templates\account\login.html:345
 #: .\summarizer\templates\account\signup.html:364
@@ -253,7 +253,7 @@ msgstr ""
 #: .\summarizer\templates\front\privacypolicy.html:718
 #: .\summarizer\templates\front\termsandconditions.html:713
 msgid "International House, 12 Constance Street, London, E16 2DQ."
-msgstr ""
+msgstr "International House, 12 Constance Street, Londen, E16 2DQ."
 
 #: .\summarizer\templates\account\login.html:370
 #: .\summarizer\templates\account\signup.html:389
@@ -263,7 +263,7 @@ msgstr ""
 #: .\summarizer\templates\front\privacypolicy.html:743
 #: .\summarizer\templates\front\termsandconditions.html:738
 msgid "Copyright &copy; 2023."
-msgstr ""
+msgstr "Auteursrecht"
 
 #: .\summarizer\templates\account\login.html:371
 #: .\summarizer\templates\account\signup.html:390
@@ -398,66 +398,66 @@ msgstr ""
 msgid ""
 "We value your feedback and are committed to improving SummaryGenerator.io "
 "for you."
-msgstr ""
+msgstr "Wij waarderen uw feedback en doen er alles aan om SummaryGenerator.io voor u te verbeteren."
 
 #: .\summarizer\templates\front\about.html:420
 msgid "You can call us at +4473 61622097"
-msgstr ""
+msgstr "U kunt ons bellen op 4473 61622097"
 
 #: .\summarizer\templates\front\about.html:431
 msgid "email us at support@summarygenerator.io"
-msgstr ""
+msgstr "e-mail ons op support@summarygenerator.io"
 
 #: .\summarizer\templates\front\about.html:442
 msgid ""
 "Our address is International House, 12 Constance Street, London, E16 2DQ."
-msgstr ""
+msgstr "Ons adres is International House, 12 Constance Street, Londen, E16 2DQ."
 
 #: .\summarizer\templates\front\about.html:460
 #: .\summarizer\templates\front\home2.html:653
 #: .\summarizer\templates\front\pricing.html:332
 msgid "Ready to Transform Your Text?"
-msgstr ""
+msgstr "Klaar om uw tekst te transformeren?"
 
 #: .\summarizer\templates\front\about.html:461
 msgid ""
 "SummaryGenerator.io turns your lengthy texts into crisp, clear summaries "
 "with just one click. "
-msgstr ""
+msgstr "SummaryGenerator.io verandert uw lange teksten met slechts één klik in scherpe, duidelijke samenvattingen."
 
 #: .\summarizer\templates\front\about.html:463
 #: .\summarizer\templates\front\home2.html:656
 #: .\summarizer\templates\front\pricing.html:335
 msgid "Summarize Now"
-msgstr ""
+msgstr "Vat nu samen"
 
 #: .\summarizer\templates\front\about.html:466
 #: .\summarizer\templates\front\home2.html:659
 #: .\summarizer\templates\front\pricing.html:338
 msgid "Free to use"
-msgstr ""
+msgstr "Gratis te gebruiken"
 
 #: .\summarizer\templates\front\about.html:468
 #: .\summarizer\templates\front\home2.html:660
 #: .\summarizer\templates\front\pricing.html:340
 msgid "Generate summaries in 3 seconds"
-msgstr ""
+msgstr "Genereer samenvattingen in 3 seconden"
 
 #: .\summarizer\templates\front\about.html:469
 #: .\summarizer\templates\front\home2.html:661
 #: .\summarizer\templates\front\pricing.html:341
 msgid "No signup required"
-msgstr ""
+msgstr "Geen aanmelding vereist"
 
 #: .\summarizer\templates\front\home2.html:169
 #: .\summarizer\templates\front\main.html:295
 msgid "Summarize any text with One Click"
-msgstr ""
+msgstr "Vat elke tekst samen met één klik"
 
 #: .\summarizer\templates\front\home2.html:209
 #: .\summarizer\templates\front\index.html:74
 msgid "Generate Accurate Summaries in 3 seconds"
-msgstr ""
+msgstr "Genereer nauwkeurige samenvattingen in 3 seconden"
 
 #: .\summarizer\templates\front\home2.html:211
 #: .\summarizer\templates\front\index.html:76
@@ -466,12 +466,13 @@ msgid ""
 "content into quick, digestible summaries in just one click. Use it to "
 "summarize your articles, academic papers, business reports, or any kind of "
 "content."
-msgstr ""
+msgstr "Onze samenvattingsgenerator maakt gebruik van geavanceerde AI-technologie om uw lange inhoud met slechts één klik op te splitsen in snelle, verteerbare samenvattingen. "
+
 
 #: .\summarizer\templates\front\home2.html:235
 #: .\summarizer\templates\front\index.html:100
 msgid "Get the Important Facts & Data"
-msgstr ""
+msgstr "Verkrijg de belangrijke feiten"
 
 #: .\summarizer\templates\front\home2.html:238
 #: .\summarizer\templates\front\index.html:102
@@ -560,7 +561,7 @@ msgstr ""
 #: .\summarizer\templates\front\home2.html:451
 #: .\summarizer\templates\front\index.html:311
 msgid "Choose the Summary Length and Style"
-msgstr ""
+msgstr "Kies de lengte en stijl van de samenvatting"
 
 #: .\summarizer\templates\front\home2.html:453
 #: .\summarizer\templates\front\index.html:313
@@ -568,12 +569,12 @@ msgid ""
 "Choose your desired summary size between small, medium-length, and large "
 "summary options. Decide if you want the summary in paragraph form or bullet "
 "points."
-msgstr ""
+msgstr "Kies de gewenste samenvattingsgrootte uit kleine, middellange en grote samenvattingsopties. "
 
 #: .\summarizer\templates\front\home2.html:480
 #: .\summarizer\templates\front\index.html:340
 msgid "Get Your Summary"
-msgstr ""
+msgstr "Ontvang uw samenvatting"
 
 #: .\summarizer\templates\front\home2.html:482
 #: .\summarizer\templates\front\index.html:342
@@ -581,108 +582,109 @@ msgid ""
 "Click the “Summarize” button, and you’ll get the summary in a few seconds. "
 "You can simply copy the generated summary or download it as a Doc or PDF "
 "file. That’s all!"
-msgstr ""
+msgstr "Klik op de knop 'Samenvatten' en je krijgt de samenvatting binnen een paar seconden. "
 
 #: .\summarizer\templates\front\home2.html:501
 #: .\summarizer\templates\front\index.html:361
 msgid "What Kind of Content Can You Summarize with this Summary Generator?"
-msgstr ""
+msgstr "Wat voor soort inhoud kun je samenvatten met deze samenvattingsgenerator?"
 
 #: .\summarizer\templates\front\home2.html:519
 #: .\summarizer\templates\front\index.html:379
 msgid "Academic Papers"
-msgstr ""
+msgstr "Academische artikelen"
 
 #: .\summarizer\templates\front\home2.html:521
 #: .\summarizer\templates\front\index.html:381
 msgid ""
 "Quickly turn complex research papers or articles into easy to digest "
 "summaries."
-msgstr ""
+msgstr "Zet complexe onderzoekspapers of artikelen snel om in gemakkelijk te verwerken samenvattingen."
 
 #: .\summarizer\templates\front\home2.html:539
 #: .\summarizer\templates\front\index.html:399
 msgid "Business Reports"
-msgstr ""
+msgstr "Bedrijfsrapporten"
 
 #: .\summarizer\templates\front\home2.html:541
 #: .\summarizer\templates\front\index.html:401
 msgid ""
 "Overwhelmed by business reports? Instantly get the key insights and data "
 "from extensive reports."
-msgstr ""
+msgstr "Overweldigd door zakelijke rapporten? "
 
 #: .\summarizer\templates\front\home2.html:558
 #: .\summarizer\templates\front\index.html:418
 msgid "News Articles"
-msgstr ""
+msgstr "Nieuwsartikelen"
 
 #: .\summarizer\templates\front\home2.html:560
 #: .\summarizer\templates\front\index.html:420
 msgid ""
 "Get the gist of current events and news stories without reading the full "
 "text."
-msgstr ""
+msgstr "Krijg de essentie van actuele gebeurtenissen en nieuwsverhalen zonder de volledige tekst te lezen."
 
 #: .\summarizer\templates\front\home2.html:577
 #: .\summarizer\templates\front\index.html:437
 msgid "Book Summaries"
-msgstr ""
+msgstr "Boeksamenvattingen"
 
 #: .\summarizer\templates\front\home2.html:579
 #: .\summarizer\templates\front\index.html:439
 msgid "Create brief overviews of books for study or leisure reading."
-msgstr ""
+msgstr "Maak korte overzichten van boeken voor studie of vrijetijdslezen."
 
 #: .\summarizer\templates\front\home2.html:596
 #: .\summarizer\templates\front\index.html:456
 msgid "Technical Documents"
-msgstr ""
+msgstr "Technische documenten"
 
 #: .\summarizer\templates\front\home2.html:598
 #: .\summarizer\templates\front\index.html:458
 msgid ""
 "Struggling with technical jargon? Simplify technical content into digestible "
 "summaries."
-msgstr ""
+msgstr "Heb je moeite met technisch jargon? "
+
 
 #: .\summarizer\templates\front\home2.html:615
 #: .\summarizer\templates\front\index.html:475
 msgid "Meeting Minutes"
-msgstr ""
+msgstr "Notulen van de vergadering"
 
 #: .\summarizer\templates\front\home2.html:617
 #: .\summarizer\templates\front\index.html:477
 msgid ""
 "Need to recap meetings? Convert long meeting notes into clear, actionable "
 "points."
-msgstr ""
+msgstr "Moet u vergaderingen samenvatten? "
 
 #: .\summarizer\templates\front\home2.html:632
 #: .\summarizer\templates\front\index.html:492
 msgid "Generate Your Summary Now!"
-msgstr ""
+msgstr "Genereer nu uw samenvatting!"
 
 #: .\summarizer\templates\front\home2.html:654
 #: .\summarizer\templates\front\pricing.html:333
 msgid ""
 "SummaryGenerator.io turns your lengthy texts into crisp, clear summaries "
 "with just one click."
-msgstr ""
+msgstr "SummaryGenerator.io verandert uw lange teksten met slechts één klik in scherpe, duidelijke samenvattingen."
 
 #: .\summarizer\templates\front\home2.html:679
 #: .\summarizer\templates\front\pricing.html:260
 msgid "FAQ'S"
-msgstr ""
+msgstr "Veelgestelde vragen"
 
 #: .\summarizer\templates\front\home2.html:680
 #: .\summarizer\templates\front\pricing.html:261
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "Veelgestelde vragen"
 
 #: .\summarizer\templates\front\home2.html:691
 msgid "How can I write a summary online for free?"
-msgstr ""
+msgstr "Hoe kan ik gratis een samenvatting online schrijven?"
 
 #: .\summarizer\templates\front\home2.html:694
 msgid ""
@@ -690,22 +692,22 @@ msgid ""
 "Summarygenerator.io, enter the text in the blank box, or upload a file, "
 "choose the summary length, and click summarize. Our advanced AI will create "
 "an accurate summary in less than a second."
-msgstr ""
+msgstr "Met onze Samenvattingsgenerator kunt u tekst gratis online samenvatten. "
 
 #: .\summarizer\templates\front\home2.html:701
 msgid "What is the best free AI for summarizing?"
-msgstr ""
+msgstr "Wat is de beste gratis AI voor samenvatten?"
 
 #: .\summarizer\templates\front\home2.html:704
 msgid ""
 "Summarygenerator.io is one of the best free AI summarizing tools to create "
 "long and short summaries in one click. Our tool uses natural language "
 "processing and advanced AI technology to generate summaries that make sense."
-msgstr ""
+msgstr "Summarygenerator.io is een van de beste gratis AI-samenvattingstools om met één klik lange en korte samenvattingen te maken. "
 
 #: .\summarizer\templates\front\home2.html:711
 msgid "How do you write an AI summary?"
-msgstr ""
+msgstr "Hoe schrijf je een AI-samenvatting?"
 
 #: .\summarizer\templates\front\home2.html:714
 msgid ""
@@ -715,218 +717,218 @@ msgid ""
 "processing (NLP) techniques. It then generates a summary, highlighting the "
 "important points. Review and refine the AI-generated summary to ensure "
 "accuracy."
-msgstr ""
+msgstr "Het enige wat u hoeft te doen is de tekst in het tekstvak Summarygenerator.io invoeren, de lengte instellen en de samenvattingsstijl beschrijven (paragraaf of opsommingstekens). "
 
 #: .\summarizer\templates\front\home2.html:721
 msgid "Can AI summarize a PDF?"
-msgstr ""
+msgstr "Kan AI een PDF samenvatten?"
 
 #: .\summarizer\templates\front\home2.html:724
 msgid ""
 "Yes, Summarygenerator.io can summarize a PDF or Word Document. It instantly "
 "extracts text from the document to create summaries."
-msgstr ""
+msgstr "Ja, Summarygenerator.io kan een PDF- of Word-document samenvatten. "
 
 #: .\summarizer\templates\front\home2.html:746
 msgid "Upgrade to Pro"
-msgstr ""
+msgstr "Upgrade naar Pro"
 
 #: .\summarizer\templates\front\home2.html:747
 msgid ""
 "Uh-oh! It seems like you've hit the word limit. Upgrade to our Pro version "
 "now to enjoy unlimited summarization and explore advanced features."
-msgstr ""
+msgstr "Oh-oh! "
 
 #: .\summarizer\templates\front\pricing.html:188
 msgid "Plans & Pricing"
-msgstr ""
+msgstr "Plannen"
 
 #: .\summarizer\templates\front\pricing.html:189
 msgid "Plans that best suit your business requirements"
-msgstr ""
+msgstr "Plannen die het beste aansluiten bij uw zakelijke vereisten"
 
 #: .\summarizer\templates\front\pricing.html:199
 msgid "Monthly"
-msgstr ""
+msgstr "Maandelijks"
 
 #: .\summarizer\templates\front\pricing.html:200
 msgid "month"
-msgstr ""
+msgstr "maand"
 
 #: .\summarizer\templates\front\pricing.html:201
 msgid "Choose Monthly Plan"
-msgstr ""
+msgstr "Kies Maandabonnement"
 
 #: .\summarizer\templates\front\pricing.html:207
 msgid "1 million"
-msgstr ""
+msgstr "1 miljoen"
 
 #: .\summarizer\templates\front\pricing.html:208
 msgid "Monthly Word Limit"
-msgstr ""
+msgstr "Maandelijkse woordlimiet"
 
 #: .\summarizer\templates\front\pricing.html:210
 #: .\summarizer\templates\front\pricing.html:238
 msgid "Access To All Languages"
-msgstr ""
+msgstr "Toegang tot alle talen"
 
 #: .\summarizer\templates\front\pricing.html:211
 #: .\summarizer\templates\front\pricing.html:239
 msgid "Advance Editor Tool"
-msgstr ""
+msgstr "Geavanceerde editortool"
 
 #: .\summarizer\templates\front\pricing.html:213
 #: .\summarizer\templates\front\pricing.html:241
 msgid "Regular Technical Support"
-msgstr ""
+msgstr "Regelmatige technische ondersteuning"
 
 #: .\summarizer\templates\front\pricing.html:214
 #: .\summarizer\templates\front\pricing.html:242
 msgid "Unlimited Logins"
-msgstr ""
+msgstr "Onbeperkt inloggen"
 
 #: .\summarizer\templates\front\pricing.html:216
 #: .\summarizer\templates\front\pricing.html:244
 msgid "Newest Features"
-msgstr ""
+msgstr "Nieuwste functies"
 
 #: .\summarizer\templates\front\pricing.html:227
 msgid "Yearly"
-msgstr ""
+msgstr "Jaarlijks"
 
 #: .\summarizer\templates\front\pricing.html:228
 msgid "year"
-msgstr ""
+msgstr "jaar"
 
 #: .\summarizer\templates\front\pricing.html:229
 msgid "Choose Yearly Plan"
-msgstr ""
+msgstr "Kies Jaarabonnement"
 
 #: .\summarizer\templates\front\pricing.html:235
 msgid "10 million"
-msgstr ""
+msgstr "10 miljoen"
 
 #: .\summarizer\templates\front\pricing.html:236
 msgid "Yearly Word Limit"
-msgstr ""
+msgstr "Jaarlijkse woordlimiet"
 
 #: .\summarizer\templates\front\pricing.html:272
 msgid "Is there a free plan?"
-msgstr ""
+msgstr "Is er een gratis abonnement?"
 
 #: .\summarizer\templates\front\pricing.html:275
 msgid "Summarygenerator.io offers a"
-msgstr ""
+msgstr "Summarygenerator.io biedt een"
 
 #: .\summarizer\templates\front\pricing.html:275
 msgid "free plan"
-msgstr ""
+msgstr "gratis abonnement"
 
 #: .\summarizer\templates\front\pricing.html:275
 msgid ""
 "summarizing articles, research papers, and any kind of text for up to 800 "
 "words."
-msgstr ""
+msgstr "samenvatten van artikelen, onderzoekspapers en elke vorm van tekst tot 800 woorden."
 
 #: .\summarizer\templates\front\pricing.html:275
 msgid "With a free account, you can access"
-msgstr ""
+msgstr "Met een gratis account heeft u toegang"
 
 #: .\summarizer\templates\front\pricing.html:275
 msgid "the dashboard"
-msgstr ""
+msgstr "het dashboard"
 
 #: .\summarizer\templates\front\pricing.html:283
 msgid "What are the benefits of the Monthly plan?"
-msgstr ""
+msgstr "Wat zijn de voordelen van het maandabonnement?"
 
 #: .\summarizer\templates\front\pricing.html:288
 msgid ""
 "With the Monthly plan, you can summarize up to 1 million words per month in "
 "more than 30 languages for just $9.95/month."
-msgstr ""
+msgstr "Met het maandabonnement kunt u tot 1 miljoen woorden per maand samenvatten in meer dan 30 talen voor slechts $ 9,95/maand."
 
 #: .\summarizer\templates\front\pricing.html:288
 msgid ""
 "You also get access to the advanced editor tool to edit text inside the tool."
-msgstr ""
+msgstr "Je krijgt ook toegang tot de geavanceerde editortool om tekst in de tool te bewerken."
 
 #: .\summarizer\templates\front\pricing.html:288
 msgid ""
 "Plus, you get regular technical support, unlimited logins, and access to the "
 "newest features."
-msgstr ""
+msgstr "Bovendien krijgt u regelmatig technische ondersteuning, onbeperkte logins en toegang tot de nieuwste functies."
 
 #: .\summarizer\templates\front\pricing.html:295
 msgid "Why should I buy the Yearly plan?"
-msgstr ""
+msgstr "Waarom zou ik het jaarabonnement kopen?"
 
 #: .\summarizer\templates\front\pricing.html:300
 #, python-format
 msgid ""
 "Choosing the Yearly plan for $59.95 over the monthly option at $9.95 means "
 "you’re saving nearly 50%% annually."
-msgstr ""
+msgstr "Als u het jaarabonnement van $ 59,95 kiest in plaats van de maandelijkse optie van $ 9,95, bespaart u jaarlijks bijna 50%%."
 
 #: .\summarizer\templates\front\pricing.html:300
 msgid ""
 "Plus, it expands the word limit to 10 million yearly, supports more than 50 "
 "languages, and includes all features of the Monthly plan, making it a more "
 "economical choice for heavy users."
-msgstr ""
+msgstr "Bovendien breidt het de woordlimiet uit naar 10 miljoen per jaar, ondersteunt het meer dan 50 talen en omvat het alle functies van het maandabonnement, waardoor het een voordeligere keuze is voor intensieve gebruikers."
 
 #: .\summarizer\templates\front\pricing.html:307
 msgid "Can I upgrade from the free plan to a paid subscription?"
-msgstr ""
+msgstr "Kan ik upgraden van het gratis abonnement naar een betaald abonnement?"
 
 #: .\summarizer\templates\front\pricing.html:312
 msgid ""
 "Yes, you can easily upgrade to either the Monthly or Yearly plan to enjoy "
 "higher word limits, additional languages, the advanced editor tool, and "
 "other premium features."
-msgstr ""
+msgstr "Ja, u kunt eenvoudig upgraden naar het maand- of jaarabonnement om te profiteren van hogere woordlimieten, extra talen, de geavanceerde editortool en andere premiumfuncties."
 
 #: .\summarizer\templates\front\pricing.html:331
 msgid "Boost your writing productivity"
-msgstr ""
+msgstr "Vergroot uw schrijfproductiviteit"
 
 #: .\summarizer\templates\front\privacypolicy.html:227
 #: .\summarizer\templates\front\termsandconditions.html:209
 msgid "CopyGen"
-msgstr ""
+msgstr "KopiërenGen"
 
 #: .\summarizer\templates\front\privacypolicy.html:228
 msgid "PRIVACY POLICY"
-msgstr ""
+msgstr "PRIVACYBELEID"
 
 #: .\summarizer\templates\front\privacypolicy.html:231
 msgid "Last updated February 09, 2024"
-msgstr ""
+msgstr "Laatst bijgewerkt op 9 februari 2024"
 
 #: .\summarizer\templates\front\privacypolicy.html:236
 msgid ""
 "This privacy notice for Kamranali Limited ('we,' 'us,' or 'our'), describes "
 "how and why we might collect, store, use, and/or share ('process') your "
 "information when you use our services ('Services'), such as when you:"
-msgstr ""
+msgstr "Deze privacyverklaring voor Kamranali Limited ('wij', 'ons' of 'onze') beschrijft hoe en waarom we uw informatie kunnen verzamelen, opslaan, gebruiken en/of delen ('verwerken') wanneer u onze "
 
 #: .\summarizer\templates\front\privacypolicy.html:238
 msgid "Visit our website at"
-msgstr ""
+msgstr "Bezoek onze website op"
 
 #: .\summarizer\templates\front\privacypolicy.html:238
 msgid "summarygenerator"
-msgstr ""
+msgstr "samenvattinggenerator"
 
 #: .\summarizer\templates\front\privacypolicy.html:238
 msgid "or any website of ours that links to this privacy notice"
-msgstr ""
+msgstr "of een website van ons die naar deze privacyverklaring linkt"
 
 #: .\summarizer\templates\front\privacypolicy.html:239
 msgid ""
 "Engage with us in other related ways, including any sales, marketing, or "
 "events"
-msgstr ""
+msgstr "Neem op andere gerelateerde manieren contact met ons op, inclusief verkoop, marketing of evenementen"
 
 #: .\summarizer\templates\front\privacypolicy.html:242
 msgid ""
@@ -934,11 +936,11 @@ msgid ""
 "your privacy rights and choices. If you do not agree with our policies and "
 "practices, please do not use our Services. If you still have any questions "
 "or concerns, please contact us at info@summarygenerator.io."
-msgstr ""
+msgstr "Vragen of zorgen? "
 
 #: .\summarizer\templates\front\privacypolicy.html:246
 msgid "SUMMARY OF KEY POINTS"
-msgstr ""
+msgstr "SAMENVATTING VAN DE BELANGRIJKSTE PUNTEN"
 
 #: .\summarizer\templates\front\privacypolicy.html:247
 msgid ""
@@ -946,7 +948,7 @@ msgid ""
 "out more details about any of these topics by clicking the link following "
 "each key point or by using our table of contents below to find the section "
 "you are looking for."
-msgstr ""
+msgstr "Deze samenvatting bevat de belangrijkste punten uit onze privacyverklaring, maar u kunt meer details over elk van deze onderwerpen vinden door op de link na elk belangrijk punt te klikken of door onze inhoudsopgave hieronder te gebruiken om het gedeelte te vinden waarnaar u op zoek bent."
 
 #: .\summarizer\templates\front\privacypolicy.html:248
 msgid ""
@@ -955,19 +957,19 @@ msgid ""
 "interact with us and the Services, the choices you make, and the products "
 "and features you use. Learn more about personal information you disclose to "
 "us."
-msgstr ""
+msgstr "Welke persoonlijke gegevens verwerken wij? "
 
 #: .\summarizer\templates\front\privacypolicy.html:249
 msgid ""
 "Do we process any sensitive personal information? We do not process "
 "sensitive personal information."
-msgstr ""
+msgstr "Verwerken we gevoelige persoonlijke informatie? "
 
 #: .\summarizer\templates\front\privacypolicy.html:250
 msgid ""
 "Do we receive any information from third parties? We do not receive any "
 "information from third parties."
-msgstr ""
+msgstr "Ontvangen wij informatie van derden? "
 
 #: .\summarizer\templates\front\privacypolicy.html:251
 msgid ""
@@ -977,7 +979,7 @@ msgid ""
 "information for other purposes with your consent. We process your "
 "information only when we have a valid legal reason to do so. Learn more "
 "about how we process your information."
-msgstr ""
+msgstr "Hoe verwerken wij uw gegevens? "
 
 #: .\summarizer\templates\front\privacypolicy.html:252
 msgid ""
@@ -985,14 +987,14 @@ msgid ""
 "We may share information in specific situations and with specific third "
 "parties. Learn more about when and with whom we share your personal "
 "information."
-msgstr ""
+msgstr "In welke situaties en met welke partijen delen wij persoonsgegevens? "
 
 #: .\summarizer\templates\front\privacypolicy.html:253
 msgid ""
 "What are your rights? Depending on where you are located geographically, the "
 "applicable privacy law may mean you have certain rights regarding your "
 "personal information. Learn more about your privacy rights."
-msgstr ""
+msgstr "Wat zijn uw rechten? "
 
 #: .\summarizer\templates\front\privacypolicy.html:254
 msgid ""
@@ -1000,18 +1002,19 @@ msgid ""
 "by submitting a data subject access request, or by contacting us. We will "
 "consider and act upon any request in accordance with applicable data "
 "protection laws."
-msgstr ""
+msgstr "Hoe oefent u uw rechten uit? "
 
 #: .\summarizer\templates\front\privacypolicy.html:255
 msgid ""
 "Want to learn more about what we do with any information we collect? Review "
 "the privacy notice in full."
-msgstr ""
+msgstr "Wilt u meer weten over wat we doen met de informatie die we verzamelen? "
 
 #: .\summarizer\templates\front\privacypolicy.html:264
 #: .\summarizer\templates\front\termsandconditions.html:246
 msgid "Table of Contents"
-msgstr ""
+msgstr "Inhoudsopgave"
+
 
 #: .\summarizer\templates\front\privacypolicy.html:267
 #: .\summarizer\templates\front\privacypolicy.html:285
@@ -1080,11 +1083,11 @@ msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:286
 msgid "Personal information you disclose to us"
-msgstr ""
+msgstr "Persoonlijke informatie die u aan ons verstrekt"
 
 #: .\summarizer\templates\front\privacypolicy.html:287
 msgid "In Short: We collect personal information that you provide to us."
-msgstr ""
+msgstr "In het kort: Wij verzamelen persoonlijke informatie die u aan ons verstrekt."
 
 #: .\summarizer\templates\front\privacypolicy.html:289
 msgid ""
@@ -1092,7 +1095,7 @@ msgid ""
 "register on the Services, express an interest in obtaining information about "
 "us or our products and Services, when you participate in activities on the "
 "Services, or otherwise when you contact us."
-msgstr ""
+msgstr "Wij verzamelen persoonlijke informatie die u vrijwillig aan ons verstrekt wanneer u zich registreert voor de Services, interesse toont in het verkrijgen van informatie over ons of onze producten en Services, wanneer u deelneemt aan activiteiten op de Services, of anderszins wanneer u contact met ons opneemt."
 
 #: .\summarizer\templates\front\privacypolicy.html:291
 msgid ""
@@ -1100,51 +1103,51 @@ msgid ""
 "collect depends on the context of your interactions with us and the "
 "Services, the choices you make, and the products and features you use. The "
 "personal information we collect may include the following:"
-msgstr ""
+msgstr "Persoonlijke informatie die door u wordt verstrekt. "
 
 #: .\summarizer\templates\front\privacypolicy.html:294
 msgid "Names"
-msgstr ""
+msgstr "Namen"
 
 #: .\summarizer\templates\front\privacypolicy.html:295
 msgid "Phone Numbers"
-msgstr ""
+msgstr "Telefoonnummers"
 
 #: .\summarizer\templates\front\privacypolicy.html:296
 msgid "Email Addresses"
-msgstr ""
+msgstr "E-mailadressen"
 
 #: .\summarizer\templates\front\privacypolicy.html:297
 msgid "Mailing Addresses"
-msgstr ""
+msgstr "Postadressen"
 
 #: .\summarizer\templates\front\privacypolicy.html:298
 msgid "Usernames"
-msgstr ""
+msgstr "Gebruikersnamen"
 
 #: .\summarizer\templates\front\privacypolicy.html:299
 msgid "Passwords"
-msgstr ""
+msgstr "Wachtwoorden"
 
 #: .\summarizer\templates\front\privacypolicy.html:300
 msgid "Billing Addresses"
-msgstr ""
+msgstr "Factuuradressen"
 
 #: .\summarizer\templates\front\privacypolicy.html:301
 msgid "Debit/Credit Card Numbers"
-msgstr ""
+msgstr "Debet-/creditcardnummers"
 
 #: .\summarizer\templates\front\privacypolicy.html:303
 msgid "Sensitive Information."
-msgstr ""
+msgstr "Gevoelige informatie."
 
 #: .\summarizer\templates\front\privacypolicy.html:303
 msgid "We do not process sensitive information."
-msgstr ""
+msgstr "Wij verwerken geen gevoelige informatie."
 
 #: .\summarizer\templates\front\privacypolicy.html:305
 msgid "Payment Data."
-msgstr ""
+msgstr "Betalingsgegevens."
 
 #: .\summarizer\templates\front\privacypolicy.html:305
 msgid ""
@@ -1152,11 +1155,11 @@ msgid ""
 "such as your payment instrument number, and the security code associated "
 "with your payment instrument. All payment data is stored by __________. You "
 "may find their privacy notice link(s) here: __________."
-msgstr ""
+msgstr "Wij kunnen gegevens verzamelen die nodig zijn om uw betaling te verwerken als u aankopen doet, zoals het nummer van uw betaalinstrument en de beveiligingscode die aan uw betaalinstrument is gekoppeld. "
 
 #: .\summarizer\templates\front\privacypolicy.html:307
 msgid "Social Media Login Data."
-msgstr ""
+msgstr "Inloggegevens voor sociale media."
 
 #: .\summarizer\templates\front\privacypolicy.html:307
 msgid ""
@@ -1165,13 +1168,13 @@ msgid ""
 "media account. If you choose to register in this way, we will collect the "
 "information described in the section called 'HOW DO WE HANDLE YOUR SOCIAL "
 "LOGINS?' below."
-msgstr ""
+msgstr "We kunnen u de mogelijkheid bieden om u bij ons te registreren met behulp van uw bestaande sociale media-accountgegevens, zoals uw Facebook-, Twitter- of andere sociale media-account. "
 
 #: .\summarizer\templates\front\privacypolicy.html:309
 msgid ""
 "All personal information that you provide to us must be true, complete, and "
 "accurate, and you must notify us of any changes to such personal information."
-msgstr ""
+msgstr "Alle persoonlijke informatie die u ons verstrekt, moet waar, volledig en nauwkeurig zijn, en u moet ons op de hoogte stellen van eventuele wijzigingen in dergelijke persoonlijke informatie."
 
 #: .\summarizer\templates\front\privacypolicy.html:317
 msgid ""
@@ -1179,45 +1182,45 @@ msgid ""
 "our Services, communicate with you, for security and fraud prevention, and "
 "to comply with law. We may also process your information for other purposes "
 "with your consent."
-msgstr ""
+msgstr "In het kort: Wij verwerken uw gegevens om onze Services te leveren, te verbeteren en te beheren, met u te communiceren, voor beveiliging en fraudepreventie en om te voldoen aan de wet. "
 
 #: .\summarizer\templates\front\privacypolicy.html:320
 msgid ""
 "We process your personal information for a variety of reasons, depending on "
 "how you interact with our Services, including:"
-msgstr ""
+msgstr "We verwerken uw persoonlijke gegevens om verschillende redenen, afhankelijk van hoe u met onze Services omgaat, waaronder:"
 
 #: .\summarizer\templates\front\privacypolicy.html:325
 msgid ""
 "To facilitate account creation and authentication and otherwise manage user "
 "accounts."
-msgstr ""
+msgstr "Om het aanmaken en authenticeren van accounts te vergemakkelijken en op andere wijze gebruikersaccounts te beheren."
 
 #: .\summarizer\templates\front\privacypolicy.html:326
 msgid ""
 "We may process your information so you can create and log in to your "
 "account, as well as keep your account in working order."
-msgstr ""
+msgstr "We kunnen uw gegevens verwerken zodat u uw account kunt aanmaken en erop kunt inloggen, en uw account in goede staat kunt houden."
 
 #: .\summarizer\templates\front\privacypolicy.html:329
 msgid "To respond to user inquiries/offer support to users."
-msgstr ""
+msgstr "Om te reageren op vragen van gebruikers/ondersteuning te bieden aan gebruikers."
 
 #: .\summarizer\templates\front\privacypolicy.html:330
 msgid ""
 "We may process your information to respond to your inquiries and solve any "
 "potential issues you might have with the requested service."
-msgstr ""
+msgstr "We kunnen uw gegevens verwerken om op uw vragen te reageren en eventuele problemen met de gevraagde service op te lossen."
 
 #: .\summarizer\templates\front\privacypolicy.html:333
 msgid "To save or protect an individual's vital interest."
-msgstr ""
+msgstr "Om de vitale belangen van een individu te redden of te beschermen."
 
 #: .\summarizer\templates\front\privacypolicy.html:334
 msgid ""
 "We may process your information when necessary to save or protect an "
 "individual’s vital interest, such as to prevent harm."
-msgstr ""
+msgstr "We kunnen uw gegevens verwerken wanneer dat nodig is om de vitale belangen van een persoon te redden of te beschermen, bijvoorbeeld om schade te voorkomen."
 
 #: .\summarizer\templates\front\privacypolicy.html:342
 msgid ""
@@ -1227,11 +1230,11 @@ msgid ""
 "provide you with services to enter into or fulfill our contractual "
 "obligations, to protect your rights, or to fulfill our legitimate business "
 "interests."
-msgstr ""
+msgstr "In het kort: we verwerken uw persoonlijke gegevens alleen wanneer we van mening zijn dat dit noodzakelijk is en we een geldige wettelijke reden (d.w.z. wettelijke basis) hebben om dit te doen onder de toepasselijke wetgeving, zoals met uw toestemming, om te voldoen aan wetten, om u te voorzien "
 
 #: .\summarizer\templates\front\privacypolicy.html:344
 msgid "If you are located in the EU or UK, this section applies to you."
-msgstr ""
+msgstr "Als u zich in de EU of het Verenigd Koninkrijk bevindt, is dit gedeelte op u van toepassing."
 
 #: .\summarizer\templates\front\privacypolicy.html:346
 msgid ""
@@ -1239,41 +1242,42 @@ msgid ""
 "explain the valid legal bases we rely on in order to process your personal "
 "information. As such, we may rely on the following legal bases to process "
 "your personal information:"
-msgstr ""
+msgstr "De Algemene Verordening Gegevensbescherming (AVG) en de Britse AVG vereisen dat wij uitleggen op welke geldige rechtsgrondslagen wij vertrouwen om uw persoonlijke gegevens te verwerken. "
 
 #: .\summarizer\templates\front\privacypolicy.html:349
 msgid "Consent."
-msgstr ""
+msgstr "Toestemming."
 
 #: .\summarizer\templates\front\privacypolicy.html:349
 msgid ""
 "We may process your information if you have given us permission (i.e., "
 "consent) to use your personal information for a specific purpose. You can "
 "withdraw your consent at any time. Learn more about withdrawing your consent."
-msgstr ""
+msgstr "Wij kunnen uw gegevens verwerken als u ons toestemming hebt gegeven (d.w.z. toestemming) om uw persoonlijke gegevens voor een specifiek doel te gebruiken. "
+
 
 #: .\summarizer\templates\front\privacypolicy.html:350
 msgid "Performance"
-msgstr ""
+msgstr "Prestaties"
 
 #: .\summarizer\templates\front\privacypolicy.html:350
 msgid "of a Contract."
-msgstr ""
+msgstr "van een contract."
 
 #: .\summarizer\templates\front\privacypolicy.html:350
 msgid ""
 "We may process your personal information when we believe it is necessary to "
 "fulfill our contractual obligations to you, including providing our Services "
 "or at your request prior to entering into a contract with you."
-msgstr ""
+msgstr "Wij kunnen uw persoonlijke gegevens verwerken wanneer wij van mening zijn dat dit noodzakelijk is om aan onze contractuele verplichtingen jegens u te voldoen, inclusief het leveren van onze Diensten, of op uw verzoek voordat we een contract met u aangaan."
 
 #: .\summarizer\templates\front\privacypolicy.html:351
 msgid "Legal"
-msgstr ""
+msgstr "Juridisch"
 
 #: .\summarizer\templates\front\privacypolicy.html:351
 msgid "Obligations."
-msgstr ""
+msgstr "Verplichtingen."
 
 #: .\summarizer\templates\front\privacypolicy.html:351
 msgid ""
@@ -1282,26 +1286,26 @@ msgid ""
 "enforcement body or regulatory agency, exercise or defend our legal rights, "
 "or disclose your information as evidence in litigation in which we are "
 "involved."
-msgstr ""
+msgstr "Wij kunnen uw gegevens verwerken wanneer wij van mening zijn dat dit noodzakelijk is om aan onze wettelijke verplichtingen te voldoen, zoals om samen te werken met een wetshandhavingsinstantie of regelgevende instantie, onze wettelijke rechten uit te oefenen of te verdedigen, of uw gegevens bekend te maken als bewijs in een rechtszaak waarin "
 
 #: .\summarizer\templates\front\privacypolicy.html:352
 msgid "Vital"
-msgstr ""
+msgstr "Vitaal"
 
 #: .\summarizer\templates\front\privacypolicy.html:352
 msgid "Interests."
-msgstr ""
+msgstr "Interesses."
 
 #: .\summarizer\templates\front\privacypolicy.html:352
 msgid ""
 "We may process your information where we believe it is necessary to protect "
 "your vital interests or the vital interests of a third party, such as "
 "situations involving potential threats to the safety of any person."
-msgstr ""
+msgstr "Wij kunnen uw gegevens verwerken wanneer wij van mening zijn dat dit noodzakelijk is om uw vitale belangen of de vitale belangen van een derde partij te beschermen, zoals situaties waarbij sprake is van potentiële bedreigingen voor de veiligheid van een persoon."
 
 #: .\summarizer\templates\front\privacypolicy.html:354
 msgid "If you are located in Canada, this section applies to you."
-msgstr ""
+msgstr "Als u zich in Canada bevindt, is dit gedeelte op u van toepassing."
 
 #: .\summarizer\templates\front\privacypolicy.html:356
 msgid ""
@@ -1309,45 +1313,45 @@ msgid ""
 "e., express consent) to use your personal information for a specific "
 "purpose, or in situations where your permission can be inferred (i.e., "
 "implied consent). You can withdraw your consent at any time."
-msgstr ""
+msgstr "Wij kunnen uw gegevens verwerken als u ons specifieke toestemming (d.w.z. uitdrukkelijke toestemming) heeft gegeven om uw persoonlijke gegevens voor een specifiek doel te gebruiken, of in situaties waarin uw toestemming kan worden afgeleid (d.w.z. impliciete toestemming). "
 
 #: .\summarizer\templates\front\privacypolicy.html:358
 msgid ""
 "In some exceptional cases, we may be legally permitted under applicable law "
 "to process your information without your consent, including, for example:"
-msgstr ""
+msgstr "In sommige uitzonderlijke gevallen kan het ons onder de toepasselijke wetgeving wettelijk zijn toegestaan ​​om uw gegevens zonder uw toestemming te verwerken, waaronder bijvoorbeeld:"
 
 #: .\summarizer\templates\front\privacypolicy.html:361
 msgid ""
 "If collection is clearly in the interests of an individual and consent "
 "cannot be obtained in a timely way"
-msgstr ""
+msgstr "Als het verzamelen duidelijk in het belang van een individu is en de toestemming niet tijdig kan worden verkregen"
 
 #: .\summarizer\templates\front\privacypolicy.html:362
 msgid "For investigations and fraud detection and prevention"
-msgstr ""
+msgstr "Voor onderzoeken en fraudedetectie en -preventie"
 
 #: .\summarizer\templates\front\privacypolicy.html:363
 msgid "For business transactions provided certain conditions are met"
-msgstr ""
+msgstr "Voor zakelijke transacties, mits aan bepaalde voorwaarden wordt voldaan"
 
 #: .\summarizer\templates\front\privacypolicy.html:364
 msgid ""
 "If it is contained in a witness statement and the collection is necessary to "
 "assess, process, or settle an insurance claim"
-msgstr ""
+msgstr "Als het is opgenomen in een getuigenverklaring en de incasso noodzakelijk is om een ​​verzekeringsclaim te beoordelen, te verwerken of af te wikkelen"
 
 #: .\summarizer\templates\front\privacypolicy.html:365
 msgid ""
 "For identifying injured, ill, or deceased persons and communicating with "
 "next of kin"
-msgstr ""
+msgstr "Voor het identificeren van gewonde, zieke of overleden personen en voor communicatie met nabestaanden"
 
 #: .\summarizer\templates\front\privacypolicy.html:366
 msgid ""
 "If we have reasonable grounds to believe an individual has been, is, or may "
 "be a victim of financial abuse"
-msgstr ""
+msgstr "Als we redelijke gronden hebben om aan te nemen dat een persoon het slachtoffer is, is of kan zijn van financieel misbruik"
 
 #: .\summarizer\templates\front\privacypolicy.html:367
 msgid ""
@@ -1355,30 +1359,30 @@ msgid ""
 "compromise the availability or the accuracy of the information and the "
 "collection is reasonable for purposes related to investigating a breach of "
 "an agreement or a contravention of the laws of Canada or a province"
-msgstr ""
+msgstr "Als het redelijk is om te verwachten dat het verzamelen en gebruiken met toestemming de beschikbaarheid of nauwkeurigheid van de informatie in gevaar zou brengen en het verzamelen redelijk is voor doeleinden die verband houden met het onderzoeken van een schending van een overeenkomst of een overtreding van de wetten van Canada of een provincie"
 
 #: .\summarizer\templates\front\privacypolicy.html:368
 msgid ""
 "If disclosure is required to comply with a subpoena, warrant, court order, "
 "or rules of the court relating to the production of records"
-msgstr ""
+msgstr "Als openbaarmaking vereist is om te voldoen aan een dagvaarding, bevel, gerechtelijk bevel of regels van de rechtbank met betrekking tot de productie van documenten"
 
 #: .\summarizer\templates\front\privacypolicy.html:369
 msgid ""
 "If it was produced by an individual in the course of their employment, "
 "business, or profession and the collection is consistent with the purposes "
 "for which the information was produced"
-msgstr ""
+msgstr "Als de informatie door een persoon is geproduceerd in de uitoefening van zijn werk, bedrijf of beroep en de verzameling consistent is met de doeleinden waarvoor de informatie is geproduceerd"
 
 #: .\summarizer\templates\front\privacypolicy.html:370
 msgid ""
 "If the collection is solely for journalistic, artistic, or literary purposes"
-msgstr ""
+msgstr "Als de collectie uitsluitend voor journalistieke, artistieke of literaire doeleinden is bedoeld"
 
 #: .\summarizer\templates\front\privacypolicy.html:371
 msgid ""
 "If the information is publicly available and is specified by the regulations"
-msgstr ""
+msgstr "Als de informatie openbaar beschikbaar is en wordt gespecificeerd door de regelgeving"
 
 #: .\summarizer\templates\front\privacypolicy.html:377
 #: .\summarizer\templates\front\privacypolicy.html:395
@@ -1388,33 +1392,33 @@ msgstr ""
 #: .\summarizer\templates\front\privacypolicy.html:492
 #: .\summarizer\templates\front\privacypolicy.html:605
 msgid "In Short:"
-msgstr ""
+msgstr "In het kort:"
 
 #: .\summarizer\templates\front\privacypolicy.html:377
 msgid ""
 "We may share information in specific situations described in this section "
 "and/or with the following third parties."
-msgstr ""
+msgstr "We kunnen informatie delen in specifieke situaties die in deze sectie worden beschreven en/of met de volgende derde partijen."
 
 #: .\summarizer\templates\front\privacypolicy.html:379
 msgid ""
 "We may need to share your personal information in the following situations:"
-msgstr ""
+msgstr "In de volgende situaties moeten we mogelijk uw persoonlijke gegevens delen:"
 
 #: .\summarizer\templates\front\privacypolicy.html:382
 msgid "Business Transfers."
-msgstr ""
+msgstr "Bedrijfsoverdrachten."
 
 #: .\summarizer\templates\front\privacypolicy.html:382
 msgid ""
 "We may share or transfer your information in connection with, or during "
 "negotiations of, any merger, sale of company assets, financing, or "
 "acquisition of all or a portion of our business to another company."
-msgstr ""
+msgstr "We kunnen uw gegevens delen of overdragen in verband met of tijdens onderhandelingen over een fusie, verkoop van bedrijfsactiva, financiering of overname van ons geheel of een deel van ons bedrijf aan een ander bedrijf."
 
 #: .\summarizer\templates\front\privacypolicy.html:383
 msgid "When we use Google Analytics."
-msgstr ""
+msgstr "Wanneer we Google Analytics gebruiken."
 
 #: .\summarizer\templates\front\privacypolicy.html:383
 msgid ""
@@ -1422,7 +1426,7 @@ msgid ""
 "use of the Services. The Google Analytics Advertising Features that we may "
 "use include: Google Analytics Demographics and Interests Reporting. To opt "
 "out of being tracked by Google Analytics across the Services, visit"
-msgstr ""
+msgstr "We kunnen uw informatie delen met Google Analytics om het gebruik van de Services bij te houden en te analyseren. "
 
 #: .\summarizer\templates\front\privacypolicy.html:384
 msgid "https://tools.google.com/dlpage/gaoptout"
@@ -1432,7 +1436,8 @@ msgstr ""
 msgid ""
 "You can opt out of Google Analytics Advertising Features through Ads "
 "Settings and Ad Settings for mobile apps. Other opt-out means include"
-msgstr ""
+msgstr "U kunt zich afmelden voor de advertentiefuncties van Google Analytics via Advertentie-instellingen en Advertentie-instellingen voor mobiele apps. "
+
 
 #: .\summarizer\templates\front\privacypolicy.html:385
 msgid "http://optout.networkadvertising.org/"
@@ -1440,7 +1445,7 @@ msgstr ""
 
 #: .\summarizer\templates\front\privacypolicy.html:385
 msgid "and"
-msgstr ""
+msgstr "en"
 
 #: .\summarizer\templates\front\privacypolicy.html:386
 msgid "http://www.networkadvertising.org/mobile-choice"
@@ -1449,11 +1454,11 @@ msgstr ""
 #: .\summarizer\templates\front\privacypolicy.html:386
 msgid ""
 "For more information on the privacy practices of Google, please visit the"
-msgstr ""
+msgstr "Ga voor meer informatie over de privacypraktijken van Google naar de"
 
 #: .\summarizer\templates\front\privacypolicy.html:387
 msgid "Google Privacy & Terms"
-msgstr ""
+msgstr "Google-privacy"
 
 #: .\summarizer\templates\front\privacypolicy.html:387
 msgid "page."
@@ -1492,7 +1497,7 @@ msgstr ""
 msgid ""
 "We keep your information for as long as necessary to fulfill the purposes "
 "outlined in this privacy notice unless otherwise required by law."
-msgstr ""
+msgstr "We bewaren uw gegevens zo lang als nodig is om de doeleinden te bereiken die in deze privacyverklaring worden uiteengezet, tenzij anders vereist door de wet."
 
 #: .\summarizer\templates\front\privacypolicy.html:411
 msgid ""
@@ -1501,7 +1506,7 @@ msgid ""
 "period is required or permitted by law (such as tax, accounting, or other "
 "legal requirements). No purpose in this notice will require us keeping your "
 "personal information for longer than ."
-msgstr ""
+msgstr "We bewaren uw persoonlijke gegevens alleen zo lang als nodig is voor de doeleinden uiteengezet in deze privacyverklaring, tenzij een langere bewaartermijn vereist of toegestaan ​​is door de wet (zoals belasting-, boekhoudkundige of andere wettelijke vereisten). "
 
 #: .\summarizer\templates\front\privacypolicy.html:414
 msgid ""
@@ -1511,13 +1516,13 @@ msgid ""
 "been stored in backup archives), then we will securely store your personal "
 "information and isolate it from any further processing until deletion is "
 "possible."
-msgstr ""
+msgstr "Als we geen lopende legitieme zakelijke noodzaak hebben om uw persoonlijke gegevens te verwerken, zullen we dergelijke informatie verwijderen of anonimiseren, of, als dit niet mogelijk is (bijvoorbeeld omdat uw persoonlijke gegevens zijn opgeslagen in back-uparchieven), dan zullen we "
 
 #: .\summarizer\templates\front\privacypolicy.html:424
 msgid ""
 "We do not knowingly collect data from or market to children under 18 years "
 "of age."
-msgstr ""
+msgstr "Wij verzamelen niet bewust gegevens van of verkopen deze aan kinderen jonger dan 18 jaar."
 
 #: .\summarizer\templates\front\privacypolicy.html:427
 msgid ""
@@ -1529,7 +1534,7 @@ msgid ""
 "the account and take reasonable measures to promptly delete such data from "
 "our records. If you become aware of any data we may have collected from "
 "children under age 18, please contact us at info@summarygenerator.io."
-msgstr ""
+msgstr "We vragen niet bewust om gegevens van of verkopen aan kinderen jonger dan 18 jaar. "
 
 #: .\summarizer\templates\front\privacypolicy.html:437
 msgid ""
@@ -1537,7 +1542,7 @@ msgid ""
 "(UK), Switzerland, and Canada, you have rights that allow you greater access "
 "to and control over your personal information. You may review, change, or "
 "terminate your account at any time."
-msgstr ""
+msgstr "In sommige regio's, zoals de Europese Economische Ruimte (EER), het Verenigd Koninkrijk (VK), Zwitserland en Canada, hebt u rechten waardoor u meer toegang tot en controle over uw persoonlijke gegevens heeft. "
 
 #: .\summarizer\templates\front\privacypolicy.html:441
 msgid ""
@@ -1550,44 +1555,44 @@ msgid ""
 "circumstances, you may also have the right to object to the processing of "
 "your personal information. You can make such a request by contacting us by "
 "using the contact details provided in the section \\"
-msgstr ""
+msgstr "In sommige regio's (zoals de EER, het Verenigd Koninkrijk, Zwitserland en Canada) beschikt u over bepaalde rechten onder de toepasselijke wetgeving inzake gegevensbescherming. "
 
 #: .\summarizer\templates\front\privacypolicy.html:444
 msgid ""
 "We will consider and act upon any request in accordance with applicable data "
 "protection laws."
-msgstr ""
+msgstr "We zullen elk verzoek in overweging nemen en ernaar handelen in overeenstemming met de toepasselijke wetgeving inzake gegevensbescherming."
 
 #: .\summarizer\templates\front\privacypolicy.html:447
 msgid ""
 "If you are located in the EEA or UK and you believe we are unlawfully "
 "processing your personal information, you also have the right to complain to "
 "your"
-msgstr ""
+msgstr "Als u zich in de EER of het Verenigd Koninkrijk bevindt en u denkt dat wij uw persoonlijke gegevens onrechtmatig verwerken, heeft u ook het recht om een ​​klacht in te dienen bij uw"
 
 #: .\summarizer\templates\front\privacypolicy.html:448
 msgid "Member State data protection authority"
-msgstr ""
+msgstr "Autoriteit voor gegevensbescherming van de lidstaat"
 
 #: .\summarizer\templates\front\privacypolicy.html:449
 msgid "or"
-msgstr ""
+msgstr "of"
 
 #: .\summarizer\templates\front\privacypolicy.html:450
 msgid "UK data protection authority"
-msgstr ""
+msgstr "Britse gegevensbeschermingsautoriteit"
 
 #: .\summarizer\templates\front\privacypolicy.html:452
 msgid "If you are located in Switzerland, you may contact the"
-msgstr ""
+msgstr "Als u zich in Zwitserland bevindt, kunt u contact opnemen met de"
 
 #: .\summarizer\templates\front\privacypolicy.html:453
 msgid "Federal Data Protection and Information Commissioner"
-msgstr ""
+msgstr "Federale commissaris voor gegevensbescherming en informatie"
 
 #: .\summarizer\templates\front\privacypolicy.html:456
 msgid "Withdrawing your consent:"
-msgstr ""
+msgstr "Uw toestemming intrekken:"
 
 #: .\summarizer\templates\front\privacypolicy.html:457
 msgid ""
@@ -1596,7 +1601,7 @@ msgid ""
 "you have the right to withdraw your consent at any time. You can withdraw "
 "your consent at any time by contacting us by using the contact details "
 "provided in the section \\"
-msgstr ""
+msgstr "Als we afhankelijk zijn van uw toestemming om uw persoonlijke gegevens te verwerken, wat een uitdrukkelijke en/of impliciete toestemming kan zijn, afhankelijk van de toepasselijke wetgeving, heeft u het recht om uw toestemming op elk gewenst moment in te trekken. "
 
 #: .\summarizer\templates\front\privacypolicy.html:460
 msgid ""
@@ -1604,32 +1609,32 @@ msgid ""
 "processing before its withdrawal nor, when applicable law allows, will it "
 "affect the processing of your personal information conducted in reliance on "
 "lawful processing grounds other than consent."
-msgstr ""
+msgstr "Houd er echter rekening mee dat dit geen invloed heeft op de rechtmatigheid van de verwerking vóór de intrekking ervan, en, wanneer de toepasselijke wetgeving dit toestaat, ook niet op de verwerking van uw persoonlijke gegevens die wordt uitgevoerd op basis van andere wettige verwerkingsgronden dan toestemming."
 
 #: .\summarizer\templates\front\privacypolicy.html:463
 msgid "Opting out of marketing and promotional communications:"
-msgstr ""
+msgstr "Afmelden voor marketing- en promotionele communicatie:"
 
 #: .\summarizer\templates\front\privacypolicy.html:464
 msgid ""
 "You can unsubscribe from our marketing and promotional communications at any "
 "time by clicking on the unsubscribe link in the emails that we send, or by "
 "contacting us using the details provided in the section \\"
-msgstr ""
+msgstr "U kunt zich op elk moment afmelden voor onze marketing- en promotionele communicatie door op de afmeldlink te klikken in de e-mails die we sturen, of door contact met ons op te nemen via de gegevens in de sectie \\"
 
 #: .\summarizer\templates\front\privacypolicy.html:466
 msgid "Account Information"
-msgstr ""
+msgstr "Accountinformatie"
 
 #: .\summarizer\templates\front\privacypolicy.html:467
 msgid ""
 "If you would at any time like to review or change the information in your "
 "account or terminate your account, you can:"
-msgstr ""
+msgstr "Als u op enig moment de informatie in uw account wilt bekijken of wijzigen of uw account wilt beëindigen, kunt u:"
 
 #: .\summarizer\templates\front\privacypolicy.html:470
 msgid "Log in to your account settings and update your user account."
-msgstr ""
+msgstr "Log in op uw accountinstellingen en update uw gebruikersaccount."
 
 #: .\summarizer\templates\front\privacypolicy.html:474
 msgid ""
@@ -1638,13 +1643,14 @@ msgid ""
 "retain some information in our files to prevent fraud, troubleshoot "
 "problems, assist with any investigations, enforce our legal terms and/or "
 "comply with applicable legal requirements."
-msgstr ""
+msgstr "Op uw verzoek om uw account te beëindigen, zullen wij uw account en informatie uit onze actieve databases deactiveren of verwijderen. "
 
 #: .\summarizer\templates\front\privacypolicy.html:477
 msgid ""
 "If you have questions or comments about your privacy rights, you may email "
 "us at info@summarygenerator.io."
-msgstr ""
+msgstr "Als u vragen of opmerkingen heeft over uw privacyrechten, kunt u ons een e-mail sturen op info@summarygenerator.io."
+
 
 #: .\summarizer\templates\front\privacypolicy.html:484
 msgid ""
@@ -1658,46 +1664,46 @@ msgid ""
 "online. If a standard for online tracking is adopted that we must follow in "
 "the future, we will inform you about that practice in a revised version of "
 "this privacy notice."
-msgstr ""
+msgstr "De meeste webbrowsers en sommige mobiele besturingssystemen en mobiele applicaties bevatten een Do-Not-Track ('DNT')-functie of -instelling die u kunt activeren om uw privacyvoorkeur aan te geven dat er geen gegevens over uw online browse-activiteiten worden gecontroleerd en verzameld. "
 
 #: .\summarizer\templates\front\privacypolicy.html:493
 msgid ""
 "If you are a resident of , you are granted specific rights regarding access "
 "to your personal information."
-msgstr ""
+msgstr "Als u inwoner bent van , krijgt u specifieke rechten met betrekking tot toegang tot uw persoonlijke gegevens."
 
 #: .\summarizer\templates\front\privacypolicy.html:496
 msgid "What categories of personal information do we collect?"
-msgstr ""
+msgstr "Welke categorieën persoonlijke informatie verzamelen we?"
 
 #: .\summarizer\templates\front\privacypolicy.html:499
 msgid ""
 "We have collected the following categories of personal information in the "
 "past twelve (12) months:"
-msgstr ""
+msgstr "We hebben de afgelopen twaalf (12) maanden de volgende categorieën persoonlijke gegevens verzameld:"
 
 #: .\summarizer\templates\front\privacypolicy.html:504
 msgid "Category"
-msgstr ""
+msgstr "Categorie"
 
 #: .\summarizer\templates\front\privacypolicy.html:505
 msgid "Examples"
-msgstr ""
+msgstr "Voorbeelden"
 
 #: .\summarizer\templates\front\privacypolicy.html:506
 msgid "Collected"
-msgstr ""
+msgstr "Verzameld"
 
 #: .\summarizer\templates\front\privacypolicy.html:511
 msgid "A. Identifiers"
-msgstr ""
+msgstr "A. "
 
 #: .\summarizer\templates\front\privacypolicy.html:513
 msgid ""
 "Contact details, such as real name, alias, postal address, telephone or "
 "mobile contact number, unique personal identifier, online identifier, "
 "Internet Protocol address, email address, and account name"
-msgstr ""
+msgstr "Contactgegevens, zoals echte naam, alias, postadres, telefoon- of mobiel contactnummer, unieke persoonlijke identificatie, online identificatie, internetprotocoladres, e-mailadres en accountnaam"
 
 #: .\summarizer\templates\front\privacypolicy.html:515
 #: .\summarizer\templates\front\privacypolicy.html:520
@@ -1710,136 +1716,136 @@ msgstr ""
 #: .\summarizer\templates\front\privacypolicy.html:563
 #: .\summarizer\templates\front\privacypolicy.html:568
 msgid "No"
-msgstr ""
+msgstr "Nee"
 
 #: .\summarizer\templates\front\privacypolicy.html:518
 msgid "B. Protected classification characteristics under state or federal law"
-msgstr ""
+msgstr "B. "
 
 #: .\summarizer\templates\front\privacypolicy.html:519
 msgid "Gender and date of birth"
-msgstr ""
+msgstr "Geslacht en geboortedatum"
 
 #: .\summarizer\templates\front\privacypolicy.html:523
 msgid "C. Commercial information"
-msgstr ""
+msgstr "C. "
 
 #: .\summarizer\templates\front\privacypolicy.html:524
 msgid ""
 "Transaction information, purchase history, financial details, and payment "
 "information"
-msgstr ""
+msgstr "Transactie-informatie, aankoopgeschiedenis, financiële details en betalingsinformatie"
 
 #: .\summarizer\templates\front\privacypolicy.html:528
 msgid "D. Biometric information"
-msgstr ""
+msgstr "D. "
 
 #: .\summarizer\templates\front\privacypolicy.html:530
 msgid ""
 "Browsing history, search history, online behavior, interest data, and "
 "interactions with our and other websites, applications, systems, and "
 "advertisements"
-msgstr ""
+msgstr "Browsegeschiedenis, zoekgeschiedenis, online gedrag, interessegegevens en interacties met onze en andere websites, applicaties, systemen en advertenties"
 
 #: .\summarizer\templates\front\privacypolicy.html:535
 msgid "F. Geolocation data"
-msgstr ""
+msgstr "F. "
 
 #: .\summarizer\templates\front\privacypolicy.html:536
 msgid "Device location"
-msgstr ""
+msgstr "Apparaatlocatie"
 
 #: .\summarizer\templates\front\privacypolicy.html:540
 msgid ""
 "G. Audio, electronic, visual, thermal, olfactory, or similar information"
-msgstr ""
+msgstr "G. "
 
 #: .\summarizer\templates\front\privacypolicy.html:542
 msgid ""
 "Images and audio, video or call recordings created in connection with our "
 "business activities"
-msgstr ""
+msgstr "Beelden en audio-, video- of gespreksopnamen gemaakt in verband met onze zakelijke activiteiten"
 
 #: .\summarizer\templates\front\privacypolicy.html:547
 msgid "H. Professional or employment-related information"
-msgstr ""
+msgstr "H. "
 
 #: .\summarizer\templates\front\privacypolicy.html:549
 msgid ""
 "Business contact details in order to provide you our Services at a business "
 "level or job title, work history, and professional qualifications if you "
 "apply for a job with us"
-msgstr ""
+msgstr "Zakelijke contactgegevens om u onze Diensten op zakelijk niveau of functietitel, werkgeschiedenis en professionele kwalificaties te kunnen leveren als u bij ons solliciteert"
 
 #: .\summarizer\templates\front\privacypolicy.html:554
 msgid "I. Education Information"
-msgstr ""
+msgstr "Ik. "
 
 #: .\summarizer\templates\front\privacypolicy.html:555
 msgid "Student records and directory information"
-msgstr ""
+msgstr "Studentengegevens en directory-informatie"
 
 #: .\summarizer\templates\front\privacypolicy.html:559
 msgid "J. Inferences drawn from collected personal information"
-msgstr ""
+msgstr "J. "
 
 #: .\summarizer\templates\front\privacypolicy.html:561
 msgid ""
 "Inferences drawn from any of the collected personal information listed above "
 "to create a profile or summary about, for example, an individual’s "
 "preferences and characteristics"
-msgstr ""
+msgstr "Gevolgtrekkingen getrokken uit de hierboven genoemde verzamelde persoonlijke informatie om een ​​profiel of samenvatting te creëren over bijvoorbeeld de voorkeuren en kenmerken van een individu"
 
 #: .\summarizer\templates\front\privacypolicy.html:566
 msgid "K. Sensitive personal Information"
-msgstr ""
+msgstr "K. "
 
 #: .\summarizer\templates\front\privacypolicy.html:575
 msgid ""
 "We may also collect other personal information outside of these categories "
 "through instances where you interact with us in person, online, or by phone "
 "or mail in the context of:"
-msgstr ""
+msgstr "We kunnen ook andere persoonlijke informatie verzamelen buiten deze categorieën door middel van gevallen waarin u persoonlijk, online of per telefoon of post met ons communiceert in de context van:"
 
 #: .\summarizer\templates\front\privacypolicy.html:578
 msgid "Receiving help through our customer support channels;"
-msgstr ""
+msgstr "Hulp ontvangen via onze klantenondersteuningskanalen;"
 
 #: .\summarizer\templates\front\privacypolicy.html:579
 msgid "Participation in customer surveys or contests;"
-msgstr ""
+msgstr "Deelname aan klantenonderzoeken of wedstrijden;"
 
 #: .\summarizer\templates\front\privacypolicy.html:580
 msgid ""
 "Facilitation in the delivery of our Services and to respond to your "
 "inquiries."
-msgstr ""
+msgstr "Facilitering bij de levering van onze Diensten en om te reageren op uw vragen."
 
 #: .\summarizer\templates\front\privacypolicy.html:583
 msgid "How do we use and share your personal information?"
-msgstr ""
+msgstr "Hoe gebruiken en delen we uw persoonlijke gegevens?"
 
 #: .\summarizer\templates\front\privacypolicy.html:586
 msgid "Learn about how we use your personal information in the section, \\"
-msgstr ""
+msgstr "Lees meer over hoe we uw persoonlijke gegevens gebruiken in de sectie \\"
 
 #: .\summarizer\templates\front\privacypolicy.html:589
 msgid "Will your information be shared with anyone else?"
-msgstr ""
+msgstr "Wordt uw informatie met iemand anders gedeeld?"
 
 #: .\summarizer\templates\front\privacypolicy.html:592
 msgid ""
 "We may disclose your personal information with our service providers "
 "pursuant to a written contract between us and each service provider. Learn "
 "more about how we disclose personal information to in the section, \\"
-msgstr ""
+msgstr "We kunnen uw persoonlijke gegevens bekendmaken aan onze dienstverleners op grond van een schriftelijk contract tussen ons en elke dienstverlener. "
 
 #: .\summarizer\templates\front\privacypolicy.html:595
 msgid ""
 "We may use your personal information for our own business purposes, such as "
 "for undertaking internal research for technological development and "
 "demonstration. This is not considered to be \\"
-msgstr ""
+msgstr "We kunnen uw persoonlijke gegevens gebruiken voor onze eigen zakelijke doeleinden, zoals voor het uitvoeren van intern onderzoek voor technologische ontwikkeling en demonstratie. "
 
 #: .\summarizer\templates\front\privacypolicy.html:598
 msgid ""
@@ -1847,25 +1853,25 @@ msgid ""
 "parties for a business or commercial purpose in the preceding twelve (12) "
 "months. We will not sell or share personal information in the future "
 "belonging to website visitors, users, and other consumers."
-msgstr ""
+msgstr "We hebben in de voorgaande twaalf (12) maanden geen persoonlijke gegevens openbaar gemaakt, verkocht of gedeeld met derden voor zakelijke of commerciële doeleinden. "
 
 #: .\summarizer\templates\front\privacypolicy.html:606
 msgid ""
 "Yes, we will update this notice as necessary to stay compliant with relevant "
 "laws."
-msgstr ""
+msgstr "Ja, we zullen deze verklaring indien nodig bijwerken om aan de relevante wetgeving te blijven voldoen."
 
 #: .\summarizer\templates\front\privacypolicy.html:609
 msgid ""
 "We may update this privacy notice from time to time. The updated version "
 "will be indicated by an updated \\"
-msgstr ""
+msgstr "We kunnen deze privacyverklaring van tijd tot tijd bijwerken. "
 
 #: .\summarizer\templates\front\privacypolicy.html:617
 msgid ""
 "If you have questions or comments about this notice, you may email us at "
 "info@summarygenerator.io or contact us by post at:"
-msgstr ""
+msgstr "Als u vragen of opmerkingen heeft over deze kennisgeving, kunt u ons een e-mail sturen op info@summarygenerator.io of per post contact met ons opnemen op:"
 
 #: .\summarizer\templates\front\privacypolicy.html:631
 msgid ""
@@ -1874,35 +1880,35 @@ msgid ""
 "information, or delete it. To request to review, update, or delete your "
 "personal information, please fill out and submit a data subject access "
 "request."
-msgstr ""
+msgstr "Op basis van de toepasselijke wetten van uw land heeft u mogelijk het recht om toegang te vragen tot de persoonlijke informatie die wij van u verzamelen, om die informatie te wijzigen of om deze te verwijderen. "
 
 #: .\summarizer\templates\front\termsandconditions.html:213
 msgid "Last Updated Feb 10, 2023"
-msgstr ""
+msgstr "Laatst bijgewerkt op 10 februari 2023"
 
 #: .\summarizer\templates\front\termsandconditions.html:219
 msgid "AGREEMENT TO OUR LEGAL TERMS"
-msgstr ""
+msgstr "AKKOORD MET ONZE JURIDISCHE VOORWAARDEN"
 
 #: .\summarizer\templates\front\termsandconditions.html:221
 msgid ""
 "We are SummaryGenerator Company, a company registered in England at "
 "International House,, 12 Constance Street,, London E16 2DQ."
-msgstr ""
+msgstr "Wij zijn SummaryGenerator Company, een bedrijf geregistreerd in Engeland bij International House,, 12 Constance Street,, Londen E16 2DQ."
 
 #: .\summarizer\templates\front\termsandconditions.html:224
 msgid ""
 "We operate the website https://SummaryGenerator.io (the 'Site'), as well as "
 "any other related products and services that refer or link to these legal "
 "terms (the 'Legal Terms') (collectively, the 'Services')."
-msgstr ""
+msgstr "Wij beheren de website https://SummaryGenerator.io (de 'Site'), evenals alle andere gerelateerde producten en diensten die verwijzen naar of linken naar deze juridische voorwaarden (de 'Juridische voorwaarden') (gezamenlijk de 'Diensten "
 
 #: .\summarizer\templates\front\termsandconditions.html:227
 msgid ""
 "You can contact us by phone at +447361622097, email at info@summarygenerator."
 "io, or by mail to International House,, 12 Constance Street,, London E16 "
 "2DQ, England."
-msgstr ""
+msgstr "U kunt telefonisch contact met ons opnemen op 447361622097, per e-mail op info@summarygenerator.io, of per post naar International House,, 12 Constance Street, Londen E16 2DQ, Engeland."
 
 #: .\summarizer\templates\front\termsandconditions.html:230
 msgid ""
@@ -1913,7 +1919,7 @@ msgid ""
 "all of these Legal Terms. IF YOU DO NOT AGREE WITH ALL OF THESE LEGAL TERMS, "
 "THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE SERVICES AND YOU MUST "
 "DISCONTINUE USE IMMEDIATELY."
-msgstr ""
+msgstr "Deze Juridische Voorwaarden vormen een juridisch bindende overeenkomst tussen u, persoonlijk of namens een entiteit ('u'), en SummaryGenerator, met betrekking tot uw toegang tot en gebruik van de Services. "
 
 #: .\summarizer\templates\front\termsandconditions.html:233
 msgid ""
@@ -1922,7 +1928,7 @@ msgid ""
 "posting or notifying you by info@summarygenerator.io, as stated in the email "
 "message. By continuing to use the Services after the effective date of any "
 "changes, you agree to be bound by the modified terms."
-msgstr ""
+msgstr "Wij zullen u vooraf op de hoogte stellen van geplande wijzigingen in de Services die u gebruikt. "
 
 #: .\summarizer\templates\front\termsandconditions.html:236
 msgid ""
@@ -1933,7 +1939,8 @@ msgid ""
 "must have your parent or guardian read and agree to these Legal Terms prior "
 "to you using the Services. We recommend that you print a copy of these Legal "
 "Terms for your records."
-msgstr ""
+msgstr "De Diensten zijn bedoeld voor gebruikers die minimaal 13 jaar oud zijn. "
+
 
 #: .\summarizer\templates\front\termsandconditions.html:249
 #: .\summarizer\templates\front\termsandconditions.html:280
@@ -2085,7 +2092,7 @@ msgid ""
 "access the Services from other locations do so on their own initiative and "
 "are solely responsible for compliance with local laws, if and to the extent "
 "local laws are applicable."
-msgstr ""
+msgstr "De informatie die wordt verstrekt bij het gebruik van de Services is niet bedoeld voor distributie aan of gebruik door een persoon of entiteit in een rechtsgebied of land waar een dergelijke distributie of gebruik in strijd zou zijn met wet- of regelgeving of die ons zou onderwerpen aan enige registratievereiste binnen dergelijke "
 
 #: .\summarizer\templates\front\termsandconditions.html:285
 msgid ""
@@ -2095,11 +2102,11 @@ msgid ""
 "would be subjected to such laws, you may not use the Services. You may not "
 "use the Services in a way that would violate the Gramm-Leach-Bliley Act "
 "(GLBA)."
-msgstr ""
+msgstr "De Services zijn niet afgestemd op branchespecifieke regelgeving (Health Insurance Portability and Accountability Act (HIPAA), Federal Information Security Management Act (FISMA), enz.), dus als uw interacties aan dergelijke wetten zouden worden onderworpen, "
 
 #: .\summarizer\templates\front\termsandconditions.html:290
 msgid "Our intellectual property"
-msgstr ""
+msgstr "Ons intellectueel eigendom"
 
 #: .\summarizer\templates\front\termsandconditions.html:292
 msgid ""
@@ -2108,45 +2115,45 @@ msgid ""
 "website designs, audio, video, text, photographs, and graphics in the "
 "Services (collectively, the 'Content'), as well as the trademarks, service "
 "marks, and logos contained therein (the 'Marks')."
-msgstr ""
+msgstr "Wij zijn de eigenaar of licentiehouder van alle intellectuele eigendomsrechten op onze Services, inclusief alle broncode, databases, functionaliteit, software, website-ontwerpen, audio, video, tekst, foto's en afbeeldingen in de Services (gezamenlijk de ' "
 
 #: .\summarizer\templates\front\termsandconditions.html:295
 msgid ""
 "Our Content and Marks are protected by copyright and trademark laws (and "
 "various other intellectual property rights and unfair competition laws) and "
 "treaties in the United States and around the world."
-msgstr ""
+msgstr "Onze inhoud en merken worden beschermd door auteursrecht- en handelsmerkwetten (en diverse andere intellectuele eigendomsrechten en wetten tegen oneerlijke concurrentie) en verdragen in de Verenigde Staten en de rest van de wereld."
 
 #: .\summarizer\templates\front\termsandconditions.html:298
 msgid ""
 "The Content and Marks are provided in or through the Services 'AS IS' for "
 "your internal business purpose only."
-msgstr ""
+msgstr "De Inhoud en Merken worden in of via de Diensten 'AS IS' uitsluitend voor uw interne zakelijke doeleinden geleverd."
 
 #: .\summarizer\templates\front\termsandconditions.html:300
 msgid "Your use of our Services"
-msgstr ""
+msgstr "Uw gebruik van onze Diensten"
 
 #: .\summarizer\templates\front\termsandconditions.html:302
 msgid ""
 "Subject to your compliance with these Legal Terms, including the 'PROHIBITED "
 "ACTIVITIES' section below, we grant you a non-exclusive, non-transferable, "
 "revocable license to:"
-msgstr ""
+msgstr "Onder voorbehoud van uw naleving van deze Juridische Voorwaarden, inclusief het gedeelte 'VERBODEN ACTIVITEITEN' hieronder, verlenen wij u een niet-exclusieve, niet-overdraagbare, herroepbare licentie om:"
 
 #: .\summarizer\templates\front\termsandconditions.html:305
 msgid "access the Services;"
-msgstr ""
+msgstr "toegang tot de Diensten;"
 
 #: .\summarizer\templates\front\termsandconditions.html:306
 msgid ""
 "download or print a copy of any portion of the Content to which you have "
 "properly gained access."
-msgstr ""
+msgstr "download of print een kopie van elk deel van de Inhoud waartoe u op de juiste manier toegang hebt gekregen."
 
 #: .\summarizer\templates\front\termsandconditions.html:309
 msgid "solely for your internal business purpose."
-msgstr ""
+msgstr "uitsluitend voor uw interne zakelijke doeleinden."
 
 #: .\summarizer\templates\front\termsandconditions.html:312
 msgid ""
@@ -2156,7 +2163,7 @@ msgid ""
 "translated, transmitted, distributed, sold, licensed, or otherwise exploited "
 "for any commercial purpose whatsoever, without our express prior written "
 "permission."
-msgstr ""
+msgstr "Behalve zoals uiteengezet in deze sectie of elders in onze Juridische voorwaarden, mag geen enkel onderdeel van de Services en geen enkele Inhoud of Merken worden gekopieerd, gereproduceerd, samengevoegd, opnieuw gepubliceerd, geüpload, gepost, publiekelijk weergegeven, gecodeerd, vertaald, verzonden, gedistribueerd "
 
 #: .\summarizer\templates\front\termsandconditions.html:315
 msgid ""
@@ -2167,24 +2174,25 @@ msgid ""
 "you must identify us as the owners or licensors of the Services, Content, or "
 "Marks and ensure that any copyright or proprietary notice appears or is "
 "visible on posting, reproducing, or displaying our Content."
-msgstr ""
+msgstr "Als u gebruik wilt maken van de Services, Inhoud of Merken anders dan uiteengezet in deze sectie of elders in onze Juridische voorwaarden, kunt u uw verzoek richten aan: info@summarygenerator.io. "
 
 #: .\summarizer\templates\front\termsandconditions.html:318
 msgid ""
 "We reserve all rights not expressly granted to you in and to the Services, "
 "Content, and Marks."
-msgstr ""
+msgstr "Wij behouden ons alle rechten voor die niet uitdrukkelijk aan u zijn verleend in en op de Diensten, Inhoud en Merken."
+
 
 #: .\summarizer\templates\front\termsandconditions.html:321
 msgid ""
 "Any breach of these Intellectual Property Rights will constitute a material "
 "breach of our Legal Terms and your right to use our Services will terminate "
 "immediately."
-msgstr ""
+msgstr "Elke schending van deze Intellectuele-eigendomsrechten vormt een wezenlijke schending van onze Juridische Voorwaarden en uw recht om onze Services te gebruiken wordt onmiddellijk beëindigd."
 
 #: .\summarizer\templates\front\termsandconditions.html:323
 msgid "Your submissions and contributions"
-msgstr ""
+msgstr "Uw inzendingen en bijdragen"
 
 #: .\summarizer\templates\front\termsandconditions.html:325
 msgid ""
@@ -2192,7 +2200,7 @@ msgid ""
 "prior to using our Services to understand the (a) rights you give us and (b) "
 "obligations you have when you post or upload any content through the "
 "Services."
-msgstr ""
+msgstr "Lees dit gedeelte en het gedeelte 'VERBODEN ACTIVITEITEN' zorgvuldig door voordat u onze Services gebruikt, om inzicht te krijgen in de (a) rechten die u ons geeft en (b) de verplichtingen die u heeft wanneer u inhoud via de Services plaatst of uploadt."
 
 #: .\summarizer\templates\front\termsandconditions.html:328
 msgid ""
@@ -2202,7 +2210,7 @@ msgid ""
 "agree that we shall own this Submission and be entitled to its unrestricted "
 "use and dissemination for any lawful purpose, commercial or otherwise, "
 "without acknowledgment or compensation to you."
-msgstr ""
+msgstr "Inzendingen: Door ons rechtstreeks een vraag, opmerking, suggestie, idee, feedback of andere informatie over de Diensten te sturen ('Inzendingen'), gaat u ermee akkoord alle intellectuele eigendomsrechten met betrekking tot een dergelijke Inzending aan ons over te dragen. "
 
 #: .\summarizer\templates\front\termsandconditions.html:331
 msgid ""
@@ -2214,13 +2222,13 @@ msgid ""
 "photographs, music, graphics, comments, reviews, rating suggestions, "
 "personal information, or other material ('Contributions'). Any Submission "
 "that is publicly posted shall also be treated as a Contribution."
-msgstr ""
+msgstr "Bijdragen: De Services kunnen u uitnodigen om te chatten, bij te dragen aan of deel te nemen aan blogs, message boards, online forums en andere functionaliteiten waarin u inhoud kunt creëren, indienen, posten, weergeven, verzenden, publiceren, distribueren of uitzenden. "
 
 #: .\summarizer\templates\front\termsandconditions.html:334
 msgid ""
 "You understand that Contributions may be viewable by other users of the "
 "Services and possibly through third-party websites."
-msgstr ""
+msgstr "U begrijpt dat Bijdragen zichtbaar kunnen zijn voor andere gebruikers van de Diensten en mogelijk via websites van derden."
 
 #: .\summarizer\templates\front\termsandconditions.html:337
 msgid ""
@@ -2236,14 +2244,14 @@ msgid ""
 "into other works, your Contributions, and to sublicense the licenses granted "
 "in this section. Our use and distribution may occur in any media formats and "
 "through any media channels."
-msgstr ""
+msgstr "Wanneer u bijdragen plaatst, verleent u ons een licentie (inclusief gebruik van uw naam, handelsmerken en logo's): Door bijdragen te plaatsen, verleent u ons een onbeperkte, onbeperkte, onherroepelijke, eeuwigdurende, niet-exclusieve, overdraagbare, royalty- "
 
 #: .\summarizer\templates\front\termsandconditions.html:340
 msgid ""
 "This license includes our use of your name, company name, and franchise "
 "name, as applicable, and any of the trademarks, service marks, trade names, "
 "logos, and personal and commercial images you provide."
-msgstr ""
+msgstr "Deze licentie omvat ons gebruik van uw naam, bedrijfsnaam en franchisenaam, indien van toepassing, en alle handelsmerken, dienstmerken, handelsnamen, logo's en persoonlijke en commerciële afbeeldingen die u verstrekt."
 
 #: .\summarizer\templates\front\termsandconditions.html:343
 msgid ""
@@ -2251,7 +2259,7 @@ msgid ""
 "and/or posting Contributions through any part of the Services or making "
 "Contributions accessible through the Services by linking your account "
 "through the Services to any of your social networking accounts, you:"
-msgstr ""
+msgstr "U bent verantwoordelijk voor wat u plaatst of uploadt: Door ons Inzendingen te sturen en/of Bijdragen te plaatsen via enig deel van de Diensten of door Bijdragen toegankelijk te maken via de Diensten door uw account via de Diensten te koppelen aan een van uw sociale netwerkaccounts, "
 
 #: .\summarizer\templates\front\termsandconditions.html:346
 msgid ""
@@ -2261,13 +2269,14 @@ msgid ""
 "harmful, defamatory, obscene, bullying, abusive, discriminatory, threatening "
 "to any person or group, sexually explicit, false, inaccurate, deceitful, or "
 "misleading;"
-msgstr ""
+msgstr "bevestig dat u onze 'VERBODEN ACTIVITEITEN' hebt gelezen en ermee akkoord gaat en dat u geen inzendingen zult posten, verzenden, publiceren, uploaden of via de Services zult verzenden, noch bijdragen zult posten die illegaal, intimiderend, hatelijk, schadelijk, lasterlijk of obsceen zijn "
 
 #: .\summarizer\templates\front\termsandconditions.html:347
 msgid ""
 "to the extent permissible by applicable law, waive any and all moral rights "
 "to any such Submission and/or Contribution;"
-msgstr ""
+msgstr "voor zover toegestaan ​​door de toepasselijke wetgeving, afstand doen van alle morele rechten op een dergelijke Inzending en/of Bijdrage;"
+
 
 #: .\summarizer\templates\front\termsandconditions.html:348
 msgid ""
@@ -2275,13 +2284,13 @@ msgid ""
 "that you have the necessary rights and licenses to submit such Submissions "
 "and/or Contributions and that you have full authority to grant us the above-"
 "mentioned rights in relation to your Submissions and/or Contributions; and"
-msgstr ""
+msgstr "garanderen dat dergelijke Inzendingen en/of Bijdragen origineel van u zijn of dat u over de noodzakelijke rechten en licenties beschikt om dergelijke Inzendingen en/of Bijdragen in te dienen en dat u de volledige bevoegdheid heeft om ons de bovengenoemde rechten te verlenen met betrekking tot uw "
 
 #: .\summarizer\templates\front\termsandconditions.html:349
 msgid ""
 "warrant and represent that your Submissions and/or Contributions do not "
 "constitute confidential information."
-msgstr ""
+msgstr "garanderen en verklaren dat uw Inzendingen en/of Bijdragen geen vertrouwelijke informatie vormen."
 
 #: .\summarizer\templates\front\termsandconditions.html:352
 msgid ""
@@ -2289,7 +2298,7 @@ msgid ""
 "expressly agree to reimburse us for any and all losses that we may suffer "
 "because of your breach of (a) this section, (b) any third party’s "
 "intellectual property rights, or (c) applicable law."
-msgstr ""
+msgstr "U bent als enige verantwoordelijk voor uw Inzendingen en/of Bijdragen en u gaat er uitdrukkelijk mee akkoord ons te vergoeden voor alle verliezen die wij kunnen lijden als gevolg van uw schending van (a) deze sectie, (b) de intellectuele eigendomsrechten van derden, "
 
 #: .\summarizer\templates\front\termsandconditions.html:355
 msgid ""
@@ -2299,7 +2308,7 @@ msgid ""
 "consider such Contributions harmful or in breach of these Legal Terms. If we "
 "remove or edit any such Contributions, we may also suspend or disable your "
 "account and report you to the authorities."
-msgstr ""
+msgstr "We kunnen uw inhoud verwijderen of bewerken: Hoewel we niet verplicht zijn om bijdragen te controleren, hebben we het recht om bijdragen op elk moment zonder voorafgaande kennisgeving te verwijderen of te bewerken als we naar onze redelijke mening vinden dat dergelijke bijdragen schadelijk zijn of in strijd zijn met "
 
 #: .\summarizer\templates\front\termsandconditions.html:361
 msgid ""
@@ -2314,7 +2323,7 @@ msgid ""
 "through a bot, script or otherwise; (7) you will not use the Services for "
 "any illegal or unauthorized purpose; and (8) your use of the Services will "
 "not violate any applicable law or regulation."
-msgstr ""
+msgstr "Door gebruik te maken van de Services verklaart en garandeert u dat: (1) alle registratiegegevens die u indient waar, nauwkeurig, actueel en volledig zijn; "
 
 #: .\summarizer\templates\front\termsandconditions.html:364
 msgid ""
@@ -2322,7 +2331,7 @@ msgid ""
 "incomplete, we have the right to suspend or terminate your account and "
 "refuse any and all current or future use of the Services (or any portion "
 "thereof)."
-msgstr ""
+msgstr "Als u informatie verstrekt die onwaar, onnauwkeurig, niet actueel of onvolledig is, hebben wij het recht om uw account op te schorten of te beëindigen en elk huidig ​​of toekomstig gebruik van de Services (of een deel daarvan) te weigeren."
 
 #: .\summarizer\templates\front\termsandconditions.html:370
 msgid ""
@@ -2331,15 +2340,15 @@ msgid ""
 "and password. We reserve the right to remove, reclaim, or change a username "
 "you select if we determine, in our sole discretion, that such username is "
 "inappropriate, obscene, or otherwise objectionable."
-msgstr ""
+msgstr "Mogelijk moet u zich registreren om de Services te gebruiken. "
 
 #: .\summarizer\templates\front\termsandconditions.html:375
 msgid "We accept the following forms of payment:"
-msgstr ""
+msgstr "Wij accepteren de volgende betaalmethoden:"
 
 #: .\summarizer\templates\front\termsandconditions.html:378
 msgid "Visa"
-msgstr ""
+msgstr "Visum"
 
 #: .\summarizer\templates\front\termsandconditions.html:379
 msgid "Mastercard"
@@ -2347,11 +2356,11 @@ msgstr ""
 
 #: .\summarizer\templates\front\termsandconditions.html:380
 msgid "American Express"
-msgstr ""
+msgstr "AmericanExpress"
 
 #: .\summarizer\templates\front\termsandconditions.html:381
 msgid "Discover"
-msgstr ""
+msgstr "Ontdek"
 
 #: .\summarizer\templates\front\termsandconditions.html:382
 msgid "PayPal"
@@ -2366,7 +2375,7 @@ msgid ""
 "your transactions and contact you as needed. Sales tax will be added to the "
 "price of purchases as deemed required by us. We may change prices at any "
 "time. All payments shall be in US dollars."
-msgstr ""
+msgstr "U stemt ermee in actuele, volledige en nauwkeurige aankoop- en accountgegevens te verstrekken voor alle aankopen die via de Services worden gedaan. "
 
 #: .\summarizer\templates\front\termsandconditions.html:388
 msgid ""
@@ -2375,7 +2384,7 @@ msgid ""
 "payment provider for any such amounts upon placing your order. We reserve "
 "the right to correct any errors or mistakes in pricing, even if we have "
 "already requested or received payment."
-msgstr ""
+msgstr "U stemt ermee in om alle kosten te betalen tegen de prijzen die op dat moment gelden voor uw aankopen en eventuele toepasselijke verzendkosten, en u machtigt ons om dergelijke bedragen in rekening te brengen bij de door u gekozen betalingsprovider wanneer u uw bestelling plaatst. "
 
 #: .\summarizer\templates\front\termsandconditions.html:391
 msgid ""
@@ -2386,11 +2395,11 @@ msgid ""
 "or orders that use the same billing or shipping address. We reserve the "
 "right to limit or prohibit orders that, in our sole judgment, appear to be "
 "placed by dealers, resellers, or distributors."
-msgstr ""
+msgstr "Wij behouden ons het recht voor om elke bestelling die via de Diensten wordt geplaatst te weigeren. "
 
 #: .\summarizer\templates\front\termsandconditions.html:397
 msgid "Billing and Renewal"
-msgstr ""
+msgstr "Facturering en verlenging"
 
 #: .\summarizer\templates\front\termsandconditions.html:399
 msgid ""
@@ -2398,11 +2407,11 @@ msgid ""
 "consent to our charging your payment method on a recurring basis without "
 "requiring your prior approval for each recurring charge, until such time as "
 "you cancel the applicable order. The length of your billing cycle is monthly."
-msgstr ""
+msgstr "Uw abonnement loopt door en wordt automatisch verlengd, tenzij u het opzegt. "
 
 #: .\summarizer\templates\front\termsandconditions.html:401
 msgid "Cancellation"
-msgstr ""
+msgstr "Annulering"
 
 #: .\summarizer\templates\front\termsandconditions.html:403
 msgid ""
@@ -2410,17 +2419,18 @@ msgid ""
 "time by logging into your account. Your cancellation will take effect at the "
 "end of the current paid term. If you have any questions or are unsatisfied "
 "with our Services, please email us at info@summarygenerator.io."
-msgstr ""
+msgstr "Alle aankopen kunnen niet worden gerestitueerd. "
 
 #: .\summarizer\templates\front\termsandconditions.html:405
 msgid "Fee Changes"
-msgstr ""
+msgstr "Tariefwijzigingen"
+
 
 #: .\summarizer\templates\front\termsandconditions.html:407
 msgid ""
 "We may, from time to time, make changes to the subscription fee and will "
 "communicate any price changes to you in accordance with applicable law."
-msgstr ""
+msgstr "We kunnen van tijd tot tijd wijzigingen aanbrengen in de abonnementskosten en zullen eventuele prijswijzigingen aan u doorgeven in overeenstemming met de toepasselijke wetgeving."
 
 #: .\summarizer\templates\front\termsandconditions.html:413
 msgid ""
@@ -2436,7 +2446,7 @@ msgid ""
 "non-infringement. You accept any and all risk arising out of use or "
 "performance of any software. You may not reproduce or redistribute any "
 "software except in accordance with the EULA or these Legal Terms."
-msgstr ""
+msgstr "We ​​kunnen software toevoegen voor gebruik in verband met onze Services. "
 
 #: .\summarizer\templates\front\termsandconditions.html:419
 msgid ""
@@ -2444,24 +2454,24 @@ msgid ""
 "which we make the Services available. The Services may not be used in "
 "connection with any commercial endeavors except those that are specifically "
 "endorsed or approved by us."
-msgstr ""
+msgstr "U mag de Services niet openen of gebruiken voor enig ander doel dan waarvoor wij de Services beschikbaar stellen. "
 
 #: .\summarizer\templates\front\termsandconditions.html:421
 msgid "As a user of the Services, you agree not to:"
-msgstr ""
+msgstr "Als gebruiker van de Services gaat u ermee akkoord dat u het volgende niet zult doen:"
 
 #: .\summarizer\templates\front\termsandconditions.html:424
 msgid ""
 "Systematically retrieve data or other content from the Services to create or "
 "compile, directly or indirectly, a collection, compilation, database, or "
 "directory without written permission from us."
-msgstr ""
+msgstr "Systematisch gegevens of andere inhoud uit de Services ophalen om direct of indirect een verzameling, compilatie, database of directory te creëren of samen te stellen zonder schriftelijke toestemming van ons."
 
 #: .\summarizer\templates\front\termsandconditions.html:425
 msgid ""
 "Trick, defraud, or mislead us and other users, especially in any attempt to "
 "learn sensitive account information such as user passwords."
-msgstr ""
+msgstr "Ons en andere gebruikers bedriegen, bedriegen of misleiden, vooral bij elke poging om gevoelige accountinformatie zoals gebruikerswachtwoorden te achterhalen."
 
 #: .\summarizer\templates\front\termsandconditions.html:426
 msgid ""
@@ -2469,35 +2479,35 @@ msgid ""
 "of the Services, including features that prevent or restrict the use or "
 "copying of any Content or enforce limitations on the use of the Services and/"
 "or the Content contained therein."
-msgstr ""
+msgstr "Het omzeilen, uitschakelen of anderszins verstoren van beveiligingsgerelateerde functies van de Services, inclusief functies die het gebruik of kopiëren van Inhoud voorkomen of beperken of beperkingen opleggen aan het gebruik van de Services en/of de Inhoud die daarin is opgenomen."
 
 #: .\summarizer\templates\front\termsandconditions.html:427
 msgid ""
 "Disparage, tarnish, or otherwise harm, in our opinion, us and/or the "
 "Services."
-msgstr ""
+msgstr "Naar onze mening ons en/of de Diensten in diskrediet brengen, aantasten of anderszins schade toebrengen."
 
 #: .\summarizer\templates\front\termsandconditions.html:428
 msgid ""
 "Use any information obtained from the Services in order to harass, abuse, or "
 "harm another person."
-msgstr ""
+msgstr "Alle informatie verkregen via de Services gebruiken om een ​​andere persoon lastig te vallen, te misbruiken of schade toe te brengen."
 
 #: .\summarizer\templates\front\termsandconditions.html:429
 msgid ""
 "Make improper use of our support services or submit false reports of abuse "
 "or misconduct."
-msgstr ""
+msgstr "Maak oneigenlijk gebruik van onze ondersteunende diensten of doe valse meldingen van misbruik of wangedrag."
 
 #: .\summarizer\templates\front\termsandconditions.html:430
 msgid ""
 "Use the Services in a manner inconsistent with any applicable laws or "
 "regulations."
-msgstr ""
+msgstr "Gebruik de Services op een manier die niet strookt met toepasselijke wet- of regelgeving."
 
 #: .\summarizer\templates\front\termsandconditions.html:431
 msgid "Engage in unauthorized framing of or linking to the Services."
-msgstr ""
+msgstr "zich bezighouden met ongeoorloofde framing van of koppelingen naar de Services."
 
 #: .\summarizer\templates\front\termsandconditions.html:432
 msgid ""
@@ -2507,25 +2517,25 @@ msgid ""
 "party’s uninterrupted use and enjoyment of the Services or modifies, "
 "impairs, disrupts, alters, or interferes with the use, features, functions, "
 "operation, or maintenance of the Services."
-msgstr ""
+msgstr "Het uploaden of verzenden (of proberen te uploaden of verzenden) van virussen, Trojaanse paarden of ander materiaal, inclusief overmatig gebruik van hoofdletters en spam (het voortdurend plaatsen van repetitieve tekst), waardoor het ononderbroken gebruik en genot van de "
 
 #: .\summarizer\templates\front\termsandconditions.html:433
 msgid ""
 "Engage in any automated use of the system, such as using scripts to send "
 "comments or messages, or using any data mining, robots, or similar data "
 "gathering and extraction tools."
-msgstr ""
+msgstr "zich bezighouden met geautomatiseerd gebruik van het systeem, zoals het gebruik van scripts om opmerkingen of berichten te verzenden, of het gebruik van datamining, robots of vergelijkbare tools voor het verzamelen en extraheren van gegevens."
 
 #: .\summarizer\templates\front\termsandconditions.html:434
 msgid ""
 "Delete the copyright or other proprietary rights notice from any Content."
-msgstr ""
+msgstr "Verwijder de kennisgeving van auteursrecht of andere eigendomsrechten van alle inhoud."
 
 #: .\summarizer\templates\front\termsandconditions.html:435
 msgid ""
 "Attempt to impersonate another user or person or use the username of another "
 "user."
-msgstr ""
+msgstr "Probeer je voor te doen als een andere gebruiker of persoon of gebruik de gebruikersnaam van een andere gebruiker."
 
 #: .\summarizer\templates\front\termsandconditions.html:436
 msgid ""
@@ -2534,38 +2544,38 @@ msgid ""
 "mechanism, including without limitation, clear graphics interchange formats "
 "('gifs'), 1×1 pixels, web bugs, cookies, or other similar devices (sometimes "
 "referred to as 'spyware' or 'passive collection mechanisms' or 'pcms')."
-msgstr ""
+msgstr "Upload of verzend (of probeer te uploaden of verzenden) materiaal dat fungeert als een passief of actief mechanisme voor het verzamelen of verzenden van informatie, inclusief maar niet beperkt tot duidelijke grafische uitwisselingsformaten ('gifs'), 1×1 pixels, webbugs "
 
 #: .\summarizer\templates\front\termsandconditions.html:437
 msgid ""
 "Interfere with, disrupt, or create an undue burden on the Services or the "
 "networks or services connected to the Services."
-msgstr ""
+msgstr "De Services of de netwerken of services die met de Services zijn verbonden, verstoren, verstoren of onnodig belasten."
 
 #: .\summarizer\templates\front\termsandconditions.html:438
 msgid ""
 "Harass, annoy, intimidate, or threaten any of our employees or agents "
 "engaged in providing any portion of the Services to you."
-msgstr ""
+msgstr "Het lastigvallen, irriteren, intimideren of bedreigen van een van onze werknemers of agenten die betrokken zijn bij het leveren van een deel van de Services aan u."
 
 #: .\summarizer\templates\front\termsandconditions.html:439
 msgid ""
 "Attempt to bypass any measures of the Services designed to prevent or "
 "restrict access to the Services, or any portion of the Services."
-msgstr ""
+msgstr "Probeer maatregelen van de Services te omzeilen die bedoeld zijn om de toegang tot de Services, of een deel van de Services, te voorkomen of te beperken."
 
 #: .\summarizer\templates\front\termsandconditions.html:440
 msgid ""
 "Copy or adapt the Services' software, including but not limited to Flash, "
 "PHP, HTML, JavaScript, or other code."
-msgstr ""
+msgstr "Kopieer of pas de software van de Diensten aan, inclusief maar niet beperkt tot Flash, PHP, HTML, JavaScript of andere code."
 
 #: .\summarizer\templates\front\termsandconditions.html:441
 msgid ""
 "Except as permitted by applicable law, decipher, decompile, disassemble, or "
 "reverse engineer any of the software comprising or in any way making up a "
 "part of the Services."
-msgstr ""
+msgstr "Behalve zoals toegestaan ​​door de toepasselijke wetgeving, dient u de software die de Services omvat of op enigerlei wijze deel uitmaakt van de Services te ontcijferen, decompileren, demonteren of reverse-engineeren."
 
 #: .\summarizer\templates\front\termsandconditions.html:442
 msgid ""
@@ -2574,12 +2584,12 @@ msgid ""
 "without limitation, any spider, robot, cheat utility, scraper, or offline "
 "reader that accesses the Services, or use or launch any unauthorized script "
 "or other software."
-msgstr ""
+msgstr "Tenzij dit het resultaat is van standaardzoekmachine- of internetbrowsergebruik, gebruik, start, ontwikkel of distribueer een geautomatiseerd systeem, inclusief maar niet beperkt tot elke spider, robot, cheat-hulpprogramma, scraper of offline reader die toegang heeft tot de Services "
 
 #: .\summarizer\templates\front\termsandconditions.html:443
 msgid ""
 "Use a buying agent or purchasing agent to make purchases on the Services."
-msgstr ""
+msgstr "Gebruik een aankoopmakelaar of aankoopmakelaar om aankopen te doen op de Diensten."
 
 #: .\summarizer\templates\front\termsandconditions.html:444
 msgid ""
@@ -2587,22 +2597,22 @@ msgid ""
 "and/or email addresses of users by electronic or other means for the purpose "
 "of sending unsolicited email, or creating user accounts by automated means "
 "or under false pretenses."
-msgstr ""
+msgstr "Ongeoorloofd gebruik maken van de Diensten, inclusief het verzamelen van gebruikersnamen en/of e-mailadressen van gebruikers via elektronische of andere middelen met als doel het verzenden van ongevraagde e-mail, of het aanmaken van gebruikersaccounts op geautomatiseerde wijze of onder valse voorwendselen."
 
 #: .\summarizer\templates\front\termsandconditions.html:445
 msgid ""
 "Use the Services as part of any effort to compete with us or otherwise use "
 "the Services and/or the Content for any revenue-generating endeavor or "
 "commercial enterprise."
-msgstr ""
+msgstr "Gebruik de Services als onderdeel van een poging om met ons te concurreren of gebruik de Services en/of de Inhoud anderszins voor inkomstengenererende inspanningen of commerciële ondernemingen."
 
 #: .\summarizer\templates\front\termsandconditions.html:446
 msgid "Sell or otherwise transfer your profile."
-msgstr ""
+msgstr "Verkoop of draag uw profiel op een andere manier over."
 
 #: .\summarizer\templates\front\termsandconditions.html:447
 msgid "Use the Services to advertise or offer to sell goods and services."
-msgstr ""
+msgstr "Gebruik de Services om te adverteren of goederen en services aan te bieden."
 
 #: .\summarizer\templates\front\termsandconditions.html:453
 msgid ""
@@ -2617,7 +2627,7 @@ msgid ""
 "such, any Contributions you transmit may be treated as non-confidential and "
 "non-proprietary. When you create or make available any Contributions, you "
 "thereby represent and warrant that:"
-msgstr ""
+msgstr "De Services kunnen u uitnodigen om te chatten, bij te dragen aan of deel te nemen aan blogs, message boards, online forums en andere functionaliteiten, en kunnen u de mogelijkheid bieden om te creëren, in te dienen, te posten, weer te geven, te verzenden, uit te voeren, te publiceren, "
 
 #: .\summarizer\templates\front\termsandconditions.html:457
 msgid ""
@@ -2626,7 +2636,7 @@ msgid ""
 "will not infringe the proprietary rights, including but not limited to the "
 "copyright, patent, trademark, trade secret, or moral rights of any third "
 "party."
-msgstr ""
+msgstr "Het maken, distribueren, verzenden, openbaar tonen of uitvoeren, en het openen, downloaden of kopiëren van uw bijdragen maakt geen inbreuk op de eigendomsrechten, inclusief maar niet beperkt tot het auteursrecht, patent, handelsmerk en handelsgeheimen. "
 
 #: .\summarizer\templates\front\termsandconditions.html:458
 msgid ""
@@ -2634,7 +2644,7 @@ msgid ""
 "consents, releases, and permissions to use and to authorize us, the "
 "Services, and other users of the Services to use your Contributions in any "
 "manner contemplated by the Services and these Legal Terms."
-msgstr ""
+msgstr "U bent de maker en eigenaar van of beschikt over de benodigde licenties, rechten, toestemmingen, vrijgaven en toestemmingen om ons, de Services en andere gebruikers van de Services te gebruiken en te autoriseren om uw Bijdragen te gebruiken op elke manier die door de Services wordt overwogen "
 
 #: .\summarizer\templates\front\termsandconditions.html:459
 msgid ""
@@ -2643,76 +2653,76 @@ msgid ""
 "likeness of each and every such identifiable individual person to enable "
 "inclusion and use of your Contributions in any manner contemplated by the "
 "Services and these Legal Terms."
-msgstr ""
+msgstr "U hebt de schriftelijke toestemming, vrijgave en/of toestemming van elke identificeerbare individuele persoon in uw Bijdragen om de naam of gelijkenis van elke identificeerbare individuele persoon te gebruiken om opname en gebruik van uw Bijdragen op elke gewenste manier mogelijk te maken "
 
 #: .\summarizer\templates\front\termsandconditions.html:460
 msgid "Your Contributions are not false, inaccurate, or misleading."
-msgstr ""
+msgstr "Uw bijdragen zijn niet vals, onnauwkeurig of misleidend."
 
 #: .\summarizer\templates\front\termsandconditions.html:461
 msgid ""
 "Your Contributions are not unsolicited or unauthorized advertising, "
 "promotional materials, pyramid schemes, chain letters, spam, mass mailings, "
 "or other forms of solicitation."
-msgstr ""
+msgstr "Uw bijdragen zijn geen ongevraagde of ongeoorloofde reclame, promotiemateriaal, piramidespelen, kettingbrieven, spam, massamailings of andere vormen van uitnodiging."
 
 #: .\summarizer\templates\front\termsandconditions.html:462
 msgid ""
 "Your Contributions are not obscene, lewd, lascivious, filthy, violent, "
 "harassing, libelous, slanderous, or otherwise objectionable (as determined "
 "by us)."
-msgstr ""
+msgstr "Uw bijdragen zijn niet obsceen, obsceen, wellustig, smerig, gewelddadig, intimiderend, lasterlijk, lasterlijk of anderszins aanstootgevend (zoals door ons bepaald)."
 
 #: .\summarizer\templates\front\termsandconditions.html:463
 msgid ""
 "Your Contributions do not ridicule, mock, disparage, intimidate, or abuse "
 "anyone."
-msgstr ""
+msgstr "Uw bijdragen zijn niet bedoeld om iemand belachelijk te maken, te bespotten, in diskrediet te brengen, te intimideren of te misbruiken."
 
 #: .\summarizer\templates\front\termsandconditions.html:464
 msgid ""
 "Your Contributions are not used to harass or threaten (in the legal sense of "
 "those terms) any other person and to promote violence against a specific "
 "person or class of people."
-msgstr ""
+msgstr "Uw bijdragen worden niet gebruikt om iemand anders lastig te vallen of te bedreigen (in de juridische zin van deze termen) en om geweld tegen een specifieke persoon of klasse van mensen te bevorderen."
 
 #: .\summarizer\templates\front\termsandconditions.html:465
 msgid ""
 "Your Contributions do not violate any applicable law, regulation, or rule."
-msgstr ""
+msgstr "Uw bijdragen zijn niet in strijd met enige toepasselijke wet, regelgeving of regel."
 
 #: .\summarizer\templates\front\termsandconditions.html:466
 msgid ""
 "Your Contributions do not violate the privacy or publicity rights of any "
 "third party."
-msgstr ""
+msgstr "Uw bijdragen zijn niet in strijd met de privacy- of publiciteitsrechten van derden."
 
 #: .\summarizer\templates\front\termsandconditions.html:467
 msgid ""
 "Your Contributions do not violate any applicable law concerning child "
 "pornography, or otherwise intended to protect the health or well-being of "
 "minors."
-msgstr ""
+msgstr "Uw bijdragen zijn niet in strijd met de toepasselijke wetgeving met betrekking tot kinderpornografie, of zijn anderszins bedoeld om de gezondheid of het welzijn van minderjarigen te beschermen."
 
 #: .\summarizer\templates\front\termsandconditions.html:468
 msgid ""
 "Your Contributions do not include any offensive comments that are connected "
 "to race, national origin, gender, sexual preference, or physical handicap."
-msgstr ""
+msgstr "Uw bijdragen bevatten geen aanstootgevende opmerkingen die verband houden met ras, nationale afkomst, geslacht, seksuele voorkeur of fysieke handicap."
 
 #: .\summarizer\templates\front\termsandconditions.html:469
 msgid ""
 "Your Contributions do not otherwise violate, or link to material that "
 "violates, any provision of these Legal Terms, or any applicable law or "
 "regulation."
-msgstr ""
+msgstr "Uw bijdragen zijn op geen enkele wijze in strijd met, of linken naar materiaal dat in strijd is met, enige bepaling van deze Juridische Voorwaarden of enige toepasselijke wet- of regelgeving."
 
 #: .\summarizer\templates\front\termsandconditions.html:471
 msgid ""
 "Any use of the Services in violation of the foregoing violates these Legal "
 "Terms and may result in, among other things, termination or suspension of "
 "your rights to use the Services."
-msgstr ""
+msgstr "Elk gebruik van de Services dat in strijd is met het voorgaande is in strijd met deze Juridische Voorwaarden en kan onder andere resulteren in de beëindiging of opschorting van uw rechten om de Services te gebruiken."
 
 #: .\summarizer\templates\front\termsandconditions.html:476
 msgid ""
@@ -2730,7 +2740,7 @@ msgid ""
 "derivative works of, or incorporate into other works, such Contributions, "
 "and grant and authorize sublicenses of the foregoing. The use and "
 "distribution may occur in any media formats and through any media channels."
-msgstr ""
+msgstr "Door uw Bijdragen op enig onderdeel van de Diensten te plaatsen of Bijdragen toegankelijk te maken voor de Diensten door uw account van de Diensten te koppelen aan een van uw sociale netwerkaccounts, verleent u automatisch, en verklaart en garandeert u dat u het recht hebt om "
 
 #: .\summarizer\templates\front\termsandconditions.html:478
 msgid ""
@@ -2740,7 +2750,7 @@ msgid ""
 "trade names, logos, and personal and commercial images you provide. You "
 "waive all moral rights in your Contributions, and you warrant that moral "
 "rights have not otherwise been asserted in your Contributions."
-msgstr ""
+msgstr "Deze licentie is van toepassing op elke vorm, media of technologie die nu bekend is of hierna wordt ontwikkeld, en omvat ons gebruik van uw naam, bedrijfsnaam en franchisenaam, indien van toepassing, en alle handelsmerken, dienstmerken, handelsnamen, "
 
 #: .\summarizer\templates\front\termsandconditions.html:480
 msgid ""
@@ -2752,7 +2762,7 @@ msgid ""
 "Contributions to the Services and you expressly agree to exonerate us from "
 "any and all responsibility and to refrain from any legal action against us "
 "regarding your Contributions."
-msgstr ""
+msgstr "Wij claimen geen enkel eigendom over uw Bijdragen. "
 
 #: .\summarizer\templates\front\termsandconditions.html:482
 msgid ""
@@ -2761,7 +2771,7 @@ msgid ""
 "Contributions to place them in more appropriate locations on the Services; "
 "and (3) to pre-screen or delete any Contributions at any time and for any "
 "reason, without notice. We have no obligation to monitor your Contributions."
-msgstr ""
+msgstr "Wij hebben het recht, naar eigen en absolute goeddunken, (1) bijdragen te bewerken, redigeren of anderszins te wijzigen; "
 
 #: .\summarizer\templates\front\termsandconditions.html:487
 msgid ""
@@ -2808,7 +2818,7 @@ msgid ""
 "attempt to delete any information stored on our servers that was obtained "
 "through such Third-Party Account, except the username and profile picture "
 "that become associated with your account."
-msgstr ""
+msgstr "Als onderdeel van de functionaliteit van de Diensten kunt u uw account koppelen aan online accounts die u heeft bij externe dienstverleners (elk account wordt een 'Externe Account' genoemd) door: (1) uw Derden-account aan te bieden "
 
 #: .\summarizer\templates\front\termsandconditions.html:492
 msgid ""
@@ -2841,7 +2851,8 @@ msgid ""
 "services. Additionally, you shall hold us blameless from any losses "
 "sustained by you or harm caused to you relating to or resulting in any way "
 "from any Third-Party Content or any contact with Third-Party Websites."
-msgstr ""
+msgstr "De Diensten kunnen links bevatten (of u kunt via de Site worden verzonden) naar andere websites ('Websites van Derden'), evenals artikelen, foto's, tekst, afbeeldingen, afbeeldingen, ontwerpen, muziek, geluid, video, informatie "
+
 
 #: .\summarizer\templates\front\termsandconditions.html:497
 msgid ""
@@ -2849,7 +2860,7 @@ msgid ""
 "in certain areas of the Services, such as sidebar advertisements or banner "
 "advertisements. We simply provide the space to place such advertisements, "
 "and we have no other relationship with advertisers."
-msgstr ""
+msgstr "We staan ​​adverteerders toe hun advertenties en andere informatie weer te geven in bepaalde delen van de Services, zoals zijbalkadvertenties of banneradvertenties. "
 
 #: .\summarizer\templates\front\termsandconditions.html:501
 msgid ""
@@ -2865,7 +2876,7 @@ msgid ""
 "excessive in size or are in any way burdensome to our systems; and (5) "
 "otherwise manage the Services in a manner designed to protect our rights and "
 "property and to facilitate the proper functioning of the Services."
-msgstr ""
+msgstr "Wij behouden ons het recht voor, maar niet de verplichting, om: (1) de Services te controleren op schendingen van deze Juridische voorwaarden; "
 
 #: .\summarizer\templates\front\termsandconditions.html:505
 msgid ""
@@ -2885,7 +2896,7 @@ msgid ""
 "that anyone under the age of 13 has provided personal information to us "
 "without the requisite and verifiable parental consent, we will delete that "
 "information from the Services as quickly as is reasonably practical."
-msgstr ""
+msgstr "Wij vinden gegevensprivacy en -beveiliging belangrijk. "
 
 #: .\summarizer\templates\front\termsandconditions.html:507
 #: .\summarizer\templates\front\termsandconditions.html:515
@@ -2896,7 +2907,7 @@ msgid ""
 "behalf of the third party. In addition to terminating or suspending your "
 "account, we reserve the right to take appropriate legal action, including "
 "without limitation pursuing civil, criminal, and injunctive redress."
-msgstr ""
+msgstr "Als we uw account om welke reden dan ook beëindigen of opschorten, is het u verboden om u te registreren en een nieuw account aan te maken onder uw naam, een valse of geleende naam, of de naam van een derde partij, zelfs als u namens ons handelt "
 
 #: .\summarizer\templates\front\termsandconditions.html:513
 #: .\summarizer\templates\front\termsandconditions.html:525
@@ -2911,7 +2922,7 @@ msgid ""
 "you may make a claim to defend your consumer protection rights in regards to "
 "these Legal Terms in the United Kingdom, or in the EU country in which you "
 "reside."
-msgstr ""
+msgstr "Deze juridische voorwaarden worden beheerst door en geïnterpreteerd volgens de wetten van het Verenigd Koninkrijk, en het gebruik van het Verdrag van de Verenigde Naties inzake contracten voor de internationale verkoop van goederen is uitdrukkelijk uitgesloten. "
 
 #: .\summarizer\templates\front\termsandconditions.html:519
 msgid ""
@@ -2920,7 +2931,7 @@ msgid ""
 "notice. However, we have no obligation to update any information on our "
 "Services. We will not be liable to you or any third party for any "
 "modification, price change, suspension, or discontinuance of the Services."
-msgstr ""
+msgstr "Wij behouden ons het recht voor om de inhoud van de Services op elk moment of om welke reden dan ook naar eigen goeddunken en zonder voorafgaande kennisgeving te wijzigen, aan te passen of te verwijderen. "
 
 #: .\summarizer\templates\front\termsandconditions.html:521
 msgid ""
@@ -2935,11 +2946,11 @@ msgid ""
 "in these Legal Terms will be construed to obligate us to maintain and "
 "support the Services or to supply any corrections, updates, or releases in "
 "connection therewith."
-msgstr ""
+msgstr "We kunnen niet garanderen dat de Services te allen tijde beschikbaar zullen zijn. "
 
 #: .\summarizer\templates\front\termsandconditions.html:530
 msgid "Binding Arbitration"
-msgstr ""
+msgstr "Bindende arbitrage"
 
 #: .\summarizer\templates\front\termsandconditions.html:531
 msgid ""
@@ -2952,11 +2963,11 @@ msgid ""
 "acceptance. The seat of arbitration shall be the United Kingdom. The "
 "language of the proceedings shall be __________. Applicable rules of "
 "substantive law shall be the law of the United Kingdom."
-msgstr ""
+msgstr "Elk geschil dat voortvloeit uit de relaties tussen de partijen bij deze juridische voorwaarden zal worden beslecht door één arbiter die zal worden gekozen in overeenstemming met de arbitrage en het interne reglement van het Europese Hof van Arbitrage, dat deel uitmaakt van het Europees Centrum voor Arbitrage dat zijn zetel heeft. "
 
 #: .\summarizer\templates\front\termsandconditions.html:533
 msgid "Restrictions"
-msgstr ""
+msgstr "Beperkingen"
 
 #: .\summarizer\templates\front\termsandconditions.html:534
 msgid ""
@@ -2967,11 +2978,11 @@ msgid ""
 "or to utilize class action procedures; and (c) there is no right or "
 "authority for any Dispute to be brought in a purported representative "
 "capacity on behalf of the general public or any other persons."
-msgstr ""
+msgstr "De partijen komen overeen dat elke arbitrage beperkt zal zijn tot het geschil tussen de partijen afzonderlijk. "
 
 #: .\summarizer\templates\front\termsandconditions.html:536
 msgid "Exceptions to Arbitration"
-msgstr ""
+msgstr "Uitzonderingen op arbitrage"
 
 #: .\summarizer\templates\front\termsandconditions.html:537
 msgid ""
@@ -2986,7 +2997,7 @@ msgid ""
 "unenforceable and such Dispute shall be decided by a court of competent "
 "jurisdiction within the courts listed for jurisdiction above, and the "
 "Parties agree to submit to the personal jurisdiction of that court."
-msgstr ""
+msgstr "De Partijen komen overeen dat de volgende Geschillen niet onderworpen zijn aan de bovenstaande bepalingen met betrekking tot bindende arbitrage: (a) alle Geschillen die de intellectuele eigendomsrechten van een Partij trachten af ​​te dwingen of te beschermen, of betreffende de geldigheid ervan; "
 
 #: .\summarizer\templates\front\termsandconditions.html:541
 msgid ""
@@ -2995,7 +3006,7 @@ msgid ""
 "and various other information. We reserve the right to correct any errors, "
 "inaccuracies, or omissions and to change or update the information on the "
 "Services at any time, without prior notice."
-msgstr ""
+msgstr "Er kan informatie over de Services zijn die typografische fouten, onnauwkeurigheden of weglatingen bevat, inclusief beschrijvingen, prijzen, beschikbaarheid en diverse andere informatie. "
 
 #: .\summarizer\templates\front\termsandconditions.html:545
 msgid ""
@@ -3005,7 +3016,7 @@ msgid ""
 "CONNECTION WITH THE SERVICES AND YOUR USE THEREOF, INCLUDING, WITHOUT "
 "LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A "
 "PARTICULAR PURPOSE, AND NON-INFRINGEMENT."
-msgstr ""
+msgstr "DE DIENSTEN WORDEN GELEVERD OP BASIS VAN AS-IS EN AS-BESCHIKBAAR. "
 
 #: .\summarizer\templates\front\termsandconditions.html:547
 msgid ""
@@ -3031,7 +3042,8 @@ msgid ""
 "SERVICES. AS WITH THE PURCHASE OF A PRODUCT OR SERVICE THROUGH ANY MEDIUM OR "
 "IN ANY ENVIRONMENT, YOU SHOULD USE YOUR BEST JUDGMENT AND EXERCISE CAUTION "
 "WHERE APPROPRIATE."
-msgstr ""
+msgstr "WIJ GEVEN GEEN GARANTIES OF VERKLARINGEN OVER DE NAUWKEURIGHEID OF VOLLEDIGHEID VAN DE INHOUD VAN DE DIENSTEN OF DE INHOUD VAN WEBSITES OF MOBIELE APPLICATIES DIE AAN DE DIENSTEN WORDEN GEKOPPELD EN WIJ AANVAARDEN GEEN AANSPRAKELIJKHEID OF VERANTWOORDELIJKHEID VOOR ENIGE (1) FOUTEN, FOUTEN OF ONNAUWKEURIGHEDEN "
+
 
 #: .\summarizer\templates\front\termsandconditions.html:552
 msgid ""
@@ -3048,7 +3060,7 @@ msgid ""
 "OR THE EXCLUSION OR LIMITATION OF CERTAIN DAMAGES. IF THESE LAWS APPLY TO "
 "YOU, SOME OR ALL OF THE ABOVE DISCLAIMERS OR LIMITATIONS MAY NOT APPLY TO "
 "YOU, AND YOU MAY HAVE ADDITIONAL RIGHTS."
-msgstr ""
+msgstr "IN GEEN GEVAL ZULLEN WIJ OF ONZE DIRECTEUREN, WERKNEMERS OF AGENTEN AANSPRAKELIJK ZIJN JEGENS U OF ENIGE DERDE PARTIJ VOOR ENIGE DIRECTE, INDIRECTE, GEVOLGSCHADE, VOORBEELDSCHADE, INCIDENTELE, SPECIALE OF BESTRAFFENDE SCHADE, WAARONDER WINSTDERVING, INKOMSTENVERLIES, VERLIES VAN "
 
 #: .\summarizer\templates\front\termsandconditions.html:556
 msgid ""
@@ -3068,7 +3080,7 @@ msgid ""
 "our defense of such claims. We will use reasonable efforts to notify you of "
 "any such claim, action, or proceeding which is subject to this "
 "indemnification upon becoming aware of it."
-msgstr ""
+msgstr "U stemt ermee in ons, inclusief onze dochterondernemingen, gelieerde ondernemingen en al onze respectieve functionarissen, agenten, partners en werknemers, te verdedigen, schadeloos te stellen en te vrijwaren van en tegen verlies, schade, aansprakelijkheid, claim of eis, inclusief "
 
 #: .\summarizer\templates\front\termsandconditions.html:560
 msgid ""
@@ -3080,7 +3092,7 @@ msgid ""
 "agree that we shall have no liability to you for any loss or corruption of "
 "any such data, and you hereby waive any right of action against us arising "
 "from any such loss or corruption of such data."
-msgstr ""
+msgstr "We bewaren bepaalde gegevens die u naar de Services verzendt met als doel de prestaties van de Services te beheren, evenals gegevens met betrekking tot uw gebruik van de Services. "
 
 #: .\summarizer\templates\front\termsandconditions.html:564
 msgid ""
@@ -3097,7 +3109,7 @@ msgid ""
 "require an original signature or delivery or retention of non-electronic "
 "records, or to payments or the granting of credits by any means other than "
 "electronic means."
-msgstr ""
+msgstr "Het bezoeken van de Diensten, het sturen van e-mails en het invullen van onlineformulieren vormen elektronische communicatie. "
 
 #: .\summarizer\templates\front\termsandconditions.html:568
 msgid ""
@@ -3106,7 +3118,7 @@ msgid ""
 "California Department of Consumer Affairs in writing at 1625 North Market "
 "Blvd., Suite N 112, Sacramento, California 95834 or by telephone at (800) "
 "952-5210 or (916) 445-1254."
-msgstr ""
+msgstr "Als een klacht bij ons niet op bevredigende wijze wordt opgelost, kunt u schriftelijk contact opnemen met de Complaint Assistance Unit van de Division of Consumer Services van het California Department of Consumer Affairs op 1625 North Market Blvd., Suite N 112, Sacramento, California 95834 of "
 
 #: .\summarizer\templates\front\termsandconditions.html:573
 msgid ""
@@ -3128,56 +3140,56 @@ msgid ""
 "of having drafted them. You hereby waive any and all defenses you may have "
 "based on the electronic form of these Legal Terms and the lack of signing by "
 "the parties hereto to execute these Legal Terms."
-msgstr ""
+msgstr "Deze Juridische Voorwaarden en eventuele beleidsregels of operationele regels die door ons op de Services of met betrekking tot de Services zijn geplaatst, vormen de volledige overeenkomst en afspraak tussen u en ons. "
 
 #: .\summarizer\templates\front\termsandconditions.html:577
 msgid ""
 "In order to resolve a complaint regarding the Services or to receive further "
 "information regarding use of the Services, please contact us at:"
-msgstr ""
+msgstr "Om een ​​klacht over de Services op te lossen of om meer informatie te ontvangen over het gebruik van de Services, kunt u contact met ons opnemen via:"
 
 #: .\summarizer\templates\front\termsandconditions.html:595
 msgid "Phone:"
-msgstr ""
+msgstr "Telefoon:"
 
 #: .\summarizer\templates\front\termsandconditions.html:607
 msgid "Email:"
-msgstr ""
+msgstr "E-mail:"
 
 #: .\summarizer\templates\front\termsandconditions.html:619
 msgid "Address:"
-msgstr ""
+msgstr "Adres:"
 
 #: .\summarizer\templates\front\text_editor.html:502
 msgid "Paragraph"
-msgstr ""
+msgstr "Paragraaf"
 
 #: .\summarizer\templates\front\text_editor.html:510
 msgid "Bullet Points"
-msgstr ""
+msgstr "Opsommingstekens"
 
 #: .\summarizer\templates\front\text_editor.html:519
 msgid "Short"
-msgstr ""
+msgstr "Kort"
 
 #: .\summarizer\templates\front\text_editor.html:527
 msgid "Long"
-msgstr ""
+msgstr "Lang"
 
 #: .\summarizer\templates\front\text_editor.html:537
 msgid "Sample Text"
-msgstr ""
+msgstr "Voorbeeldtekst"
 
 #: .\summarizer\templates\front\text_editor.html:569
 msgid "Paste Text"
-msgstr ""
+msgstr "Tekst plakken"
 
 #: .\summarizer\templates\front\text_editor.html:607
 #: .\summarizer\templates\front\text_editor.html:623
 #: .\summarizer\templates\front\text_editor.html:644
 msgid "Words"
-msgstr ""
+msgstr "Woorden"
 
 #: .\summarizer\templates\front\text_editor.html:648
 msgid "Summarize"
-msgstr ""
+msgstr "Samenvatten"
