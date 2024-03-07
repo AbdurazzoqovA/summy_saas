@@ -481,10 +481,13 @@ msgid ""
 "and presents complex content in engaging chunks. You get the most relevant "
 "and crucial data in just one click."
 msgstr ""
+"Deze tekstsamenvatter haalt snel belangrijke informatie uit grote teksten en "
+"presenteert complexe inhoud in boeiende brokken. U krijgt de meest relevante "
+"en cruciale gegevens met slechts één klik."
 
 #: .\summarizer\templates\front\home2.html:263
 msgid "Choose Your Summary Length & Style"
-msgstr ""
+msgstr "Kies de lengte en stijl van uw samenvatting"
 
 #: .\summarizer\templates\front\home2.html:267
 #: .\summarizer\templates\front\index.html:127
@@ -494,11 +497,15 @@ msgid ""
 "academic research. You’ve also got an option to generate the summary in "
 "paragraph form or bullet points."
 msgstr ""
+"U kunt de lengte en het formaat van de samenvatting aanpassen. Maak een "
+"snel overzicht van de inhoud voor uw blogpost of krijg een gedetailleerde "
+"samenvatting voor uw academisch onderzoek. U hebt ook de mogelijkheid om de "
+"samenvatting in alinea's of opsommingstekens te genereren."
 
 #: .\summarizer\templates\front\home2.html:292
 #: .\summarizer\templates\front\index.html:152
 msgid "Over"
-msgstr ""
+msgstr "Meer dan"
 
 #: .\summarizer\templates\front\home2.html:293
 #: .\summarizer\templates\front\index.html:153
@@ -507,11 +514,13 @@ msgid ""
 "users like you have used this summary generator to convert their lengthy "
 "text into efficient, 100%% accurate summaries"
 msgstr ""
+"gebruikers zoals u hebben deze samenvattingsgenerator gebruikt om hun "
+"lange tekst om te zetten in efficiënte, 100%% nauwkeurige samenvattingen"
 
 #: .\summarizer\templates\front\home2.html:296
 #: .\summarizer\templates\front\index.html:156
 msgid "Generate your summary now – it’s free"
-msgstr ""
+msgstr "Genereer nu uw samenvatting - het is gratis"
 
 #: .\summarizer\templates\front\home2.html:321
 #: .\summarizer\templates\front\index.html:181
@@ -521,11 +530,15 @@ msgid ""
 "faster. The summaries are concise and comprehensive, saving me hours of "
 "reading."
 msgstr ""
+"Als freelance schrijver is deze tekstsamenvatter een gamechanger voor mij. "
+"Het condenseert efficiënt lange artikelen, waardoor ik sneller kan "
+"onderzoeken en schrijven. De samenvattingen zijn beknopt en uitgebreid, "
+"waardoor ik uren lezen bespaar."
 
 #: .\summarizer\templates\front\home2.html:326
 #: .\summarizer\templates\front\index.html:186
 msgid "Freelance Writer"
-msgstr ""
+msgstr "Freelance Schrijver"
 
 #: .\summarizer\templates\front\home2.html:347
 #: .\summarizer\templates\front\index.html:207
@@ -535,21 +548,25 @@ msgid ""
 "highlighting relevant data and arguments made my literature review process "
 "much more manageable."
 msgstr ""
+"Tijdens mijn promotieonderzoek bleek SummaryGenerator.io onschatbaar. Het "
+"destilleert snel de belangrijkste ideeën uit complexe academische papers. De "
+"nauwkeurigheid van de tool bij het markeren van relevante gegevens en "
+"argumenten maakte mijn proces van literatuuronderzoek veel beheersbaarder."
 
 #: .\summarizer\templates\front\home2.html:352
 #: .\summarizer\templates\front\index.html:212
 msgid "Academic Researcher"
-msgstr ""
+msgstr "Academisch Onderzoeker"
 
 #: .\summarizer\templates\front\home2.html:401
 #: .\summarizer\templates\front\index.html:261
 msgid "How Does the Text Summary Generator Work?"
-msgstr ""
+msgstr "Hoe werkt de tekstsamenvattingsgenerator?"
 
 #: .\summarizer\templates\front\home2.html:424
 #: .\summarizer\templates\front\index.html:284
 msgid "Enter the Text"
-msgstr ""
+msgstr "Voer de tekst in"
 
 #: .\summarizer\templates\front\home2.html:426
 #: .\summarizer\templates\front\index.html:286
@@ -557,6 +574,8 @@ msgid ""
 "You can copy the text and paste it into the box above, or upload a file from "
 "your desktop. You can upload a Doc or PDF file."
 msgstr ""
+"U kunt de tekst kopiëren en plakken in het bovenstaande vak of een bestand "
+"vanaf uw desktop uploaden. U kunt een Doc- of PDF-bestand uploaden."
 
 #: .\summarizer\templates\front\home2.html:451
 #: .\summarizer\templates\front\index.html:311
@@ -1019,67 +1038,68 @@ msgstr "Inhoudsopgave"
 #: .\summarizer\templates\front\privacypolicy.html:267
 #: .\summarizer\templates\front\privacypolicy.html:285
 msgid "1. WHAT INFORMATION DO WE COLLECT?"
-msgstr ""
+msgstr "1. WELKE INFORMATIE VERZAMELEN WE?"
 
 #: .\summarizer\templates\front\privacypolicy.html:268
 #: .\summarizer\templates\front\privacypolicy.html:316
 msgid "2. HOW DO WE PROCESS YOUR INFORMATION?"
-msgstr ""
+msgstr "2. HOE VERWERKEN WE UW INFORMATIE?"
 
 #: .\summarizer\templates\front\privacypolicy.html:269
 #: .\summarizer\templates\front\privacypolicy.html:341
 msgid "3. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR PERSONAL INFORMATION?"
-msgstr ""
+msgstr "3. OP WELKE JURIDISCHE GRONDEN STEUNEN WIJ BIJ DE VERWERKING VAN UW PERSOONLIJKE INFORMATIE?"
 
 #: .\summarizer\templates\front\privacypolicy.html:270
 #: .\summarizer\templates\front\privacypolicy.html:376
 msgid "4. WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?"
-msgstr ""
+msgstr "4. WANNEER EN MET WIE DELEN WE UW PERSOONLIJKE INFORMATIE?"
 
 #: .\summarizer\templates\front\privacypolicy.html:271
 #: .\summarizer\templates\front\privacypolicy.html:394
 msgid "5. HOW DO WE HANDLE YOUR SOCIAL LOGINS?"
-msgstr ""
+msgstr "5. HOE GAAN WE OM MET UW SOCIALE INLOGGEGEVENS?"
 
 #: .\summarizer\templates\front\privacypolicy.html:272
 #: .\summarizer\templates\front\privacypolicy.html:404
 msgid "6. HOW LONG DO WE KEEP YOUR INFORMATION?"
-msgstr ""
+msgstr "6. HOE LANG BEWAREN WE UW INFORMATIE?"
 
 #: .\summarizer\templates\front\privacypolicy.html:273
 #: .\summarizer\templates\front\privacypolicy.html:419
 msgid "7. DO WE COLLECT INFORMATION FROM MINORS?"
-msgstr ""
+msgstr "7. VERZAMELEN WE INFORMATIE VAN MINDERJARIGEN?"
 
 #: .\summarizer\templates\front\privacypolicy.html:274
 #: .\summarizer\templates\front\privacypolicy.html:432
 msgid "8. WHAT ARE YOUR PRIVACY RIGHTS?"
-msgstr ""
+msgstr "8. WAT ZIJN UW PRIVACYRECHTEN?"
 
 #: .\summarizer\templates\front\privacypolicy.html:275
 #: .\summarizer\templates\front\privacypolicy.html:482
 msgid "9. CONTROLS FOR DO-NOT-TRACK FEATURES"
-msgstr ""
+msgstr "9. CONTROLES VOOR DO-NOT-TRACK-FUNCTIES"
 
 #: .\summarizer\templates\front\privacypolicy.html:276
 #: .\summarizer\templates\front\privacypolicy.html:490
 msgid "10. DO UNITED STATES RESIDENTS HAVE SPECIFIC PRIVACY RIGHTS?"
-msgstr ""
+msgstr "10. HEBBEN INWONERS VAN DE VERENIGDE STATEN SPECIFIEKE PRIVACYRECHTEN?"
 
 #: .\summarizer\templates\front\privacypolicy.html:277
 #: .\summarizer\templates\front\privacypolicy.html:603
 msgid "11. DO WE MAKE UPDATES TO THIS NOTICE?"
-msgstr ""
+msgstr "11. DOEN WE UPDATES AAN DEZE KENNISGEVING?"
 
 #: .\summarizer\templates\front\privacypolicy.html:278
 #: .\summarizer\templates\front\privacypolicy.html:614
 msgid "12. HOW CAN YOU CONTACT US ABOUT THIS NOTICE?"
-msgstr ""
+msgstr "12. HOE KUNT U CONTACT MET ONS OPNEMEN OVER DEZE KENNISGEVING?"
 
 #: .\summarizer\templates\front\privacypolicy.html:279
 #: .\summarizer\templates\front\privacypolicy.html:628
 msgid "13. HOW CAN YOU REVIEW, UPDATE, OR DELETE THE DATA WE COLLECT FROM YOU?"
-msgstr ""
+msgstr "13. HOE KUNT U DE GEGEVENS DIE WIJ VAN U VERZAMELEN BEKIJKEN, BIJWERKEN OF VERWIJDEREN?"
+
 
 #: .\summarizer\templates\front\privacypolicy.html:286
 msgid "Personal information you disclose to us"
@@ -1945,142 +1965,143 @@ msgstr "De Diensten zijn bedoeld voor gebruikers die minimaal 13 jaar oud zijn. 
 #: .\summarizer\templates\front\termsandconditions.html:249
 #: .\summarizer\templates\front\termsandconditions.html:280
 msgid "1. OUR SERVICES"
-msgstr ""
+msgstr "1. ONZE DIENSTEN"
 
 #: .\summarizer\templates\front\termsandconditions.html:250
 #: .\summarizer\templates\front\termsandconditions.html:289
 msgid "2. INTELLECTUAL PROPERTY RIGHTS"
-msgstr ""
+msgstr "2. INTELLECTUELE EIGENDOMSRECHTEN"
 
 #: .\summarizer\templates\front\termsandconditions.html:251
 #: .\summarizer\templates\front\termsandconditions.html:359
 msgid "3. USER REPRESENTATIONS"
-msgstr ""
+msgstr "3. GEBRUIKERSVERTEGENWOORDIGINGEN"
 
 #: .\summarizer\templates\front\termsandconditions.html:252
 #: .\summarizer\templates\front\termsandconditions.html:368
 msgid "4. USER REGISTRATION"
-msgstr ""
+msgstr "4. GEBRUIKERSREGISTRATIE"
 
 #: .\summarizer\templates\front\termsandconditions.html:253
 #: .\summarizer\templates\front\termsandconditions.html:373
 msgid "5. PURCHASES AND PAYMENT"
-msgstr ""
+msgstr "5. AANKOPEN EN BETALING"
 
 #: .\summarizer\templates\front\termsandconditions.html:254
 #: .\summarizer\templates\front\termsandconditions.html:396
 msgid "6. SUBSCRIPTIONS"
-msgstr ""
+msgstr "6. ABONNEMENTEN"
 
 #: .\summarizer\templates\front\termsandconditions.html:255
 #: .\summarizer\templates\front\termsandconditions.html:411
 msgid "7. SOFTWARE"
-msgstr ""
+msgstr "7. SOFTWARE"
 
 #: .\summarizer\templates\front\termsandconditions.html:256
 #: .\summarizer\templates\front\termsandconditions.html:417
 msgid "8. PROHIBITED ACTIVITIES"
-msgstr ""
+msgstr "8. VERBODEN ACTIVITEITEN"
 
 #: .\summarizer\templates\front\termsandconditions.html:257
 #: .\summarizer\templates\front\termsandconditions.html:452
 msgid "9. USER GENERATED CONTRIBUTIONS"
-msgstr ""
+msgstr "9. DOOR GEBRUIKER GEGENEREERDE BIJDRAGEN"
 
 #: .\summarizer\templates\front\termsandconditions.html:258
 #: .\summarizer\templates\front\termsandconditions.html:475
 msgid "10. CONTRIBUTION LICENSE"
-msgstr ""
+msgstr "10. BIJDRAGE LICENTIE"
 
 #: .\summarizer\templates\front\termsandconditions.html:259
 #: .\summarizer\templates\front\termsandconditions.html:486
 msgid "11. SOCIAL MEDIA"
-msgstr ""
+msgstr "11. SOCIALE MEDIA"
 
 #: .\summarizer\templates\front\termsandconditions.html:260
 #: .\summarizer\templates\front\termsandconditions.html:491
 msgid "12. THIRD-PARTY WEBSITES AND CONTENT"
-msgstr ""
+msgstr "12. WEBSITES EN INHOUD VAN DERDEN"
 
 #: .\summarizer\templates\front\termsandconditions.html:261
 #: .\summarizer\templates\front\termsandconditions.html:496
 msgid "13. ADVERTISERS"
-msgstr ""
+msgstr "13. ADVERTEERDERS"
 
 #: .\summarizer\templates\front\termsandconditions.html:262
 #: .\summarizer\templates\front\termsandconditions.html:500
 msgid "14. SERVICES MANAGEMENT"
-msgstr ""
+msgstr "14. DIENSTENBEHEER"
 
 #: .\summarizer\templates\front\termsandconditions.html:263
 #: .\summarizer\templates\front\termsandconditions.html:504
 msgid "15. PRIVACY POLICY"
-msgstr ""
+msgstr "15. PRIVACYBELEID"
 
 #: .\summarizer\templates\front\termsandconditions.html:264
 #: .\summarizer\templates\front\termsandconditions.html:512
 msgid "16. TERM AND TERMINATION"
-msgstr ""
+msgstr "16. DUUR EN BEEINDIGING"
 
 #: .\summarizer\templates\front\termsandconditions.html:265
 #: .\summarizer\templates\front\termsandconditions.html:518
 msgid "17. MODIFICATIONS AND INTERRUPTIONS"
-msgstr ""
+msgstr "17. WIJZIGINGEN EN ONDERBREKINGEN"
 
 #: .\summarizer\templates\front\termsandconditions.html:266
 #: .\summarizer\templates\front\termsandconditions.html:524
 msgid "18. GOVERNING LAW"
-msgstr ""
+msgstr "18. TOEPASSELIJK RECHT"
 
 #: .\summarizer\templates\front\termsandconditions.html:267
 #: .\summarizer\templates\front\termsandconditions.html:529
 msgid "19. DISPUTE RESOLUTION"
-msgstr ""
+msgstr "19. GESCHILOPLOSSING"
 
 #: .\summarizer\templates\front\termsandconditions.html:268
 #: .\summarizer\templates\front\termsandconditions.html:540
 msgid "20. CORRECTIONS"
-msgstr ""
+msgstr "20. CORRECTIES"
 
 #: .\summarizer\templates\front\termsandconditions.html:269
 #: .\summarizer\templates\front\termsandconditions.html:544
 msgid "21. DISCLAIMER"
-msgstr ""
+msgstr "21. DISCLAIMER"
 
 #: .\summarizer\templates\front\termsandconditions.html:270
 #: .\summarizer\templates\front\termsandconditions.html:551
 msgid "22. LIMITATIONS OF LIABILITY"
-msgstr ""
+msgstr "22. AANSPRAKELIJKHEIDSBEPERKINGEN"
 
 #: .\summarizer\templates\front\termsandconditions.html:271
 #: .\summarizer\templates\front\termsandconditions.html:555
 msgid "23. INDEMNIFICATION"
-msgstr ""
+msgstr "23. VRIJWARING"
 
 #: .\summarizer\templates\front\termsandconditions.html:272
 #: .\summarizer\templates\front\termsandconditions.html:559
 msgid "24. USER DATA"
-msgstr ""
+msgstr "24. GEBRUIKERSGEGEVENS"
 
 #: .\summarizer\templates\front\termsandconditions.html:273
 #: .\summarizer\templates\front\termsandconditions.html:563
 msgid "25. ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES"
-msgstr ""
+msgstr "25. ELEKTRONISCHE COMMUNICATIE, TRANSACTIES EN HANDTEKENINGEN"
 
 #: .\summarizer\templates\front\termsandconditions.html:274
 #: .\summarizer\templates\front\termsandconditions.html:567
 msgid "26. CALIFORNIA USERS AND RESIDENTS"
-msgstr ""
+msgstr "26. CALIFORNISCHE GEBRUIKERS EN INWONERS"
 
 #: .\summarizer\templates\front\termsandconditions.html:275
 #: .\summarizer\templates\front\termsandconditions.html:572
 msgid "27. MISCELLANEOUS"
-msgstr ""
+msgstr "27. DIVERSEN"
 
 #: .\summarizer\templates\front\termsandconditions.html:276
 #: .\summarizer\templates\front\termsandconditions.html:576
 msgid "28. CONTACT US"
-msgstr ""
+msgstr "28. NEEM CONTACT MET ONS OP"
+
 
 #: .\summarizer\templates\front\termsandconditions.html:282
 msgid ""
