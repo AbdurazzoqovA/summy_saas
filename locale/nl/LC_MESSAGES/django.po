@@ -273,43 +273,43 @@ msgstr "Auteursrecht"
 #: .\summarizer\templates\front\privacypolicy.html:744
 #: .\summarizer\templates\front\termsandconditions.html:739
 msgid "Summarygenerator.io"
-msgstr ""
+msgstr "Summarygenerator.io"
 
 #: .\summarizer\templates\account\signup.html:197
 msgid "Start your journey"
-msgstr ""
+msgstr "Begin je reis"
 
 #: .\summarizer\templates\account\signup.html:198
 msgid "Create Summarygenerator account"
-msgstr ""
+msgstr "Maak een Summarygenerator-account aan"
 
 #: .\summarizer\templates\account\signup.html:227
 msgid "Full Name"
-msgstr ""
+msgstr "Volledige Naam"
 
 #: .\summarizer\templates\account\signup.html:229
 msgid "Your Name"
-msgstr ""
+msgstr "Jouw Naam"
 
 #: .\summarizer\templates\account\signup.html:234
 msgid "Email Address"
-msgstr ""
+msgstr "E-mailadres"
 
 #: .\summarizer\templates\account\signup.html:236
 msgid "name@copygen.com"
-msgstr ""
+msgstr "naam@copygen.com"
 
 #: .\summarizer\templates\account\signup.html:253
 msgid "Password (Confirm)"
-msgstr ""
+msgstr "Wachtwoord (Bevestigen)"
 
 #: .\summarizer\templates\account\signup.html:264
 msgid "Create Account"
-msgstr ""
+msgstr "Account Aanmaken"
 
 #: .\summarizer\templates\account\signup.html:288
 msgid "Already have an account?"
-msgstr ""
+msgstr "Heb je al een account?"
 
 #: .\summarizer\templates\account\verification_sent.html:165
 msgid ""
@@ -317,82 +317,92 @@ msgid ""
 "finalize the signup process. Please contact us if you do not receive it "
 "within a few seconds."
 msgstr ""
+"We hebben een e-mail naar je verzonden ter verificatie. Volg de verstrekte "
+"link om het aanmeldproces af te ronden. Neem contact met ons op als je het "
+"niet binnen enkele seconden ontvangt."
 
 #: .\summarizer\templates\front\about.html:241
 msgid "SummaryGenerator.io"
-msgstr ""
+msgstr "SummaryGenerator.io"
 
 #: .\summarizer\templates\front\about.html:243
 msgid ""
 "Was founded on January 10, 2024, by Kamran Ali from Swabi, Pakistan and "
 msgstr ""
+"Werd opgericht op 10 januari 2024, door Kamran Ali uit Swabi, Pakistan en"
 
 #: .\summarizer\templates\front\about.html:243
 msgid "developed by Abdullah from Uzbekistan."
-msgstr ""
+msgstr "ontwikkeld door Abdullah uit Oezbekistan."
 
 #: .\summarizer\templates\front\about.html:258
 msgid "Our software uses AI to condense information"
-msgstr ""
+msgstr "Onze software gebruikt AI om informatie samen te vatten"
 
 #: .\summarizer\templates\front\about.html:261
 msgid "We used to be called Summarizing-tool but now we're SummaryGenerator."
-msgstr ""
+msgstr "We stonden vroeger bekend als Summarizing-tool, maar nu zijn we SummaryGenerator."
 
 #: .\summarizer\templates\front\about.html:262
 msgid ""
 "This change allows us to offer advanced features and better functionality."
 msgstr ""
+"Deze verandering stelt ons in staat geavanceerde functies en betere functionaliteit aan te bieden."
 
 #: .\summarizer\templates\front\about.html:294
 msgid ""
 "Our goal is to provide you with an easy and efficient way to summarize "
 "content."
 msgstr ""
+"Ons doel is om je een eenvoudige en efficiënte manier te bieden om inhoud samen te vatten."
 
 #: .\summarizer\templates\front\about.html:313
 msgid ""
 "Our AI-driven generator takes complex information and turns it into concise "
 "summaries."
 msgstr ""
+"Onze op AI gebaseerde generator neemt complexe informatie en zet deze om in beknopte samenvattingen."
 
 #: .\summarizer\templates\front\about.html:331
 msgid ""
 "We know your time is valuable, so our algorithm ensures accurate and quick "
 "summaries. "
 msgstr ""
+"We weten dat je tijd waardevol is, dus ons algoritme zorgt voor nauwkeurige en snelle samenvattingen."
 
 #: .\summarizer\templates\front\about.html:351
 msgid "Bullet point summarization "
-msgstr ""
+msgstr "Opsomming van bulletpunten"
 
 #: .\summarizer\templates\front\about.html:355
 msgid ""
 "Whether you're a student or a professional, our platform is designed to meet "
 "your needs."
 msgstr ""
+"Of je nu student of professional bent, ons platform is ontworpen om aan jouw behoeften te voldoen."
 
 #: .\summarizer\templates\front\about.html:358
 msgid ""
 "One of our standout features is bullet point summarization, which improves "
 "readability."
 msgstr ""
+"Een van onze opvallende functies is de opsomming van bulletpunten, die de leesbaarheid verbetert."
 
 #: .\summarizer\templates\front\about.html:381
 msgid "Website Designer"
-msgstr ""
+msgstr "Website-ontwerper"
 
 #: .\summarizer\templates\front\about.html:382
 msgid "Our website is user-friendly and designed by Raheel Fida"
-msgstr ""
+msgstr "Onze website is gebruiksvriendelijk en ontworpen door Raheel Fida"
 
 #: .\summarizer\templates\front\about.html:399
 msgid "Contact us"
-msgstr ""
+msgstr "Neem contact met ons op"
 
 #: .\summarizer\templates\front\about.html:400
 msgid "If you have any questions or want to connect with us"
-msgstr ""
+msgstr "Als je vragen hebt of met ons in contact wilt komen"
 
 #: .\summarizer\templates\front\about.html:402
 msgid ""
