@@ -274,43 +274,43 @@ msgstr "Urheberrecht"
 #: .\summarizer\templates\front\privacypolicy.html:744
 #: .\summarizer\templates\front\termsandconditions.html:739
 msgid "Summarygenerator.io"
-msgstr ""
+msgstr "Summarygenerator.io"
 
 #: .\summarizer\templates\account\signup.html:197
 msgid "Start your journey"
-msgstr ""
+msgstr "Starte deine Reise"
 
 #: .\summarizer\templates\account\signup.html:198
 msgid "Create Summarygenerator account"
-msgstr ""
+msgstr "Summarygenerator-Konto erstellen"
 
 #: .\summarizer\templates\account\signup.html:227
 msgid "Full Name"
-msgstr ""
+msgstr "Vollständiger Name"
 
 #: .\summarizer\templates\account\signup.html:229
 msgid "Your Name"
-msgstr ""
+msgstr "Dein Name"
 
 #: .\summarizer\templates\account\signup.html:234
 msgid "Email Address"
-msgstr ""
+msgstr "E-Mail-Adresse"
 
 #: .\summarizer\templates\account\signup.html:236
 msgid "name@copygen.com"
-msgstr ""
+msgstr "name@copygen.com"
 
 #: .\summarizer\templates\account\signup.html:253
 msgid "Password (Confirm)"
-msgstr ""
+msgstr "Passwort (bestätigen)"
 
 #: .\summarizer\templates\account\signup.html:264
 msgid "Create Account"
-msgstr ""
+msgstr "Konto erstellen"
 
 #: .\summarizer\templates\account\signup.html:288
 msgid "Already have an account?"
-msgstr ""
+msgstr "Bereits ein Konto?"
 
 #: .\summarizer\templates\account\verification_sent.html:165
 msgid ""
@@ -318,82 +318,96 @@ msgid ""
 "finalize the signup process. Please contact us if you do not receive it "
 "within a few seconds."
 msgstr ""
+"Wir haben Ihnen eine E-Mail zur Verifizierung gesendet. Folgen Sie dem bereitgestellten Link, um "
+"den Anmeldevorgang abzuschließen. Bitte kontaktieren Sie uns, wenn Sie es nicht "
+"innerhalb weniger Sekunden erhalten."
 
 #: .\summarizer\templates\front\about.html:241
 msgid "SummaryGenerator.io"
-msgstr ""
+msgstr "SummaryGenerator.io"
 
 #: .\summarizer\templates\front\about.html:243
 msgid ""
 "Was founded on January 10, 2024, by Kamran Ali from Swabi, Pakistan and "
 msgstr ""
+"Wurde am 10. Januar 2024 von Kamran Ali aus Swabi, Pakistan, gegründet und "
 
 #: .\summarizer\templates\front\about.html:243
 msgid "developed by Abdullah from Uzbekistan."
-msgstr ""
+msgstr "entwickelt von Abdullah aus Usbekistan."
 
 #: .\summarizer\templates\front\about.html:258
 msgid "Our software uses AI to condense information"
-msgstr ""
+msgstr "Unsere Software verwendet KI, um Informationen zu verdichten"
 
 #: .\summarizer\templates\front\about.html:261
 msgid "We used to be called Summarizing-tool but now we're SummaryGenerator."
-msgstr ""
+msgstr "Früher hießen wir Summarizing-Tool, aber jetzt sind wir SummaryGenerator."
 
 #: .\summarizer\templates\front\about.html:262
 msgid ""
 "This change allows us to offer advanced features and better functionality."
 msgstr ""
+"Durch diese Änderung können wir fortgeschrittene Funktionen und eine bessere Funktionalität anbieten."
 
 #: .\summarizer\templates\front\about.html:294
 msgid ""
 "Our goal is to provide you with an easy and efficient way to summarize "
 "content."
 msgstr ""
+"Unser Ziel ist es, Ihnen eine einfache und effiziente Möglichkeit zu bieten, Inhalte zusammenzufassen."
 
 #: .\summarizer\templates\front\about.html:313
 msgid ""
 "Our AI-driven generator takes complex information and turns it into concise "
 "summaries."
 msgstr ""
+"Unser KI-gesteuerter Generator nimmt komplexe Informationen auf und verwandelt sie in prägnante "
+"Zusammenfassungen."
 
 #: .\summarizer\templates\front\about.html:331
 msgid ""
 "We know your time is valuable, so our algorithm ensures accurate and quick "
 "summaries. "
 msgstr ""
+"Wir wissen, dass Ihre Zeit wertvoll ist, daher gewährleistet unser Algorithmus genaue und schnelle "
+"Zusammenfassungen."
 
 #: .\summarizer\templates\front\about.html:351
 msgid "Bullet point summarization "
-msgstr ""
+msgstr "Zusammenfassung in Aufzählungspunkten"
 
 #: .\summarizer\templates\front\about.html:355
 msgid ""
 "Whether you're a student or a professional, our platform is designed to meet "
 "your needs."
 msgstr ""
+"Ob Sie Student oder Fachmann sind, unsere Plattform ist darauf ausgelegt, Ihren Bedürfnissen gerecht zu werden."
 
 #: .\summarizer\templates\front\about.html:358
 msgid ""
 "One of our standout features is bullet point summarization, which improves "
 "readability."
 msgstr ""
+"Eine unserer herausragenden Funktionen ist die Zusammenfassung in Aufzählungspunkten, die die "
+"Lesbarkeit verbessert."
 
 #: .\summarizer\templates\front\about.html:381
 msgid "Website Designer"
-msgstr ""
+msgstr "Website-Designer"
 
 #: .\summarizer\templates\front\about.html:382
 msgid "Our website is user-friendly and designed by Raheel Fida"
-msgstr ""
+msgstr "Unsere Website ist benutzerfreundlich und wurde von Raheel Fida entworfen"
 
 #: .\summarizer\templates\front\about.html:399
 msgid "Contact us"
-msgstr ""
+msgstr "Kontaktiere uns"
 
 #: .\summarizer\templates\front\about.html:400
 msgid "If you have any questions or want to connect with us"
-msgstr ""
+msgstr "Wenn Sie Fragen haben oder mit uns in Kontakt treten möchten"
+
 
 #: .\summarizer\templates\front\about.html:402
 msgid ""
@@ -482,10 +496,13 @@ msgid ""
 "and presents complex content in engaging chunks. You get the most relevant "
 "and crucial data in just one click."
 msgstr ""
+"Dieser Textzusammenfasser extrahiert schnell wichtige Informationen aus großen Texten "
+"und präsentiert komplexe Inhalte in ansprechenden Abschnitten. Sie erhalten die relevantesten "
+"und entscheidenden Daten mit nur einem Klick."
 
 #: .\summarizer\templates\front\home2.html:263
 msgid "Choose Your Summary Length & Style"
-msgstr ""
+msgstr "Wählen Sie Länge und Stil Ihrer Zusammenfassung"
 
 #: .\summarizer\templates\front\home2.html:267
 #: .\summarizer\templates\front\index.html:127
@@ -495,11 +512,15 @@ msgid ""
 "academic research. You’ve also got an option to generate the summary in "
 "paragraph form or bullet points."
 msgstr ""
+"Sie können die Länge und das Format der Zusammenfassung anpassen. Erstellen Sie einen schnellen "
+"Überblick über den Inhalt für Ihren Blogbeitrag oder erhalten Sie eine detaillierte Zusammenfassung für Ihre "
+"wissenschaftliche Forschung. Sie haben auch die Möglichkeit, die Zusammenfassung in "
+"Absatzform oder als Aufzählungspunkte zu generieren."
 
 #: .\summarizer\templates\front\home2.html:292
 #: .\summarizer\templates\front\index.html:152
 msgid "Over"
-msgstr ""
+msgstr "Über"
 
 #: .\summarizer\templates\front\home2.html:293
 #: .\summarizer\templates\front\index.html:153
@@ -508,11 +529,13 @@ msgid ""
 "users like you have used this summary generator to convert their lengthy "
 "text into efficient, 100%% accurate summaries"
 msgstr ""
+"Nutzer wie Sie haben diesen Zusammenfassungsgenerator verwendet, um ihre umfangreichen "
+"Texte in effiziente, zu 100%% genaue Zusammenfassungen zu konvertieren."
 
 #: .\summarizer\templates\front\home2.html:296
 #: .\summarizer\templates\front\index.html:156
 msgid "Generate your summary now – it’s free"
-msgstr ""
+msgstr "Generieren Sie jetzt Ihre Zusammenfassung - es ist kostenlos"
 
 #: .\summarizer\templates\front\home2.html:321
 #: .\summarizer\templates\front\index.html:181
@@ -522,35 +545,41 @@ msgid ""
 "faster. The summaries are concise and comprehensive, saving me hours of "
 "reading."
 msgstr ""
+"Als freiberuflicher Schriftsteller war dieser Textzusammenfasser ein Game Changer für mich. "
+"Er kondensiert lange Artikel effizient, hilft mir schneller zu recherchieren und zu schreiben. "
+"Die Zusammenfassungen sind prägnant und umfassend und sparen mir Stunden des Lesens."
 
 #: .\summarizer\templates\front\home2.html:326
 #: .\summarizer\templates\front\index.html:186
 msgid "Freelance Writer"
-msgstr ""
+msgstr "Freiberuflicher Schriftsteller"
 
 #: .\summarizer\templates\front\home2.html:347
 #: .\summarizer\templates\front\index.html:207
 msgid ""
 "During my PhD research, SummaryGenerator.io proved invaluable. It quickly "
-"distills the main ideas of complex academic papers. The tool`s precision in "
+"distills the main ideas of complex academic papers. The tool's precision in "
 "highlighting relevant data and arguments made my literature review process "
 "much more manageable."
 msgstr ""
+"Während meiner Promotion hat sich SummaryGenerator.io als unschätzbar erwiesen. Es extrahiert schnell "
+"die Hauptideen komplexer wissenschaftlicher Arbeiten. Die Präzision des Tools beim Hervorheben relevanter Daten "
+"und Argumente hat meinen Prozess der Literaturrecherche erheblich erleichtert."
 
 #: .\summarizer\templates\front\home2.html:352
 #: .\summarizer\templates\front\index.html:212
 msgid "Academic Researcher"
-msgstr ""
+msgstr "Wissenschaftlicher Forscher"
 
 #: .\summarizer\templates\front\home2.html:401
 #: .\summarizer\templates\front\index.html:261
 msgid "How Does the Text Summary Generator Work?"
-msgstr ""
+msgstr "Wie funktioniert der Textzusammenfassungsgenerator?"
 
 #: .\summarizer\templates\front\home2.html:424
 #: .\summarizer\templates\front\index.html:284
 msgid "Enter the Text"
-msgstr ""
+msgstr "Text eingeben"
 
 #: .\summarizer\templates\front\home2.html:426
 #: .\summarizer\templates\front\index.html:286
@@ -558,6 +587,9 @@ msgid ""
 "You can copy the text and paste it into the box above, or upload a file from "
 "your desktop. You can upload a Doc or PDF file."
 msgstr ""
+"Sie können den Text kopieren und in das obige Feld einfügen oder eine Datei von "
+"Ihrem Desktop hochladen. Sie können eine Doc- oder PDF-Datei hochladen."
+
 
 #: .\summarizer\templates\front\home2.html:451
 #: .\summarizer\templates\front\index.html:311
