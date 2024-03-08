@@ -153,43 +153,48 @@
                                 <td class="tb-col">
                                     <a data-bs-target="#DocumentModal" data-bs-toggle="modal" class="document-link" href="#DocumentModal"
                                         data-document-id="{{ document.document_id }}">
-                                        <div class="caption-text line-clamp-2">{% translate "{{ document.input_text|first_eight_words }}..." %}</div>
+                                        <div class="caption-text line-clamp-2">{{ document.input_text|first_eight_words }}...</div>
                                     </a>
                                 </td>
                                 <td class="tb-col tb-col-sm">
-                                    <div class="badge text-bg-dark-soft rounded-pill px-2 py-1 fs-6 lh-sm">{% translate "{{ document.words_used }}" %}</div>
+                                    <div class="badge text-bg-dark-soft rounded-pill px-2 py-1 fs-6 lh-sm">{{ document.words_used }}</div>
                                 </td>
                                 <!-- <td class="tb-col">
                                     <div class="caption-text line-clamp-2">{{ document.level }}</div>
                                 </td> -->
                                 <td class="tb-col">
-                                    <div class="caption-text line-clamp-2">{% translate "{{ document.purpose }}" %}</div>
+                                    <div class="caption-text line-clamp-2">{{ document.purpose }}</div>
                                 </td>
                                 <!-- <td class="tb-col">
                                     <div class="caption-text line-clamp-2">{{ document.readibility }}</div>
                                 </td> -->
                                 <td class="tb-col tb-col-md">
-                                    <div class="fs-6 text-light d-inline-flex flex-wrap gap gx-2"><span>{% translate "{{ document.created_at|date:\"M d,Y\" }}" %}
-                                        </span> <span>{% translate "{{ document.created_at|time:\"H:i A\" }}" %}</span></div>
+                                    <div class="fs-6 text-light d-inline-flex flex-wrap gap gx-2">
+                                        <span>{{ document.created_at|date:"M d,Y" }}</span>
+                                        <span>{{ document.created_at|time:"H:i A" }}</span>
+                                    </div>
                                 </td>
                             </tr>
+                            
                             {% endfor %}
 
                         </tbody>
                     </table>
                 </div>
                 <div class="table-pagination mt-4">
-                    <div class="table-pagination-info">{% translate "{{ documents.start_index }} – {{ documents.end_index }} of {{ documents.paginator.count }} items" %}</div>
+                    <div class="table-pagination-info">{{ documents.start_index }} – {{ documents.end_index }} of {{ documents.paginator.count }} items</div>
                     <div class="table-pagination-select">
                         <div class="form-control-wrap">
-                            <div  data-type="select-one" tabindex="0" role="listbox" aria-haspopup="true" aria-expanded="false">
+                            <div data-type="select-one" tabindex="0" role="listbox" aria-haspopup="true" aria-expanded="false">
                                 <div class="choices__inner">
                                     <!-- Display Current Page Number -->
-                                    <span>{% translate "Page" %} {{ documents.number }} {% translate "of" %} {{ documents.paginator.num_pages }}</span>
+                                    <span>Page {{ documents.number }} of {{ documents.paginator.num_pages }}</span>
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+                
                     
                     
                     <!-- Pagination Buttons -->
