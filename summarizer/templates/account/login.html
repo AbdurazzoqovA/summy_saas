@@ -251,9 +251,17 @@
                                                     <label class="form-label" for="toggle-password">{% translate 'Password' %}</label>
                                                     <div class="form-control-wrap">
                                                         <button type="button" class="form-control-icon end password-toggle" id="toggle-password-button" title="Toggle show/hide password">
-                                                            <svg class="on" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M21 12c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm-10 2v2m0 0c1.55-1.03 3.45-1.03 5 0m-5 4v2"/></svg>
-                                                            <svg class="off" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M8 2S4 2 4 6s4 8 8 8 8-2 8-6-4-8-8-8zm4 8v4a4 4 0 0 1-8 0V6h8z"/></svg>
-                                                        </button>
+                                                          <img
+                                                          class="on" style="width:30px; height:auto!important;"
+                                                          src="{% static 'front/images/hide.png' %}"
+                                                          alt=""
+                                                        />
+                                                        <img
+                                                        class="off" style="width:30px; height:auto!important;"
+                                                        src="{% static 'front/images/show.png' %}"
+                                                        alt=""
+                                                      />
+                                                         </button>
                                                         <input type="password" name="password" id="toggle-password" class="form-control form-control-lg" placeholder="Enter Password" required>
                                                     </div>
                                                 </div>
