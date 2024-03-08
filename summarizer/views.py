@@ -40,6 +40,11 @@ def main(request):
         },
     )
 
+
+def dashboard_view(request):
+    # Your dashboard logic here
+    return render(request, 'dashboard/dashboard.html')
+
 def custom_logout(request):
     logout(request)
     return redirect('https://summarygenerator.io/') 
