@@ -89,14 +89,14 @@
 
                                 </div>
                                 <h5 class="fs-1">
-                                    {% translate '{{ available_words|intcomma }}' %}
+                                    {{ available_words|intcomma }}
                                     <small class="fs-3">{% translate "words" %}</small>
                                 </h5>
                                 <div class="fs-7 text-light mt-1">
                                     <span class="text-dark">
-                                        {% translate "{{ used_words|intcomma }}" %}
+                                       {{ used_words|intcomma }}
                                     </span>
-                                    /{% translate "{{ words_purchased|intcomma }}" %} {% translate "words generated" %}
+                                  {{ words_purchased|intcomma }} {% translate "words generated" %}
                                 </div>
                                 
                             </div>
