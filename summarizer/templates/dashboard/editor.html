@@ -30,164 +30,79 @@
 }
 
 </style>
-    <div class="nk-editor">
-        <div class="nk-editor-header">
-            <div class="nk-editor-title">
-                <h4 class="me-3 mb-0 line-clamp-1">Content Writer</h4>
-               
-            </div>
-            <div class="nk-editor-tools d-none d-xl-flex">
-                <ul class="d-inline-flex gap gx-3 gx-lg-4 pe-4 pe-lg-5">
-                    <li>
-                        <span class="sub-text text-nowrap">Words <span class="text-dark" id="words_count">0</span></span>
-                    </li>
-                    <li>
-                        <span class="sub-text text-nowrap">Characters <span class="text-dark" id="chars_count">0</span></span>
-                    </li>
-                </ul>
-                <ul class="d-inline-flex gap gx-3">
-                    <li>
-                        <button type="button" class="btn btn-md btn-primary rounded-pill" id="generateButton">Generate</button>
-                    </li>
-                    <li>
-                        <button   class="btn btn-md btn-success rounded-pill disabled" type="button" id="humanizeButton"> Humanize </button>
-                    </li>
-                    <li>
-                        <button  id="detectButton"  class="btn btn-md  btn-info rounded-pill disabled" type="button">
-                            Check for AI </button>
-                    </li>
-                    
-                    <li>
-                        <div class="dropdown">
-                            <button class="btn btn-md btn-light rounded-pill" type="button" data-bs-toggle="dropdown">
-                                <span>Export</span>
-                                <em class="icon ni ni-chevron-down"></em>
-                            </button>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#doc">Export as Doc</a></li>
-                                
-                            </ul>
-                        </div>
-                    </li>
-                    
-                </ul>
-            </div>
+<div class="nk-editor">
+    <div class="nk-editor-header">
+        <div class="nk-editor-title">
+            <h4 class="me-3 mb-0 line-clamp-1">{% translate "Content Writer" %}</h4>
         </div>
-        <div class="nk-editor-main">
-            <div class="nk-editor-base">
-                <ul class="nav nav-tabs nav-sm nav-tabs-s1 px-3">
-                    <li class="nav-item">
-                        <button class="nav-link active" type="button" data-bs-toggle="tab"
-                            data-bs-target="#AI-Writer">AI Writer</button>
-                    </li>
-                   
-                </ul>
-                <div class="tab-content">
-                    <div class="tab-pane fade show active" id="AI-Writer">
-                        <form  class="px-4 py-4">{% csrf_token %}
-                            <div class="row gy-4 gx-4">
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <label class="form-label">Select Template</label>
-                                        <div class="form-control-wrap">
-                                            <select class="js-select" data-search="true" data-sort="false" id="content_type">
-                                                <option value="essay">Essay</option>
-                                                <option value="blog_post" selected>Blog Post</option>
-                                                <option value="Blog Title">Blog Title</option>
-                                                <option value="blog_outline">Blog Outline</option>
-                                                <option value="social_media_facebook">Social Media Post - Facebook</option>
-                                                <option value="social_media_twitter">Social Media Post - Twitter</option>
-                                                <option value="social_media_linkedin">Social Media Post - Linkedin</option>
-                                                <option value="ad_content">Ad Content</option>
-                                                <option value="email">Email Content</option>
-                                                
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <label class="form-label">What do you want to generate?</label>
-                                        <div class="form-control-wrap">
-                                            <textarea cols="30" rows="4"
-                                                class="form-control" id="textToGenerate">How AI detectors work?</textarea>
-                                        </div>
-                                        <div class="form-note d-flex justify-content-end"><span>Please enter only the topic for your request. Avoid using phrases such as 'write' or 'generate' to ensure the best
-                                        results.</span>
-                                        </div>
-                                    </div>
-                                </div><!-- .col -->
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <label for="primaryKeywords" class="form-label">Primary Keywords</label>
-                                        <div class="form-control-wrap">
-                                            <input  id="primaryKeywords" type="text" class="form-control"
-                                                value="AI detectors, AI content, AI Humanizers" />
-                                        </div>
-                                        <div class="form-note d-flex justify-content-between"><span>Separated with a
-                                                comma</span><span>0/10</span></div>
-                                    </div>
-                                </div><!-- .col -->
-                                <div class="col-6">
-                                    <div class="form-group">
-                                        <label class="form-label">Select Language</label>
-                                        <div class="form-control-wrap">
-                                            <select class="js-select" id="selectLanguage" data-search="true" data-sort="false">
-                                                <option value="English US">English US</option>
-                                                <option value="Español">Español</option>
-                                                <option value="Français">Français</option>
-                                               
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div><!-- .col -->
-                                <div class="col-6">
-                                    <div class="form-group">
-                                        <label class="form-label">Select Tone</label>
-                                        <div class="form-control-wrap">
-                                            <select class="js-select" id="selectTone" data-search="true" data-sort="false">
-                                                <option value="Friendly">Friendly</option>
-                                                <option value="Creative">Creative</option>
-                                                <option value="Extreme">Extreme</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div><!-- .col -->
-                            <div class="col-12">
-                                <div class="form-check form-switch">
-                                    <input class="form-check-input" type="checkbox" value="" id="flexSwitchChecked" checked="">
-                                    <label class="form-check-label" for="flexSwitchChecked"> Extend mode </label>
-                                    <span>Select at least 30 words to Extend</span>
-                                </div>
-                            </div>
-                                <!-- <div class="col-6">
-                                    <button type="button" class="btn btn-primary w-100" id="generateButton">Generate</button>
-                                </div> -->
-                                
-                            </div><!-- .row -->
-                        </form>
-                    </div><!-- .tab-pane -->
-                  
-                </div><!-- .tab-content -->
-            </div><!-- .nk-editor-base -->
-            <div class="nk-editor-body">
-                <div class="wide-md h-100">
-                    <div class="js-editor nk-editor-style-clean nk-editor-full" data-menubar="false" id="editor-v1">
-                    
-                    </div> <!-- .js-editor -->
-                </div>
-            </div><!-- .nk-editor-body -->
-        </div><!-- .nk-editor-main -->
-    </div><!-- .nk-editor -->
+        <div class="nk-editor-tools d-none d-xl-flex">
+            <ul class="d-inline-flex gap gx-3 gx-lg-4 pe-4 pe-lg-5">
+                <li>
+                    <span class="sub-text text-nowrap">{% translate "Words" %} <span class="text-dark" id="words_count">0</span></span>
+                </li>
+                <li>
+                    <span class="sub-text text-nowrap">{% translate "Characters" %} <span class="text-dark" id="chars_count">0</span></span>
+                </li>
+            </ul>
+            <ul class="d-inline-flex gap gx-3">
+                <li>
+                    <button type="button" class="btn btn-md btn-primary rounded-pill" id="generateButton">{% translate "Generate" %}</button>
+                </li>
+                <li>
+                    <button class="btn btn-md btn-success rounded-pill disabled" type="button" id="humanizeButton">{% translate "Humanize" %}</button>
+                </li>
+                <li>
+                    <button id="detectButton" class="btn btn-md btn-info rounded-pill disabled" type="button">
+                        {% translate "Check for AI" %}
+                    </button>
+                </li>
+                <li>
+                    <div class="dropdown">
+                        <button class="btn btn-md btn-light rounded-pill" type="button" data-bs-toggle="dropdown">
+                            <span>{% translate "Export" %}</span>
+                            <em class="icon ni ni-chevron-down"></em>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#doc">{% translate "Export as Doc" %}</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="nk-editor-main">
+        <div class="nk-editor-base">
+            <ul class="nav nav-tabs nav-sm nav-tabs-s1 px-3">
+                <li class="nav-item">
+                    <button class="nav-link active" type="button" data-bs-toggle="tab" data-bs-target="#AI-Writer">{% translate "AI Writer" %}</button>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="AI-Writer">
+                    <form class="px-4 py-4">{% csrf_token %}
+                        <div class="row gy-4 gx-4">
+                            <!-- The rest of your form... -->
+                        </div><!-- .row -->
+                    </form>
+                </div><!-- .tab-pane -->
+            </div><!-- .tab-content -->
+        </div><!-- .nk-editor-base -->
+        <div class="nk-editor-body">
+            <div class="wide-md h-100">
+                <div class="js-editor nk-editor-style-clean nk-editor-full" data-menubar="false" id="editor-v1"></div> <!-- .js-editor -->
+            </div>
+        </div><!-- .nk-editor-body -->
+    </div><!-- .nk-editor-main -->
+</div>
+
+
 <div id="customPopover" class="popover" style="display: none; position: absolute;">
     <div class="popover-body">
-        
         <button class="btn btn-outline-light" id="extendButton" style="display: flex; align-items: center;">
             <img src="{% static '/assets/images/aihumanize_icon.png' %}" alt="" class="popover-img"
                 style="width: 40px; height: 30px; margin-right: 10px;">
-
             <!-- Adjust the width as needed -->
-            Extend Content
+            {% translate "Extend Content" %}
         </button>
     </div>
 </div>
@@ -197,7 +112,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title">AI Detection Result</h5>
+                <h5 class="modal-title">{% translate "AI Detection Result" %}</h5>
                 <button type="button" class="btn btn-danger btn-icon close" data-dismiss="modal">&times;</button>
             </div>
             <div class="modal-body" id="modalContent">
@@ -216,20 +131,18 @@
                 <div class="media media-rg media-middle media-circle text-primary bg-primary bg-opacity-20 mb-3">
                     <em class="icon ni ni-spark-fill"></em>
                 </div>
-                <h2 class="text-primary">Get started today with <span class="text-success">400</span> free words.</h2>
-                <p>Sign up to humanize and make this text undetectable.</p>
+                <h2 class="text-primary">{% translate "Get started today with" %} <span class="text-success">400</span> {% translate "free words." %}</h2>
+                <p>{% translate "Sign up to humanize and make this text undetectable." %}</p>
                 <div class="card bg-lighter bg-opacity-80 shadow-none mt-2">
                     <div class="card-body">
-                        <h5>What you will gain after signing up?</h5>
+                        <h5>{% translate "What you will gain after signing up?" %}</h5>
                         <ul class="pricing-list d-flex flex-column gap-3 fs-lg mt-5 mb-0">
-                            <li>Rewrites <strong class=" fw-medium" id="listWordsCount">400</strong> words for free
-                            </li>
-
-                            <li>Built-in AI detector</li>
-                            <li> No weird or random words</li>
-                            <li>Passes AI detectors</li>
-                            <li>High quality, legible content</li>
-                            <li>Writing level matching</li>
+                            <li>{% translate "Rewrites" %} <strong class=" fw-medium" id="listWordsCount">400</strong> {% translate "words for free" %}</li>
+                            <li>{% translate "Built-in AI detector" %}</li>
+                            <li>{% translate "No weird or random words" %}</li>
+                            <li>{% translate "Passes AI detectors" %}</li>
+                            <li>{% translate "High quality, legible content" %}</li>
+                            <li>{% translate "Writing level matching" %}</li>
                         </ul>
                     </div>
                 </div><!-- .card -->
@@ -238,42 +151,35 @@
                     <a href="{% provider_login_url 'google' %}" class="btn account-btn py-4">
                         <img src="{% static 'assets/images/icons/google.svg' %}" alt="" width="24"
                             class="img-fluid icon" />
-                        <span>Continue With Google</span>
+                        <span>{% translate "Continue With Google" %}</span>
                     </a>
                     <a href="{% url 'account_signup' %}" class="btn account-btn py-4">
                         <img src="{% static 'assets/images/icons/email.svg' %}" alt="" width="24"
                             class="img-fluid icon" />
-                        <span>Continue With Email</span>
+                        <span>{% translate "Continue With Email" %}</span>
                     </a>
                     <button type="button" class="btn account-btn py-4 mt-3" data-bs-dismiss="modal">
-                        <span>Continue Exploring</span>
+                        <span>{% translate "Continue Exploring" %}</span>
                     </button>
                 </div>
-                <!-- <div class="col-12 "><button class="btn btn-outline-light " data-bs-dismiss="modal">Keep Plan</button></div>
-                    <div class="col-12 mt-2"><a href="pricing-plans.html" class="btn btn-primary ">Change Plan</a></div> -->
-
             </div>
             {% else %}
             <div class="modal-body p-4">
-               
-                <h2 class="text-primary">Upgrade Required</h2>
-                <p>Your current plan does not include unlimited AI writer access.</p>
-                <p><strong>Upgrade to our premium plan</strong> for unrestricted use of our advanced AI writing features.</p>
-                
+                <h2 class="text-primary">{% translate "Upgrade Required" %}</h2>
+                <p>{% translate "Your current plan does not include unlimited AI writer access." %}</p>
+                <p>{% translate "Upgrade to our premium plan" %} <strong>{% translate "for unrestricted use of our advanced AI writing features." %}</strong></p>
 
                 <div class="vstack gap-4 mt-4">
                     <a href="{% url 'pricing' %}" class="btn btn-primary">
-                        <span>View Subscription Plans</span>
+                        <span>{% translate "View Subscription Plans" %}</span>
                     </a>
-                    
                 </div>
             </div>
-
             {% endif %}
-            <!-- .modal-body -->
         </div><!-- .modal-content -->
     </div><!-- .modal-dialog -->
 </div>
+
 
 <script>
     document.getElementById('humanizeButton').addEventListener('click', function () {

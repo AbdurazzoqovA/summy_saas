@@ -11,55 +11,52 @@
             <div class="nk-block-head nk-page-head">
                 <div class="nk-block-head-between">
                     <div class="nk-block-head-content">
-                        <h2 class="display-6">Edit Profile</h2>
+                        <h2 class="display-6">{% translate "Edit Profile" %}</h2>
                     </div>
                 </div>
             </div><!-- .nk-page-head -->
             <div class="nk-block">
-
                 <div class="card shadown-none">
                     <div class="card-body">
                         <form action="{% url 'edit_profile' %}" class="form" method="post"> {% csrf_token %}
-                        <div class="row g-3 gx-gs">
-                            
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="fullnameId" class="form-label">Full Name</label>
-                                    <div class="form-control-wrap">
-                                        <input type="text" class="form-control" id="fullnameId"
-                                            placeholder="Enter Full name here" name="fullname" {% if request.user.fullname != None %} value="{{request.user.fullname}}" {% endif %}>
+                            <div class="row g-3 gx-gs">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="fullnameId" class="form-label">{% translate "Full Name" %}</label>
+                                        <div class="form-control-wrap">
+                                            <input type="text" class="form-control" id="fullnameId"
+                                                placeholder="{% translate 'Enter Full name here' %}" name="fullname" {% if request.user.fullname != None %} value="{{request.user.fullname}}" {% endif %}>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label for="countryID" class="form-label">Country</label>
-                                    <div class="form-control-wrap">
-                                        <input type="text" class="form-control" id="countryID"
-                                            placeholder="Enter Country here" {% if request.user.country != None %}
-                                            value="{{request.user.country}}" {% endif %} name="country">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="countryID" class="form-label">{% translate "Country" %}</label>
+                                        <div class="form-control-wrap">
+                                            <input type="text" class="form-control" id="countryID"
+                                                placeholder="{% translate 'Enter Country here' %}" {% if request.user.country != None %}
+                                                value="{{request.user.country}}" {% endif %} name="country">
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" name="check_box" id="flexCheckChecked" {% if request.user.does_email_receive == True %} checked {%endif%}>
-                                    <label class="form-check-label" for="flexCheckChecked"> I would like to receive updates and news via email.
-                                    </label>
+                                <div class="col-md-12">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" name="check_box" id="flexCheckChecked" {% if request.user.does_email_receive == True %} checked {%endif%}>
+                                        <label class="form-check-label" for="flexCheckChecked">{% translate "I would like to receive updates and news via email." %}
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <button class="btn btn-outline-primary" type="submit">{% translate "Update" %}</button>
                                 </div>
                             </div>
-                            
-                            <div class="col-md-12">
-                                <button class="btn btn-outline-primary" type="submit">Update</button>
-                            </div>
-                       
-                        </div>
-                    </form>
+                        </form>
                     </div><!-- .card-body -->
                 </div>
             </div>
         </div>
     </div>
 </div>
+
 
 {% endblock %}

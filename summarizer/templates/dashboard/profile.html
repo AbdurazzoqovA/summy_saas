@@ -10,58 +10,56 @@
             <div class="nk-block-head nk-page-head">
                 <div class="nk-block-head-between">
                     <div class="nk-block-head-content">
-                        <h2 class="display-6">Personal Account</h2>
+                        <h2 class="display-6">{% translate "Personal Account" %}</h2>
                     </div>
                 </div>
-            </div><!-- .nk-page-head -->
+            </div>
+            <!-- .nk-page-head -->
             <div class="nk-block">
                 <ul class="nav nav-tabs mb-3 nav-tabs-s1">
                     <li class="nav-item">
                         <button class="nav-link active" type="button" data-bs-toggle="tab"
-                            data-bs-target="#profile-tab-pane">Profile</button>
+                            data-bs-target="#profile-tab-pane">{% translate "Profile" %}</button>
                     </li>
                     <li class="nav-item">
                         <button class="nav-link" type="button" data-bs-toggle="tab"
-                            data-bs-target="#payment-billing-tab-pane">Payment &amp; Billing</button>
+                            data-bs-target="#payment-billing-tab-pane">{% translate "Payment & Billing" %}</button>
                     </li>
-                    
                 </ul>
+                
                 <div class="tab-content">
                     <div class="tab-pane fade show active" id="profile-tab-pane">
-                        <div
-                            class="d-flex align-items-center justify-content-between border-bottom border-light mt-5 pb-1">
-                            <h5>Personal Details</h5>
-                            <a class="link link-primary fw-normal" href="{% url 'edit_profile' %}">Edit Profile</a>
+                        <div class="d-flex align-items-center justify-content-between border-bottom border-light mt-5 pb-1">
+                            <h5>{% translate "Personal Details" %}</h5>
+                            <a class="link link-primary fw-normal" href="{% url 'edit_profile' %}">{% translate "Edit Profile" %}</a>
                         </div>
                         <table class="table table-flush table-middle mb-0">
                             <tbody>
                                 <tr>
                                     <td class="tb-col">
-                                        <span class="fs-15px text-light">Full Name</span>
+                                        <span class="fs-15px text-light">{% translate "Full Name" %}</span>
                                     </td>
                                     <td class="tb-col">
                                         <span class="fs-15px text-base">
                                             {% if request.user.fullname != None %}
                                             {{request.user.fullname}}
                                             {% endif %}
-                                        
                                         </span>
                                     </td>
                                     <td class="tb-col tb-col-end tb-col-sm"></td>
                                 </tr>
                                 <tr>
                                     <td class="tb-col">
-                                        <span class="fs-15px text-light">Email</span>
+                                        <span class="fs-15px text-light">{% translate "Email" %}</span>
                                     </td>
                                     <td class="tb-col">
                                         <span class="fs-15px text-base">{{ request.user.email }}</span>
                                     </td>
                                     <td class="tb-col tb-col-end tb-col-sm"></td>
                                 </tr>
-                           
                                 <tr>
                                     <td class="tb-col">
-                                        <span class="fs-15px text-light">Country</span>
+                                        <span class="fs-15px text-light">{% translate "Country" %}</span>
                                     </td>
                                     <td class="tb-col">
                                         <span class="fs-15px text-base">
@@ -74,37 +72,37 @@
                                 </tr>
                                 <tr>
                                     <td class="tb-col">
-                                        <span class="fs-15px text-light">Password</span>
+                                        <span class="fs-15px text-light">{% translate "Password" %}</span>
                                     </td>
                                     <td class="tb-col">
                                         <span class="fs-15px text-base"><a class="link link-primary fw-normal"
-                                                href="{% url 'account_reset_password' %}">Change Password</a></span>
+                                                href="{% url 'account_reset_password' %}">{% translate "Change Password" %}</a></span>
                                     </td>
-                                   
+                    
                                 </tr>
                             </tbody>
                         </table>
-                      
                     </div><!-- .tab-pane -->
+                    
                    
                     <div class="tab-pane fade" id="payment-billing-tab-pane">
                         
-                        <div
-                            class="d-flex flex-wrap align-items-center justify-content-between border-bottom border-light mt-5 mb-4 pb-1">
-                            <h5 class="mb-0">Your Subscription</h5>
+                        <div class="d-flex flex-wrap align-items-center justify-content-between border-bottom border-light mt-5 mb-4 pb-1">
+                            <h5 class="mb-0">{% translate "Your Subscription" %}</h5>
                             <ul class="d-flex gap gx-4">
                                 {% if subscrioption_id != none %}
                                 <li>
                                     <a class="link link-danger fw-normal" data-bs-toggle="modal"
-                                        href="#cancelSubscriptionModal">Cancel Subscription</a>
+                                        href="#cancelSubscriptionModal">{% translate "Cancel Subscription" %}</a>
                                 </li>
                                 {% endif %}
                                 <li>
                                     <a class="link link-primary fw-normal" data-bs-toggle="modal"
-                                        href="#changePlanModal">Change Plan</a>
+                                        href="#changePlanModal">{% translate "Change Plan" %}</a>
                                 </li>
                             </ul>
                         </div>
+                        
                         <!-- <div class="alert alert-warning alert-dismissible fade show mb-4 rounded-6" role="alert">
                             <p class="small mb-0">Save big up to 75% on your upgrade to our <strong><a
                                         class="alert-link" href="#">Enterprise plan</a></strong> and enjoy premium
@@ -120,20 +118,19 @@
                             <div class="col-xl-3 col-sm-6">
                                 <div class="card shadow-none">
                                     <div class="card-body">
-                                        <div class="text-light mb-2">Plan</div>
-                                        <h3 class="fw-normal">{{subscription_name}}</h3>
+                                        <div class="text-light mb-2">{% translate "Plan" %}</div>
+                                        <h3 class="fw-normal">{{ subscription_name }}</h3>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-3 col-sm-6">
                                 <div class="card shadow-none">
                                     <div class="card-body">
-                                        <div class="text-light mb-2">Recurring Payment</div>
+                                        <div class="text-light mb-2">{% translate "Recurring Payment" %}</div>
                                         {% if subscrioption_id != none %}
-                                        <h3 class="fw-normal">${{subscrioption_price}}/{{subscription_name_period}}</h3>
+                                        <h3 class="fw-normal">${{ subscrioption_price }}/{{ subscription_name_period }}</h3>
                                         {% else %}
-                                        <h3 class="fw-normal">No Active Subscription
-                                        </h3>
+                                        <h3 class="fw-normal">{% translate "No Active Subscription" %}</h3>
                                         {% endif %}
                                     </div>
                                 </div>
@@ -141,11 +138,11 @@
                             <div class="col-xl-3 col-sm-6">
                                 <div class="card shadow-none">
                                     <div class="card-body">
-                                        <div class="text-light mb-2">Next Due Date</div>
+                                        <div class="text-light mb-2">{% translate "Next Due Date" %}</div>
                                         {% if next_due_date != none %}
-                                        <h3 class="fw-normal">{{next_due_date}}</h3>
+                                        <h3 class="fw-normal">{{ next_due_date }}</h3>
                                         {% else %}
-                                        <h3 class="fw-normal">No Active Subscription</h3>
+                                        <h3 class="fw-normal">{% translate "No Active Subscription" %}</h3>
                                         {% endif %}
                                     </div>
                                 </div>
@@ -153,38 +150,39 @@
                             <div class="col-xl-3 col-sm-6">
                                 <div class="card shadow-none">
                                     <div class="card-body">
-                                        <div class="text-light mb-2">Payment Method</div>
+                                        <div class="text-light mb-2">{% translate "Payment Method" %}</div>
                                         <div class="d-flex align-items-center">
                                             {% if next_due_date != none %}
-                                            <h3 class="fw-normal ms-2">Stripe</h3>
+                                            <h3 class="fw-normal ms-2">{% translate "Stripe" %}</h3>
                                             {% else %}
-                                            <h3 class="fw-normal ms-2">No Active Subscription</h3>
+                                            <h3 class="fw-normal ms-2">{% translate "No Active Subscription" %}</h3>
                                             {% endif %}
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div
-                            class="d-flex align-items-center justify-content-between border-bottom border-light mt-5 mb-4 pb-2">
-                            <h5>Billing History</h5>
+                        
+                        <div class="d-flex align-items-center justify-content-between border-bottom border-light mt-5 mb-4 pb-2">
+                            <h5>{% translate "Billing History" %}</h5>
                         </div>
+                        
                         {% if invoices %}
                         <div class="card">
                             <table class="table table-middle mb-0">
                                 <thead class="table-light">
                                     <tr>
                                         <th class="tb-col">
-                                            <div class="fs-13px text-base">Subscription</div>
+                                            <div class="fs-13px text-base">{% translate "Subscription" %}</div>
                                         </th>
                                         <th class="tb-col tb-col-md">
-                                            <div class="fs-13px text-base">Payment Date</div>
+                                            <div class="fs-13px text-base">{% translate "Payment Date" %}</div>
                                         </th>
                                         <th class="tb-col tb-col-sm">
-                                            <div class="fs-13px text-base">Total</div>
+                                            <div class="fs-13px text-base">{% translate "Total" %}</div>
                                         </th>
                                         <th class="tb-col tb-col-sm">
-                                            <div class="fs-13px text-base">Status</div>
+                                            <div class="fs-13px text-base">{% translate "Status" %}</div>
                                         </th>
                                         <th class="tb-col"></th>
                                     </tr>
@@ -213,15 +211,17 @@
                                             {% endif %}
                                         </td>
                                         <td class="tb-col tb-col-end">
-                                            <a href="{{ invoice.invoice_pdf }}" class="link">Get Invoice</a>
+                                            <a href="{{ invoice.invoice_pdf }}" class="link">{% translate "Get Invoice" %}</a>
                                         </td>
                                     </tr>
                                     {% endfor %}
                                 </tbody>
                             </table>
                         </div>
+                        
                         {% else %}
-                            <div class="alert alert-info">No billing history available.</div>
+                        <div class="alert alert-info">{% translate "No billing history available." %}</div>
+
                         {% endif %}
                     </div><!-- .tab-pane -->
                     
@@ -238,20 +238,20 @@
                 <div class="media media-rg media-middle media-circle text-primary bg-primary bg-opacity-20 mb-3">
                     <em class="icon ni ni-spark-fill"></em>
                 </div>
-                <h2 class="h1">Change Subscription</h2>
-                <p>Are you sure you want to change your subscription? You can change your plan while keep your remaining unused words from current plan. We will add unused words to new plan</p>
+                <h2 class="h1">{% translate "Change Subscription" %}</h2>
+                <p>{% translate "Are you sure you want to change your subscription? You can change your plan while keeping your remaining unused words from the current plan. We will add unused words to the new plan." %}</p>
                 <div class="card bg-lighter bg-opacity-80 shadow-none mt-2">
-                    
+                    <!-- Add any content specific to the card here -->
                 </div><!-- .card -->
                 <ul class="row gx-4 mt-4">
-                    <li class="col-6"><button class="btn btn-outline-light w-100" data-bs-dismiss="modal">Keep
-                            Plan</button></li>
-                    <li class="col-6"><a href="{% url 'pricing' %}" class="btn btn-primary w-100">Change Plan</a></li>
+                    <li class="col-6"><button class="btn btn-outline-light w-100" data-bs-dismiss="modal">{% translate "Keep Plan" %}</button></li>
+                    <li class="col-6"><a href="{% url 'pricing' %}" class="btn btn-primary w-100">{% translate "Change Plan" %}</a></li>
                 </ul>
             </div><!-- .modal-body -->
         </div><!-- .modal-content -->
     </div><!-- .modal-dialog -->
 </div><!-- .modal -->
+
 {% if subscrioption_id != none %}
 <div class="modal fade" id="cancelSubscriptionModal" tabindex="-1">
     <div class="modal-dialog">
@@ -260,33 +260,35 @@
                 <div class="media media-rg media-middle media-circle text-danger bg-danger bg-opacity-20 mb-3">
                     <em class="icon ni ni-spark-fill"></em>
                 </div>
-                <h2 class="h1">Cancel Subscription</h2>
-                <p>Are you sure you want to cancel your subscription? Your paid plan is valid till <span
+                <h2 class="h1">{% translate "Cancel Subscription" %}</h2>
+                <p>{% translate "Are you sure you want to cancel your subscription? Your paid plan is valid till" %} <span
                         class="text-dark">{{next_due_date}}</span>.</p>
-                <p>Don't forget to review our other <a href="{% url 'pricing' %}">pricing plans</a> before cancelling
-                    your current subscription. If you still want to cancel, your account will change to a free plan.</p>
+                <p>{% translate "Don't forget to review our other" %} <a href="{% url 'pricing' %}">{% translate "pricing plans" %}</a> {% translate "before cancelling your current subscription. If you still want to cancel, your account will change to a free plan." %}</p>
                 <div class="card bg-lighter bg-opacity-80 shadow-none mt-2">
-                    <!-- <div class="card-body">
-                        <h5>What you will lose after cancelling you subscription?</h5>
+                    <!-- Add any content specific to the card here -->
+                    <!--
+                    <div class="card-body">
+                        <h5>{% translate "What you will lose after cancelling your subscription?" %}</h5>
                         <ul class="list-dot gap gy-2 mt-2">
-                            <li>All your generated in Copygen will be removed.</li>
-                            <li>You will lose access to unlimited content generation.</li>
-                            <li>You will get regular updates exclusive only for our premium users.</li>
-                            <li>Server response may become slow as we highly prioritized our premium users.</li>
-                            <li>There will be no recovery options once you cancel subscription.</li>
+                            <li>{% translate "All your generated content in Copygen will be removed." %}</li>
+                            <li>{% translate "You will lose access to unlimited content generation." %}</li>
+                            <li>{% translate "You will get regular updates exclusive only for our premium users." %}</li>
+                            <li>{% translate "Server response may become slow as we highly prioritize our premium users." %}</li>
+                            <li>{% translate "There will be no recovery options once you cancel your subscription." %}</li>
                         </ul>
-                    </div> -->
+                    </div>
+                    -->
                 </div><!-- .card -->
                 <ul class="row gx-4 mt-4">
-                    <li class="col-6"><button class="btn btn-outline-light w-100" data-bs-dismiss="modal">Keep
-                            Plan</button></li>
-                    <li class="col-6"><a href="{% url 'cancel_subscrioption' subscrioption_id %}" class="btn btn-danger w-100">I Understand, Cancel</a>
+                    <li class="col-6"><button class="btn btn-outline-light w-100" data-bs-dismiss="modal">{% translate "Keep Plan" %}</button></li>
+                    <li class="col-6"><a href="{% url 'cancel_subscrioption' subscrioption_id %}" class="btn btn-danger w-100">{% translate "I Understand, Cancel" %}</a>
                     </li>
                 </ul>
             </div><!-- .modal-body -->
         </div><!-- .modal-content -->
     </div><!-- .modal-dialog -->
 </div><!-- .modal -->
+
 {% endif %}
 
 {% endblock %}

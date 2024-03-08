@@ -73,7 +73,8 @@
                 <div class="nk-block-head-between">
                     <div class="nk-block-head-content">
                         {% if user.fullname %}
-                        <h2 class="display-6">Welcome {{user.fullname}} !</h2>
+                        <h2 class="display-6">{% translate "Welcome" %} {{ user.fullname }} !</h2>
+
                         {% endif %}
                     </div>
                 </div>
@@ -84,12 +85,20 @@
                         <div class="card card-full bg-purple bg-opacity-10 border-0">
                             <div class="card-body">
                                 <div class="d-flex align-items-center justify-content-between mb-1">
-                                    <div class="fs-6 text-light mb-0">Words Available</div>
+                                    <div class="fs-6 text-light mb-0">{% translate "Words Available" %}</div>
+
                                 </div>
-                                <h5 class="fs-1">{{ available_words|intcomma }} <small class="fs-3">words</small></h5>
-                                <div class="fs-7 text-light mt-1"><span class="text-dark">{{ used_words|intcomma }}</span>/{{ words_purchased|intcomma }}  words
-                                    generated
+                                <h5 class="fs-1">
+                                    {% translate "{{ available_words|intcomma }}" %}
+                                    <small class="fs-3">{% translate "words" %}</small>
+                                </h5>
+                                <div class="fs-7 text-light mt-1">
+                                    <span class="text-dark">
+                                        {% translate "{{ used_words|intcomma }}" %}
+                                    </span>
+                                    /{% translate "{{ words_purchased|intcomma }}" %} {% translate "words generated" %}
                                 </div>
+                                
                             </div>
                         </div><!-- .card -->
                     </div><!-- .col -->
@@ -97,39 +106,40 @@
                         <div class="card card-full bg-blue bg-opacity-10 border-0">
                             <div class="card-body">
                                 <div class="d-flex align-items-center justify-content-between mb-1">
-                                    <div class="fs-6 text-light mb-0">Average words</div>
-                                   
+                                    <div class="fs-6 text-light mb-0">{% translate "Average words" %}</div>
                                 </div>
-                                <h5 class="fs-1">{{average_words_per_document}} <small class="fs-3">Words</small></h5>
-                                <div class="fs-7 text-light mt-1">Average words per document</div>
+                                <h5 class="fs-1">{{ average_words_per_document }} <small class="fs-3">{% translate "Words" %}</small></h5>
+                                <div class="fs-7 text-light mt-1">{% translate "Average words per document" %}</div>
                             </div>
-                        </div><!-- .card -->
+                        </div>
+                        <!-- .card -->
                     </div><!-- .col -->
                     <div class="col-sm-6 col-xxl-3">
                         <div class="card card-full bg-indigo bg-opacity-10 border-0">
                             <div class="card-body">
                                 <div class="d-flex align-items-center justify-content-between mb-1">
-                                    <div class="fs-6 text-light mb-0">Documents </div>
-                                    <a href="{% url 'documents' %}" class="link link-indigo">See
-                                        All</a>
+                                    <div class="fs-6 text-light mb-0">{% translate "Documents" %}</div>
+                                    <a href="{% url 'documents' %}" class="link link-indigo">{% translate "See All" %}</a>
                                 </div>
-                                <h5 class="fs-1">{{documents_count}} <small class="fs-3">Documents</small></h5>
-                                <div class="fs-7 text-light mt-1">Every humanized text saved as document</div>
+                                <h5 class="fs-1">{{ documents_count }} <small class="fs-3">{% translate "Documents" %}</small></h5>
+                                <div class="fs-7 text-light mt-1">{% translate "Every humanized text saved as document" %}</div>
                             </div>
                         </div><!-- .card -->
-                    </div><!-- .col -->
+                    </div>
+                    <!-- .col -->
                     <div class="col-sm-6 col-xxl-3">
                         <div class="card card-full bg-cyan bg-opacity-10 border-0">
                             <div class="card-body">
                                 <div class="d-flex align-items-center justify-content-between mb-1">
-                                    <div class="fs-6 text-light mb-0">Current Plan</div>
-                                    <a href="{% url 'pricing' %}" class="link link-cyan">See All Plans</a>
+                                    <div class="fs-6 text-light mb-0">{% translate "Current Plan" %}</div>
+                                    <a href="{% url 'pricing' %}" class="link link-cyan">{% translate "See All Plans" %}</a>
                                 </div>
-                                <h5 class="fs-1">{{subscription_name}}</h5>
-                                <div class="fs-7 text-light mt-1">You can upgrade your plan at any time without losing any remaining words.</div>
+                                <h5 class="fs-1">{{ subscription_name }}</h5>
+                                <div class="fs-7 text-light mt-1">{% translate "You can upgrade your plan at any time without losing any remaining words." %}</div>
                             </div>
                         </div><!-- .card -->
-                    </div><!-- .col -->
+                    </div>
+                    <!-- .col -->
                 </div><!-- .row -->
             </div>
            <!-- here will be recent blogs -->
@@ -137,16 +147,20 @@
             <div class="nk-block-head">
                 <div class="nk-block-head-between">
                     <div class="nk-block-head-content">
-                        <h2 class="display-6">Recent Documents</h2>
+                        <h2 class="display-6">{% translate "Recent Documents" %}</h2>
                     </div>
                     <div class="nk-block-head-content">
-                        <a href="{% url 'documents' %}" class="link"><span>See All</span> <em
-                                class="icon ni ni-chevron-right"></em></a>
+                        <a href="{% url 'documents' %}" class="link">
+                            <span>{% translate "See All" %}</span>
+                            <em class="icon ni ni-chevron-right"></em>
+                        </a>
                     </div>
                 </div>
-            </div><!-- .nk-block-head -->
+            </div>
+            <!-- .nk-block-head -->
             {% if recent_documents == None %}
-            <div class="alert alert-info mt-3">No available documents.</div>
+            <div class="alert alert-info mt-3">{% translate "No available documents." %}</div>
+
             {% else %}
             <div class="nk-block">
                 <div class="card">
@@ -154,21 +168,20 @@
                         <thead class="table-light">
                             <tr>
                                 <th class="tb-col tb-col-sm">
-                                    <h6 class="overline-title">Name</h6>
+                                    <h6 class="overline-title">{% translate "Name" %}</h6>
                                 </th>
                                 <th class="tb-col tb-col-sm">
-                                    <h6 class="overline-title">Words Count</h6>
+                                    <h6 class="overline-title">{% translate "Words Count" %}</h6>
                                 </th>
-                              
                                 <th class="tb-col tb-col-sm">
-                                    <h6 class="overline-title">Purpose</h6>
+                                    <h6 class="overline-title">{% translate "Purpose" %}</h6>
                                 </th>
-                              
                                 <th class="tb-col tb-col-sm">
-                                    <h6 class="overline-title">Created at</h6>
+                                    <h6 class="overline-title">{% translate "Created at" %}</h6>
                                 </th>
                             </tr>
                         </thead>
+                        
                         <tbody>
             
                             {% for document in recent_documents %}
@@ -176,25 +189,22 @@
                                 <td class="tb-col">
                                     <a data-bs-target="#DocumentModal" data-bs-toggle="modal" class="document-link" href="#DocumentModal"
                                         data-document-id="{{ document.document_id }}">
-                                        <div class="caption-text line-clamp-2">{{ document.input_text|first_eight_words }}...</div>
+                                        <div class="caption-text line-clamp-2">{% translate "{{ document.input_text|first_eight_words }}..." %}</div>
+
                                     </a>
                                 </td>
                                 <td class="tb-col tb-col-sm">
-                                    <div class="badge text-bg-dark-soft rounded-pill px-2 py-1 fs-6 lh-sm">{{document.words_used}}
+                                    <div class="badge text-bg-dark-soft rounded-pill px-2 py-1 fs-6 lh-sm">{% translate "{{ document.words_used }}" %}</div>
+                                </td>
+                                <td class="tb-col">
+                                    <div class="caption-text line-clamp-2">{% translate "{{ document.purpose }}" %}</div>
+                                </td>
+                                <td class="tb-col tb-col-md">
+                                    <div class="fs-6 text-light d-inline-flex flex-wrap gap gx-2">
+                                        <span>{% translate "Feb 15,2023" %}</span>
+                                        <span>{% translate "02:31 PM" %}</span>
                                     </div>
                                 </td>
-                            
-                                <td class="tb-col">
-                                    <div class="caption-text line-clamp-2">{{ document.purpose }}</div>
-                                </td>
-                             
-                                <td class="tb-col tb-col-md">
-                                    <div class="fs-6 text-light d-inline-flex flex-wrap gap gx-2"><span>Feb 15,2023 </span>
-                                        <span>02:31
-                                            PM</span></div>
-                                </td>
-            
-            
                             </tr>
                             {% endfor %}
                         </tbody>
@@ -212,7 +222,7 @@
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <p class="modal-title" id="DocumentModalLabel"></p>
+                <p class="modal-title" id="DocumentModalLabel">{% translate "Document Details" %}</p>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" data-dismiss="modal"
                     aria-label="Close"></button>
             </div>
@@ -220,29 +230,24 @@
                 <!-- Humanized Result Section -->
                 <div class="float-end">
                     <button class="js-copy" data-clipboard-target="#output_text"><em
-                            class="icon ni ni-copy"></em><span>Copy</span></button>
+                            class="icon ni ni-copy"></em><span>{% translate "Copy" %}</span></button>
                 </div>
-                <h6 class="text-success">Humanized Result</h6>
-
-
-
+                <h6 class="text-success">{% translate "Humanized Result" %}</h6>
                 <section class="humanized-result">
-
                     <textarea class="form-control" rows="7" id="output_text" readonly></textarea>
                 </section>
                 <!-- Original Submission Section -->
                 <div class="float-end">
                     <button class="js-copy" data-clipboard-target="#input_text"><em
-                            class="icon ni ni-copy"></em><span>Copy</span></button>
+                            class="icon ni ni-copy"></em><span>{% translate "Copy" %}</span></button>
                 </div>
-                <h6 class="text-danger">Original Submission</h6>
+                <h6 class="text-danger">{% translate "Original Submission" %}</h6>
                 <section class="original-submission">
-
                     <textarea class="form-control" rows="7" id="input_text" readonly></textarea>
                 </section>
             </div>
             <div class="modal-footer">
-                <span class="document-id">Document ID: </span>
+                <span class="document-id">{% translate "Document ID" %}: </span>
                 <span class="timestamp"></span>
             </div>
         </div>

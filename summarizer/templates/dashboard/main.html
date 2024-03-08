@@ -46,7 +46,7 @@
                                         <span class="nk-menu-icon">
                                             <em class="icon ni ni-dashboard-fill"></em>
                                         </span>
-                                        <span class="nk-menu-text">Dashboard</span>
+                                        <span class="nk-menu-text">{% translate "Dashboard" %}</span>
                                     </a>
                                 </li>
                                 <li class="nk-menu-item">
@@ -54,42 +54,32 @@
                                         <span class="nk-menu-icon">
                                             <em class="icon ni ni-edit"></em>
                                         </span>
-                                        <span class="nk-menu-text">Summary Generator</span>
+                                        <span class="nk-menu-text">{% translate "Summary Generator" %}</span>
                                     </a>
-
                                 </li>
                               
                                 <!-- <li class="nk-menu-item">
                                     <a href="{% url 'add_style' %}" class="nk-menu-link ">
-                                        
                                         <span class="nk-menu-icon">
                                             <em class="icon ni ni-bulb-fill"></em>
                                         </span>
-                                        
-                                        <span class="nk-menu-text">Writing Styles
-                                            
-                                        </span>
+                                        <span class="nk-menu-text">{% translate "Writing Styles" %}</span>
                                     </a>
-                                
                                 </li> -->
                                 <li class="nk-menu-item">
                                     <a href="{% url 'documents' %}" class="nk-menu-link ">
                                         <span class="nk-menu-icon">
                                             <em class="icon ni ni-folder-list"></em>
                                         </span>
-                                        <span class="nk-menu-text">Documents</span>
+                                        <span class="nk-menu-text">{% translate "Documents" %}</span>
                                     </a>
-
                                 </li>
-
-
-
                                 <li class="nk-menu-item">
                                     <a href="{% url 'pricing' %}" class="nk-menu-link">
                                         <span class="nk-menu-icon">
                                             <em class="icon ni ni-sign-usdc"></em>
                                         </span>
-                                        <span class="nk-menu-text">Pricing Plans</span>
+                                        <span class="nk-menu-text">{% translate "Pricing Plans" %}</span>
                                     </a>
                                 </li>
                                 <li class="nk-menu-item">
@@ -97,7 +87,7 @@
                                         <span class="nk-menu-icon">
                                             <em class="icon ni ni-user"></em>
                                         </span>
-                                        <span class="nk-menu-text">Profile</span>
+                                        <span class="nk-menu-text">{% translate "Profile" %}</span>
                                     </a>
                                 </li>
                                 <li class="nk-menu-item">
@@ -105,11 +95,9 @@
                                         <span class="nk-menu-icon">
                                             <em class="icon ni ni-signout"></em>
                                         </span>
-                                        <span class="nk-menu-text">Logout</span>
+                                        <span class="nk-menu-text">{% translate "Logout" %}</span>
                                     </a>
                                 </li>
-                                
-
                             </ul>
                         </div><!-- .nk-sidebar-menu -->
                     </div><!-- .nk-sidebar-content -->
@@ -119,18 +107,17 @@
                         <div class="border border-light rounded-3">
                             <div class="px-3 py-2 bg-white border-bottom border-light rounded-top-3">
                                 <div class="d-flex flex-wrap align-items-center justify-content-between">
-                                    <h6 class="lead-text">{{ subscription_name }}</h6>
+                                    <h6 class="lead-text">{% translate subscription_name %}</h6>
                                     <a class="link link-primary" href="{% url 'pricing' %}">
                                         <em class="ni ni-spark-fill icon text-warning"></em>
-                                        <span>Upgrade</span>
+                                        <span>{% translate "Upgrade" %}</span>
                                     </a>
                                 </div>
                                 <div class="progress progress-md">
                                     <div class="progress-bar" data-progress="{{ used_percentage|floatformat:2 }}%">
                                     </div>
                                 </div>
-                                <h6 class="lead-text mt-2">{{ available_words|intcomma }} <span class="text-light">words
-                                        left</span>
+                                <h6 class="lead-text mt-2">{{ available_words|intcomma }} <span class="text-light">{% translate "words left" %}</span>
                                 </h6>
                             </div>
                             <a class="d-flex px-3 py-2 bg-primary bg-opacity-10 rounded-bottom-3"
@@ -144,11 +131,9 @@
                                             {% if request.user.fullname != None %}
                                             {{request.user.fullname}}
                                             {% else %}
-                                            Please Enter your full name
+                                            {% translate "Please Enter your full name" %}
                                             {% endif %}
-
                                         </h6>
-                                        <!-- <span class="text-light fs-7">{{ request.user.email }}</span> -->
                                     </div>
                                     <em class="icon ni ni-chevron-right ms-auto ps-1"></em>
                                 </div>
@@ -184,7 +169,6 @@
                             <div class="nk-header-tools">
                                 <ul class="nk-quick-nav ms-2">
                                     <li class="dropdown d-inline-flex">
-                                       
                                         <div class="dropdown-menu dropdown-menu-md rounded-3">
                                             <div class="dropdown-content py-3">
                                                 <div class="border border-light rounded-3">
@@ -192,10 +176,10 @@
                                                         class="px-3 py-2 bg-white border-bottom border-light rounded-top-3">
                                                         <div
                                                             class="d-flex flex-wrap align-items-center justify-content-between">
-                                                            <h6 class="lead-text">{{ subscription_name }}</h6>
+                                                            <h6 class="lead-text">{% translate subscription_name %}</h6>
                                                             <a class="link link-primary" href="{% url 'pricing' %}">
                                                                 <em class="ni ni-spark-fill icon text-warning"></em>
-                                                                <span >Upgrade</span>
+                                                                <span>{% translate "Upgrade" %}</span>
                                                             </a>
                                                         </div>
                                                         <div class="progress progress-md">
@@ -204,10 +188,8 @@
                                                             </div>
                                                         </div>
                                                         <h6 class="lead-text mt-2">{{ available_words|intcomma }} <span
-                                                                class="text-light">words
-                                                                left</span></h6>
+                                                                class="text-light">{% translate "words left" %}</span></h6>
                                                     </div>
-                                                    
                                                 </div>
                                             </div>
                                         </div>
@@ -219,8 +201,6 @@
                 </div>
                 <div class="nk-content" id="myContent">
                     {% block content %}
-
-
                     {% endblock %}
                 </div>
                 <div class="nk-footer">
@@ -229,22 +209,21 @@
                             <div class="nk-footer-links px-3">
                                 <ul class="nav nav-sm">
                                     <li class="nav-item">
-                                        <a class="nav-link" href="{% url 'home' %}">Home</a>
+                                        <a class="nav-link" href="{% url 'home' %}">{% translate "Home" %}</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="{% url 'pricing' %}">Pricing</a>
+                                        <a class="nav-link" href="{% url 'pricing' %}">{% translate "Pricing" %}</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="{% url 'privacy' %}">Privacy Policy</a>
+                                        <a class="nav-link" href="{% url 'privacy' %}">{% translate "Privacy Policy" %}</a>
                                     </li>
-                                   
                                     <li class="nav-item">
-                                        <a class="nav-link" href="{% url 'contact' %}">Contact</a>
+                                        <a class="nav-link" href="{% url 'contact' %}">{% translate "Contact" %}</a>
                                     </li>
                                 </ul>
                             </div>
                             <div class="nk-footer-copyright fs-6 px-3"> &copy;  All Rights Reserved to 
-                                <a href="#">Kamran</a> </div>
+                                <a href="#">{% translate "Kamran" %}</a> </div>
                         </div>
                     </div>
                 </div>
@@ -256,5 +235,6 @@
     {% block custom_js %}
     {% endblock %}
 </body>
+
 
 </html>
