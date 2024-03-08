@@ -284,6 +284,11 @@
                         </div>
                     </div><!-- .section-content -->
                 </div><!-- .container -->
+
+                {% if custom_error %}
+                <p class="error-message">{{ custom_error }}</p>
+              {% endif %}
+
             </section><!-- .section -->
         </main>
         <footer style="margin-top:60px;" class="nk-footer">
