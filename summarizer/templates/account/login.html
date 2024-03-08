@@ -247,16 +247,17 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-12">
-                                                    <div class="form-group">
-                                                        <label class="form-label" for="toggle-password">{% translate 'Password' %}</label>
-                                                        <div class="form-control-wrap">
-                                                            <a href="toggle-password" class="form-control-icon end password-toggle" title="Toggle show/hide password">
-                                                                <em class="on icon ni ni-eye text-base"></em>
-                                                                <em class="off icon ni ni-eye-off text-base"></em>
-                                                            </a>
-                                                            <input type="password" name="password" id="toggle-password" class="form-control form-control-lg" placeholder="Enter Password" required>
-                                                        </div>
+                                                  <div class="form-group">
+                                                    <label class="form-label" for="toggle-password">{% translate 'Password' %}</label>
+                                                    <div class="form-control-wrap">
+                                                        <button type="button" class="form-control-icon end password-toggle" id="toggle-password-button" title="Toggle show/hide password">
+                                                            <em class="on icon ni ni-eye text-base"></em>
+                                                            <em class="off icon ni ni-eye-off text-base"></em>
+                                                        </button>
+                                                        <input type="password" name="password" id="toggle-password" class="form-control form-control-lg" placeholder="Enter Password" required>
                                                     </div>
+                                                </div>
+                                                
                                                 </div>
                                                 <div class="col-12">
                                                     <div class="d-flex flex-wrap justify-content-between has-gap g-3">
@@ -411,9 +412,27 @@
           <!-- .section -->
         </footer>
     </div>
-    <script src="{% static 'front/assets/js/bundle.js' %}?v1.5.0"></script>
-    <script src="{% static 'front/assets/js/scripts.js' %}?v1.5.0"></script>
+    <!-- <script src="{% static 'front/assets/js/bundle.js' %}?v1.5.0"></script>
+    <script src="{% static 'front/assets/js/scripts.js' %}?v1.5.0"></script> -->
     <script>
+
+
+
+        $('#toggle-password-button').click(function() {
+            var passwordField = $('#toggle-password');
+            var passwordFieldType = passwordField.attr('type');
+
+            // Toggle password visibility
+            passwordField.attr('type', passwordFieldType === 'password' ? 'text' : 'password');
+
+            // Toggle eye icons
+            $(this).find('.on').toggle();
+            $(this).find('.off').toggle();
+        });
+    
+
+
+
       $('.header-menu-toggle').click(function () {
             console.log('menu mobile')
             if(!$('.nk-menu').hasClass('header-menu-active'))
