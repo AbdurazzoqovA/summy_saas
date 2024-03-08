@@ -122,7 +122,7 @@
                                     <a href="{% url 'documents' %}" class="link link-indigo">{% translate "See All" %}</a>
                                 </div>
                                 <h5 class="fs-1">{{ documents_count }} <small class="fs-3">{% translate "Documents" %}</small></h5>
-                                <div class="fs-7 text-light mt-1">{% translate "Every humanized text saved as document" %}</div>
+                                <div class="fs-7 text-light mt-1">{% translate "Every summarized text saved as document" %}</div>
                             </div>
                         </div><!-- .card -->
                     </div>
@@ -232,7 +232,7 @@
                     <button class="js-copy" data-clipboard-target="#output_text"><em
                             class="icon ni ni-copy"></em><span>{% translate "Copy" %}</span></button>
                 </div>
-                <h6 class="text-success">{% translate "Humanized Result" %}</h6>
+                <h6 class="text-success">{% translate "Summarized Result" %}</h6>
                 <section class="humanized-result">
                     <textarea class="form-control" rows="7" id="output_text" readonly></textarea>
                 </section>

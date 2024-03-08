@@ -124,11 +124,7 @@
                         </a>
                       </li>
                      
-                      <li class="nk-menu-item">
-                        <a href="{% url 'about' %}" class="nk-menu-link">
-                          <span class="nk-menu-text">{% translate 'About' %}</span>
-                        </a>
-                      </li>
+                     
                       {% if request.user.is_authenticated %}
                       <li class="nk-menu-item">
                         <a href="{% url 'custom_logout' %}" class="nk-menu-link">
