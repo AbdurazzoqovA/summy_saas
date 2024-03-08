@@ -599,12 +599,6 @@ msgstr "Freiberuflicher Schriftsteller"
 
 #: .\summarizer\templates\front\home2.html:347
 #: .\summarizer\templates\front\index.html:207
-#, fuzzy
-#| msgid ""
-#| "During my PhD research, SummaryGenerator.io proved invaluable. It quickly "
-#| "distills the main ideas of complex academic papers. The tool's precision "
-#| "in highlighting relevant data and arguments made my literature review "
-#| "process much more manageable."
 msgid ""
 "During my PhD research, SummaryGenerator.io proved invaluable. It quickly "
 "distills the main ideas of complex academic papers. The tool`s precision in "
