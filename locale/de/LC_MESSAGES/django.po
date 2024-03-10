@@ -1464,7 +1464,8 @@ msgstr ""
 
 #: .\summarizer\templates\front\main.html:314
 msgid "Uh-oh! It seems like you've hit the word limit,"
-msgstr ""
+msgstr "Oh-oh! Es sieht so aus, als hätten Sie das Wortlimit erreicht,"
+
 
 #: .\summarizer\templates\front\main.html:314
 msgid "Upgrade Now"

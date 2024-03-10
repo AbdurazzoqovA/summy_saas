@@ -1491,11 +1491,10 @@ msgstr ""
 
 #: .\summarizer\templates\front\main.html:314
 msgid "Uh-oh! It seems like you've hit the word limit,"
-msgstr ""
+msgstr "¡Ups! Parece que has alcanzado el límite de palabras,"
+
 
 #: .\summarizer\templates\front\main.html:314
-#, fuzzy
-#| msgid "Upgrade to Pro"
 msgid "Upgrade Now"
 msgstr "Actualiza a Pro"
 
