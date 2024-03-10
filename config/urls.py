@@ -29,4 +29,5 @@ urlpatterns = [
 ]
 urlpatterns += i18n_patterns(
     path("", include("summarizer.urls")),
+    path("dashboard/", include("dashboard.urls")),
 ) + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
