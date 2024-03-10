@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (data.error) {
           // If the response includes an error key, display it
-          alertError.innerHTML = `Uh-oh! It seems like you've hit the word limit, <a href="https://summarygenerator.io/accounts/signup/">Sign up</a> now to increase your limit!`; // Set the error message
+          //  alertError.innerHTML = `Uh-oh! It seems like you've hit the word limit, <a href="https://summarygenerator.io/accounts/signup/">Sign up</a> now to increase your limit!`; // Set the error message
           alertError.style.display = "block"; // Show the alert
         } else {
           // If the response is successful, update the resizablePanel

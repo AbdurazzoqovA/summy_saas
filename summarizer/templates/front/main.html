@@ -310,7 +310,10 @@
                             <!-- <img class="w-100 rounded-top-4" src="{% static 'front/images/gfx/banner/a.jpg' %}" alt=""> -->
                         </div>
                         <div class="col-12">
-                            <div class="alert alert-danger ms-6 me-6" id="alertError" style="display: none" role="alert"></div>
+                          <div class="alert alert-danger ms-6 me-6" id="alertError" style="display: none" role="alert">
+                            {% translate "Uh-oh! It seems like you've hit the word limit," %} <a href="{% url 'upgrade_page' %}">{% translate "Upgrade Now" %}</a> {% translate "now to increase your limit!" %}
+                        </div>
+                        
             
                         </div>
                         <div id="upgradePopup" class="popup">Upgrade to Pro</div>
@@ -432,8 +435,8 @@
     </div>
     <script src="{% static '/front/assets/js/bundle.js' %}?v1.5.0"></script>
     <script src="{% static '/front/assets/js/scripts.js' %}?v1.5.0"></script>
-    <script src="{% static '/front/read_files.js' %}?v=3.0.0.399"></script>
-    <script src="{% static '/front/send_request.js' %}?v=3.0.0.399"></script>
+    <script src="{% static '/front/read_files.js' %}?v=3.0.0.400"></script>
+    <script src="{% static '/front/send_request.js' %}?v=3.0.0.400"></script>
 
     
     <script>

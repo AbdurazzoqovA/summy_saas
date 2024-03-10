@@ -43,6 +43,10 @@ justify-content:center;
    .google-login-btn:hover {
        background-color: #f5f5f5; /* Hover background color */
    }
+   .error-message{
+          color:rgb(203, 26, 26)!important;
+          text-decoration: underline;
+        }
 </style>
 <body class="nk-body " data-menu-collapse="lg">
     <div class="nk-app-root ">
@@ -95,11 +99,7 @@ justify-content:center;
                     </a>
                   </li>
                  
-                  <li class="nk-menu-item">
-                    <a href="{% url 'about' %}" class="nk-menu-link">
-                      <span class="nk-menu-text">{% translate 'About' %}</span>
-                    </a>
-                  </li>
+               
                   {% if request.user.is_authenticated %}
                   <li class="nk-menu-item">
                     <a href="{% url 'custom_logout' %}" class="nk-menu-link">
@@ -214,6 +214,9 @@ justify-content:center;
                             <h6 class="overline-title text-primary">{% translate "Start your journey" %}</h6>
                             <h2 class="title">{% translate "Create Summarygenerator account" %}</h2>
                         </div>
+                        {% if custom_error %}
+                        <p class="error-message text-center">{{ custom_error }}</p>
+                      {% endif %}
                     </div>
                     
                     </div><!-- .section-head -->
