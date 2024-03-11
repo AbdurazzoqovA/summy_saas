@@ -407,8 +407,6 @@ msgstr ""
 "kontaktieren Sie uns, wenn Sie es nicht innerhalb weniger Sekunden erhalten."
 
 #: .\summarizer\templates\dashboard\dashboard.html:76
-#, fuzzy
-#| msgid "Welcome Back!"
 msgid "Welcome"
 msgstr "Willkommen zurück!"
 
@@ -448,8 +446,6 @@ msgstr "Durchschnittliche Wörter pro Dokument"
 #: .\summarizer\templates\dashboard\dashboard.html:124
 #: .\summarizer\templates\dashboard\documents.html:69
 #: .\summarizer\templates\dashboard\main.html:75
-#, fuzzy
-#| msgid "Technical Documents"
 msgid "Documents"
 msgstr "Technische Dokumente"
 
@@ -478,8 +474,6 @@ msgstr ""
 
 
 #: .\summarizer\templates\dashboard\dashboard.html:150
-#, fuzzy
-#| msgid "Technical Documents"
 msgid "Recent Documents"
 msgstr "Technische Dokumente"
 
@@ -490,16 +484,12 @@ msgstr "Keine verfügbaren Dokumente."
 
 #: .\summarizer\templates\dashboard\dashboard.html:171
 #: .\summarizer\templates\dashboard\documents.html:141
-#, fuzzy
-#| msgid "Names"
 msgid "Name"
 msgstr "Namen"
 
 #: .\summarizer\templates\dashboard\dashboard.html:174
 #: .\summarizer\templates\dashboard\documents.html:125
 #: .\summarizer\templates\dashboard\documents.html:142
-#, fuzzy
-#| msgid "Words"
 msgid "Words Count"
 msgstr "Wörter"
 
@@ -511,8 +501,6 @@ msgstr "Zweck"
 
 #: .\summarizer\templates\dashboard\dashboard.html:180
 #: .\summarizer\templates\dashboard\documents.html:146
-#, fuzzy
-#| msgid "Create Account"
 msgid "Created at"
 msgstr "Konto erstellen"
 
@@ -530,8 +518,6 @@ msgstr "Kopieren"
 
 
 #: .\summarizer\templates\dashboard\dashboard.html:235
-#, fuzzy
-#| msgid "Summarize"
 msgid "Summarized Result"
 msgstr "Zusammenfassen"
 
@@ -699,8 +685,6 @@ msgstr "Anpassung an das Schreibniveau"
 
 
 #: .\summarizer\templates\dashboard\editor.html:155
-#, fuzzy
-#| msgid "Login with Google"
 msgid "Continue With Google"
 msgstr "Mit Google anmelden"
 
@@ -789,8 +773,6 @@ msgid "Personal Details"
 msgstr ""
 
 #: .\summarizer\templates\dashboard\profile.html:80
-#, fuzzy
-#| msgid "Password"
 msgid "Change Password"
 msgstr "Passwort"
 
@@ -800,8 +782,6 @@ msgstr ""
 
 #: .\summarizer\templates\dashboard\profile.html:97
 #: .\summarizer\templates\dashboard\profile.html:264
-#, fuzzy
-#| msgid "Cancellation"
 msgid "Cancel Subscription"
 msgstr "Stornierung"
 
@@ -829,8 +809,6 @@ msgid "Next Due Date"
 msgstr ""
 
 #: .\summarizer\templates\dashboard\profile.html:154
-#, fuzzy
-#| msgid "Payment Data."
 msgid "Payment Method"
 msgstr "Zahlungsdaten."
 
@@ -848,8 +826,6 @@ msgstr ""
 
 
 #: .\summarizer\templates\dashboard\profile.html:180
-#, fuzzy
-#| msgid "Payment Data."
 msgid "Payment Date"
 msgstr "Zahlungsdaten."
 
@@ -897,8 +873,6 @@ msgid "Don't forget to review our other"
 msgstr "Vergessen Sie nicht, unsere anderen zu bewerten"
 
 #: .\summarizer\templates\dashboard\profile.html:267
-#, fuzzy
-#| msgid "Pricing"
 msgid "pricing plans"
 msgstr "Preise"
 
