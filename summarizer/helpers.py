@@ -54,7 +54,7 @@ def summarizer(
         openai_api_key = os.environ.get("OPEN_AI_KEY")
         client = openai.OpenAI(api_key=openai_api_key)
         response = client.chat.completions.create(
-            model="gpt-3.5-turbo-1106",  # Experiment with different models as needed
+            model="gpt-3.5-turbo-0125",  # Experiment with different models as needed
             messages=[
                 {
                     "role": "system",
