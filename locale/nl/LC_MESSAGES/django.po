@@ -407,28 +407,24 @@ msgstr ""
 "niet binnen enkele seconden ontvangt."
 
 #: .\summarizer\templates\dashboard\dashboard.html:76
-#, fuzzy
-#| msgid "Welcome Back!"
 msgid "Welcome"
 msgstr "Welkom terug!"
 
 #: .\summarizer\templates\dashboard\dashboard.html:88
 msgid "Words Available"
-msgstr ""
+msgstr "Woorden beschikbaar"
 
 #: .\summarizer\templates\dashboard\dashboard.html:93
-#, fuzzy
-#| msgid "Words"
 msgid "words"
 msgstr "Woorden"
 
 #: .\summarizer\templates\dashboard\dashboard.html:99
 msgid "words generated"
-msgstr ""
+msgstr "woorden gegenereerd"
 
 #: .\summarizer\templates\dashboard\dashboard.html:109
 msgid "Average words"
-msgstr ""
+msgstr "Gemiddelde woorden"
 
 #: .\summarizer\templates\dashboard\dashboard.html:111
 #: .\summarizer\templates\dashboard\editor.html:42
@@ -440,340 +436,309 @@ msgstr "Woorden"
 
 #: .\summarizer\templates\dashboard\dashboard.html:112
 msgid "Average words per document"
-msgstr ""
+msgstr "Gemiddelde woorden per document"
 
 #: .\summarizer\templates\dashboard\dashboard.html:121
 #: .\summarizer\templates\dashboard\dashboard.html:124
 #: .\summarizer\templates\dashboard\documents.html:69
 #: .\summarizer\templates\dashboard\main.html:75
-#, fuzzy
-#| msgid "Technical Documents"
 msgid "Documents"
 msgstr "Technische documenten"
 
 #: .\summarizer\templates\dashboard\dashboard.html:122
 #: .\summarizer\templates\dashboard\dashboard.html:154
 msgid "See All"
-msgstr ""
+msgstr "Zie alles"
 
 #: .\summarizer\templates\dashboard\dashboard.html:125
 msgid "Every summarized text saved as document"
-msgstr ""
+msgstr "Elke samengevatte tekst opgeslagen als document"
 
 #: .\summarizer\templates\dashboard\dashboard.html:134
 msgid "Current Plan"
-msgstr ""
+msgstr "Huidig ​​abonnement"
 
 #: .\summarizer\templates\dashboard\dashboard.html:135
 msgid "See All Plans"
-msgstr ""
+msgstr "Bekijk alle abonnementen"
 
 #: .\summarizer\templates\dashboard\dashboard.html:138
 msgid ""
 "You can upgrade your plan at any time without losing any remaining words."
-msgstr ""
+msgstr "Je kunt je plan op elk moment upgraden zonder de resterende woorden te verliezen."
 
 #: .\summarizer\templates\dashboard\dashboard.html:150
-#, fuzzy
-#| msgid "Technical Documents"
 msgid "Recent Documents"
 msgstr "Technische documenten"
 
 #: .\summarizer\templates\dashboard\dashboard.html:162
 msgid "No available documents."
-msgstr ""
+msgstr "Geen beschikbare documenten."
 
 #: .\summarizer\templates\dashboard\dashboard.html:171
 #: .\summarizer\templates\dashboard\documents.html:141
-#, fuzzy
-#| msgid "Names"
 msgid "Name"
 msgstr "Namen"
 
 #: .\summarizer\templates\dashboard\dashboard.html:174
 #: .\summarizer\templates\dashboard\documents.html:125
 #: .\summarizer\templates\dashboard\documents.html:142
-#, fuzzy
-#| msgid "Words"
 msgid "Words Count"
 msgstr "Woorden"
 
 #: .\summarizer\templates\dashboard\dashboard.html:177
 #: .\summarizer\templates\dashboard\documents.html:144
 msgid "Purpose"
-msgstr ""
+msgstr "Doel"
 
 #: .\summarizer\templates\dashboard\dashboard.html:180
 #: .\summarizer\templates\dashboard\documents.html:146
-#, fuzzy
-#| msgid "Create Account"
 msgid "Created at"
 msgstr "Account Aanmaken"
 
 #: .\summarizer\templates\dashboard\dashboard.html:225
 #: .\summarizer\templates\dashboard\documents.html:227
 msgid "Document Details"
-msgstr ""
+msgstr "Documentdetails"
 
 #: .\summarizer\templates\dashboard\dashboard.html:233
 #: .\summarizer\templates\dashboard\dashboard.html:242
 #: .\summarizer\templates\dashboard\documents.html:234
 #: .\summarizer\templates\dashboard\documents.html:244
-#, fuzzy
-#| msgid "CopyGen"
 msgid "Copy"
 msgstr "KopiërenGen"
 
 #: .\summarizer\templates\dashboard\dashboard.html:235
-#, fuzzy
-#| msgid "Summarize"
 msgid "Summarized Result"
 msgstr "Samenvatten"
 
 #: .\summarizer\templates\dashboard\dashboard.html:244
 #: .\summarizer\templates\dashboard\documents.html:246
 msgid "Original Submission"
-msgstr ""
+msgstr "Oorspronkelijke inzending"
 
 #: .\summarizer\templates\dashboard\dashboard.html:250
 #: .\summarizer\templates\dashboard\documents.html:252
 msgid "Document ID"
-msgstr ""
+msgstr "Document-ID"
 
 #: .\summarizer\templates\dashboard\documents.html:70
 msgid "List of all Documents you have generated."
-msgstr ""
+msgstr "Lijst met alle documenten die u heeft gegenereerd."
 
 #: .\summarizer\templates\dashboard\documents.html:74
-#, fuzzy
-#| msgid "Summarize Now"
 msgid "Summarize New Text"
 msgstr "Vat nu samen"
 
+
 #: .\summarizer\templates\dashboard\documents.html:81
 msgid "Documents List"
-msgstr ""
+msgstr "Documentenlijst"
 
 #: .\summarizer\templates\dashboard\documents.html:95
 msgid "Search Template"
-msgstr ""
+msgstr "Zoeksjabloon"
 
 #: .\summarizer\templates\dashboard\documents.html:96
 msgid "Search"
-msgstr ""
+msgstr "Zoeken"
 
 #: .\summarizer\templates\dashboard\documents.html:115
 msgid "Date Created"
-msgstr ""
+msgstr "Aanmaakdatum"
 
 #: .\summarizer\templates\dashboard\documents.html:120
 msgid "Alphabetical"
-msgstr ""
+msgstr "Alfabetisch"
 
 #: .\summarizer\templates\dashboard\documents.html:143
 msgid "Level"
-msgstr ""
+msgstr "Niveau"
 
 #: .\summarizer\templates\dashboard\documents.html:145
 msgid "Readability"
-msgstr ""
+msgstr "Leesbaarheid"
 
 #: .\summarizer\templates\dashboard\documents.html:236
-#, fuzzy
-#| msgid "Summarize"
 msgid "Summary Result"
 msgstr "Samenvatten"
 
 #: .\summarizer\templates\dashboard\edit_profile.html:14
 #: .\summarizer\templates\dashboard\profile.html:35
 msgid "Edit Profile"
-msgstr ""
+msgstr "Profiel bewerken"
 
 #: .\summarizer\templates\dashboard\edit_profile.html:28
 msgid "Enter Full name here"
-msgstr ""
+msgstr "Voer hier de volledige naam in"
 
 #: .\summarizer\templates\dashboard\edit_profile.html:34
 #: .\summarizer\templates\dashboard\profile.html:63
 msgid "Country"
-msgstr ""
+msgstr "Land"
 
 #: .\summarizer\templates\dashboard\edit_profile.html:37
-#, fuzzy
-#| msgid "Enter the Text"
 msgid "Enter Country here"
 msgstr "Voer de tekst in"
 
 #: .\summarizer\templates\dashboard\edit_profile.html:45
 msgid "I would like to receive updates and news via email."
-msgstr ""
+msgstr "Ik wil graag updates en nieuws ontvangen via e-mail."
 
 #: .\summarizer\templates\dashboard\edit_profile.html:50
 msgid "Update"
-msgstr ""
+msgstr "Bijwerken"
 
 #: .\summarizer\templates\dashboard\editor.html:37
-#, fuzzy
-#| msgid "Freelance Writer"
 msgid "Content Writer"
 msgstr "Freelance Schrijver"
 
 #: .\summarizer\templates\dashboard\editor.html:45
 msgid "Characters"
-msgstr ""
+msgstr "Tekens"
 
 #: .\summarizer\templates\dashboard\editor.html:50
 msgid "Generate"
-msgstr ""
+msgstr "Genereren"
 
 #: .\summarizer\templates\dashboard\editor.html:53
 msgid "Humanize"
-msgstr ""
+msgstr "Humaniseren"
 
 #: .\summarizer\templates\dashboard\editor.html:57
 msgid "Check for AI"
-msgstr ""
+msgstr "Controleer op AI"
 
 #: .\summarizer\templates\dashboard\editor.html:63
 msgid "Export"
-msgstr ""
+msgstr "Exporteren"
 
 #: .\summarizer\templates\dashboard\editor.html:67
 msgid "Export as Doc"
-msgstr ""
+msgstr "Exporteren als Doc"
 
 #: .\summarizer\templates\dashboard\editor.html:78
 msgid "AI Writer"
-msgstr ""
+msgstr "AI-schrijver"
 
 #: .\summarizer\templates\dashboard\editor.html:106
 msgid "Extend Content"
-msgstr ""
+msgstr "Inhoud uitbreiden"
+
 
 #: .\summarizer\templates\dashboard\editor.html:116
 msgid "AI Detection Result"
-msgstr ""
+msgstr "AI-detectieresultaat"
 
 #: .\summarizer\templates\dashboard\editor.html:135
 msgid "Get started today with"
-msgstr ""
+msgstr "Ga vandaag nog aan de slag met"
 
 #: .\summarizer\templates\dashboard\editor.html:135
 msgid "free words."
-msgstr ""
+msgstr "vrije woorden."
 
 #: .\summarizer\templates\dashboard\editor.html:136
 msgid "Sign up to humanize and make this text undetectable."
-msgstr ""
+msgstr "Meld u aan om deze tekst menselijker te maken en niet op te sporen."
 
 #: .\summarizer\templates\dashboard\editor.html:139
 msgid "What you will gain after signing up?"
-msgstr ""
+msgstr "Wat krijg je als je je aanmeldt?"
 
 #: .\summarizer\templates\dashboard\editor.html:141
 msgid "Rewrites"
-msgstr ""
+msgstr "Herschrijft"
 
 #: .\summarizer\templates\dashboard\editor.html:141
 msgid "words for free"
-msgstr ""
+msgstr "woorden gratis"
 
 #: .\summarizer\templates\dashboard\editor.html:142
 msgid "Built-in AI detector"
-msgstr ""
+msgstr "Ingebouwde AI-detector"
 
 #: .\summarizer\templates\dashboard\editor.html:143
 msgid "No weird or random words"
-msgstr ""
+msgstr "Geen rare of willekeurige woorden"
 
 #: .\summarizer\templates\dashboard\editor.html:144
 msgid "Passes AI detectors"
-msgstr ""
+msgstr "Passeert AI-detectoren"
 
 #: .\summarizer\templates\dashboard\editor.html:145
 msgid "High quality, legible content"
-msgstr ""
+msgstr "Hoge kwaliteit, leesbare inhoud"
 
 #: .\summarizer\templates\dashboard\editor.html:146
 msgid "Writing level matching"
-msgstr ""
+msgstr "Schrijfniveau-matching"
+
 
 #: .\summarizer\templates\dashboard\editor.html:155
-#, fuzzy
-#| msgid "Login with Google"
 msgid "Continue With Google"
-msgstr "Log in met Google"
+msgstr "Doorgaan met Google"
 
 #: .\summarizer\templates\dashboard\editor.html:160
 msgid "Continue With Email"
-msgstr ""
+msgstr "Doorgaan met e-mail"
 
 #: .\summarizer\templates\dashboard\editor.html:163
 msgid "Continue Exploring"
-msgstr ""
+msgstr "Verder verkennen"
 
 #: .\summarizer\templates\dashboard\editor.html:169
-#, fuzzy
-#| msgid "Upgrade to Pro"
 msgid "Upgrade Required"
-msgstr "Upgrade naar Pro"
+msgstr "Upgrade vereist"
 
 #: .\summarizer\templates\dashboard\editor.html:170
 msgid "Your current plan does not include unlimited AI writer access."
-msgstr ""
+msgstr "Uw huidige plan bevat geen onbeperkte toegang tot de AI-schrijver."
 
 #: .\summarizer\templates\dashboard\editor.html:171
 msgid "Upgrade to our premium plan"
-msgstr ""
+msgstr "Upgrade naar ons premiumplan"
 
 #: .\summarizer\templates\dashboard\editor.html:171
 msgid "for unrestricted use of our advanced AI writing features."
-msgstr ""
+msgstr "voor onbeperkt gebruik van onze geavanceerde AI-schrijffuncties."
 
 #: .\summarizer\templates\dashboard\editor.html:175
 msgid "View Subscription Plans"
-msgstr ""
+msgstr "Bekijk abonnementsplannen"
 
 #: .\summarizer\templates\dashboard\main.html:58
-#, fuzzy
-#| msgid "SummaryGenerator.io"
 msgid "Summary Generator"
 msgstr "SummaryGenerator.io"
 
 #: .\summarizer\templates\dashboard\main.html:67
 msgid "Writing Styles"
-msgstr ""
+msgstr "Schrijfstijlen"
 
 #: .\summarizer\templates\dashboard\main.html:83
-#, fuzzy
-#| msgid "Pricing"
 msgid "Pricing Plans"
 msgstr "Prijzen"
 
 #: .\summarizer\templates\dashboard\main.html:91
 #: .\summarizer\templates\dashboard\profile.html:23
 msgid "Profile"
-msgstr ""
+msgstr "Profiel"
 
 #: .\summarizer\templates\dashboard\main.html:114
 #: .\summarizer\templates\dashboard\main.html:183
-#, fuzzy
-#| msgid "Upgrade to Pro"
 msgid "Upgrade"
 msgstr "Upgrade naar Pro"
 
 #: .\summarizer\templates\dashboard\main.html:121
 #: .\summarizer\templates\dashboard\main.html:192
 msgid "words left"
-msgstr ""
+msgstr "woorden over"
 
 #: .\summarizer\templates\dashboard\main.html:135
 msgid "Please Enter your full name"
-msgstr ""
+msgstr "Voer alstublieft uw volledige naam in"
 
 #: .\summarizer\templates\dashboard\main.html:222
-#, fuzzy
-#| msgid "Contact us"
 msgid "Contact"
 msgstr "Neem contact met ons op"
 
@@ -782,104 +747,93 @@ msgid "Kamran"
 msgstr ""
 
 #: .\summarizer\templates\dashboard\profile.html:14
-#, fuzzy
-#| msgid "Create Account"
 msgid "Personal Account"
-msgstr "Account Aanmaken"
+msgstr "Persoonlijk Account"
 
 #: .\summarizer\templates\dashboard\profile.html:27
 msgid "Payment & Billing"
-msgstr ""
+msgstr "Betaling en facturering"
 
 #: .\summarizer\templates\dashboard\profile.html:34
 msgid "Personal Details"
-msgstr ""
+msgstr "Persoonlijke gegevens"
 
 #: .\summarizer\templates\dashboard\profile.html:80
-#, fuzzy
-#| msgid "Password"
 msgid "Change Password"
 msgstr "Wachtwoord"
 
 #: .\summarizer\templates\dashboard\profile.html:92
 msgid "Your Subscription"
-msgstr ""
+msgstr "Uw abonnement"
 
 #: .\summarizer\templates\dashboard\profile.html:97
 #: .\summarizer\templates\dashboard\profile.html:264
-#, fuzzy
-#| msgid "Cancellation"
 msgid "Cancel Subscription"
-msgstr "Annulering"
+msgstr "Abonnement annuleren"
 
 #: .\summarizer\templates\dashboard\profile.html:102
 #: .\summarizer\templates\dashboard\profile.html:249
 msgid "Change Plan"
-msgstr ""
+msgstr "Plan wijzigen"
 
 #: .\summarizer\templates\dashboard\profile.html:122
 msgid "Plan"
-msgstr ""
+msgstr "Plan"
 
 #: .\summarizer\templates\dashboard\profile.html:130
 msgid "Recurring Payment"
-msgstr ""
+msgstr "Terugkerende betaling"
 
 #: .\summarizer\templates\dashboard\profile.html:134
 #: .\summarizer\templates\dashboard\profile.html:146
 #: .\summarizer\templates\dashboard\profile.html:159
 msgid "No Active Subscription"
-msgstr ""
+msgstr "Geen actief abonnement"
 
 #: .\summarizer\templates\dashboard\profile.html:142
 msgid "Next Due Date"
-msgstr ""
+msgstr "Volgende vervaldatum"
+
 
 #: .\summarizer\templates\dashboard\profile.html:154
-#, fuzzy
-#| msgid "Payment Data."
 msgid "Payment Method"
 msgstr "Betalingsgegevens."
 
 #: .\summarizer\templates\dashboard\profile.html:157
 msgid "Stripe"
-msgstr ""
+msgstr "Stripe"
 
 #: .\summarizer\templates\dashboard\profile.html:168
 msgid "Billing History"
-msgstr ""
+msgstr "Facturatiegeschiedenis"
 
 #: .\summarizer\templates\dashboard\profile.html:177
 msgid "Subscription"
-msgstr ""
+msgstr "Abonnement"
 
 #: .\summarizer\templates\dashboard\profile.html:180
-#, fuzzy
-#| msgid "Payment Data."
 msgid "Payment Date"
-msgstr "Betalingsgegevens."
+msgstr "Betalingsdatum"
 
 #: .\summarizer\templates\dashboard\profile.html:183
 msgid "Total"
-msgstr ""
+msgstr "Totaal"
 
 #: .\summarizer\templates\dashboard\profile.html:186
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: .\summarizer\templates\dashboard\profile.html:215
-#, fuzzy
-#| msgid "Get In Touch"
 msgid "Get Invoice"
-msgstr "Neem contact op"
+msgstr "Ontvang factuur"
 
 #: .\summarizer\templates\dashboard\profile.html:224
 msgid "No billing history available."
-msgstr ""
+msgstr "Geen facturatiegeschiedenis beschikbaar."
 
 #: .\summarizer\templates\dashboard\profile.html:242
 msgid "Change Subscription"
-msgstr ""
+msgstr "Wijzig abonnement"
 
 #: .\summarizer\templates\dashboard\profile.html:243
 msgid ""
@@ -887,25 +841,28 @@ msgid ""
 "while keeping your remaining unused words from the current plan. We will add "
 "unused words to the new plan."
 msgstr ""
+"Bent u zeker dat u uw abonnement wilt wijzigen? U kunt uw plan wijzigen "
+"terwijl u de resterende ongebruikte woorden van het huidige plan behoudt. We "
+"zullen ongebruikte woorden toevoegen aan het nieuwe plan."
 
 #: .\summarizer\templates\dashboard\profile.html:248
 #: .\summarizer\templates\dashboard\profile.html:284
 msgid "Keep Plan"
-msgstr ""
+msgstr "Behoud Plan"
 
 #: .\summarizer\templates\dashboard\profile.html:265
 msgid ""
 "Are you sure you want to cancel your subscription? Your paid plan is valid "
 "till"
 msgstr ""
+"Bent u zeker dat u uw abonnement wilt annuleren? Uw betaalde abonnement is "
+"geldig tot"
 
 #: .\summarizer\templates\dashboard\profile.html:267
 msgid "Don't forget to review our other"
-msgstr ""
+msgstr "Vergeet niet onze andere te bekijken"
 
 #: .\summarizer\templates\dashboard\profile.html:267
-#, fuzzy
-#| msgid "Pricing"
 msgid "pricing plans"
 msgstr "Prijzen"
 
@@ -914,35 +871,41 @@ msgid ""
 "before cancelling your current subscription. If you still want to cancel, "
 "your account will change to a free plan."
 msgstr ""
+"voordat u uw huidige abonnement annuleert. Als u nog steeds wilt annuleren, "
+"zal uw account veranderen naar een gratis abonnement."
 
 #: .\summarizer\templates\dashboard\profile.html:272
 msgid "What you will lose after cancelling your subscription?"
-msgstr ""
+msgstr "Wat verlies je na het annuleren van je abonnement?"
 
 #: .\summarizer\templates\dashboard\profile.html:274
 msgid "All your generated content in Copygen will be removed."
-msgstr ""
+msgstr "Alle door u gegenereerde inhoud in Copygen wordt verwijderd."
 
 #: .\summarizer\templates\dashboard\profile.html:275
 msgid "You will lose access to unlimited content generation."
-msgstr ""
+msgstr "U verliest toegang tot onbeperkte inhoudsgeneratie."
 
 #: .\summarizer\templates\dashboard\profile.html:276
 msgid "You will get regular updates exclusive only for our premium users."
-msgstr ""
+msgstr "U ontvangt regelmatige updates exclusief voor onze premiumgebruikers."
 
 #: .\summarizer\templates\dashboard\profile.html:277
 msgid ""
 "Server response may become slow as we highly prioritize our premium users."
 msgstr ""
+"De serverreactie kan traag worden omdat we onze premiumgebruikers hoog "
+"prioriteren."
 
 #: .\summarizer\templates\dashboard\profile.html:278
 msgid "There will be no recovery options once you cancel your subscription."
 msgstr ""
+"Er zullen geen herstelopties zijn zodra u uw abonnement annuleert."
 
 #: .\summarizer\templates\dashboard\profile.html:285
 msgid "I Understand, Cancel"
-msgstr ""
+msgstr "Ik begrijp het, Annuleren"
+
 
 #: .\summarizer\templates\front\about.html:9
 #: .\summarizer\templates\front\home2.html:87
