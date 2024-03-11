@@ -770,7 +770,8 @@ msgstr "Zahlung"
 
 #: .\summarizer\templates\dashboard\profile.html:34
 msgid "Personal Details"
-msgstr ""
+msgstr "Persönliche Daten"
+
 
 #: .\summarizer\templates\dashboard\profile.html:80
 msgid "Change Password"
@@ -788,41 +789,42 @@ msgstr "Stornierung"
 #: .\summarizer\templates\dashboard\profile.html:102
 #: .\summarizer\templates\dashboard\profile.html:249
 msgid "Change Plan"
-msgstr ""
+msgstr "Plan ändern"
 
 #: .\summarizer\templates\dashboard\profile.html:122
 msgid "Plan"
-msgstr ""
+msgstr "Plan"
 
 #: .\summarizer\templates\dashboard\profile.html:130
 msgid "Recurring Payment"
-msgstr ""
+msgstr "Wiederkehrende Zahlung"
 
 #: .\summarizer\templates\dashboard\profile.html:134
 #: .\summarizer\templates\dashboard\profile.html:146
 #: .\summarizer\templates\dashboard\profile.html:159
 msgid "No Active Subscription"
-msgstr ""
+msgstr "Kein aktives Abonnement"
 
 #: .\summarizer\templates\dashboard\profile.html:142
 msgid "Next Due Date"
-msgstr ""
+msgstr "Nächstes Fälligkeitsdatum"
 
 #: .\summarizer\templates\dashboard\profile.html:154
 msgid "Payment Method"
-msgstr "Zahlungsdaten."
+msgstr "Zahlungsmethode"
 
 #: .\summarizer\templates\dashboard\profile.html:157
 msgid "Stripe"
-msgstr ""
+msgstr "Stripe"
 
 #: .\summarizer\templates\dashboard\profile.html:168
 msgid "Billing History"
-msgstr ""
+msgstr "Abrechnungshistorie"
 
 #: .\summarizer\templates\dashboard\profile.html:177
 msgid "Subscription"
-msgstr ""
+msgstr "Abonnement"
+
 
 
 #: .\summarizer\templates\dashboard\profile.html:180
