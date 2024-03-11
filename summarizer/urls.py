@@ -1,10 +1,6 @@
-from django.urls import path
-from django.conf.urls.i18n import i18n_patterns
-from django.views.i18n import set_language
+from django.urls import path, re_path, include
 from . import views
 from django.conf import settings
-
-urlpatterns = []
 
 # Define your non-i18n patterns
 non_i18n_patterns = [
@@ -37,9 +33,10 @@ non_i18n_patterns = [
 
 # Check if the locale middleware is enabled
 if 'django.middleware.locale.LocaleMiddleware' in settings.MIDDLEWARE:
-    urlpatterns += i18n_patterns(
-        *non_i18n_patterns,
-        prefix_default_language=False,  # This will prevent the /en/ prefix for the default language
-    )
+    urlpatterns = [
+        re_path(r'^(?P<language_code>{})/'.format('|'.join([lang[0] for lang in settings.LANGUAGES])),
+                include((non_i18n_patterns, 'summy_saas'))),
+        path('', include((non_i18n_patterns, 'summY_saas'))),
+    ]
 else:
-    urlpatterns += non_i18n_patterns
+    urlpatterns = non_i18n_patterns
