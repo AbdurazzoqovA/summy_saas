@@ -50,12 +50,12 @@ document.addEventListener("DOMContentLoaded", function () {
     }
     const data = { text: text, mode: mode, rangeValue: rangeValue };
 
-    console.log(mode);
+    //console.log(mode);
     // Show spinner and disable button
     spinner.style.display = "block";
     summaryButton.disabled = true;
     let alertError = document.getElementById("alertError");
-    console.log("Data - ", data);
+    //console.log("Data - ", data);
     // Send POST request
     fetch("https://summarygenerator.io/summary/", {
       method: "POST",
@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
     })
       .then((response) => response.json())
       .then((data) => {
-        console.log(mode);
+     //   console.log(mode);
 
         if (data.error) {
           // If the response includes an error key, display it
@@ -108,7 +108,7 @@ document.addEventListener("DOMContentLoaded", function () {
       return word.length > 0;
     }).length;
     //console.log("Counting-Words", wordCount);
-    console.log("Text", text);
+    //console.log("Text", text);
     var wordLimit = 10000;
 
     if (wordCount <= wordLimit) requestforSummary(text);
