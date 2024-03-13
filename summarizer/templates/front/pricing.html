@@ -48,6 +48,36 @@
         .nk-header{
           background:#fff!important;
         }
+        .bubble-element {
+	white-space: pre-wrap;
+	overflow: visible;
+  background-color: rgb(252, 61, 61)!important;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	line-height: 1;
+	padding: 10px 0px 10px 0px;
+	border-style: dashed;
+	border-width: 5px;
+	border-color: #fff;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	opacity: 1;
+	align-self: flex-start;
+	min-width: 200px;
+	order: 2;
+	min-height: 0px;
+	height: max-content;
+	flex-grow: 0;
+	flex-shrink: 0;
+	width: calc(100% - 20px);
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	z-index: 3;
+}
   </style>
 
   <body class="nk-body" data-menu-collapse="lg">
@@ -249,6 +279,8 @@
                           <div class="pricing-body p-5">
                               <div class="text-center">
                                   <h5 class="mb-3">{% translate 'Yearly' %}</h5>
+                                 
+                                  <div class="bubble-element Text cmaaRaM" style="background-color: rgb(252, 61, 61);"> Limited Time: 50% Off</div>
                                   <h3 class="h2 mb-4">$59.95 <span class="caption-text text-muted"> / {% translate 'year' %}</span></h3>
                                   <a href="#" class="btn btn-primary btn-block" id="choose-yearly">{% translate 'Choose Yearly Plan' %}</a>
                                       <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true" style="display: none;"
