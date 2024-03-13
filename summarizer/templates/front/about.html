@@ -622,6 +622,19 @@
             else
             $('.nk-menu').removeClass('header-menu-active')
         })
+
+
+        setInterval(() => {
+          
+           if ($('.dropdown-toggle').text().indexOf('EN')>-1) {
+             $('.nk-menu-link').each(function() {
+               var currentHref = $(this).attr('href');
+               var updatedHref = currentHref.replace(/\/en\//, '/');
+               $(this).attr('href', updatedHref);
+             });
+           }
+      
+              }, 500);
     </script>
 </body>
 

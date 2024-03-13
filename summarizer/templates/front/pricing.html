@@ -544,6 +544,22 @@ $('.header-menu-toggle').click(function () {
       })
 
 
+      setInterval(() => {
+           
+
+           if ($('.dropdown-toggle').text().indexOf('EN')>-1) {
+         
+      
+             $('.nk-menu-link').each(function() {
+               var currentHref = $(this).attr('href');
+               var updatedHref = currentHref.replace(/\/en\//, '/');
+               $(this).attr('href', updatedHref);
+             });
+           }
+      
+              }, 500);
+
+
 
     function getCookie(name) {
             let cookieValue = null;
