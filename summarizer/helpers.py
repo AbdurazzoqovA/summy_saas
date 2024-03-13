@@ -29,11 +29,11 @@ def summarizer(
     range_value = int(range_value)
 
     if range_value == 3:
-        summaryLen = int(word_count/1.5)
+        summaryLen = int(word_count/3)
     elif range_value == 2:
         summaryLen = int(word_count/2)
     elif range_value == 1:
-        summaryLen = int(word_count/3)
+        summaryLen = int(word_count/1.5)
 
     #  Summarize the text and shorten it by {range_percentage}, text:
     if mode == "Paragraph":
@@ -64,7 +64,7 @@ def summarizer(
                 },
             ],
             max_tokens=4000,
-            temperature=0.8,
+            temperature=0.9,
         )
 
         return response.choices[0].message.content
