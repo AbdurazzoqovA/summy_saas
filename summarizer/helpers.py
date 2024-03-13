@@ -19,7 +19,7 @@ def summarizer(
     mode,
     range_value,
 ):
-    
+
     # summary_length_tokens = 100
     word_count = len(text.split())
 
@@ -28,15 +28,13 @@ def summarizer(
     model = "models/text-bison-001"
     range_value = int(range_value)
 
-
     if range_value == 3:
-       summaryLen = int(word_count/1.5)
+        summaryLen = int(word_count/1.5)
     elif range_value == 2:
         summaryLen = int(word_count/2)
     elif range_value == 1:
         summaryLen = int(word_count/3)
 
-    
     #  Summarize the text and shorten it by {range_percentage}, text:
     if mode == "Paragraph":
         prompt = f"""
@@ -54,7 +52,7 @@ def summarizer(
         openai_api_key = os.environ.get("OPEN_AI_KEY")
         client = openai.OpenAI(api_key=openai_api_key)
         response = client.chat.completions.create(
-            model="gpt-3.5-turbo-0125",  # Experiment with different models as needed
+            model="gpt-4-1106-preview",  # Experiment with different models as needed
             messages=[
                 {
                     "role": "system",
