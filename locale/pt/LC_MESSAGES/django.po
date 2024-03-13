@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-10 21:36+0500\n"
+"POT-Creation-Date: 2024-03-13 11:19+0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,24 +38,24 @@ msgstr ""
 msgid "Login Page"
 msgstr "Página de Login"
 
-#: .\summarizer\templates\account\login.html:101
+#: .\summarizer\templates\account\login.html:113
 #: .\summarizer\templates\account\password_reset.html:57
 #: .\summarizer\templates\account\password_reset_done.html:57
 #: .\summarizer\templates\account\password_reset_from_key.html:57
 #: .\summarizer\templates\account\password_reset_from_key_done.html:57
-#: .\summarizer\templates\account\signup.html:93
+#: .\summarizer\templates\account\signup.html:110
 #: .\summarizer\templates\dashboard\main.html:213
 #: .\summarizer\templates\front\about.html:118
 #: .\summarizer\templates\front\home2.html:76
-#: .\summarizer\templates\front\main.html:194
-#: .\summarizer\templates\front\pricing.html:77
+#: .\summarizer\templates\front\main.html:206
+#: .\summarizer\templates\front\pricing.html:125
 #: .\summarizer\templates\front\privacypolicy.html:114
 #: .\summarizer\templates\front\termsandconditions.html:95
 msgid "Home"
 msgstr "Início"
 
-#: .\summarizer\templates\account\login.html:106
-#: .\summarizer\templates\account\login.html:356
+#: .\summarizer\templates\account\login.html:118
+#: .\summarizer\templates\account\login.html:368
 #: .\summarizer\templates\account\password_reset.html:62
 #: .\summarizer\templates\account\password_reset.html:239
 #: .\summarizer\templates\account\password_reset_done.html:62
@@ -64,17 +64,17 @@ msgstr "Início"
 #: .\summarizer\templates\account\password_reset_from_key.html:264
 #: .\summarizer\templates\account\password_reset_from_key_done.html:62
 #: .\summarizer\templates\account\password_reset_from_key_done.html:227
-#: .\summarizer\templates\account\signup.html:98
-#: .\summarizer\templates\account\signup.html:355
+#: .\summarizer\templates\account\signup.html:115
+#: .\summarizer\templates\account\signup.html:380
 #: .\summarizer\templates\dashboard\main.html:216
 #: .\summarizer\templates\front\about.html:123
 #: .\summarizer\templates\front\about.html:530
 #: .\summarizer\templates\front\home2.html:81
-#: .\summarizer\templates\front\main.html:199
-#: .\summarizer\templates\front\main.html:366
+#: .\summarizer\templates\front\main.html:211
+#: .\summarizer\templates\front\main.html:378
 #: .\summarizer\templates\front\pricing.html:7
-#: .\summarizer\templates\front\pricing.html:82
-#: .\summarizer\templates\front\pricing.html:397
+#: .\summarizer\templates\front\pricing.html:130
+#: .\summarizer\templates\front\pricing.html:447
 #: .\summarizer\templates\front\privacypolicy.html:119
 #: .\summarizer\templates\front\privacypolicy.html:695
 #: .\summarizer\templates\front\termsandconditions.html:100
@@ -82,56 +82,56 @@ msgstr "Início"
 msgid "Pricing"
 msgstr "Preços"
 
-#: .\summarizer\templates\account\login.html:113
+#: .\summarizer\templates\account\login.html:125
 #: .\summarizer\templates\account\password_reset.html:70
 #: .\summarizer\templates\account\password_reset_done.html:70
 #: .\summarizer\templates\account\password_reset_from_key.html:70
 #: .\summarizer\templates\account\password_reset_from_key_done.html:70
-#: .\summarizer\templates\account\signup.html:106
+#: .\summarizer\templates\account\signup.html:123
 #: .\summarizer\templates\dashboard\main.html:99
 #: .\summarizer\templates\front\about.html:131
 #: .\summarizer\templates\front\home2.html:93
-#: .\summarizer\templates\front\main.html:207
-#: .\summarizer\templates\front\pricing.html:90
+#: .\summarizer\templates\front\main.html:219
+#: .\summarizer\templates\front\pricing.html:138
 #: .\summarizer\templates\front\privacypolicy.html:127
 #: .\summarizer\templates\front\termsandconditions.html:107
 msgid "Logout"
 msgstr "Sair"
 
-#: .\summarizer\templates\account\login.html:121
-#: .\summarizer\templates\account\login.html:286
+#: .\summarizer\templates\account\login.html:133
+#: .\summarizer\templates\account\login.html:298
 #: .\summarizer\templates\account\password_reset.html:78
 #: .\summarizer\templates\account\password_reset_done.html:78
 #: .\summarizer\templates\account\password_reset_from_key.html:78
 #: .\summarizer\templates\account\password_reset_from_key_done.html:78
-#: .\summarizer\templates\account\signup.html:114
-#: .\summarizer\templates\account\signup.html:308
+#: .\summarizer\templates\account\signup.html:131
+#: .\summarizer\templates\account\signup.html:333
 #: .\summarizer\templates\front\about.html:139
 #: .\summarizer\templates\front\home2.html:101
-#: .\summarizer\templates\front\main.html:215
-#: .\summarizer\templates\front\pricing.html:98
+#: .\summarizer\templates\front\main.html:227
+#: .\summarizer\templates\front\pricing.html:146
 #: .\summarizer\templates\front\privacypolicy.html:135
 #: .\summarizer\templates\front\termsandconditions.html:115
 msgid "Login"
 msgstr "Entrar"
 
-#: .\summarizer\templates\account\login.html:126
+#: .\summarizer\templates\account\login.html:138
 #: .\summarizer\templates\account\password_reset.html:83
 #: .\summarizer\templates\account\password_reset_done.html:83
 #: .\summarizer\templates\account\password_reset_from_key.html:83
 #: .\summarizer\templates\account\password_reset_from_key_done.html:83
-#: .\summarizer\templates\account\signup.html:119
+#: .\summarizer\templates\account\signup.html:136
 #: .\summarizer\templates\front\about.html:144
 #: .\summarizer\templates\front\home2.html:106
-#: .\summarizer\templates\front\main.html:220
-#: .\summarizer\templates\front\pricing.html:103
+#: .\summarizer\templates\front\main.html:232
+#: .\summarizer\templates\front\pricing.html:151
 #: .\summarizer\templates\front\privacypolicy.html:140
 #: .\summarizer\templates\front\termsandconditions.html:120
 msgid "Sign Up"
 msgstr "Cadastre-se"
 
-#: .\summarizer\templates\account\login.html:144
-#: .\summarizer\templates\account\login.html:147
+#: .\summarizer\templates\account\login.html:156
+#: .\summarizer\templates\account\login.html:159
 #: .\summarizer\templates\account\password_reset.html:101
 #: .\summarizer\templates\account\password_reset.html:104
 #: .\summarizer\templates\account\password_reset_done.html:101
@@ -140,17 +140,17 @@ msgstr "Cadastre-se"
 #: .\summarizer\templates\account\password_reset_from_key.html:104
 #: .\summarizer\templates\account\password_reset_from_key_done.html:101
 #: .\summarizer\templates\account\password_reset_from_key_done.html:104
-#: .\summarizer\templates\account\signup.html:137
-#: .\summarizer\templates\account\signup.html:140
+#: .\summarizer\templates\account\signup.html:154
+#: .\summarizer\templates\account\signup.html:157
 #: .\summarizer\templates\dashboard\main.html:50
 #: .\summarizer\templates\front\about.html:162
 #: .\summarizer\templates\front\about.html:165
 #: .\summarizer\templates\front\home2.html:124
 #: .\summarizer\templates\front\home2.html:127
-#: .\summarizer\templates\front\main.html:238
-#: .\summarizer\templates\front\main.html:241
-#: .\summarizer\templates\front\pricing.html:122
-#: .\summarizer\templates\front\pricing.html:125
+#: .\summarizer\templates\front\main.html:250
+#: .\summarizer\templates\front\main.html:253
+#: .\summarizer\templates\front\pricing.html:170
+#: .\summarizer\templates\front\pricing.html:173
 #: .\summarizer\templates\front\privacypolicy.html:158
 #: .\summarizer\templates\front\privacypolicy.html:161
 #: .\summarizer\templates\front\termsandconditions.html:138
@@ -158,60 +158,60 @@ msgstr "Cadastre-se"
 msgid "Dashboard"
 msgstr "Painel"
 
-#: .\summarizer\templates\account\login.html:220
+#: .\summarizer\templates\account\login.html:232
 msgid "Welcome Back!"
 msgstr "Bem-vindo de volta!"
 
-#: .\summarizer\templates\account\login.html:221
+#: .\summarizer\templates\account\login.html:233
 msgid "Login to countinue"
 msgstr "Faça login para continuar"
 
-#: .\summarizer\templates\account\login.html:244
+#: .\summarizer\templates\account\login.html:256
 #: .\summarizer\templates\dashboard\profile.html:54
 msgid "Email"
 msgstr "E-mail"
 
-#: .\summarizer\templates\account\login.html:252
-#: .\summarizer\templates\account\signup.html:262
+#: .\summarizer\templates\account\login.html:264
+#: .\summarizer\templates\account\signup.html:279
 #: .\summarizer\templates\dashboard\profile.html:76
 msgid "Password"
 msgstr "Senha"
 
-#: .\summarizer\templates\account\login.html:278
+#: .\summarizer\templates\account\login.html:290
 msgid "Remember Me"
 msgstr "Lembrar-me"
 
-#: .\summarizer\templates\account\login.html:281
+#: .\summarizer\templates\account\login.html:293
 msgid "Forgot Password?"
 msgstr "Esqueceu a senha?"
 
-#: .\summarizer\templates\account\login.html:290
-#: .\summarizer\templates\account\signup.html:289
+#: .\summarizer\templates\account\login.html:302
+#: .\summarizer\templates\account\signup.html:314
 msgid "or login with"
 msgstr "ou faça login com"
 
-#: .\summarizer\templates\account\login.html:298
-#: .\summarizer\templates\account\signup.html:298
+#: .\summarizer\templates\account\login.html:310
+#: .\summarizer\templates\account\signup.html:323
 msgid "Login with Google"
 msgstr "Entrar com o Google"
 
-#: .\summarizer\templates\account\login.html:307
+#: .\summarizer\templates\account\login.html:319
 msgid "Don't have an account?"
 msgstr "Não tem uma conta?"
 
-#: .\summarizer\templates\account\login.html:307
+#: .\summarizer\templates\account\login.html:319
 msgid "Register"
 msgstr "Registrar"
 
-#: .\summarizer\templates\account\login.html:339
+#: .\summarizer\templates\account\login.html:351
 #: .\summarizer\templates\account\password_reset.html:222
 #: .\summarizer\templates\account\password_reset_done.html:223
 #: .\summarizer\templates\account\password_reset_from_key.html:247
 #: .\summarizer\templates\account\password_reset_from_key_done.html:210
-#: .\summarizer\templates\account\signup.html:338
+#: .\summarizer\templates\account\signup.html:363
 #: .\summarizer\templates\front\about.html:513
-#: .\summarizer\templates\front\main.html:349
-#: .\summarizer\templates\front\pricing.html:380
+#: .\summarizer\templates\front\main.html:361
+#: .\summarizer\templates\front\pricing.html:430
 #: .\summarizer\templates\front\privacypolicy.html:678
 #: .\summarizer\templates\front\termsandconditions.html:671
 msgid ""
@@ -226,30 +226,30 @@ msgstr ""
 "relevantes. Gera resumos de diferentes comprimentos para qualquer tipo de "
 "conteúdo."
 
-#: .\summarizer\templates\account\login.html:353
+#: .\summarizer\templates\account\login.html:365
 #: .\summarizer\templates\account\password_reset.html:236
 #: .\summarizer\templates\account\password_reset_done.html:237
 #: .\summarizer\templates\account\password_reset_from_key.html:261
 #: .\summarizer\templates\account\password_reset_from_key_done.html:224
-#: .\summarizer\templates\account\signup.html:352
+#: .\summarizer\templates\account\signup.html:377
 #: .\summarizer\templates\front\about.html:246
 #: .\summarizer\templates\front\about.html:527
-#: .\summarizer\templates\front\main.html:363
-#: .\summarizer\templates\front\pricing.html:394
+#: .\summarizer\templates\front\main.html:375
+#: .\summarizer\templates\front\pricing.html:444
 #: .\summarizer\templates\front\privacypolicy.html:692
 #: .\summarizer\templates\front\termsandconditions.html:685
 msgid "About Us"
 msgstr "Sobre Nós"
 
-#: .\summarizer\templates\account\login.html:354
+#: .\summarizer\templates\account\login.html:366
 #: .\summarizer\templates\account\password_reset.html:237
 #: .\summarizer\templates\account\password_reset_done.html:238
 #: .\summarizer\templates\account\password_reset_from_key.html:262
 #: .\summarizer\templates\account\password_reset_from_key_done.html:225
-#: .\summarizer\templates\account\signup.html:353
+#: .\summarizer\templates\account\signup.html:378
 #: .\summarizer\templates\front\about.html:528
-#: .\summarizer\templates\front\main.html:364
-#: .\summarizer\templates\front\pricing.html:395
+#: .\summarizer\templates\front\main.html:376
+#: .\summarizer\templates\front\pricing.html:445
 #: .\summarizer\templates\front\privacypolicy.html:693
 #: .\summarizer\templates\front\termsandconditions.html:10
 #: .\summarizer\templates\front\termsandconditions.html:214
@@ -257,101 +257,101 @@ msgstr "Sobre Nós"
 msgid "Terms and Conditions"
 msgstr "Termos e Condições"
 
-#: .\summarizer\templates\account\login.html:355
+#: .\summarizer\templates\account\login.html:367
 #: .\summarizer\templates\account\password_reset.html:238
 #: .\summarizer\templates\account\password_reset_done.html:239
 #: .\summarizer\templates\account\password_reset_from_key.html:263
 #: .\summarizer\templates\account\password_reset_from_key_done.html:226
-#: .\summarizer\templates\account\signup.html:354
+#: .\summarizer\templates\account\signup.html:379
 #: .\summarizer\templates\dashboard\main.html:219
 #: .\summarizer\templates\front\about.html:529
-#: .\summarizer\templates\front\main.html:365
-#: .\summarizer\templates\front\pricing.html:396
+#: .\summarizer\templates\front\main.html:377
+#: .\summarizer\templates\front\pricing.html:446
 #: .\summarizer\templates\front\privacypolicy.html:10
 #: .\summarizer\templates\front\privacypolicy.html:694
 #: .\summarizer\templates\front\termsandconditions.html:687
 msgid "Privacy Policy"
 msgstr "Política de Privacidade"
 
-#: .\summarizer\templates\account\login.html:365
+#: .\summarizer\templates\account\login.html:377
 #: .\summarizer\templates\account\password_reset.html:248
 #: .\summarizer\templates\account\password_reset_done.html:249
 #: .\summarizer\templates\account\password_reset_from_key.html:273
 #: .\summarizer\templates\account\password_reset_from_key_done.html:236
-#: .\summarizer\templates\account\signup.html:364
+#: .\summarizer\templates\account\signup.html:389
 #: .\summarizer\templates\front\about.html:539
-#: .\summarizer\templates\front\main.html:375
-#: .\summarizer\templates\front\pricing.html:406
+#: .\summarizer\templates\front\main.html:387
+#: .\summarizer\templates\front\pricing.html:456
 #: .\summarizer\templates\front\privacypolicy.html:704
 #: .\summarizer\templates\front\termsandconditions.html:697
 msgid "Get In Touch"
 msgstr "Entre em Contato"
 
-#: .\summarizer\templates\account\login.html:372
+#: .\summarizer\templates\account\login.html:384
 #: .\summarizer\templates\account\password_reset.html:255
 #: .\summarizer\templates\account\password_reset_done.html:256
 #: .\summarizer\templates\account\password_reset_from_key.html:280
 #: .\summarizer\templates\account\password_reset_from_key_done.html:243
-#: .\summarizer\templates\account\signup.html:371
+#: .\summarizer\templates\account\signup.html:396
 #: .\summarizer\templates\front\about.html:546
-#: .\summarizer\templates\front\main.html:382
-#: .\summarizer\templates\front\pricing.html:413
+#: .\summarizer\templates\front\main.html:394
+#: .\summarizer\templates\front\pricing.html:463
 #: .\summarizer\templates\front\privacypolicy.html:711
 #: .\summarizer\templates\front\termsandconditions.html:704
 msgid "support@summarygenerator.io"
 msgstr "suport@summarygenerator.io"
 
-#: .\summarizer\templates\account\login.html:378
+#: .\summarizer\templates\account\login.html:390
 #: .\summarizer\templates\account\password_reset.html:261
 #: .\summarizer\templates\account\password_reset_done.html:262
 #: .\summarizer\templates\account\password_reset_from_key.html:286
 #: .\summarizer\templates\account\password_reset_from_key_done.html:249
-#: .\summarizer\templates\account\signup.html:377
+#: .\summarizer\templates\account\signup.html:402
 #: .\summarizer\templates\front\about.html:552
-#: .\summarizer\templates\front\main.html:388
-#: .\summarizer\templates\front\pricing.html:419
+#: .\summarizer\templates\front\main.html:400
+#: .\summarizer\templates\front\pricing.html:469
 #: .\summarizer\templates\front\privacypolicy.html:717
 #: .\summarizer\templates\front\termsandconditions.html:710
 msgid "+4473 61622097"
 msgstr "+4473 61622097"
 
-#: .\summarizer\templates\account\login.html:385
+#: .\summarizer\templates\account\login.html:397
 #: .\summarizer\templates\account\password_reset.html:268
 #: .\summarizer\templates\account\password_reset_done.html:269
 #: .\summarizer\templates\account\password_reset_from_key.html:293
 #: .\summarizer\templates\account\password_reset_from_key_done.html:256
-#: .\summarizer\templates\account\signup.html:384
+#: .\summarizer\templates\account\signup.html:409
 #: .\summarizer\templates\front\about.html:559
-#: .\summarizer\templates\front\main.html:395
-#: .\summarizer\templates\front\pricing.html:426
+#: .\summarizer\templates\front\main.html:407
+#: .\summarizer\templates\front\pricing.html:476
 #: .\summarizer\templates\front\privacypolicy.html:724
 #: .\summarizer\templates\front\termsandconditions.html:717
 msgid "International House, 12 Constance Street, London, E16 2DQ."
 msgstr "International House, 12 Constance Street, London, E16 2DQ."
 
-#: .\summarizer\templates\account\login.html:410
+#: .\summarizer\templates\account\login.html:422
 #: .\summarizer\templates\account\password_reset.html:293
 #: .\summarizer\templates\account\password_reset_done.html:294
 #: .\summarizer\templates\account\password_reset_from_key.html:318
 #: .\summarizer\templates\account\password_reset_from_key_done.html:281
-#: .\summarizer\templates\account\signup.html:409
+#: .\summarizer\templates\account\signup.html:434
 #: .\summarizer\templates\front\about.html:584
-#: .\summarizer\templates\front\main.html:420
-#: .\summarizer\templates\front\pricing.html:451
+#: .\summarizer\templates\front\main.html:432
+#: .\summarizer\templates\front\pricing.html:501
 #: .\summarizer\templates\front\privacypolicy.html:749
 #: .\summarizer\templates\front\termsandconditions.html:742
 msgid "Copyright &copy; 2023."
 msgstr "Copyright &copy; 2023."
 
-#: .\summarizer\templates\account\login.html:411
+#: .\summarizer\templates\account\login.html:423
 #: .\summarizer\templates\account\password_reset.html:294
 #: .\summarizer\templates\account\password_reset_done.html:295
 #: .\summarizer\templates\account\password_reset_from_key.html:319
 #: .\summarizer\templates\account\password_reset_from_key_done.html:282
-#: .\summarizer\templates\account\signup.html:410
+#: .\summarizer\templates\account\signup.html:435
 #: .\summarizer\templates\front\about.html:585
-#: .\summarizer\templates\front\main.html:421
-#: .\summarizer\templates\front\pricing.html:452
+#: .\summarizer\templates\front\main.html:433
+#: .\summarizer\templates\front\pricing.html:502
 #: .\summarizer\templates\front\privacypolicy.html:750
 #: .\summarizer\templates\front\termsandconditions.html:743
 msgid "Summarygenerator.io"
@@ -361,41 +361,41 @@ msgstr "Summarygenerator.io"
 msgid "Signup"
 msgstr "Cadastre-se"
 
-#: .\summarizer\templates\account\signup.html:214
+#: .\summarizer\templates\account\signup.html:231
 msgid "Start your journey"
 msgstr "Inicie sua jornada"
 
-#: .\summarizer\templates\account\signup.html:215
+#: .\summarizer\templates\account\signup.html:232
 msgid "Create Summarygenerator account"
 msgstr "Criar conta no Summarygenerator"
 
-#: .\summarizer\templates\account\signup.html:247
+#: .\summarizer\templates\account\signup.html:264
 #: .\summarizer\templates\dashboard\edit_profile.html:25
 #: .\summarizer\templates\dashboard\profile.html:41
 msgid "Full Name"
 msgstr "Nome Completo"
 
-#: .\summarizer\templates\account\signup.html:249
+#: .\summarizer\templates\account\signup.html:266
 msgid "Your Name"
 msgstr "Seu Nome"
 
-#: .\summarizer\templates\account\signup.html:254
+#: .\summarizer\templates\account\signup.html:271
 msgid "Email Address"
 msgstr "Endereço de E-mail"
 
-#: .\summarizer\templates\account\signup.html:256
-msgid "name@copygen.com"
-msgstr "nome@copygen.com"
-
 #: .\summarizer\templates\account\signup.html:273
+msgid "user@gmail.com"
+msgstr ""
+
+#: .\summarizer\templates\account\signup.html:298
 msgid "Password (Confirm)"
 msgstr "Senha (Confirme)"
 
-#: .\summarizer\templates\account\signup.html:284
+#: .\summarizer\templates\account\signup.html:309
 msgid "Create Account"
 msgstr "Criar Conta"
 
-#: .\summarizer\templates\account\signup.html:308
+#: .\summarizer\templates\account\signup.html:333
 msgid "Already have an account?"
 msgstr "Já tem uma conta?"
 
@@ -468,7 +468,9 @@ msgstr "Ver todos os planos"
 #: .\summarizer\templates\dashboard\dashboard.html:138
 msgid ""
 "You can upgrade your plan at any time without losing any remaining words."
-msgstr "Você pode atualizar seu plano a qualquer momento sem perder nenhuma palavra restante."
+msgstr ""
+"Você pode atualizar seu plano a qualquer momento sem perder nenhuma palavra "
+"restante."
 
 #: .\summarizer\templates\dashboard\dashboard.html:150
 msgid "Recent Documents"
@@ -573,7 +575,6 @@ msgstr "Editar perfil"
 #: .\summarizer\templates\dashboard\edit_profile.html:28
 msgid "Enter Full name here"
 msgstr "Insira o nome completo aqui"
-
 
 #: .\summarizer\templates\dashboard\edit_profile.html:34
 #: .\summarizer\templates\dashboard\profile.html:63
@@ -720,7 +721,6 @@ msgstr "Estilos de Escrita"
 msgid "Pricing Plans"
 msgstr "Preços"
 
-
 #: .\summarizer\templates\dashboard\main.html:91
 #: .\summarizer\templates\dashboard\profile.html:23
 msgid "Profile"
@@ -743,6 +743,10 @@ msgstr "Por favor, insira seu nome completo"
 #: .\summarizer\templates\dashboard\main.html:222
 msgid "Contact"
 msgstr "Entre em contato"
+
+#: .\summarizer\templates\dashboard\main.html:227
+msgid "Kamran"
+msgstr ""
 
 #: .\summarizer\templates\dashboard\profile.html:14
 msgid "Personal Account"
@@ -868,8 +872,8 @@ msgid ""
 "before cancelling your current subscription. If you still want to cancel, "
 "your account will change to a free plan."
 msgstr ""
-"antes de cancelar sua assinatura atual. Se você ainda quiser cancelar, "
-"sua conta mudará para um plano gratuito."
+"antes de cancelar sua assinatura atual. Se você ainda quiser cancelar, sua "
+"conta mudará para um plano gratuito."
 
 #: .\summarizer\templates\dashboard\profile.html:272
 msgid "What you will lose after cancelling your subscription?"
@@ -885,22 +889,25 @@ msgstr "Você perderá o acesso à geração ilimitada de conteúdo."
 
 #: .\summarizer\templates\dashboard\profile.html:276
 msgid "You will get regular updates exclusive only for our premium users."
-msgstr "Você receberá atualizações regulares exclusivas apenas para nossos usuários premium."
+msgstr ""
+"Você receberá atualizações regulares exclusivas apenas para nossos usuários "
+"premium."
 
 #: .\summarizer\templates\dashboard\profile.html:277
 msgid ""
 "Server response may become slow as we highly prioritize our premium users."
 msgstr ""
-"A resposta do servidor pode ficar lenta, pois priorizamos muito nossos usuários premium."
+"A resposta do servidor pode ficar lenta, pois priorizamos muito nossos "
+"usuários premium."
 
 #: .\summarizer\templates\dashboard\profile.html:278
 msgid "There will be no recovery options once you cancel your subscription."
-msgstr "Não haverá opções de recuperação após o cancelamento de sua assinatura."
+msgstr ""
+"Não haverá opções de recuperação após o cancelamento de sua assinatura."
 
 #: .\summarizer\templates\dashboard\profile.html:285
 msgid "I Understand, Cancel"
 msgstr "Eu Entendo, Cancelar"
-
 
 #: .\summarizer\templates\front\about.html:9
 #: .\summarizer\templates\front\home2.html:87
@@ -1030,7 +1037,7 @@ msgstr ""
 
 #: .\summarizer\templates\front\about.html:466
 #: .\summarizer\templates\front\home2.html:655
-#: .\summarizer\templates\front\pricing.html:338
+#: .\summarizer\templates\front\pricing.html:388
 msgid "Ready to Transform Your Text?"
 msgstr "Pronto para Transformar seu Texto?"
 
@@ -1044,25 +1051,25 @@ msgstr ""
 
 #: .\summarizer\templates\front\about.html:469
 #: .\summarizer\templates\front\home2.html:658
-#: .\summarizer\templates\front\pricing.html:341
+#: .\summarizer\templates\front\pricing.html:391
 msgid "Summarize Now"
 msgstr "Resumir Agora"
 
 #: .\summarizer\templates\front\about.html:472
 #: .\summarizer\templates\front\home2.html:661
-#: .\summarizer\templates\front\pricing.html:344
+#: .\summarizer\templates\front\pricing.html:394
 msgid "Free to use"
 msgstr "Gratuito para usar"
 
 #: .\summarizer\templates\front\about.html:474
 #: .\summarizer\templates\front\home2.html:662
-#: .\summarizer\templates\front\pricing.html:346
+#: .\summarizer\templates\front\pricing.html:396
 msgid "Generate summaries in 3 seconds"
 msgstr "Gerar resumos em 3 segundos"
 
 #: .\summarizer\templates\front\about.html:475
 #: .\summarizer\templates\front\home2.html:663
-#: .\summarizer\templates\front\pricing.html:347
+#: .\summarizer\templates\front\pricing.html:397
 msgid "No signup required"
 msgstr "Sem necessidade de cadastro"
 
@@ -1071,7 +1078,7 @@ msgid "Free AI Summary Generator - Summarize Text in One Click"
 msgstr ""
 
 #: .\summarizer\templates\front\home2.html:169
-#: .\summarizer\templates\front\main.html:305
+#: .\summarizer\templates\front\main.html:317
 msgid "Summarize any text with One Click"
 msgstr "Resumir qualquer texto com um clique"
 
@@ -1323,7 +1330,7 @@ msgid "Generate Your Summary Now!"
 msgstr "Gere Seu Resumo Agora!"
 
 #: .\summarizer\templates\front\home2.html:656
-#: .\summarizer\templates\front\pricing.html:339
+#: .\summarizer\templates\front\pricing.html:389
 msgid ""
 "SummaryGenerator.io turns your lengthy texts into crisp, clear summaries "
 "with just one click."
@@ -1332,12 +1339,12 @@ msgstr ""
 "concisos com apenas um clique."
 
 #: .\summarizer\templates\front\home2.html:681
-#: .\summarizer\templates\front\pricing.html:266
+#: .\summarizer\templates\front\pricing.html:316
 msgid "FAQ'S"
 msgstr "Perguntas Frequentes"
 
 #: .\summarizer\templates\front\home2.html:682
-#: .\summarizer\templates\front\pricing.html:267
+#: .\summarizer\templates\front\pricing.html:317
 msgid "Frequently Asked Questions"
 msgstr "Perguntas Frequentes"
 
@@ -1409,13 +1416,9 @@ msgid "Upgrade to Pro"
 msgstr "Atualize para a Versão Pro"
 
 #: .\summarizer\templates\front\home2.html:749
-msgid ""
-"Uh-oh! It seems like you've hit the word limit. Upgrade to our Pro version "
-"now to enjoy unlimited summarization and explore advanced features."
-msgstr ""
-"Ops! Parece que você atingiu o limite de palavras. Atualize agora para a "
-"nossa versão Pro e desfrute de resumos ilimitados e explore recursos "
-"avançados."
+msgid "We currently support a maximum of 10,000 words."
+msgstr "Atualmente, suportamos um máximo de 10.000 palavras."
+
 
 #: .\summarizer\templates\front\main.html:6
 msgid "Ai Summary Generator - Summarize Text in One Click"
@@ -1430,19 +1433,17 @@ msgstr ""
 "utiliza algoritmos avançados para identificar pontos principais e gerar "
 "resumos relevantes."
 
-#: .\summarizer\templates\front\main.html:314
+#: .\summarizer\templates\front\main.html:326
 msgid "Uh-oh! It seems like you've hit the word limit,"
 msgstr "Ops! Parece que você atingiu o limite de palavras,"
 
-
-#: .\summarizer\templates\front\main.html:314
+#: .\summarizer\templates\front\main.html:326
 msgid "Upgrade Now"
 msgstr "Atualize para a Versão Pro"
 
-#: .\summarizer\templates\front\main.html:314
+#: .\summarizer\templates\front\main.html:326
 msgid "now to increase your limit!"
 msgstr "agora para aumentar o seu limite!"
-
 
 #: .\summarizer\templates\front\pricing.html:8
 msgid ""
@@ -1453,92 +1454,92 @@ msgstr ""
 "utiliza algoritmos avançados para identificar pontos principais e gerar "
 "resumos relevantes."
 
-#: .\summarizer\templates\front\pricing.html:194
+#: .\summarizer\templates\front\pricing.html:242
 msgid "Plans & Pricing"
 msgstr "Planos e Preços"
 
-#: .\summarizer\templates\front\pricing.html:195
+#: .\summarizer\templates\front\pricing.html:243
 msgid "Plans that best suit your business requirements"
 msgstr "Planos que atendem melhor às suas necessidades empresariais"
 
-#: .\summarizer\templates\front\pricing.html:205
+#: .\summarizer\templates\front\pricing.html:253
 msgid "Monthly"
 msgstr "Mensal"
 
-#: .\summarizer\templates\front\pricing.html:206
+#: .\summarizer\templates\front\pricing.html:254
 msgid "month"
 msgstr "mês"
 
-#: .\summarizer\templates\front\pricing.html:207
+#: .\summarizer\templates\front\pricing.html:255
 msgid "Choose Monthly Plan"
 msgstr "Escolha o Plano Mensal"
 
-#: .\summarizer\templates\front\pricing.html:213
+#: .\summarizer\templates\front\pricing.html:261
 msgid "1 million"
 msgstr "1 milhão"
 
-#: .\summarizer\templates\front\pricing.html:214
+#: .\summarizer\templates\front\pricing.html:262
 msgid "Monthly Word Limit"
 msgstr "Limite Mensal de Palavras"
 
-#: .\summarizer\templates\front\pricing.html:216
-#: .\summarizer\templates\front\pricing.html:244
+#: .\summarizer\templates\front\pricing.html:264
+#: .\summarizer\templates\front\pricing.html:294
 msgid "Access To All Languages"
 msgstr "Acesso a Todas as Línguas"
 
-#: .\summarizer\templates\front\pricing.html:217
-#: .\summarizer\templates\front\pricing.html:245
+#: .\summarizer\templates\front\pricing.html:265
+#: .\summarizer\templates\front\pricing.html:295
 msgid "Advance Editor Tool"
 msgstr "Ferramenta de Editor Avançado"
 
-#: .\summarizer\templates\front\pricing.html:219
-#: .\summarizer\templates\front\pricing.html:247
+#: .\summarizer\templates\front\pricing.html:267
+#: .\summarizer\templates\front\pricing.html:297
 msgid "Regular Technical Support"
 msgstr "Suporte Técnico Regular"
 
-#: .\summarizer\templates\front\pricing.html:220
-#: .\summarizer\templates\front\pricing.html:248
+#: .\summarizer\templates\front\pricing.html:268
+#: .\summarizer\templates\front\pricing.html:298
 msgid "Unlimited Logins"
 msgstr "Acessos Ilimitados"
 
-#: .\summarizer\templates\front\pricing.html:222
-#: .\summarizer\templates\front\pricing.html:250
+#: .\summarizer\templates\front\pricing.html:270
+#: .\summarizer\templates\front\pricing.html:300
 msgid "Newest Features"
 msgstr "Recursos Mais Recentes"
 
-#: .\summarizer\templates\front\pricing.html:233
+#: .\summarizer\templates\front\pricing.html:281
 msgid "Yearly"
 msgstr "Anual"
 
-#: .\summarizer\templates\front\pricing.html:234
+#: .\summarizer\templates\front\pricing.html:284
 msgid "year"
 msgstr "ano"
 
-#: .\summarizer\templates\front\pricing.html:235
+#: .\summarizer\templates\front\pricing.html:285
 msgid "Choose Yearly Plan"
 msgstr "Escolha o Plano Anual"
 
-#: .\summarizer\templates\front\pricing.html:241
+#: .\summarizer\templates\front\pricing.html:291
 msgid "10 million"
 msgstr "10 milhões"
 
-#: .\summarizer\templates\front\pricing.html:242
+#: .\summarizer\templates\front\pricing.html:292
 msgid "Yearly Word Limit"
 msgstr "Limite Anual de Palavras"
 
-#: .\summarizer\templates\front\pricing.html:278
+#: .\summarizer\templates\front\pricing.html:328
 msgid "Is there a free plan?"
 msgstr "Existe um plano gratuito?"
 
-#: .\summarizer\templates\front\pricing.html:281
+#: .\summarizer\templates\front\pricing.html:331
 msgid "Summarygenerator.io offers a"
 msgstr "O Summarygenerator.io oferece um"
 
-#: .\summarizer\templates\front\pricing.html:281
+#: .\summarizer\templates\front\pricing.html:331
 msgid "free plan"
 msgstr "plano gratuito"
 
-#: .\summarizer\templates\front\pricing.html:281
+#: .\summarizer\templates\front\pricing.html:331
 msgid ""
 "summarizing articles, research papers, and any kind of text for up to 800 "
 "words."
@@ -1546,19 +1547,19 @@ msgstr ""
 "resumindo artigos, trabalhos de pesquisa e qualquer tipo de texto de até 800 "
 "palavras."
 
-#: .\summarizer\templates\front\pricing.html:281
+#: .\summarizer\templates\front\pricing.html:331
 msgid "With a free account, you can access"
 msgstr "Com uma conta gratuita, você pode acessar"
 
-#: .\summarizer\templates\front\pricing.html:281
+#: .\summarizer\templates\front\pricing.html:331
 msgid "the dashboard"
 msgstr "o painel"
 
-#: .\summarizer\templates\front\pricing.html:289
+#: .\summarizer\templates\front\pricing.html:339
 msgid "What are the benefits of the Monthly plan?"
 msgstr "Quais são os benefícios do plano mensal?"
 
-#: .\summarizer\templates\front\pricing.html:294
+#: .\summarizer\templates\front\pricing.html:344
 msgid ""
 "With the Monthly plan, you can summarize up to 1 million words per month in "
 "more than 30 languages for just $9.95/month."
@@ -1566,14 +1567,14 @@ msgstr ""
 "Com o plano mensal, você pode resumir até 1 milhão de palavras por mês em "
 "mais de 30 idiomas por apenas $9.95/mês."
 
-#: .\summarizer\templates\front\pricing.html:294
+#: .\summarizer\templates\front\pricing.html:344
 msgid ""
 "You also get access to the advanced editor tool to edit text inside the tool."
 msgstr ""
 "Além disso, você tem acesso à ferramenta de edição avançada para editar "
 "texto dentro da ferramenta."
 
-#: .\summarizer\templates\front\pricing.html:294
+#: .\summarizer\templates\front\pricing.html:344
 msgid ""
 "Plus, you get regular technical support, unlimited logins, and access to the "
 "newest features."
@@ -1581,11 +1582,11 @@ msgstr ""
 "Além disso, você recebe suporte técnico regular, logins ilimitados e acesso "
 "às últimas funcionalidades."
 
-#: .\summarizer\templates\front\pricing.html:301
+#: .\summarizer\templates\front\pricing.html:351
 msgid "Why should I buy the Yearly plan?"
 msgstr "Por que devo comprar o plano anual?"
 
-#: .\summarizer\templates\front\pricing.html:306
+#: .\summarizer\templates\front\pricing.html:356
 #, python-format
 msgid ""
 "Choosing the Yearly plan for $59.95 over the monthly option at $9.95 means "
@@ -1594,7 +1595,7 @@ msgstr ""
 "Escolher o plano anual por $59.95 em vez da opção mensal de $9.95 significa "
 "que você está economizando quase 50%% anualmente."
 
-#: .\summarizer\templates\front\pricing.html:306
+#: .\summarizer\templates\front\pricing.html:356
 msgid ""
 "Plus, it expands the word limit to 10 million yearly, supports more than 50 "
 "languages, and includes all features of the Monthly plan, making it a more "
@@ -1604,11 +1605,11 @@ msgstr ""
 "suporta mais de 50 idiomas e inclui todas as funcionalidades do plano "
 "mensal, tornando-o uma escolha mais econômica para usuários intensivos."
 
-#: .\summarizer\templates\front\pricing.html:313
+#: .\summarizer\templates\front\pricing.html:363
 msgid "Can I upgrade from the free plan to a paid subscription?"
 msgstr "Posso fazer upgrade do plano gratuito para uma assinatura paga?"
 
-#: .\summarizer\templates\front\pricing.html:318
+#: .\summarizer\templates\front\pricing.html:368
 msgid ""
 "Yes, you can easily upgrade to either the Monthly or Yearly plan to enjoy "
 "higher word limits, additional languages, the advanced editor tool, and "
@@ -1618,7 +1619,7 @@ msgstr ""
 "desfrutar de limites de palavras mais altos, idiomas adicionais, a "
 "ferramenta de edição avançada e outras funcionalidades premium."
 
-#: .\summarizer\templates\front\pricing.html:337
+#: .\summarizer\templates\front\pricing.html:387
 msgid "Boost your writing productivity"
 msgstr "Aumente sua produtividade na escrita"
 
@@ -4868,3 +4869,15 @@ msgstr "Colar Texto"
 #: .\summarizer\templates\front\text_editor.html:660
 msgid "Summarize"
 msgstr "Resumir"
+
+#~ msgid "name@copygen.com"
+#~ msgstr "nome@copygen.com"
+
+#~ msgid ""
+#~ "Uh-oh! It seems like you've hit the word limit. Upgrade to our Pro "
+#~ "version now to enjoy unlimited summarization and explore advanced "
+#~ "features."
+#~ msgstr ""
+#~ "Ops! Parece que você atingiu o limite de palavras. Atualize agora para a "
+#~ "nossa versão Pro e desfrute de resumos ilimitados e explore recursos "
+#~ "avançados."
