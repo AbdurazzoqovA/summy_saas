@@ -851,6 +851,30 @@
         })
 
      
+        setInterval(() => {
+            console.log($('.dropdown-toggle').text(),'dppp')
+
+             // Check if the language is English (EN)
+     if ($('.dropdown-toggle').text().trim() === 'EN') {
+       console.log('English lang Active')
+       // Iterate through all links with class "nk-menu-link"
+       $('.nk-menu-link').each(function() {
+         // Get the current href attribute
+         var currentHref = $(this).attr('href');
+         
+         // Remove language code like "/en/" from the href
+         var updatedHref = currentHref.replace(/\/en\//, '/');
+         
+         // Update the href attribute with the modified URL
+         $(this).attr('href', updatedHref);
+       });
+     }
+
+        }, 1000);
+
+       
+     
+    
 
     </script>
 
