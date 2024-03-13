@@ -778,6 +778,17 @@ table {
 
            if ($('.dropdown-toggle').text().indexOf('EN')>-1) {
          
+              $('.link-base').each(function() {
+               var currentHref = $(this).attr('href');
+               var updatedHref = currentHref.replace(/\/en\//, '/');
+               $(this).attr('href', updatedHref);
+             });
+      
+             $('.logo-link').each(function() {
+               var currentHref = $(this).attr('href');
+               var updatedHref = currentHref.replace(/\/en\//, '/');
+               $(this).attr('href', updatedHref);
+             });
       
              $('.nk-menu-link').each(function() {
                var currentHref = $(this).attr('href');
@@ -786,7 +797,7 @@ table {
              });
            }
       
-              }, 500);
+              }, 100);
 
 
       $('.header-menu-toggle').click(function () {
