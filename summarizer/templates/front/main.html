@@ -462,6 +462,7 @@ $('.dropdown-toggle').click(function(){
      
       // Check if the language is English (EN)
       if ($('.dropdown-toggle').text().trim() === 'EN') {
+        console.log('English lang Active')
         // Iterate through all links with class "nk-menu-link"
         $('.nk-menu-link').each(function() {
           // Get the current href attribute
