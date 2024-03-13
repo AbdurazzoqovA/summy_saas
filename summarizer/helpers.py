@@ -44,7 +44,7 @@ def summarizer(
         """
     else:
         prompt = f"""
-       summarize the text and present it in bullet points important, text:
+       summarize the text and present it in bullet points important, Also format the output text nicely, use headings. text:
         {text}
         """
 
