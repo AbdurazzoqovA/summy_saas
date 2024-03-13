@@ -51,6 +51,19 @@ justify-content:center;
           background-color: transparent!important;
           border:none!important;
         }
+        .pricing_link{
+          position: relative;
+        }
+        .pricing_link::after{
+          content:'SALE';
+          position: absolute;
+          top:-11px;
+          right:-27px;
+          z-index: 100;
+          color:#fc3d3d!important;
+          font-size: 12px!important;
+        }
+
 </style>
 <body class="nk-body " data-menu-collapse="lg">
     <div class="nk-app-root ">
@@ -99,7 +112,7 @@ justify-content:center;
               </li>
                   <li class="nk-menu-item">
                     <a href="{% url 'pricing' %}" class="nk-menu-link">
-                      <span class="nk-menu-text">{% translate 'Pricing' %}</span>
+                      <span class="nk-menu-text pricing_link">{% translate 'Pricing' %}</span>
                     </a>
                   </li>
                  
