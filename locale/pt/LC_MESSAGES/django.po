@@ -299,7 +299,7 @@ msgstr "Entre em Contato"
 #: .\summarizer\templates\front\privacypolicy.html:711
 #: .\summarizer\templates\front\termsandconditions.html:704
 msgid "support@summarygenerator.io"
-msgstr "suporte@summarygenerator.io"
+msgstr "suport@summarygenerator.io"
 
 #: .\summarizer\templates\account\login.html:378
 #: .\summarizer\templates\account\password_reset.html:261
