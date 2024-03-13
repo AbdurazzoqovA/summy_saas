@@ -458,6 +458,25 @@ $('.dropdown-toggle').click(function(){
       })
 
 
+
+     
+      // Check if the language is English (EN)
+      if ($('.dropdown-toggle').text().trim() === 'EN') {
+        // Iterate through all links with class "nk-menu-link"
+        $('.nk-menu-link').each(function() {
+          // Get the current href attribute
+          var currentHref = $(this).attr('href');
+          
+          // Remove language code like "/en/" from the href
+          var updatedHref = currentHref.replace(/\/en\//, '/');
+          
+          // Update the href attribute with the modified URL
+          $(this).attr('href', updatedHref);
+        });
+      }
+    
+
+
       $(function () {
         $('[data-toggle="tooltip"]').tooltip({
           trigger: "hover",
