@@ -23,6 +23,14 @@ document.getElementById('input-file').addEventListener('change', function(event)
 
                             if (i === pdf.numPages) {
                                 neighbourPanel.textContent = text;
+                                const event = new Event('input', {
+                                bubbles: true,
+                                cancelable: true,
+                            });
+
+                            // Dispatch the event to trigger the updateWordCount function
+                            neighbourPanel.dispatchEvent(event);
+                                
                             }
                         });
                     });
