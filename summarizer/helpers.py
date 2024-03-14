@@ -52,7 +52,7 @@ def summarizer(
         openai_api_key = os.environ.get("OPEN_AI_KEY")
         client = openai.OpenAI(api_key=openai_api_key)
         response = client.chat.completions.create(
-            model="gpt-4-1106-preview",  # Experiment with different models as needed
+            model="gpt-3.5-turbo-1106",  # Experiment with different models as needed
             messages=[
                 {
                     "role": "system",
@@ -64,7 +64,7 @@ def summarizer(
                 },
             ],
             max_tokens=4000,
-            temperature=0.9,
+            temperature=1,
         )
 
         return response.choices[0].message.content
